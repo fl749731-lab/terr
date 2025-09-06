@@ -1,1 +1,0 @@
-Adds Aurite ore, bars and world generation. Explore caves to find the new resource and craft powerful bars.
