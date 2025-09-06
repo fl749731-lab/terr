@@ -1,7 +1,9 @@
 using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.ID;
+using Terraria.Localization;
 using Terraria.ModLoader;
+using xiwang.Content.Items;
 
 namespace xiwang.Content.Tiles
 {
@@ -25,9 +27,11 @@ namespace xiwang.Content.Tiles
             MineResist = 3f;  // Hardness
 
             // Drop AuriteOre item when mined
-            RegisterItemDrop(ModContent.ItemType<xiwang.Content.Items.AuriteOre>());
+            RegisterItemDrop(ModContent.ItemType<AuriteOre>());
 
-            AddMapEntry(new Color(120, 200, 255), CreateMapEntryName());
+            LocalizedText name = CreateMapEntryName();
+            name.SetDefault("Aurite Ore");
+            AddMapEntry(new Color(120, 200, 255), name);
         }
     }
 }

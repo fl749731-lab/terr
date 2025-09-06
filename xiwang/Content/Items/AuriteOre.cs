@@ -7,6 +7,12 @@ namespace xiwang.Content.Items
     // Texture: Content/Items/AuriteOre.png (keep next to this file)
     public class AuriteOre : ModItem
     {
+        public override void SetStaticDefaults()
+        {
+            DisplayName.SetDefault("Aurite Ore");
+            Tooltip.SetDefault("A shard of concentrated hope");
+        }
+
         public override void SetDefaults()
         {
             Item.width = 20;

@@ -7,6 +7,12 @@ namespace xiwang.Content.Items
     // Texture: Content/Items/AuriteBar.png (placed alongside this file)
     public class AuriteBar : ModItem
     {
+        public override void SetStaticDefaults()
+        {
+            DisplayName.SetDefault("Aurite Bar");
+            Tooltip.SetDefault("Shimmering with latent energy");
+        }
+
         public override void SetDefaults()
         {
             Item.width = 20;
