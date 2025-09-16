@@ -5,6 +5,8 @@ Behavior/Name/MultiPlayerCollectionCloakField=隐形力场
 Behavior/Name/MultiPlayerCollectionCloakFieldCasterEffect=隐形力场
 Behavior/Name/MultiPlayerCollectionGravitonBeam=引力光束
 Behavior/Name/MultiPlayerCollectionGuardianShield=守护者之盾
+Behavior/Name/MultiPlayerCollectionPhaseStrikeBuff=相位打击
+Behavior/Name/MultiPlayerCollectionVoidSnarePrison=虚空陷阱
 Behavior/Name/MultiPlayerCollectionOracleRevelation=现形
 Behavior/Name/MultiPlayerCollectionOracleStasisTrapTarget=静滞
 Behavior/Name/MultiPlayerCollectionOracleWeapon=脉冲光线
@@ -18,6 +20,8 @@ Behavior/Tooltip/MultiPlayerCollectionChronoBoostEnergyCost=该建筑当前处�
 Behavior/Tooltip/MultiPlayerCollectionCloakField=该单位已隐形，只能被侦测单位或侦测效果发现。
 Behavior/Tooltip/MultiPlayerCollectionGravitonBeam=目标已被举到空中，对空打击可对其造成伤害。在引力光束消失前，该单位无法攻击或使用技能。
 Behavior/Tooltip/MultiPlayerCollectionGuardianShield=吸收2点远程伤害。
+Behavior/Tooltip/MultiPlayerCollectionPhaseStrikeBuff=相位打击：普通攻击追加穿盾的相位冲击。
+Behavior/Tooltip/MultiPlayerCollectionVoidSnarePrison=虚空陷阱：单位被禁锢并显形，无法移动或发动攻击。
 Behavior/Tooltip/MultiPlayerCollectionOracleRevelation=该单位或建筑正在为施法者提供视野。
 Behavior/Tooltip/MultiPlayerCollectionOracleStasisTrapTarget=该单位不能移动、攻击或受到伤害。
 Behavior/Tooltip/MultiPlayerCollectionOracleWeapon=先知的此项武器已启用，可以攻击地面单位。
@@ -35,7 +39,7 @@ Button/Name/MultiPlayerCollectionArchonWarpTarget=执政官融合
 Button/Name/MultiPlayerCollectionAssimilator=折跃吸纳舱
 Button/Name/MultiPlayerCollectionAttackWarpPrism=攻击
 Button/Name/MultiPlayerCollectionBatteryOvercharge=充能器超载
-Button/Name/MultiPlayerCollectionBlink=闪现
+Button/Name/MultiPlayerCollectionBlink=相位打击
 Button/Name/MultiPlayerCollectionCarrier=折跃航母
 Button/Name/MultiPlayerCollectionCarrierInterceptor=制造拦截机
 Button/Name/MultiPlayerCollectionCharge=冲锋
@@ -46,7 +50,7 @@ Button/Name/MultiPlayerCollectionColossusThermalPlating=热能镀层
 Button/Name/MultiPlayerCollectionCyberneticsCore=折跃控制芯核
 Button/Name/MultiPlayerCollectionDarkShrine=折跃黑暗圣坛
 Button/Name/MultiPlayerCollectionDarkTemplar=折跃黑暗圣堂武士
-Button/Name/MultiPlayerCollectionDarkTemplarBlink=暗影步
+Button/Name/MultiPlayerCollectionDarkTemplarBlink=虚空陷阱
 Button/Name/MultiPlayerCollectionDarkTemplarPermanentlyCloaked=永久隐形
 Button/Name/MultiPlayerCollectionEnergyRecharge=引导回充
 Button/Name/MultiPlayerCollectionFeedback=能量反蚀
@@ -104,12 +108,12 @@ Button/Name/MultiPlayerCollectionPurificationNovaTargeted=净化新星
 Button/Name/MultiPlayerCollectionPylon=折跃水晶塔
 Button/Name/MultiPlayerCollectionPylonImprovedEnergy=时空航道
 Button/Name/MultiPlayerCollectionResearchCharge=研究冲锋
-Button/Name/MultiPlayerCollectionResearchDarkTemplarBlink=研究暗影步
+Button/Name/MultiPlayerCollectionResearchDarkTemplarBlink=研究虚空陷阱
 Button/Name/MultiPlayerCollectionResearchExtendedThermalLance=研发加长热能射线枪
 Button/Name/MultiPlayerCollectionResearchGraviticBooster=研究重力加速器
 Button/Name/MultiPlayerCollectionResearchGraviticDrive=研发重力驱动器
 Button/Name/MultiPlayerCollectionResearchPsiStorm=研习灵能风暴
-Button/Name/MultiPlayerCollectionResearchStalkerTeleport=研究闪现
+Button/Name/MultiPlayerCollectionResearchStalkerTeleport=研究相位打击
 Button/Name/MultiPlayerCollectionResearchVoidRaySpeedUpgrade=研发熔流旋叶
 Button/Name/MultiPlayerCollectionResearchWarpGate=研究折跃门
 Button/Name/MultiPlayerCollectionRoboticsBay=折跃机械研究所
@@ -151,7 +155,7 @@ Button/Tooltip/MultiPlayerCollectionAssimilator=建造在瓦斯气泉上，用�
 Button/Tooltip/MultiPlayerCollectionAssimilatorRich=建造在瓦斯气泉上，用于采集高能瓦斯。
 Button/Tooltip/MultiPlayerCollectionAttackWarpPrism=命令选中的单位移动到目标地点，并对沿途遭遇的敌人发起攻击。收到攻击一个目标的命令后，单位会持续攻击该目标，直到对方被消灭。
 Button/Tooltip/MultiPlayerCollectionBatteryOvercharge=使星灵枢纽附近的目标护盾充能器超载，令其护盾恢复速度加快100%并且使其在<d ref="Behavior,MultiPlayerCollectionBatteryOvercharge,Duration"/>秒内不消耗能量就可以恢复护盾。
-Button/Tooltip/MultiPlayerCollectionBlink=使追猎者能够闪现到附近的目标位置。该技能<d ref="Abil,MultiPlayerCollectionBlink,Cost[0].Cooldown.TimeUse"/>秒内只能使用1次。
+Button/Tooltip/MultiPlayerCollectionBlink=激活后使追猎者在<d ref="Behavior,MultiPlayerCollectionPhaseStrikeBuff,Duration"/>秒内的普通攻击追加相位冲击。额外的冲击造成<c val="ffff8a">直接生命伤害</c>，无视护盾，每<d ref="Abil,MultiPlayerCollectionBlink,Cost[0].Cooldown.TimeUse"/>秒可用一次。
 Button/Tooltip/MultiPlayerCollectionCarrier=星灵的主力战舰。能够制造并发射拦截机攻击敌人。<n/><n/><c val="ffff8a">可以对地和对空。</c>
 Button/Tooltip/MultiPlayerCollectionCarrierInterceptor=制造拦截机。拦截机能够自动攻击航母的目标，是航母唯一的武器。<n/><n/><c val="#ColorAttackInfo">可以对地和对空。</c>
 Button/Tooltip/MultiPlayerCollectionCarrierInterceptorUnit=能够自动攻击航母目标的战斗飞行机。拦截机是航母唯一的武器。<n/><n/><c val="#ColorAttackInfo">可以对地和对空。</c>
@@ -163,7 +167,7 @@ Button/Tooltip/MultiPlayerCollectionColossusThermalPlating=被动：移动速度
 Button/Tooltip/MultiPlayerCollectionCyberneticsCore=为星灵空中单位提供武器和护甲升级方案，并提供折跃门升级方案。<n/><n/><c val="ffff8a">开启：</c><n/>- 可以在传送门中折跃机械哨兵<n/>- 可以在传送门中折跃追猎者<n/>- 可以在传送门中折跃使徒<n/>- 使探机可以折跃护盾充能器
 Button/Tooltip/MultiPlayerCollectionDarkShrine=为黑暗圣堂武士提供升级方案。<n/><n/><c val="ffff8a">开启：</c><n/>- 可以在传送门中折跃黑暗圣堂武士<n/>- 黑暗圣堂武士可以融合为执政官
 Button/Tooltip/MultiPlayerCollectionDarkTemplar=致命的近战杀手，该单位永远处于隐形状态，敌人在不借助侦测单位帮助的情况下无法发现他。可以融合为执政官。<n/><n/><c val="ffff8a">可以对地。</c>
-Button/Tooltip/MultiPlayerCollectionDarkTemplarBlink=将黑暗圣堂武士传送至附近位置。该技能每 <d ref="Abil,MultiPlayerCollectionDarkTemplarBlink,Cost[0].Cooldown.TimeUse"/>秒只能使用一次。
+Button/Tooltip/MultiPlayerCollectionDarkTemplarBlink=在目标地点布置一个持续<d ref="Effect,MultiPlayerCollectionVoidSnarePersistent,ExpireDelay"/>秒的隐形陷阱。敌人踩中后会被禁锢<d ref="Behavior,MultiPlayerCollectionVoidSnarePrison,Duration"/>秒并被显形（包含隐形单位）。技能冷却<d ref="Abil,MultiPlayerCollectionDarkTemplarBlink,Cost[0].Cooldown.TimeUse"/>秒。
 Button/Tooltip/MultiPlayerCollectionDarkTemplarPermanentlyCloaked=黑暗圣堂武士处于永久隐形状态。
 Button/Tooltip/MultiPlayerCollectionDisruptor=机械干扰型单位。可使用净化新星造成大量的范围伤害。
 Button/Tooltip/MultiPlayerCollectionDisruptorPhased=高浓度太阳能。<d ref="Behavior,PurificationNovaTargettedTarget,Duration"/>秒后爆炸，造成范围伤害。
@@ -223,12 +227,12 @@ Button/Tooltip/MultiPlayerCollectionPurificationNovaTargeted=发射一枚能量�
 Button/Tooltip/MultiPlayerCollectionPylon=提供补给。<n/>拥有补给是生产更多单位的前提。<n/>为附近的建筑提供能量。
 Button/Tooltip/MultiPlayerCollectionPylonImprovedEnergy=折跃进能量场的单位的折跃速度提高到<d time="5"/>。
 Button/Tooltip/MultiPlayerCollectionResearchCharge=允许<c val="ffff8a">狂热者</c>能拦截附近的敌人。同时还会提高<c val="ffff8a">狂热者</c>的移动速度。该技能每<d ref="Abil,Charge,Cost.Cooldown.TimeUse"/>秒只能使用一次。
-Button/Tooltip/MultiPlayerCollectionResearchDarkTemplarBlink=使<c val="ffff8a">黑暗圣堂武士</c>可以传送至附近目标位置。
+Button/Tooltip/MultiPlayerCollectionResearchDarkTemplarBlink=使<c val="ffff8a">黑暗圣堂武士</c>学会布设“虚空陷阱”，用于禁锢并显形经过的关键单位。
 Button/Tooltip/MultiPlayerCollectionResearchExtendedThermalLance=<c val="ffff8a">巨像</c>的武器射程增加<d ref="$UpgradeEffectArrayValue:ExtendedThermalLance:Weapon,ThermalLances,Range$"/>码。
 Button/Tooltip/MultiPlayerCollectionResearchGraviticBooster=提高<c val="ffff8a">侦测器</c>的移动速度。
 Button/Tooltip/MultiPlayerCollectionResearchGraviticDrive=提高<c val="ffff8a">折跃棱镜</c>的移动速度。
 Button/Tooltip/MultiPlayerCollectionResearchPsiStorm=使<c val="ffff8a">高阶圣堂武士</c>能够召唤一股灵能风暴，对目标区域内的所有单位造成大量伤害。
-Button/Tooltip/MultiPlayerCollectionResearchStalkerTeleport=使<c val="ffff8a">追猎者</c>能够闪现到附近的目标位置。
+Button/Tooltip/MultiPlayerCollectionResearchStalkerTeleport=解锁<c val="ffff8a">追猎者</c>的“相位打击”，让其短时间内以双段攻击撕裂护盾并直接重创目标生命值。
 Button/Tooltip/MultiPlayerCollectionResearchVoidRaySpeedUpgrade=提高<c val="ffff8a">虚空辉光舰</c>的移动速度和移动加速度。
 Button/Tooltip/MultiPlayerCollectionResearchWarpGate=使<c val="ffff8a">传送门</c>可以升级为折跃门。
 Button/Tooltip/MultiPlayerCollectionRoboticsBay=为侦测器、折跃棱镜和巨像提供升级方案。<n/><n/><c val="ffff8a">开启：</c><n/>- 可以在机械台中折跃巨像<n/>- 可以在机械台中折跃干扰者
@@ -282,9 +286,9 @@ Effect/Name/MultiPlayerCollectionGuardianShieldSearch=MultiPlayerCollectionGuard
 RequirementNode/Tooltip/CountBehaviorMultiPlayerCollectionPowerSourceFastCompleteOnlyAtUnit2655623778=靠近折跃门或星灵枢纽
 RequirementNode/Tooltip/CountUnitAlias_MultiPlayerCollectionGatewayCompleteOnly1095475748TechTreeCheat=传送门
 RequirementNode/Tooltip/CountUpgradeMultiPlayerCollectionAdeptPiercingAttackCompleteOnly3345741859=在光影议会研究共鸣之刃
-RequirementNode/Tooltip/CountUpgradeMultiPlayerCollectionBlinkTechCompleteOnly724633884TechTreeCheat=在光影议会中研究闪现
+RequirementNode/Tooltip/CountUpgradeMultiPlayerCollectionBlinkTechCompleteOnly724633884TechTreeCheat=在光影议会中研究相位打击
 RequirementNode/Tooltip/CountUpgradeMultiPlayerCollectionChargeCompleteOnly2408248929TechTreeCheat=在光影议会中研究冲锋
-RequirementNode/Tooltip/CountUpgradeMultiPlayerCollectionDarkTemplarBlinkUpgradeCompleteOnly1110162887TechTreeCheat=在黑暗圣坛中研究暗影步
+RequirementNode/Tooltip/CountUpgradeMultiPlayerCollectionDarkTemplarBlinkUpgradeCompleteOnly1110162887TechTreeCheat=在黑暗圣坛中研究虚空陷阱
 RequirementNode/Tooltip/CountUpgradeMultiPlayerCollectionPsiStormTechCompleteOnly2619729850TechTreeCheat=在圣堂武士文献馆中研习灵能风暴
 RequirementNode/Tooltip/CountUpgradeMultiPlayerCollectionTempestGroundAttackUpgradeCompleteOnly987723087=在舰队航标研究构造失稳器
 RequirementNode/Tooltip/Eq1192540988CountUpgradeMultiPlayerCollectionProtossAirWeaponsLevel2CompleteOnly1=星灵空中单位武器等级2
@@ -353,10 +357,10 @@ Unit/Name/MultiPlayerCollectionWarpPrismPhasing=折跃棱镜
 Unit/Name/MultiPlayerCollectionZealot=狂热者
 Unit/ShieldArmorName/MultiPlayerCollectionProtossPlasmaShields=星灵等离子护盾
 Upgrade/Name/MultiPlayerCollectionAdeptPiercingAttack=共鸣之刃
-Upgrade/Name/MultiPlayerCollectionBlinkTech=闪现
+Upgrade/Name/MultiPlayerCollectionBlinkTech=相位打击
 Upgrade/Name/MultiPlayerCollectionCarrierLaunchSpeedUpgrade=引力弹射
 Upgrade/Name/MultiPlayerCollectionCharge=冲锋
-Upgrade/Name/MultiPlayerCollectionDarkTemplarBlinkUpgrade=暗影步
+Upgrade/Name/MultiPlayerCollectionDarkTemplarBlinkUpgrade=虚空陷阱
 Upgrade/Name/MultiPlayerCollectionExtendedThermalLances=加长热能射线枪
 Upgrade/Name/MultiPlayerCollectionGraviticDrive=重力驱动器
 Upgrade/Name/MultiPlayerCollectionHighTemplarKhaydarinAmulet=心能水晶坠饰

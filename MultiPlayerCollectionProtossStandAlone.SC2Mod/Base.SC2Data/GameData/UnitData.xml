@@ -93,11 +93,12 @@
             <LayoutButtons Face="MoveHoldPosition" Type="AbilCmd" AbilCmd="move,HoldPos" Row="0" Column="2"/>
             <LayoutButtons Face="MovePatrol" Type="AbilCmd" AbilCmd="move,Patrol" Row="0" Column="3"/>
             <LayoutButtons Face="Attack" Type="AbilCmd" AbilCmd="attack,Execute" Row="0" Column="4"/>
-            <LayoutButtons Face="Rally" Type="AbilCmd" AbilCmd="ProgressRally,Rally1" Row="2" Column="4"/>
+            <LayoutButtons Face="Rally" Type="AbilCmd" AbilCmd="ProgressRally,Rally1" Row="1" Column="4"/>
             <LayoutButtons Face="MultiPlayerCollectionForceField" Type="AbilCmd" AbilCmd="MultiPlayerCollectionForceField,Execute" Row="2" Column="0"/>
             <LayoutButtons Face="MultiPlayerCollectionGuardianShield" Type="AbilCmd" AbilCmd="MultiPlayerCollectionGuardianShield,Execute" Row="2" Column="1"/>
             <LayoutButtons Face="MultiPlayerCollectionSentryPsionicEfficiency" Type="Passive" Behavior="MultiPlayerCollectionSentryPsionicEfficiency" Row="2" Column="2"/>
             <LayoutButtons Face="MultiPlayerCollectionSentryShieldReinforce" Type="Passive" Behavior="MultiPlayerCollectionSentryShieldReinforce" Row="2" Column="3"/>
+            <LayoutButtons Face="MultiPlayerCollectionSentryStabilizedEmitters" Type="Passive" Behavior="MultiPlayerCollectionSentryStabilizedEmitters" Row="2" Column="4"/>
         </CardLayouts>
         <SeparationRadius value="0.625"/>
         <InnerRadius value="0.375"/>
@@ -254,6 +255,7 @@
             <LayoutButtons Face="MultiPlayerCollectionOracleWeaponOn" Type="AbilCmd" AbilCmd="MultiPlayerCollectionOracleWeapon,On" Row="2" Column="2"/>
             <LayoutButtons Face="MultiPlayerCollectionOracleWeaponOff" Type="AbilCmd" AbilCmd="MultiPlayerCollectionOracleWeapon,Off" Row="2" Column="3"/>
             <LayoutButtons Face="Cancel" Type="AbilCmd" AbilCmd="MultiPlayerCollectionBuildStasisWard,Halt" Row="2" Column="4"/>
+            <LayoutButtons Face="MultiPlayerCollectionOracleSensorSuite" Type="Passive" Behavior="MultiPlayerCollectionOracleSensorSuite" Row="1" Column="3"/>
         </CardLayouts>
         <Radius value="0.75"/>
         <SeparationRadius value="0.75"/>
@@ -332,6 +334,7 @@
             <LayoutButtons Face="MultiPlayerCollectionMassRecall" Type="AbilCmd" AbilCmd="MultiPlayerCollectionMassRecall,Execute" Row="2" Column="0"/>
             <LayoutButtons Face="MultiPlayerCollectionTemporalField" Type="AbilCmd" AbilCmd="MultiPlayerCollectionTemporalField,Execute" Row="2" Column="1"/>
             <LayoutButtons Face="MultiPlayerCollectionVortex" Type="AbilCmd" AbilCmd="MultiPlayerCollectionVortex,Execute" Row="2" Column="2"/>
+            <LayoutButtons Face="MultiPlayerCollectionMothershipShieldAmplifier" Type="Passive" Behavior="MultiPlayerCollectionMothershipShieldAmplifier" Row="2" Column="4"/>
         </CardLayouts>
         <Radius value="1.375"/>
         <SeparationRadius value="1.375"/>
@@ -1061,10 +1064,11 @@
             <LayoutButtons Face="MovePatrol" Type="AbilCmd" AbilCmd="move,Patrol" Row="0" Column="3"/>
             <LayoutButtons Face="MultiPlayerCollectionAdeptPhaseShift" Type="AbilCmd" AbilCmd="MultiPlayerCollectionAdeptPhaseShift,Execute" Row="2" Column="0"/>
             <LayoutButtons Face="Cancel" Type="AbilCmd" AbilCmd="MultiPlayerCollectionAdeptPhaseShiftCancel,Execute" Row="2" Column="4"/>
-            <LayoutButtons Face="Rally" Type="AbilCmd" AbilCmd="ProgressRally,Rally1" Row="2" Column="4"/>
+            <LayoutButtons Face="Rally" Type="AbilCmd" AbilCmd="ProgressRally,Rally1" Row="1" Column="4"/>
             <LayoutButtons Face="MultiPlayerCollectionAdeptPiercingUpgrade" Type="Passive" Requirements="MultiPlayerCollectionHaveAdeptPiercingAttack" Row="2" Column="1"/>
             <LayoutButtons Face="MultiPlayerCollectionAdeptResonatingFocus" Type="Passive" Behavior="MultiPlayerCollectionAdeptResonatingFocus" Row="2" Column="2"/>
             <LayoutButtons Face="MultiPlayerCollectionAdeptStride" Type="Passive" Behavior="MultiPlayerCollectionAdeptStride" Row="2" Column="3"/>
+            <LayoutButtons Face="MultiPlayerCollectionAdeptShieldResonance" Type="Passive" Behavior="MultiPlayerCollectionAdeptShieldResonance" Row="1" Column="3"/>
         </CardLayouts>
         <InnerRadius value="0.375"/>
         <CargoSize value="2"/>
@@ -2181,6 +2185,7 @@
             <LayoutButtons Face="CancelBuilding" Type="AbilCmd" AbilCmd="BuildInProgress,Cancel" Row="2" Column="4"/>
             <LayoutButtons Face="Stop" Type="AbilCmd" AbilCmd="stop,Stop" Row="0" Column="1"/>
             <LayoutButtons Face="AttackBuilding" Type="AbilCmd" AbilCmd="attack,Execute" Row="0" Column="4"/>
+            <LayoutButtons Face="MultiPlayerCollectionObserverEnhancedOptics" Type="Passive" Behavior="MultiPlayerCollectionObserverEnhancedOptics" Requirements="NotUnderConstruction" Row="2" Column="1"/>
             <LayoutButtons Face="Detector" Type="Passive" Requirements="NotUnderConstruction" Row="2" Column="3"/>
             <LayoutButtons Face="MultiPlayerCollectionPhotonCannonPhaseCooling" Type="Passive" Behavior="MultiPlayerCollectionPhotonCannonPhaseCooling" Requirements="NotUnderConstruction" Row="2" Column="2"/>
         </CardLayouts>
@@ -2790,6 +2795,7 @@
             <LayoutButtons Face="MultiPlayerCollectionWarpPrismUnloadAll" Type="AbilCmd" AbilCmd="MultiPlayerCollectionWarpPrismTransport,UnloadAt" Row="2" Column="3"/>
             <LayoutButtons Face="MultiPlayerCollectionTransportMode" Type="AbilCmd" AbilCmd="MultiPlayerCollectionTransportMode,Execute" Row="2" Column="1"/>
             <LayoutButtons Face="MultiPlayerCollectionImprovedEnergy" Type="Passive" Row="1" Column="0"/>
+            <LayoutButtons Face="MultiPlayerCollectionWarpPrismStabilizers" Type="Passive" Behavior="MultiPlayerCollectionWarpPrismStabilizers" Row="1" Column="1"/>
         </CardLayouts>
         <Radius value="0.875"/>
         <SeparationRadius value="0.875"/>

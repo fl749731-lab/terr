@@ -673,6 +673,19 @@
         <WhichUnit Value="Caster"/>
         <Behavior value="MultiPlayerCollectionDarkTemplarBlinkHaste"/>
     </CEffectApplyBehavior>
+    <CEffectApplyBehavior id="MultiPlayerCollectionPhaseStrikeApply">
+        <EditorCategories value="Race:Protoss"/>
+        <WhichUnit Value="Caster"/>
+        <Behavior value="MultiPlayerCollectionPhaseStrikeBuff"/>
+    </CEffectApplyBehavior>
+    <CEffectModifyUnit id="MultiPlayerCollectionPhaseStrikeBonusLifeMU">
+        <EditorCategories value="Race:Protoss"/>
+        <ValidatorArray value="TargetNotDead"/>
+        <WhichUnit Value="TargetUnit"/>
+        <VitalArray index="Life">
+            <Change value="-10"/>
+        </VitalArray>
+    </CEffectModifyUnit>
     <CEffectApplyBehavior id="MultiPlayerCollectionArchonInCombatApplyAB">
         <EditorCategories value="Race:Protoss"/>
         <WhichUnit Value="Caster"/>
@@ -686,7 +699,42 @@
     <CEffectSet id="MultiPlayerCollectionDarkTemplarWeaponSet">
         <EditorCategories value="Race:Protoss"/>
         <EffectArray value="MultiPlayerCollectionDarkTemplarWeaponDamage"/>
-        
+
+    </CEffectSet>
+    <CEffectCreatePersistent id="MultiPlayerCollectionVoidSnarePersistent">
+        <EditorCategories value="Race:Protoss"/>
+        <WhichLocation Value="TargetPoint"/>
+        <PeriodCount value="180"/>
+        <PeriodicEffectArray value="MultiPlayerCollectionVoidSnareSearch"/>
+        <PeriodicPeriodArray value="0.25"/>
+        <ExpireDelay value="45"/>
+        <RevealRadius value="1.5"/>
+        <RevealFlags index="Unfog" value="1"/>
+    </CEffectCreatePersistent>
+    <CEffectEnumArea id="MultiPlayerCollectionVoidSnareSearch">
+        <EditorCategories value="Race:Protoss"/>
+        <ImpactLocation Value="TargetUnit"/>
+        <SearchFilters value="Ground;Self,Player,Ally,Neutral,Missile,Destructible,Stasis,Dead,Invulnerable"/>
+        <AreaArray Radius="1.25" Effect="MultiPlayerCollectionVoidSnareImpact"/>
+        <SearchFlags index="ExtendByUnitRadius" value="1"/>
+    </CEffectEnumArea>
+    <CEffectApplyBehavior id="MultiPlayerCollectionVoidSnareApply">
+        <EditorCategories value="Race:Protoss"/>
+        <WhichUnit Value="TargetUnit"/>
+        <Behavior value="MultiPlayerCollectionVoidSnarePrison"/>
+    </CEffectApplyBehavior>
+    <CEffectDestroyPersistent id="MultiPlayerCollectionVoidSnareDestroy">
+        <EditorCategories value="Race:Protoss"/>
+        <WhichLocation Value="TargetUnit"/>
+        <Effect value="MultiPlayerCollectionVoidSnarePersistent"/>
+        <Count value="1"/>
+        <Radius value="1.5"/>
+    </CEffectDestroyPersistent>
+    <CEffectSet id="MultiPlayerCollectionVoidSnareImpact">
+        <EditorCategories value="Race:Protoss"/>
+        <ValidatorArray value="TargetNotDead"/>
+        <EffectArray value="MultiPlayerCollectionVoidSnareApply"/>
+        <EffectArray value="MultiPlayerCollectionVoidSnareDestroy"/>
     </CEffectSet>
     <CEffectCreatePersistent id="MultiPlayerCollectionCarrierInterceptorLaunchUpgradeCP">
         <EditorCategories value="Race:Protoss"/>
