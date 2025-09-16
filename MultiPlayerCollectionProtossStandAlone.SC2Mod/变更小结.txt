@@ -1,0 +1,51 @@
+﻿更新小结（MultiPlayerCollectionProtossStandAlone.SC2Mod）
+日期：2025-09-14
+
+一、枢纽“加速”Chrono Boost
+- 手动施法范围设为 500；自动施法范围保持 500（全图）。
+- 目标仅限己方（Ally）；去掉 Visible 要求，并关闭 RequireTargetVision。
+- 目标过滤采用标准格式：-;Ally,Missile,Stasis,Dead,Hidden,Invulnerable。
+- 修复无效验证器：
+  - MultiPlayerCollectionTargetNotHaveChronoBoostEnergyCost：指定 WhichUnit=Target，Compare=LE，Value=0。
+- 保留当前效果：攻速、移速、建造/研究/训练等速率 ×1.5；允许对建造中的建筑生效。
+
+二、凤凰与风暴战舰联动（跨图打标记目标）
+- 凤凰命中会给目标添加隐藏标记行为：MultiPlayerCollectionPhoenixTempestMark（持续 8 秒）。
+- 风暴战舰新增两把“隐藏远程武器”：
+  - MultiPlayerCollectionTempestWeaponMarkedAir / Ground，射程 500，Hidden=1。
+  - 仅在目标有标记时生效（验证器：MultiPlayerCollectionTargetHasPhoenixTempestMark）。
+  - 允许自主发现并开火（移除 CanInitiateAttackOrder=0；新增 AcquireScanFilters=-;Enemy）。
+- 远程武器复用近程演算体：
+  - 发射：MultiPlayerCollectionTempestWeaponGroundLM；伤害：MultiPlayerCollectionTempestWeaponGroundDamage。
+  - 演员/特效与近程一致；仅“射程与触发条件”不同。
+
+三、风暴战舰“攻击叠层”
+- 新增行为：MultiPlayerCollectionTempestFrenzy（持续 6 秒，最多 5 层）。
+- 每层攻速与伤害 ×1.1；在武器集合中随每次攻击自施加一层。
+
+四、传送（闪烁）调整
+- 黑暗圣堂与追猎者传送：手动施法范围统一为 10；保留“点地”无单位目标施放。
+
+五、验证器与兼容修复
+- 移除与基础库同名但父类型不一致的本地定义：CasterNotFungalGrowthed、NotAbducted、UnitOrAttackingStructure。
+- 新增/补齐常用验证器（仅列关键项）：
+  - MultiPlayerCollectionNotHaveUpgradeToWarpGateAutoCastDisabler（折跃门自动施放用）。
+  - TargetNotDead、PhotonCannonTargetFilters、IsNotConstructing、NotUnderConstruction、MultiPlayerCollectionGatewayMorphing。
+- 凤凰升级演员校验：
+  - 新增 MultiPlayerCollectionPhoenixRangeUpgraded（UnitFilters 始终通过），用于消除演员校验报错；不影响数值，外观稳定。
+
+六、其它
+- 手动 Chrono Boost 可对己方单位与建筑（含战斗单位、战斗建筑、在建建筑）施放；自动施法默认仅己方。
+- 若需让风暴在“无视可见性”条件下跨图开火，可去除远程武器的 Visible 过滤或添加侦测辅助。
+
+待你确认/可选项
+- Phoenix 标记持续时间（当前 8 秒）、风暴远程射程（当前 500）是否需要调整。
+- Chrono Boost 是否需要限定仅对建筑、或仅对有队列/进度的目标自动施放。
+- 若希望凤凰升级外观严格随“已研究”判定切换，可改为“升级完成时给凤凰附加隐藏行为，再用行为计数验证”。
+
+文件涉及（部分）
+- Base.SC2Data/GameData/AbilData.xml（Chrono Boost、Blink 等）
+- Base.SC2Data/GameData/BehaviorData.xml（各行为/标记/叠层）
+- Base.SC2Data/GameData/EffectData.xml（凤凰命中集合、风暴武器集合）
+- Base.SC2Data/GameData/WeaponData.xml（风暴远程武器、扫描与选目标）
+- Base.SC2Data/GameData/ValidatorData.xml（验证器补齐与修复）
