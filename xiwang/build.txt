@@ -1,3 +1,0 @@
-displayName = xiwang
-author = Htttt
-version = 0.1
