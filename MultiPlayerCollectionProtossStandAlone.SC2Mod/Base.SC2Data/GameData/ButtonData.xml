@@ -171,13 +171,13 @@
         <EditorCategories value="Race:Protoss"/>
     </CButton>
     <CButton id="MultiPlayerCollectionResearchStalkerTeleport">
-        <Icon value="Assets\Textures\btn-ability-protoss-blink-color.dds"/>
-        <AlertIcon value="Assets\Textures\btn-ability-protoss-blink-color.dds"/>
+        <Icon value="Assets\Textures\btn-ability-protoss-disruptionblast.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-disruptionblast.dds"/>
         <EditorCategories value="Race:Protoss"/>
     </CButton>
     <CButton id="MultiPlayerCollectionResearchDarkTemplarBlink">
-        <Icon value="Assets\Textures\btn-ability-protoss-stealth-blink.dds"/>
-        <AlertIcon value="Assets\Textures\btn-ability-protoss-stealth-blink.dds"/>
+        <Icon value="Assets\Textures\btn-ability-protoss-oracle-stasisward.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-oracle-stasisward.dds"/>
         <EditorCategories value="Race:Protoss"/>
     </CButton>
     <CButton id="MultiPlayerCollectionResearchPsiStorm">
@@ -302,8 +302,8 @@
         <EditorCategories value="Race:Protoss"/>
     </CButton>
     <CButton id="MultiPlayerCollectionDarkTemplarBlink">
-        <Icon value="Assets\Textures\btn-ability-protoss-stealth-blink.dds"/>
-        <AlertIcon value="Assets\Textures\btn-ability-protoss-stealth-blink.dds"/>
+        <Icon value="Assets\Textures\btn-ability-protoss-oracle-stasisward.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-oracle-stasisward.dds"/>
         <EditorCategories value="Race:Protoss"/>
     </CButton>
     <CButton id="MultiPlayerCollectionArchonWarpSource">
@@ -365,8 +365,8 @@
         <EditorCategories value="Race:Protoss"/>
     </CButton>
     <CButton id="MultiPlayerCollectionBlink">
-        <Icon value="Assets\Textures\btn-ability-protoss-blink-color.dds"/>
-        <AlertIcon value="Assets\Textures\btn-ability-protoss-blink-color.dds"/>
+        <Icon value="Assets\Textures\btn-ability-protoss-disruptionblast.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-disruptionblast.dds"/>
         <EditorCategories value="Race:Protoss"/>
     </CButton>
     <CButton id="MultiPlayerCollectionCharge">

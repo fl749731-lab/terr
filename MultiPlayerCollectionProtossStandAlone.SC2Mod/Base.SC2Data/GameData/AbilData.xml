@@ -525,15 +525,16 @@
         <InfoArray index="Train20" Time="20"/>
     </CAbilTrain>
     <CAbilEffectTarget id="MultiPlayerCollectionDarkTemplarBlink">
-        <AbilSetId value="Blnk"/>
         <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
-        <Effect index="0" value="MultiPlayerCollectionDarkTemplarBlinkSet"/>
-        <Flags index="BestUnit" value="0"/>
+        <Effect index="0" value="MultiPlayerCollectionVoidSnarePersistent"/>
+        <Flags index="Transient" value="1"/>
         <Flags index="RequireTargetVision" value="0"/>
         <Cost>
-            <Cooldown TimeUse="20"/>
+            <Cooldown TimeUse="25"/>
         </Cost>
-        <Range value="500"/>
+        <Range value="7"/>
+        <TargetFilters value="Ground;Self,Player,Ally,Neutral,Enemy,Destructible,Item,Dead,Invulnerable"/>
+        <CursorEffect value="MultiPlayerCollectionVoidSnareSearch"/>
         <CmdButtonArray index="Execute" DefaultButtonFace="MultiPlayerCollectionDarkTemplarBlink" Requirements="MultiPlayerCollectionUseDarkTemplarBlink">
             <Flags index="ToSelection" value="1"/>
         </CmdButtonArray>
@@ -626,22 +627,17 @@
         <AINotifyEffect value="MultiPlayerCollectionShadePhaseShiftCancelRB"/>
         <CmdButtonArray index="Execute" DefaultButtonFace="Cancel"/>
     </CAbilEffectInstant>
-    <CAbilEffectTarget id="MultiPlayerCollectionBlink">
-        <AbilSetId value="Blnk"/>
+    <CAbilEffectInstant id="MultiPlayerCollectionBlink">
         <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
-        <Effect index="0" value="MultiPlayerCollectionBlinkSet"/>
-        <Flags index="BestUnit" value="0"/>
-        <Flags index="RequireTargetVision" value="0"/>
+        <Effect index="0" value="MultiPlayerCollectionPhaseStrikeApply"/>
+        <Flags index="Transient" value="1"/>
         <Cost>
-            <Cooldown TimeUse="10"/>
+            <Cooldown TimeUse="20"/>
         </Cost>
-        <Range value="10"/>
-        <Arc value="360"/>
-        <AINotifyEffect value="MultiPlayerCollectionBlinkSet"/>
         <CmdButtonArray index="Execute" DefaultButtonFace="MultiPlayerCollectionBlink" Requirements="MultiPlayerCollectionUseBlink">
             <Flags index="ToSelection" value="1"/>
         </CmdButtonArray>
-    </CAbilEffectTarget>
+    </CAbilEffectInstant>
     <CAbilAugment id="MultiPlayerCollectionCharge">
         <Alignment value="Negative"/>
         <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
