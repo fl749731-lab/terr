@@ -799,7 +799,6 @@
         <AutoCastAcquireLevel value="Defensive"/>
         <AutoCastFilters value="Visible;Self,Ally,Missile,UnderConstruction,Dead,Hidden"/>
         <AutoCastRange value="6"/>
-        <AutoCastValidatorArray value="UnitOrAttackingStructure"/>
         <AutoCastValidatorArray value="MultiPlayerCollectionShieldBatteryRechargeNotWorker"/>
         <AutoCastValidatorArray value="MultiPlayerCollectionShieldBatteryRechargeHasEligibleBehavior"/>
         <UseMarkerArray index="Approach" value="0"/>

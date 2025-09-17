@@ -1205,6 +1205,7 @@
         <AttackTargetPriority value="11"/>
         <AbilArray Link="BuildInProgress"/>
         <BehaviorArray Link="MultiPlayerCollectionHarvestableRichVespeneGeyserGasProtoss"/>
+        <BehaviorArray Link="MultiPlayerCollectionShieldBatteryRechargeEligible"/>
         <CardLayouts>
             <LayoutButtons Face="CancelBuilding" Type="AbilCmd" AbilCmd="BuildInProgress,Cancel" Row="2" Column="4"/>
         </CardLayouts>
@@ -1270,6 +1271,7 @@
         <AttackTargetPriority value="11"/>
         <AbilArray Link="BuildInProgress"/>
         <BehaviorArray Link="MultiPlayerCollectionHarvestableVespeneGeyserGasProtoss"/>
+        <BehaviorArray Link="MultiPlayerCollectionShieldBatteryRechargeEligible"/>
         <CardLayouts>
             <LayoutButtons Face="CancelBuilding" Type="AbilCmd" AbilCmd="BuildInProgress,Cancel" Row="2" Column="4"/>
         </CardLayouts>
@@ -1341,6 +1343,7 @@
         <BehaviorArray Link="MultiPlayerCollectionPowerUserQueue"/>
         <BehaviorArray Link="MultiPlayerCollectionFastEnablerGatewayMorphingPowerSource"/>
         <BehaviorArray Link="MultiPlayerCollectionMorphingintoWarpGate"/>
+        <BehaviorArray Link="MultiPlayerCollectionShieldBatteryRechargeEligible"/>
         <CardLayouts>
             <LayoutButtons Face="Cancel" Type="AbilCmd" AbilCmd="que5,CancelLast" Row="2" Column="4"/>
             <LayoutButtons Face="CancelBuilding" Type="AbilCmd" AbilCmd="BuildInProgress,Cancel" Row="2" Column="4"/>
@@ -1421,6 +1424,7 @@
         <AbilArray Link="MultiPlayerCollectionFleetBeaconResearch"/>
         <BehaviorArray Link="MultiPlayerCollectionChronoBoostTarget"/>
         <BehaviorArray Link="MultiPlayerCollectionPowerUserQueue"/>
+        <BehaviorArray Link="MultiPlayerCollectionShieldBatteryRechargeEligible"/>
         <CardLayouts>
             <LayoutButtons Face="Cancel" Type="AbilCmd" AbilCmd="que5,CancelLast" Row="2" Column="4"/>
             <LayoutButtons Face="CancelBuilding" Type="AbilCmd" AbilCmd="BuildInProgress,Cancel" Row="2" Column="4"/>
@@ -1489,6 +1493,7 @@
         <AbilArray Link="que5"/>
         <BehaviorArray Link="MultiPlayerCollectionChronoBoostTarget"/>
         <BehaviorArray Link="MultiPlayerCollectionPowerUserQueue"/>
+        <BehaviorArray Link="MultiPlayerCollectionShieldBatteryRechargeEligible"/>
         <CardLayouts>
             <LayoutButtons Face="Cancel" Type="AbilCmd" AbilCmd="que5,CancelLast" Row="2" Column="4"/>
             <LayoutButtons Face="CancelBuilding" Type="AbilCmd" AbilCmd="BuildInProgress,Cancel" Row="2" Column="4"/>
@@ -1554,6 +1559,7 @@
         <AbilArray Link="MultiPlayerCollectionCyberneticsCoreResearch"/>
         <BehaviorArray Link="MultiPlayerCollectionChronoBoostTarget"/>
         <BehaviorArray Link="MultiPlayerCollectionPowerUserQueue"/>
+        <BehaviorArray Link="MultiPlayerCollectionShieldBatteryRechargeEligible"/>
         <CardLayouts>
             <LayoutButtons Face="MultiPlayerCollectionProtossAirWeaponsLevel1" Type="AbilCmd" AbilCmd="MultiPlayerCollectionCyberneticsCoreResearch,Research1" Row="0" Column="0"/>
             <LayoutButtons Face="MultiPlayerCollectionProtossAirWeaponsLevel2" Type="AbilCmd" AbilCmd="MultiPlayerCollectionCyberneticsCoreResearch,Research2" Row="0" Column="0"/>
@@ -1626,6 +1632,7 @@
         <AbilArray Link="MultiPlayerCollectionForgeResearch"/>
         <BehaviorArray Link="MultiPlayerCollectionChronoBoostTarget"/>
         <BehaviorArray Link="MultiPlayerCollectionPowerUserQueue"/>
+        <BehaviorArray Link="MultiPlayerCollectionShieldBatteryRechargeEligible"/>
         <CardLayouts>
             <LayoutButtons Face="Cancel" Type="AbilCmd" AbilCmd="que5,CancelLast" Row="2" Column="4"/>
             <LayoutButtons Face="CancelBuilding" Type="AbilCmd" AbilCmd="BuildInProgress,Cancel" Row="2" Column="4"/>
@@ -1712,6 +1719,7 @@
         <AbilArray Link="MultiPlayerCollectionBatteryOvercharge"/>
         <BehaviorArray Link="MultiPlayerCollectionChronoBoostTarget"/>
         <BehaviorArray Link="MultiPlayerCollectionFastEnablerPowerSourceNexus"/>
+        <BehaviorArray Link="MultiPlayerCollectionShieldBatteryRechargeEligible"/>
         <CardLayouts>
             <LayoutButtons Face="Cancel" Type="AbilCmd" AbilCmd="que5Passive,CancelLast" Row="2" Column="4"/>
             <LayoutButtons Face="CancelBuilding" Type="AbilCmd" AbilCmd="BuildInProgress,Cancel" Row="2" Column="4"/>
@@ -1780,6 +1788,7 @@
         <BehaviorArray Link="MultiPlayerCollectionPylonPowerSource"/>
         <BehaviorArray Link="MultiPlayerCollectionPowerSourceFast"/>
         <BehaviorArray Link="MultiPlayerCollectionFastEnablerPowerUser"/>
+        <BehaviorArray Link="MultiPlayerCollectionShieldBatteryRechargeEligible"/>
         <TurretArray value="MultiPlayerCollectionPylonCrystalRotate"/>
         <TurretArray value="MultiPlayerCollectionPylonRingRotate"/>
         <CardLayouts>
@@ -1846,6 +1855,7 @@
         <AbilArray Link="MultiPlayerCollectionTwilightCouncilResearch"/>
         <BehaviorArray Link="MultiPlayerCollectionChronoBoostTarget"/>
         <BehaviorArray Link="MultiPlayerCollectionPowerUserQueue"/>
+        <BehaviorArray Link="MultiPlayerCollectionShieldBatteryRechargeEligible"/>
         <CardLayouts>
             <LayoutButtons Face="Cancel" Type="AbilCmd" AbilCmd="que5,CancelLast" Row="2" Column="4"/>
             <LayoutButtons Face="CancelBuilding" Type="AbilCmd" AbilCmd="BuildInProgress,Cancel" Row="2" Column="4"/>
@@ -1912,6 +1922,7 @@
         <AbilArray Link="MultiPlayerCollectionTemplarArchivesResearch"/>
         <BehaviorArray Link="MultiPlayerCollectionChronoBoostTarget"/>
         <BehaviorArray Link="MultiPlayerCollectionPowerUserQueue"/>
+        <BehaviorArray Link="MultiPlayerCollectionShieldBatteryRechargeEligible"/>
         <CardLayouts>
             <LayoutButtons Face="Cancel" Type="AbilCmd" AbilCmd="que5,CancelLast" Row="2" Column="4"/>
             <LayoutButtons Face="CancelBuilding" Type="AbilCmd" AbilCmd="BuildInProgress,Cancel" Row="2" Column="4"/>
@@ -1977,6 +1988,7 @@
         <AbilArray Link="que5"/>
         <BehaviorArray Link="MultiPlayerCollectionChronoBoostTarget"/>
         <BehaviorArray Link="MultiPlayerCollectionPowerUserQueue"/>
+        <BehaviorArray Link="MultiPlayerCollectionShieldBatteryRechargeEligible"/>
         <CardLayouts>
             <LayoutButtons Face="MultiPlayerCollectionResearchExtendedThermalLance" Type="AbilCmd" AbilCmd="MultiPlayerCollectionRoboticsBayResearch,Research3" Row="0" Column="2"/>
             <LayoutButtons Face="Cancel" Type="AbilCmd" AbilCmd="que5,CancelLast" Row="2" Column="4"/>
@@ -2043,6 +2055,7 @@
         <BehaviorArray Link="MultiPlayerCollectionPowerUserQueue"/>
         <BehaviorArray Link="MultiPlayerCollectionFastEnablerPowerSource"/>
         <BehaviorArray Link="MultiPlayerCollectionChronoBoostTarget"/>
+        <BehaviorArray Link="MultiPlayerCollectionShieldBatteryRechargeEligible"/>
         <CardLayouts>
             <LayoutButtons Face="MultiPlayerCollectionZealot" Type="AbilCmd" AbilCmd="MultiPlayerCollectionWarpGateTrain,Train1" Row="0" Column="0"/>
             <LayoutButtons Face="MultiPlayerCollectionStalker" Type="AbilCmd" AbilCmd="MultiPlayerCollectionWarpGateTrain,Train2" Row="0" Column="2"/>
@@ -2115,6 +2128,7 @@
         <AbilArray Link="Rally"/>
         <BehaviorArray Link="MultiPlayerCollectionChronoBoostTarget"/>
         <BehaviorArray Link="MultiPlayerCollectionPowerUserQueue"/>
+        <BehaviorArray Link="MultiPlayerCollectionShieldBatteryRechargeEligible"/>
         <CardLayouts>
             <LayoutButtons Face="Cancel" Type="AbilCmd" AbilCmd="que5,CancelLast" Row="2" Column="4"/>
             <LayoutButtons Face="CancelBuilding" Type="AbilCmd" AbilCmd="BuildInProgress,Cancel" Row="2" Column="4"/>
@@ -2265,6 +2279,7 @@
         <AbilArray Link="MultiPlayerCollectionStargateTrain"/>
         <BehaviorArray Link="MultiPlayerCollectionChronoBoostTarget"/>
         <BehaviorArray Link="MultiPlayerCollectionPowerUserQueue"/>
+        <BehaviorArray Link="MultiPlayerCollectionShieldBatteryRechargeEligible"/>
         <CardLayouts>
             <LayoutButtons Face="Cancel" Type="AbilCmd" AbilCmd="que5,CancelLast" Row="2" Column="4"/>
             <LayoutButtons Face="CancelBuilding" Type="AbilCmd" AbilCmd="BuildInProgress,Cancel" Row="2" Column="4"/>

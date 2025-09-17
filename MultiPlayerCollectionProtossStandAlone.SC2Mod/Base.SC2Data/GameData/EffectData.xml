@@ -1373,7 +1373,6 @@
         <ValidatorArray value="NotVortexd"/>
         <ValidatorArray value="NotHiddenSelf"/>
         <ValidatorArray value="MultiPlayerCollectionShieldBatteryRechargeTargetFilter"/>
-        <ValidatorArray value="UnitOrAttackingStructure"/>
         <ValidatorArray value="MultiPlayerCollectionShieldBatteryRechargeNotWorker"/>
         <ValidatorArray value="MultiPlayerCollectionShieldBatteryRechargeHasEligibleBehavior"/>
         <ValidatorArray value="NotInterceptor"/>
