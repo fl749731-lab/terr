@@ -65,7 +65,7 @@
         <InfoIcon value="Assets\\Textures\\btn-ability-protoss-disruptionblast.dds"/>
         <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
         <Duration value="6"/>
-        <DamageResponse Handled="MultiPlayerCollectionPhaseStrikeBonusLifeMU" Location="Attacker">
+        <DamageResponse Handled="MultiPlayerCollectionPhaseStrikeBonusLifeMU" Location="Defender">
             <Chance value="1"/>
         </DamageResponse>
     </CBehaviorBuff>
@@ -916,6 +916,16 @@
             <Chance value="1"/>
         </DamageResponse>
     </CBehaviorBuff>
+    <CBehaviorBuff id="MultiPlayerCollectionImmortalHardenedShield">
+        <Alignment value="Positive"/>
+        <InfoIcon value="Assets\\Textures\\btn-unit-protoss-immortal.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DamageResponse>
+            <ModifyAmount value="-10"/>
+            <ModifyMinimumDamage value="0"/>
+            <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
     <CBehaviorBuff id="MultiPlayerCollectionHighTemplarPsionicReservoir">
         <Alignment value="Positive"/>
         <InfoIcon value="Assets\\Textures\\btn-unit-protoss-hightemplar.dds"/>
@@ -969,6 +979,16 @@
         <InfoIcon value="Assets\\Textures\\btn-unit-protoss-observer.dds"/>
         <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
         <Modification MoveSpeedMultiplier="1.1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="MultiPlayerCollectionObserverSensorGrid">
+        <Alignment value="Positive"/>
+        <InfoIcon value="Assets\\Textures\\btn-unit-protoss-observer.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="MultiPlayerCollectionObserverPhaseDetection">
+        <Alignment value="Positive"/>
+        <InfoIcon value="Assets\\Textures\\btn-unit-protoss-observer.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
     </CBehaviorBuff>
     <CBehaviorBuff id="MultiPlayerCollectionWarpPrismStabilizers">
         <Alignment value="Positive"/>

@@ -603,6 +603,11 @@
         <AlertIcon value="Assets\\Textures\\btn-unit-protoss-immortal.dds"/>
         <EditorCategories value="Race:Protoss"/>
     </CButton>
+    <CButton id="MultiPlayerCollectionImmortalHardenedShield">
+        <Icon value="Assets\\Textures\\btn-unit-protoss-immortal.dds"/>
+        <AlertIcon value="Assets\\Textures\\btn-unit-protoss-immortal.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CButton>
     <CButton id="MultiPlayerCollectionHighTemplarPsionicReservoir">
         <Icon value="Assets\\Textures\\btn-unit-protoss-hightemplar.dds"/>
         <AlertIcon value="Assets\\Textures\\btn-unit-protoss-hightemplar.dds"/>
@@ -639,6 +644,16 @@
         <EditorCategories value="Race:Protoss"/>
     </CButton>
     <CButton id="MultiPlayerCollectionObserverEnhancedOptics">
+        <Icon value="Assets\\Textures\\btn-unit-protoss-observer.dds"/>
+        <AlertIcon value="Assets\\Textures\\btn-unit-protoss-observer.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CButton>
+    <CButton id="MultiPlayerCollectionObserverSensorGrid">
+        <Icon value="Assets\\Textures\\btn-unit-protoss-observer.dds"/>
+        <AlertIcon value="Assets\\Textures\\btn-unit-protoss-observer.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CButton>
+    <CButton id="MultiPlayerCollectionObserverPhaseDetection">
         <Icon value="Assets\\Textures\\btn-unit-protoss-observer.dds"/>
         <AlertIcon value="Assets\\Textures\\btn-unit-protoss-observer.dds"/>
         <EditorCategories value="Race:Protoss"/>

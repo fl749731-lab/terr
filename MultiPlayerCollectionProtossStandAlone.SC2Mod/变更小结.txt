@@ -1,5 +1,5 @@
 ﻿更新小结（MultiPlayerCollectionProtossStandAlone.SC2Mod）
-日期：2025-09-15
+日期：2025-09-17
 
 一、枢纽“加速”Chrono Boost
 - 手动施法范围设为 500；自动施法范围保持 500（全图）。
@@ -42,14 +42,37 @@
 七、指挥面板被动挂载补齐
 - 哨兵、追猎者化身、神谕者、母舰、光子炮塔与折跃棱镜（相位模式）均新增对应的被动按钮，确保挂载行为能在指挥面板上正确显示。
 
+八、不朽者护盾与巨像热能枪重构
+- 新增“多重护盾”行为 MultiPlayerCollectionImmortalHardenedShield，每次受击额外减伤 10 并在指挥面板以被动按钮显示。
+- 巨像武器改以搜索效果套件沿轨迹扫射，命中后触发 0.6 半径的范围伤害，同时保留友军检索以处理误伤。
+
+九、观察者侦测强化
+- 观察者新增 Sensor Grid 与 Phase Detection 两个被动行为与按钮，扩充侦测主题能力。
+- 视野提高至 12，并叠加 Detector13p75 行为以延伸显形半径；指挥面板同步展示所有被动项。
+
+十、母舰“黑洞”Vortex
+- 在 Vortex 效果集合中插入 60 点一次性法术伤害，施放即对卷入单位造成伤害。
+
+十一、技能目标与行为修复
+- 相位打击的追加伤害现在将伤害响应定位于受击者（Defender），直接在被命中的单位上执行生命虹吸，同时避开无效定位值带来的 XML 警告。
+- Void Snare 的行为应用恢复使用 TargetUnit 目标，并依赖搜索效果的命中上下文传递目标，不再写入无效的集合 Target 字段。
+
+十二、分支合并清理
+- 移除临时的 tmp_numbers.txt 校验快照，避免与现有 ValidatorData 产生重复来源。
+
 待你确认/可选项
 - Phoenix 标记持续时间（当前 8 秒）、风暴远程射程（当前 500）是否需要调整。
 - Chrono Boost 是否需要限定仅对建筑、或仅对有队列/进度的目标自动施放。
 - 若希望凤凰升级外观严格随“已研究”判定切换，可改为“升级完成时给凤凰附加隐藏行为，再用行为计数验证”。
+- 不朽者护盾减伤（当前 10）与巨像溅射半径（当前 0.6）是否需进一步调优。
+- Vortex 一次性 60 点伤害是否符合预期，或需改为周期伤害 / 随时间递增。
 
 文件涉及（部分）
 - Base.SC2Data/GameData/AbilData.xml（Chrono Boost、Blink 等）
-- Base.SC2Data/GameData/BehaviorData.xml（各行为/标记/叠层）
-- Base.SC2Data/GameData/EffectData.xml（凤凰命中集合、风暴武器集合）
+- Base.SC2Data/GameData/BehaviorData.xml（各行为/标记/叠层、不朽者护盾、观察者被动）
+- Base.SC2Data/GameData/EffectData.xml（凤凰命中集合、风暴武器集合、巨像溅射、Vortex 伤害、Void Snare 修复）
 - Base.SC2Data/GameData/WeaponData.xml（风暴远程武器、扫描与选目标）
 - Base.SC2Data/GameData/ValidatorData.xml（验证器补齐与修复）
+- Base.SC2Data/GameData/ButtonData.xml（新增被动按钮与图标）
+- Base.SC2Data/GameData/UnitData.xml（被动挂载、视野与侦测行为调整）
+- MultiPlayerCollectionProtossStandAlone.SC2Mod/tmp_numbers.txt（临时文件移除）
