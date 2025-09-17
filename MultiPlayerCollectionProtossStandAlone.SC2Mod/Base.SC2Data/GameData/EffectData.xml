@@ -435,10 +435,22 @@
     <CEffectDamage id="MultiPlayerCollectionVortexKillDamageDummy" parent="DU_WEAP">
         <EditorCategories value="Race:Protoss"/>
     </CEffectDamage>
+    <CEffectDamage id="MultiPlayerCollectionVortexKillDamageImpact" parent="DU_WEAP">
+        <EditorCategories value="Race:Protoss"/>
+        <ResponseFlags index="Acquire" value="1"/>
+        <ResponseFlags index="Flee" value="1"/>
+        <Flags index="Notification" value="1"/>
+        <ImpactLocation Value="TargetUnit"/>
+        <Kind value="Spell"/>
+        <Amount value="60"/>
+        <Death value="Blast"/>
+        <SearchFlags index="CallForHelp" value="1"/>
+    </CEffectDamage>
     <CEffectSet id="MultiPlayerCollectionVortexKillSet">
         <EditorCategories value="Race:Protoss"/>
         <Marker Link="Effect/DigesterCreepSecondarySet"/>
         <EffectArray value="MultiPlayerCollectionVortexKillDamageDummy"/>
+        <EffectArray value="MultiPlayerCollectionVortexKillDamageImpact"/>
         <EffectArray value="MultiPlayerCollectionVortexKillDamage"/>
     </CEffectSet>
     <CEffectApplyBehavior id="MultiPlayerCollectionTargetFirePriorityAB">
