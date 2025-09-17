@@ -681,7 +681,7 @@
     <CEffectModifyUnit id="MultiPlayerCollectionPhaseStrikeBonusLifeMU">
         <EditorCategories value="Race:Protoss"/>
         <ValidatorArray value="TargetNotDead"/>
-        <WhichUnit Value="TargetUnit"/>
+        <WhichUnit Value="Target"/>
         <VitalArray index="Life">
             <Change value="-10"/>
         </VitalArray>
@@ -720,7 +720,8 @@
     </CEffectEnumArea>
     <CEffectApplyBehavior id="MultiPlayerCollectionVoidSnareApply">
         <EditorCategories value="Race:Protoss"/>
-        <WhichUnit Value="TargetUnit"/>
+        <Target Effect="MultiPlayerCollectionVoidSnareSearch" Value="TargetUnit"/>
+        <WhichUnit Value="Target"/>
         <Behavior value="MultiPlayerCollectionVoidSnarePrison"/>
     </CEffectApplyBehavior>
     <CEffectDestroyPersistent id="MultiPlayerCollectionVoidSnareDestroy">
