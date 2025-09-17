@@ -731,7 +731,7 @@
     </CEffectEnumArea>
     <CEffectApplyBehavior id="MultiPlayerCollectionVoidSnareApply">
         <EditorCategories value="Race:Protoss"/>
-        <WhichUnit Value="TargetUnit"/>
+        <WhichUnit Value="Target"/>
         <Behavior value="MultiPlayerCollectionVoidSnarePrison"/>
     </CEffectApplyBehavior>
     <CEffectDestroyPersistent id="MultiPlayerCollectionVoidSnareDestroy">
