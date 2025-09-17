@@ -693,7 +693,7 @@
     <CEffectModifyUnit id="MultiPlayerCollectionPhaseStrikeBonusLifeMU">
         <EditorCategories value="Race:Protoss"/>
         <ValidatorArray value="TargetNotDead"/>
-        <ImpactUnit Value="Target"/>
+        <WhichUnit Value="Target"/>
         <VitalArray index="Life">
             <Change value="-10"/>
         </VitalArray>
@@ -820,16 +820,16 @@
         <AreaArray Radius="0.15" Effect="MultiPlayerCollectionColossusThermalLancesDelayCP"/>
         <SearchFlags index="CallForHelp" value="1"/>
     </CEffectEnumArea>
-    <CEffectSearchArea id="MultiPlayerCollectionColossusThermalLancesAOESearch">
+    <CEffectEnumArea id="MultiPlayerCollectionColossusThermalLancesAOESearch">
         <EditorCategories value="Race:Protoss"/>
         <SearchFilters value="Ground;Player,Ally,Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <AreaArray Radius="0.6" Effect="MultiPlayerCollectionColossusThermalLancesDamage"/>
-    </CEffectSearchArea>
-    <CEffectSearchArea id="MultiPlayerCollectionColossusThermalLancesFriendlyAOESearch">
+    </CEffectEnumArea>
+    <CEffectEnumArea id="MultiPlayerCollectionColossusThermalLancesFriendlyAOESearch">
         <EditorCategories value="Race:Protoss"/>
         <SearchFilters value="Ground;Player,Ally,Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <AreaArray Radius="0.6" Effect="MultiPlayerCollectionColossusThermalLancesDamageFreindly"/>
-    </CEffectSearchArea>
+    </CEffectEnumArea>
     <CEffectCreatePersistent id="MultiPlayerCollectionColossusThermalLancesForwardsCP">
         <EditorCategories value="Race:Protoss"/>
         <Marker>
