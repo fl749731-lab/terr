@@ -9,6 +9,10 @@
     <CValidatorUnitFilters id="MultiPlayerCollectionShieldBatteryRechargeTargetFilter">
         <Filters value="Visible;Stasis,Dead,Hidden,Invulnerable"/>
     </CValidatorUnitFilters>
+    <CValidatorUnitFilters id="MultiPlayerCollectionShieldBatteryRechargeNotWorker">
+        <WhichUnit Value="Target"/>
+        <Filters value="-;Worker"/>
+    </CValidatorUnitFilters>
     <CValidatorUnitFilters id="MultiPlayerCollectionGuardianShieldMechanicalTargetFilter">
         <Filters value="Mechanical;Stasis,Dead,Hidden,Invulnerable"/>
     </CValidatorUnitFilters>
