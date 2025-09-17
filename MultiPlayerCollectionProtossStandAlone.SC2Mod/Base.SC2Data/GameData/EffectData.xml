@@ -693,7 +693,6 @@
     <CEffectModifyUnit id="MultiPlayerCollectionPhaseStrikeBonusLifeMU">
         <EditorCategories value="Race:Protoss"/>
         <ValidatorArray value="TargetNotDead"/>
-        <WhichUnit Value="Target"/>
         <VitalArray index="Life">
             <Change value="-10"/>
         </VitalArray>

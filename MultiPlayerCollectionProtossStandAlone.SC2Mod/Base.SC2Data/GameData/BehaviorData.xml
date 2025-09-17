@@ -65,7 +65,7 @@
         <InfoIcon value="Assets\\Textures\\btn-ability-protoss-disruptionblast.dds"/>
         <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
         <Duration value="6"/>
-        <DamageResponse Handled="MultiPlayerCollectionPhaseStrikeBonusLifeMU" Location="Attacker">
+        <DamageResponse Handled="MultiPlayerCollectionPhaseStrikeBonusLifeMU" Location="Target">
             <Chance value="1"/>
         </DamageResponse>
     </CBehaviorBuff>
