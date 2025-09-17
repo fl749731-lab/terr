@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TriggerData>
+    <Library Id="1D348BC1">
+        <Root>
+            <Item Type="Category" Library="1D348BC1" Id="A235F714"/>
+        </Root>
+        <Element Type="Category" Id="A235F714">
+            <Item Type="Trigger" Library="1D348BC1" Id="AD3B7A15"/>
+        </Element>
+        <Element Type="Trigger" Id="AD3B7A15">
+        </Element>
+    </Library>
+</TriggerData>
