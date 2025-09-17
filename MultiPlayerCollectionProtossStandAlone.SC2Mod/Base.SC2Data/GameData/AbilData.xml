@@ -688,13 +688,13 @@
         <Cost>
             <Vital index="Energy" value="0"/>
         </Cost>
-        <TargetFilters value="-;Ally,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <TargetFilters value="-;Ally,Enemy,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <Range value="500"/>
         <Arc value="360"/>
         <Flags index="RequireTargetVision" value="0"/>
         <Flags index="AutoCast" value="1"/>
         <Flags index="AutoCastOn" value="1"/>
-        <AutoCastFilters value="-;Ally,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <AutoCastFilters value="-;Ally,Enemy,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <AutoCastRange value="500"/>
         <AutoCastValidatorArray value="MultiPlayerCollectionTargetNotHaveChronoBoostEnergyCost"/>
         <UninterruptibleArray index="Approach" value="1"/>
