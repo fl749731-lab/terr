@@ -87,6 +87,7 @@
         <WeaponArray Link="MultiPlayerCollectionDisruptionBeam"/>
         <BehaviorArray Link="MultiPlayerCollectionSentryShieldReinforce"/>
         <BehaviorArray Link="MultiPlayerCollectionSentryStabilizedEmitters"/>
+        <BehaviorArray Link="MultiPlayerCollectionShieldBatteryRechargeEligible"/>
         <CardLayouts>
             <LayoutButtons Face="Move" Type="AbilCmd" AbilCmd="move,Move" Row="0" Column="0"/>
             <LayoutButtons Face="Stop" Type="AbilCmd" AbilCmd="stop,Stop" Row="0" Column="1"/>
@@ -168,6 +169,7 @@
         <AbilArray Link="move"/>
         <AbilArray Link="MultiPlayerCollectionGravitonBeam"/>
         <BehaviorArray Link="MultiPlayerCollectionPhoenixAerialAgility"/>
+        <BehaviorArray Link="MultiPlayerCollectionShieldBatteryRechargeEligible"/>
         <WeaponArray Link="MultiPlayerCollectionIonCannons" Turret="MultiPlayerCollectionPhoenix"/>
         <CardLayouts>
             <LayoutButtons Face="Move" Type="AbilCmd" AbilCmd="move,Move" Row="0" Column="0"/>
@@ -241,6 +243,7 @@
         <AbilArray Link="attack"/>
         <AbilArray Link="MultiPlayerCollectionOracleWeapon"/>
         <BehaviorArray Link="MultiPlayerCollectionOracleSensorSuite"/>
+        <BehaviorArray Link="MultiPlayerCollectionShieldBatteryRechargeEligible"/>
         <AbilArray Link="MultiPlayerCollectionBuildStasisWard"/>
         <WeaponArray Link="MultiPlayerCollectionOracleBeam"/>
         <CardLayouts>
@@ -321,6 +324,7 @@
         <AbilArray Link="MultiPlayerCollectionMothershipCloak"/>
         <AbilArray Link="MultiPlayerCollectionVortex"/>
         <BehaviorArray Link="MultiPlayerCollectionMothershipShieldAmplifier"/>
+        <BehaviorArray Link="MultiPlayerCollectionShieldBatteryRechargeEligible"/>
         <WeaponArray Link="MultiPlayerCollectionPurifierBeamDummyTargetFire"/>
         <WeaponArray Link="MultiPlayerCollectionMothershipBeam" Turret="MultiPlayerCollectionFreeRotate"/>
         <WeaponArray Turret="MultiPlayerCollectionMothershipRotate"/>
@@ -393,6 +397,7 @@
         <AbilArray Link="MultiPlayerCollectionWarpable"/>
         <AbilArray Link="MultiPlayerCollectionPurificationNovaTargeted"/>
         <BehaviorArray Link="MultiPlayerCollectionDisruptorKineticStabilizer"/>
+        <BehaviorArray Link="MultiPlayerCollectionShieldBatteryRechargeEligible"/>
         <CardLayouts>
             <LayoutButtons Face="Move" Type="AbilCmd" AbilCmd="move,Move" Row="0" Column="0"/>
             <LayoutButtons Face="Stop" Type="AbilCmd" AbilCmd="stop,Stop" Row="0" Column="1"/>
@@ -551,6 +556,7 @@
         <AbilArray Link="attack"/>
         <WeaponArray Link="MultiPlayerCollectionHighTemplarWeapon"/>
         <BehaviorArray Link="MultiPlayerCollectionHighTemplarPsionicReservoir"/>
+        <BehaviorArray Link="MultiPlayerCollectionShieldBatteryRechargeEligible"/>
         <CardLayouts>
             <LayoutButtons Face="Move" Type="AbilCmd" AbilCmd="move,Move" Row="0" Column="0"/>
             <LayoutButtons Face="Stop" Type="AbilCmd" AbilCmd="stop,Stop" Row="0" Column="1"/>
@@ -635,6 +641,7 @@
         <AbilArray Link="MultiPlayerCollectionDarkTemplarBlink"/>
         <BehaviorArray Link="MultiPlayerCollectionDTAssassinateOnHit"/>
         <BehaviorArray Link="MultiPlayerCollectionDarkTemplarAssassinStride"/>
+        <BehaviorArray Link="MultiPlayerCollectionShieldBatteryRechargeEligible"/>
         <WeaponArray Link="MultiPlayerCollectionDarkTemplarWeapon"/>
         <CardLayouts>
             <LayoutButtons Face="Move" Type="AbilCmd" AbilCmd="move,Move" Row="0" Column="0"/>
@@ -708,6 +715,7 @@
         <BehaviorArray Link="MultiPlayerCollectionArchonOutOfCombat"/>
         <BehaviorArray Link="MultiPlayerCollectionArchonDeathStorm"/>
         <BehaviorArray Link="MultiPlayerCollectionArchonPsionicMomentum"/>
+        <BehaviorArray Link="MultiPlayerCollectionShieldBatteryRechargeEligible"/>
         <CardLayouts>
             <LayoutButtons Face="Move" Type="AbilCmd" AbilCmd="move,Move" Row="0" Column="0"/>
             <LayoutButtons Face="Stop" Type="AbilCmd" AbilCmd="stop,Stop" Row="0" Column="1"/>
@@ -775,6 +783,7 @@
         <AbilArray Link="MultiPlayerCollectionCarrierHangar"/>
         <AbilArray Link="HangarQueue5"/>
         <BehaviorArray Link="MultiPlayerCollectionCarrierEfficientInterceptors"/>
+        <BehaviorArray Link="MultiPlayerCollectionShieldBatteryRechargeEligible"/>
         <AbilArray Link="MultiPlayerCollectionWarpable"/>
         <WeaponArray Link="MultiPlayerCollectionCarrierInterceptorLaunch"/>
         <CardLayouts>
@@ -905,6 +914,7 @@
         <AbilArray Link="attack"/>
         <AbilArray Link="move"/>
         <BehaviorArray Link="MultiPlayerCollectionColossusThermalPlating"/>
+        <BehaviorArray Link="MultiPlayerCollectionShieldBatteryRechargeEligible"/>
         <WeaponArray Link="MultiPlayerCollectionColossusThermalLances" Turret="MultiPlayerCollectionColossus"/>
         <CardLayouts>
             <LayoutButtons Face="Move" Type="AbilCmd" AbilCmd="move,Move" Row="0" Column="0"/>
@@ -972,6 +982,7 @@
         <BehaviorArray Link="MultiPlayerCollectionImmortalOverload"/>
         <BehaviorArray Link="MultiPlayerCollectionImmortalAdaptivePlating"/>
         <BehaviorArray Link="MultiPlayerCollectionImmortalHardenedShield"/>
+        <BehaviorArray Link="MultiPlayerCollectionShieldBatteryRechargeEligible"/>
         <WeaponArray Link="MultiPlayerCollectionPhaseDisruptors" Turret="MultiPlayerCollectionImmortal"/>
         <CardLayouts>
             <LayoutButtons Face="Move" Type="AbilCmd" AbilCmd="move,Move" Row="0" Column="0"/>
@@ -1057,6 +1068,7 @@
         <BehaviorArray Link="MultiPlayerCollectionAdeptResonatingFocus"/>
         <BehaviorArray Link="MultiPlayerCollectionAdeptStride"/>
         <BehaviorArray Link="MultiPlayerCollectionAdeptShieldResonance"/>
+        <BehaviorArray Link="MultiPlayerCollectionShieldBatteryRechargeEligible"/>
         <WeaponArray Link="MultiPlayerCollectionAdept"/>
         <CardLayouts>
             <LayoutButtons Face="Move" Type="AbilCmd" AbilCmd="move,Move" Row="0" Column="0"/>
@@ -2181,6 +2193,7 @@
         <BehaviorArray Link="MultiPlayerCollectionChronoBoostTarget"/>
         <BehaviorArray Link="MultiPlayerCollectionPowerUserBaseDefenseSmall"/>
         <BehaviorArray Link="MultiPlayerCollectionPhotonCannonPhaseCooling"/>
+        <BehaviorArray Link="MultiPlayerCollectionShieldBatteryRechargeEligible"/>
         <BehaviorArray Link="UnderConstruction"/>
         <WeaponArray Link="MultiPlayerCollectionPhotonCannon" Turret="MultiPlayerCollectionPhotonCannon"/>
         <CardLayouts>
@@ -2498,6 +2511,7 @@
         <BehaviorArray Link="MultiPlayerCollectionZealotBattleFocus"/>
         <BehaviorArray Link="MultiPlayerCollectionZealotWarMarch"/>
         <BehaviorArray Link="MultiPlayerCollectionZealotShieldResolve"/>
+        <BehaviorArray Link="MultiPlayerCollectionShieldBatteryRechargeEligible"/>
         <WeaponArray Link="MultiPlayerCollectionPsiBlades"/>
         <CardLayouts>
             <LayoutButtons Face="Move" Type="AbilCmd" AbilCmd="move,Move" Row="0" Column="0"/>
@@ -2581,6 +2595,7 @@
         <BehaviorArray Link="MultiPlayerCollectionStalkerPhaseOptimization"/>
         <BehaviorArray Link="MultiPlayerCollectionStalkerBlinkThrusters"/>
         <BehaviorArray Link="MultiPlayerCollectionStalkerShieldCalibration"/>
+        <BehaviorArray Link="MultiPlayerCollectionShieldBatteryRechargeEligible"/>
         <WeaponArray Link="MultiPlayerCollectionParticleDisruptors"/>
         <CardLayouts>
             <LayoutButtons Face="Move" Type="AbilCmd" AbilCmd="move,Move" Row="0" Column="0"/>
@@ -2927,6 +2942,7 @@
         <AbilArray Link="MultiPlayerCollectionVoidRayDamageBoost"/>
         <AbilArray Link="MultiPlayerCollectionVoidRayDamageBoostCancel"/>
         <BehaviorArray Link="MultiPlayerCollectionVoidRayPrismaticCapacitors"/>
+        <BehaviorArray Link="MultiPlayerCollectionShieldBatteryRechargeEligible"/>
         <WeaponArray Link="MultiPlayerCollectionVoidRayBeam"/>
         <CardLayouts>
             <LayoutButtons Face="Move" Type="AbilCmd" AbilCmd="move,Move" Row="0" Column="0"/>
@@ -3053,6 +3069,7 @@
         <WeaponArray Link="MultiPlayerCollectionTempestWeaponMarkedAir"/>
         <WeaponArray Link="MultiPlayerCollectionTempestWeaponMarkedGround"/>
         <BehaviorArray Link="MultiPlayerCollectionTempestTargetingArray"/>
+        <BehaviorArray Link="MultiPlayerCollectionShieldBatteryRechargeEligible"/>
         <CardLayouts>
             <LayoutButtons Face="Move" Type="AbilCmd" AbilCmd="move,Move" Row="0" Column="0"/>
             <LayoutButtons Face="Stop" Type="AbilCmd" AbilCmd="stop,Stop" Row="0" Column="1"/>

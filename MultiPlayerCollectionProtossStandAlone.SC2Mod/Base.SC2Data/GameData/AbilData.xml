@@ -801,6 +801,7 @@
         <AutoCastRange value="6"/>
         <AutoCastValidatorArray value="UnitOrAttackingStructure"/>
         <AutoCastValidatorArray value="MultiPlayerCollectionShieldBatteryRechargeNotWorker"/>
+        <AutoCastValidatorArray value="MultiPlayerCollectionShieldBatteryRechargeEligibleTarget"/>
         <UseMarkerArray index="Approach" value="0"/>
         <UseMarkerArray index="Prep" value="0"/>
         <CancelableArray index="Channel" value="1"/>

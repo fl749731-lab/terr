@@ -1375,6 +1375,7 @@
         <ValidatorArray value="MultiPlayerCollectionShieldBatteryRechargeTargetFilter"/>
         <ValidatorArray value="UnitOrAttackingStructure"/>
         <ValidatorArray value="MultiPlayerCollectionShieldBatteryRechargeNotWorker"/>
+        <ValidatorArray value="MultiPlayerCollectionShieldBatteryRechargeEligibleTarget"/>
         <ValidatorArray value="NotInterceptor"/>
         <EditorCategories value="Race:Protoss"/>
         <PeriodicEffect value="MultiPlayerCollectionShieldBatteryRechargeRevealSearch"/>
