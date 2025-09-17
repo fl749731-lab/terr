@@ -688,13 +688,13 @@
         <Cost>
             <Vital index="Energy" value="0"/>
         </Cost>
-        <TargetFilters value="-;Ally,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <TargetFilters value="-;Ally,Enemy,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <Range value="500"/>
         <Arc value="360"/>
         <Flags index="RequireTargetVision" value="0"/>
         <Flags index="AutoCast" value="1"/>
         <Flags index="AutoCastOn" value="1"/>
-        <AutoCastFilters value="-;Ally,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <AutoCastFilters value="-;Ally,Enemy,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <AutoCastRange value="500"/>
         <AutoCastValidatorArray value="MultiPlayerCollectionTargetNotHaveChronoBoostEnergyCost"/>
         <UninterruptibleArray index="Approach" value="1"/>
@@ -791,7 +791,7 @@
         <Flags index="CancelResetAutoCast" value="0"/>
         <Flags index="ReExecutable" value="1"/>
         <Flags index="Smart" value="1"/>
-        <TargetFilters value="Visible;Self,Enemy,Missile,Stasis,UnderConstruction,Dead,Hidden,Invulnerable"/>
+        <TargetFilters value="Visible;Self,Ally,Missile,Stasis,UnderConstruction,Dead,Hidden,Invulnerable"/>
         <TargetSorts RequestCount="1">
             <SortArray value="TSAlliancePassive"/>
             <SortArray value="TSShieldsFraction"/>
@@ -800,7 +800,7 @@
         <Range value="6"/>
         <Arc value="360"/>
         <AutoCastAcquireLevel value="Defensive"/>
-        <AutoCastFilters value="Visible;Self,Neutral,Enemy,Missile,UnderConstruction,Dead,Hidden"/>
+        <AutoCastFilters value="Visible;Self,Ally,Missile,UnderConstruction,Dead,Hidden"/>
         <AutoCastRange value="6"/>
         <AutoCastValidatorArray value="MultiPlayerCollectionCasterhas10EnergyorCasterisBatteryOvercharged"/>
         <AutoCastValidatorArray value="UnitOrAttackingStructure"/>
