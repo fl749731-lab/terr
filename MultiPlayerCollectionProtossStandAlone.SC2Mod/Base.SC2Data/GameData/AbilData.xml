@@ -800,6 +800,8 @@
         <AutoCastFilters value="Visible;Self,Ally,Missile,UnderConstruction,Dead,Hidden"/>
         <AutoCastRange value="6"/>
         <AutoCastValidatorArray value="UnitOrAttackingStructure"/>
+        <AutoCastValidatorArray value="MultiPlayerCollectionShieldBatteryRechargeNotWorker"/>
+        <AutoCastValidatorArray value="MultiPlayerCollectionShieldBatteryRechargeHasEligibleBehavior"/>
         <UseMarkerArray index="Approach" value="0"/>
         <UseMarkerArray index="Prep" value="0"/>
         <CancelableArray index="Channel" value="1"/>
