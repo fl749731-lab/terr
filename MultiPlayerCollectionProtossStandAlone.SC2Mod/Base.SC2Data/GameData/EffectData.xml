@@ -435,10 +435,22 @@
     <CEffectDamage id="MultiPlayerCollectionVortexKillDamageDummy" parent="DU_WEAP">
         <EditorCategories value="Race:Protoss"/>
     </CEffectDamage>
+    <CEffectDamage id="MultiPlayerCollectionVortexKillDamageImpact" parent="DU_WEAP">
+        <EditorCategories value="Race:Protoss"/>
+        <ResponseFlags index="Acquire" value="1"/>
+        <ResponseFlags index="Flee" value="1"/>
+        <Flags index="Notification" value="1"/>
+        <ImpactLocation Value="TargetUnit"/>
+        <Kind value="Spell"/>
+        <Amount value="60"/>
+        <Death value="Blast"/>
+        <SearchFlags index="CallForHelp" value="1"/>
+    </CEffectDamage>
     <CEffectSet id="MultiPlayerCollectionVortexKillSet">
         <EditorCategories value="Race:Protoss"/>
         <Marker Link="Effect/DigesterCreepSecondarySet"/>
         <EffectArray value="MultiPlayerCollectionVortexKillDamageDummy"/>
+        <EffectArray value="MultiPlayerCollectionVortexKillDamageImpact"/>
         <EffectArray value="MultiPlayerCollectionVortexKillDamage"/>
     </CEffectSet>
     <CEffectApplyBehavior id="MultiPlayerCollectionTargetFirePriorityAB">
@@ -681,7 +693,7 @@
     <CEffectModifyUnit id="MultiPlayerCollectionPhaseStrikeBonusLifeMU">
         <EditorCategories value="Race:Protoss"/>
         <ValidatorArray value="TargetNotDead"/>
-        <WhichUnit Value="TargetUnit"/>
+        <ImpactUnit Value="Target"/>
         <VitalArray index="Life">
             <Change value="-10"/>
         </VitalArray>
@@ -720,7 +732,7 @@
     </CEffectEnumArea>
     <CEffectApplyBehavior id="MultiPlayerCollectionVoidSnareApply">
         <EditorCategories value="Race:Protoss"/>
-        <WhichUnit Value="TargetUnit"/>
+        <WhichUnit Value="Target"/>
         <Behavior value="MultiPlayerCollectionVoidSnarePrison"/>
     </CEffectApplyBehavior>
     <CEffectDestroyPersistent id="MultiPlayerCollectionVoidSnareDestroy">
@@ -792,7 +804,7 @@
         <EditorCategories value="Race:Protoss"/>
         <WhichLocation Value="TargetUnit"/>
         <ExpireDelay value="0.25"/>
-        <FinalEffect value="MultiPlayerCollectionColossusThermalLancesDamage"/>
+        <FinalEffect value="MultiPlayerCollectionColossusThermalLancesAOESearch"/>
     </CEffectCreatePersistent>
     <CEffectEnumArea id="MultiPlayerCollectionColossusThermalLancesForwardsSearch">
         <EditorCategories value="Race:Protoss"/>
@@ -808,6 +820,16 @@
         <AreaArray Radius="0.15" Effect="MultiPlayerCollectionColossusThermalLancesDelayCP"/>
         <SearchFlags index="CallForHelp" value="1"/>
     </CEffectEnumArea>
+    <CEffectSearchArea id="MultiPlayerCollectionColossusThermalLancesAOESearch">
+        <EditorCategories value="Race:Protoss"/>
+        <SearchFilters value="Ground;Player,Ally,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <AreaArray Radius="0.6" Effect="MultiPlayerCollectionColossusThermalLancesDamage"/>
+    </CEffectSearchArea>
+    <CEffectSearchArea id="MultiPlayerCollectionColossusThermalLancesFriendlyAOESearch">
+        <EditorCategories value="Race:Protoss"/>
+        <SearchFilters value="Ground;Player,Ally,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <AreaArray Radius="0.6" Effect="MultiPlayerCollectionColossusThermalLancesDamageFreindly"/>
+    </CEffectSearchArea>
     <CEffectCreatePersistent id="MultiPlayerCollectionColossusThermalLancesForwardsCP">
         <EditorCategories value="Race:Protoss"/>
         <Marker>
@@ -816,7 +838,7 @@
         <TimeScaleSource Value="Caster"/>
         <Flags index="Channeled" value="1"/>
         <ExpireDelay value="0.73"/>
-        <ExpireEffect value="MultiPlayerCollectionColossusThermalLancesDamage"/>
+        <ExpireEffect value="MultiPlayerCollectionColossusThermalLancesAOESearch"/>
         <PeriodCount value="11"/>
         <PeriodicEffectArray value="MultiPlayerCollectionColossusThermalLancesForwardsSearch"/>
         <PeriodicOffsetArray value="-1.25,0,0"/>
@@ -839,8 +861,8 @@
         <Flags index="Channeled" value="1"/>
         <ExpireDelay value="0.2"/>
         <PeriodCount value="2"/>
-        <PeriodicEffectArray value="MultiPlayerCollectionColossusThermalLancesDamageFreindly"/>
-        <PeriodicEffectArray value="MultiPlayerCollectionColossusThermalLancesDamageFreindly"/>
+        <PeriodicEffectArray value="MultiPlayerCollectionColossusThermalLancesFriendlyAOESearch"/>
+        <PeriodicEffectArray value="MultiPlayerCollectionColossusThermalLancesFriendlyAOESearch"/>
         <PeriodicPeriodArray value="0.09"/>
         <PeriodicPeriodArray value="0.09"/>
     </CEffectCreatePersistent>
@@ -878,7 +900,7 @@
         <TimeScaleSource Value="Caster"/>
         <Flags index="Channeled" value="1"/>
         <ExpireDelay value="0.73"/>
-        <ExpireEffect value="MultiPlayerCollectionColossusThermalLancesDamage"/>
+        <ExpireEffect value="MultiPlayerCollectionColossusThermalLancesAOESearch"/>
         <PeriodCount value="11"/>
         <PeriodicEffectArray value="MultiPlayerCollectionColossusThermalLancesBackwardsSearch"/>
         <PeriodicOffsetArray value="1.25,0,0"/>

@@ -971,6 +971,7 @@
         <BehaviorArray Link="MultiPlayerCollectionBarrierDamageResponse"/>
         <BehaviorArray Link="MultiPlayerCollectionImmortalOverload"/>
         <BehaviorArray Link="MultiPlayerCollectionImmortalAdaptivePlating"/>
+        <BehaviorArray Link="MultiPlayerCollectionImmortalHardenedShield"/>
         <WeaponArray Link="MultiPlayerCollectionPhaseDisruptors" Turret="MultiPlayerCollectionImmortal"/>
         <CardLayouts>
             <LayoutButtons Face="Move" Type="AbilCmd" AbilCmd="move,Move" Row="0" Column="0"/>
@@ -987,6 +988,7 @@
                 <Column value="0"/>
             </LayoutButtons>
             <LayoutButtons Face="MultiPlayerCollectionImmortalAdaptivePlating" Type="Passive" Behavior="MultiPlayerCollectionImmortalAdaptivePlating" Row="2" Column="1"/>
+            <LayoutButtons Face="MultiPlayerCollectionImmortalHardenedShield" Type="Passive" Behavior="MultiPlayerCollectionImmortalHardenedShield" Row="2" Column="2"/>
         </CardLayouts>
         <Radius value="0.75"/>
         <SeparationRadius value="0.625"/>
@@ -2635,7 +2637,7 @@
         <Mover value="Fly"/>
         <Speed value="2.0156"/>
         <Acceleration value="2.125"/>
-        <Sight value="11"/>
+        <Sight value="12"/>
         <Height value="3.75"/>
         <VisionHeight value="15"/>
         <Food value="-1"/>
@@ -2651,6 +2653,9 @@
         <AbilArray Link="move"/>
         <AbilArray Link="MultiPlayerCollectionObserverMorphtoObserverSiege"/>
         <BehaviorArray Link="Detector11"/>
+        <BehaviorArray Link="Detector13p75"/>
+        <BehaviorArray Link="MultiPlayerCollectionObserverSensorGrid"/>
+        <BehaviorArray Link="MultiPlayerCollectionObserverPhaseDetection"/>
         <CardLayouts>
             <LayoutButtons Face="Move" Type="AbilCmd" AbilCmd="move,Move" Row="0" Column="0"/>
             <LayoutButtons Face="Stop" Type="AbilCmd" AbilCmd="stop,Stop" Row="0" Column="1"/>
@@ -2658,6 +2663,8 @@
             <LayoutButtons Face="MovePatrol" Type="AbilCmd" AbilCmd="move,Patrol" Row="0" Column="3"/>
             <LayoutButtons Face="Attack" Type="AbilCmd" AbilCmd="attack,Execute" Row="0" Column="4"/>
             <LayoutButtons Face="AcquireMove" Type="AbilCmd" AbilCmd="move,AcquireMove" Row="0" Column="4"/>
+            <LayoutButtons Face="MultiPlayerCollectionObserverSensorGrid" Type="Passive" Behavior="MultiPlayerCollectionObserverSensorGrid" Row="1" Column="3"/>
+            <LayoutButtons Face="MultiPlayerCollectionObserverPhaseDetection" Type="Passive" Behavior="MultiPlayerCollectionObserverPhaseDetection" Row="1" Column="4"/>
             <LayoutButtons Face="MultiPlayerCollectionPermanentlyCloakedObserver" Type="Passive" Row="2" Column="2"/>
             <LayoutButtons Face="Detector" Type="Passive" Row="2" Column="3"/>
             <LayoutButtons Face="MultiPlayerCollectionObserverEnhancedOptics" Type="Passive" Behavior="MultiPlayerCollectionObserverEnhancedOptics" Row="2" Column="4"/>
