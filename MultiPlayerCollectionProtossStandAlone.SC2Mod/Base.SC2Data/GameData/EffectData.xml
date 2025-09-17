@@ -731,7 +731,7 @@
     </CEffectEnumArea>
     <CEffectApplyBehavior id="MultiPlayerCollectionVoidSnareApply">
         <EditorCategories value="Race:Protoss"/>
-        <WhichUnit Value="Target"/>
+        <WhichUnit Value="TargetUnit"/>
         <Behavior value="MultiPlayerCollectionVoidSnarePrison"/>
     </CEffectApplyBehavior>
     <CEffectDestroyPersistent id="MultiPlayerCollectionVoidSnareDestroy">
@@ -744,7 +744,6 @@
     <CEffectSet id="MultiPlayerCollectionVoidSnareImpact">
         <EditorCategories value="Race:Protoss"/>
         <ValidatorArray value="TargetNotDead"/>
-        <Target Effect="MultiPlayerCollectionVoidSnareSearch" Value="TargetUnit"/>
         <EffectArray value="MultiPlayerCollectionVoidSnareApply"/>
         <EffectArray value="MultiPlayerCollectionVoidSnareDestroy"/>
     </CEffectSet>
