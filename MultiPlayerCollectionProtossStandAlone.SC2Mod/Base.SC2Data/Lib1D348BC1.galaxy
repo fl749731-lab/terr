@@ -1,0 +1,40 @@
+include "TriggerLibs/natives"
+
+include "Lib1D348BC1_h"
+
+//--------------------------------------------------------------------------------------------------
+// Library: keji
+//--------------------------------------------------------------------------------------------------
+// Triggers
+//--------------------------------------------------------------------------------------------------
+// Trigger: keji
+//--------------------------------------------------------------------------------------------------
+bool lib1D348BC1_gt_keji_Func (bool testConds, bool runActions) {
+    // Automatic Variable Declarations
+    return true;
+}
+
+//--------------------------------------------------------------------------------------------------
+void lib1D348BC1_gt_keji_Init () {
+    lib1D348BC1_gt_keji = TriggerCreate("lib1D348BC1_gt_keji_Func");
+}
+
+void lib1D348BC1_InitTriggers () {
+    lib1D348BC1_gt_keji_Init();
+}
+
+//--------------------------------------------------------------------------------------------------
+// Library Initialization
+//--------------------------------------------------------------------------------------------------
+bool lib1D348BC1_InitLib_completed = false;
+
+void lib1D348BC1_InitLib () {
+    if (lib1D348BC1_InitLib_completed) {
+        return;
+    }
+
+    lib1D348BC1_InitLib_completed = true;
+
+    lib1D348BC1_InitTriggers();
+}
+

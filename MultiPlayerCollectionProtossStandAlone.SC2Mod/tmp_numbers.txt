@@ -1,0 +1,84 @@
+1	<?xml version="1.0" encoding="utf-8"?>
+2	<Catalog>
+3	    <CValidatorUnitCompareBehaviorCount id="MultiPlayerCollectionTargetNotHaveChronoBoostEnergyCost">
+4	        <WhichUnit Value="Target"/>
+5	        <Behavior value="MultiPlayerCollectionChronoBoostEnergyCost"/>
+6	        <Compare value="LE"/>
+7	        <Value value="0"/>
+8	    </CValidatorUnitCompareBehaviorCount>
+9	    <CValidatorUnitFilters id="MultiPlayerCollectionShieldBatteryRechargeTargetFilter">
+10	        <Filters value="Visible;Stasis,Dead,Hidden,Invulnerable"/>
+11	    </CValidatorUnitFilters>
+12	    <CValidatorUnitFilters id="MultiPlayerCollectionGuardianShieldMechanicalTargetFilter">
+13	        <Filters value="Mechanical;Stasis,Dead,Hidden,Invulnerable"/>
+14	    </CValidatorUnitFilters>
+15	    <CValidatorUnitFilters id="MultiPlayerCollectionAssassinateNotHeroic">
+16	        <Filters value="-;Heroic"/>
+17	    </CValidatorUnitFilters>
+18	    <CValidatorUnitCompareVital id="MultiPlayerCollectionArchonShieldsGE250">
+19	        <WhichUnit Value="Caster"/>
+20	        <Vital value="Shields"/>
+21	        <Compare value="GE"/>
+22	        <Value value="250"/>
+23	    </CValidatorUnitCompareVital>
+24	    <CValidatorUnitCompareVital id="MultiPlayerCollectionArchonShieldsGE100">
+25	        <WhichUnit Value="Caster"/>
+26	        <Vital value="Shields"/>
+27	        <Compare value="GE"/>
+28	        <Value value="100"/>
+29	    </CValidatorUnitCompareVital>
+30	    <CValidatorUnitCompareVital id="MultiPlayerCollectionArchonShieldsGE5">
+31	        <WhichUnit Value="Caster"/>
+32	        <Vital value="Shields"/>
+33	        <Compare value="GE"/>
+34	        <Value value="5"/>
+35	    </CValidatorUnitCompareVital>
+36	    <CValidatorUnitCompareBehaviorCount id="MultiPlayerCollectionTargetHasPhoenixTempestMark">
+37	        <WhichUnit Value="Target"/>
+38	        <Behavior value="MultiPlayerCollectionPhoenixTempestMark"/>
+39	        <Compare value="GE"/>
+40	        <Value value="1"/>
+41	    </CValidatorUnitCompareBehaviorCount>
+42	    <CValidatorUnitCompareBehaviorCount id="MultiPlayerCollectionNotHaveUpgradeToWarpGateAutoCastDisabler">
+43	        <WhichUnit Value="Caster"/>
+44	        <Behavior value="MultiPlayerCollectionUpgradeToWarpGateAutoCastDisabler"/>
+45	        <Compare value="LE"/>
+46	        <Value value="0"/>
+47	    </CValidatorUnitCompareBehaviorCount>
+48	    <CValidatorUnitFilters id="TargetNotDead">
+49	        <WhichUnit Value="Target"/>
+50	        <Filters value="-;Dead"/>
+51	    </CValidatorUnitFilters>
+52	    <CValidatorUnitFilters id="CasterNotFungalGrowthed">
+53	        <WhichUnit Value="Caster"/>
+54	        <Filters value="-;Hidden"/>
+55	    </CValidatorUnitFilters>
+56	    <CValidatorUnitFilters id="SourceNotHidden">
+57	        <WhichUnit Value="Caster"/>
+58	        <Filters value="-;Hidden"/>
+59	    </CValidatorUnitFilters>
+60	    <CValidatorUnitFilters id="NotAbducted">
+61	        <WhichUnit Value="Target"/>
+62	        <Filters value="-;Hidden"/>
+63	    </CValidatorUnitFilters>
+64	    <CValidatorUnitFilters id="PhotonCannonTargetFilters">
+65	        <WhichUnit Value="Target"/>
+66	        <Filters value="Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
+67	    </CValidatorUnitFilters>
+68	    <CValidatorUnitFilters id="UnitOrAttackingStructure">
+69	        <WhichUnit Value="Target"/>
+70	        <Filters value="Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
+71	    </CValidatorUnitFilters>
+72	    <CValidatorUnitFilters id="IsNotConstructing">
+73	        <WhichUnit Value="Target"/>
+74	        <Filters value="-;UnderConstruction"/>
+75	    </CValidatorUnitFilters>
+76	    <CValidatorUnitFilters id="NotUnderConstruction">
+77	        <WhichUnit Value="Target"/>
+78	        <Filters value="-;UnderConstruction"/>
+79	    </CValidatorUnitFilters>
+80	    <CValidatorUnitFilters id="MultiPlayerCollectionGatewayMorphing">
+81	        <WhichUnit Value="Target"/>
+82	        <Filters value="-;Hidden"/>
+83	    </CValidatorUnitFilters>
+84	</Catalog>
