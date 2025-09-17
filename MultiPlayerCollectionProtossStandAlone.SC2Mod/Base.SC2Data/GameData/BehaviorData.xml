@@ -4,6 +4,10 @@
         <InfoFlags index="Hidden" value="1"/>
         <EditorCategories value="AbilityorEffectType:Units,Race:Protoss"/>
     </CBehaviorBuff>
+    <CBehaviorBuff id="MultiPlayerCollectionShieldBatteryRechargeEligible">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+    </CBehaviorBuff>
     <CBehaviorBuff id="MultiPlayerCollectionArchonDealWatcher">
         <InfoFlags index="Hidden" value="1"/>
         <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>

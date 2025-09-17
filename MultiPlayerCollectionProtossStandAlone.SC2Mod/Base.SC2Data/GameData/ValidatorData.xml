@@ -9,6 +9,27 @@
     <CValidatorUnitFilters id="MultiPlayerCollectionShieldBatteryRechargeTargetFilter">
         <Filters value="Visible;Stasis,Dead,Hidden,Invulnerable"/>
     </CValidatorUnitFilters>
+    <CValidatorUnitFilters id="MultiPlayerCollectionShieldBatteryRechargeNotWorker">
+        <WhichUnit Value="Target"/>
+        <Filters value="-;Worker"/>
+    </CValidatorUnitFilters>
+    <CValidatorUnitCompareBehaviorCount id="MultiPlayerCollectionShieldBatteryRechargeHasEligibleBehavior">
+        <WhichUnit Value="Target"/>
+        <Behavior value="MultiPlayerCollectionShieldBatteryRechargeEligible"/>
+        <Compare value="GE"/>
+        <Value value="1"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorUnitCompareBehaviorCount id="MultiPlayerCollectionShieldBatteryRechargeDefenseStructure">
+        <WhichUnit Value="Target"/>
+        <Behavior value="MultiPlayerCollectionPowerUserBaseDefenseSmall"/>
+        <Compare value="GE"/>
+        <Value value="1"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorCombine id="MultiPlayerCollectionShieldBatteryRechargeEligibleTarget">
+        <Combine value="Or"/>
+        <ValidatorArray value="MultiPlayerCollectionShieldBatteryRechargeHasEligibleBehavior"/>
+        <ValidatorArray value="MultiPlayerCollectionShieldBatteryRechargeDefenseStructure"/>
+    </CValidatorCombine>
     <CValidatorUnitFilters id="MultiPlayerCollectionGuardianShieldMechanicalTargetFilter">
         <Filters value="Mechanical;Stasis,Dead,Hidden,Invulnerable"/>
     </CValidatorUnitFilters>
