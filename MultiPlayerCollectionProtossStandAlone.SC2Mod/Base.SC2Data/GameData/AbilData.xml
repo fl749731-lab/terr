@@ -1079,7 +1079,7 @@
     <CAbilEffectTarget id="MultiPlayerCollectionHighTemplarHarmonyStorm">
         <Alignment value="Negative"/>
         <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
-        <Effect index="0" value="MultiPlayerCollectionHighTemplarHarmonyStormSearch"/>
+        <Effect index="0" value="MultiPlayerCollectionHighTemplarHarmonyStormSet"/>
         <Flags index="AllowMovement" value="1"/>
         <Cost>
             <Vital index="Energy" value="75"/>
@@ -1117,3 +1117,4 @@
         <CmdButtonArray index="Execute" DefaultButtonFace="MultiPlayerCollectionAdeptHarmonyEcho"/>
     </CAbilEffectTarget>
 </Catalog>
+

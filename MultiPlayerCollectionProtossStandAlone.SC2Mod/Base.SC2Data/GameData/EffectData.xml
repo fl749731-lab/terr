@@ -1776,9 +1776,8 @@
         <SearchFlags index="CallForHelp" value="1"/>
         <Amount value="15"/>
     </CEffectDamage>
-    <CEffectSet id="MultiPlayerCollectionHighTemplarHarmonyStormImpactSet">
+    <CEffectSet id="MultiPlayerCollectionHighTemplarHarmonyStormConsumeSet">
         <EditorCategories value="Race:Protoss"/>
-        <EffectArray value="MultiPlayerCollectionHighTemplarHarmonyStormDamage"/>
         <EffectArray value="MultiPlayerCollectionWarpHarmonyBonusDamage1"/>
         <EffectArray value="MultiPlayerCollectionWarpHarmonyBonusDamage2"/>
         <EffectArray value="MultiPlayerCollectionWarpHarmonyBonusDamage3"/>
@@ -1790,9 +1789,14 @@
         <EditorCategories value="Race:Protoss"/>
         <ImpactLocation Value="TargetUnit"/>
         <SearchFilters value="Visible;Enemy"/>
-        <AreaArray Radius="3" Effect="MultiPlayerCollectionHighTemplarHarmonyStormImpactSet"/>
+        <AreaArray Radius="3" Effect="MultiPlayerCollectionHighTemplarHarmonyStormDamage"/>
         <SearchFlags index="ExtendByUnitRadius" value="1"/>
     </CEffectEnumArea>
+    <CEffectSet id="MultiPlayerCollectionHighTemplarHarmonyStormSet">
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="MultiPlayerCollectionHighTemplarHarmonyStormSearch"/>
+        <EffectArray value="MultiPlayerCollectionHighTemplarHarmonyStormConsumeSet"/>
+    </CEffectSet>
     <CEffectTeleport id="MultiPlayerCollectionDarkTemplarHarmonyAmbushTeleport">
         <EditorCategories value="Race:Protoss"/>
         <ValidatorArray value="CasterNotFungalGrowthed"/>
