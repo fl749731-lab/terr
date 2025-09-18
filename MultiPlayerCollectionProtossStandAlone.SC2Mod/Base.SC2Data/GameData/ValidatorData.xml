@@ -49,6 +49,36 @@
         <Compare value="GE"/>
         <Value value="1"/>
     </CValidatorUnitCompareBehaviorCount>
+    <CValidatorUnitCompareBehaviorCount id="MultiPlayerCollectionWarpHarmonyHasMark">
+        <WhichUnit Value="Target"/>
+        <Behavior value="MultiPlayerCollectionWarpHarmonyMark"/>
+        <Compare value="GE"/>
+        <Value value="1"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorUnitCompareBehaviorCount id="MultiPlayerCollectionWarpHarmonyMarkTwo">
+        <WhichUnit Value="Target"/>
+        <Behavior value="MultiPlayerCollectionWarpHarmonyMark"/>
+        <Compare value="GE"/>
+        <Value value="2"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorUnitCompareBehaviorCount id="MultiPlayerCollectionWarpHarmonyMarkThree">
+        <WhichUnit Value="Target"/>
+        <Behavior value="MultiPlayerCollectionWarpHarmonyMark"/>
+        <Compare value="GE"/>
+        <Value value="3"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorUnitCompareBehaviorCount id="MultiPlayerCollectionWarpHarmonyMarkFour">
+        <WhichUnit Value="Target"/>
+        <Behavior value="MultiPlayerCollectionWarpHarmonyMark"/>
+        <Compare value="GE"/>
+        <Value value="4"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorUnitCompareBehaviorCount id="MultiPlayerCollectionWarpHarmonyMarkFive">
+        <WhichUnit Value="Target"/>
+        <Behavior value="MultiPlayerCollectionWarpHarmonyMark"/>
+        <Compare value="GE"/>
+        <Value value="5"/>
+    </CValidatorUnitCompareBehaviorCount>
     <CValidatorUnitCompareBehaviorCount id="MultiPlayerCollectionNotHaveUpgradeToWarpGateAutoCastDisabler">
         <WhichUnit Value="Caster"/>
         <Behavior value="MultiPlayerCollectionUpgradeToWarpGateAutoCastDisabler"/>
