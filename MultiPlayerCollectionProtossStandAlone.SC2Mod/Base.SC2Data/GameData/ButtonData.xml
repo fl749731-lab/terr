@@ -903,4 +903,34 @@
         <AlertIcon value="Assets\\Textures\\btn-building-protoss-shieldbattery.dds"/>
         <EditorCategories value="Race:Protoss"/>
     </CButton>
+    <CButton id="MultiPlayerCollectionZealotHarmonyStrike">
+        <Icon value="Assets\\Textures\\btn-ability-protoss-charge-color.dds"/>
+        <AlertIcon value="Assets\\Textures\\btn-ability-protoss-charge-color.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CButton>
+    <CButton id="MultiPlayerCollectionStalkerHarmonyBolt">
+        <Icon value="Assets\\Textures\\btn-ability-protoss-disruptionblast.dds"/>
+        <AlertIcon value="Assets\\Textures\\btn-ability-protoss-disruptionblast.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CButton>
+    <CButton id="MultiPlayerCollectionSentryHarmonyAnchor">
+        <Icon value="Assets\\Textures\\btn-ability-protoss-timewarp.dds"/>
+        <AlertIcon value="Assets\\Textures\\btn-ability-protoss-timewarp.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CButton>
+    <CButton id="MultiPlayerCollectionHighTemplarHarmonyStorm">
+        <Icon value="Assets\\Textures\\btn-ability-protoss-psistorm-color.dds"/>
+        <AlertIcon value="Assets\\Textures\\btn-ability-protoss-psistorm-color.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CButton>
+    <CButton id="MultiPlayerCollectionDarkTemplarHarmonyAmbush">
+        <Icon value="Assets\\Textures\\btn-unit-protoss-darktemplar.dds"/>
+        <AlertIcon value="Assets\\Textures\\btn-unit-protoss-darktemplar.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CButton>
+    <CButton id="MultiPlayerCollectionAdeptHarmonyEcho">
+        <Icon value="Assets\\Textures\\btn-ability-protoss-psionictransfer.dds"/>
+        <AlertIcon value="Assets\\Textures\\btn-ability-protoss-psionictransfer.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CButton>
 </Catalog>
