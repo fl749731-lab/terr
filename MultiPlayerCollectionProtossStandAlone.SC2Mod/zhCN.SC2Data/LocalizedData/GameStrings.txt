@@ -618,3 +618,24 @@ Weapon/Name/MultiPlayerCollectionPurifierBeamDummyTargetFire=火力分配标记
 Weapon/Name/MultiPlayerCollectionTempestWeaponAir=动能过载
 Weapon/Name/MultiPlayerCollectionTempestWeaponGround=谐振盘
 Weapon/Name/MultiPlayerCollectionVoidRayBeam=棱镜光束
+
+Behavior/Name/MultiPlayerCollectionWarpHarmonyMark=折跃共鸣标记
+Behavior/Tooltip/MultiPlayerCollectionWarpHarmonyMark=受到折跃门作战单位的共鸣技能影响，持续<d ref="Behavior,MultiPlayerCollectionWarpHarmonyMark,Duration"/>秒。可叠加至<d ref="Behavior,MultiPlayerCollectionWarpHarmonyMark,MaxStackCount"/>层，被其他共鸣技能消耗以触发额外效果。
+Abil/Name/MultiPlayerCollectionZealotHarmonyStrike=共鸣突袭
+Abil/Name/MultiPlayerCollectionStalkerHarmonyBolt=共鸣能量箭
+Abil/Name/MultiPlayerCollectionSentryHarmonyAnchor=共鸣定锚
+Abil/Name/MultiPlayerCollectionHighTemplarHarmonyStorm=共鸣风暴
+Abil/Name/MultiPlayerCollectionDarkTemplarHarmonyAmbush=共鸣伏击
+Abil/Name/MultiPlayerCollectionAdeptHarmonyEcho=共鸣回响
+Button/Name/MultiPlayerCollectionZealotHarmonyStrike=共鸣突袭
+Button/Tooltip/MultiPlayerCollectionZealotHarmonyStrike=狂热者对近战目标造成15点伤害并施加1层折跃共鸣标记，标记持续10秒。配合其他折跃共鸣技能可引爆额外效果。该技能每<d ref="Abil,MultiPlayerCollectionZealotHarmonyStrike,Cost.Cooldown.TimeUse"/>秒最多只能使用一次。
+Button/Name/MultiPlayerCollectionStalkerHarmonyBolt=共鸣能量箭
+Button/Tooltip/MultiPlayerCollectionStalkerHarmonyBolt=只能对带有折跃共鸣标记的敌人施放。造成15点基础伤害并消耗其全部标记，每层标记额外造成10点伤害。该技能每<d ref="Abil,MultiPlayerCollectionStalkerHarmonyBolt,Cost.Cooldown.TimeUse"/>秒最多只能使用一次。
+Button/Name/MultiPlayerCollectionSentryHarmonyAnchor=共鸣定锚
+Button/Tooltip/MultiPlayerCollectionSentryHarmonyAnchor=在目标位置展开共鸣力场，对范围内敌方单位施加2层折跃共鸣标记，帮助队伍快速连携。消耗<d ref="Abil,MultiPlayerCollectionSentryHarmonyAnchor,Cost.Vital[Energy].Value"/>点能量，冷却<d ref="Abil,MultiPlayerCollectionSentryHarmonyAnchor,Cost.Cooldown.TimeUse"/>秒。
+Button/Name/MultiPlayerCollectionHighTemplarHarmonyStorm=共鸣风暴
+Button/Tooltip/MultiPlayerCollectionHighTemplarHarmonyStorm=只能对折跃共鸣标记的单位施放。对目标及其附近敌人造成15点基础伤害，并为目标身上的每层标记额外造成10点伤害，之后清除所有标记。消耗<d ref="Abil,MultiPlayerCollectionHighTemplarHarmonyStorm,Cost.Vital[Energy].Value"/>点能量，冷却<d ref="Abil,MultiPlayerCollectionHighTemplarHarmonyStorm,Cost.Cooldown.TimeUse"/>秒。
+Button/Name/MultiPlayerCollectionDarkTemplarHarmonyAmbush=共鸣伏击
+Button/Tooltip/MultiPlayerCollectionDarkTemplarHarmonyAmbush=只能对带有折跃共鸣标记的敌人施放。瞬移至目标附近，造成25点基础伤害并移除其全部标记，每层标记额外造成10点伤害。该技能每<d ref="Abil,MultiPlayerCollectionDarkTemplarHarmonyAmbush,Cost.Cooldown.TimeUse"/>秒最多只能使用一次。
+Button/Name/MultiPlayerCollectionAdeptHarmonyEcho=共鸣回响
+Button/Tooltip/MultiPlayerCollectionAdeptHarmonyEcho=只能对折跃共鸣标记的敌人施放。刷新目标标记并将折跃共鸣标记扩散给其及附近最多两个敌人。该技能每<d ref="Abil,MultiPlayerCollectionAdeptHarmonyEcho,Cost.Cooldown.TimeUse"/>秒最多只能使用一次。

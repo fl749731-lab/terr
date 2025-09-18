@@ -81,6 +81,7 @@
         <AbilArray Link="MultiPlayerCollectionWarpable"/>
         <AbilArray Link="MultiPlayerCollectionForceField"/>
         <AbilArray Link="MultiPlayerCollectionGuardianShield"/>
+        <AbilArray Link="MultiPlayerCollectionSentryHarmonyAnchor"/>
         <AbilArray Link="ProgressRally"/>
         <AbilArray Link="BuildInProgress"/>
         <BehaviorArray Link="MultiPlayerCollectionSentryPsionicEfficiency"/>
@@ -94,6 +95,7 @@
             <LayoutButtons Face="MoveHoldPosition" Type="AbilCmd" AbilCmd="move,HoldPos" Row="0" Column="2"/>
             <LayoutButtons Face="MovePatrol" Type="AbilCmd" AbilCmd="move,Patrol" Row="0" Column="3"/>
             <LayoutButtons Face="Attack" Type="AbilCmd" AbilCmd="attack,Execute" Row="0" Column="4"/>
+            <LayoutButtons Face="MultiPlayerCollectionSentryHarmonyAnchor" Type="AbilCmd" AbilCmd="MultiPlayerCollectionSentryHarmonyAnchor,Execute" Row="1" Column="0"/>
             <LayoutButtons Face="Rally" Type="AbilCmd" AbilCmd="ProgressRally,Rally1" Row="1" Column="4"/>
             <LayoutButtons Face="MultiPlayerCollectionForceField" Type="AbilCmd" AbilCmd="MultiPlayerCollectionForceField,Execute" Row="2" Column="0"/>
             <LayoutButtons Face="MultiPlayerCollectionGuardianShield" Type="AbilCmd" AbilCmd="MultiPlayerCollectionGuardianShield,Execute" Row="2" Column="1"/>
@@ -548,6 +550,7 @@
         <AbilArray Link="stop"/>
         <AbilArray Link="move"/>
         <AbilArray Link="MultiPlayerCollectionPsiStorm"/>
+        <AbilArray Link="MultiPlayerCollectionHighTemplarHarmonyStorm"/>
         <AbilArray Link="MultiPlayerCollectionArchonWarp"/>
         <AbilArray Link="MultiPlayerCollectionWarpable"/>
         <AbilArray Link="ProgressRally"/>
@@ -564,6 +567,7 @@
             <LayoutButtons Face="MovePatrol" Type="AbilCmd" AbilCmd="move,Patrol" Row="0" Column="3"/>
             <LayoutButtons Face="Attack" Type="AbilCmd" AbilCmd="attack,Execute" Row="0" Column="4"/>
             <LayoutButtons Face="AcquireMove" Type="AbilCmd" AbilCmd="move,AcquireMove" Row="0" Column="4"/>
+            <LayoutButtons Face="MultiPlayerCollectionHighTemplarHarmonyStorm" Type="AbilCmd" AbilCmd="MultiPlayerCollectionHighTemplarHarmonyStorm,Execute" Row="1" Column="0"/>
             <LayoutButtons Face="Rally" Type="AbilCmd" AbilCmd="ProgressRally,Rally1" Row="2" Column="4"/>
             <LayoutButtons Face="MultiPlayerCollectionArchonWarpTarget" Type="AbilCmd" AbilCmd="MultiPlayerCollectionArchonWarp,SelectedUnits" Row="2" Column="3"/>
             <LayoutButtons Face="MultiPlayerCollectionPsiStorm" Type="AbilCmd" AbilCmd="MultiPlayerCollectionPsiStorm,Execute" Row="2" Column="1"/>
@@ -639,6 +643,7 @@
         <AbilArray Link="MultiPlayerCollectionArchonWarp"/>
         <AbilArray Link="ProgressRally"/>
         <AbilArray Link="MultiPlayerCollectionDarkTemplarBlink"/>
+        <AbilArray Link="MultiPlayerCollectionDarkTemplarHarmonyAmbush"/>
         <BehaviorArray Link="MultiPlayerCollectionDTAssassinateOnHit"/>
         <BehaviorArray Link="MultiPlayerCollectionDarkTemplarAssassinStride"/>
         <BehaviorArray Link="MultiPlayerCollectionShieldBatteryRechargeEligible"/>
@@ -649,6 +654,7 @@
             <LayoutButtons Face="MoveHoldPosition" Type="AbilCmd" AbilCmd="move,HoldPos" Row="0" Column="2"/>
             <LayoutButtons Face="Attack" Type="AbilCmd" AbilCmd="attack,Execute" Row="0" Column="4"/>
             <LayoutButtons Face="MovePatrol" Type="AbilCmd" AbilCmd="move,Patrol" Row="0" Column="3"/>
+            <LayoutButtons Face="MultiPlayerCollectionDarkTemplarHarmonyAmbush" Type="AbilCmd" AbilCmd="MultiPlayerCollectionDarkTemplarHarmonyAmbush,Execute" Row="1" Column="0"/>
             <LayoutButtons Face="Rally" Type="AbilCmd" AbilCmd="ProgressRally,Rally1" Row="2" Column="4"/>
             <LayoutButtons Face="MultiPlayerCollectionArchonWarpSource" Type="AbilCmd" AbilCmd="MultiPlayerCollectionArchonWarp,SelectedUnits" Row="2" Column="3"/>
             <LayoutButtons Face="MultiPlayerCollectionDarkTemplarPermanentlyCloaked" Type="Passive" Row="2" Column="0"/>
@@ -1065,6 +1071,7 @@
         <AbilArray Link="ProgressRally"/>
         <AbilArray Link="MultiPlayerCollectionAdeptPhaseShift"/>
         <AbilArray Link="MultiPlayerCollectionAdeptPhaseShiftCancel"/>
+        <AbilArray Link="MultiPlayerCollectionAdeptHarmonyEcho"/>
         <BehaviorArray Link="MultiPlayerCollectionAdeptResonatingFocus"/>
         <BehaviorArray Link="MultiPlayerCollectionAdeptStride"/>
         <BehaviorArray Link="MultiPlayerCollectionAdeptShieldResonance"/>
@@ -1076,6 +1083,7 @@
             <LayoutButtons Face="MoveHoldPosition" Type="AbilCmd" AbilCmd="move,HoldPos" Row="0" Column="2"/>
             <LayoutButtons Face="Attack" Type="AbilCmd" AbilCmd="attack,Execute" Row="0" Column="4"/>
             <LayoutButtons Face="MovePatrol" Type="AbilCmd" AbilCmd="move,Patrol" Row="0" Column="3"/>
+            <LayoutButtons Face="MultiPlayerCollectionAdeptHarmonyEcho" Type="AbilCmd" AbilCmd="MultiPlayerCollectionAdeptHarmonyEcho,Execute" Row="1" Column="0"/>
             <LayoutButtons Face="MultiPlayerCollectionAdeptPhaseShift" Type="AbilCmd" AbilCmd="MultiPlayerCollectionAdeptPhaseShift,Execute" Row="2" Column="0"/>
             <LayoutButtons Face="Cancel" Type="AbilCmd" AbilCmd="MultiPlayerCollectionAdeptPhaseShiftCancel,Execute" Row="2" Column="4"/>
             <LayoutButtons Face="Rally" Type="AbilCmd" AbilCmd="ProgressRally,Rally1" Row="1" Column="4"/>
@@ -2523,6 +2531,7 @@
         <AbilArray Link="MultiPlayerCollectionWarpable"/>
         <AbilArray Link="ProgressRally"/>
         <AbilArray Link="MultiPlayerCollectionCharge"/>
+        <AbilArray Link="MultiPlayerCollectionZealotHarmonyStrike"/>
         <BehaviorArray Link="MultiPlayerCollectionZealotBattleFocus"/>
         <BehaviorArray Link="MultiPlayerCollectionZealotWarMarch"/>
         <BehaviorArray Link="MultiPlayerCollectionZealotShieldResolve"/>
@@ -2535,6 +2544,7 @@
             <LayoutButtons Face="Attack" Type="AbilCmd" AbilCmd="attack,Execute" Row="0" Column="4"/>
             <LayoutButtons Face="MovePatrol" Type="AbilCmd" AbilCmd="move,Patrol" Row="0" Column="3"/>
             <LayoutButtons Face="Rally" Type="AbilCmd" AbilCmd="ProgressRally,Rally1" Row="2" Column="4"/>
+            <LayoutButtons Face="MultiPlayerCollectionZealotHarmonyStrike" Type="AbilCmd" AbilCmd="MultiPlayerCollectionZealotHarmonyStrike,Execute" Row="1" Column="0"/>
             <LayoutButtons Face="MultiPlayerCollectionCharge" Type="AbilCmd" AbilCmd="MultiPlayerCollectionCharge,Execute" Row="2" Column="0"/>
             <LayoutButtons Face="MultiPlayerCollectionZealotBattleFocus" Type="Passive" Behavior="MultiPlayerCollectionZealotBattleFocus" Row="2" Column="1"/>
             <LayoutButtons Face="MultiPlayerCollectionZealotWarMarch" Type="Passive" Behavior="MultiPlayerCollectionZealotWarMarch" Row="2" Column="2"/>
@@ -2607,6 +2617,7 @@
         <AbilArray Link="MultiPlayerCollectionWarpable"/>
         <AbilArray Link="ProgressRally"/>
         <AbilArray Link="MultiPlayerCollectionBlink"/>
+        <AbilArray Link="MultiPlayerCollectionStalkerHarmonyBolt"/>
         <BehaviorArray Link="MultiPlayerCollectionStalkerPhaseOptimization"/>
         <BehaviorArray Link="MultiPlayerCollectionStalkerBlinkThrusters"/>
         <BehaviorArray Link="MultiPlayerCollectionStalkerShieldCalibration"/>
@@ -2618,6 +2629,7 @@
             <LayoutButtons Face="MoveHoldPosition" Type="AbilCmd" AbilCmd="move,HoldPos" Row="0" Column="2"/>
             <LayoutButtons Face="Attack" Type="AbilCmd" AbilCmd="attack,Execute" Row="0" Column="4"/>
             <LayoutButtons Face="MovePatrol" Type="AbilCmd" AbilCmd="move,Patrol" Row="0" Column="3"/>
+            <LayoutButtons Face="MultiPlayerCollectionStalkerHarmonyBolt" Type="AbilCmd" AbilCmd="MultiPlayerCollectionStalkerHarmonyBolt,Execute" Row="1" Column="0"/>
             <LayoutButtons Face="Rally" Type="AbilCmd" AbilCmd="ProgressRally,Rally1" Row="2" Column="4"/>
             <LayoutButtons Face="MultiPlayerCollectionBlink" Type="AbilCmd" AbilCmd="MultiPlayerCollectionBlink,Execute" Row="2" Column="0"/>
             <LayoutButtons Face="MultiPlayerCollectionStalkerPhaseOptimization" Type="Passive" Behavior="MultiPlayerCollectionStalkerPhaseOptimization" Row="2" Column="1"/>

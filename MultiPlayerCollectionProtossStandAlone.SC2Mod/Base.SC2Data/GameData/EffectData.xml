@@ -1666,4 +1666,174 @@
         <EffectArray value="MultiPlayerCollectionTempestWeaponGroundLM"/>
         <EffectArray value="MultiPlayerCollectionTempestFrenzyAB"/>
     </CEffectSet>
+    <CEffectApplyBehavior id="MultiPlayerCollectionWarpHarmonyApply">
+        <EditorCategories value="Race:Protoss"/>
+        <WhichUnit Value="Target"/>
+        <Behavior value="MultiPlayerCollectionWarpHarmonyMark"/>
+    </CEffectApplyBehavior>
+    <CEffectSet id="MultiPlayerCollectionWarpHarmonyApplyDouble">
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="MultiPlayerCollectionWarpHarmonyApply"/>
+        <EffectArray value="MultiPlayerCollectionWarpHarmonyApply"/>
+    </CEffectSet>
+    <CEffectDamage id="MultiPlayerCollectionWarpHarmonyBonusDamage1">
+        <EditorCategories value="Race:Protoss"/>
+        <ValidatorArray value="MultiPlayerCollectionWarpHarmonyHasMark"/>
+        <ResponseFlags index="Acquire" value="1"/>
+        <ResponseFlags index="Flee" value="1"/>
+        <Flags index="Notification" value="1"/>
+        <SearchFlags index="CallForHelp" value="1"/>
+        <Amount value="10"/>
+    </CEffectDamage>
+    <CEffectDamage id="MultiPlayerCollectionWarpHarmonyBonusDamage2">
+        <EditorCategories value="Race:Protoss"/>
+        <ValidatorArray value="MultiPlayerCollectionWarpHarmonyMarkTwo"/>
+        <ResponseFlags index="Acquire" value="1"/>
+        <ResponseFlags index="Flee" value="1"/>
+        <Flags index="Notification" value="1"/>
+        <SearchFlags index="CallForHelp" value="1"/>
+        <Amount value="10"/>
+    </CEffectDamage>
+    <CEffectDamage id="MultiPlayerCollectionWarpHarmonyBonusDamage3">
+        <EditorCategories value="Race:Protoss"/>
+        <ValidatorArray value="MultiPlayerCollectionWarpHarmonyMarkThree"/>
+        <ResponseFlags index="Acquire" value="1"/>
+        <ResponseFlags index="Flee" value="1"/>
+        <Flags index="Notification" value="1"/>
+        <SearchFlags index="CallForHelp" value="1"/>
+        <Amount value="10"/>
+    </CEffectDamage>
+    <CEffectDamage id="MultiPlayerCollectionWarpHarmonyBonusDamage4">
+        <EditorCategories value="Race:Protoss"/>
+        <ValidatorArray value="MultiPlayerCollectionWarpHarmonyMarkFour"/>
+        <ResponseFlags index="Acquire" value="1"/>
+        <ResponseFlags index="Flee" value="1"/>
+        <Flags index="Notification" value="1"/>
+        <SearchFlags index="CallForHelp" value="1"/>
+        <Amount value="10"/>
+    </CEffectDamage>
+    <CEffectDamage id="MultiPlayerCollectionWarpHarmonyBonusDamage5">
+        <EditorCategories value="Race:Protoss"/>
+        <ValidatorArray value="MultiPlayerCollectionWarpHarmonyMarkFive"/>
+        <ResponseFlags index="Acquire" value="1"/>
+        <ResponseFlags index="Flee" value="1"/>
+        <Flags index="Notification" value="1"/>
+        <SearchFlags index="CallForHelp" value="1"/>
+        <Amount value="10"/>
+    </CEffectDamage>
+    <CEffectRemoveBehavior id="MultiPlayerCollectionWarpHarmonyRemoveAll">
+        <EditorCategories value="Race:Protoss"/>
+        <WhichUnit Value="Target"/>
+        <BehaviorLink value="MultiPlayerCollectionWarpHarmonyMark"/>
+        <RemoveAll value="1"/>
+    </CEffectRemoveBehavior>
+    <CEffectDamage id="MultiPlayerCollectionZealotHarmonyStrikeDamage">
+        <EditorCategories value="Race:Protoss"/>
+        <Kind value="Melee"/>
+        <ResponseFlags index="Acquire" value="1"/>
+        <ResponseFlags index="Flee" value="1"/>
+        <Flags index="Notification" value="1"/>
+        <SearchFlags index="CallForHelp" value="1"/>
+        <Amount value="15"/>
+    </CEffectDamage>
+    <CEffectSet id="MultiPlayerCollectionZealotHarmonyStrikeSet">
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="MultiPlayerCollectionZealotHarmonyStrikeDamage"/>
+        <EffectArray value="MultiPlayerCollectionWarpHarmonyApply"/>
+    </CEffectSet>
+    <CEffectDamage id="MultiPlayerCollectionStalkerHarmonyBoltDamage">
+        <EditorCategories value="Race:Protoss"/>
+        <Kind value="Ranged"/>
+        <ResponseFlags index="Acquire" value="1"/>
+        <ResponseFlags index="Flee" value="1"/>
+        <Flags index="Notification" value="1"/>
+        <SearchFlags index="CallForHelp" value="1"/>
+        <Amount value="15"/>
+    </CEffectDamage>
+    <CEffectSet id="MultiPlayerCollectionStalkerHarmonyBoltSet">
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="MultiPlayerCollectionStalkerHarmonyBoltDamage"/>
+        <EffectArray value="MultiPlayerCollectionWarpHarmonyBonusDamage1"/>
+        <EffectArray value="MultiPlayerCollectionWarpHarmonyBonusDamage2"/>
+        <EffectArray value="MultiPlayerCollectionWarpHarmonyBonusDamage3"/>
+        <EffectArray value="MultiPlayerCollectionWarpHarmonyBonusDamage4"/>
+        <EffectArray value="MultiPlayerCollectionWarpHarmonyBonusDamage5"/>
+        <EffectArray value="MultiPlayerCollectionWarpHarmonyRemoveAll"/>
+    </CEffectSet>
+    <CEffectEnumArea id="MultiPlayerCollectionSentryHarmonyAnchorSearch">
+        <EditorCategories value="Race:Protoss"/>
+        <ImpactLocation Value="TargetPoint"/>
+        <SearchFilters value="Visible;Enemy"/>
+        <AreaArray Radius="3" Effect="MultiPlayerCollectionWarpHarmonyApplyDouble"/>
+        <SearchFlags index="ExtendByUnitRadius" value="1"/>
+    </CEffectEnumArea>
+    <CEffectDamage id="MultiPlayerCollectionHighTemplarHarmonyStormDamage">
+        <EditorCategories value="Race:Protoss"/>
+        <Kind value="Spell"/>
+        <ResponseFlags index="Acquire" value="1"/>
+        <ResponseFlags index="Flee" value="1"/>
+        <Flags index="Notification" value="1"/>
+        <SearchFlags index="CallForHelp" value="1"/>
+        <Amount value="15"/>
+    </CEffectDamage>
+    <CEffectSet id="MultiPlayerCollectionHighTemplarHarmonyStormConsumeSet">
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="MultiPlayerCollectionWarpHarmonyBonusDamage1"/>
+        <EffectArray value="MultiPlayerCollectionWarpHarmonyBonusDamage2"/>
+        <EffectArray value="MultiPlayerCollectionWarpHarmonyBonusDamage3"/>
+        <EffectArray value="MultiPlayerCollectionWarpHarmonyBonusDamage4"/>
+        <EffectArray value="MultiPlayerCollectionWarpHarmonyBonusDamage5"/>
+        <EffectArray value="MultiPlayerCollectionWarpHarmonyRemoveAll"/>
+    </CEffectSet>
+    <CEffectEnumArea id="MultiPlayerCollectionHighTemplarHarmonyStormSearch">
+        <EditorCategories value="Race:Protoss"/>
+        <ImpactLocation Value="TargetUnit"/>
+        <SearchFilters value="Visible;Enemy"/>
+        <AreaArray Radius="3" Effect="MultiPlayerCollectionHighTemplarHarmonyStormDamage"/>
+        <SearchFlags index="ExtendByUnitRadius" value="1"/>
+    </CEffectEnumArea>
+    <CEffectSet id="MultiPlayerCollectionHighTemplarHarmonyStormSet">
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="MultiPlayerCollectionHighTemplarHarmonyStormSearch"/>
+        <EffectArray value="MultiPlayerCollectionHighTemplarHarmonyStormConsumeSet"/>
+    </CEffectSet>
+    <CEffectTeleport id="MultiPlayerCollectionDarkTemplarHarmonyAmbushTeleport">
+        <EditorCategories value="Race:Protoss"/>
+        <ValidatorArray value="CasterNotFungalGrowthed"/>
+        <WhichUnit Value="Caster"/>
+        <ClearQueuedOrders value="0"/>
+        <PlacementAround Value="TargetUnit"/>
+        <PlacementRange value="1"/>
+        <Range value="8"/>
+        <TargetLocation Value="TargetUnit"/>
+        <TeleportFlags index="TestCliff" value="1"/>
+        <TeleportFlags index="TestFog" value="1"/>
+    </CEffectTeleport>
+    <CEffectDamage id="MultiPlayerCollectionDarkTemplarHarmonyAmbushDamage">
+        <EditorCategories value="Race:Protoss"/>
+        <Kind value="Melee"/>
+        <ResponseFlags index="Acquire" value="1"/>
+        <ResponseFlags index="Flee" value="1"/>
+        <Flags index="Notification" value="1"/>
+        <SearchFlags index="CallForHelp" value="1"/>
+        <Amount value="25"/>
+    </CEffectDamage>
+    <CEffectSet id="MultiPlayerCollectionDarkTemplarHarmonyAmbushSet">
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="MultiPlayerCollectionDarkTemplarHarmonyAmbushTeleport"/>
+        <EffectArray value="MultiPlayerCollectionDarkTemplarHarmonyAmbushDamage"/>
+        <EffectArray value="MultiPlayerCollectionWarpHarmonyBonusDamage1"/>
+        <EffectArray value="MultiPlayerCollectionWarpHarmonyBonusDamage2"/>
+        <EffectArray value="MultiPlayerCollectionWarpHarmonyBonusDamage3"/>
+        <EffectArray value="MultiPlayerCollectionWarpHarmonyBonusDamage4"/>
+        <EffectArray value="MultiPlayerCollectionWarpHarmonyBonusDamage5"/>
+        <EffectArray value="MultiPlayerCollectionWarpHarmonyRemoveAll"/>
+    </CEffectSet>
+    <CEffectEnumArea id="MultiPlayerCollectionAdeptHarmonyEchoSearch">
+        <EditorCategories value="Race:Protoss"/>
+        <ImpactLocation Value="TargetUnit"/>
+        <SearchFilters value="Visible;Enemy"/>
+        <AreaArray MaxCount="3" Radius="4" Effect="MultiPlayerCollectionWarpHarmonyApply"/>
+        <SearchFlags index="ExtendByUnitRadius" value="1"/>
+    </CEffectEnumArea>
 </Catalog>
