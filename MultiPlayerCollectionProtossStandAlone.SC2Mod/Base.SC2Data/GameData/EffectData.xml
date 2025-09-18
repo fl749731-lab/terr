@@ -1763,7 +1763,7 @@
     <CEffectEnumArea id="MultiPlayerCollectionSentryHarmonyAnchorSearch">
         <EditorCategories value="Race:Protoss"/>
         <ImpactLocation Value="TargetPoint"/>
-        <SearchFilters value="Visible;Enemy,Neutral"/>
+        <SearchFilters value="Visible;Enemy"/>
         <AreaArray Radius="3" Effect="MultiPlayerCollectionWarpHarmonyApplyDouble"/>
         <SearchFlags index="ExtendByUnitRadius" value="1"/>
     </CEffectEnumArea>
@@ -1789,7 +1789,7 @@
     <CEffectEnumArea id="MultiPlayerCollectionHighTemplarHarmonyStormSearch">
         <EditorCategories value="Race:Protoss"/>
         <ImpactLocation Value="TargetUnit"/>
-        <SearchFilters value="Visible;Enemy,Neutral"/>
+        <SearchFilters value="Visible;Enemy"/>
         <AreaArray Radius="3" Effect="MultiPlayerCollectionHighTemplarHarmonyStormImpactSet"/>
         <SearchFlags index="ExtendByUnitRadius" value="1"/>
     </CEffectEnumArea>
@@ -1828,7 +1828,7 @@
     <CEffectEnumArea id="MultiPlayerCollectionAdeptHarmonyEchoSearch">
         <EditorCategories value="Race:Protoss"/>
         <ImpactLocation Value="TargetUnit"/>
-        <SearchFilters value="Visible;Enemy,Neutral"/>
+        <SearchFilters value="Visible;Enemy"/>
         <AreaArray MaxCount="3" Radius="4" Effect="MultiPlayerCollectionWarpHarmonyApply"/>
         <SearchFlags index="ExtendByUnitRadius" value="1"/>
     </CEffectEnumArea>
