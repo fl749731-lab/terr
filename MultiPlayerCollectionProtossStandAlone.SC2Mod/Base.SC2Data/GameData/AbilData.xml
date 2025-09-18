@@ -1045,7 +1045,7 @@
         <Cost>
             <Cooldown TimeUse="12"/>
         </Cost>
-        <TargetFilters value="Visible;Self,Player,Ally,Neutral,Missile,Destructible,Stasis,Dead,Hidden,Invulnerable"/>
+        <TargetFilters value="Visible;Enemy,Neutral,Destructible"/>
         <Range value="1.5"/>
         <Arc value="360"/>
         <CmdButtonArray index="Execute" DefaultButtonFace="MultiPlayerCollectionZealotHarmonyStrike"/>
@@ -1058,7 +1058,7 @@
         <Cost>
             <Cooldown TimeUse="14"/>
         </Cost>
-        <TargetFilters value="Visible;Self,Player,Ally,Neutral,Missile,Destructible,Stasis,Dead,Hidden,Invulnerable"/>
+        <TargetFilters value="Visible;Enemy,Neutral,Destructible"/>
         <Range value="6"/>
         <ValidatorArray value="MultiPlayerCollectionWarpHarmonyHasMark"/>
         <CmdButtonArray index="Execute" DefaultButtonFace="MultiPlayerCollectionStalkerHarmonyBolt"/>
@@ -1085,7 +1085,7 @@
             <Vital index="Energy" value="75"/>
             <Cooldown TimeUse="15"/>
         </Cost>
-        <TargetFilters value="Visible;Self,Player,Ally,Neutral,Missile,Destructible,Stasis,Dead,Hidden,Invulnerable"/>
+        <TargetFilters value="Visible;Enemy,Neutral,Destructible"/>
         <Range value="9"/>
         <ValidatorArray value="MultiPlayerCollectionWarpHarmonyHasMark"/>
         <CmdButtonArray index="Execute" DefaultButtonFace="MultiPlayerCollectionHighTemplarHarmonyStorm"/>
@@ -1098,7 +1098,7 @@
         <Cost>
             <Cooldown TimeUse="14"/>
         </Cost>
-        <TargetFilters value="Visible;Self,Player,Ally,Neutral,Missile,Destructible,Stasis,Dead,Hidden,Invulnerable"/>
+        <TargetFilters value="Visible;Enemy,Neutral,Destructible"/>
         <Range value="7"/>
         <ValidatorArray value="MultiPlayerCollectionWarpHarmonyHasMark"/>
         <CmdButtonArray index="Execute" DefaultButtonFace="MultiPlayerCollectionDarkTemplarHarmonyAmbush"/>
@@ -1111,7 +1111,7 @@
         <Cost>
             <Cooldown TimeUse="12"/>
         </Cost>
-        <TargetFilters value="Visible;Self,Player,Ally,Neutral,Missile,Destructible,Stasis,Dead,Hidden,Invulnerable"/>
+        <TargetFilters value="Visible;Enemy,Neutral,Destructible"/>
         <Range value="6"/>
         <ValidatorArray value="MultiPlayerCollectionWarpHarmonyHasMark"/>
         <CmdButtonArray index="Execute" DefaultButtonFace="MultiPlayerCollectionAdeptHarmonyEcho"/>
