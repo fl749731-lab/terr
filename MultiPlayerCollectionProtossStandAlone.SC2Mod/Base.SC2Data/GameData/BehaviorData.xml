@@ -1339,4 +1339,11 @@
             <VitalRegenArray index="Energy" value="0.2"/>
         </Modification>
     </CBehaviorBuff>
+    <CBehaviorBuff id="MultiPlayerCollectionWarpHarmonyMark">
+        <EditorCategories value="Race:Protoss"/>
+        <Alignment value="Negative"/>
+        <MaxStackCount value="5"/>
+        <Duration value="10"/>
+        <Icon value="Assets\\Textures\\BTN-Ability-Protoss-VoidRayPrismaticAlignment.dds"/>
+    </CBehaviorBuff>
 </Catalog>

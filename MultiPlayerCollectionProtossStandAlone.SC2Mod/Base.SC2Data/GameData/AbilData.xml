@@ -1037,4 +1037,83 @@
         <EffectArray index="Finish" value="MultiPlayerCollectionOracleStasisTrapBuildBeamOff"/>
         <EffectArray index="Cancel" value="MultiPlayerCollectionOracleStasisTrapBuildBeamOff"/>
     </CAbilBuild>
+    <CAbilEffectTarget id="MultiPlayerCollectionZealotHarmonyStrike">
+        <Alignment value="Negative"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Effect index="0" value="MultiPlayerCollectionZealotHarmonyStrikeSet"/>
+        <Flags index="AllowMovement" value="1"/>
+        <Cost>
+            <Cooldown TimeUse="12"/>
+        </Cost>
+        <TargetFilters value="Visible;Enemy,Neutral,Destructible"/>
+        <Range value="1.5"/>
+        <Arc value="360"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="MultiPlayerCollectionZealotHarmonyStrike"/>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="MultiPlayerCollectionStalkerHarmonyBolt">
+        <Alignment value="Negative"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Effect index="0" value="MultiPlayerCollectionStalkerHarmonyBoltSet"/>
+        <Flags index="AllowMovement" value="1"/>
+        <Cost>
+            <Cooldown TimeUse="14"/>
+        </Cost>
+        <TargetFilters value="Visible;Enemy,Neutral,Destructible"/>
+        <Range value="6"/>
+        <ValidatorArray value="MultiPlayerCollectionWarpHarmonyHasMark"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="MultiPlayerCollectionStalkerHarmonyBolt"/>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="MultiPlayerCollectionSentryHarmonyAnchor">
+        <Alignment value="Negative"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Effect index="0" value="MultiPlayerCollectionSentryHarmonyAnchorSearch"/>
+        <Flags index="AllowMovement" value="1"/>
+        <Cost>
+            <Vital index="Energy" value="50"/>
+            <Cooldown TimeUse="16"/>
+        </Cost>
+        <Range value="7"/>
+        <Arc value="360"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="MultiPlayerCollectionSentryHarmonyAnchor"/>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="MultiPlayerCollectionHighTemplarHarmonyStorm">
+        <Alignment value="Negative"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Effect index="0" value="MultiPlayerCollectionHighTemplarHarmonyStormSearch"/>
+        <Flags index="AllowMovement" value="1"/>
+        <Cost>
+            <Vital index="Energy" value="75"/>
+            <Cooldown TimeUse="15"/>
+        </Cost>
+        <TargetFilters value="Visible;Enemy,Neutral,Destructible"/>
+        <Range value="9"/>
+        <ValidatorArray value="MultiPlayerCollectionWarpHarmonyHasMark"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="MultiPlayerCollectionHighTemplarHarmonyStorm"/>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="MultiPlayerCollectionDarkTemplarHarmonyAmbush">
+        <Alignment value="Negative"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Effect index="0" value="MultiPlayerCollectionDarkTemplarHarmonyAmbushSet"/>
+        <Flags index="AllowMovement" value="1"/>
+        <Cost>
+            <Cooldown TimeUse="14"/>
+        </Cost>
+        <TargetFilters value="Visible;Enemy,Neutral,Destructible"/>
+        <Range value="7"/>
+        <ValidatorArray value="MultiPlayerCollectionWarpHarmonyHasMark"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="MultiPlayerCollectionDarkTemplarHarmonyAmbush"/>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="MultiPlayerCollectionAdeptHarmonyEcho">
+        <Alignment value="Negative"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Effect index="0" value="MultiPlayerCollectionAdeptHarmonyEchoSearch"/>
+        <Flags index="AllowMovement" value="1"/>
+        <Cost>
+            <Cooldown TimeUse="12"/>
+        </Cost>
+        <TargetFilters value="Visible;Enemy,Neutral,Destructible"/>
+        <Range value="6"/>
+        <ValidatorArray value="MultiPlayerCollectionWarpHarmonyHasMark"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="MultiPlayerCollectionAdeptHarmonyEcho"/>
+    </CAbilEffectTarget>
 </Catalog>
