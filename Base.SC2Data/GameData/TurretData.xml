@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CTurret id="CarrierTurretCenterG">
+        <YawArc value="29.9926"/>
+        <YawRate value="999.8437"/>
+        <YawIdleRate value="360"/>
+        <Fidget TurnAngle="0" TurningRate="0">
+            <ChanceArray index="Anim" value="0"/>
+            <ChanceArray index="Idle" value="0"/>
+            <ChanceArray index="Turn" value="0"/>
+        </Fidget>
+    </CTurret>
+    <CTurret id="KhaydarinMonolithG">
+        <Idle value="Spin"/>
+        <YawArc value="360"/>
+        <YawRate value="720"/>
+        <YawIdleRate value="14.9414"/>
+        <Fidget DelayMax="30" DelayMin="10"/>
+    </CTurret>
+    <CTurret id="NexusG">
+        <Idle value="Hold"/>
+        <YawArc value="360"/>
+        <YawRate value="1499.9414"/>
+        <Fidget DelayMax="30" DelayMin="10"/>
+    </CTurret>
+    <CTurret id="TempestTurretCenterG">
+        <YawArc value="29.9926"/>
+        <YawRate value="999.8437"/>
+        <YawIdleRate value="360"/>
+        <Fidget TurnAngle="0" TurningRate="0">
+            <ChanceArray index="Anim" value="0"/>
+            <ChanceArray index="Idle" value="0"/>
+            <ChanceArray index="Turn" value="0"/>
+        </Fidget>
+    </CTurret>
+    <CTurret id="CarrierTurretLeftG">
+        <YawStart value="-90"/>
+        <YawArc value="74.9926"/>
+        <YawRate value="999.8437"/>
+        <YawIdleRate value="360"/>
+        <Fidget TurnAngle="0" TurningRate="0">
+            <ChanceArray index="Anim" value="0"/>
+            <ChanceArray index="Idle" value="0"/>
+            <ChanceArray index="Turn" value="0"/>
+        </Fidget>
+    </CTurret>
+    <CTurret id="CarrierTurretRightG">
+        <YawStart value="90"/>
+        <YawArc value="74.9926"/>
+        <YawRate value="999.8437"/>
+        <YawIdleRate value="360"/>
+        <Fidget TurnAngle="0" TurningRate="0">
+            <ChanceArray index="Anim" value="0"/>
+            <ChanceArray index="Idle" value="0"/>
+            <ChanceArray index="Turn" value="0"/>
+        </Fidget>
+    </CTurret>
+    <CTurret id="ColossusG">
+        <Idle value="FollowMovement"/>
+        <YawArc value="360"/>
+        <YawRate value="999.8437"/>
+        <YawIdleRate value="90"/>
+        <Fidget DelayMax="30" DelayMin="10"/>
+    </CTurret>
+    <CTurret id="CarrierTurretG">
+        <YawArc value="29.9926"/>
+        <YawRate value="999.8437"/>
+        <Fidget TurnAngle="0" TurningRate="0">
+            <ChanceArray index="Anim" value="0"/>
+            <ChanceArray index="Idle" value="0"/>
+            <ChanceArray index="Turn" value="0"/>
+        </Fidget>
+    </CTurret>
+    <CTurret id="WarpPrismPhasingRotateG">
+        <Idle value="Spin"/>
+        <YawArc value="360"/>
+        <YawRate value="71.8945"/>
+        <YawIdleRate value="-71.8945"/>
+        <Fidget DelayMax="30" DelayMin="10"/>
+    </CTurret>
+    <CTurret id="WarpPrismPhasingRotateGT">
+        <Idle value="Spin"/>
+        <YawArc value="360"/>
+        <YawRate value="45"/>
+        <YawIdleRate value="45"/>
+        <Fidget DelayMax="30" DelayMin="10"/>
+    </CTurret>
+</Catalog>

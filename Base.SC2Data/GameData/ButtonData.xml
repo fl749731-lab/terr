@@ -1,0 +1,2319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CButton id="AWrpGA">
+        <Icon value="Assets\Textures\btn-unit-protoss-archon-upgraded.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-archon-upgraded.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Universal value="1"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="AdeptGT">
+        <Icon value="Assets\Textures\btn-unit-protoss-adept-golden.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-adept-golden.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Universal value="1"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ProbeAdvGP">
+        <Icon value="Assets\Textures\btn-ability-protoss-prodigalengineer.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-prodigalengineer.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ProbeGP">
+        <Icon value="Assets\Textures\btn-unit-protoss-probe-golden.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-probe-golden.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ProbeRepairGP">
+        <Icon value="Assets\Textures\btn-upgrade-swann-improvednanorepair.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-swann-improvednanorepair.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ZealotForceOfWillG">
+        <Icon value="Assets\Textures\btn-ability-protoss-forceofwill.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-forceofwill.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="DarkTemplarWeaponGL">
+        <Icon value="Assets\Textures\btn-ability-protoss-avenger-retribution.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-avenger-retribution.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ColossusScatterCannonG">
+        <Icon value="Assets\Textures\btn-ability-protoss-scattercannonG.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-scattercannonG.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ProbeSensorGP">
+        <Icon value="Assets\Textures\btn-ability-zeratul-observer-sensorarray.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-zeratul-observer-sensorarray.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ReaverScarabsGR">
+        <Icon value="Assets\Textures\BTN-Ability-Protoss-ScarabShot.dds"/>
+        <AlertIcon value="Assets\Textures\BTN-Ability-Protoss-ScarabShot.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="RoboticsBayUpgradeG">
+        <Icon value="Assets\Textures\talent-artanis-level09-roboticsbayresearchbundleG.dds"/>
+        <AlertIcon value="Assets\Textures\talent-artanis-level09-roboticsbayresearchbundleG.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="HealingPsionicStormGK">
+        <Icon value="Assets\Textures\btn-upgrade-artanis-healingpsionicstorm.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-artanis-healingpsionicstorm.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="HighTemplarGK">
+        <Icon value="Assets\Textures\btn-unit-protoss-hightemplar-golden.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-hightemplar-golden.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Universal value="1"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="CannonFrenzyG">
+        <Icon value="Assets\Textures\btn-ability-spearofadun-chronosurge.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-spearofadun-chronosurge.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ImmortalATAWeaponGAG">
+        <Icon value="Assets\Textures\btn-upgrade-protoss-fenix-dragoonsolariteflareG.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-protoss-fenix-dragoonsolariteflareG.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ImmortalGA">
+        <Icon value="Assets\Textures\btn-unit-collection-adun-immortal.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-collection-adun-immortal.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ImmortalTaldarimScatterCannonGP">
+        <Icon value="Assets\Textures\btn-ability-protoss-scattercannonG.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-scattercannonG.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ImmortalyygyGP">
+        <Icon value="Assets\Textures\btn-ability-protoss-adept-spiritform.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-adept-spiritform.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="LNHXGK">
+        <Icon value="Assets\Textures\btn-ability-protoss-hallucination-color.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-hallucination-color.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="MothershipCoreGuardianG">
+        <Icon value="Assets\Textures\btn-ability-spearofadun-guardianshell.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-spearofadun-guardianshell.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="OrbitalScanG">
+        <Icon value="Assets\Textures\btn-upgrade-protoss-alarak-cyberneticscoreG.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-protoss-alarak-cyberneticscoreG.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ForgeShieldG">
+        <Icon value="Assets\Textures\btn-ability-spearofadun-shieldovercharge.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-spearofadun-shieldovercharge.dds"/>
+        <EditorCategories value="Race:Critter"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="CyberneticsCoreUpgradeG">
+        <Icon value="Assets\Textures\btn-upgrade-protoss-alarak-cyberneticscoreG.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-protoss-alarak-cyberneticscoreG.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="HydraliskG">
+        <Icon value="Assets\Textures\btn-unit-zerg-hydralisk-rczG.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-zerg-hydralisk-rczG.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ImmortalOverloadGA">
+        <Icon value="Assets\Textures\btn-ability-protoss-barrier-upgraded.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-barrier-upgraded.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ImmortalyygyGA">
+        <Icon value="Assets\Textures\btn-ability-protoss-adept-spiritform.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-adept-spiritform.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ImmortalArmorGA">
+        <Icon value="Assets\Textures\BTN-Ability-Protoss-DragoonChassis.dds"/>
+        <AlertIcon value="Assets\Textures\BTN-Ability-Protoss-DragoonChassis.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ImmortalAdvGA">
+        <Icon value="Assets\Textures\talent-artanis-level14-startingmaxsupplyG.dds"/>
+        <AlertIcon value="Assets\Textures\talent-artanis-level14-startingmaxsupplyG.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="HydraliskFrenzyG">
+        <Icon value="Assets\Textures\btn-ability-spearofadun-chronosurge.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-spearofadun-chronosurge.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="HydraliskMetabolicBoostG">
+        <Icon value="Assets\Textures\btn-upgrade-stetmann-mechamuscularaugmentsG.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-stetmann-mechamuscularaugmentsG.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ImmortalATAWeaponGA">
+        <Icon value="Assets\Textures\btn-ability-terran-ignorearmorG.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-ignorearmorG.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="PsiStormGK">
+        <Icon value="Assets\Textures\btn-ability-zeratul-avatarofform-psionicgale.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-zeratul-avatarofform-psionicgale.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="RoachG">
+        <Icon value="Assets\Textures\btn-unit-collection-roachupgrade-mechaG.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-collection-roachupgrade-mechaG.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="RoachWeaponOffG">
+        <Icon value="Assets\Textures\btn-command-cancel.dds"/>
+        <AlertIcon value="Assets\Textures\btn-command-cancel.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <TintRacially value="1"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="RoachWeaponOnG">
+        <Icon value="Assets\Textures\btn-weapon-protoss-ground.dds"/>
+        <AlertIcon value="Assets\Textures\btn-weapon-protoss-ground.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <TintRacially value="1"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="RoachPlasmaDeathG">
+        <Icon value="Assets\Textures\btn-upgrade-terran-plasmashot.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-terran-plasmashot.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="RoachMetabolicBoostG">
+        <Icon value="Assets\Textures\btn-upgrade-stetmann-mechapneumatizedcarapaceG.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-stetmann-mechapneumatizedcarapaceG.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="RoachOverloadG">
+        <Icon value="Assets\Textures\btn-ability-protoss-barrier-upgraded.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-barrier-upgraded.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="RoachShieldArmorG">
+        <Icon value="Assets\Textures\BTN-Ability-Protoss-DragoonChassis.dds"/>
+        <AlertIcon value="Assets\Textures\BTN-Ability-Protoss-DragoonChassis.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="DragoonArmorGT">
+        <Icon value="Assets\Textures\BTN-Ability-Protoss-DragoonChassis.dds"/>
+        <AlertIcon value="Assets\Textures\BTN-Ability-Protoss-DragoonChassis.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="DragoonAdvGT">
+        <Icon value="Assets\Textures\talent-artanis-level14-startingmaxsupplyG.dds"/>
+        <AlertIcon value="Assets\Textures\talent-artanis-level14-startingmaxsupplyG.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="DragoonCorrosiveBileGT">
+        <Icon value="Assets\Textures\btn-tips-terran-energynova.dds"/>
+        <AlertIcon value="Assets\Textures\btn-tips-terran-energynova.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CButton>
+    <CButton id="DragoonDeathGT">
+        <Icon value="Assets\Textures\btn-upgrade-protoss-researchbosoniccore.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-protoss-researchbosoniccore.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ForgeUpgradeG">
+        <Icon value="Assets\Textures\btn-upgrade-karax-forgeupgradecache.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-karax-forgeupgradecache.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="HeroicShieldInvulnerableDT">
+        <Icon value="Assets\Textures\btn-ability-protoss-hardenedshields-color.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-hardenedshields-color.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="DragoonStimGT">
+        <Icon value="Assets\Textures\BTN-Upgrade-Artanis-SingularityCharge.dds"/>
+        <AlertIcon value="Assets\Textures\BTN-Upgrade-Artanis-SingularityCharge.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="RoachyygyG">
+        <Icon value="Assets\Textures\btn-ability-protoss-adept-spiritform.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-adept-spiritform.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="MetabolicBoostG">
+        <Icon value="Assets\Textures\btn-upgrade-stetmann-mechametabolicboostG.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-stetmann-mechametabolicboostG.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="GoldenSelfRepairG">
+        <Icon value="Assets\Textures\btn-upgrade-swann-improvednanorepair.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-swann-improvednanorepair.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="RoachArmorG">
+        <Icon value="Assets\Textures\btn-upgrade-stetmann-mechachitinousplatingG.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-stetmann-mechachitinousplatingG.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="HydraliskPhasingArmorG">
+        <Icon value="Assets\Textures\btn-ability-stetmann-hydraliskrespawnG.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-stetmann-hydraliskrespawnG.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="HydraliskBlinkMultipleG">
+        <Icon value="Assets\Textures\btn-upgrade-nova-blink.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-nova-blink.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="TempestShieldGH">
+        <Icon value="Assets\Textures\btn-upgrade-karax-unitybarrier.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-karax-unitybarrier.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="HighTemplarAdvGK">
+        <Icon value="Assets\Textures\talent-artanis-level14-startingmaxsupplyG.dds"/>
+        <AlertIcon value="Assets\Textures\talent-artanis-level14-startingmaxsupplyG.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="WarpGateG">
+        <Icon value="Assets\Textures\BTN-Building-Protoss-WarpGate.dds"/>
+        <AlertIcon value="Assets\Textures\BTN-Building-Protoss-WarpGate.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="DarkTemlarAdvGL">
+        <Icon value="Assets\Textures\talent-artanis-level14-startingmaxsupplyG.dds"/>
+        <AlertIcon value="Assets\Textures\talent-artanis-level14-startingmaxsupplyG.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ZerglingG">
+        <Icon value="Assets\Textures\btn-unit-collection-zergling-mechaG.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-collection-zergling-mechaG.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ZerglingAttackSpeedG">
+        <Icon value="Assets\Textures\btn-upgrade-stetmann-mechaadrenalglandsG.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-stetmann-mechaadrenalglandsG.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="MorphtoObserverGE">
+        <Icon value="Assets\Textures\btn-unit-protoss-observer-golden.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-observer-golden.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HotkeySet value="ObserverModes"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="MorphtoObserverSiegeGE">
+        <Icon value="Assets\Textures\btn-unit-protoss-observer-surveillanceG.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-observer-surveillanceG.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HotkeySet value="ObserverModes"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="PhasingModeGT">
+        <Icon value="Assets\Textures\btn-unit-protoss-warpprismstationary-golden.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-warpprismstationary-golden.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HotkeySet value="WarpPrismModes"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="SentryGM">
+        <Icon value="Assets\Textures\btn-unit-protoss-sentry-golden.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-sentry-golden.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Universal value="1"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="AdeptPhaseShiftTeleportGT">
+        <Icon value="Assets\Textures\btn-ability-protoss-psionictransfer.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-psionictransfer.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="AdeptPhaseShiftGT">
+        <Icon value="Assets\Textures\btn-ability-protoss-psionictransfer.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-psionictransfer.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="AdeptSolarBombmentGT">
+        <Icon value="Assets\Textures\btn-ability-spearofadun-solarbombardmentG.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-spearofadun-solarbombardmentG.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="AdeptSolarBombmentAGT">
+        <Icon value="Assets\Textures\btn-ability-spearofadun-solarbombardmentG.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-spearofadun-solarbombardmentG.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="HeroGuardianShieldGM">
+        <Icon value="Assets\Textures\btn-ability-spearofadun-guardianshell.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-spearofadun-guardianshell.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ForceFieldGM">
+        <Icon value="Assets\Textures\BTN-Ability-protoss-forcefield-color.dds"/>
+        <AlertIcon value="Assets\Textures\BTN-Ability-protoss-forcefield-color.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="MothershipCoreG">
+        <Icon value="Assets\Textures\btn-unit-protoss-mothershipcore.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-mothership.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="PhoenixWeaponOffG">
+        <Icon value="Assets\Textures\btn-command-cancel.dds"/>
+        <AlertIcon value="Assets\Textures\btn-command-cancel.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <TintRacially value="1"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="PhoenixWeaponOnG">
+        <Icon value="Assets\Textures\btn-ability-protoss-phasemine-zeratul.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-phasemine-zeratul.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <TintRacially value="1"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="PhoenixResurgenceG">
+        <Icon value="Assets\Textures\btn-ability-zeratul-supressioncrystal-supressionfield.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-zeratul-supressioncrystal-supressionfield.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="MothershipCoreRecallG">
+        <Icon value="Assets\Textures\btn-ability-protoss-wormholetransit-color.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-wormholetransit-color.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ArtanisForceOfWillG">
+        <Icon value="Assets\Textures\btn-ability-protoss-forceofwill.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-forceofwill.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="AutomatedAssimilatorG">
+        <Icon value="Assets\Textures\btn-building-protoss-assimilator.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-protoss-assimilator.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ChargeGK">
+        <Icon value="Assets\Textures\btn-ability-protoss-lightningdash.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-lightningdash.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="CliffWalkG">
+        <Icon value="Assets\Textures\BTN-ability-Protoss-cliffwalk-color.dds"/>
+        <AlertIcon value="Assets\Textures\BTN-ability-Protoss-cliffwalk-color.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="MothershipCoreCloakingFieldG">
+        <Icon value="Assets\Textures\btn-ability-protoss-cloakfield-color.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-cloakfield-color.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="DetectorGolden">
+        <Icon value="Assets\Textures\btn-upgrade-protoss-fenix-arbiterchampiondetectionresearchG.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-protoss-fenix-arbiterchampiondetectionresearchG.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="MothershipCoreMassRecallG">
+        <Icon value="Assets\Textures\btn-ability-spearofadun-warpharmonization.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-spearofadun-warpharmonization.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ObserverSpeedBoostG">
+        <Icon value="Assets\Textures\btn-upgrade-protoss-graviticbooster.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-protoss-graviticbooster.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="MorphtoObserverG">
+        <Icon value="Assets\Textures\btn-unit-protoss-observer-golden.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-observer-golden.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HotkeySet value="ObserverModes"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="MorphtoObserverSiegeG">
+        <Icon value="Assets\Textures\btn-unit-protoss-observer-surveillanceG.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-observer-surveillanceG.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HotkeySet value="ObserverModes"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ObserverSensorG">
+        <Icon value="Assets\Textures\btn-ability-zeratul-observer-sensorarray.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-zeratul-observer-sensorarray.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ObserverScanG">
+        <Icon value="Assets\Textures\btn-upgrade-protoss-purifier-sentry-optimizedemitters.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-protoss-purifier-sentry-optimizedemitters.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ObserverEMPG">
+        <Icon value="Assets\Textures\btn-ability-protoss-envision.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-envision.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="CoreTemporalFieldG">
+        <Icon value="Assets\Textures\btn-ability-protoss-timewarp-BlueG.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-timewarp-BlueG.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="CorsairPhasingArmorG">
+        <Icon value="Assets\Textures\btn-upgrade-vorazun-corsairpermanentlycloakedG.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-vorazun-corsairpermanentlycloakedG.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="SentryRepairGM">
+        <Icon value="Assets\Textures\btn-upgrade-swann-improvednanorepair.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-swann-improvednanorepair.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ShadowBladeG">
+        <Icon value="Assets\Textures\btn-ability-protoss-avenger-retribution.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-avenger-retribution.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="TempestChargeG">
+        <Icon value="Assets\Textures\btn-upgrade-protoss-phoenixrange.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-protoss-phoenixrange.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="TempestShieldGD">
+        <Icon value="Assets\Textures\btn-upgrade-karax-unitybarrier.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-karax-unitybarrier.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="TransportModeGT">
+        <Icon value="Assets\Textures\btn-unit-protoss-warpprism-golden.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-warpprism-golden.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HotkeySet value="WarpPrismModes"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="TurnG">
+        <Icon value="Assets\Textures\btn-command-returncargo.dds"/>
+        <AlertIcon value="Assets\Textures\btn-command-returncargo.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Universal value="1"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ScoutPhasingArmorG">
+        <Icon value="Assets\Textures\btn-ability-protoss-phaseshift2.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-phaseshift2.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="VoidRayCoreResetG">
+        <Icon value="Assets\Textures\btn-ability-protoss-voidrayprismaticalignment.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-voidrayprismaticalignment.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="VoidSentryShieldRepairGM">
+        <Icon value="Assets\Textures\btn-ability-protoss-doubleshieldrecharge.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-doubleshieldrecharge.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="VoidStalkerDragoonWeaponGT">
+        <Icon value="Assets\Textures\BTN-Ability-Protoss-PhaseDisruptor.dds"/>
+        <AlertIcon value="Assets\Textures\BTN-Ability-Protoss-PhaseDisruptor.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="DarkTemplarWhirlwindG">
+        <Icon value="Assets\Textures\BTN-Ability-Protoss-Whirlwind.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ZeaglingChargeG">
+        <Icon value="Assets\Textures\btn-ability-protoss-charge-color.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-charge-color.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ZerglingWhirlwindG">
+        <Icon value="Assets\Textures\BTN-Ability-Protoss-Whirlwind.dds"/>
+        <AlertIcon value="Assets\Textures\BTN-Ability-Protoss-Whirlwind.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="WelkinPartMothershipG">
+        <Icon value="Assets\Textures\btn-ability-protoss-adept-spiritform.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-adept-spiritform.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="WarpPrismSpeedBoostG">
+        <Icon value="Assets\Textures\btn-upgrade-protoss-graviticbooster.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-protoss-graviticbooster.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ProbeRepairG">
+        <Icon value="Assets\Textures\btn-upgrade-swann-improvednanorepair.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-swann-improvednanorepair.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Universal value="1"/>
+    </CButton>
+    <CButton id="StalkerGS">
+        <Icon value="Assets\Textures\btn-unit-protoss-stalker-golden.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-stalker-golden.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Universal value="1"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="StoneZealotyygyG">
+        <Icon value="Assets\Textures\btn-ability-protoss-adept-spiritform.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-adept-spiritform.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="DarkTemplarG">
+        <Icon value="Assets\Textures\btn-unit-protoss-avenger-ds-00-base.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-avenger-ds-00-base.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="DarkTemplarGSneakAndFight">
+        <Icon value="Assets\Textures\talent-vorazun-level14-cloakedunitdamageboostG.dds"/>
+        <AlertIcon value="Assets\Textures\talent-vorazun-level14-cloakedunitdamageboostG.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="CloakReHeal">
+        <Icon value="Assets\Textures\talent-vorazun-level01-shadowstalkG.dds"/>
+        <AlertIcon value="Assets\Textures\talent-vorazun-level01-shadowstalkG.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="DragoonDeathG">
+        <Icon value="Assets\Textures\btn-upgrade-terran-plasmashot.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-terran-plasmashot.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="DragoonExplodeGP">
+        <Icon value="Assets\Textures\btn-upgrade-artanis-singularitycharge.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-artanis-singularitycharge.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CButton>
+    <CButton id="BuildDragoonMineG">
+        <Icon value="Assets\Textures\btn-upgrade-artanis-singularitycharge.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-artanis-singularitycharge.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CButton>
+    <CButton id="ImmortalyygyG">
+        <Icon value="Assets\Textures\btn-ability-protoss-adept-spiritform.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-adept-spiritform.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ImmortalDeathG">
+        <Icon value="Assets\Textures\btn-upgrade-terran-plasmashot.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-terran-plasmashot.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="DragoonCorrosiveBileG">
+        <Icon value="Assets\Textures\btn-tips-terran-energynova.dds"/>
+        <AlertIcon value="Assets\Textures\btn-tips-terran-energynova.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CButton>
+    <CButton id="DarkTemplarSolarBombardmentG">
+        <Icon value="Assets\Textures\btn-ability-spearofadun-solarbombardmentG.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-spearofadun-solarbombardmentG.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ImmortalATAWeaponG">
+        <Icon value="Assets\Textures\btn-ability-terran-ignorearmorG.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-ignorearmorG.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ColossusyygyG">
+        <Icon value="Assets\Textures\btn-ability-protoss-adept-spiritform.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-adept-spiritform.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ExterminatusG">
+        <Icon value="Assets\Textures\btn-upgrade-karax_solarlance.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-karax_solarlance.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="DragoonBombG">
+        <Icon value="Assets\Textures\btn-upgrade-artanis-scarabsplashradius.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-artanis-scarabsplashradius.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ReaverServitDronesG">
+        <Icon value="Assets\Textures\btn-ability-protoss-carrierrepairdrones.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-carrierrepairdrones.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="AdeptServitDronesGS">
+        <Icon value="Assets\Textures\btn-ability-protoss-carrierrepairdrones.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-carrierrepairdrones.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ServitorsG">
+        <Icon value="Assets\Textures\btn-ability-protoss-carrierrepairdrones.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-carrierrepairdrones.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="BlinkGS">
+        <Icon value="Assets\Textures\btn-upgrade-nova-blink.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-nova-blink.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="AdeptAdvGT">
+        <Icon value="Assets\Textures\talent-artanis-level14-startingmaxsupplyG.dds"/>
+        <AlertIcon value="Assets\Textures\talent-artanis-level14-startingmaxsupplyG.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="StalkerAttackWeaponGSPH">
+        <Icon value="Assets\Textures\btn-ability-protoss-prismaticbeam-color.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-prismaticbeam-color.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="StoneZealotMagicResistanceG">
+        <Icon value="Assets\Textures\btn-ability-protoss-energize.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-energize.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="StoneZealotArmorGS">
+        <Icon value="Assets\Textures\btn-upgrade-protoss-groundarmorlevel3.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-protoss-groundarmorlevel3.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="SuperWarpGateGateWay">
+        <Icon value="Assets\Textures\btn-building-protoss-gateway.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-protoss-gateway.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="SuperWarpGateRoboticsFacility">
+        <Icon value="Assets\Textures\btn-building-protoss-roboticsfacility.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-protoss-roboticsfacility.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="SuperWarpGateROthers">
+        <Icon value="Assets\Textures\btn-unit-collection-probe-golden.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-collection-probe-golden.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="SuperWarpGateStarGate">
+        <Icon value="Assets\Textures\btn-building-protoss-stargate.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-protoss-stargate.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="SuperWarpGateStructure">
+        <Icon value="Assets\Textures\btn-building-protoss-nexus.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-protoss-nexus.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="AdeptTargetLockGT">
+        <Icon value="Assets\Textures\btn-ability-protoss-targetlockG.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-targetlockG.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CButton>
+    <CButton id="VoidRaySpeedProtossG">
+        <Icon value="Assets\Textures\BTN-Upgrade-Protoss-FluxVanes.dds"/>
+        <AlertIcon value="Assets\Textures\BTN-Upgrade-Protoss-FluxVanes.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="WarpNovaArchonG">
+        <Icon value="Assets\Textures\btn-unit-protoss-archon-upgraded.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-archon-upgraded.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Universal value="1"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ActivateStasisWardG">
+        <Icon value="Assets\Textures\btn-ability-protoss-stasistrap.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-stasistrap.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="AdeptPhaseShiftG">
+        <Icon value="Assets\Textures\btn-ability-protoss-psionictransfer.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-psionictransfer.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ArbiterCloakFieldG">
+        <Icon value="Assets\Textures\btn-ability-protoss-cloakfield-color.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-cloakfield-color.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ArbiterG">
+        <Icon value="Assets\Textures\btn-unit-protoss-arbiterG.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-arbiterG.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ArbiterMPRecallG">
+        <Icon value="Assets\Textures\btn-ability-protoss-recall.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-recall.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ArbiterMPStasisFieldG">
+        <Icon value="Assets\Textures\btn-ability-spearofadun-temporalfield.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-spearofadun-temporalfield.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ArchonAstralWindG">
+        <Icon value="Assets\Textures\btn-ability-protoss-astralwind.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ArchonWarpTargetGA">
+        <Icon value="Assets\Textures\btn-unit-protoss-archon-upgraded.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-archon-upgraded.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HotkeyAlias value="AWrp"/>
+        <Universal value="1"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ArtanisAstralWindG">
+        <Icon value="Assets\Textures\btn-ability-protoss-astralwind.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-astralwind.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ArbiterTimeWarpG">
+        <Icon value="Assets\Textures\btn-upgrade-karax-chronofield.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-karax-chronofield.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ArtanisLightningDashG">
+        <Icon value="Assets\Textures\btn-ability-protoss-lightningdash.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-lightningdash.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ArtanisResurgenceG">
+        <Icon value="Assets\Textures\btn-ability-protoss-resurgence.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-resurgence.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="AssimilatorG">
+        <Icon value="Assets\Textures\btn-building-protoss-assimilator.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-protoss-assimilator.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="CorsairMPG">
+        <Icon value="Assets\Textures\btn-unit-protoss-corsair.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-corsair.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="CorsairMPDisruptionWebG">
+        <Icon value="Assets\Textures\btn-ability-protoss-disruptionweb.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-disruptionweb.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="DarkTemplarPowerStrikeG">
+        <Icon value="Assets\Textures\btn-upgrade-protoss-groundweaponslevel2.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ForceFieldCancelG">
+        <Icon value="Assets\Textures\btn-command-cancel.dds"/>
+        <AlertIcon value="Assets\Textures\btn-command-cancel.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <TintRacially value="1"/>
+        <Universal value="1"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="CancelG">
+        <Icon value="Assets\Textures\btn-command-cancel.dds"/>
+        <AlertIcon value="Assets\Textures\btn-command-cancel.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <TintRacially value="1"/>
+        <Universal value="1"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="CarrierG">
+        <Icon value="Assets\Textures\btn-unit-collection-carrier-golden.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-collection-carrier-golden.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ChargeG">
+        <Icon value="Assets\Textures\btn-ability-protoss-lightningdash.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-lightningdash.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ChargeGG">
+        <Icon value="Assets\Textures\btn-ability-protoss-lightningdash.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-lightningdash.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ColossusG">
+        <Icon value="Assets\Textures\btn-unit-protoss-colossus-golden.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-colossus-golden.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="EnvisionG">
+        <Icon value="Assets\Textures\btn-ability-protoss-envision.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-envision.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ArtanisMassRecallG">
+        <Icon value="Assets\Textures\ui_commandertraiticon_artanis.dds"/>
+        <AlertIcon value="Assets\Textures\ui_commandertraiticon_artanis.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ForceFieldG">
+        <Icon value="Assets\Textures\BTN-Ability-protoss-forcefield-color.dds"/>
+        <AlertIcon value="Assets\Textures\BTN-Ability-protoss-forcefield-color.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="GuardianShieldG">
+        <Icon value="Assets\Textures\btn-ability-protoss-shieldbattery-color.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-shieldbattery-color.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ReaverAreaG">
+        <Icon value="Assets\Textures\btn-upgrade-artanis-scarabsplashradius.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-artanis-scarabsplashradius.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ReaverScarabsG">
+        <Icon value="Assets\Textures\BTN-Ability-Protoss-ScarabShot.dds"/>
+        <AlertIcon value="Assets\Textures\BTN-Ability-Protoss-ScarabShot.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="SOAAutoAssimilatorG">
+        <Icon value="Assets\Textures\btn-ability-spearofadun-orbitalassimilator.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-spearofadun-orbitalassimilator.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="MothershipBlinkStrikeG">
+        <Icon value="Assets\Textures\btn-ability-protoss-blinkchargesG.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-blinkchargesG.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ScoutGravitonPropellerG">
+        <Icon value="Assets\Textures\BTN-Upgrade-Protoss-GravitonCatapult.dds"/>
+        <AlertIcon value="Assets\Textures\BTN-Upgrade-Protoss-GravitonCatapult.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="KhaydarinMonolithG">
+        <Icon value="Assets\Textures\btn-building-protoss-khaydarinmonolithaiur.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-protoss-khaydarinmonolithaiur.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="OracleG">
+        <Icon value="Assets\Textures\btn-unit-protoss-oracle-golden.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-oracle-golden.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="OracleRevelationG">
+        <Icon value="Assets\Textures\btn-ability-protoss-preordain.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-preordain.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="PhotonCannonOverloadG">
+        <Icon value="Assets\Textures\btn-ability-zeratul-photoncannon-shadebarrier.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-zeratul-photoncannon-shadebarrier.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="OBHoldFireG">
+        <Icon value="Assets\Textures\BTN-Ability-Terran-HoldFire.dds"/>
+        <AlertIcon value="Assets\Textures\BTN-Ability-Terran-HoldFire.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <TintRacially value="1"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="OracleWeaponOffG">
+        <Icon value="Assets\Textures\BTN-Ability-Protoss-OraclePulsarCannonOff.dds"/>
+        <AlertIcon value="Assets\Textures\BTN-Ability-Protoss-OraclePulsarCannonOff.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="OracleWeaponOnG">
+        <Icon value="Assets\Textures\BTN-Ability-Protoss-OraclePulsarCannonOn.dds"/>
+        <AlertIcon value="Assets\Textures\BTN-Ability-Protoss-OraclePulsarCannonOn.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ScoutAntimatterMissileG">
+        <Icon value="Assets\Textures\btn-upgrade-protoss-fenix-scoutchampionaoemissilesG.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-protoss-fenix-scoutchampionaoemissilesG.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ScoutG">
+        <Icon value="Assets\Textures\btn-unit-protoss-scout.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-scout.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ReaverG">
+        <Icon value="Assets\Textures\btn-unit-protoss-reaver.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-reaver.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="SentryG">
+        <Icon value="Assets\Textures\btn-unit-protoss-sentry-golden.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-sentry-golden.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="SuperiorWarpGatesG">
+        <Icon value="Assets\Textures\talent-artanis-level03-warpgatecharges.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+        <AlertIcon value="Assets\Textures\talent-artanis-level03-warpgatecharges.dds"/>
+    </CButton>
+    <CButton id="VoidSentryShieldRepairG">
+        <Icon value="Assets\Textures\BTN-Ability-Protoss-ShieldRecharge.dds"/>
+        <AlertIcon value="Assets\Textures\BTN-Ability-Protoss-ShieldRecharge.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="WarpPrismLoadAllG">
+        <Icon value="Assets\Textures\btn-ability-terran-load.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-load.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <TintRacially value="1"/>
+        <Universal value="1"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="WarpPrismUnloadTargetG">
+        <Icon value="Assets\Textures\btn-ability-terran-unloadall.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-unloadall.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <TintRacially value="1"/>
+        <Universal value="1"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="WeaponsFreeG">
+        <Icon value="Assets\Textures\btn-ability-terran-weaponsfree.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-weaponsfree.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <TintRacially value="1"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="DarkTemplarGBlink">
+        <Icon value="Assets\Textures\btn-ability-protoss-shadowdash.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-shadowdash.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="DragoonMineBurrowG">
+        <Icon value="Assets\Textures\btn-upgrade-protoss-fenix-dragoonoverchargeG.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-protoss-fenix-dragoonoverchargeG.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HotkeySet value="DragoonMineModesG"/>
+    </CButton>
+    <CButton id="DragoonMineUnburrowG">
+        <Icon value="Assets\Textures\btn-upgrade-protoss-fenix-dragoonsolariteflareG.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-protoss-fenix-dragoonsolariteflareG.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HotkeySet value="DragoonMineModesG"/>
+    </CButton>
+    <CButton id="StalkerAdvGS">
+        <Icon value="Assets\Textures\talent-artanis-level14-startingmaxsupplyG.dds"/>
+        <AlertIcon value="Assets\Textures\talent-artanis-level14-startingmaxsupplyG.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="WelkinPartCoreG">
+        <Icon value="Assets\Textures\btn-ability-protoss-adept-spiritform.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-adept-spiritform.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="SentryAdvGM">
+        <Icon value="Assets\Textures\talent-artanis-level14-startingmaxsupplyG.dds"/>
+        <AlertIcon value="Assets\Textures\talent-artanis-level14-startingmaxsupplyG.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ZealotFrenzyGK">
+        <Icon value="Assets\Textures\talent-artanis-level01-swiftretribution.dds"/>
+        <AlertIcon value="Assets\Textures\talent-artanis-level01-swiftretribution.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ZealotBladeSearchGK">
+        <Icon value="Assets\Textures\btn-ability-protoss-whirlwind.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-whirlwind.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="TempestShieldGAT">
+        <Icon value="Assets\Textures\btn-upgrade-karax-unitybarrier.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-karax-unitybarrier.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ZealotGK">
+        <Icon value="Assets\Textures\btn-unit-protoss-zealot-golden.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-zealot-golden.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Universal value="1"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="TempestPartCoreG">
+        <Icon value="Assets\Textures\btn-upgrade-karax-unitybarrier.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-karax-unitybarrier.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="DragoonGT">
+        <Icon value="Assets\Textures\btn-unit-protoss-dragoon-void.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-dragoon-void.dds"/>
+        <Hotkey value="Button/Hotkey/DragoonG"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Universal value="1"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="bszhxG">
+        <Icon value="Assets\Textures\btn-upgrade-protoss-researchbosoniccore.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-protoss-researchbosoniccore.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ReaverHangarG">
+        <Icon value="Assets\Textures\talent-artanis-level05-unlockreaver.dds"/>
+        <AlertIcon value="Assets\Textures\talent-artanis-level05-unlockreaver.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ImmortalAttackSearchGA">
+        <Icon value="Assets\Textures\btn-ability-protoss-confusionG.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-confusionG.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="GoldenShieldGU">
+        <Icon value="Assets\Textures\btn-upgrade-protoss-shieldslevel3.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-protoss-shieldslevel3.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="XWBSG">
+        <Icon value="Assets\Textures\btn-ability-spearofadun-warpharmonization.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-mengsk-marauder-selfabsorbshield.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ZealotAttackAOEGK">
+        <Icon value="Assets\Textures\btn-ability-protoss-shadowblade.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-shadowblade.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ZealotAdvGK">
+        <Icon value="Assets\Textures\talent-artanis-level14-startingmaxsupplyG.dds"/>
+        <AlertIcon value="Assets\Textures\talent-artanis-level14-startingmaxsupplyG.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="AdeptAttackSpeedGT">
+        <Icon value="Assets\Textures\btn-upgrade-protoss-resonatingglaives.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-protoss-resonatingglaives.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="AdeptISGT">
+        <Icon value="Assets\Textures\btn-ability-swarm-kerrigan-chainreaction.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-swarm-kerrigan-chainreaction.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ObserverWeaponG">
+        <Icon value="Assets\Textures\btn-ability-protoss-purify.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-purify.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="WarpPrismWeaponG">
+        <Icon value="Assets\Textures\btn-ability-protoss-purify.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-purify.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="TempestChargeMissileG">
+        <Icon value="Assets\Textures\btn-upgrade-protoss-researchbosoniccore.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-protoss-researchbosoniccore.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ForgeHealFieldG">
+        <Icon value="Assets\Textures\btn-upgrade-karax-forgeupgradecache.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-karax-forgeupgradecache.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="SuperHarvestGP">
+        <Icon value="Assets\Textures\mineralshields_coopG.dds"/>
+        <AlertIcon value="Assets\Textures\mineralshields_coopG.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+        <Universal value="1"/>
+    </CButton>
+    <CButton id="bxzbd1GP">
+        <Icon value="Assets\Textures\btn-ability-protoss-replicate.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-replicate.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="judgmentGK">
+        <Icon value="Assets\Textures\btn-ability-protoss-purify.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-purify.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="kdlhfGK">
+        <Icon value="Assets\Textures\btn-upgrade-protoss-khaydarinamulet.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-protoss-khaydarinamulet.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="KDLJSWeaponG">
+        <Icon value="Assets\Textures\btn-ability-protoss-purify.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-purify.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="lzcfGK">
+        <Icon value="Assets\Textures\btn-ability-protoss-shadow-charge.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-shadow-charge.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="HighTemplarFeedBackGK">
+        <Icon value="Assets\Textures\btn-ability-protoss-feedbackaoe-color.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-feedbackaoe-color.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ArtanisBOSGA">
+        <Icon value="Assets\Textures\btn-ability-protoss-shadowblade.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-shadowblade.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="StalkerBlinkReactorGS">
+        <Icon value="Assets\Textures\btn-ability-protoss-blinkchargesG.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-blinkchargesG.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="StalkerReactorShieldGS">
+        <Icon value="Assets\Textures\btn-ability-protoss-blinkshieldrestore.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-blinkshieldrestore.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="DarkTemplarWeaponG">
+        <Icon value="Assets\Textures\btn-ability-protoss-shadowfuryG.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-shadowfuryG.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="FleetBeaconUpgradeG">
+        <Icon value="Assets\Textures\talent-artanis-level12-fleetbeaconresearchbundleG.dds"/>
+        <AlertIcon value="Assets\Textures\talent-artanis-level12-fleetbeaconresearchbundleG.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="RoachMeleeAttackG">
+        <Icon value="Assets\Textures\btn-ability-protoss-shadowblade.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-shadowblade.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="HydraliskWeaponG">
+        <Icon value="Assets\Textures\btn-ability-protoss-prismaticrange.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-prismaticrange.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="HydraliskBlinkReactorG">
+        <Icon value="Assets\Textures\btn-ability-protoss-blinkshieldrestore.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-blinkshieldrestore.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="wyysgzGIP">
+        <Icon value="Assets\Textures\BTN-Ability-Protoss-DragoonChassis.dds"/>
+        <AlertIcon value="Assets\Textures\BTN-Ability-Protoss-DragoonChassis.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="SentryWeaponG">
+        <Icon value="Assets\Textures\btn-upgrade-protoss-fenix-carrier-solarbeamG.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-protoss-fenix-carrier-solarbeamG.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="SentryRepairG">
+        <Icon value="Assets\Textures\btn-upgrade-swann-improvednanorepair.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-swann-improvednanorepair.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="DisturbCorsairG">
+        <Icon value="Assets\Textures\btn-ability-protoss-disruptionblastG.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-disruptionblastG.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="DarkTemplarGsxzjG">
+        <Icon value="Assets\Textures\btn-ability-protoss-shadowblade.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-shadowblade.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="StalkerAttackWeaponGS">
+        <Icon value="Assets\Textures\btn-ability-hornerhan-raven-analyzetargetG.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-hornerhan-raven-analyzetargetG.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="StalkerBlinkAdvGS">
+        <Icon value="Assets\Textures\btn-ability-protoss-shadowdash.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-shadowdash.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="TempestLightningBombG">
+        <Icon value="Assets\Textures\btn-ability-protoss-disintegrationG.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-disintegrationG.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="SentryGuardianFieldG">
+        <Icon value="Assets\Textures\btn-ability-protoss-shieldbattery-color.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-shieldbattery-color.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="xwgjSentryGM">
+        <Icon value="Assets\Textures\btn-upgrade-protoss-fenix-carrier-solarbeamG.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-protoss-fenix-carrier-solarbeamG.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="xwzzCorsairG">
+        <Icon value="Assets\Textures\btn-ability-protoss-replicate.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-replicate.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="xwrdCorsairG">
+        <Icon value="Assets\Textures\btn-ability-protoss-disruptionwebG.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-disruptionwebG.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="xwzzColossusG">
+        <Icon value="Assets\Textures\btn-ability-protoss-replicate.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-replicate.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="xwzzzczG">
+        <Icon value="Assets\Textures\btn-ability-protoss-replicate.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-replicate.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="tyfydG">
+        <Icon value="Assets\Textures\btn-ability-protoss-oraclepulsarcannononG.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-oraclepulsarcannononG.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="jzgrG">
+        <Icon value="Assets\Textures\btn-ability-protoss-stasistrap.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-stasistrap.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="OraclexjhgOn">
+        <Icon value="Assets\Textures\btn-upgrade-vorazun-oraclepermanentlycloaked.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-vorazun-oraclepermanentlycloaked.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="OraclexjhgOff">
+        <Icon value="Assets\Textures\btn-upgrade-vorazun-oraclepermanentlycloaked.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-vorazun-oraclepermanentlycloaked.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="xwzzzcjG">
+        <Icon value="Assets\Textures\btn-ability-protoss-replicate.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-replicate.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="xwzzReaverG">
+        <Icon value="Assets\Textures\btn-ability-protoss-replicate.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-replicate.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="SentryRangeG">
+        <Icon value="Assets\Textures\btn-ability-protoss-replicate.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-replicate.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="DarkTemplarGCloak">
+        <Icon value="Assets\Textures\btn-ability-protoss-avenger-aerealsensordisruption.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-avenger-aerealsensordisruption.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="DragoonyygyG">
+        <Icon value="Assets\Textures\btn-ability-protoss-adept-spiritform.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-adept-spiritform.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="StalkerCloakGS">
+        <Icon value="Assets\Textures\btn-upgrade-protoss-alarak-permanentcloak.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-protoss-alarak-permanentcloak.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="DragoonyygyGT">
+        <Icon value="Assets\Textures\btn-ability-protoss-adept-spiritform.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-adept-spiritform.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="yygyGZK">
+        <Icon value="Assets\Textures\btn-ability-protoss-adept-spiritform.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-adept-spiritform.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="yygyGSS">
+        <Icon value="Assets\Textures\btn-ability-protoss-adept-spiritform.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-adept-spiritform.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="MothershipCoreArmorG">
+        <Icon value="Assets\Textures\btn-upgrade-protoss-adeptshieldupgrade.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-protoss-adeptshieldupgrade.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="SentryEnergyG">
+        <Icon value="Assets\Textures\btn-upgrade-karax-energyregen200.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-karax-energyregen200.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="AdeptAttackShieldGT">
+        <Icon value="Assets\Textures\btn-upgrade-protoss-adeptshieldupgrade.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-protoss-adeptshieldupgrade.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ShieldBatteryEnergyG">
+        <Icon value="Assets\Textures\btn-upgrade-karax-energyregen200.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-karax-energyregen200.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="zybhG">
+        <Icon value="Assets\Textures\btn-ability-spearofadun-warpharmonization.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-spearofadun-warpharmonization.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="zyjjG">
+        <Icon value="Assets\Textures\btn-upgrade-protoss-resonatingglaives.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-protoss-resonatingglaives.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="CyberneticsCoreG">
+        <Icon value="Assets\Textures\btn-building-protoss-cyberneticscore.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-protoss-cyberneticscore.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="FleetBeaconG">
+        <Icon value="Assets\Textures\btn-building-protoss-fleetbeacon.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-protoss-fleetbeacon.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ForgeG">
+        <Icon value="Assets\Textures\btn-building-protoss-forge.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-protoss-forge.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="GatewayG">
+        <Icon value="Assets\Textures\btn-building-protoss-gateway.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-protoss-gateway.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="GravitonBeamG">
+        <Icon value="Assets\Textures\btn-ability-protoss-gravitonbeam-color.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-gravitonbeam-color.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="HealingPsionicStormG">
+        <Icon value="Assets\Textures\btn-upgrade-artanis-healingpsionicstorm.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-artanis-healingpsionicstorm.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="HighTemplarGZ">
+        <Icon value="Assets\Textures\btn-unit-protoss-hightemplar-golden.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-hightemplar-golden.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Universal value="1"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="LNHXG">
+        <Icon value="Assets\Textures\btn-ability-protoss-hallucination-color.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-hallucination-color.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="PsiStormGA">
+        <Icon value="Assets\Textures\btn-upgrade-artanis-healingpsionicstorm.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-artanis-healingpsionicstorm.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="SolarBombardmentGN">
+        <Icon value="Assets\Textures\btn-ability-spearofadun-solarbombardment.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-spearofadun-solarbombardment.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="PermanentlyCloakedObserverG">
+        <Icon value="Assets\Textures\BTN-ability-Protoss-permanentlycloaked-Observer-color.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="DragoonArmorG">
+        <Icon value="Assets\Textures\BTN-Ability-Protoss-DragoonChassis.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+        <AlertIcon value="Assets\Textures\BTN-Ability-Protoss-DragoonChassis.dds"/>
+    </CButton>
+    <CButton id="DragoonG">
+        <Icon value="Assets\Textures\btn-unit-protoss-dragoon-void.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-dragoon-void.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Universal value="1"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ShieldBatteryG">
+        <Icon value="Assets\Textures\btn-building-protoss-shieldbattery.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-protoss-shieldbattery.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ShieldBatteryRechargeG">
+        <Icon value="Assets\Textures\btn-ability-protoss-shieldbattery-color.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="AdeptG">
+        <Icon value="Assets\Textures\btn-unit-protoss-adept-golden.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-adept-golden.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Universal value="1"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="AdeptSolarBombardmentGA">
+        <Icon value="Assets\Textures\btn-ability-spearofadun-solarbombardmentG.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-spearofadun-solarbombardmentG.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Universal value="1"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ZealotAiurG">
+        <Icon value="Assets\Textures\btn-unit-protoss-zeratulzealotG.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-zeratulzealotG.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Universal value="1"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="gmzrG">
+        <Icon value="Assets\Textures\btn-ability-swarm-kerrigan-chainreaction.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-swarm-kerrigan-chainreaction.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="lnymbG">
+        <Icon value="Assets\Textures\btn-ability-protoss-purify.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-purify.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="xxcnG">
+        <Icon value="Assets\Textures\btn-ability-spearofadun-shieldovercharge.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-spearofadun-shieldovercharge.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="lnzfG">
+        <Icon value="Assets\Textures\btn-upgrade-protoss-resonatingglaives.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-protoss-resonatingglaives.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="xxrsG">
+        <Icon value="Assets\Textures\btn-ability-protoss-shieldrecharge.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-shieldrecharge.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="znzjG">
+        <Icon value="Assets\Textures\btn-upgrade-protoss-adeptshieldupgrade.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-protoss-adeptshieldupgrade.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="yygyGZ">
+        <Icon value="Assets\Textures\btn-ability-protoss-adept-spiritform.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-adept-spiritform.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ZealotShieldCapacitorG">
+        <Icon value="Assets\Textures\btn-ability-spearofadun-shieldovercharge.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-spearofadun-shieldovercharge.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="VoidStalkerDragoonWeaponG">
+        <Icon value="Assets\Textures\BTN-Ability-Protoss-PhaseDisruptor.dds"/>
+        <AlertIcon value="Assets\Textures\BTN-Ability-Protoss-PhaseDisruptor.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="StoneZealotG">
+        <Icon value="Assets\Textures\wireframe-protoss-stonezealot.dds"/>
+        <AlertIcon value="Assets\Textures\wireframe-protoss-stonezealot.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Universal value="1"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="VoidZealotWhirlwindG">
+        <Icon value="Assets\Textures\BTN-Ability-Protoss-Whirlwind.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="kdlhfG">
+        <Icon value="Assets\Textures\btn-upgrade-protoss-khaydarinamulet.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-protoss-khaydarinamulet.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="PsiStormG">
+        <Icon value="Assets\Textures\btn-ability-zeratul-avatarofform-psionicgale.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-zeratul-avatarofform-psionicgale.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="lzcfGG">
+        <Icon value="Assets\Textures\btn-ability-protoss-shadow-charge.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-shadow-charge.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="GoldenShieldGI">
+        <Icon value="Assets\Textures\btn-upgrade-protoss-shieldslevel3.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-protoss-shieldslevel3.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="judgmentG">
+        <Icon value="Assets\Textures\btn-ability-protoss-purify.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-purify.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ImmortalG">
+        <Icon value="Assets\Textures\btn-unit-collection-immortal-goldenG.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-collection-immortal-goldenG.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="MassRecallG">
+        <Icon value="Assets\Textures\btn-ability-protoss-massrecall.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-massrecall.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="MassRecallGM">
+        <Icon value="Assets\Textures\btn-ability-protoss-wormholetransit-color.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-wormholetransit-color.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="MorphBackToGatewayG">
+        <Icon value="Assets\Textures\btn-building-protoss-gateway.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-protoss-gateway.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="MothershipG">
+        <Icon value="Assets\Textures\btn-unit-protoss-mothership-golden.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-mothership-golden.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ObserverG">
+        <Icon value="Assets\Textures\btn-unit-protoss-observer-golden.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-observer-golden.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="PhaseCannonG">
+        <Icon value="Assets\Textures\btn-ability-protoss-phasecannon.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-phasecannon.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="PhasingModeG">
+        <Icon value="Assets\Textures\btn-unit-protoss-warpprismstationary-golden.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-warpprismstationary-golden.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HotkeySet value="WarpPrismModes"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="PhoenixG">
+        <Icon value="Assets\Textures\btn-unit-protoss-phoenix-golden.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-phoenix-golden.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="PhoenixAiurGravitonBeamPassiveG">
+        <Icon value="Assets\Textures\btn-ability-protoss-dualgravitonbeam.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-dualgravitonbeam.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="PhotonCannonG">
+        <Icon value="Assets\Textures\btn-building-protoss-photoncannon.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-protoss-photoncannon.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="PlanetCrackerG">
+        <Icon value="Assets\Textures\btn-tips-terran-energynova.dds"/>
+        <AlertIcon value="Assets\Textures\btn-tips-terran-energynova.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="PlanetCrackerOffG">
+        <Icon value="Assets\Textures\btn-command-cancel.dds"/>
+        <AlertIcon value="Assets\Textures\btn-command-cancel.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <TintRacially value="1"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="RoboticsBayG">
+        <Icon value="Assets\Textures\btn-building-protoss-roboticssupportbay.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-protoss-roboticssupportbay.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="RoboticsFacilityG">
+        <Icon value="Assets\Textures\btn-building-protoss-roboticsfacility.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-protoss-roboticsfacility.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="OrbitalStrikeG">
+        <Icon value="Assets\Textures\btn-upgrade-karax-orbitalassault_stun.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-karax-orbitalassault_stun.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="StargateG">
+        <Icon value="Assets\Textures\btn-building-protoss-stargate.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-protoss-stargate.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="TempestG">
+        <Icon value="Assets\Textures\btn-unit-protoss-tempest-golden.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-tempest-golden.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="TransportModeG">
+        <Icon value="Assets\Textures\btn-unit-protoss-warpprism-golden.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-warpprism-golden.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HotkeySet value="WarpPrismModes"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="VoidColossusFireBeamG">
+        <Icon value="Assets\Textures\btn-ability-protoss-firebeamG.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-firebeamG.dds"/>
+    </CButton>
+    <CButton id="VortexG">
+        <Icon value="Assets\Textures\btn-upgrade-vorazun-placewormhole.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-vorazun-placewormhole.dds"/>
+    </CButton>
+    <CButton id="WarpPrismG">
+        <Icon value="Assets\Textures\btn-unit-protoss-warpprism-golden.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-warpprism-golden.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="WarpPrismLoadG">
+        <Icon value="Assets\Textures\btn-ability-terran-load.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-load.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <TintRacially value="1"/>
+        <Universal value="1"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="WarpPrismUnloadAllG">
+        <Icon value="Assets\Textures\btn-ability-terran-unloadall.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-unloadall.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <TintRacially value="1"/>
+        <Universal value="1"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="bfbhG2">
+        <Icon value="Assets\Textures\btn-upgrade-karax-unitybarrier.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-karax-unitybarrier.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="gzczG">
+        <Icon value="Assets\Textures\coop_mutators_photonoverlord.dds"/>
+        <AlertIcon value="Assets\Textures\coop_mutators_photonoverlord.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="nlfsG">
+        <Icon value="Assets\Textures\btn-ability-protoss-feedbackaoe-color.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-feedbackaoe-color.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ryzrGG">
+        <Icon value="Assets\Textures\btn-ability-protoss-shadowblade.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-shadowblade.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="sjbzGG">
+        <Icon value="Assets\Textures\talent-artanis-level01-swiftretribution.dds"/>
+        <AlertIcon value="Assets\Textures\talent-artanis-level01-swiftretribution.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="wyysgzGI">
+        <Icon value="Assets\Textures\BTN-Ability-Protoss-DragoonChassis.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+        <AlertIcon value="Assets\Textures\BTN-Ability-Protoss-DragoonChassis.dds"/>
+    </CButton>
+    <CButton id="xwzzlqsG">
+        <Icon value="Assets\Textures\BTN-Upgrade-Artanis-SingularityCharge.dds"/>
+        <AlertIcon value="Assets\Textures\BTN-Upgrade-Artanis-SingularityCharge.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="zljsqU">
+        <Icon value="Assets\Textures\btn-upgrade-protoss-graviticdrive.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-protoss-graviticdrive.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="qghdG">
+        <Icon value="Assets\Textures\btn-ability-zeratul-photoncannon-shadebarrier.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-zeratul-photoncannon-shadebarrier.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="xhgsG">
+        <Icon value="Assets\Textures\btn-ability-protoss-voidrayprismaticalignment.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-voidrayprismaticalignment.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="jxxwzzG">
+        <Icon value="Assets\Textures\btn-upgrade-protoss-extendedthermallance.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-protoss-extendedthermallance.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="wyysgzG">
+        <Icon value="Assets\Textures\BTN-Ability-Protoss-DragoonChassis.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="bfbhG">
+        <Icon value="Assets\Textures\btn-upgrade-karax-unitybarrier.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-karax-unitybarrier.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="TemplarArchiveG">
+        <Icon value="Assets\Textures\btn-building-protoss-templararchives.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-protoss-templararchives.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="TwilightCouncilG">
+        <Icon value="Assets\Textures\btn-building-protoss-twilightcouncil.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-protoss-twilightcouncil.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="VoidRayG">
+        <Icon value="Assets\Textures\btn-unit-protoss-voidray-golden.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-voidray-golden.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="zhhdG">
+        <Icon value="Assets\Textures\btn-upgrade-protoss-adeptshieldupgrade.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-protoss-adeptshieldupgrade.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ygcqModeYG">
+        <Icon value="Assets\Textures\btn-ability-spearofadun-orbitalstrike.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-spearofadun-orbitalstrike.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ygcqModeGG">
+        <Icon value="Assets\Textures\btn-upgrade-karax-orbitalassault.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-karax-orbitalassault.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="xksnxwsjG">
+        <Icon value="Assets\Textures\btn-upgrade-karax-fortificationbarrier.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="xwgzswqG">
+        <Icon value="Assets\Textures\btn-ability-protoss-disruptionblast.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-disruptionblast.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="lblzfydG">
+        <Icon value="Assets\Textures\BTN-Upgrade-Protoss-ResearchGravitySling.dds"/>
+        <AlertIcon value="Assets\Textures\BTN-Upgrade-Protoss-ResearchGravitySling.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ynlcG">
+        <Icon value="Assets\Textures\btn-upgrade-protoss-alarak-permanentcloak.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-protoss-alarak-permanentcloak.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="StalkerG">
+        <Icon value="Assets\Textures\btn-unit-protoss-stalker-golden.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-stalker-golden.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Universal value="1"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="StalkerBlinkMultipleG">
+        <Icon value="Assets\Textures\btn-upgrade-nova-blink.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-nova-blink.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="xwfydG">
+        <Icon value="Assets\Textures\btn-ability-protoss-blinkshieldrestore.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-blinkshieldrestore.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="xwzzzlz">
+        <Icon value="Assets\Textures\btn-ability-protoss-replicate.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-replicate.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="xwtxG">
+        <Icon value="Assets\Textures\btn-ability-protoss-shadowdash.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-shadowdash.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ylzmcsjG">
+        <Icon value="Assets\Textures\btn-upgrade-protoss-phoenixrange.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-protoss-phoenixrange.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="UpgradeToWarpGateG">
+        <Icon value="Assets\Textures\BTN-Building-Protoss-WarpGate.dds"/>
+        <AlertIcon value="Assets\Textures\BTN-Building-Protoss-WarpGate.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="VoidPhoenixPhasingArmorG">
+        <Icon value="Assets\Textures\btn-ability-protoss-phasingarmorG.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-phasingarmorG.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="WarpInWarpGateG">
+        <Tooltip value="Button/Tooltip/WarpGateG"/>
+        <Icon value="Assets\Textures\BTN-Building-Protoss-WarpGate.dds"/>
+        <AlertTooltip value="Button/Tooltip/WarpGateG"/>
+        <AlertIcon value="Assets\Textures\BTN-Building-Protoss-WarpGate.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ZealotG">
+        <Icon value="Assets\Textures\btn-unit-protoss-zealot-golden.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-zealot-golden.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Universal value="1"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ccxhModeGG">
+        <Icon value="Assets\Textures\btn-unit-protoss-zeratulvoidray.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-zeratulvoidray.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="PylonG">
+        <Icon value="Assets\Textures\btn-unit-collection-pylon-judicator.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-collection-pylon-judicator.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ccxhModeYG">
+        <Icon value="Assets\Textures\btn-unit-collection-voidray-golden.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-collection-voidray-golden.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ljhxcxgdG">
+        <Icon value="Assets\Textures\btn-ability-protoss-prismaticbeam-color.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-prismaticbeam-color.dds"/>
+    </CButton>
+    <CButton id="lzcfG">
+        <Icon value="Assets\Textures\btn-ability-protoss-shadow-charge.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-shadow-charge.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="rylxgdG">
+        <Icon value="Assets\Textures\btn-ability-zeratul-topbar-voidsuppressioncrystal.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ryzrG">
+        <Icon value="Assets\Textures\btn-ability-protoss-shadowblade.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-shadowblade.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ljhxcxG">
+        <Icon value="Assets\Textures\btn-ability-protoss-prismaticbeam-color.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-prismaticbeam-color.dds"/>
+    </CButton>
+    <CButton id="airShieldG">
+        <Icon value="Assets\Textures\btn-ability-protoss-stasisfield.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-stasisfield.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="bxzbd1G">
+        <Icon value="Assets\Textures\btn-ability-protoss-replicate.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-replicate.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ImmortalOverloadG">
+        <Icon value="Assets\Textures\btn-ability-protoss-barrier-upgraded.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-barrier-upgraded.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="InterceptorG">
+        <Icon value="Assets\Textures\btn-unit-protoss-interceptor-golden.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-interceptor-golden.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ReleaseInterceptorsG">
+        <Icon value="Assets\Textures\btn-upgrade-protoss-fenix-bomberresearchG.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-protoss-fenix-bomberresearchG.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="TempestShieldG">
+        <Icon value="Assets\Textures\btn-ability-protoss-adept-spiritform.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-adept-spiritform.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="NexusG">
+        <Icon value="Assets\Textures\btn-building-protoss-nexus.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-protoss-nexus.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="ProbeG">
+        <Icon value="Assets\Textures\btn-unit-protoss-probe-golden.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-probe-golden.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="SOARadarNexusG">
+        <Icon value="Assets\Textures\btn-ability-spearofadun-nexusovercharge.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-spearofadun-nexusovercharge.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="bxzbd3G">
+        <Icon value="Assets\Textures\btn-upgrade-stetmann-ultraliskburrowchargestun.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-stetmann-ultraliskburrowchargestun.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="wtxwsjgdG">
+        <Icon value="Assets\Textures\btn-ability-protoss-prismaticrange.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-prismaticrange.dds"/>
+    </CButton>
+    <CButton id="yhpzG">
+        <Icon value="Assets\Textures\btn-ability-protoss-barrier-upgraded.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-barrier-upgraded.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="kzjkG">
+        <Icon value="Assets\Textures\btn-upgrade-protoss-gravitoncatapult.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-protoss-gravitoncatapult.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="TimeWarpG">
+        <Icon value="Assets\Textures\btn-ability-spearofadun-chronosurge.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+        <AlertIcon value="Assets\Textures\btn-ability-spearofadun-chronosurge.dds"/>
+    </CButton>
+    <CButton id="GoldenShieldG">
+        <Icon value="Assets\Textures\btn-ability-mengsk-marauder-selfabsorbshield.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-mengsk-marauder-selfabsorbshield.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="wtxwsjG">
+        <Icon value="Assets\Textures\btn-ability-protoss-prismaticrange.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-prismaticrange.dds"/>
+    </CButton>
+    <CButton id="rylxG">
+        <Icon value="Assets\Textures\btn-ability-zeratul-topbar-voidsuppressioncrystal.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+        <AlertIcon value="Assets\Textures\btn-ability-zeratul-topbar-voidsuppressioncrystal.dds"/>
+    </CButton>
+    <CButton id="qhljjG">
+        <Icon value="Assets\Textures\btn-unit-protoss-interceptor-golden.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-interceptor-golden.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="sjbzG">
+        <Icon value="Assets\Textures\talent-artanis-level01-swiftretribution.dds"/>
+        <AlertIcon value="Assets\Textures\talent-artanis-level01-swiftretribution.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="xwzzfhG">
+        <Icon value="Assets\Textures\btn-ability-protoss-replicate.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-replicate.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="xjbhG">
+        <Icon value="Assets\Textures\btn-ability-protoss-forceofwill.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-forceofwill.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="zljsqG">
+        <Icon value="Assets\Textures\btn-upgrade-protoss-graviticbooster.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-protoss-graviticbooster.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="jnlzsG2">
+        <Icon value="Assets\Textures\btn-ability-protoss-purify.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-purify.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="xwjzG">
+        <Icon value="Assets\Textures\btn-ability-zeratul-warpprism-transferlink.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-zeratul-warpprism-transferlink.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="xxyjG">
+        <Icon value="Assets\Textures\btn-upgrade-protoss-fenix-immortalchampionvortexG.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-protoss-fenix-immortalchampionvortexG.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+</Catalog>
