@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CConsoleSkin id="ConsoleProtoss_IhanriiI" parent="ConsoleBase_Reward_2D" race="Protoss">
+        <Default value="1"/>
+        <RequiredReward value="ConsoleSkinProtossDefault"/>
+        <MinimapPanelImage value="Assets/Textures/ui_console_panel_minimap_ihanrii.dds"/>
+        <InfoPanelImage value="Assets/Textures/ui_console_panel_unitinfo_ihanrii.dds"/>
+        <CommandPanelImage value="Assets/Textures/ui_console_panel_command_ihanrii.dds"/>
+        <ThumbnailImage value="Assets/Textures/SC2_UI_Collection_HUDs_Thumb_ConsoleProtoss_Ihanrii.dds"/>
+        <FeaturedImage value="Assets/Textures/SC2_UI_Collection_HUDs_Large_ConsoleProtoss_Ihanrii.dds"/>
+        <SkinId value="Ihanrii"/>
+    </CConsoleSkin>
+</Catalog>

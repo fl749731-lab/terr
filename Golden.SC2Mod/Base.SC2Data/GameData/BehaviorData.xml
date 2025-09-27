@@ -1,0 +1,3299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CBehaviorBuff id="AdeptShieldGM">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-upgrade-karax-unitybarrier.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DamageResponse Minimum="20" ModifyFraction="0" ModifyMinimumDamage="1">
+            <Chance value="1"/>
+            <Cost>
+                <Cooldown TimeUse="2"/>
+            </Cost>
+        </DamageResponse>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="WarpHoleGBhv">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\voidrifts_coopG.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Modification>
+            <VitalMaxArray index="Shields" value="500"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ProbeShieldGP">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-upgrade-karax-unitybarrier.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+        <DamageResponse Minimum="20" ModifyFraction="0" ModifyMinimumDamage="1">
+            <Chance value="1"/>
+            <Cost>
+                <Cooldown TimeUse="2"/>
+            </Cost>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="CoreHeroicShieldProcBuffGT">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-spearofadun-guardianshell.dds"/>
+        <EditorCategories value="AbilityorEffectType:Units,Race:Protoss"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="DarkTemplarShieldG">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-upgrade-karax-unitybarrier.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DamageResponse Minimum="20" ModifyFraction="0" ModifyMinimumDamage="1">
+            <Chance value="1"/>
+            <Cost>
+                <Cooldown TimeUse="4"/>
+            </Cost>
+        </DamageResponse>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="CoreHeroicShieldProcBuffG">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-spearofadun-guardianshell.dds"/>
+        <EditorCategories value="AbilityorEffectType:Units,Race:Protoss"/>
+        <DamageResponse Fatal="1" Handled="HeroicShieldSetGM" ModifyFraction="0">
+            <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="DragoonDisturbGTD">
+        <Alignment value="Negative"/>
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-disintegrationG.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="25"/>
+        <Modification>
+            <ModifyFlags index="DisableWeapons" value="1"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ProdigalEngineerAttackTargetGP">
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-prodigalengineer.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <TimeScaleSource Value="Global"/>
+        <Duration value="2"/>
+        <Modification>
+            <ResourceHarvestAmountMultiplier index="Minerals" value="1"/>
+            <ResourceHarvestAmountMultiplier index="Vespene" value="1"/>
+            <ResourceHarvestAmountMultiplier index="Terrazine" value="1"/>
+            <ResourceHarvestAmountMultiplier index="Custom" value="1"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ProdigalEngineerGP">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-prodigalengineer.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <TimeScaleSource Value="Global"/>
+        <Period value="1"/>
+        <PeriodicEffect value="ProdigalEngineerSetGP"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ProdigalEngineerProductionTargetGP">
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-prodigalengineer.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <TimeScaleSource Value="Global"/>
+        <Duration value="2"/>
+        <Modification AttackSpeedMultiplier="2">
+            <RateMultiplierArray index="Charge" value="5"/>
+            <RateMultiplierArray index="Cooldown" value="5"/>
+            <RateMultiplierArray index="Morph" value="5"/>
+            <RateMultiplierArray index="Progress" value="5"/>
+            <RateMultiplierArray index="Queueable" value="5"/>
+            <RateMultiplierArray index="Spawn" value="5"/>
+            <RateMultiplierArray index="Creep" value="5"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="RoboticBayUpgradeGP">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\talent-artanis-level09-roboticsbayresearchbundleG.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DisableValidatorArray value="HasPower"/>
+        <Modification ShieldArmorBonus="6">
+            <WeaponArray Link="ReaverScarabsLaunchGR" Turret="NexusG"/>
+        </Modification>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="HighArchonPsiStormSlowGK">
+        <Alignment value="Negative"/>
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-upgrade-artanis-healingpsionicstorm.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <TimeScaleSource Value="Global"/>
+        <Duration value="0.7"/>
+        <Modification MoveSpeedMultiplier="0.5">
+            <DeathResponse Chance="1" Effect="HighArchonPsiStormPersistentGKS"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="HighArchonPsiStormGK">
+        <InfoIcon value="Assets\Textures\btn-upgrade-artanis-healingpsionicstorm.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <MaxStackCount value="65535"/>
+        <TimeScaleSource Value="Global"/>
+        <Duration value="0.6665"/>
+        <Period value="0.571"/>
+        <InitialEffect value="HighArchonPsiStormDamageInitialGK"/>
+        <PeriodicEffect value="HighArchonPsiStormDamageGK"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="CannonFrenzyG">
+        <InfoIcon value="Assets\Textures\btn-ability-spearofadun-chronosurge.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <TimeScaleSource Value="Global"/>
+        <Duration value="10"/>
+        <Modification TimeScale="1.5"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ImmortalATAWeaponGAG">
+        <InfoIcon value="Assets\Textures\btn-upgrade-protoss-fenix-dragoonsolariteflareG.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Modification>
+            <AbilLinkDisableArray value="ImmortalATAWeaponGAG"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ImmortalDisturbGA">
+        <Alignment value="Negative"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-disruptionblastG.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="5"/>
+        <Modification>
+            <ModifyFlags index="DisableWeapons" value="1"/>
+            <StateFlags index="Stun" value="1"/>
+            <StateFlags index="SuppressCloak" value="1"/>
+            <StateFlags index="SuppressDetection" value="1"/>
+            <AbilClassDisableArray index="CAbilEffectTarget" value="1"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ImmortalAdunAttackSearchG">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-confusionG.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+        <Period value="4"/>
+        <PeriodicEffect value="ImmortalAdunAttackSearchG"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ImmortalAdunAttackG">
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-confusionG.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="5"/>
+        <Modification>
+            <DamageDealtFraction index="Spell" value="-0.3"/>
+            <DamageDealtFraction index="Melee" value="-0.3"/>
+            <DamageDealtFraction index="Ranged" value="-0.3"/>
+            <DamageDealtFraction index="Splash" value="-0.3"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="HighTemplarEnergyGK">
+        <InfoIcon value="Assets\Textures\btn-upgrade-protoss-khaydarinamulet.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <TimeScaleSource Value="Global"/>
+        <Duration value="0.6"/>
+        <Modification>
+            <VitalRegenArray index="Energy" value="5"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="HighTemplarEnergyCasterGK">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-upgrade-protoss-khaydarinamulet.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+        <Period value="0.2"/>
+        <PeriodicEffect value="HighTemplarEnergySearchGK"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="OrbitalScanG">
+        <InfoIcon value="Assets\Textures\btn-upgrade-protoss-alarak-cyberneticscoreG.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DisableValidatorArray value="HasPower"/>
+        <Modification SightBonus="20" Detect="30"/>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ImmortalAbsorbShieldGA">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-adept-spiritform.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DamageResponse ClampMaximum="10" Minimum="10">
+            <Chance value="1"/>
+        </DamageResponse>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ImmortalAdvGA">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\talent-artanis-level14-startingmaxsupplyG.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Modification MoveSpeedMultiplier="1.25" AttackSpeedMultiplier="1.25"/>
+        <DamageResponse ModifyFraction="0.75">
+            <Chance value="1"/>
+        </DamageResponse>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="HydraliskFrenzyG">
+        <InfoIcon value="Assets\Textures\btn-ability-spearofadun-chronosurge.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <TimeScaleSource Value="Global"/>
+        <Duration value="10"/>
+        <Modification TimeScale="1.5"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="HydraliskShieldG">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-upgrade-karax-unitybarrier.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DamageResponse Minimum="20" ModifyFraction="0" ModifyMinimumDamage="1">
+            <Chance value="1"/>
+            <Cost>
+                <Cooldown TimeUse="4"/>
+            </Cost>
+        </DamageResponse>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="DragoonAbsorbShieldGK">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-adept-spiritform.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DamageResponse ClampMaximum="50" Minimum="50">
+            <Kind index="Spell" value="0"/>
+            <Chance value="1"/>
+        </DamageResponse>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="DragoonDisturbGT">
+        <Alignment value="Negative"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-disintegrationG.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <MaxStackCount value="999"/>
+        <TimeScaleSource Value="Global"/>
+        <Duration value="25"/>
+        <Period value="0.2"/>
+        <PeriodicEffect value="LightningBombDamageG"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="HydraliskGBhv">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-unit-zerg-hydralisk-rczG.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Modification>
+            <VitalMaxArray index="Shields" value="250"/>
+        </Modification>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ImmortalOverloadGA">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-barrier-upgraded.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="20"/>
+        <Modification>
+            <VitalRegenMultiplier index="Life" value="25"/>
+            <VitalRegenMultiplier index="Shields" value="4"/>
+        </Modification>
+        <DamageResponse ModifyFraction="0" ModifyLimit="500" ModifyMinimumDamage="1">
+            <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ImmortalOverloadGAW">
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-barrier-upgraded.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="20"/>
+        <Modification MoveSpeedMultiplier="1.5" AttackSpeedMultiplier="1.5">
+            <VitalRegenMultiplier index="Life" value="20"/>
+            <VitalRegenMultiplier index="Shields" value="2"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="RoachWeaponG">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-weapon-protoss-ground.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Modification MoveSpeedMultiplier="1.25" AttackSpeedMultiplier="1.25">
+            <WeaponEnableArray value="RoachPsiBladesG"/>
+            <WeaponDisableArray value="AcidSalivaG"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="RoachOverloadG">
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-barrier-upgraded.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="20"/>
+        <Modification>
+            <VitalRegenMultiplier index="Shields" value="2"/>
+        </Modification>
+        <DamageResponse ModifyFraction="0" ModifyLimit="200" ModifyMinimumDamage="1">
+            <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="RoachPlasmaPuddleG">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-upgrade-terran-plasmashot.dds"/>
+        <EditorCategories value="AbilityorEffectType:Units,Race:Protoss"/>
+        <Duration value="6"/>
+        <Period value="0.5"/>
+        <PeriodicEffect value="RoachPlasmaPuddleSearchG"/>
+        <FinalEffect value="Suicide"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="HeroicShieldImmunityGDS">
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-hardenedshields-color.dds"/>
+        <EditorCategories value="AbilityorEffectType:Units,Race:Protoss"/>
+        <Duration value="15"/>
+        <DamageResponse ModifyFraction="0.05" ModifyMinimumDamage="1">
+            <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="HeroicShieldSupressedGM">
+        <Alignment value="Negative"/>
+        <Cost>
+            <Cooldown TimeStart="90"/>
+        </Cost>
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-spearofadun-guardianshell.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="90"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="HeroicShieldImmunityGM">
+        <InfoIcon value="Assets\Textures\btn-ability-spearofadun-guardianshell.dds"/>
+        <EditorCategories value="AbilityorEffectType:Units,Race:Protoss"/>
+        <Duration value="6"/>
+        <Modification>
+            <StateFlags index="Invulnerable" value="1"/>
+        </Modification>
+        <DamageResponse ModifyFraction="0" ModifyMinimumDamage="1">
+            <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="HeroicShieldProcBuffGM">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-spearofadun-guardianshell.dds"/>
+        <EditorCategories value="AbilityorEffectType:Units,Race:Protoss"/>
+        <DamageResponse Fatal="1" Handled="HeroicShieldSetGM" ModifyFraction="0">
+            <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="HeroicShieldWeaknessGM">
+        <Alignment value="Negative"/>
+        <InfoIcon value="Assets\Textures\btn-ability-spearofadun-guardianshell.dds"/>
+        <EditorCategories value="AbilityorEffectType:Units,Race:Protoss"/>
+        <Duration value="90"/>
+        <Modification>
+            <BehaviorLinkDisableArray value="HeroicShieldProcBuffGM"/>
+            <BehaviorLinkDisableArray value="CoreHeroicShieldProcBuffG"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="DragoonAdvGT">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\talent-artanis-level14-startingmaxsupplyG.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Modification MoveSpeedMultiplier="1.25" AttackSpeedMultiplier="1.25"/>
+        <DamageResponse ModifyFraction="0.75">
+            <Chance value="1"/>
+        </DamageResponse>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ForgeHealFieldG">
+        <InfoIcon value="Assets\Textures\btn-upgrade-karax-forgeupgradecache.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DisableValidatorArray value="HasPower"/>
+        <Period value="8"/>
+        <PeriodicEffect value="ForgeAstralWindG"/>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="RoachShieldG">
+        <InfoIcon value="Assets\Textures\btn-upgrade-stetmann-mechachitinousplatingG.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DisableValidatorArray value="LifeLTHalf"/>
+        <Modification LifeArmorMultiplier="2" ShieldArmorMultiplier="2"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="RoachWeaponPlasmaKillSmallG">
+        <BehaviorFlags index="Permanent" value="1"/>
+        <BehaviorFlags index="EnabledWhileDead" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-upgrade-terran-plasmashot.dds"/>
+        <EditorCategories value="AbilityorEffectType:Units,Race:Protoss"/>
+        <Duration value="2"/>
+        <DamageResponse Fatal="1" Handled="RoachPlasmaPuddleSmallCUG">
+            <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="RoachAbsorbShieldG">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-adept-spiritform.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DamageResponse ClampMaximum="10" Minimum="10">
+            <Kind index="Spell" value="0"/>
+            <Chance value="1"/>
+        </DamageResponse>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="RegenerativeBioSteelG">
+        <InfoIcon value="Assets\Textures\btn-upgrade-swann-improvednanorepair.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DisableValidatorArray value="CasterNotInCombatShort5G"/>
+        <DisableValidatorArray value="NotMaxHP"/>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+        <Modification>
+            <VitalRegenArray index="Life" value="10"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="HydraliskPhasingArmorBuffG">
+        <InfoIcon value="Assets\Textures\btn-ability-stetmann-hydraliskrespawnG.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="3"/>
+        <DamageResponse ModifyFraction="0.2" ModifyMinimumDamage="1">
+            <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="HydraliskPhasingArmorG">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-stetmann-hydraliskrespawnG.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DamageResponse Handled="HydraliskPhaseArmorABG">
+            <Chance value="1"/>
+            <Cost>
+                <Cooldown TimeUse="6"/>
+            </Cost>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="HydraliskSpeedG">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-upgrade-stetmann-mechamuscularaugmentsG.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DisableValidatorArray value="CasterNotStunned"/>
+        <DamageResponse ModifyFraction="0">
+            <Chance value="0.25"/>
+        </DamageResponse>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="HydraliskAutoBlinkG">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-upgrade-nova-blink.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DisableValidatorArray value="HasHydraliskMuBlinkAutocastG"/>
+        <DisableValidatorArray value="HydraliskAutoBlinkNotOnCooldownG"/>
+        <DisableValidatorArray value="CasterNotStunned"/>
+        <DamageResponse>
+            <Handled value="HydraliskAutoBlinkInitialPersistentG"/>
+            <Minimum value="10"/>
+            <ModifyFraction value="0"/>
+            <ModifyMinimumDamage value="1"/>
+            <Chance value="1"/>
+            <Cost>
+                <Cooldown TimeUse="4"/>
+            </Cost>
+        </DamageResponse>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ForgeShieldG">
+        <InfoIcon value="Assets\Textures\btn-ability-spearofadun-shieldovercharge.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <TimeScaleSource Value="Global"/>
+        <Duration value="30"/>
+        <DamageResponse ModifyFraction="0" ModifyLimit="300" ModifyMinimumDamage="1">
+            <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ImmortalVortexBehaviorEnemyGA">
+        <Alignment value="Negative"/>
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-upgrade-protoss-fenix-dragoonsolariteflareG.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="0.125"/>
+        <InitialEffect value="ImmortalVortexForceGA"/>
+        <RefreshEffect value="ImmortalVortexForceGA"/>
+        <Modification MoveSpeedMinimum="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="HighTemplarAdvGK">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\talent-artanis-level14-startingmaxsupplyG.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Modification MoveSpeedMultiplier="1.25" AttackSpeedMultiplier="1.25"/>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="SPXWGK">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-purify.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="5"/>
+        <Period value="0.25"/>
+        <PeriodicEffect value="PsiStormAttackRandomXGK"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ScarabTimedLifeGR">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-scarabshot.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="3"/>
+        <ExpireEffect value="SuicideNoShieldG"/>
+        <Modification>
+            <StateFlags index="Summoned" value="1"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="DarkTemplarAdvGL">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\talent-artanis-level14-startingmaxsupplyG.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Modification MoveSpeedMultiplier="1.25" AttackSpeedMultiplier="1.25"/>
+        <DamageResponse ModifyFraction="0.75">
+            <Chance value="1"/>
+        </DamageResponse>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ProbeAdvGP">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\talent-artanis-level14-startingmaxsupplyG.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+        <Modification MoveSpeedMultiplier="1.25" AttackSpeedMultiplier="1.5"/>
+        <DamageResponse ModifyFraction="0.75">
+            <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ProbeBhvGP">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-unit-collection-probe-golden.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorPowerSource id="PylonPowerSourceG">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-building-protoss-pylon.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Structures"/>
+        <PowerLevel value="2"/>
+        <Radius value="8"/>
+        <PowerLink value="PowerSource"/>
+    </CBehaviorPowerSource>
+    <CBehaviorBuff id="ZerglingAttackFrenzyG">
+        <InfoIcon value="Assets\Textures\btn-upgrade-stetmann-mechaadrenalglandsG.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <BuffFlags index="RefreshStack" value="1"/>
+        <MaxStackCount value="5"/>
+        <Duration value="6"/>
+        <Modification>
+            <AdditiveAttackSpeedFactor value="0.1"/>
+            <VitalDamageLeechArray index="Shields">
+                <KindArray index="Spell" value="0.1"/>
+                <KindArray index="Melee" value="0.1"/>
+                <KindArray index="Ranged" value="0.1"/>
+                <KindArray index="Splash" value="0.1"/>
+                <KindArray index="NoProc" value="0.1"/>
+            </VitalDamageLeechArray>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ZerglingChargingG">
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-charge-color.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <RemoveValidatorArray value="ChargeMinDistance"/>
+        <BuffFlags index="Channeling" value="1"/>
+        <Duration value="3.5"/>
+        <Modification MoveSpeedMultiplier="5">
+            <StateFlags index="Invulnerable" value="1"/>
+        </Modification>
+        <InitialEffect value="ZerglingFrenzyABG"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="SuperShieldGM">
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-doubleshieldrecharge.dds"/>
+        <EditorCategories value="AbilityorEffectType:Units,Race:Protoss"/>
+        <RemoveValidatorArray value="ShieldGZero"/>
+        <TimeScaleSource Value="Global"/>
+        <Duration value="20"/>
+        <DamageResponse ModifyFraction="0" ModifyLimit="100" ModifyMinimumDamage="1">
+            <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="SentryAdvGM">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\talent-artanis-level14-startingmaxsupplyG.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Modification MoveSpeedMultiplier="1.25" AttackSpeedMultiplier="2"/>
+        <DamageResponse ModifyFraction="0.75">
+            <Chance value="1"/>
+        </DamageResponse>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="AdeptNotMovingGT">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-psionictransfer.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <RemoveValidatorArray value="AdeptIsMovingGT"/>
+        <FinalEffect value="AdeptMorphIssueOrderGT"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ForceFieldEffectGM">
+        <Alignment value="Negative"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-forcefield-color.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <TimeScaleSource Value="Global"/>
+        <Duration value="0.5417"/>
+        <Modification TimeScale="0.01">
+            <ModifyFlags index="DisableWeapons" value="1"/>
+            <ModifyFlags index="SuppressMoving" value="1"/>
+            <StateFlags index="Stun" value="1"/>
+            <StateFlags index="SuppressAttack" value="1"/>
+            <StateFlags index="SuppressCloak" value="1"/>
+            <StateFlags index="SuppressDetection" value="1"/>
+            <StateFlags index="SuppressRadar" value="1"/>
+            <AbilClassDisableArray index="CAbilAttack" value="1"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ForceFieldGM">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-forcefield-color.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+        <Period value="0.2"/>
+        <PeriodicEffect value="ForceFieldSearchGM"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="GuardianShieldGM">
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-shieldbattery-color.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="0.75"/>
+        <DamageResponse>
+            <ModifyAmount value="-10"/>
+            <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="SentryBhvGM">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-unit-collection-sentry-golden.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="SentryFieldGM">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-shieldbattery-color.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+        <Period value="0.5"/>
+        <PeriodicEffect value="GuardianShieldSearchGM"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="SentryGRepairFieldGM">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-upgrade-swann-improvednanorepair.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Period value="1"/>
+        <PeriodicEffect value="SentryGRepairFieldSearchGM"/>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="TempestChargingG">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-upgrade-protoss-phoenixrange.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DisplayDuration index="Self" value="1"/>
+        <DisplayDuration index="Ally" value="1"/>
+        <DisplayDuration index="Neutral" value="1"/>
+        <DisplayDuration index="Enemy" value="1"/>
+        <Duration value="10"/>
+        <ExpireEffect value="TempestChargeBehaviorG"/>
+        <Modification>
+            <AbilLinkDisableArray value="TempestChargeG"/>
+            <WeaponDisableArray value="TempestG"/>
+        </Modification>
+        <BuffFlags index="Countdown" value="0"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="TempestChargeBuffG">
+        <InfoIcon value="Assets\Textures\btn-upgrade-protoss-phoenixrange.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Modification>
+            <AbilLinkDisableArray value="TempestChargeG"/>
+            <WeaponDisableArray value="TempestG"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="CarrierNotMovingG">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-unit-collection-carrier-golden.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Modification>
+            <ModifyFlags index="SuppressTurning" value="1"/>
+        </Modification>
+        <DisableValidatorArray value="CarrierIsMovingG"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="AdeptPhaseShiftCancelDummyG">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="0.125"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-psionictransfer.dds"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="AdeptPhaseShiftMovingABGT">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-psionictransfer.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="0.5"/>
+        <ExpireEffect value="AdeptPhaseShiftMoveABGT"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="AdeptPhaseShiftCasterGT">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-psionictransfer.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="20.0625"/>
+        <Modification>
+            <StateFlags index="SuppressPassenger" value="1"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="AdeptPhaseShiftG">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-psionictransfer.dds"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="AdeptPhaseShiftCasterG">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DisplayDuration index="Self" value="1"/>
+        <DisplayDuration index="Ally" value="1"/>
+        <DisplayDuration index="Neutral" value="1"/>
+        <DisplayDuration index="Enemy" value="1"/>
+        <DisableValidatorArray value="NotBeingAbducted"/>
+        <DisableValidatorArray value="KD8CasterKnockingBack"/>
+        <Duration value="10.0625"/>
+        <FinalEffect value="AdeptPhaseShiftCancelG"/>
+        <ExpireEffect value="AdeptPhaseShiftCancelG"/>
+        <Modification>
+            <StateFlags index="SuppressPassenger" value="1"/>
+        </Modification>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-psionictransfer.dds"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="AdeptPhaseShiftTeleportTargetGT">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-psionictransfer.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="AdeptPhaseShiftTimerG">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DisplayDuration index="Self" value="1"/>
+        <DisplayDuration index="Ally" value="1"/>
+        <DisplayDuration index="Neutral" value="1"/>
+        <DisplayDuration index="Enemy" value="1"/>
+        <DisableValidatorArray value="CasterNotAbducted"/>
+        <DisableValidatorArray value="KD8CasterKnockingBack"/>
+        <RemoveValidatorArray value="CasterNotDead"/>
+        <RemoveValidatorArray value="CasterIsNotPhaseShiftingG"/>
+        <Duration value="10"/>
+        <FinalEffect value="PhaseShiftTimerCancelSetG"/>
+        <ExpireEffect value="AdeptPhaseShiftTeleportSetG"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-psionictransfer.dds"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="AdeptPhaseShiftTimerGT">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-psionictransfer.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DisplayDuration index="Self" value="1"/>
+        <DisplayDuration index="Ally" value="1"/>
+        <DisplayDuration index="Neutral" value="1"/>
+        <DisplayDuration index="Enemy" value="1"/>
+        <Duration value="10"/>
+        <FinalEffect value="AdeptPhaseShiftKillDummyGT"/>
+        <ExpireEffect value="AdeptPhaseShiftTeleportSetGT"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="AdeptPhaseShiftMorphTimerGT">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-psionictransfer.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="10"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ArbiterMPCloakFieldG">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-cloakfield-color.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+        <Period value="0.2"/>
+        <PeriodicEffect value="ArbiterMPCloakingFieldSearchG"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ArbiterMPCloakFieldEffectG">
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-cloakfield-color.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DisableValidatorArray value="NotMothership"/>
+        <TimeScaleSource Value="Global"/>
+        <Duration value="0.5"/>
+        <Modification>
+            <StateFlags index="Cloak" value="1"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ArbiterMPRecalledG">
+        <Cost>
+            <Charge Link="Behavior/Recalled"/>
+            <Cooldown Link="Behavior/Recalled"/>
+        </Cost>
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="2"/>
+        <Modification>
+            <ModifyFlags index="DisableAbils" value="1"/>
+            <StateFlags index="SuppressAttack" value="1"/>
+            <StateFlags index="Uncommandable" value="1"/>
+            <AbilClassDisableArray index="CAbilAttack" value="1"/>
+            <AbilClassDisableArray index="CAbilMove" value="1"/>
+            <AbilLinkEnableArray value="VolatileBurstBuilding"/>
+            <AbilLinkEnableArray value="GhostCloak"/>
+            <AbilLinkEnableArray value="BansheeCloak"/>
+            <AbilLinkEnableArray value="CarrierRepairDroneHanger"/>
+            <AbilLinkEnableArray value="BroodLordHangar"/>
+        </Modification>
+        <DamageResponse>
+            <Cost>
+                <Charge Link="Behavior/Recalled"/>
+                <Cooldown Link="Behavior/Recalled"/>
+            </Cost>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ArbiterMPRecallingG">
+        <Cost>
+            <Charge Link="Behavior/Recalling"/>
+            <Cooldown Link="Behavior/Recalling"/>
+        </Cost>
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="1"/>
+        <ExpireEffect value="ArbiterMPRecallSetG"/>
+        <Modification>
+            <ModifyFlags index="DisableAbils" value="1"/>
+            <StateFlags index="SuppressAttack" value="1"/>
+            <StateFlags index="Uncommandable" value="1"/>
+            <AbilClassDisableArray index="CAbilAttack" value="1"/>
+            <AbilClassDisableArray index="CAbilMove" value="1"/>
+            <AbilLinkEnableArray value="VolatileBurstBuilding"/>
+            <AbilLinkEnableArray value="GhostCloak"/>
+            <AbilLinkEnableArray value="BansheeCloak"/>
+            <AbilLinkEnableArray value="CarrierRepairDroneHanger"/>
+            <AbilLinkEnableArray value="BroodLordHangar"/>
+        </Modification>
+        <DamageResponse>
+            <Cost>
+                <Charge Link="Behavior/Recalling"/>
+                <Cooldown Link="Behavior/Recalling"/>
+            </Cost>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ArbiterMPStasisFieldG">
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-forcefield-color.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="15"/>
+        <Modification>
+            <StateFlags index="Invulnerable" value="1"/>
+            <StateFlags index="Stasis" value="1"/>
+            <StateFlags index="Stun" value="1"/>
+            <AbilClassDisableArray index="CAbilAttack" value="1"/>
+            <BehaviorLinkDisableArray value="Detector7"/>
+            <BehaviorLinkDisableArray value="Detector8"/>
+            <BehaviorLinkDisableArray value="Detector9"/>
+            <BehaviorLinkDisableArray value="Detector10"/>
+            <BehaviorLinkDisableArray value="Detector11"/>
+            <BehaviorLinkDisableArray value="Detector12"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ArbiterMPStasisFieldTimedLifeG">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DisplayDuration index="Enemy" value="1"/>
+        <Duration value="15"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ArbiterTimeWarpGE">
+        <Alignment value="Negative"/>
+        <InfoIcon value="Assets\Textures\btn-upgrade-karax-chronofield.dds"/>
+        <BehaviorCategories index="Slow" value="1"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DisplayDuration index="Self" value="1"/>
+        <DisplayDuration index="Ally" value="1"/>
+        <DisplayDuration index="Neutral" value="1"/>
+        <DisplayDuration index="Enemy" value="1"/>
+        <Duration value="20"/>
+        <Modification MoveSpeedMultiplier="0.5" AttackSpeedMultiplier="0.5"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ArtanisLightningDashStunG">
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-lightningdash.dds"/>
+        <BehaviorCategories index="Stun" value="1"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="4"/>
+        <Modification>
+            <StateFlags index="Stun" value="1"/>
+        </Modification>
+        <Alignment value="Negative"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="LightningBombG">
+        <Alignment value="Negative"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-disintegrationG.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <TimeScaleSource Value="Global"/>
+        <Duration value="10"/>
+        <Period value="0.5"/>
+        <PeriodicEffect value="LightningBombDamageG"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="PhoenixResurgenceReviveSupressedG">
+        <Alignment value="Negative"/>
+        <Cost>
+            <Cooldown TimeStart="120"/>
+        </Cost>
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-zeratul-supressioncrystal-supressionfield.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="120"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="PhoenixResurgenceInvulnerableG">
+        <InfoIcon value="Assets\Textures\btn-ability-zeratul-supressioncrystal-supressionfield.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DisplayDuration index="Self" value="1"/>
+        <DisplayDuration index="Ally" value="1"/>
+        <DisplayDuration index="Neutral" value="1"/>
+        <DisplayDuration index="Enemy" value="1"/>
+        <Duration value="3"/>
+        <InitialEffect value="PhoenixResurgenceHealG"/>
+        <DamageResponse ModifyFraction="0" ModifyMinimumDamage="1">
+            <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="PhoenixResurgenceDisableG">
+        <Alignment value="Negative"/>
+        <InfoIcon value="Assets\Textures\btn-ability-zeratul-supressioncrystal-supressionfield.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="120"/>
+        <Modification>
+            <BehaviorLinkDisableArray value="PhoenixResurgenceG"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="GoldenResurgenceG">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-resurgence.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DamageResponse Fatal="1" Handled="GoldenResurgenceSetG" ModifyFraction="0">
+            <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="GoldenResurgenceDisableG">
+        <Alignment value="Negative"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-resurgence.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="90"/>
+        <Modification>
+            <BehaviorLinkDisableArray value="GoldenResurgenceG"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="PhoenixResurgenceG">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-zeratul-supressioncrystal-supressionfield.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DamageResponse Fatal="1" Handled="PhoenixResurgenceSetG" ModifyFraction="0">
+            <Chance value="1"/>
+        </DamageResponse>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="GoldenResurgenceInvulnerableG">
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-resurgence.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DisplayDuration index="Self" value="1"/>
+        <DisplayDuration index="Ally" value="1"/>
+        <DisplayDuration index="Neutral" value="1"/>
+        <DisplayDuration index="Enemy" value="1"/>
+        <BuffFlags index="Countdown" value="0"/>
+        <Duration value="3"/>
+        <Period value="3"/>
+        <PeriodicEffect value="GoldenResurgenceExplodeSetG"/>
+        <DamageResponse ModifyFraction="0" ModifyMinimumDamage="1">
+            <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="GoldenResurgenceReviveSupressedG">
+        <Alignment value="Negative"/>
+        <Cost>
+            <Cooldown TimeStart="90"/>
+        </Cost>
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-resurgence.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="90"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="GoldenResurgenceStunG">
+        <Alignment value="Negative"/>
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-resurgence.dds"/>
+        <BehaviorCategories index="Stun" value="1"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="3"/>
+        <Modification>
+            <StateFlags index="Stun" value="1"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="AssimilatorMorphG">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Requirements value="HaveSOAAutoAssimilator"/>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+        <Duration value="0.1"/>
+        <ExpireEffect value="AssimilatorMorphG"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="AutoHarvestVespeneProtossG">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DisableValidatorArray value="HaveCinematicModeDisabled"/>
+        <RemoveValidatorArray value="AutoHarvesterFinish"/>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+        <Period value="2.1"/>
+        <PeriodicEffect value="AutoHarvestVespene4G"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="AutomatedAssimilatorBeamG">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DisableValidatorArray value="AutomatedAssimilatorBeamG"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="AdeptTargetLockGT">
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-targetlockG.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Modification>
+            <DamageTakenFraction index="Spell" value="1"/>
+            <DamageTakenFraction index="Melee" value="1"/>
+            <DamageTakenFraction index="Ranged" value="1"/>
+            <DamageTakenFraction index="Splash" value="1"/>
+            <DamageTakenFraction index="NoProc" value="1"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="AdeptTargetLockCasterGT">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-targetlockG.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="AdeptPhaseShiefTimedLifeGT">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-psionictransfer.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="10"/>
+        <ExpireEffect value="SuicideNoShieldG"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ArchonDeathVortexG">
+        <BehaviorFlags index="Permanent" value="1"/>
+        <BehaviorFlags index="EnabledWhileDead" value="1"/>
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-blackhole-color.dds"/>
+        <EditorCategories value="AbilityorEffectType:Units,Race:Protoss"/>
+        <DamageResponse Fatal="1" Handled="VortexCreatePersistentGA">
+            <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="CoreTemporalRiftUnitGF">
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-timewarp-BlueG.dds"/>
+        <BehaviorCategories index="Slow" value="1"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <TimeScaleSource Value="Global"/>
+        <Duration value="0.25"/>
+        <DamageResponse ModifyFraction="0.7">
+            <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="MothershipCoreCloakFieldG">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-cloakfield-color.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+        <Period value="0.2"/>
+        <PeriodicEffect value="MothershipCoreCloakingFieldSearchG"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="MothershipCoreCloakFieldEffectG">
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-cloakfield-color.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <TimeScaleSource Value="Global"/>
+        <Duration value="0.6"/>
+        <Modification>
+            <StateFlags index="Cloak" value="1"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="GravitonBeamGH">
+        <Alignment value="Negative"/>
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-gravitonbeam-color.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <TimeScaleSource Value="Global"/>
+        <Duration value="10"/>
+        <Modification Height="3.75">
+            <HeightTime index="Start" value="0.75"/>
+            <HeightTime index="Stop" value="0.25"/>
+            <BehaviorClassDisableArray index="CBehaviorCreepSource" value="1"/>
+            <BehaviorClassDisableArray index="CBehaviorPowerSource" value="1"/>
+            <BehaviorClassDisableArray index="CBehaviorResource" value="1"/>
+            <BehaviorClassDisableArray index="CBehaviorSpawn" value="1"/>
+            <PlaneDelta index="Ground" value="-1"/>
+            <PlaneDelta index="Air" value="1"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ObserverEMPG">
+        <Alignment value="Negative"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-envision.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="15"/>
+        <Modification>
+            <StateFlags index="SuppressCloak" value="1"/>
+            <StateFlags index="SuppressDetection" value="1"/>
+            <StateFlags index="SuppressRadar" value="1"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="CoreTemporalRiftUnitG">
+        <Alignment value="Negative"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-timewarp-BlueG.dds"/>
+        <BehaviorCategories index="Slow" value="1"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <TimeScaleSource Value="Global"/>
+        <Duration value="0.25"/>
+        <Modification TimeScale="0.7"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="CorsairPhasingArmorBuffG">
+        <InfoIcon value="Assets\Textures\btn-upgrade-vorazun-corsairpermanentlycloakedG.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="3"/>
+        <Modification>
+            <StateFlags index="Cloak" value="1"/>
+        </Modification>
+        <DamageResponse ModifyFraction="0" ModifyMinimumDamage="1">
+            <Chance value="0.8"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="CorsairPhasingArmorG">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-upgrade-vorazun-corsairpermanentlycloakedG.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DamageResponse Handled="CorsairPhaseArmorABG" ModifyFraction="0" ModifyMinimumDamage="1">
+            <Chance value="1"/>
+            <Cost>
+                <Cooldown TimeUse="6"/>
+            </Cost>
+        </DamageResponse>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="GravitonBombG">
+        <InfoIcon value="Assets\Textures\btn-ability-spearofadun-temporalfield.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <TimeScaleSource Value="Global"/>
+        <Duration value="0.25"/>
+        <Modification TimeScale="0.01">
+            <ModifyFlags index="DisableWeapons" value="1"/>
+            <ModifyFlags index="Reveal" value="1"/>
+            <ModifyFlags index="Detected" value="1"/>
+            <ModifyFlags index="SuppressMoving" value="1"/>
+            <StateFlags index="Stun" value="1"/>
+            <AbilClassDisableArray index="CAbilQueue" value="1"/>
+            <AbilClassDisableArray index="CAbilResearch" value="1"/>
+            <AbilClassDisableArray index="CAbilTrain" value="1"/>
+            <AbilClassDisableArray index="CAbilWarpTrain" value="1"/>
+            <BehaviorClassDisableArray index="CBehaviorPowerSource" value="1"/>
+            <BehaviorLinkDisableArray value="SpawnLarva"/>
+            <BehaviorLinkDisableArray value="QueenSpawnLarvaTimer"/>
+            <BehaviorLinkDisableArray value="Detector7"/>
+            <BehaviorLinkDisableArray value="Detector8"/>
+            <BehaviorLinkDisableArray value="Detector9"/>
+            <BehaviorLinkDisableArray value="Detector10"/>
+            <BehaviorLinkDisableArray value="Detector11"/>
+            <BehaviorLinkDisableArray value="Detector12"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ReleaseInterceptorsBeaconG">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-upgrade-protoss-fenix-bomberresearchG.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <MaxStackCount value="65535"/>
+        <FinalEffect value="ReleaseInterceptorsRemoveBeaconG"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ReleaseInterceptorsTimedLifeG" parent="TimedLife">
+        <InfoIcon value="Assets\Textures\btn-upgrade-protoss-fenix-bomberresearchG.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DisplayDuration index="Enemy" value="1"/>
+        <Duration value="60"/>
+        <Period value="0.5"/>
+        <InitialEffect value="ReleaseInterceptorsBeaconABG"/>
+        <PeriodicEffect value="ReleaseInterceptorsLeashSetG"/>
+        <FinalEffect value="ReleaseInterceptorsBeaconRBG"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ReleaseInterceptorsTimedLifeWarningG">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-upgrade-protoss-fenix-bomberresearchG.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="60"/>
+        <ExpireEffect value="TimedLifeFate"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ReleaseInterceptorsWanderDelayG">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-upgrade-protoss-fenix-bomberresearchG.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <RemoveValidatorArray value="ReleaseInterceptorsDestinationNotReachedG"/>
+        <FinalEffect value="ReleaseInterceptorsPatrolCPG"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ServitorAttackSearchCasterG">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-carrierrepairdrones.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DisableValidatorArray value="ServitorAttackSearchG"/>
+        <Period value="2"/>
+        <PeriodicEffect value="ServitorAttackCPG"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ScoutPhasingArmorBuffG">
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-phaseshift2.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="3"/>
+        <Modification>
+            <StateFlags index="Invulnerable" value="1"/>
+        </Modification>
+        <DamageResponse ModifyFraction="0" ModifyMinimumDamage="1">
+            <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ScoutPhasingArmorG">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-phaseshift2.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DamageResponse Handled="ScoutPhaseArmor" ModifyFraction="0" ModifyMinimumDamage="1">
+            <Chance value="1"/>
+            <Cost>
+                <Cooldown TimeUse="6"/>
+            </Cost>
+        </DamageResponse>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="VoidRayChargeBeamCounterG">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <BuffFlags index="RefreshStack" value="1"/>
+        <MaxStackCount value="40"/>
+        <Duration value="10"/>
+        <InitialEffect value="VoidRayChargeBeamCounterCheckG"/>
+        <RefreshEffect value="VoidRayChargeBeamCounterCheckG"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-voidrayprismaticalignment.dds"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="VoidRayChargeBeamPhase2G">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="10"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-voidrayprismaticalignment.dds"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="VoidRayChargeBeamPhase1G">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="10"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-voidrayprismaticalignment.dds"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="VoidRayChargeBeamPhase3G">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="10"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-voidrayprismaticalignment.dds"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="VoidRayChargeBeamPhase4G">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="10"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-voidrayprismaticalignment.dds"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="VoidRayChargeBeamPhase5G">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="10"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-voidrayprismaticalignment.dds"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="VoidRayChargeBeamPhase6G">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="10"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-voidrayprismaticalignment.dds"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="TempestVortexBehaviorEnemyG">
+        <Alignment value="Negative"/>
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-blackhole-color.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="0.125"/>
+        <InitialEffect value="TempestVortexForceG"/>
+        <RefreshEffect value="TempestVortexForceG"/>
+        <Modification MoveSpeedMinimum="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="DarkTemplarWhirlwindG">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-whirlwind.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="0.5"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="RoachGBhv">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-unit-collection-roachupgrade-mechaG.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Modification>
+            <VitalMaxArray index="Shields" value="150"/>
+        </Modification>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ZerglingWhirlwindG">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\BTN-Ability-Protoss-Whirlwind.dds"/>
+        <EditorCategories value="AbilityorEffectType:Units,Race:Protoss"/>
+        <RemoveValidatorArray value="CasterNotStunned"/>
+        <Duration value="3"/>
+        <Period value="0.5"/>
+        <PeriodicEffect value="ZerglingWhirlwindBehaviorSetG"/>
+        <FinalEffect value="ZerglingWhirlwindCancelMoveG"/>
+        <Modification>
+            <StateFlags index="SuppressCollision" value="1"/>
+            <WeaponArray Link="ZerglingWhirlwindFakeWeaponG"/>
+            <WeaponDisableArray value="ZerglingPsiBladesG"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="WarpPrismRecalledG">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-spearofadun-warpharmonization.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="1"/>
+        <Modification>
+            <ModifyFlags index="DisableAbils" value="1"/>
+            <StateFlags index="Invulnerable" value="1"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="WarpPrismRecallingG">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-spearofadun-warpharmonization.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <RemoveValidatorArray value="CasterNotDead"/>
+        <Duration value="2"/>
+        <ExpireEffect value="WarpPrismCoreMassRecallSetG"/>
+        <Modification Height="1.5">
+            <ModifyFlags index="DisableAbils" value="1"/>
+            <StateFlags index="Invulnerable" value="1"/>
+            <HeightTime index="Start" value="2"/>
+            <HeightTime index="Stop" value="2"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ObserverSpeedBoostG">
+        <InfoIcon value="Assets\Textures\btn-upgrade-protoss-graviticbooster.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DisplayDuration index="Self" value="1"/>
+        <DisplayDuration index="Ally" value="1"/>
+        <Duration value="8"/>
+        <Modification MoveSpeedMultiplier="1.75" AccelerationBonus="500" DecelerationBonus="500"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="WarpPrismSpeedBoostG">
+        <InfoIcon value="Assets\Textures\btn-upgrade-protoss-graviticbooster.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DisplayDuration index="Self" value="1"/>
+        <DisplayDuration index="Ally" value="1"/>
+        <Duration value="8"/>
+        <Modification MoveSpeedMultiplier="1.75" AccelerationBonus="500" DecelerationBonus="500"/>
+    </CBehaviorBuff>
+    <CBehaviorPowerUser id="PowerUserWarpableG">
+        <InfoIcon value="Assets\Textures\btn-building-protoss-pylon.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <PowerLink value="PowerSource"/>
+        <PoweredWhileUnderConstruction value="1"/>
+        <PowerStageArray/>
+        <PowerStageArray MinPowerLevel="2">
+            <Modification>
+                <RateMultiplierArray index="Progress" value="3.2"/>
+            </Modification>
+        </PowerStageArray>
+    </CBehaviorPowerUser>
+    <CBehaviorBuff id="StoneZealotArmorCasterGS">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-upgrade-protoss-groundarmorlevel3.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DamageResponse Handled="StoneZealotArmorABGS">
+            <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="StoneZealotArmorGS">
+        <InfoIcon value="Assets\Textures\btn-upgrade-protoss-groundarmorlevel3.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <MaxStackCount value="40"/>
+        <Duration value="30"/>
+        <Modification>
+            <DamageTakenFraction index="Spell" value="-0.02"/>
+            <DamageTakenFraction index="Melee" value="-0.02"/>
+            <DamageTakenFraction index="Ranged" value="-0.02"/>
+            <DamageTakenFraction index="Splash" value="-0.02"/>
+            <DamageTakenFraction index="NoProc" value="-0.02"/>
+            <LifeArmorBonus value="-1"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="StoneZealotAbsorbShieldG">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-adept-spiritform.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DamageResponse ClampMaximum="50" Minimum="50">
+            <Kind index="Spell" value="0"/>
+            <Chance value="1"/>
+        </DamageResponse>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="DroneRecallG">
+        <BehaviorFlags index="Permanent" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-carrierrepairdrones.dds"/>
+        <EditorCategories value="AbilityorEffectType:Units,Race:Protoss"/>
+        <Period value="1"/>
+        <PeriodicEffect value="DroneRecallTeleportG"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ChargingGK">
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-lightningdash.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <RemoveValidatorArray value="ChargeTargetAttackedGK"/>
+        <BuffFlags index="Channeling" value="1"/>
+        <Duration value="6"/>
+        <FinalEffect value="ZealotChargeSetGK"/>
+        <Modification MoveSpeedMultiplier="7.8">
+            <StateFlags index="SuppressCollision" value="1"/>
+        </Modification>
+        <DamageResponse ModifyFraction="0" ModifyMinimumDamage="1">
+            <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="AdeptAdvGT">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\talent-artanis-level14-startingmaxsupplyG.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Modification MoveSpeedMultiplier="1.25" AttackSpeedMultiplier="2"/>
+        <DamageResponse ModifyFraction="0.75">
+            <Chance value="1"/>
+        </DamageResponse>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="StalkerTimeLifeGSPH">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-blinkshieldrestore.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DisplayDuration index="Self" value="1"/>
+        <DisplayDuration index="Ally" value="1"/>
+        <DisplayDuration index="Neutral" value="1"/>
+        <DisplayDuration index="Enemy" value="1"/>
+        <Duration value="6"/>
+        <ExpireEffect value="SuicideNoShieldG"/>
+        <Modification>
+            <StateFlags index="Summoned" value="1"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="StalkerGSPH">
+        <BehaviorFlags index="Permanent" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-blinkshieldrestore.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Modification SubgroupPriority="-100">
+            <StateFlags index="SuppressCloak" value="1"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="StalkerTargetGS">
+        <Alignment value="Negative"/>
+        <InfoIcon value="Assets\Textures\btn-ability-hornerhan-raven-analyzetargetG.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <MaxStackCount value="10"/>
+        <Duration value="10"/>
+        <Modification>
+            <ModifyFlags index="Reveal" value="1"/>
+            <StateFlags index="SuppressCloak" value="1"/>
+            <DamageTakenFraction index="Spell" value="0.1"/>
+            <DamageTakenFraction index="Melee" value="0.1"/>
+            <DamageTakenFraction index="Ranged" value="0.1"/>
+            <DamageTakenFraction index="Splash" value="0.1"/>
+            <DamageTakenFraction index="NoProc" value="0.1"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="StalkerAbsorbShieldGS">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-adept-spiritform.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DamageResponse ClampMaximum="50" Minimum="50">
+            <Kind index="Spell" value="0"/>
+            <Chance value="1"/>
+        </DamageResponse>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="DragoonMineCloakG">
+        <InfoIcon value="Assets\Textures\btn-upgrade-protoss-fenix-dragoonoverchargeG.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Modification>
+            <StateFlags index="Cloak" value="1"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ServitorTimedLifeG">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-carrierrepairdrones.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="1.25"/>
+        <ExpireEffect value="SuicideNoShieldG"/>
+        <KillCredit Value="Caster"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ScarabExplodeG">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-upgrade-artanis-scarabsplashradius.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Modification>
+            <DeathResponse Chance="1" Effect="ScarabExplodeDeathSetG"/>
+        </Modification>
+        <DamageResponse Fatal="1" Handled="ScarabExplodeDeathSetG" ModifyFraction="0">
+            <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ChargingG">
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-lightningdash.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <RemoveValidatorArray value="ChargeTargetAttackedG"/>
+        <BuffFlags index="Channeling" value="1"/>
+        <Duration value="3"/>
+        <FinalEffect value="ZealotChargeSetG"/>
+        <Modification MoveSpeedMultiplier="2.6">
+            <StateFlags index="SuppressCollision" value="1"/>
+        </Modification>
+        <DamageResponse ModifyFraction="0.25" ModifyMinimumDamage="1">
+            <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ChargingGG">
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-lightningdash.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <RemoveValidatorArray value="ChargeTargetAttackedGG"/>
+        <BuffFlags index="Channeling" value="1"/>
+        <Duration value="3"/>
+        <FinalEffect value="ZealotChargeSetGG"/>
+        <Modification MoveSpeedMultiplier="2.6">
+            <StateFlags index="SuppressCollision" value="1"/>
+        </Modification>
+        <DamageResponse ModifyFraction="0" ModifyMinimumDamage="1">
+            <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="DarkTemplarStrafePrepareG">
+        <InfoIcon value="Assets\Textures\btn-ability-spearofadun-solarbombardmentG.dds"/>
+        <EditorCategories value="AbilityorEffectType:Units,Race:Protoss"/>
+        <DisplayDuration index="Self" value="1"/>
+        <DisplayDuration index="Ally" value="1"/>
+        <DisplayDuration index="Neutral" value="1"/>
+        <DisplayDuration index="Enemy" value="1"/>
+        <BuffFlags index="Countdown" value="0"/>
+        <Duration value="4"/>
+        <InitialEffect value="DarkTemplarGCloakRB"/>
+        <ExpireEffect value="DarkTemplarStrafeAttackABG"/>
+        <Modification>
+            <ModifyFlags index="DisableAbils" value="1"/>
+            <ModifyFlags index="SuppressMoving" value="1"/>
+            <StateFlags index="Stun" value="1"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ImmortalATAWeaponEAG">
+        <Alignment value="Negative"/>
+        <InfoIcon value="Assets\Textures\btn-ability-terran-ignorearmorG.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="15"/>
+        <Modification LifeArmorMultiplier="0" ShieldArmorMultiplier="0"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ImmortalAbsorbShieldG">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-adept-spiritform.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DamageResponse ClampMaximum="10" Minimum="10">
+            <Kind index="Spell" value="0"/>
+            <Chance value="1"/>
+        </DamageResponse>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="DragoonDisturbG">
+        <Alignment value="Negative"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-disruptionblastG.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="2"/>
+        <Modification>
+            <ModifyFlags index="DisableWeapons" value="1"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="DragoonPlasmaPuddleG">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-upgrade-terran-plasmashot.dds"/>
+        <EditorCategories value="AbilityorEffectType:Units,Race:Protoss"/>
+        <Duration value="6"/>
+        <Period value="0.5"/>
+        <PeriodicEffect value="DragoonPlasmaPuddleSearchG"/>
+        <FinalEffect value="Suicide"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="DarkTemplarStrafeAttackG">
+        <InfoIcon value="Assets\Textures\btn-ability-spearofadun-solarbombardmentG.dds"/>
+        <EditorCategories value="AbilityorEffectType:Units,Race:Protoss"/>
+        <DisplayDuration index="Self" value="1"/>
+        <DisplayDuration index="Ally" value="1"/>
+        <DisplayDuration index="Neutral" value="1"/>
+        <DisplayDuration index="Enemy" value="1"/>
+        <Duration value="8"/>
+        <Period value="0.2"/>
+        <PeriodicEffect value="StrafeAttackRandomXG"/>
+        <FinalEffect value="SuicideNoShieldG"/>
+        <Modification>
+            <ModifyFlags index="DisableAbils" value="1"/>
+            <ModifyFlags index="SuppressMoving" value="1"/>
+            <StateFlags index="Invulnerable" value="1"/>
+            <StateFlags index="Stun" value="1"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="DragoonPlasmaPuddleSmallCUG">
+        <BehaviorFlags index="Permanent" value="1"/>
+        <BehaviorFlags index="EnabledWhileDead" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-upgrade-terran-plasmashot.dds"/>
+        <EditorCategories value="AbilityorEffectType:Units,Race:Protoss"/>
+        <DamageResponse Fatal="1" Handled="DragoonPlasmaPuddleSmallCUG">
+            <Chance value="1"/>
+        </DamageResponse>
+        <InfoFlags index="Hidden" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ColossusAbsorbShieldG">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-adept-spiritform.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DamageResponse ClampMaximum="50" Minimum="50">
+            <Chance value="1"/>
+        </DamageResponse>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ServitorHideG">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-carrierrepairdrones.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="1.25"/>
+        <Modification>
+            <StateFlags index="Invulnerable" value="1"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="StalkerAdvGS">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\talent-artanis-level14-startingmaxsupplyG.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Modification MoveSpeedMultiplier="1.4" AttackSpeedMultiplier="1.5"/>
+        <DamageResponse ModifyFraction="0.75">
+            <Chance value="1"/>
+        </DamageResponse>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="StoneZealotMagicResistanceG">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-energize.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DamageResponse ModifyFraction="0.5">
+            <Kind index="Melee" value="0"/>
+            <Kind index="Ranged" value="0"/>
+            <Kind index="Splash" value="0"/>
+            <Kind index="NoProc" value="0"/>
+            <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="VoidRayCoreResetG">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-voidrayprismaticalignment.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="2"/>
+        <Modification>
+            <ModifyFlags index="DisableWeapons" value="1"/>
+            <ModifyFlags index="SuppressMoving" value="1"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ZealotAttackFrenzyGK">
+        <InfoIcon value="Assets\Textures\talent-artanis-level01-swiftretribution.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <BuffFlags index="RefreshStack" value="1"/>
+        <MaxStackCount value="10"/>
+        <Duration value="6"/>
+        <Modification>
+            <AdditiveAttackSpeedFactor value="0.1"/>
+            <VitalDamageLeechArray index="Shields">
+                <KindArray index="Spell" value="0.1"/>
+                <KindArray index="Melee" value="0.1"/>
+                <KindArray index="Ranged" value="0.1"/>
+                <KindArray index="Splash" value="0.1"/>
+                <KindArray index="NoProc" value="0.1"/>
+            </VitalDamageLeechArray>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ZealotAdvGK">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\talent-artanis-level14-startingmaxsupplyG.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Modification MoveSpeedMultiplier="1.25" AttackSpeedMultiplier="1.5"/>
+        <DamageResponse ModifyFraction="0.75">
+            <Chance value="1"/>
+        </DamageResponse>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="StalkerPhaseReactorGS">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-blinkshieldrestore.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DisableValidatorArray value="CasterNotStunned"/>
+        <DamageResponse ModifyFraction="0" ModifyMinimumDamage="1">
+            <Chance value="0.25"/>
+        </DamageResponse>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ZealotShieldG">
+        <InfoIcon value="Assets\Textures\talent-artanis-level01-swiftretribution.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DisableValidatorArray value="CasterShieldsLT1G"/>
+        <DamageResponse ModifyFraction="0.75">
+            <Chance value="1"/>
+        </DamageResponse>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="CorsairDisableFakeWeaponG">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DisableValidatorArray value="CorsairFakeWeaponBehaviorDisableG"/>
+        <Modification>
+            <WeaponDisableArray value="CorsairFakeWeaponG"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="CorsairMPDisruptionWebG">
+        <Alignment value="Negative"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-disruptionweb.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="0.4"/>
+        <Modification MoveSpeedMultiplier="0.5">
+            <StateFlags index="SuppressAttack" value="1"/>
+            <AbilClassDisableArray index="CAbilAttack" value="1"/>
+        </Modification>
+        <MaxStackCount value="999"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="CorsairDisturb">
+        <Alignment value="Negative"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-disruptionblastG.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="0.4"/>
+        <Modification MoveSpeedMultiplier="0.7" AttackSpeedMultiplier="0.7"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="DarkTemplarGFightBhv">
+        <InfoIcon value="Assets\Textures\talent-vorazun-level14-cloakedunitdamageboostG.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Modification AttackSpeedMultiplier="1.5" ShieldArmorBonus="3">
+            <LifeArmorBonus value="3"/>
+            <BehaviorLinkDisableArray value="DarkTemplarGSneakBhv"/>
+        </Modification>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="DarkTemplarGImBhv">
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-avenger-strategicwarp.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="2"/>
+        <Modification>
+            <StateFlags index="Invulnerable" value="1"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ForceFieldG">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-forcefield-color.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+        <Period value="0.2"/>
+        <PeriodicEffect value="ForceFieldSearchG"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ForceFieldEffectG">
+        <Alignment value="Negative"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-forcefield-color.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <TimeScaleSource Value="Global"/>
+        <Duration value="0.5417"/>
+        <Modification>
+            <ModifyFlags index="SuppressMoving" value="1"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="EnvisionG">
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-envision.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Modification SightBonus="3" Detect="15">
+            <StateFlags index="Cloak" value="1"/>
+            <StateFlags index="Detector" value="1"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ArtanisCoreRecalledG">
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-voidarmor.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="8"/>
+        <DamageResponse ModifyFraction="0.5" ModifyMinimumDamage="1">
+            <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ArtanisRecallingG">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <RemoveValidatorArray value="CasterNotDead"/>
+        <Duration value="1"/>
+        <ExpireEffect value="MothershipCoreMassRecallSetG"/>
+        <Modification>
+            <ModifyFlags index="DisableAbils" value="1"/>
+            <StateFlags index="SuppressAttack" value="1"/>
+            <StateFlags index="SuppressPassenger" value="1"/>
+            <StateFlags index="Uncommandable" value="1"/>
+            <AbilClassDisableArray index="CAbilAttack" value="1"/>
+            <AbilClassDisableArray index="CAbilMove" value="1"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ForceFieldFateG" parent="TimedLife">
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DisplayDuration index="Self" value="0"/>
+        <DisplayDuration index="Ally" value="0"/>
+        <Duration value="15"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="GuardianShieldG">
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-shieldbattery-color.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="0.75"/>
+        <DamageResponse>
+            <ModifyAmount value="-6"/>
+            <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="KhaydarinBeamRetargetG">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="0.0625"/>
+        <Modification>
+            <WeaponDisableArray value="KhaydarinBeam3G"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="OracleRevelationG">
+        <Alignment value="Negative"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-preordain.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="60"/>
+        <FinalEffect value="RevelationDestroyG"/>
+        <ExpireEffect value="RevelationDestroyG"/>
+        <Modification>
+            <ModifyFlags index="Reveal" value="1"/>
+            <StateFlags index="SuppressCloak" value="1"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="OracleRevelationGA">
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-preordain.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="60"/>
+        <DamageResponse ModifyFraction="0">
+            <Chance value="0.3"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="OracleStasisTrapCasterG">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-unit-protoss-stasisward.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Modification>
+            <StateFlags index="Invulnerable" value="1"/>
+            <StateFlags index="Stun" value="1"/>
+            <StateFlags index="SuppressAttack" value="1"/>
+            <StateFlags index="SuppressCloak" value="1"/>
+            <StateFlags index="SuppressCollision" value="1"/>
+            <StateFlags index="SuppressDetection" value="1"/>
+            <StateFlags index="SuppressPassenger" value="1"/>
+            <StateFlags index="SuppressLifeRegen" value="1"/>
+            <StateFlags index="SuppressShieldsRegen" value="1"/>
+            <StateFlags index="SuppressEnergyRegen" value="1"/>
+            <StateFlags index="Uncommandable" value="1"/>
+            <StateFlags index="Unselectable" value="1"/>
+            <StateFlags index="Unstoppable" value="1"/>
+            <StateFlags index="Untargetable" value="1"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="OracleStasisTrapTargetG">
+        <Alignment value="Negative"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-stasistrap.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DisplayDuration index="Self" value="1"/>
+        <DisplayDuration index="Ally" value="1"/>
+        <DisplayDuration index="Neutral" value="1"/>
+        <DisplayDuration index="Enemy" value="1"/>
+        <Duration value="30"/>
+        <Modification>
+            <ModifyFlags index="DisableAbils" value="1"/>
+            <ModifyFlags index="SuppressMoving" value="1"/>
+            <ModifyFlags index="SuppressTurning" value="1"/>
+            <StateFlags index="Invulnerable" value="1"/>
+            <StateFlags index="Stasis" value="1"/>
+            <StateFlags index="Stun" value="1"/>
+            <StateFlags index="SuppressAttack" value="1"/>
+            <StateFlags index="SuppressCloak" value="1"/>
+            <StateFlags index="SuppressDetection" value="1"/>
+            <StateFlags index="SuppressPassenger" value="1"/>
+            <StateFlags index="SuppressLifeRegen" value="1"/>
+            <StateFlags index="SuppressShieldsRegen" value="1"/>
+            <StateFlags index="SuppressEnergyRegen" value="1"/>
+            <AbilLinkEnableArray value="move"/>
+            <AbilLinkEnableArray value="stop"/>
+            <RateMultiplierArray index="Cooldown" value="0.001"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="BuildingBarrierG">
+        <InfoIcon value="Assets\Textures\btn-ability-zeratul-photoncannon-shadebarrier.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="15"/>
+        <DamageResponse ModifyFraction="0" ModifyLimit="200" ModifyMinimumDamage="1">
+            <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="OBHoldFireBG">
+        <InfoIcon value="Assets\Textures\btn-ability-terran-holdfire.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <RemoveValidatorArray value="CasterNotAttacking"/>
+        <Modification>
+            <StateFlags index="Passive" value="1"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="OBHoldFireG">
+        <InfoIcon value="Assets\Textures\btn-ability-terran-holdfire.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="0.07"/>
+        <ExpireEffect value="OBHoldFireBG"/>
+        <Modification>
+            <StateFlags index="Passive" value="1"/>
+            <AbilClassDisableArray index="CAbilAttack" value="1"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="OracleStasisBuildingG">
+        <Alignment value="Negative"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-stasistrap.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="1"/>
+        <Modification>
+            <ModifyFlags index="DisableAbils" value="1"/>
+            <ModifyFlags index="SuppressMoving" value="1"/>
+            <ModifyFlags index="SuppressTurning" value="1"/>
+            <StateFlags index="Stun" value="1"/>
+            <StateFlags index="SuppressAttack" value="1"/>
+            <StateFlags index="SuppressCloak" value="1"/>
+            <StateFlags index="SuppressDetection" value="1"/>
+            <StateFlags index="SuppressPassenger" value="1"/>
+            <StateFlags index="SuppressRadar" value="1"/>
+            <StateFlags index="SuppressLifeRegen" value="1"/>
+            <StateFlags index="SuppressShieldsRegen" value="1"/>
+            <StateFlags index="SuppressEnergyRegen" value="1"/>
+            <AbilClassDisableArray index="CAbilQueue" value="1"/>
+            <AbilClassDisableArray index="CAbilResearch" value="1"/>
+            <AbilClassDisableArray index="CAbilTrain" value="1"/>
+            <AbilClassDisableArray index="CAbilWarpTrain" value="1"/>
+            <AbilLinkEnableArray value="move"/>
+            <AbilLinkEnableArray value="stop"/>
+            <BehaviorClassDisableArray index="CBehaviorPowerSource" value="1"/>
+            <BehaviorClassDisableArray index="CBehaviorResource" value="1"/>
+            <RateMultiplierArray index="Cooldown" value="0.001"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="OracleStasisTrapCloakG">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DisableValidatorArray value="IsNotConstructing"/>
+        <Modification>
+            <StateFlags index="Cloak" value="1"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="OracleWeaponG">
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-oraclepulsarcannonon.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <RemoveValidatorArray value="CanSpendEnergy"/>
+        <RemoveValidatorArray value="OracleHasEnergy"/>
+        <FinalEffect value="CancelAttackOrders"/>
+        <Modification>
+            <VitalRegenArray index="Energy" value="-3.1992"/>
+            <WeaponEnableArray value="OracleG"/>
+            <WeaponDisableArray value="OracleDummyWeapon"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="CorsairGBhv">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-unit-protoss-corsair.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="MothershipBlinkStrikeTeleportHeightG">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-blinkchargesG.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="0.5"/>
+        <Modification Height="3">
+            <HeightTime index="Stop" value="2"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="SentryBhvG">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-unit-collection-sentry-golden.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="SOASuperShieldGA">
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-astralwind.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <RemoveValidatorArray value="ShieldGZero"/>
+        <TimeScaleSource Value="Global"/>
+        <Duration value="16"/>
+        <DamageResponse ModifyFraction="0" ModifyLimit="200" ModifyMinimumDamage="1">
+            <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ArbiterBhv">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-unit-protoss-arbiter.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ScarabRevealG">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <RemoveValidatorArray value="NotCloaked"/>
+        <Duration value="2"/>
+        <Modification>
+            <ModifyFlags index="Reveal" value="1"/>
+        </Modification>
+        <InfoIcon value="Assets\Textures\btn-unit-protoss-reaver.dds"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ScarabTimedLifeG">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="1.75"/>
+        <ExpireEffect value="SuicideNoShieldG"/>
+        <Modification>
+            <StateFlags index="Summoned" value="1"/>
+        </Modification>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-scarabshot.dds"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="TimeFreezeGA">
+        <Alignment value="Negative"/>
+        <InfoIcon value="Assets\Textures\btn-ability-spearofadun-temporalfield.dds"/>
+        <BehaviorCategories index="Slow" value="1"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DisplayDuration index="Enemy" value="1"/>
+        <TimeScaleSource Value="Global"/>
+        <Duration value="15"/>
+        <Modification TimeScale="0.01">
+            <StateFlags index="Stun" value="1"/>
+            <StateFlags index="SuppressAttack" value="1"/>
+            <StateFlags index="SuppressCloak" value="1"/>
+            <StateFlags index="SuppressDetection" value="1"/>
+            <StateFlags index="SuppressRadar" value="1"/>
+            <AbilClassDisableArray index="CAbilAttack" value="1"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ArbiterTimeWarpGA">
+        <InfoIcon value="Assets\Textures\btn-upgrade-karax-chronofield.dds"/>
+        <BehaviorCategories index="Fast" value="1"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DisplayDuration index="Self" value="1"/>
+        <DisplayDuration index="Ally" value="1"/>
+        <DisplayDuration index="Neutral" value="1"/>
+        <DisplayDuration index="Enemy" value="1"/>
+        <Duration value="20"/>
+        <Modification MoveSpeedMultiplier="1.5" AttackSpeedMultiplier="1.5"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="VortexBehaviorEnemyGA">
+        <Alignment value="Negative"/>
+        <Cost>
+            <Charge Link="Behavior/VortexBehavior"/>
+            <Cooldown Link="Behavior/VortexBehavior"/>
+        </Cost>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-blackhole-color.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="0.125"/>
+        <InitialEffect value="VortexForceGA"/>
+        <RefreshEffect value="VortexForceGA"/>
+        <Modification MoveSpeedMinimum="2">
+            <ModifyFlags index="DisableAbils" value="1"/>
+            <ModifyFlags index="Detected" value="1"/>
+            <StateFlags index="SuppressAttack" value="1"/>
+            <StateFlags index="SuppressCloak" value="1"/>
+            <StateFlags index="SuppressCollision" value="1"/>
+            <StateFlags index="SuppressDetection" value="1"/>
+            <StateFlags index="SuppressPassenger" value="1"/>
+            <StateFlags index="SuppressLifeRegen" value="1"/>
+            <StateFlags index="SuppressShieldsRegen" value="1"/>
+            <StateFlags index="SuppressEnergyRegen" value="1"/>
+            <AbilClassEnableArray index="CAbilMorph" value="1"/>
+            <AbilLinkEnableArray value="BroodLordQueue2"/>
+            <AbilLinkEnableArray value="BroodLordHangar"/>
+            <AbilLinkDisableArray value="MorphToOverseer"/>
+            <AbilLinkDisableArray value="MorphToBroodLord"/>
+            <BehaviorClassDisableArray index="CBehaviorPowerSource" value="1"/>
+            <BehaviorLinkEnableArray value="ReaperJump"/>
+            <BehaviorLinkDisableArray value="CloakField"/>
+            <BehaviorLinkDisableArray value="AreaDenialTank"/>
+        </Modification>
+        <DamageResponse>
+            <Cost>
+                <Charge Link="Behavior/VortexBehavior"/>
+                <Cooldown Link="Behavior/VortexBehavior"/>
+            </Cost>
+        </DamageResponse>
+        <Replace value="FarthestDistance"/>
+        <ReplaceLocation Effect="VortexCreatePersistentInitial" Value="TargetPoint"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="OraclexjhgG">
+        <InfoIcon value="Assets\Textures\btn-upgrade-vorazun-oraclepermanentlycloaked.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Period value="1"/>
+        <PeriodicEffect value="xjhgssG"/>
+        <Modification Height="2" Detect="8">
+            <ModifyFlags index="SuppressMoving" value="1"/>
+            <StateFlags index="Cloak" value="1"/>
+            <HeightTime index="Start" value="2"/>
+            <HeightTime index="Stop" value="2"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ScoutBhv">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-unit-protoss-scout.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="SentryGRepairField">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-upgrade-swann-improvednanorepair.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Period value="1"/>
+        <PeriodicEffect value="SentryGRepairFieldSearch"/>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ZealotFrenzyG">
+        <InfoIcon value="Assets\Textures\talent-artanis-level01-swiftretribution.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DisableValidatorArray value="CasterShieldsGT1G"/>
+        <Modification AttackSpeedMultiplier="1.25"/>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="DragoonAbsorbShieldG">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-adept-spiritform.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DamageResponse ClampMaximum="50" Minimum="50">
+            <Kind index="Spell" value="0"/>
+            <Chance value="1"/>
+        </DamageResponse>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ImmortalATAWeaponG">
+        <InfoIcon value="Assets\Textures\btn-ability-terran-ignorearmorG.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Modification>
+            <AbilLinkDisableArray value="ImmortalATAWeaponG"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ServitorAttackSearchG">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-carrierrepairdrones.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DisableValidatorArray value="ServitorAttackSearchG"/>
+        <Period value="2"/>
+        <PeriodicEffect value="ServitorAttackSerachG"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ZealotBhvGK">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-unit-collection-zealot-golden.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="AdeptShieldGT">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-upgrade-karax-unitybarrier.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DamageResponse Minimum="20" ModifyFraction="0" ModifyMinimumDamage="1">
+            <Chance value="1"/>
+            <Cost>
+                <Cooldown TimeUse="2"/>
+            </Cost>
+        </DamageResponse>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="AdeptSolarBombmentGT">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-spearofadun-solarbombardmentG.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Period value="5"/>
+        <PeriodicEffect value="AdeptSolarBombardmentSetGT"/>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="TempestPartCoreG">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-upgrade-karax-unitybarrier.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Period value="0.9"/>
+        <PeriodicEffect value="TempestPartSearchCoreG"/>
+        <DamageResponse Minimum="20" ModifyFraction="0" ModifyMinimumDamage="1">
+            <Chance value="1"/>
+            <Cost>
+                <Charge Link="Behavior/TempestShieldCoreG"/>
+                <Cooldown Link="Behavior/TempestShieldCoreG" TimeUse="2"/>
+            </Cost>
+        </DamageResponse>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="MothershipCoreShield">
+        <Cost>
+            <Cooldown Link="Immortal Shield"/>
+        </Cost>
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-upgrade-protoss-adeptshieldupgrade.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Modification ShieldArmorBonus="2">
+            <LifeArmorBonus value="1"/>
+            <VitalMaxArray index="Life" value="100"/>
+            <VitalMaxArray index="Shields" value="200"/>
+        </Modification>
+        <DamageResponse ModifyFraction="0.6" ModifyMinimumDamage="1" TargetFilters="Ground;-">
+            <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="WelkinPartCoreG">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-adept-spiritform.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Period value="0.75"/>
+        <PeriodicEffect value="WelkinPartCoreSearchG"/>
+        <DamageResponse ClampMaximum="50" Minimum="50">
+            <Chance value="1"/>
+        </DamageResponse>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="PhoenixWeaponG">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-phasemine-zeratul.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Modification>
+            <WeaponArray Link="IonCannonsGS"/>
+            <WeaponDisableArray value="IonCannonsG"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="TempestChargeMissileBhvG">
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Period value="0.2"/>
+        <PeriodicEffect value="TempestChargeMissileBeamSearchG"/>
+        <InfoIcon value="Assets\Textures\btn-upgrade-protoss-researchbosoniccore.dds"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="DragoonArmorShieldGT">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\BTN-Ability-Protoss-DragoonChassis.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DisableValidatorArray value="DragoonNotInCombatG"/>
+        <DisableValidatorArray value="CasterLifeNotFullOrShieldsNotFullG"/>
+        <Modification>
+            <VitalRegenMultiplier index="Life" value="10"/>
+            <VitalRegenMultiplier index="Shields" value="10"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="DragoonBhvGT">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-unit-protoss-dragoon-void.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ZerglingGBhv">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-unit-collection-zergling-mechaG.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Modification>
+            <VitalMaxArray index="Shields" value="100"/>
+        </Modification>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ImmortalGABhv">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-unit-collection-adun-immortal.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="HighTemplarGKBhv">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-unit-protoss-hightemplar-golden.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="PowerOfWillShieldG">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-forceofwill.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DisableValidatorArray value="CasterShieldsNotFullG"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ChargingGKE">
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-lightningdash.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="1"/>
+        <DamageResponse ModifyFraction="0" ModifyMinimumDamage="1">
+            <Chance value="1"/>
+            <Cost>
+                <Charge Link="Behavior/ChargingG"/>
+                <Cooldown Link="Behavior/ChargingG"/>
+            </Cost>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="StalkerBlinkArmorGS">
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-voidarmor.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="4"/>
+        <DamageResponse ModifyFraction="0.25">
+            <Chance value="1"/>
+        </DamageResponse>
+        <Period value="0.25"/>
+        <PeriodicEffect value="VoidStalkerBlinkRestoreModifyUnitG"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="StalkerCloakGS">
+        <InfoIcon value="Assets\Textures\btn-upgrade-protoss-alarak-permanentcloak.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="8"/>
+        <Modification>
+            <StateFlags index="Cloak" value="1"/>
+            <StateFlags index="Undetectable" value="1"/>
+            <StateFlags index="Unstoppable" value="1"/>
+            <VitalRegenMultiplier index="Shields" value="5"/>
+            <VitalDamageGainArray index="Shields">
+                <KindArray index="Spell" value="1"/>
+                <KindArray index="Melee" value="1"/>
+                <KindArray index="Ranged" value="1"/>
+                <KindArray index="Splash" value="1"/>
+                <KindArray index="NoProc" value="1"/>
+            </VitalDamageGainArray>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="AdeptBhvGT">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-unit-collection-adept-golden.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="FleetBeaconUpgradeG">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\talent-artanis-level12-fleetbeaconresearchbundleG.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DisableValidatorArray value="HasPower"/>
+        <Modification ShieldArmorBonus="6">
+            <WeaponArray Link="PhaseCannonG" Turret="NexusG"/>
+        </Modification>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="yygzGZK">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-adept-spiritform.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DamageResponse ClampMaximum="10" Minimum="10">
+            <Kind index="Spell" value="0"/>
+            <Chance value="1"/>
+        </DamageResponse>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="hkhdGA">
+        <Cost>
+            <Cooldown Link="Immortal Shield"/>
+        </Cost>
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-stasisfield.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DamageResponse ModifyFraction="0.5" ModifyMinimumDamage="1" TargetFilters="Ground;-">
+            <Chance value="1"/>
+        </DamageResponse>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ProbeBhvG">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-unit-protoss-probe-golden.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Modification MoveSpeedMultiplier="1.25"/>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="DarkTemplarGSneakBhv">
+        <InfoIcon value="Assets\Textures\talent-vorazun-level01-shadowstalkG.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Modification MoveSpeedMultiplier="1.25">
+            <StateFlags index="Cloak" value="1"/>
+        </Modification>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="OracleBhvG">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-unit-collection-oracle-golden.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ZealotBladeSearchGK">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-whirlwind.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DisableValidatorArray value="CasterNotStunned"/>
+        <DamageResponse Handled="ZealotChargeBladeSearchGK" ModifyFraction="0">
+            <Chance value="0.3"/>
+        </DamageResponse>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="StalkerBhvGS">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-unit-protoss-stalker-golden.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="zyjjGsh">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Period value="0.25"/>
+        <PeriodicEffect value="zyjjGDmg"/>
+        <InfoIcon value="Assets\Textures\btn-upgrade-protoss-resonatingglaives.dds"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="zyjjG">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-upgrade-protoss-resonatingglaives.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DisplayDuration index="Self" value="1"/>
+        <DisplayDuration index="Ally" value="1"/>
+        <Period value="0.5"/>
+        <PeriodicEffect value="zyjjGCP"/>
+        <DisableValidatorArray value="CasterIsNotHidden"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="HallucinationG">
+        <BehaviorFlags index="Permanent" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-hallucination-color.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Modification SubgroupPriority="-100">
+            <ModifyFlags index="DisableAbils" value="1"/>
+            <ModifyFlags index="EnableAttack" value="1"/>
+            <ModifyFlags index="EnableMove" value="1"/>
+            <ModifyFlags index="HideChangeUI" value="1"/>
+            <StateFlags index="Hallucination" value="1"/>
+            <StateFlags index="SuppressDetection" value="1"/>
+            <StateFlags index="SuppressRadar" value="1"/>
+            <AbilClassEnableArray index="CAbilMorph" value="1"/>
+            <AbilClassEnableArray index="CAbilMorphPlacement" value="1"/>
+            <AbilClassEnableArray index="CAbilStop" value="1"/>
+            <AbilLinkDisableArray value="MorphZerglingToBaneling"/>
+            <AbilLinkDisableArray value="DevourerAspect"/>
+            <AbilLinkDisableArray value="MorphToBroodLord"/>
+            <AbilLinkDisableArray value="LurkerAspect"/>
+            <AbilLinkDisableArray value="MorphToOverseer"/>
+            <AbilLinkDisableArray value="MorphQueen2"/>
+            <AbilLinkDisableArray value="MorphQueen3"/>
+            <AbilLinkDisableArray value="ThorCrippled"/>
+            <AbilLinkDisableArray value="ThorUncrippled"/>
+            <AbilLinkDisableArray value="PhasingMode"/>
+            <BehaviorLinkDisableArray value="GoldenResurgenceG"/>
+            <BehaviorLinkDisableArray value="HighTemplarEnergyCasterGK"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="HallucinationTimedLifeG">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DisplayDuration index="Self" value="1"/>
+        <Duration value="30"/>
+        <ExpireEffect value="KillHallucinationG"/>
+        <Modification>
+            <StateFlags index="SuppressPassenger" value="1"/>
+        </Modification>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-hallucination-color.dds"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="HighArchonPsiStormG">
+        <InfoIcon value="Assets\Textures\btn-upgrade-artanis-healingpsionicstorm.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <MaxStackCount value="65535"/>
+        <TimeScaleSource Value="Global"/>
+        <Duration value="0.6665"/>
+        <Period value="0.571"/>
+        <InitialEffect value="HighArchonPsiStormDamageInitialG"/>
+        <PeriodicEffect value="HighArchonPsiStormDamageG"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="HighArchonPsiStormG2">
+        <Alignment value="Negative"/>
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-upgrade-artanis-healingpsionicstorm.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <RemoveValidatorArray value="NotHeroic"/>
+        <RemoveValidatorArray value="NotFrenziedG"/>
+        <TimeScaleSource Value="Global"/>
+        <Duration value="0.7"/>
+        <Modification MoveSpeedMultiplier="0.6"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="Recalling2G">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-recallondeath.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="0.5"/>
+        <ExpireEffect value="RecallDummyG"/>
+        <Modification>
+            <StateFlags index="Invulnerable" value="1"/>
+            <StateFlags index="Stun" value="1"/>
+            <StateFlags index="SuppressAttack" value="1"/>
+            <StateFlags index="Untargetable" value="1"/>
+        </Modification>
+        <DamageResponse Fatal="1" Handled="RecallDummyG2" ModifyFraction="0">
+            <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="PrismWeapon">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\coop_mutators_photonoverlord.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="SPXWG">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="0.5"/>
+        <Modification MoveSpeedMultiplier="0.01"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-purify.dds"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ThermalLancesFireBeamGM">
+        <Alignment value="Negative"/>
+        <InfoIcon value="Assets\Textures\btn-techupgrade-terran-bearclawnozzles.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <TimeScaleSource Value="Global"/>
+        <Duration value="0.625"/>
+        <Period value="0.5"/>
+        <PeriodicEffect value="ThermalLancesFireBeamDamageGM"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="VoidZealotWhirlwindG">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="0.5"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-whirlwind.dds"/>
+    </CBehaviorBuff>
+    <CBehaviorPowerSource id="WarpPrismPowerSourceG">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-building-protoss-pylon.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Structures"/>
+        <PowerLevel value="2"/>
+        <Radius value="6.5"/>
+        <PowerLink value="PowerSource"/>
+    </CBehaviorPowerSource>
+    <CBehaviorBuff id="cqbhGG">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-adept-spiritform.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DamageResponse ClampMaximum="50" Minimum="50">
+            <Kind index="Spell" value="0"/>
+            <Chance value="1"/>
+        </DamageResponse>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="zzgcnG3">
+        <InfoIcon value="Assets\Textures\btn-ability-spearofadun-shieldovercharge.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DisableValidatorArray value="Shielddy400"/>
+        <DisableValidatorArray value="Shieldxy600"/>
+        <Modification MoveSpeedMultiplier="1.1" AttackSpeedMultiplier="1.1"/>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="DragoonStimGT">
+        <InfoIcon value="Assets\Textures\btn-upgrade-artanis-singularitycharge.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="15"/>
+        <Modification MoveSpeedMultiplier="2" AttackSpeedMultiplier="2">
+            <RateMultiplierArray index="Charge" value="2"/>
+            <RateMultiplierArray index="Cooldown" value="2"/>
+            <RateMultiplierArray index="Morph" value="2"/>
+            <RateMultiplierArray index="Progress" value="2"/>
+            <RateMultiplierArray index="Queueable" value="2"/>
+            <RateMultiplierArray index="Spawn" value="2"/>
+            <RateMultiplierArray index="Creep" value="2"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="zzgrjG">
+        <InfoIcon value="Assets\Textures\btn-unit-protoss-archon-upgraded.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DisableValidatorArray value="Shieldxy1"/>
+        <Modification>
+            <VitalRegenArray index="Life" value="-5"/>
+        </Modification>
+        <Alignment value="Negative"/>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="zzgqcnG1">
+        <InfoIcon value="Assets\Textures\btn-ability-spearofadun-shieldovercharge.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DisableValidatorArray value="Shielddy800"/>
+        <Modification MoveSpeedMultiplier="1.3" AttackSpeedMultiplier="1.3"/>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="stxwG">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-unit-collection-adept-golden.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="stjwxw">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-unit-protoss-zeratulzealotG.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+        <Modification MoveSpeedMultiplier="1.25" AttackSpeedMultiplier="1.25">
+            <VitalDamageLeechArray index="Shields">
+                <KindArray index="Spell" value="0.1"/>
+                <KindArray index="Melee" value="0.1"/>
+                <KindArray index="Ranged" value="0.1"/>
+                <KindArray index="Splash" value="0.1"/>
+                <KindArray index="NoProc" value="0.1"/>
+            </VitalDamageLeechArray>
+        </Modification>
+        <DamageResponse ModifyFraction="0.75">
+            <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="lqsxwG">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-unit-protoss-dragoon-void.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="HighTemplarBhvG">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-unit-protoss-hightemplar-golden.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="lqshdhfxwG">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\BTN-Ability-Protoss-DragoonChassis.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DisableValidatorArray value="DragoonNotInCombatG"/>
+        <DisableValidatorArray value="CasterShieldsNotFullG"/>
+        <Modification>
+            <VitalRegenMultiplier index="Shields" value="10"/>
+        </Modification>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="qghd">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-spearofadun-shieldovercharge.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DamageResponse>
+            <ModifyAmount value="-5"/>
+            <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="smjhd">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-shieldbattery-color.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="lgzjG">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-spearofadun-shieldovercharge.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Period value="0.75"/>
+        <PeriodicEffect value="smjddcx"/>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="xjbhG">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-forceofwill.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+        <Period value="0.2"/>
+        <PeriodicEffect value="xjbhssG"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="xjbhxwG">
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-forceofwill.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <TimeScaleSource Value="Global"/>
+        <Duration value="0.6"/>
+        <Modification>
+            <StateFlags index="Cloak" value="1"/>
+        </Modification>
+        <DamageResponse ModifyFraction="0.8" ModifyMinimumDamage="1">
+            <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="FireBeamGM">
+        <Alignment value="Negative"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-voidrayprismaticalignment.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <TimeScaleSource Value="Global"/>
+        <Duration value="5"/>
+        <Modification>
+            <DamageTakenFraction index="Spell" value="0.3"/>
+            <DamageTakenFraction index="Melee" value="0.3"/>
+            <DamageTakenFraction index="Ranged" value="0.3"/>
+            <DamageTakenFraction index="Splash" value="0.3"/>
+            <DamageTakenFraction index="NoProc" value="0.3"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="GravitonBeamG">
+        <Alignment value="Negative"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-gravitonbeam-color.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <TimeScaleSource Value="Global"/>
+        <Duration value="10"/>
+        <Period value="0.5"/>
+        <PeriodicEffect value="ylgsshG"/>
+        <Modification>
+            <ModifyFlags index="DisableAbils" value="1"/>
+            <ModifyFlags index="SuppressMoving" value="1"/>
+            <ModifyFlags index="SuppressTurning" value="1"/>
+            <StateFlags index="Stun" value="1"/>
+            <StateFlags index="SuppressAttack" value="1"/>
+            <StateFlags index="SuppressCloak" value="1"/>
+            <StateFlags index="SuppressCollision" value="1"/>
+            <StateFlags index="SuppressDetection" value="1"/>
+            <StateFlags index="SuppressPassenger" value="1"/>
+            <StateFlags index="SuppressRadar" value="1"/>
+            <StateFlags index="Uncommandable" value="1"/>
+            <AbilLinkEnableArray value="TerranBuild"/>
+            <AbilLinkEnableArray value="MorphToSwarmHostMP"/>
+            <AbilLinkEnableArray value="WidowMineUnburrow"/>
+            <AbilLinkEnableArray value="BurrowHotSRaptorUp"/>
+            <AbilLinkEnableArray value="BurrowHotSSwarmlingUp"/>
+            <AbilLinkEnableArray value="BurrowHunterUp"/>
+            <AbilLinkEnableArray value="BurrowHotSSplitterlingBigUp"/>
+            <AbilLinkEnableArray value="BurrowHotSSplitterlingMediumUp"/>
+            <AbilLinkEnableArray value="HotSBurrowVileUp"/>
+            <AbilLinkEnableArray value="BurrowHotSCorpserUp"/>
+            <AbilLinkEnableArray value="BurrowHydraliskLurkerUp"/>
+            <AbilLinkEnableArray value="BurrowHydraliskImpalerUp"/>
+            <AbilLinkEnableArray value="BurrowLurkerMPUp"/>
+            <BehaviorClassDisableArray index="CBehaviorCreepSource" value="1"/>
+            <BehaviorClassDisableArray index="CBehaviorPowerSource" value="1"/>
+            <BehaviorClassDisableArray index="CBehaviorResource" value="1"/>
+            <BehaviorClassDisableArray index="CBehaviorSpawn" value="1"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ImmortalOverloadG">
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-barrier-upgraded.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="20"/>
+        <Modification>
+            <VitalRegenMultiplier index="Life" value="20"/>
+            <VitalRegenMultiplier index="Shields" value="2"/>
+        </Modification>
+        <DamageResponse ModifyFraction="0" ModifyLimit="300" ModifyMinimumDamage="1">
+            <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="MothershipAiur06PlanetCrackerG">
+        <InfoIcon value="Assets\Textures\btn-tips-terran-energynova.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <RemoveValidatorArray value="CanSpendEnergy"/>
+        <RemoveValidatorArray value="hasEnergy5G"/>
+        <Period value="0.1"/>
+        <PeriodicEffect value="MothershipPlanetCrackerSetG"/>
+        <Modification Height="3">
+            <ModifyFlags index="DisableWeapons" value="1"/>
+            <VitalRegenArray index="Energy" value="-22.5156"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="cqbhG2">
+        <Cost>
+            <Cooldown Link="Immortal Shield"/>
+        </Cost>
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-adept-spiritform.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+        <DamageResponse ClampMaximum="50" Minimum="50">
+            <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="fbzjG">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-upgrade-karax-unitybarrier.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Period value="0.3"/>
+        <PeriodicEffect value="ddbfXWSG2"/>
+        <Modification ShieldArmorBonus="5">
+            <LifeArmorBonus value="5"/>
+        </Modification>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+        <DamageResponse Minimum="20" ModifyFraction="0" ModifyMinimumDamage="1">
+            <Chance value="1"/>
+            <Cost>
+                <Charge Link="Behavior/fbhfG2"/>
+                <Cooldown Link="Behavior/fbhfG2" TimeUse="3"/>
+            </Cost>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="hkhdG4">
+        <Cost>
+            <Cooldown Link="Immortal Shield"/>
+        </Cost>
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-stasisfield.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DamageResponse ModifyFraction="0.5" ModifyMinimumDamage="1" TargetFilters="Ground;-">
+            <Chance value="1"/>
+        </DamageResponse>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="xxslpcn">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-tips-terran-energynova.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="PhaseCannonInitialStunG">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="1"/>
+        <Modification>
+            <ModifyFlags index="DisableWeapons" value="1"/>
+        </Modification>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-phasecannon.dds"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="PhaseCannonTimedLifeG" parent="TimedLife">
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="30"/>
+        <ExpireEffect value="TimedLifeFateG"/>
+        <Modification>
+            <StateFlags index="SuppressFoodUsed" value="1"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorPowerSource id="PowerSource14G">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-building-protoss-pylon.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Structures"/>
+        <PowerLevel value="2"/>
+        <Radius value="14"/>
+        <PowerLink value="PowerSource"/>
+    </CBehaviorPowerSource>
+    <CBehaviorBuff id="RecalledG">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="2"/>
+        <Modification>
+            <ModifyFlags index="DisableAbils" value="1"/>
+            <StateFlags index="SuppressAttack" value="1"/>
+            <StateFlags index="Uncommandable" value="1"/>
+            <AbilClassDisableArray index="CAbilAttack" value="1"/>
+            <AbilClassDisableArray index="CAbilMove" value="1"/>
+            <AbilLinkEnableArray value="VolatileBurstBuilding"/>
+            <AbilLinkEnableArray value="GhostCloak"/>
+            <AbilLinkEnableArray value="BansheeCloak"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="RecalledGM">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="2"/>
+        <Modification>
+            <ModifyFlags index="DisableAbils" value="1"/>
+            <StateFlags index="SuppressAttack" value="1"/>
+            <StateFlags index="Uncommandable" value="1"/>
+            <AbilClassDisableArray index="CAbilAttack" value="1"/>
+            <AbilClassDisableArray index="CAbilMove" value="1"/>
+            <AbilLinkEnableArray value="VolatileBurstBuilding"/>
+            <AbilLinkEnableArray value="GhostCloak"/>
+            <AbilLinkEnableArray value="BansheeCloak"/>
+        </Modification>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-wormholetransit-color.dds"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="RecallingG">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="1"/>
+        <ExpireEffect value="MassRecallSetG"/>
+        <Modification>
+            <ModifyFlags index="DisableAbils" value="1"/>
+            <StateFlags index="SuppressAttack" value="1"/>
+            <StateFlags index="Uncommandable" value="1"/>
+            <AbilClassDisableArray index="CAbilAttack" value="1"/>
+            <AbilClassDisableArray index="CAbilMove" value="1"/>
+            <AbilLinkEnableArray value="VolatileBurstBuilding"/>
+            <AbilLinkEnableArray value="GhostCloak"/>
+            <AbilLinkEnableArray value="BansheeCloak"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="RecallingGM">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="1"/>
+        <ExpireEffect value="MassRecallSetGM"/>
+        <Modification>
+            <ModifyFlags index="DisableAbils" value="1"/>
+            <StateFlags index="SuppressAttack" value="1"/>
+            <StateFlags index="Uncommandable" value="1"/>
+            <AbilClassDisableArray index="CAbilAttack" value="1"/>
+            <AbilClassDisableArray index="CAbilMove" value="1"/>
+            <AbilLinkEnableArray value="VolatileBurstBuilding"/>
+            <AbilLinkEnableArray value="GhostCloak"/>
+            <AbilLinkEnableArray value="BansheeCloak"/>
+        </Modification>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-wormholetransit-color.dds"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ThermalLancesFireBeamG">
+        <Alignment value="Negative"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-firebeamG.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <TimeScaleSource Value="Global"/>
+        <Duration value="0.625"/>
+        <Period value="0.5"/>
+        <PeriodicEffect value="ThermalLancesFireBeamDamageG"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="VortexBehaviorG">
+        <Alignment value="Negative"/>
+        <InfoIcon value="Assets\Textures\btn-upgrade-vorazun-placewormhole.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="0.125"/>
+        <InitialEffect value="VortexForceG"/>
+        <RefreshEffect value="VortexForceG"/>
+        <ExpireEffect value="VortexExitG"/>
+        <Modification MoveSpeedMinimum="2">
+            <ModifyFlags index="DisableAbils" value="1"/>
+            <ModifyFlags index="Detected" value="1"/>
+            <StateFlags index="SuppressAttack" value="1"/>
+            <StateFlags index="SuppressCloak" value="1"/>
+            <StateFlags index="SuppressCollision" value="1"/>
+            <StateFlags index="SuppressDetection" value="1"/>
+            <StateFlags index="SuppressPassenger" value="1"/>
+            <StateFlags index="SuppressLifeRegen" value="1"/>
+            <StateFlags index="SuppressShieldsRegen" value="1"/>
+            <StateFlags index="SuppressEnergyRegen" value="1"/>
+            <AbilClassEnableArray index="CAbilMorph" value="1"/>
+            <AbilLinkEnableArray value="BroodLordQueue2"/>
+            <AbilLinkEnableArray value="BroodLordHangar"/>
+            <AbilLinkDisableArray value="MorphToOverseer"/>
+            <AbilLinkDisableArray value="MorphToBroodLord"/>
+            <BehaviorClassDisableArray index="CBehaviorPowerSource" value="1"/>
+            <BehaviorLinkEnableArray value="ReaperJump"/>
+            <BehaviorLinkDisableArray value="CloakField"/>
+            <BehaviorLinkDisableArray value="AreaDenialTank"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="VortexBehaviorEnemyG">
+        <Name value="Behavior/Name/VortexBehavior"/>
+        <Tooltip value="Behavior/Tooltip/VortexBehavior"/>
+        <Alignment value="Negative"/>
+        <InfoIcon value="Assets\Textures\btn-upgrade-vorazun-placewormhole.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="20"/>
+        <InitialEffect value="VortexForceG"/>
+        <RefreshEffect value="VortexForceG"/>
+        <ExpireEffect value="VortexExitG"/>
+        <Modification MoveSpeedMinimum="2">
+            <ModifyFlags index="DisableAbils" value="1"/>
+            <ModifyFlags index="Detected" value="1"/>
+            <StateFlags index="SuppressAttack" value="1"/>
+            <StateFlags index="SuppressCloak" value="1"/>
+            <StateFlags index="SuppressCollision" value="1"/>
+            <StateFlags index="SuppressDetection" value="1"/>
+            <StateFlags index="SuppressPassenger" value="1"/>
+            <StateFlags index="SuppressLifeRegen" value="1"/>
+            <StateFlags index="SuppressShieldsRegen" value="1"/>
+            <StateFlags index="SuppressEnergyRegen" value="1"/>
+            <AbilClassEnableArray index="CAbilMorph" value="1"/>
+            <AbilLinkEnableArray value="BroodLordQueue2"/>
+            <AbilLinkEnableArray value="BroodLordHangar"/>
+            <AbilLinkDisableArray value="MorphToOverseer"/>
+            <AbilLinkDisableArray value="MorphToBroodLord"/>
+            <BehaviorClassDisableArray index="CBehaviorPowerSource" value="1"/>
+            <BehaviorLinkEnableArray value="ReaperJump"/>
+            <BehaviorLinkDisableArray value="CloakField"/>
+            <BehaviorLinkDisableArray value="AreaDenialTank"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="VortexExitG">
+        <Alignment value="Negative"/>
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-upgrade-vorazun-placewormhole.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="1"/>
+        <Modification>
+            <ModifyFlags index="DisableAbils" value="1"/>
+            <ModifyFlags index="EnableMove" value="1"/>
+            <StateFlags index="SuppressAttack" value="1"/>
+            <StateFlags index="SuppressCloak" value="1"/>
+            <StateFlags index="SuppressDetection" value="1"/>
+            <StateFlags index="SuppressRadar" value="1"/>
+            <AbilClassEnableArray index="CAbilMorph" value="1"/>
+            <AbilClassEnableArray index="CAbilStop" value="1"/>
+            <AbilLinkEnableArray value="Warpable"/>
+            <AbilLinkEnableArray value="BroodLordQueue2"/>
+            <AbilLinkEnableArray value="BroodLordHangar"/>
+            <BehaviorClassDisableArray index="CBehaviorPowerSource" value="1"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="jxxwG">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-unit-collection-colossus-golden.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="CarrierWeaponG">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-unit-protoss-carrier-golden.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Modification>
+            <AbilLinkDisableArray value="CarrierAiurHangerG"/>
+            <WeaponArray Link="CarrierWeaponG"/>
+            <WeaponDisableArray value="InterceptorLaunchG"/>
+            <WeaponDisableArray value="InterceptorsDummyG"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="xksnxwsjG">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-spearofadun-nexusovercharge.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Modification ShieldArmorBonus="6"/>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ddbfLMG">
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Period value="0.2"/>
+        <PeriodicEffect value="ddbfLMSG"/>
+        <InfoIcon value="Assets\Textures\btn-upgrade-protoss-airweaponslevel3.dds"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="VoidPhoenixPhasingArmorBuffG">
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-phasingarmorG.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="3"/>
+        <DamageResponse ModifyFraction="0.1" ModifyMinimumDamage="1">
+            <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="WarpInEffectG">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-spearofadun-warpharmonization.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="fbhfG">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-upgrade-karax-unitybarrier.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DamageResponse Minimum="20" ModifyFraction="0" ModifyMinimumDamage="1">
+            <Chance value="1"/>
+            <Cost>
+                <Cooldown TimeUse="3"/>
+            </Cost>
+        </DamageResponse>
+        <Period value="2.5"/>
+        <PeriodicEffect value="TempestLightningCPG"/>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+        <BuffFlags index="RemoveDamageResponseExhausted" value="0"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="hkhdG3">
+        <Cost>
+            <Cooldown Link="Immortal Shield"/>
+        </Cost>
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-stasisfield.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DamageResponse ModifyFraction="0.5" ModifyMinimumDamage="1" TargetFilters="Ground;-">
+            <Chance value="1"/>
+        </DamageResponse>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="fbxwG">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-unit-protoss-tempest-golden.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ynlcG">
+        <InfoIcon value="Assets\Textures\btn-upgrade-protoss-alarak-permanentcloak.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="8"/>
+        <Modification>
+            <StateFlags index="Cloak" value="1"/>
+            <VitalRegenMultiplier index="Shields" value="3"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="VoidPhoenixPhasingArmorG">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-phasingarmorG.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DamageResponse Handled="PhoenixPhaseArmorABG">
+            <Chance value="1"/>
+            <Cost>
+                <Cooldown TimeUse="6"/>
+            </Cost>
+        </DamageResponse>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="LNHXG">
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-hallucination-color.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="8"/>
+        <Modification>
+            <StateFlags index="Cloak" value="1"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="zlzxwG">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-unit-protoss-stalker-golden.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="hkhdG2">
+        <Cost>
+            <Cooldown Link="Immortal Shield"/>
+        </Cost>
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-stasisfield.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DamageResponse ModifyFraction="0.5" ModifyMinimumDamage="1" TargetFilters="Ground;-">
+            <Chance value="1"/>
+        </DamageResponse>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="LocustTimedLifeG">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-unit-protoss-interceptor-golden.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="60"/>
+        <DurationRandomMax value="0.5"/>
+        <ExpireEffect value="TimedLifeFate"/>
+        <Modification>
+            <StateFlags index="Summoned" value="1"/>
+        </Modification>
+        <KillCredit Value="Caster"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="MohandarDoubleDamageG">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <RemoveValidatorArray value="NotMohandarQuadDamageG"/>
+        <Duration value="5"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="MohandarQuadDamageG">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="5"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="FireBeamG">
+        <Alignment value="Negative"/>
+        <InfoIcon value="Assets\Textures\btn-ability-zeratul-topbar-voidsuppressioncrystal.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <TimeScaleSource Value="Global"/>
+        <Duration value="5"/>
+        <Period value="0.5"/>
+        <PeriodicEffect value="CCXHThermalLancesFireBeamDamageG"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="cqbhG">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-adept-spiritform.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DamageResponse ClampMaximum="50" Minimum="50">
+            <Chance value="1"/>
+        </DamageResponse>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="SOARadarG">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-spearofadun-nexusovercharge.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Modification>
+            <WeaponArray Link="MothershipCoreWeaponG" Turret="Nexus"/>
+        </Modification>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="TimeWarpControllerG">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-spearofadun-warpharmonization.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Period value="0.5"/>
+        <InitialEffect value="TimeWarpControllerABTargetG"/>
+        <PeriodicEffect value="TimeWarpControllerIssueOrderSelfG"/>
+        <FinalEffect value="TimeWarpControllerRBTargetG"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="TimeWarpProductionG">
+        <Cost>
+            <Vital index="Energy" value="25"/>
+        </Cost>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-protoncharge-color.dds"/>
+        <BehaviorCategories index="Fast" value="1"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <TimeScaleSource Value="Global"/>
+        <Modification TimeScale="1.5"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="czhdG">
+        <InfoIcon value="Assets\Textures\btn-ability-mengsk-marauder-selfabsorbshield.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Modification>
+            <VitalRegenArray index="Shields" value="8"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="hkhdG">
+        <Cost>
+            <Cooldown Link="Immortal Shield"/>
+        </Cost>
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-stasisfield.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DamageResponse ModifyFraction="0.5" ModifyMinimumDamage="1" TargetFilters="Ground;-">
+            <Chance value="1"/>
+        </DamageResponse>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="hmxwG">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-unit-collection-carrier-golden.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="fhxwG">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-unit-protoss-phoenix-golden.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="krzxw">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-unit-collection-zealot-golden.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="VoidRaySiegeGBhv">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-unit-protoss-zeratulvoidray.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="VoidRayGBhv">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-unit-protoss-voidray-golden.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="InterceptorBhvG">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-unit-collection-interceptor-golden.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ImmortalGBhv">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-unit-collection-immortal-goldenG.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="xwhjzlz">
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-voidarmor.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="4"/>
+        <DamageResponse ModifyFraction="0.25">
+            <Chance value="1"/>
+        </DamageResponse>
+        <Period value="0.25"/>
+        <PeriodicEffect value="VoidStalkerBlinkRestoreModifyUnitG"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="hjjzxwG">
+        <InfoIcon value="Assets\Textures\btn-ability-spearofadun-warpharmonization.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DisableValidatorArray value="UnderConstructionG"/>
+        <DamageResponse>
+            <ModifyAmount value="-5"/>
+            <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ChargingGE">
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-lightningdash.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="1"/>
+        <DamageResponse ModifyFraction="0.25" ModifyMinimumDamage="1">
+            <Chance value="1"/>
+            <Cost>
+                <Charge Link="Behavior/ChargingG"/>
+                <Cooldown Link="Behavior/ChargingG"/>
+            </Cost>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ChargingGGE">
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-lightningdash.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="1"/>
+        <DamageResponse ModifyFraction="0" ModifyMinimumDamage="1">
+            <Chance value="1"/>
+            <Cost>
+                <Charge Link="Behavior/ChargingG"/>
+                <Cooldown Link="Behavior/ChargingG"/>
+            </Cost>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="zyljxwG">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-unit-collection-warpprism-golden.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Modification MoveSpeedMultiplier="1.2"/>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="zzgcnG2">
+        <InfoIcon value="Assets\Textures\btn-ability-spearofadun-shieldovercharge.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DisableValidatorArray value="Shielddy600"/>
+        <DisableValidatorArray value="Shieldxy800"/>
+        <Modification MoveSpeedMultiplier="1.2" AttackSpeedMultiplier="1.2"/>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="zzgrsG">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-unit-protoss-archon-upgraded.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <RemoveValidatorArray value="ArchonBurnRechargeG"/>
+        <MaxStackCount value="9999"/>
+        <MaxStackCountPerCaster value="9999"/>
+        <Modification>
+            <VitalMaxArray index="Shields" value="-1"/>
+        </Modification>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="zzgzzrsG">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-unit-protoss-archon-upgraded.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Period value="0.3332"/>
+        <PeriodicEffect value="rsyyxwG"/>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+    </CBehaviorBuff>
+</Catalog>

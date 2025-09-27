@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CSkin id="AssimilatorI" parent="AssimilatorBase" collection="Ihanrii"/>
+    <CSkin id="CyberneticsCoreI" parent="CyberneticsCoreBase" collection="Ihanrii"/>
+    <CSkin id="DarkShrineI" parent="DarkShrineBase" collection="Ihanrii"/>
+    <CSkin id="FleetBeaconI" parent="FleetBeaconBase" collection="Ihanrii"/>
+    <CSkin id="GatewayI" parent="GatewayBase" collection="Ihanrii"/>
+    <CSkin id="NexusI" parent="NexusBase" collection="Ihanrii"/>
+    <CSkin id="PhotonCannonI" parent="PhotonCannonBase" collection="Ihanrii"/>
+    <CSkin id="ProbeI" parent="ProbeBase" collection="Ihanrii"/>
+    <CSkin id="PylonI" parent="PylonBase" collection="Ihanrii"/>
+    <CSkin id="RoboticsBayI" parent="RoboticsBayBase" collection="Ihanrii"/>
+    <CSkin id="RoboticsFacilityI" parent="RoboticsFacilityBase" collection="Ihanrii"/>
+    <CSkin id="ShieldBatteryI" parent="ShieldBatteryBase" collection="Ihanrii"/>
+    <CSkin id="StargateI" parent="StargateBase" collection="Ihanrii"/>
+    <CSkin id="TemplarArchiveI" parent="TemplarArchiveBase" collection="Ihanrii"/>
+    <CSkin id="TwilightCouncilI" parent="TwilightCouncilBase" collection="Ihanrii"/>
+</Catalog>

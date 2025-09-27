@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CAttachMethodFilter id="AMFilterImmortalI">
+        <Keys Keyword="Weapon" Index="0"/>
+        <Keys Keyword="Left"/>
+        <Keys Keyword="Weapon" Index="0"/>
+        <Keys Keyword="Right"/>
+        <Logic value="OR"/>
+    </CAttachMethodFilter>
+    <CAttachMethodFilter id="AMFilterWeaponSetB0I">
+        <Keys Keyword="Weapon"/>
+        <Keys Keyword="SetB" Index="0"/>
+    </CAttachMethodFilter>
+    <CAttachMethodPattern id="AMPatternImmortalI">
+        <Keyword value="SetA"/>
+        <Driver value="ImmortalShadowCannonLMI"/>
+    </CAttachMethodPattern>
+    <CAttachMethodPattern id="AMPatternColossusIC">
+        <Keyword value="SetA"/>
+        <Driver value="ImmortalShadowCannonLMIC"/>
+    </CAttachMethodPattern>
+    <CAttachMethodPattern id="AMPatternMothershipBeamI">
+        <Keyword value="Weapon"/>
+        <Base value="::RollingIndex"/>
+        <Driver value="MothershipBeamDummyI"/>
+    </CAttachMethodPattern>
+</Catalog>

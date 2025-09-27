@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CTargetFindSet id="BlinkAttackI">
+        <CasterValidator value="CasterShieldsGE10"/>
+        <Type value="Sequential"/>
+        <Array value="BlinkAttackTargetI"/>
+        <Array value="BlinkAttackOffset"/>
+    </CTargetFindSet>
+    <CTargetFindSet id="BlinkAttackID">
+        <TargetFilters value="Ground;Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <Type value="Sequential"/>
+        <Array value="BlinkAttackTarget"/>
+        <Array value="BlinkAttackOffsetI"/>
+    </CTargetFindSet>
+    <CTargetFindOffset id="BlinkAttackOffsetI">
+        <Flags index="EvaluateCmd" value="1"/>
+        <Distance value="-8,-8"/>
+    </CTargetFindOffset>
+    <CTargetFindOrder id="BlinkAttackTargetI">
+        <TargetValidator value="TacticalBlinkAttackRangeID"/>
+        <Abil value="attack"/>
+    </CTargetFindOrder>
+    <CTargetFindSet id="BlinkI">
+        <Type value="Successful"/>
+        <Array value="BlinkRetreatI"/>
+        <Array value="BlinkAttackI"/>
+    </CTargetFindSet>
+    <CTargetFindSet id="BlinkRetreatI">
+        <CasterValidator value="CasterShieldsLT10"/>
+        <Type value="Sequential"/>
+        <Array value="BlinkAttacker"/>
+        <Array value="BlinkAwayOffset"/>
+    </CTargetFindSet>
+    <CTargetFindEnumArea id="CarrierILI">
+        <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Hallucination,Invulnerable"/>
+        <SearchFlags index="ExtendByUnitRadius" value="1"/>
+        <AreaArray/>
+        <Abil value="ReleaseInterceptorsI"/>
+        <ExtendRadius value="3"/>
+        <TargetSorts>
+            <SortArray value="TSLifeI"/>
+        </TargetSorts>
+    </CTargetFindEnumArea>
+    <CTargetFindBestPoint id="PsiStormBestPointI">
+        <Flags index="EvaluateCmd" value="1"/>
+        <DamageBase value="50"/>
+        <Effect value="BlackHoleBombEndSearchI"/>
+        <MinCount value="2"/>
+        <MinScore value="1"/>
+    </CTargetFindBestPoint>
+    <CTargetFindBestPoint id="ColossusVGBestPointI">
+        <Flags index="EvaluateCmd" value="1"/>
+        <DamageBase value="50"/>
+        <Effect value="ColossusPsiOrbSearchI"/>
+        <MinCount value="4"/>
+        <MinScore value="2"/>
+    </CTargetFindBestPoint>
+    <CTargetFindBestPoint id="DarkTemplarBlinkBestPointI">
+        <Flags index="EvaluateCmd" value="1"/>
+        <DamageBase value="50"/>
+        <Effect value="DarkTemplarBlinkDamageSearchI"/>
+        <MinCount value="2"/>
+        <MinScore value="1"/>
+    </CTargetFindBestPoint>
+    <CTargetFindBestPoint id="MothershipMFBestPointI">
+        <Flags index="EvaluateCmd" value="1"/>
+        <DamageBase value="1000"/>
+        <Effect value="LargeCrashHighDamageSearchIF"/>
+        <MinScore value="1"/>
+    </CTargetFindBestPoint>
+    <CTargetFindSet id="PsiStormI">
+        <Type value="Sequential"/>
+        <Array value="PsiStormSearchI"/>
+        <Array value="PsiStormBestPointI"/>
+    </CTargetFindSet>
+    <CTargetFindSet id="ColossusVGI">
+        <Type value="Sequential"/>
+        <Array value="ColossusVGSearchI"/>
+        <Array value="ColossusVGBestPointI"/>
+    </CTargetFindSet>
+    <CTargetFindSet id="DarkTemplarBlinkI">
+        <Type value="Sequential"/>
+        <Array value="DarkTemplarBlinkSearchI"/>
+        <Array value="DarkTemplarBlinkBestPointI"/>
+    </CTargetFindSet>
+    <CTargetFindSet id="MothershipMFI">
+        <Type value="Sequential"/>
+        <Array value="MothershipMFSearchI"/>
+        <Array value="MothershipMFBestPointI"/>
+    </CTargetFindSet>
+    <CTargetFindEffect id="PsiStormSearchI">
+        <TargetValidator value="PsiStormTestBuffI"/>
+        <Effect value="BlackHoleBombEndSearchI"/>
+    </CTargetFindEffect>
+    <CTargetFindEffect id="ColossusVGSearchI">
+        <TargetFilters value="Visible;Player,Ally,Neutral,Missile,Dead,Hidden,Invulnerable"/>
+        <Effect value="ColossusPsiOrbSearchI"/>
+    </CTargetFindEffect>
+    <CTargetFindEffect id="DarkTemplarBlinkSearchI">
+        <TargetFilters value="Ground,Visible;Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <Effect value="DarkTemplarBlinkDamageSearchI"/>
+    </CTargetFindEffect>
+    <CTargetFindEffect id="MothershipMFSearchI">
+        <TargetValidator value="NotFriendlyTargetI"/>
+        <Effect value="LargeCrashHighDamageSearchIF"/>
+    </CTargetFindEffect>
+    <CTargetFindEnumArea id="TemplarVEI">
+        <TargetValidator value="TemplarVEI"/>
+        <SearchFilters value="-;Neutral,Enemy,Missile,Stasis,Dead,Hidden,Hallucination,Invulnerable"/>
+        <SearchFlags index="ExtendByUnitRadius" value="1"/>
+        <AreaArray/>
+        <Abil value="FeedbackI"/>
+        <ExtendRadius value="3"/>
+        <TargetSorts>
+            <SortArray value="TSLife"/>
+        </TargetSorts>
+    </CTargetFindEnumArea>
+</Catalog>

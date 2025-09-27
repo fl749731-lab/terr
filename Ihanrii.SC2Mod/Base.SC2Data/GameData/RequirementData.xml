@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CRequirement id="AdeptPhaseShiftingI">
+        <EditorCategories value="Race:Protoss,TechType:Ability"/>
+        <NodeArray index="Show" Link="CountBehaviorAdeptPhaseShiftCasterICompleteOnlyAtUnit"/>
+    </CRequirement>
+    <CRequirement id="ArmInterceptorI">
+        <EditorCategories value="Race:Protoss,TechType:Unit"/>
+        <NodeArray index="Use" Link="LT2270482955CountUnitInterceptorIQueuedOrBetterAtUnit8"/>
+    </CRequirement>
+    <CRequirement id="ArmInterceptorIN">
+        <EditorCategories value="Race:Protoss,TechType:Unit"/>
+        <NodeArray index="Use" Link="LTCountUnitInterceptorICompleteOnlyAtUnit1"/>
+    </CRequirement>
+    <CRequirement id="HasBarrierBehaviorI">
+        <EditorCategories value="Race:Protoss,TechType:Ability"/>
+        <NodeArray index="Use" Link="Not50564669CountBehaviorImmortalBarrierBaseICompleteOnlyAtUnit"/>
+    </CRequirement>
+    <CRequirement id="HaveCyberneticsCoreI">
+        <EditorCategories value="Race:Protoss,TechType:Unit"/>
+        <CanBeSuppressed index="Use" value="0"/>
+        <NodeArray index="Use" Link="CountUnitCyberneticsCoreICompleteOnlyTechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="HaveDarkShrineI">
+        <EditorCategories value="Race:Protoss,TechType:Unit"/>
+        <CanBeSuppressed index="Use" value="0"/>
+        <NodeArray index="Use" Link="CountUnitDarkShrineICompleteOnlyTechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="HaveFleetBeaconI">
+        <EditorCategories value="Race:Protoss,TechType:Unit"/>
+        <CanBeSuppressed index="Use" value="0"/>
+        <NodeArray index="Use" Link="CountUnitFleetBeaconICompleteOnlyTechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="HaveForgeI">
+        <EditorCategories value="Race:Protoss,TechType:Unit"/>
+        <CanBeSuppressed index="Use" value="0"/>
+        <NodeArray index="Use" Link="CountUnitForgeICompleteOnlyTechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="HaveGatewayI">
+        <EditorCategories value="Race:Protoss,TechType:Unit"/>
+        <CanBeSuppressed index="Use" value="0"/>
+        <NodeArray index="Use" Link="CountUnitAlias_GatewayCompleteOnly3230144147TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="HaveNexusI">
+        <EditorCategories value="Race:Protoss,TechType:Unit"/>
+        <CanBeSuppressed index="Use" value="0"/>
+        <NodeArray index="Use" Link="CountUnitNexusICompleteOnlyTechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="HaveRoboticsBayI">
+        <EditorCategories value="Race:Protoss,TechType:Unit"/>
+        <CanBeSuppressed index="Use" value="0"/>
+        <NodeArray index="Use" Link="CountUnitRoboticsBayICompleteOnlyTechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="HaveRoboticsFaI">
+        <EditorCategories value="Race:Protoss,TechType:Unit"/>
+        <CanBeSuppressed index="Use" value="0"/>
+        <NodeArray index="Use" Link="CountUnitAlias_RoboticsFacilityCompleteOnly3959328758TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="HaveStargateI">
+        <EditorCategories value="Race:Protoss,TechType:Unit"/>
+        <CanBeSuppressed index="Use" value="0"/>
+        <NodeArray index="Use" Link="CountUnitAlias_StargateCompleteOnly1125493402TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="HaveTemplarArchivesI">
+        <EditorCategories value="Race:Protoss,TechType:Unit"/>
+        <CanBeSuppressed index="Use" value="0"/>
+        <NodeArray index="Use" Link="CountUnitTemplarArchiveICompleteOnlyTechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="HaveTwilightCouncilI">
+        <EditorCategories value="Race:Protoss,TechType:Unit"/>
+        <CanBeSuppressed index="Use" value="0"/>
+        <NodeArray index="Use" Link="CountUnitTwilightCouncilICompleteOnlyTechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="MothershipRequirementsI">
+        <EditorCategories value="Race:Protoss,TechType:Unit"/>
+        <NodeArray index="Use" Link="AndCountUnitFleetBeaconICompleteOnlyTechTreeCheatEq2780780578CountUnitMothershipIQueuedOrBetter0"/>
+    </CRequirement>
+</Catalog>

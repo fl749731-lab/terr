@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CRequirementAnd id="AndCountUnitFleetBeaconICompleteOnlyTechTreeCheatEq2780780578CountUnitMothershipIQueuedOrBetter0">
+        <OperandArray value="CountUnitFleetBeaconICompleteOnlyTechTreeCheat"/>
+        <OperandArray value="Eq2780780578CountUnitMothershipIQueuedOrBetter0"/>
+    </CRequirementAnd>
+    <CRequirementCountBehavior id="CountBehaviorAdeptPhaseShiftCasterICompleteOnlyAtUnit">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AdeptPhaseShiftCasterI" State="CompleteOnlyAtUnit"/>
+    </CRequirementCountBehavior>
+    <CRequirementCountBehavior id="CountBehaviorImmortalBarrierBaseICompleteOnlyAtUnit">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="ImmortalBarrierBaseI" State="CompleteOnlyAtUnit"/>
+    </CRequirementCountBehavior>
+    <CRequirementCountUnit id="CountUnitAlias_GatewayCompleteOnly3230144147TechTreeCheat">
+        <Count Link="Alias_Gateway" State="CompleteOnly"/>
+    </CRequirementCountUnit>
+    <CRequirementCountUnit id="CountUnitAlias_RoboticsFacilityCompleteOnly3959328758TechTreeCheat">
+        <Count Link="Alias_RoboticsFacility" State="CompleteOnly"/>
+    </CRequirementCountUnit>
+    <CRequirementCountUnit id="CountUnitAlias_StargateCompleteOnly1125493402TechTreeCheat">
+        <Count Link="Alias_Stargate" State="CompleteOnly"/>
+    </CRequirementCountUnit>
+    <CRequirementCountUnit id="CountUnitCyberneticsCoreICompleteOnlyTechTreeCheat">
+        <Count Link="CyberneticsCoreI" State="CompleteOnly"/>
+    </CRequirementCountUnit>
+    <CRequirementCountUnit id="CountUnitDarkShrineICompleteOnlyTechTreeCheat">
+        <Count Link="DarkShrineI" State="CompleteOnly"/>
+    </CRequirementCountUnit>
+    <CRequirementCountUnit id="CountUnitFleetBeaconICompleteOnlyTechTreeCheat">
+        <Count Link="FleetBeaconI" State="CompleteOnly"/>
+    </CRequirementCountUnit>
+    <CRequirementCountUnit id="CountUnitForgeICompleteOnlyTechTreeCheat">
+        <Count Link="ForgeI" State="CompleteOnly"/>
+    </CRequirementCountUnit>
+    <CRequirementCountUnit id="CountUnitInterceptorICompleteOnlyAtUnit">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Tooltip value="RequirementNode/Tooltip/##id##"/>
+        <Count Link="InterceptorI" State="CompleteOnlyAtUnit"/>
+    </CRequirementCountUnit>
+    <CRequirementCountUnit id="CountUnitInterceptorIQueuedOrBetterAtUnit">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="InterceptorI" State="QueuedOrBetterAtUnit"/>
+    </CRequirementCountUnit>
+    <CRequirementCountUnit id="CountUnitMothershipIQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="MothershipI" State="QueuedOrBetter"/>
+    </CRequirementCountUnit>
+    <CRequirementCountUnit id="CountUnitNexusICompleteOnlyTechTreeCheat">
+        <Count Link="NexusI" State="CompleteOnly"/>
+    </CRequirementCountUnit>
+    <CRequirementCountUnit id="CountUnitRoboticsBayICompleteOnlyTechTreeCheat">
+        <Count Link="RoboticsBayI" State="CompleteOnly"/>
+    </CRequirementCountUnit>
+    <CRequirementCountUnit id="CountUnitTemplarArchiveICompleteOnlyTechTreeCheat">
+        <Count Link="TemplarArchiveI" State="CompleteOnly"/>
+    </CRequirementCountUnit>
+    <CRequirementCountUnit id="CountUnitTwilightCouncilICompleteOnlyTechTreeCheat">
+        <Count Link="TwilightCouncilI" State="CompleteOnly"/>
+    </CRequirementCountUnit>
+    <CRequirementEq id="Eq2780780578CountUnitMothershipIQueuedOrBetter0">
+        <OperandArray index="0" value="CountUnitMothershipIQueuedOrBetter"/>
+        <OperandArray index="1" value="0"/>
+    </CRequirementEq>
+    <CRequirementLT id="LT2270482955CountUnitInterceptorIQueuedOrBetterAtUnit8">
+        <OperandArray index="0" value="CountUnitInterceptorIQueuedOrBetterAtUnit"/>
+        <OperandArray index="1" value="8"/>
+    </CRequirementLT>
+    <CRequirementLT id="LTCountUnitInterceptorICompleteOnlyAtUnit1">
+        <Tooltip value="RequirementNode/Tooltip/##id##"/>
+        <OperandArray index="0" value="CountUnitInterceptorICompleteOnlyAtUnit"/>
+        <OperandArray index="1" value="1"/>
+    </CRequirementLT>
+    <CRequirementNot id="Not50564669CountBehaviorImmortalBarrierBaseICompleteOnlyAtUnit">
+        <OperandArray index="0" value="CountBehaviorImmortalBarrierBaseICompleteOnlyAtUnit"/>
+    </CRequirementNot>
+</Catalog>

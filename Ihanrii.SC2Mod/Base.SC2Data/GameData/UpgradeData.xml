@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CUpgrade id="IhanriiUpgradeI">
+        <EditorCategories value="Race:Protoss,UpgradeType:Talents"/>
+        <LeaderAlias value="TaldarimUpgrade"/>
+    </CUpgrade>
+</Catalog>

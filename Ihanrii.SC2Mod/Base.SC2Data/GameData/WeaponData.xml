@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CWeaponLegacy id="AdeptI">
+        <EditorCategories value="Race:Protoss"/>
+        <Icon value="BTN\btn-upgrade-protoss-groundweaponslevel3I.dds"/>
+        <DisplayEffect value="AdeptDamageI"/>
+        <TargetFilters value="Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <Period value="2.25"/>
+        <Effect value="AdeptUpgradeLMI"/>
+        <Range value="6"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="AdeptIP">
+        <EditorCategories value="Race:Protoss"/>
+        <Icon value="BTN\btn-upgrade-protoss-groundweaponslevel3I.dds"/>
+        <DisplayEffect value="AdeptDamageI"/>
+        <TargetFilters value="Visible;Missile,Dead,Hidden,Invulnerable"/>
+        <Period value="2.25"/>
+        <Effect value="AdeptLMI"/>
+        <Range value="6"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="DisruptorVoidNovaDummyI">
+        <EditorCategories value="Race:Protoss"/>
+        <Options index="Hidden" value="1"/>
+        <Icon value="Assets\Textures\btn-ability-zeratul-disruptor-purificationnova.dds"/>
+        <TargetFilters value="Visible;Missile,Dead,Hidden,Invulnerable"/>
+        <Range value="0"/>
+        <Arc value="360"/>
+        <Period value="1"/>
+        <MinScanRange value="6"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="DisruptionBeamI">
+        <EditorCategories value="Race:Protoss"/>
+        <Icon value="BTN\btn-upgrade-protoss-groundweaponslevel3I.dds"/>
+        <DisplayEffect value="DisruptionBeamDamageI"/>
+        <TargetFilters value="Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <Range value="6"/>
+        <TeleportResetRange value="0"/>
+        <Period value="0.5"/>
+        <DamagePoint value="0"/>
+        <LegacyOptions index="CanRetargetWhileChanneling" value="1"/>
+        <AllowedMovement value="Moving"/>
+        <RangeSlop value="2"/>
+        <ArcSlop value="39.9902"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="DisruptorGhostChargedBeamI">
+        <EditorCategories value="Race:Protoss"/>
+        <Options index="OnlyFireWhileInAttackOrder" value="0"/>
+        <Options index="OnlyFireAtAttackOrderTarget" value="0"/>
+        <Icon value="BTN\btn-upgrade-protoss-groundweaponslevel3I.dds"/>
+        <DisplayEffect value="StalkerGhostDamageI"/>
+        <DisplayAttackCount value="1"/>
+        <TargetFilters value="Ground,Visible;Missile,Dead,Hidden,Invulnerable"/>
+        <AcquirePrioritization value="ByDistanceFromTarget"/>
+        <Range value="1.5"/>
+        <Arc value="360"/>
+        <Period value="0.25"/>
+        <DamagePoint value="0"/>
+        <Effect value="StalkerGhostDamageI"/>
+        <AllowedMovement value="Moving"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="DragoonI">
+        <EditorCategories value="Race:Protoss"/>
+        <Options index="CanInitiateAttackOrder" value="0"/>
+        <Options index="OnlyFireWhileInAttackOrder" value="0"/>
+        <Options index="OnlyFireAtAttackOrderTarget" value="0"/>
+        <Options index="LinkedCooldown" value="0"/>
+        <Icon value="BTN\btn-upgrade-protoss-groundweaponslevel3I.dds"/>
+        <DisplayEffect value="DragoonDamageI"/>
+        <TargetFilters value="Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <Range value="7"/>
+        <Period value="2"/>
+        <Effect value="DragoonLMI"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="HighTemplarWeaponI">
+        <EditorCategories value="Race:Protoss"/>
+        <Icon value="BTN\btn-upgrade-protoss-groundweaponslevel3I.dds"/>
+        <DisplayEffect value="HighTemplarWeaponDamageI"/>
+        <TargetFilters value="Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <Range value="7"/>
+        <Period value="1.754"/>
+        <Effect value="HighTemplarWeaponLMI"/>
+    </CWeaponLegacy>
+    <CWeaponStrafe id="InterceptorBeamI">
+        <EditorCategories value="Race:Protoss"/>
+        <Icon value="BTN\btn-upgrade-protoss-airweaponslevel3I.dds"/>
+        <DisplayEffect value="InterceptorBeamDamageI"/>
+        <DisplayAttackCount value="2"/>
+        <TargetFilters value="Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <Range value="3"/>
+        <Arc value="360"/>
+        <Period value="3"/>
+        <Effect value="InterceptorBeamPersistentI"/>
+    </CWeaponStrafe>
+    <CWeaponLegacy id="InterceptorLaunchI">
+        <EditorCategories value="Race:Protoss"/>
+        <Options index="Hidden" value="1"/>
+        <Options index="OnlyFireWhileInAttackOrder" value="0"/>
+        <Options index="OnlyFireAtAttackOrderTarget" value="0"/>
+        <Icon value="Assets\Textures\btn-unit-protoss-interceptor-ihanrii.dds"/>
+        <TargetFilters value="Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <Range value="12"/>
+        <Arc value="360"/>
+        <Period value="0.5"/>
+        <DamagePoint value="0"/>
+        <Backswing value="0"/>
+        <Effect value="InterceptorLaunchPersistentI"/>
+        <AllowedMovement value="Moving"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="InterceptorsDummyI">
+        <EditorCategories value="Race:Protoss"/>
+        <Icon value="Assets\Textures\btn-unit-protoss-interceptor-ihanrii.dds"/>
+        <DisplayEffect value="InterceptorBeamDamageI"/>
+        <DisplayAttackCount value="2"/>
+        <TargetFilters value="Visible;Player,Ally,Neutral,Enemy"/>
+        <Range value="12"/>
+        <Arc value="360"/>
+        <Period value="3"/>
+        <Effect value="CarrierInterceptorI"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="IonCannonsI">
+        <EditorCategories value="Race:Protoss"/>
+        <Options index="OnlyFireWhileInAttackOrder" value="0"/>
+        <Options index="OnlyFireAtAttackOrderTarget" value="0"/>
+        <Icon value="BTN\btn-upgrade-protoss-airweaponslevel3I.dds"/>
+        <DisplayEffect value="IonCannonsUI"/>
+        <DisplayAttackCount value="6"/>
+        <TargetFilters value="Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <Arc value="4.9987"/>
+        <ArcSlop value="0"/>
+        <Period value="1.65"/>
+        <Effect value="IonCannonsCPI"/>
+        <AllowedMovement value="Moving"/>
+        <DamagePoint value="0"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="IonCannonsIO">
+        <EditorCategories value="Race:Protoss"/>
+        <Options index="OnlyFireWhileInAttackOrder" value="0"/>
+        <Options index="OnlyFireAtAttackOrderTarget" value="0"/>
+        <Icon value="BTN\btn-upgrade-protoss-airweaponslevel3I.dds"/>
+        <DisplayEffect value="IonCannonsUIO"/>
+        <DisplayAttackCount value="6"/>
+        <TargetFilters value="Air,Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <Arc value="4.9987"/>
+        <ArcSlop value="0"/>
+        <Period value="1.65"/>
+        <Effect value="IonCannonsCPIO"/>
+        <AllowedMovement value="Moving"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="MothershipBeamI">
+        <EditorCategories value="Race:Protoss"/>
+        <Options index="OnlyFireWhileInAttackOrder" value="0"/>
+        <Options index="OnlyFireAtAttackOrderTarget" value="0"/>
+        <Icon value="BTN\btn-upgrade-protoss-airweaponslevel3I.dds"/>
+        <DisplayEffect value="MothershipBeamDamageI"/>
+        <DisplayAttackCount value="6"/>
+        <TargetFilters value="Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <Range value="12"/>
+        <TeleportResetRange value="0"/>
+        <Arc value="360"/>
+        <Period value="1.2"/>
+        <DamagePoint value="0"/>
+        <Effect value="MothershipBeamSetI"/>
+        <AllowedMovement value="Moving"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="OracleI">
+        <EditorCategories value="Race:Protoss"/>
+        <Options index="Disabled" value="1"/>
+        <Icon value="Assets\Textures\btn-ability-protoss-oraclepulsarcannonon.dds"/>
+        <DisplayEffect value="OracleWeaponDamageI"/>
+        <TargetFilters value="Ground,Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <Range value="4"/>
+        <RangeSlop value="0"/>
+        <TeleportResetRange value="0"/>
+        <Period value="0.86"/>
+        <Backswing value="0.75"/>
+        <Effect value="OracleWeaponCreatePersistentI"/>
+        <LegacyOptions index="CanRetargetWhileChanneling" value="1"/>
+        <LegacyOptions index="NoDeceleration" value="1"/>
+        <AllowedMovement value="Slowing"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="OracleIS">
+        <EditorCategories value="Race:Protoss"/>
+        <Options index="Disabled" value="1"/>
+        <Icon value="Assets\Textures\btn-ability-protoss-oraclepulsarcannonon.dds"/>
+        <DisplayEffect value="OracleWeaponDamageIS"/>
+        <TargetFilters value="Ground,Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <Range value="4"/>
+        <RangeSlop value="0"/>
+        <TeleportResetRange value="0"/>
+        <Period value="0.86"/>
+        <Backswing value="0.75"/>
+        <Effect value="OracleWeaponCreatePersistentIS"/>
+        <LegacyOptions index="CanRetargetWhileChanneling" value="1"/>
+        <LegacyOptions index="NoDeceleration" value="1"/>
+        <AllowedMovement value="Slowing"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="ParticleBeamI">
+        <EditorCategories value="Race:Protoss"/>
+        <Options index="Melee" value="1"/>
+        <Icon value="BTN\btn-upgrade-protoss-groundweaponslevel3I.dds"/>
+        <TargetFilters value="Ground,Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <Range value="2"/>
+        <Period value="1.5"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="ParticleDisruptorsI">
+        <EditorCategories value="Race:Protoss"/>
+        <Icon value="BTN\btn-upgrade-protoss-groundweaponslevel3I.dds"/>
+        <DisplayEffect value="ParticleDisruptorsUI"/>
+        <TargetFilters value="Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <Range value="6"/>
+        <Period value="1.44"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="PhaseDisruptorsAirIC">
+        <EditorCategories value="Race:Protoss"/>
+        <Icon value="BTN\btn-upgrade-protoss-groundweaponslevel3I.dds"/>
+        <DisplayAttackCount value="2"/>
+        <TargetFilters value="Air,Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <Range value="11"/>
+        <Period value="2.18"/>
+        <Effect value="ImmortalShadowCannonLMIC"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="PhaseDisruptorsI">
+        <EditorCategories value="Race:Protoss"/>
+        <Icon value="BTN\btn-upgrade-protoss-groundweaponslevel3I.dds"/>
+        <DisplayAttackCount value="2"/>
+        <TargetFilters value="Ground,Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <Range value="6"/>
+        <Period value="1.45"/>
+        <Effect value="ImmortalWeaponSetI"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="PhoenixWhirlwindFakeWeaponIG">
+        <EditorCategories value="Race:Protoss"/>
+        <Options index="Hidden" value="1"/>
+        <Options index="Melee" value="1"/>
+        <Icon value="Assets\Textures\btn-ability-zeratul-hero-shadowcleave.dds"/>
+        <TargetFilters value="Ground,Visible;Massive,Structure,Stasis,Dead,Hidden,Invulnerable"/>
+        <Range value="0"/>
+        <Effect value="PhoenixWhirlwindFakeWeaponDummyI"/>
+        <MinScanRange value="10"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="PhotonCannonI">
+        <EditorCategories value="Race:Protoss"/>
+        <Icon value="Assets\Textures\btn-building-protoss-photoncannon-ihanrii.dds"/>
+        <DisplayEffect value="PhotonCannonUI"/>
+        <TargetFilters value="Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <Range value="7"/>
+        <RangeSlop value="0"/>
+        <Period value="1.25"/>
+        <Effect value="PhotonCannonLMI"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="PsiBladesI">
+        <EditorCategories value="Race:Protoss"/>
+        <Options index="Melee" value="1"/>
+        <Icon value="BTN\btn-upgrade-protoss-groundweaponslevel3I.dds"/>
+        <DisplayAttackCount value="2"/>
+        <TargetFilters value="Ground,Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <Range value="0.1"/>
+        <Period value="1.2"/>
+        <DamagePoint value="0"/>
+        <Effect value="ZealotPsiBladesCleaveSetI"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="PsiBladesIE">
+        <EditorCategories value="Race:Protoss"/>
+        <Options index="Melee" value="1"/>
+        <Icon value="BTN\btn-upgrade-protoss-groundweaponslevel3I.dds"/>
+        <DisplayEffect value="PsiBladesI"/>
+        <DisplayAttackCount value="2"/>
+        <TargetFilters value="Ground,Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <MinScanRange value="8"/>
+        <Range value="0.1"/>
+        <Period value="1.2"/>
+        <DamagePoint value="0"/>
+        <Effect value="ZealotPsiBladesCleaveSetI"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="PsionicShockwaveI">
+        <EditorCategories value="Race:Protoss"/>
+        <Icon value="BTN\btn-upgrade-protoss-groundweaponslevel3I.dds"/>
+        <DisplayEffect value="PsionicShockwaveDamageI"/>
+        <TargetFilters value="Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <TeleportResetRange value="0"/>
+        <Cost>
+            <Cooldown Location="Unit"/>
+        </Cost>
+        <Period value="1.25"/>
+        <Effect value="PsionicShockwaveDamageI"/>
+        <Range value="4"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="ScoutAirI">
+        <EditorCategories value="Race:Protoss"/>
+        <Icon value="BTN\btn-upgrade-protoss-airweaponslevel3I.dds"/>
+        <DisplayEffect value="ScoutAirUI"/>
+        <DisplayAttackCount value="6"/>
+        <TargetFilters value="Air,Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <Range value="4"/>
+        <Period value="2"/>
+        <AllowedMovement value="Moving"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="ScoutGroundI">
+        <EditorCategories value="Race:Protoss"/>
+        <Icon value="BTN\btn-upgrade-protoss-airweaponslevel3I.dds"/>
+        <DisplayAttackCount value="6"/>
+        <TargetFilters value="Ground,Visible;Air,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <Range value="4"/>
+        <Period value="2"/>
+        <Effect value="ScoutGroundCPI"/>
+        <AllowedMovement value="Moving"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="StalkerGhostChargedBeamI">
+        <EditorCategories value="Race:Protoss"/>
+        <Options index="OnlyFireWhileInAttackOrder" value="0"/>
+        <Options index="OnlyFireAtAttackOrderTarget" value="0"/>
+        <Icon value="BTN\btn-upgrade-protoss-groundweaponslevel3I.dds"/>
+        <DisplayEffect value="StalkerGhostDamageI"/>
+        <DisplayAttackCount value="1"/>
+        <TargetFilters value="Visible;Missile,Dead,Hidden,Invulnerable"/>
+        <AcquirePrioritization value="ByDistanceFromTarget"/>
+        <MinScanRange value="9.5"/>
+        <Range value="9"/>
+        <Arc value="360"/>
+        <Period value="1"/>
+        <DamagePoint value="0"/>
+        <Effect value="StalkerGhostDamageI"/>
+        <AllowedMovement value="Moving"/>
+        <AcquireTargetSorts>
+            <SortArray value="TSDistance"/>
+        </AcquireTargetSorts>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="DragoonGhostChargedBeamI">
+        <EditorCategories value="Race:Protoss"/>
+        <Options index="LinkedCooldown" value="0"/>
+        <Icon value="BTN\btn-upgrade-protoss-groundweaponslevel3I.dds"/>
+        <DisplayEffect value="DragoonGhostDamageI"/>
+        <DisplayAttackCount value="3"/>
+        <TargetFilters value="Visible;Missile,Dead,Hidden,Invulnerable"/>
+        <Range value="7"/>
+        <Period value="2"/>
+        <Effect value="DragoonWeaponCPI"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="DragoonGhostChargedBeamIG">
+        <EditorCategories value="Race:Protoss"/>
+        <Options index="OnlyFireWhileInAttackOrder" value="0"/>
+        <Options index="OnlyFireAtAttackOrderTarget" value="0"/>
+        <Icon value="BTN\btn-upgrade-protoss-groundweaponslevel3I.dds"/>
+        <DisplayEffect value="StalkerGhostDamageI"/>
+        <DisplayAttackCount value="1"/>
+        <TargetFilters value="Visible;Missile,Dead,Hidden,Invulnerable"/>
+        <AcquirePrioritization value="ByDistanceFromTarget"/>
+        <MinScanRange value="8.5"/>
+        <Range value="8"/>
+        <Arc value="360"/>
+        <Period value="0.5"/>
+        <DamagePoint value="0"/>
+        <Effect value="StalkerGhostDamageI"/>
+        <AllowedMovement value="Moving"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="ScoutSuicideI">
+        <EditorCategories value="Race:Protoss"/>
+        <Options index="Disabled" value="1"/>
+        <Options index="Melee" value="1"/>
+        <Icon value="BTN\btn-upgrade-protoss-scoutihanrii-psitrousoxideboost.dds"/>
+        <DisplayEffect value="ScoutSuicideDamageI"/>
+        <TargetFilters value="Air,Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <Range value="0.35"/>
+        <Period value="1"/>
+        <DamagePoint value="0"/>
+        <Effect value="ScoutSuicideSetI"/>
+        <LegacyOptions index="NoDeceleration" value="1"/>
+        <AllowedMovement value="Moving"/>
+        <MinScanRange value="10"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="TempestI">
+        <EditorCategories value="Race:Protoss"/>
+        <Icon value="BTN\btn-upgrade-protoss-airweaponslevel3I.dds"/>
+        <DisplayEffect value="TempestDamageI"/>
+        <TargetFilters value="Air,Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <Range value="14"/>
+        <Period value="2.8"/>
+        <Effect value="TempestLaunchMissileI"/>
+        <AllowedMovement value="Moving"/>
+        <Arc value="9.9975"/>
+        <DamagePoint value="0"/>
+        <LegacyOptions index="NoDeceleration" value="1"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="ThermalLancesI">
+        <EditorCategories value="Race:Protoss"/>
+        <Icon value="BTN\btn-upgrade-protoss-groundweaponslevel3I.dds"/>
+        <DisplayEffect value="ThermalLancesMUI"/>
+        <DisplayAttackCount value="2"/>
+        <TargetFilters value="Ground,Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <AcquirePrioritization value="ByDistanceFromTarget"/>
+        <Range value="6"/>
+        <RangeSlop value="2"/>
+        <Arc value="90"/>
+        <Period value="1.65"/>
+        <DamagePoint value="0.0832"/>
+        <LegacyOptions index="KeepChanneling" value="1"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="ThermalLancesIA">
+        <EditorCategories value="Race:Protoss"/>
+        <Icon value="BTN\btn-upgrade-protoss-groundweaponslevel3I.dds"/>
+        <DisplayEffect value="ThermalLancesMUI"/>
+        <DisplayAttackCount value="4"/>
+        <TargetFilters value="Ground,Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <AcquirePrioritization value="ByDistanceFromTarget"/>
+        <Range value="7"/>
+        <RangeSlop value="2"/>
+        <Arc value="90"/>
+        <Period value="1.65"/>
+        <DamagePoint value="0.0832"/>
+        <LegacyOptions index="KeepChanneling" value="1"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="ThermalLancesIL">
+        <EditorCategories value="Race:Protoss"/>
+        <Icon value="BTN\btn-upgrade-protoss-groundweaponslevel3I.dds"/>
+        <DisplayEffect value="ThermalLancesMUIL"/>
+        <DisplayAttackCount value="2"/>
+        <TargetFilters value="Ground,Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <AcquirePrioritization value="ByDistanceFromTarget"/>
+        <Range value="6"/>
+        <RangeSlop value="2"/>
+        <Arc value="90"/>
+        <Period value="1.65"/>
+        <DamagePoint value="0.0832"/>
+        <LegacyOptions index="KeepChanneling" value="1"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="ThermalLancesILL">
+        <EditorCategories value="Race:Protoss"/>
+        <Icon value="BTN\btn-upgrade-protoss-groundweaponslevel3I.dds"/>
+        <DisplayEffect value="ThermalLancesMUIL"/>
+        <DisplayAttackCount value="2"/>
+        <TargetFilters value="Ground,Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <AcquirePrioritization value="ByDistanceFromTarget"/>
+        <Range value="6"/>
+        <RangeSlop value="2"/>
+        <Arc value="90"/>
+        <Period value="1.65"/>
+        <DamagePoint value="0.0832"/>
+        <LegacyOptions index="KeepChanneling" value="1"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="ThermalLancesILR">
+        <EditorCategories value="Race:Protoss"/>
+        <Icon value="BTN\btn-upgrade-protoss-groundweaponslevel3I.dds"/>
+        <DisplayEffect value="ThermalLancesMUIL"/>
+        <DisplayAttackCount value="2"/>
+        <TargetFilters value="Ground,Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <AcquirePrioritization value="ByDistanceFromTarget"/>
+        <Range value="6"/>
+        <RangeSlop value="2"/>
+        <Arc value="90"/>
+        <Period value="1.65"/>
+        <DamagePoint value="0.0832"/>
+        <LegacyOptions index="KeepChanneling" value="1"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="PhoenixWhirlwindFakeWeaponI">
+        <EditorCategories value="Race:Protoss"/>
+        <Options index="Hidden" value="1"/>
+        <Options index="Melee" value="1"/>
+        <Icon value="Assets\Textures\btn-ability-zeratul-hero-shadowcleave.dds"/>
+        <Range value="0"/>
+        <Effect value="PhoenixWhirlwindFakeWeaponDummyI"/>
+        <TargetFilters value="Air,Visible;Stasis,Dead,Hidden,Invulnerable"/>
+        <MinScanRange value="10"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="VoidRayChargeBeamRangeI">
+        <EditorCategories value="Race:Protoss"/>
+        <Options index="OnlyFireWhileInAttackOrder" value="0"/>
+        <Options index="OnlyFireAtAttackOrderTarget" value="0"/>
+        <Icon value="BTN\btn-upgrade-protoss-airweaponslevel3I.dds"/>
+        <DisplayEffect value="VoidRayChargeBeamBaseDamageCharge1I"/>
+        <TargetFilters value="Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <Range value="6"/>
+        <RangeSlop value="2"/>
+        <Arc value="360"/>
+        <Period value="0.5"/>
+        <Backswing value="0.75"/>
+        <LegacyOptions index="CanRetargetWhileChanneling" value="1"/>
+        <LegacyOptions index="NoDeceleration" value="1"/>
+        <AllowedMovement value="Moving"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="WarpBladesI">
+        <EditorCategories value="Race:Protoss"/>
+        <Options index="Melee" value="1"/>
+        <Icon value="BTN\btn-upgrade-protoss-groundweaponslevel3I.dds"/>
+        <TargetFilters value="Ground,Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <Range value="0.1"/>
+        <Period value="1.694"/>
+        <DamagePoint value="0.3"/>
+        <Backswing value="1.333"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="PhaseDisruptorsAirI">
+        <EditorCategories value="Race:Protoss"/>
+        <Icon value="BTN\btn-upgrade-protoss-groundweaponslevel3I.dds"/>
+        <DisplayAttackCount value="2"/>
+        <TargetFilters value="Air,Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <Range value="11"/>
+        <Period value="2.18"/>
+        <Effect value="ImmortalShadowCannonLMI"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="DisruptorWeaponI">
+        <EditorCategories value="Race:Protoss"/>
+        <Options index="DisplayCooldown" value="1"/>
+        <Icon value="Assets\Textures\btn-ability-zeratul-disruptor-purificationnova.dds"/>
+        <DisplayEffect value="PurificationNovaDamageI"/>
+        <TargetFilters value="Ground;Self,User1,Missile,Item,Dead,Hidden,Invulnerable"/>
+        <MinScanRange value="12"/>
+        <Range value="12"/>
+        <Arc value="360"/>
+        <Period value="12"/>
+        <Effect value="PurificationNovaTargettedInitialSetI"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="KhaydarinBeamI">
+        <EditorCategories value="Race:Protoss"/>
+        <Options index="ContinuousScan" value="1"/>
+        <Options index="DisplayCooldown" value="1"/>
+        <Icon value="BTN\btn-building-protoss-zeratulmonolithI.dds"/>
+        <DisplayEffect value="KhaydarinMonolithDamageI"/>
+        <TargetFilters value="-;Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <MinScanRange value="13"/>
+        <Range value="13"/>
+        <Arc value="4.9987"/>
+        <Period value="3"/>
+        <Effect value="KhaydarinMonolithSearchI"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="TempestGroundI">
+        <EditorCategories value="Race:Protoss"/>
+        <Icon value="BTN\btn-upgrade-protoss-airweaponslevel3I.dds"/>
+        <DisplayEffect value="TempestGroundDamageI"/>
+        <TargetFilters value="Ground,Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <Range value="12"/>
+        <Period value="2.8"/>
+        <Effect value="TempestGroundWeaponSetI"/>
+        <AllowedMovement value="Moving"/>
+        <Arc value="9.9975"/>
+        <DamagePoint value="0"/>
+        <LegacyOptions index="NoDeceleration" value="1"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="XelNagaChargedCrystalIS">
+        <EditorCategories value="Race:Protoss"/>
+        <Icon value="BTN\btn-upgrade-protoss-groundweaponslevel3I.dds"/>
+        <DisplayEffect value="XelNagaChargedCrystalDamageIS"/>
+        <TargetFilters value="Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <Period value="1"/>
+        <Effect value="XelNagaChargedCrystalDamageIS"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="XelNagaChargedCrystalI">
+        <EditorCategories value="Race:Protoss"/>
+        <Icon value="BTN\btn-upgrade-protoss-groundweaponslevel3I.dds"/>
+        <DisplayEffect value="XelNagaChargedCrystalDamageI"/>
+        <TargetFilters value="Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <Range value="8"/>
+        <Period value="1"/>
+        <Effect value="XelNagaChargedCrystalDamageI"/>
+    </CWeaponLegacy>
+</Catalog>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CAttachMethodFilter id="AMFilterCarrierMissileG">
+        <Keys Keyword="Target" Index="2"/>
+        <Keys Keyword="Target" Index="3"/>
+        <Logic value="OR"/>
+    </CAttachMethodFilter>
+    <CAttachMethodFilter id="AMFilterCarrierCannonGR">
+        <Keys Keyword="Hardpoint" Index="6"/>
+        <Keys Keyword="Hardpoint" Index="5"/>
+        <Keys Keyword="Hardpoint" Index="4"/>
+        <Keys Keyword="Hardpoint" Index="7"/>
+        <Logic value="OR"/>
+    </CAttachMethodFilter>
+    <CAttachMethodFilter id="AMFilterImmortalG">
+        <Keys Keyword="Target" Index="1"/>
+        <Keys Keyword="Target" Index="2"/>
+        <Logic value="OR"/>
+    </CAttachMethodFilter>
+    <CAttachMethodFilter id="AMFilterTargetSetA0G">
+        <Keys Keyword="Target"/>
+        <Keys Keyword="SetA" Index="0"/>
+    </CAttachMethodFilter>
+    <CAttachMethodFilter id="AMFilterCarrierCannonGL">
+        <Keys Keyword="Hardpoint" Index="0"/>
+        <Keys Keyword="Hardpoint" Index="1"/>
+        <Keys Keyword="Hardpoint" Index="2"/>
+        <Keys Keyword="Hardpoint" Index="3"/>
+        <Logic value="OR"/>
+    </CAttachMethodFilter>
+    <CAttachMethodFilter id="AMFilterSetA0G">
+        <Keys Keyword="SetA" Index="0"/>
+    </CAttachMethodFilter>
+    <CAttachMethodPattern id="AMPatternCarrierCannonGR">
+        <Keyword value="Hardpoint"/>
+        <Driver value="CarrierCannonLaunchMissileGR"/>
+    </CAttachMethodPattern>
+    <CAttachMethodPattern id="AMPatternCarrierMissileG">
+        <Keyword value="Target"/>
+        <Driver value="CarrierTorpedoLaunchMissileG"/>
+    </CAttachMethodPattern>
+    <CAttachMethodPattern id="AMPatternImmortalG">
+        <Keyword value="Weapon"/>
+        <Driver value="PhaseDisruptorsGA"/>
+    </CAttachMethodPattern>
+    <CAttachMethodPattern id="AMPatternImmortalTaldarimGA">
+        <Keyword value="SetA"/>
+        <Base value="::RollingIndex"/>
+        <Driver value="ImmortalWeaponLMGA"/>
+    </CAttachMethodPattern>
+    <CAttachMethodPattern id="AMPatternImmortalTaldarimGPA">
+        <Keyword value="SetA"/>
+        <Base value="::RollingIndex"/>
+        <Driver value="ImmortalWeaponLMGPA"/>
+    </CAttachMethodPattern>
+    <CAttachMethodPattern id="AMPatternImmortalTaldarimGP">
+        <Keyword value="SetA"/>
+        <Base value="::RollingIndex"/>
+        <Driver value="ImmortalWeaponLMGP"/>
+    </CAttachMethodPattern>
+    <CAttachMethodPattern id="AMPatternImmortalTaldarimGAA">
+        <Keyword value="SetA"/>
+        <Base value="::RollingIndex"/>
+        <Driver value="ImmortalWeaponLMGAA"/>
+    </CAttachMethodPattern>
+    <CAttachMethodPattern id="AMPatternInterceptorBeamG">
+        <Keyword value="Weapon"/>
+        <Driver value="InterceptorBeamDamageG"/>
+    </CAttachMethodPattern>
+    <CAttachMethodPattern id="AMPatternImmortalTaldarimG">
+        <Keyword value="Weapon"/>
+        <Base value="::RollingIndex"/>
+        <Driver value="ColossusWeaponLMG"/>
+    </CAttachMethodPattern>
+    <CAttachMethodPattern id="AMPatternMothershipBeamG">
+        <Keyword value="Weapon"/>
+        <Base value="::RollingIndex"/>
+        <Driver value="MothershipBeamDummyG"/>
+    </CAttachMethodPattern>
+    <CAttachMethodPattern id="AMPatternMotherCoreBeamG">
+        <Keyword value="Target"/>
+        <Base value="::RollingIndex"/>
+        <Driver value="MotherCoreBeamDummyG"/>
+    </CAttachMethodPattern>
+    <CAttachMethodPattern id="AMPatternCarrierCannonGL">
+        <Keyword value="Hardpoint"/>
+        <Driver value="CarrierCannonLaunchMissileGL"/>
+    </CAttachMethodPattern>
+    <CAttachMethodFilter id="mbG1">
+        <Keys Keyword="Target" Index="1"/>
+    </CAttachMethodFilter>
+    <CAttachMethodFilter id="mbG0">
+        <Keys Keyword="Target" Index="0"/>
+    </CAttachMethodFilter>
+    <CAttachMethodFilter id="mbG2">
+        <Keys Keyword="Target" Index="2"/>
+    </CAttachMethodFilter>
+    <CAttachMethodFilter id="mbG3">
+        <Keys Keyword="Target" Index="3"/>
+    </CAttachMethodFilter>
+    <CAttachMethodFilter id="mbG4">
+        <Keys Keyword="Target" Index="4"/>
+    </CAttachMethodFilter>
+    <CAttachMethodFilter id="mbG5">
+        <Keys Keyword="Target" Index="5"/>
+    </CAttachMethodFilter>
+    <CAttachMethodFilter id="mbG7">
+        <Keys Keyword="Target" Index="7"/>
+    </CAttachMethodFilter>
+</Catalog>

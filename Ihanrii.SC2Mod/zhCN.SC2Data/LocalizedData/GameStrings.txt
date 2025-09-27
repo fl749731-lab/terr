@@ -1,0 +1,1116 @@
+﻿Abil/Name/AdeptPhaseShiftCancelI=虚空幻影取消
+Abil/Name/AdeptPhaseShiftSI=虚空幻影
+Abil/Name/AdeptPhaseShiftTeleportI=虚空幻影立即传送
+Abil/Name/AdeptShadePhaseShiftCancelI=虚空幻影取消
+Abil/Name/ArchonWarpI=执政官融合
+Abil/Name/AssimilatorToAutomatedAssimilatorI=自动吸纳舱变形
+Abil/Name/BlackHoleBombI=虚空漩涡
+Abil/Name/BlinkI=预判闪现
+Abil/Name/CarrierHangarI=机库
+Abil/Name/CarrierTimeWarpI=时空理论
+Abil/Name/ColossusPsiOrbI=虚空恶灵聚合体
+Abil/Name/DarkTemplarBlinkI=虚空闪现
+Abil/Name/DropMothershipE=异端放逐
+Abil/Name/EntropicBlastI=熵能爆裂
+Abil/Name/FeedbackI=虚空注能
+Abil/Name/FlagshipTimeBombI=圣域
+Abil/Name/GatewayTrainI=折跃
+Abil/Name/GeneralPhaseShiftI=超维变换
+Abil/Name/GuardianShieldI=失能力场
+Abil/Name/ImmortalBarrierBaseI=永恒屏障
+Abil/Name/MassRecallI=超维传送
+Abil/Name/MonolithProjectionI=超维空间巨石投射
+Abil/Name/MorphBackToGatewayI=升级建筑(折跃门 -> 传送门)
+Abil/Name/MothershipBlinkI=突袭闪现
+Abil/Name/NexusInvulnerabilityI=虚空变换
+Abil/Name/NexusTrainI=折跃
+Abil/Name/NexusTrainMothershipI=折跃母舰
+Abil/Name/ObserverMorphtoObserverSiegeI=观察者架起
+Abil/Name/ObserverSiegeMorphtoObserverI=观察者收起
+Abil/Name/PhaseCannonProjectionI=超维空间炮台投射
+Abil/Name/PhasingModeI=相位模式
+Abil/Name/PhoenixWhirlwindI=星璇怒
+Abil/Name/ProbeRepairI=修理
+Abil/Name/ProtossBuildI=折跃
+Abil/Name/ProtossBuildIA=折跃空中
+Abil/Name/PsiStormI=虚空风暴
+Abil/Name/PurificationNovaTargetedI=净化新星
+Abil/Name/PylonProjectionI=超维空间水晶投射
+Abil/Name/ReleaseInterceptorsI=释放突袭机
+Abil/Name/ReplicantReplicateI=虚空投影
+Abil/Name/ResourceBlockerI=虚空采集
+Abil/Name/RoboticsFacilityTrainI=折跃
+Abil/Name/ScoutStarStormI=星流暴
+Abil/Name/SentryShieldRepairDoubleI=护盾充能
+Abil/Name/ShieldBatteryShieldRepairDoubleI=护盾充能
+Abil/Name/StargateTrainI=折跃
+Abil/Name/StasisFieldI=静滞结界
+Abil/Name/TimeWarpI=蚀时理论
+Abil/Name/TimeWarpIM=噬时理论
+Abil/Name/TransportModeI=运输模式
+Abil/Name/UpgradeToWarpGateI=升级建筑(传送门 -> 折跃门)
+Abil/Name/VoidRayDamageBoostI=校准棱镜
+Abil/Name/WarpGateTrainI=折跃
+Abil/Name/WarpPrismAutoUnloadI=自动卸载
+Abil/Name/WarpPrismTransportI=装载-卸载
+Abil/Name/XelNagaConstructSmashI=构造体猛击
+Abil/Name/XelNagaShadowStepI=暗影穿梭
+Abil/Name/ZealotShadowChargeI=卫道冲撞
+Behavior/Name/ArchonRollingI=虚空穿梭
+Behavior/Name/BlackHoleBombI=虚空漩涡
+Behavior/Name/CarrierChronoBoostI=时空理论
+Behavior/Name/ChronoBoostI=蚀时理论
+Behavior/Name/ChronoBoostIM=噬时理论
+Behavior/Name/ChronoBoostIS=时空理论
+Behavior/Name/CloakFieldEffectI=教条力场
+Behavior/Name/ColossusIceFlatAmountHeroicI=时空射线
+Behavior/Name/ColossusIceFlatAmountI=时空射线
+Behavior/Name/ColossusPsiOrbI=虚空恶灵聚合体行为
+Behavior/Name/DarkTemplarRetreatCooldownI=最近已回撤
+Behavior/Name/DarkTemplarStasisI=撤回虚空
+Behavior/Name/DisruptorStasisTargetI=禁绝静滞
+Behavior/Name/FlagshipTimeBombI=圣域
+Behavior/Name/FlagshipTimeBombID=圣域
+Behavior/Name/GeneralPhaseShiftI=超维变换
+Behavior/Name/GravitonBeamI=星璇风
+Behavior/Name/GuardianShieldI=失能力场
+Behavior/Name/HighTemplarVoidEnergyIF=虚空注能
+Behavior/Name/HighTemplarVoidEnergyIN=虚空注能
+Behavior/Name/ImmortalBarrierBaseI=永恒屏障
+Behavior/Name/MonolithProjectionDeBuffI=超维空间投射
+Behavior/Name/MonolithStasisTargetI=超维冲击
+Behavior/Name/NexusInvulnerabilityI=虚空变换
+Behavior/Name/OraclePhasingArmorBuffI=相位护甲
+Behavior/Name/PhaseCannonProjectionDeBuffI=超维空间投射
+Behavior/Name/PhoenixWhirlwindI=星璇怒
+Behavior/Name/PsiStormI=灵能风暴
+Behavior/Name/PylonProjectionDeBuffI=超维空间投射
+Behavior/Name/RecalledI=超维传送
+Behavior/Name/RecalledIE=超维传送
+Behavior/Name/RecallingI=超维传送
+Behavior/Name/RecallingIE=超维传送
+Behavior/Name/ReleaseInterceptorsAutoAttackI=突袭机自动扫射
+Behavior/Name/ReleaseInterceptorsBeaconI=释放突击机信标
+Behavior/Name/ReleaseInterceptorsWanderDelayI=释放突击机漫游延迟
+Behavior/Name/ResourceStunI=虚空采集
+Behavior/Name/ScoutStarStormI=星流暴
+Behavior/Name/ScoutStasisTargetI=干扰冲击
+Behavior/Name/StarWindBarrierI=星璇屏障
+Behavior/Name/StasisFieldI=静滞结界
+Behavior/Name/VoidShadowI=虚空投影
+Behavior/Name/WarpPrismPhasingRegenAuraTargetI=护盾增强器
+Behavior/Name/XelNagaShadowStepInI=暗影穿梭
+Behavior/Name/XelNagaShadowStepOutI=暗影穿梭
+Behavior/Name/ZealotChargeStunI=昏迷
+Behavior/Name/ZealotShadowChargingI=卫道冲撞
+Behavior/Tooltip/ArchonRollingI=受到的所有伤害将降低至最多<c val="#ColorAttackInfo">10</c>点。
+Behavior/Tooltip/BlackHoleBombI=该单位无法移动或攻击。
+Behavior/Tooltip/CarrierChronoBoostI=制造速度提升<c val="#ColorAttackInfo">400%</c>。
+Behavior/Tooltip/ChronoBoostI=时间流速提高<c val="#ColorAttackInfo">100%</c>。
+Behavior/Tooltip/ChronoBoostIM=时间流速提高<c val="#ColorAttackInfo">500%</c>。
+Behavior/Tooltip/ChronoBoostIS=运作速度提高<c val="#ColorAttackInfo">50%</c>。
+Behavior/Tooltip/CloakFieldEffectI=该单位受到<c val="#ColorAttackInfo">中央教条</c>的保护，处于无敌状态。
+Behavior/Tooltip/ColossusIceFlatAmountHeroicI=移动速度与攻击速度降低<c val="#ColorAttackInfo">25%</c>。
+Behavior/Tooltip/ColossusIceFlatAmountI=移动速度与攻击速度降低<c val="#ColorAttackInfo">75%</c>。
+Behavior/Tooltip/DarkTemplarRetreatCooldownI=该单位最近已经撤回过虚空，暂时无法再次使用此技能。
+Behavior/Tooltip/DarkTemplarStasisI=正在撤至虚空并开始恢复生命值和护盾，期间进入无敌状态。
+Behavior/Tooltip/DisruptorStasisTargetI=该单位无法移动或攻击。
+Behavior/Tooltip/FlagshipTimeBombI=时间流速降低<c val="#ColorAttackInfo">99%</c>。
+Behavior/Tooltip/FlagshipTimeBombID=该单位被冻结在了时空中，无法移动或攻击。
+Behavior/Tooltip/GeneralPhaseShiftI=对所有伤害和效果免疫，但无法攻击或使用技能。
+Behavior/Tooltip/GravitonBeamI=目标已被举到空中，对空打击可对其造成伤害。在效果消失前，该单位无法攻击或使用技能。
+Behavior/Tooltip/GuardianShieldI=无法攻击，所有受到所有伤害增加<c val="#ColorAttackInfo">5</c>点。
+Behavior/Tooltip/HighTemplarVoidEnergyIF=攻击速度提升<c val="#ColorAttackInfo">50%</c>，受到的所有伤害降低<c val="#ColorAttackInfo">25%</c>，能量恢复速度<c val="#ColorAttackInfo">+5</c>，在效果结束后会对周围的敌方单位造成<c val="#ColorAttackInfo">40</c>点法术伤害。
+Behavior/Tooltip/HighTemplarVoidEnergyIN=攻击速度降低<c val="#ColorAttackInfo">50%</c>，受到的所有伤害增加<c val="#ColorAttackInfo">25%</c>，能量恢复速度<c val="#ColorAttackInfo">-5</c>。在效果结束后会对周围的友方单位造成<c val="#ColorAttackInfo">40</c>点法术伤害。
+Behavior/Tooltip/ImmortalBarrierBaseI=拥有最多可吸收<c val="#ColorAttackInfo"><d ref="Behavior,ImmortalBarrierBaseI,DamageResponse.ModifyLimit"/></c>点伤害的屏障。
+Behavior/Tooltip/MonolithProjectionDeBuffI=超维空间巨石已创建投射体，暂时处于失效状态。
+Behavior/Tooltip/MonolithStasisTargetI=该单位无法移动或攻击。
+Behavior/Tooltip/NexusInvulnerabilityI=该建筑暂时处于无敌状态。
+Behavior/Tooltip/OraclePhasingArmorBuffI=该单位免疫任何伤害。
+Behavior/Tooltip/PhaseCannonProjectionDeBuffI=超维空间炮台已创建投射体，暂时处于失效状态。
+Behavior/Tooltip/PhoenixWhirlwindI=移动速度提高<c val="#ColorAttackInfo">50%</c>，每秒对附近所有空中敌方单位造成<c val="#ColorAttackInfo">10</c>点伤害，并将地面单位抬举到空中。拥有最多可吸收<c val="#ColorAttackInfo">150</c>点伤害的屏障，如果屏障被摧毁将终止效果。
+Behavior/Tooltip/PsiStormI=目标正受到灵能风暴效果的影响，在效果范围内将受到大量伤害。
+Behavior/Tooltip/PylonProjectionDeBuffI=超维空间水晶已创建投射体。
+Behavior/Tooltip/RecalledI=该单位受到超维传送的影响，暂时处于无敌状态。
+Behavior/Tooltip/RecalledIE=该单位受到超维传送的影响，暂时无法移动和攻击。
+Behavior/Tooltip/RecallingI=该单位受到超维传送的影响，暂时处于无敌状态。
+Behavior/Tooltip/RecallingIE=该单位受到超维传送的影响，暂时无法移动和攻击。
+Behavior/Tooltip/ResourceStunI=每秒吸取目标资源<c val="#ColorAttackInfo">2</c>点资源。
+Behavior/Tooltip/ScoutStarStormI=获得武器<c val="#ColorAttackInfo">星流冲击</c>。移动速度提升<c val="#ColorAttackInfo">50%</c>，获得最多可吸收<c val="#ColorAttackInfo">150</c>点伤害的屏障，如果屏障被摧毁将结束效果，结束时对周围的敌方空中单位造成<c val="#ColorAttackInfo">100</c>点法术伤害。
+Behavior/Tooltip/ScoutStasisTargetI=该单位无法移动或攻击。
+Behavior/Tooltip/StarWindBarrierI=拥有最多可吸收<c val="#ColorAttackInfo">150</c>点伤害的屏障。
+Behavior/Tooltip/StasisFieldI=该单位无法移动或攻击。
+Behavior/Tooltip/VoidShadowI=该单位是由虚空能量构筑的克隆体。
+Behavior/Tooltip/WarpPrismPhasingRegenAuraTargetI=每秒恢复<c val="#ColorAttackInfo">8</c>点护盾，护盾护甲提升<c val="#ColorAttackInfo">3</c>。
+Behavior/Tooltip/XelNagaShadowStepInI=受到的伤害降低<c val="#ColorAttackInfo">100%</c>。
+Behavior/Tooltip/XelNagaShadowStepOutI=受到的伤害降低<c val="#ColorAttackInfo">100%</c>。
+Behavior/Tooltip/ZealotChargeStunI=该单位无法移动或攻击。
+Button/Name/AWrpI=执政官融合
+Button/Name/AdeptI=折跃<c val="#ColorAttackInfo">圣徒</c>
+Button/Name/AdeptPhaseShiftI=虚空幻影
+Button/Name/AdeptPhaseShiftPassiveI=虚空幻影
+Button/Name/AdeptPhaseShiftTeleportI=幻影传送
+Button/Name/AdeptPiercingUpgradeI=虚空之刃
+Button/Name/AdeptShieldUpgradeI=共鸣之盾
+Button/Name/AnionPulseCrystalsI=星云脉冲水晶
+Button/Name/ArchonI=折跃<c val="#ColorAttackInfo">星界执政官</c>
+Button/Name/ArchonRollingI=战争践踏
+Button/Name/ArchonThrowI=虚空穿梭
+Button/Name/ArchonWeaponI=虚空冲击波
+Button/Name/AssimilatorI=折跃<c val="#ColorAttackInfo">星云吸纳舱</c>
+Button/Name/AutoAssimilatorI=虚空吸纳
+Button/Name/AutomatedAssimilatorI=折跃<c val="#ColorAttackInfo">虚空吸纳舱</c>
+Button/Name/BlackHoleBombI=虚空漩涡
+Button/Name/BlinkI=预判闪现
+Button/Name/CancelShiftIA=取消幻影
+Button/Name/CarrierHardenedShieldI=虚空护盾
+Button/Name/CarrierI=折跃<c val="#ColorAttackInfo">负星战舰</c>
+Button/Name/CarrierTimeWarpI=时空理论
+Button/Name/CarrierWeaponI=虚界射线
+Button/Name/ChronoBoostIS=时空理论
+Button/Name/CliffWalkI=悬崖攀越
+Button/Name/ColossusArmorI=禁绝圣甲
+Button/Name/ColossusI=折跃<c val="#ColorAttackInfo">禁绝神兵</c>
+Button/Name/ColossusIceBeamI=时空射线枪
+Button/Name/ColossusPsiOrbI=虚空恶灵聚合体
+Button/Name/ConstructWeaponI=震颤冲击
+Button/Name/CyberneticsCoreI=折跃<c val="#ColorAttackInfo">铭符芯核</c>
+Button/Name/DarkShrineI=折跃<c val="#ColorAttackInfo">虚空圣地</c>
+Button/Name/DarkTemplarBlinkI=虚空闪现
+Button/Name/DarkTemplarBlinkPassiveI=虚空闪现
+Button/Name/DarkTemplarI=折跃<c val="#ColorAttackInfo">绝罚者</c>
+Button/Name/DarkTemplarRetreatI=撤回虚空
+Button/Name/DarkTemplarShadowStrikeI=虚空之怒
+Button/Name/DisruptorGhostI=恶灵释放
+Button/Name/DisruptorI=折跃<c val="#ColorAttackInfo">禁绝者</c>
+Button/Name/DragoonArmorI=守望者框架
+Button/Name/DragoonGhostI=恶灵舱室
+Button/Name/DragoonI=折跃<c val="#ColorAttackInfo">守望者</c>
+Button/Name/DragoonRangeI=奇点聚能
+Button/Name/DragoonRetreatI=重整旗鼓
+Button/Name/DragoonWeaponI=裂位炮
+Button/Name/DropMothershipE=异端放逐
+Button/Name/EntropicBlastI=熵能爆裂
+Button/Name/ExtendedThermalLanceI=加长热能射线枪
+Button/Name/FeedbackI=虚空注能
+Button/Name/FlagshipTimeBombI=圣域
+Button/Name/FleetBeaconI=折跃<c val="#ColorAttackInfo">星炬</c>
+Button/Name/ForgeI=折跃<c val="#ColorAttackInfo">星辰锻炉</c>
+Button/Name/GatewayI=折跃<c val="#ColorAttackInfo">空间门</c>
+Button/Name/GeneralPhaseShiftI=超维变换
+Button/Name/GraviticBoostersPassiveI=重力加速器
+Button/Name/GuardianShieldI=失能力场
+Button/Name/HighTemplarI=折跃<c val="#ColorAttackInfo">宣教士</c>
+Button/Name/HighTemplarWeaponI=虚空冲击
+Button/Name/IhanriiDetectorI=侦测单位
+Button/Name/IhanriiHardenedShieldI=虚空护盾
+Button/Name/IhanriiLoadAllI=全部装载
+Button/Name/IhanriiLoadI=装载目标单位
+Button/Name/IhanriiUnloadAllI=全部卸载
+Button/Name/IhanriiUnloadTargetI=卸载到目标位置
+Button/Name/ImmortalAdditionBarrierI=充能屏障
+Button/Name/ImmortalBarrierBaseI=永恒屏障
+Button/Name/ImmortalI=折跃<c val="#ColorAttackInfo">教义执行者</c>
+Button/Name/ImmortalImprovedBarrierI=永恒屏障
+Button/Name/ImmortalRangeI=原力炮
+Button/Name/InterceptorEngineI=相位电池
+Button/Name/InterceptorGhostI=恶灵伴生
+Button/Name/InterceptorI=制造<c val="#ColorAttackInfo">突袭机</c>
+Button/Name/KhaydarinMonolithI=折跃<c val="#ColorAttackInfo">超维空间巨石</c>
+Button/Name/MassRecallI=超维传送
+Button/Name/MonilithWeaponI=超维冲击
+Button/Name/MonolithProjectionI=超维空间投射
+Button/Name/MorphBackToGatewayI=变形为传送门
+Button/Name/MorphtoObserverI=观察者模式
+Button/Name/MorphtoObserverSiegeI=监察模式
+Button/Name/MothershipBlinkI=突袭闪现
+Button/Name/MothershipCloakingFieldI=教条力场
+Button/Name/MothershipGhostI=恶灵领域
+Button/Name/MothershipI=折跃<c val="#ColorAttackInfo">中央教条</c>
+Button/Name/MothershipOrbitalCursorI=流星暴雨
+Button/Name/MothershipWeaponI=纯净虚空光束
+Button/Name/NexusI=折跃<c val="#ColorAttackInfo">星核圣殿</c>
+Button/Name/NexusInvulnerabilityI=虚空变换
+Button/Name/ObserverI=折跃<c val="#ColorAttackInfo">观察者</c>
+Button/Name/ObserverSightRangeI=感应器阵列
+Button/Name/OracleI=折跃<c val="#ColorAttackInfo">观星船</c>
+Button/Name/PermanentlyCloakedI=永久隐形
+Button/Name/PermanentlyCloakedObserverI=永久隐形
+Button/Name/PermanentlyCloakedOracleI=与影同体
+Button/Name/PhaseCannonProjectionI=超维空间投射
+Button/Name/PhasingModeI=相位模式
+Button/Name/PhoenixI=折跃<c val="#ColorAttackInfo">星璇战机</c>
+Button/Name/PhoenixWhirlwindI=星璇怒
+Button/Name/PhotonCannonI=折跃<c val="#ColorAttackInfo">超维空间炮台</c>
+Button/Name/PhotonCannonWeaponI=超维武器
+Button/Name/PredictiveBlinkPassiveI=预判闪现
+Button/Name/ProbeI=折跃<c val="#ColorAttackInfo">拓荒者</c>
+Button/Name/ProbeRepairI=维护
+Button/Name/PsiStormI=虚空风暴
+Button/Name/PurificationNovaBatteryI=新星电池
+Button/Name/PurificationNovaSecondExplosionI=恶灵回荡
+Button/Name/PurificationNovaStasisWardI=禁绝静滞
+Button/Name/PurificationNovaTargetedI=虚空新星
+Button/Name/PylonI=折跃<c val="#ColorAttackInfo">超维空间水晶</c>
+Button/Name/PylonProjectionI=超维空间投射
+Button/Name/ReleaseInterceptorsI=突袭指令
+Button/Name/ReplicantReplicateI=虚空投影
+Button/Name/ResourceBlockerI=虚空采集
+Button/Name/RoboticsBayI=折跃<c val="#ColorAttackInfo">构造体研究所</c>
+Button/Name/RoboticsFacilityI=折跃<c val="#ColorAttackInfo">构造台</c>
+Button/Name/ScoutAOEI=星流喷发
+Button/Name/ScoutI=折跃<c val="#ColorAttackInfo">星流战机</c>
+Button/Name/ScoutSpeedI=星流推进器
+Button/Name/ScoutStarStormI=星流暴
+Button/Name/ScoutStasisWardI=干扰冲击
+Button/Name/SentryBuildingI=瓦解射线
+Button/Name/SentryEnergyRegenI=星云之井
+Button/Name/SentryI=折跃<c val="#ColorAttackInfo">光盾卫士</c>
+Button/Name/SentryShieldRepairDoubleI=多重护盾充能
+Button/Name/SentryShieldRepairI=护盾充能
+Button/Name/ShieldBatteryEnergyRegenI=星云之井
+Button/Name/ShieldBatteryI=折跃<c val="#ColorAttackInfo">超维空间充能器</c>
+Button/Name/ShieldBatteryShieldRepairDoubleI=多重护盾充能
+Button/Name/ShieldBatteryShieldRepairI=护盾充能
+Button/Name/StalkerBlinkChargesI=相位电池
+Button/Name/StalkerGhostI=虚空复仇
+Button/Name/StalkerI=折跃<c val="#ColorAttackInfo">伏击者</c>
+Button/Name/StargateI=折跃<c val="#ColorAttackInfo">时空航道</c>
+Button/Name/StasisFieldI=静滞结界
+Button/Name/TempestI=折跃<c val="#ColorAttackInfo">陨星战舰</c>
+Button/Name/TempestOrbitalCursorI=陨石信标
+Button/Name/TempestStormI=风暴之唤
+Button/Name/TempestWeaponI=相位扰动
+Button/Name/TemplarArchiveI=折跃<c val="#ColorAttackInfo">议会文库</c>
+Button/Name/TimeWarpI=蚀时理论
+Button/Name/TimeWarpIM=噬时理论
+Button/Name/TransportModeI=运输模式
+Button/Name/TwilightCouncilI=折跃<c val="#ColorAttackInfo">长老议会</c>
+Button/Name/UpgradeToWarpGateI=变形为折跃门
+Button/Name/VoidExpanseI=无尽虚空
+Button/Name/VoidRayDamageBoostI=校准棱镜
+Button/Name/VoidRayI=折跃<c val="#ColorAttackInfo">星蚀战舰</c>
+Button/Name/VoidRaySpeedI=虚流旋叶
+Button/Name/VoidRayVoidPrismaticRangeI=透镜调准
+Button/Name/VoidRayWeaponI=星蚀光束
+Button/Name/WarpGateI=折跃<c val="#ColorAttackInfo">空间通道</c>
+Button/Name/WarpPirsmHardenedShieldI=虚空护盾
+Button/Name/WarpPrismAutoUnloadOffI=自动卸载关闭
+Button/Name/WarpPrismAutoUnloadOnI=自动卸载开启
+Button/Name/WarpPrismI=折跃<c val="#ColorAttackInfo">虚空阵列船</c>
+Button/Name/WarpPrismPhasingRegenAuraI=护盾增强器
+Button/Name/WarpPrismTransferLinkI=传输链
+Button/Name/XelNagaConstructSmashI=构造体猛击
+Button/Name/XelNagaShadowStepI=暗影穿梭
+Button/Name/ZealotI=折跃<c val="#ColorAttackInfo">卫道士</c>
+Button/Name/ZealotRetreatI=重新集结
+Button/Name/ZealotShadowChargeI=卫道冲撞
+Button/Name/ZealotShadowStrikeI=虚空之刃
+Button/Tooltip/AWrpI=两名<c val="#ColorAttackInfo">宣教士</c>牺牲自身，融合为一名<c val="#ColorAttackInfo">星界执政官</c>。<n/><n/><c val="ffff8a">可以对地和对空。</c>
+Button/Tooltip/AdeptI=伊罕利远程特种单位。能够使用虚空幻影技能。<n/><n/><c val="#ColorAttackInfo">可以对地和对空。</c>
+Button/Tooltip/AdeptPhaseShiftI=创建一道能够攻击敌方单位但无法移动的幻影，持续<c val="#ColorAttackInfo"><d ref="Behavior,AdeptPhaseShiftTimerI,Duration"/></c>秒，结束后圣徒将传送到幻影所在的位置并恢复所有护盾。
+Button/Tooltip/AdeptPhaseShiftPassiveI=<c val="#ColorAttackInfo">圣徒</c>的<c val="#ColorAttackInfo">虚空幻影</c>技能冷却时间降低<c val="#ColorAttackInfo">50%</c>，并可额外储存一次技能充能。
+Button/Tooltip/AdeptPhaseShiftTeleportI=移除<c val="#ColorAttackInfo">虚空幻影</c>并立即传送到其位置。
+Button/Tooltip/AdeptPiercingUpgradeI=<c val="#ColorAttackInfo">圣徒</c>的攻击速度提高<c val="#ColorAttackInfo">50%</c>，目标每有1点护甲，<c val="#ColorAttackInfo">圣徒</c>的攻击就额外对其造成1点伤害。<n/>每次攻击都会使敌人在死亡时额外对周围其他敌人造成一次圣徒武器伤害的攻击。
+Button/Tooltip/AnionPulseCrystalsI=<c val="#ColorAttackInfo">星璇战机</c>的武器射程提升<c val="#ColorAttackInfo">3</c>。
+Button/Tooltip/ArchonI=强大的伊罕利灵能战士。<n/><n/><c val="ffff8a">可以对地和对空。</c>
+Button/Tooltip/ArchonRollingI=<c val="#ColorAttackInfo">星界执政官</c>在移动时能够碾压周围的敌人，每秒造成<c val="#ColorAttackInfo">100</c>点法术伤害。
+Button/Tooltip/ArchonThrowI=<c val="#ColorAttackInfo">星界执政官</c>能够穿越小型单位。移动速度提高<c val="#ColorAttackInfo">50%</c>，在移动时受到的所有伤害将降低至最多<c val="#ColorAttackInfo">10</c>点。
+Button/Tooltip/ArchonWeaponI=<c val="#ColorAttackInfo">星界执政官</c>的攻击无视护甲并造成范围法术伤害。
+Button/Tooltip/AssimilatorI=<c val="#ColorAttackInfo">基础建筑</c><n/>建造在瓦斯气泉上，用于采集高能瓦斯。
+Button/Tooltip/AutoAssimilatorI=<c val="#ColorAttackInfo">虚空吸纳舱</c>可无需工作单位自动采集高能瓦斯。并提高<c val="#ColorAttackInfo">85%</c>的采集效率。
+Button/Tooltip/AutomatedAssimilatorI=<c val="#ColorAttackInfo">基础建筑</c><n/>可无需工作单位自动采集高能瓦斯。并提高<c val="#ColorAttackInfo">85%</c>的采集效率。
+Button/Tooltip/AutomatedAssimilatorTextKicker5I=<s val="Kicker_Refinery">+5</s><IMG path="Assets\Textures\icon-gas-protoss.dds" height="28" width="28"/>
+Button/Tooltip/BlackHoleBombI=创建一个虚空漩涡，持续<c val="#ColorAttackInfo"><d ref="Effect,BlackHoleBombPersistentI,PeriodCount*Effect,BlackHoleBombPersistentI,PeriodicPeriodArray[0]"/></c>秒，使其中的敌人昏迷，结束后对范围内的敌人造成<c val="#ColorAttackInfo">100</c>点法术伤害。
+Button/Tooltip/BlinkI=将<c val="#ColorAttackInfo">伏击者</c>传送到目标的附近位置。
+Button/Tooltip/CancelShiftIA=立即取消自身产生的所有幻影
+Button/Tooltip/CarrierHardenedShieldI=<c val="#ColorAttackInfo">负星战舰</c>与<c val="#ColorAttackInfo">突袭机</c>的护盾存在时，受到的非<c val="#ColorAttackInfo">法术</c>伤害将降低至最多<c val="#ColorAttackInfo">10</c>点。
+Button/Tooltip/CarrierI=伊罕利主力战舰，可以发射突袭机攻击敌人。能够使用突袭指令技能。<n/><n/><c val="ffff8a">可以对地和对空。</c>
+Button/Tooltip/CarrierTimeWarpI=使负星战舰的制造速度提升制造速度提升<c val="#ColorAttackInfo">400%</c>，持续<c val="#ColorAttackInfo"><d ref="Behavior,CarrierChronoBoostI,Duration"/></c>秒。
+Button/Tooltip/CarrierWeaponI=<c val="#ColorAttackInfo">负星战舰</c>的攻击无视护甲并造成法术伤害。
+Button/Tooltip/ChronoBoostIS=该单位的运作速度提高<c val="#ColorAttackInfo">50%</c>。
+Button/Tooltip/CliffWalkI=该单位可以跨越其他地面单位、建筑和悬崖。
+Button/Tooltip/ColossusArmorI=<c val="#ColorAttackInfo">禁绝神兵</c>的生命提升，生命护甲提升<c val="#ColorAttackInfo">3</c>，并能够在战斗中恢复生命与护盾。
+Button/Tooltip/ColossusI=伊罕利终极战斗机甲，可以攀越悬崖，攻击造成范围伤害。能够使用虚空恶灵聚合体技能。<n/><n/><c val="ffff8a">可以对地和对空。</c>
+Button/Tooltip/ColossusIceBeamI=<c val="#ColorAttackInfo">禁绝神兵</c>的攻击将降低敌方单位<c val="#ColorAttackInfo">75%</c>的移动速度与攻击速度。对<c val="#ColorAttackInfo">重型/英雄/建筑</c>单位降低<c val="#ColorAttackInfo">25%</c>。
+Button/Tooltip/ColossusPsiOrbI=释放一颗的空恶灵聚合体，对沿路的所有敌人每秒造成<c val="#ColorAttackInfo">25</c>点法术伤害，在飞行<c val="#ColorAttackInfo">10</c>码后将爆炸对周围大范围的地面单位造成<c val="#ColorAttackInfo">100(200 vs 建筑)</c>。
+Button/Tooltip/ConstructWeaponI=<c val="#ColorAttackInfo">伊罕利构造体</c>的攻击无视护甲并造成法术伤害。
+Button/Tooltip/CyberneticsCoreI=<c val="#ColorAttackInfo">科技建筑</c><n/>伊罕利进阶科技建筑。<n/><n/><c val="ffff8a">开启：</c><n/>- 使<c val="#ColorAttackInfo">空间门</c>能够折跃<c val="#ColorAttackInfo">伏击者</c><n/>- 使<c val="#ColorAttackInfo">空间门</c>能够折跃<c val="#ColorAttackInfo">圣徒</c><n/>- 使<c val="#ColorAttackInfo">空间门</c>能够折跃<c val="#ColorAttackInfo">光盾卫士</c><n/>- 使<c val="#ColorAttackInfo">拓荒者</c>能够折跃<c val="#ColorAttackInfo">构造台</c><n/>- 使<c val="#ColorAttackInfo">拓荒者</c>能够折跃<c val="#ColorAttackInfo">时空航道</c><n/>- 使<c val="#ColorAttackInfo">拓荒者</c>能够折跃<c val="#ColorAttackInfo">长老议会</c>
+Button/Tooltip/DarkShrineI=<c val="#ColorAttackInfo">科技建筑</c><n/>绝罚者科技建筑。<n/><n/><c val="ffff8a">开启：</c><n/>- 使<c val="#ColorAttackInfo">空间门</c>能够折跃<c val="#ColorAttackInfo">绝罚者</c>
+Button/Tooltip/DarkTemplarBlinkI=将<c val="#ColorAttackInfo">绝罚者</c>传送到目标的附近位置。
+Button/Tooltip/DarkTemplarBlinkPassiveI=<c val="#ColorAttackInfo">绝罚者</c>可以储存最多<c val="#ColorAttackInfo">2</c>层<c val="#ColorAttackInfo">虚空闪现</c>充能，每<c val="#ColorAttackInfo"><d ref="Abil,DarkTemplarBlinkI,Cost[0].Charge.TimeUse"/></c>秒重新获得一层充能。
+Button/Tooltip/DarkTemplarI=致命的伊罕利近战杀手，永久隐形。能够使用虚空闪现技能。<n/><n/><c val="ffff8a">可以对地。</c>
+Button/Tooltip/DarkTemplarRetreatI=<c val="#ColorAttackInfo">绝罚者</c>受到致命伤害时，将回撤至虚空并开始恢复生命值和护盾，期间进入无敌状态。持续<c val="#ColorAttackInfo"><d ref="Behavior,DarkTemplarStasisI,Duration"/></c>秒。 <n/>该效果每<c val="#ColorAttackInfo"><d ref="Behavior,DarkTemplarRetreatCooldownI,Duration"/></c>秒只能生效一次。
+Button/Tooltip/DarkTemplarShadowStrikeI=<c val="#ColorAttackInfo">绝罚者</c>的目标每有1点护甲，<c val="#ColorAttackInfo">绝罚者</c>的攻击就额外对其造成1点伤害。使用<c val="#ColorAttackInfo">虚空闪现</c>将对沿途的敌方单位造成<c val="#ColorAttackInfo">40</c>点法术伤害。
+Button/Tooltip/DisruptorGhostI=<c val="#ColorAttackInfo">禁绝者</c>的<c val="#ColorAttackInfo">虚空新星</c>在爆炸或自身死亡时将生成一个<c val="#ColorAttackInfo">虚空恶灵</c>，攻击敌人造成<c val="#ColorAttackInfo">25</c>点法术伤害，存在<c val="#ColorAttackInfo"><d ref="Behavior,DisruptorGhostTimedLifeI,Duration"/></c>秒将再次爆炸。
+Button/Tooltip/DisruptorI=伊罕利机械干扰型单位。能够使用虚空新星造成大量伤害。<n/><n/><c val="ffff8a">可以对地。</c>
+Button/Tooltip/DisruptorPhasedI=发射一枚能量球，持续存在<c val="#ColorAttackInfo"><d ref="Behavior,PurificationNovaTargettedTargetI,Duration"/></c>秒，结束后对附近的地面单位造成<c val="#ColorAttackInfo">100(150 vs 建筑)</c>点法术伤害。
+Button/Tooltip/DragonGhostI=<c val="#ColorAttackInfo">守望者</c>在死亡时将生成一个<c val="#ColorAttackInfo">虚空恶灵</c>，攻击敌人造成<c val="#ColorAttackInfo">25</c>点法术伤害，持续存在<c val="#ColorAttackInfo"><d ref="Behavior,DragoonGhostTimedLifeI,Duration"/></c>秒。
+Button/Tooltip/DragoonArmorI=<c val="#ColorAttackInfo">守望者</c>的生命提升，生命护甲提升<c val="#ColorAttackInfo">1</c>，并能够在战斗中恢复生命与护盾。
+Button/Tooltip/DragoonGhostI=<c val="#ColorAttackInfo">守望者</c>在死亡时将生成一个<c val="#ColorAttackInfo">虚空恶灵</c>，攻击敌人造成<c val="#ColorAttackInfo">40</c>点法术伤害，持续存在<c val="#ColorAttackInfo"><d ref="Behavior,DragoonGhostTimedLifeI,Duration"/></c>秒。
+Button/Tooltip/DragoonI=坚固的伊罕利远程步战机甲。<n/><n/><c val="ffff8a">可以对地和对空。</c>
+Button/Tooltip/DragoonRangeI=<c val="#ColorAttackInfo">守望者</c>的武器射程提升<c val="#ColorAttackInfo">2</c>。
+Button/Tooltip/DragoonRetreatI=<c val="#ColorAttackInfo">守望者</c>受到致命伤害时，将回撤至虚空并开始恢复生命值和护盾，期间进入无敌状态。持续<c val="#ColorAttackInfo"><d ref="Behavior,DarkTemplarStasisI,Duration"/></c>秒。 <n/>该效果每<c val="#ColorAttackInfo"><d ref="Behavior,DarkTemplarRetreatCooldownI,Duration"/></c>秒只能生效一次。
+Button/Tooltip/DragoonWeaponI=<c val="#ColorAttackInfo">守望者</c>的攻击速度较低，但能够发射强大的反重甲炮弹。
+Button/Tooltip/DropMothershipE=从轨道上砸下一艘<c val="#ColorAttackInfo">损坏的异教母舰</c>，造成<c val="#ColorAttackInfo">2000</c>点法术伤害与<c val="#ColorAttackInfo">2000</c>点物理伤害。
+Button/Tooltip/EntropicBlastI=发射一道能量体，命中后造成<c val="#ColorAttackInfo">300</c>点范围法术伤害。<n/>生成<c val="#ColorAttackInfo">5</c>个<c val="#ColorAttackInfo">伊罕利充能水晶</c>。
+Button/Tooltip/ExtendedThermalLanceI=<c val="#ColorAttackInfo">禁绝神兵</c>的武器射程提升<c val="#ColorAttackInfo">3</c>，攻击将造成四次伤害。
+Button/Tooltip/FeedbackI=清空目标敌方单位<c val="#ColorAttackInfo">100%</c>的能量，每<c val="#ColorAttackInfo">1</c>点能量造成<c val="#ColorAttackInfo">1</c>点伤害，并使其在<c val="#ColorAttackInfo"><d ref="Behavior,HighTemplarVoidEnergyIN,Duration"/></c>秒内攻击速度降低<c val="#ColorAttackInfo">50%</c>，受到的所有伤害增加<c val="#ColorAttackInfo">25%</c>，能量恢复速度<c val="#ColorAttackInfo">-5</c>。在效果结束后会对周围的友方单位造成<c val="#ColorAttackInfo">40</c>点法术伤害。<n/>如果目标为友方单位则使其在<c val="#ColorAttackInfo"><d ref="Behavior,HighTemplarVoidEnergyIF,Duration"/></c>秒内攻击速度提升<c val="#ColorAttackInfo">50%</c>，受到的所有伤害降低<c val="#ColorAttackInfo">25%</c>，能量恢复速度<c val="#ColorAttackInfo">+5</c>。在效果结束后会对周围的敌方单位造成<c val="#ColorAttackInfo">40</c>点法术伤害。<n/><c val="#ColorAttackInfo">无法扣除英雄单位的能量。</c>
+Button/Tooltip/FlagshipTimeBombI=创建一个力场，持续使周围大范围的敌方单位与发射物的时间流速降低<c val="#ColorAttackInfo">99%</c>，并在开启与关闭时摧毁范围内的发射物。持续<c val="#ColorAttackInfo"><d ref="Behavior,FlagshipTimeBombID,Duration"/></c>秒。
+Button/Tooltip/FleetBeaconI=<c val="#ColorAttackInfo">科技建筑</c><n/>解锁伊罕利主力舰。<n/><n/><c val="ffff8a">开启：</c><n/>- 使<c val="#ColorAttackInfo">时空航道</c>能够折跃<c val="#ColorAttackInfo">负星战舰</c><n/>- 使<c val="#ColorAttackInfo">时空航道</c>能够折跃<c val="#ColorAttackInfo">陨星战舰</c><n/>- 使<c val="#ColorAttackInfo">星核圣殿</c>能够折跃<c val="#ColorAttackInfo">中央教条</c>
+Button/Tooltip/ForgeI=<c val="#ColorAttackInfo">科技建筑</c><n/>解锁伊罕利防御建筑。<n/><n/><c val="ffff8a">开启：</c><n/>- 使<c val="#ColorAttackInfo">拓荒者</c>能够折跃<c val="#ColorAttackInfo">超维空间炮台</c><n/>- 使<c val="#ColorAttackInfo">拓荒者</c>能够折跃<c val="#ColorAttackInfo">超维空间巨石</c><n/>- 使<c val="#ColorAttackInfo">拓荒者</c>能够折跃<c val="#ColorAttackInfo">超维空间充能器</c>
+Button/Tooltip/GatewayI=<c val="#ColorAttackInfo">生产建筑</c><n/>折跃伊罕利基础地面部队。<n/><n/><c val="ffff8a">开启：</c><n/>- <c val="#ColorAttackInfo">狂战士</c><n/>- 使<c val="#ColorAttackInfo">拓荒者</c>能够折跃<c val="#ColorAttackInfo">铭符芯核</c>
+Button/Tooltip/GeneralPhaseShiftI=使目标单位移出当前相位，持续<c val="#ColorAttackInfo"><d ref="Behavior,GeneralPhaseShiftI,Duration"/></c>秒。被相位对所有伤害和效果免疫，但无法攻击或使用技能。<n/><c val="#ColorAttackInfo">自动对周围在战斗中生命不足20%的友方单位与生命超过150的敌方单位释放。</c>
+Button/Tooltip/GraviticBoostersPassiveI=<c val="#ColorAttackInfo">观察者</c>的视野范围提升<c val="#ColorAttackInfo">50%</c>。
+Button/Tooltip/GuardianShieldI=创造一个范围为<c val="#ColorAttackInfo">5</c>的光环，使其中的<c val="#ColorAttackInfo">敌方单位</c>无法攻击，受到的所有伤害增加<c val="#ColorAttackInfo">5</c>点。持续<c val="#ColorAttackInfo"><d time="20"/></c>。
+Button/Tooltip/HighTemplarI=伊罕利灵能运用大师。能够使用虚空注能和虚空漩涡技能。可以融合为<c val="#ColorAttackInfo">星界执政官</c>。<n/><n/><c val="ffff8a">可以对地和对空。</c>
+Button/Tooltip/HighTemplarWeaponI=<c val="#ColorAttackInfo">宣教士</c>的攻击无视护甲并造成法术伤害。
+Button/Tooltip/IhanriiDetectorI=该单位能够侦测到隐形、潜地和幻像单位。
+Button/Tooltip/IhanriiHardenedShieldI=护盾存在时，受到的非<c val="#ColorAttackInfo">法术</c>伤害将降低至最多<c val="#ColorAttackInfo">10</c>点。
+Button/Tooltip/IhanriiLoadAllI=将周围的单位装载。
+Button/Tooltip/IhanriiLoadI=装载目标单位。
+Button/Tooltip/IhanriiUnloadAllI=立即卸载所有单位。
+Button/Tooltip/IhanriiUnloadTargetI=卸载单位到目标位置。
+Button/Tooltip/ImmortalAdditionBarrierI=<c val="#ColorAttackInfo">教义执行者</c>的<c val="#ColorAttackInfo">屏障</c>存在时，攻击速度提升<c val="#ColorAttackInfo">25%</c>，开启时将完全恢复<c val="#ColorAttackInfo">教义执行者</c>的护盾与生命。<n/><c val="#ColorAttackInfo">永恒屏障</c>技能的冷却时间降低<c val="#ColorAttackInfo">50%</c>，<c val="#ColorAttackInfo">屏障</c>的伤害吸收量提升<c val="#ColorAttackInfo">100%</c>。
+Button/Tooltip/ImmortalBarrierBaseI=开启后获得最多可吸收<c val="#ColorAttackInfo"><d ref="Behavior,ImmortalBarrierBaseI,DamageResponse.ModifyLimit"/></c>点伤害的屏障。
+Button/Tooltip/ImmortalI=伊罕利攻击型步战机甲，使用屏障吸收大量伤害。能够使用永恒屏障技能。<n/><n/><c val="ffff8a">可以对地和对空。</c>
+Button/Tooltip/ImmortalImprovedBarrierI=<c val="#ColorAttackInfo">教义执行者</c>的<c val="#ColorAttackInfo">屏障</c>初始并永久存在。<n/>在非战斗时将会在没有<c val="#ColorAttackInfo">永恒屏障</c>时自动使用。<n/>在战斗时将会在护盾耗尽时自动使用。
+Button/Tooltip/ImmortalRangeI=<c val="#ColorAttackInfo">教义执行者</c>能够攻击空中单位，武器射程提升<c val="#ColorAttackInfo">1</c>，攻击将造成两次伤害。
+Button/Tooltip/InterceptorEngineI=<c val="#ColorAttackInfo">突袭机</c>在攻击时将随机传送到周围的一个位置并恢复所有生命与护盾。
+Button/Tooltip/InterceptorGhostI=<c val="#ColorAttackInfo">突袭机</c>在传送或是死亡会留下一个<c val="#ColorAttackInfo">虚空恶灵</c>，制造一次攻击造成<c val="#ColorAttackInfo">30</c>点法术伤害。
+Button/Tooltip/InterceptorI=制造拦截机。拦截机能够自动攻击航母的目标，是航母唯一的武器。<n/><n/><c val="#ColorAttackInfo">可以对地和对空。</c>
+Button/Tooltip/InterceptorIUnit=能够自动攻击航母目标的战斗飞行机。拦截机是航母唯一的武器。<n/><n/><c val="#ColorAttackInfo">可以对地和对空。</c>
+Button/Tooltip/KhaydarinMonolithI=<c val="#ColorAttackInfo">防御建筑</c><n/>强大的防御建筑，拥有较高射程和伤害。能够使用超维空间投射技能。<n/><n/><c val="ffff8a">可以对空和对地。</c>
+Button/Tooltip/KhaydarinMonolithIH=超维空间巨石的投射体，最多持续<c val="#ColorAttackInfo"><d ref="Abil,MonolithProjectionI,Cost[0].Cooldown.TimeUse"/></c>秒。
+Button/Tooltip/MassRecallI=将目标区域的所有友方单位传送到施法者的位置。并使其无敌<c val="#ColorAttackInfo"><d ref="Behavior,RecalledI,Duration"/></c>秒。<n/>将目标区域的最多<c val="#ColorAttackInfo">10</c>个敌方单位陆续传送到施法者的位置。并使其无法移动和攻击<c val="#ColorAttackInfo"><d ref="Behavior,RecalledIE,Duration"/></c>秒。
+Button/Tooltip/MonilithWeaponI=<c val="#ColorAttackInfo">超维空间巨石</c>的将额外攻击目标附近的<c val="#ColorAttackInfo">3</c>个敌方单位，并使被攻击的敌人无法移动和攻击，持续<c val="#ColorAttackInfo"><d ref="Behavior,MonolithStasisTargetI,Duration"/></c>秒。目标每有1点护甲，<c val="#ColorAttackInfo">超维空间巨石</c>的攻击就额外对其造成1点伤害。
+Button/Tooltip/MonolithProjectionI=在目标位置创建一道超维空间巨石的投射体，最多持续<c val="#ColorAttackInfo"><d ref="Abil,MonolithProjectionI,Cost[0].Cooldown.TimeUse"/></c>秒。使用该技能会使超维空间巨石在<c val="#ColorAttackInfo"><d ref="Abil,MonolithProjectionI,Cost[0].Cooldown.TimeUse"/></c>秒内处于失效状态。
+Button/Tooltip/MorphBackToGatewayI=将折跃门转换为传送门。
+Button/Tooltip/MorphtoObserverI=使<c val="#ColorAttackInfo">观察者</c>变形，进入标准的观察模式。以视野范围缩小的代价进行移动。
+Button/Tooltip/MorphtoObserverSiegeI=使<c val="#ColorAttackInfo">观察者</c>变形，进入监察模式。视野范围扩大<c val="#ColorAttackInfo">6</c>，但无法移动。
+Button/Tooltip/MothershipBlinkI=将<c val="#ColorAttackInfo">中央教条</c>传送到目标的附近位置，并对周围的敌方单位造成<c val="#ColorAttackInfo">150</c>点法术伤害。
+Button/Tooltip/MothershipCloakingFieldI=<c val="#ColorAttackInfo">中央教条</c>持续使附近的友方单位与建筑进入无敌状态。
+Button/Tooltip/MothershipGhostI=<c val="#ColorAttackInfo">中央教条</c>能够持续向周围敌人释放<c val="#ColorAttackInfo">虚空恶灵</c>，造成<c val="#ColorAttackInfo">30</c>点法术伤害。
+Button/Tooltip/MothershipI=终极伊罕利战舰。能够使用超维传送、突袭闪现、圣域和异端放逐技能。可以使附近的友方单位和建筑无敌。<n/><n/><c val="ffff8a">可以对地和对空。</c><n/><c val="FFE303">侦测单位</c>
+Button/Tooltip/MothershipIE=损坏的异教母舰。<n/><n/><c val="ffff8a">无法攻击。</c>
+Button/Tooltip/MothershipOrbitalCursorI=<c val="#ColorAttackInfo">中央教条</c>能够持续向周围敌人释放“陨石”，造成<c val="#ColorAttackInfo">50(100 vs 重甲)</c>点范围法术伤害。
+Button/Tooltip/MothershipWeaponI=<c val="#ColorAttackInfo">中央教条</c>的攻击无视护甲并造成范围法术伤害，额外造成目标最大生命<c val="#ColorAttackInfo">2%</c>的法术伤害。
+Button/Tooltip/NexusI=<c val="#ColorAttackInfo">主要建筑</c><n/>用于接收采集到的资源。能够使用虚空采集、虚空变换和时空理论技能。<n/><n/><c val="ffff8a">开启：</c><n/>- <c val="#ColorAttackInfo">拓荒者</c>
+Button/Tooltip/NexusInvulnerabilityI=使目标友方建筑单位无敌，持续<c val="#ColorAttackInfo"><d ref="Behavior,NexusInvulnerability,Duration"/></c>秒。
+Button/Tooltip/ObserverI=间谍型空中单位，永久隐形。能够变形为监察模式。<n/><n/><c val="ffff8a">无法攻击。</c><n/><c val="FFE303">侦测单位</c>
+Button/Tooltip/ObserverISiegeMode=间谍型空中单位，永久隐形。能够变形为观察者模式。<n/><n/><c val="ffff8a">无法攻击。</c><n/><c val="FFE303">侦测单位</c>
+Button/Tooltip/ObserverSightRangeI=<c val="#ColorAttackInfo">观察者</c>的视野范围扩大<c val="#ColorAttackInfo">50%</c>，侦测范围扩大至视野范围。
+Button/Tooltip/OracleI=空中施法单位。<n/><n/><c val="ffff8a">可以对地。</c><n/><c val="FFE303">侦测单位</c>
+Button/Tooltip/PermanentlyCloakedI=永久隐形，并显示周围的<c val="FFE303">侦测单位</c>。
+Button/Tooltip/PermanentlyCloakedObserverI=永久隐形，并显示周围的<c val="FFE303">侦测单位</c>。
+Button/Tooltip/PermanentlyCloakedOracleI=<c val="#ColorAttackInfo">观星船</c>永久隐形，并显示周围的<c val="FFE303">侦测单位</c>。<n/><c val="#ColorAttackInfo">观星船</c>在被攻击后将免疫该次伤害并无敌<c val="#ColorAttackInfo"><d ref="Behavior,OraclePhasingArmorBuffI,Duration"/></c>秒。该效果每<c val="#ColorAttackInfo"><d ref="Behavior,OraclePhasingArmorI,DamageResponse.Cost.Cooldown.TimeUse"/></c>秒最多触发一次。
+Button/Tooltip/PhaseCannonProjectionI=在目标位置创建一道超维空间炮台的投射体，最多持续<c val="#ColorAttackInfo"><d ref="Abil,PhaseCannonProjectionI,Cost[0].Cooldown.TimeUse"/></c>秒。使用该技能会使超维空间炮台在<c val="#ColorAttackInfo"><d ref="Abil,PhaseCannonProjectionI,Cost[0].Cooldown.TimeUse"/></c>秒内处于失效状态。
+Button/Tooltip/PhasingModeI=将<c val="#ColorAttackInfo">虚空阵列船</c>转入相位模式，同时生成一个类似于水晶塔效果的能量辐射圈。该模式下的无法移动。
+Button/Tooltip/PhoenixI=伊罕利空中优势战机。能够使用星璇怒技能。<n/><n/><c val="ffff8a">可以对地和对空。</c>
+Button/Tooltip/PhoenixWhirlwindI=移动速度提高<c val="#ColorAttackInfo">50%</c>，每秒对附近所有空中敌方单位造成<c val="#ColorAttackInfo">10</c>点伤害，并将地面单位抬举到空中。持续<c val="#ColorAttackInfo"><d ref="Behavior,PhoenixWhirlwindIF,Duration"/></c>秒。拥有最多可吸收<c val="#ColorAttackInfo">150</c>点伤害的屏障，如果屏障被摧毁将终止效果。<n/><c val="#ColorAttackInfo">此技能无法自动开启，开启时若启用自动释放将会自动环绕周围的敌方单位。若未启用仍需要手动控制方向。</c>
+Button/Tooltip/PhotonCannonI=<c val="#ColorAttackInfo">防御建筑</c><n/>伊罕利主力防御建筑。能够使用超维空间投射技能。<n/><n/><c val="ffff8a">可以对地和对空。</c><n/><c val="FFE303">侦测单位</c>
+Button/Tooltip/PhotonCannonIH=超维空间炮台的投射体，最多持续<c val="#ColorAttackInfo"><d ref="Abil,PhaseCannonProjectionI,Cost[0].Cooldown.TimeUse"/></c>秒。
+Button/Tooltip/PhotonCannonWeaponI=<c val="#ColorAttackInfo">超维空间炮台</c>的目标每有1点护甲，<c val="#ColorAttackInfo">超维空间炮台</c>的攻击就额外对其造成1点伤害。
+Button/Tooltip/PredictiveBlinkPassiveI=<c val="#ColorAttackInfo">伏击者</c>可以储存最多<c val="#ColorAttackInfo">3</c>层<c val="#ColorAttackInfo">预判闪现</c>充能，每<c val="#ColorAttackInfo"><d ref="Abil,BlinkI,Cost[0].Charge.TimeUse"/></c>秒重新获得一层充能。
+Button/Tooltip/ProbeI=伊罕利基础工作单位，用于采集资源和折跃伊罕利建筑。能够恢复友方单位的生命。<n/><n/><c val="ffff8a">可以对地。</c>
+Button/Tooltip/ProbeRepairI=免费为机械单位和建筑恢复生命值。
+Button/Tooltip/PsiStormI=创建一道虚空风暴，持续<c val="#ColorAttackInfo">4</c>秒。对目标区域内的所有敌人造成最多<c val="#ColorAttackInfo">80</c>点的法术伤害。
+Button/Tooltip/PurificationNovaBatteryI=<c val="#ColorAttackInfo">禁绝者</c>的攻击速度提升<c val="#ColorAttackInfo">100%</c>。
+Button/Tooltip/PurificationNovaSecondExplosionI=<c val="#ColorAttackInfo">禁绝者</c>与<c val="#ColorAttackInfo">虚空新星</c>在爆炸或自身死亡时将生成一个<c val="#ColorAttackInfo">虚空恶灵</c>，攻击敌人造成<c val="#ColorAttackInfo">40</c>点法术伤害，存在<c val="#ColorAttackInfo"><d ref="Behavior,DisruptorGhostTimedLifeI,Duration"/></c>秒将再次爆炸。
+Button/Tooltip/PurificationNovaStasisWardI=<c val="#ColorAttackInfo">禁绝者</c>的<c val="#ColorAttackInfo">虚空新星</c>在爆炸后将使范围内的敌人无法移动和攻击，持续<c val="#ColorAttackInfo"><d ref="Behavior,DisruptorStasisTargetI,Duration"/></c>秒。
+Button/Tooltip/PurificationNovaTargetedI=发射一枚能量球，持续存在<c val="#ColorAttackInfo"><d ref="Behavior,PurificationNovaTargettedTargetI,Duration"/></c>秒，结束后对附近的地面单位造成<c val="#ColorAttackInfo">100(150 vs 建筑)</c>点法术伤害。
+Button/Tooltip/PylonI=<c val="#ColorAttackInfo">基础建筑</c><n/>提供补给。能够使用超维空间投射技能。<n/>拥有补给是生产更多单位的前提。<n/>为附近的建筑提供能量。
+Button/Tooltip/PylonIH=超维空间水晶的投射体，最多持续<c val="#ColorAttackInfo"><d ref="Abil,PylonProjectionI,Cost[0].Cooldown.TimeUse"/></c>秒。
+Button/Tooltip/PylonProjectionI=在目标位置创建一道超维空间水晶的投射体，最多持续<c val="#ColorAttackInfo"><d ref="Abil,PylonProjectionI,Cost[0].Cooldown.TimeUse"/></c>秒。<n/><c val="#ColorAttackInfo">使用该技能不会使超维空间水晶处于失效状态。</c>
+Button/Tooltip/ReleaseInterceptorsI=负星战舰朝目标点发射所有突袭机。<c val="#ColorAttackInfo">突袭机</c>会在范围内巡逻<c val="#ColorAttackInfo"><d ref="Behavior,ReleaseInterceptorsTimedLifeI,Duration"/></c>秒后自毁。
+Button/Tooltip/ReplicantReplicateI=克隆机变身为目标的复制体，持续<d time="60"/>。假如在此期间内克隆机被消灭，则会变回原形。
+Button/Tooltip/ResearchAdeptShieldUpgradeI=<c val="ffff8a">圣徒</c>的护盾提高<c val="#ColorAttackInfo">50</c>点。<n/>每次攻击都会使敌人在死亡时额外一次为自身恢复<c val="#ColorAttackInfo">20</c>点护盾与<c val="#ColorAttackInfo">10</c>点生命。
+Button/Tooltip/ResourceBlockerI=创建一道虚空裂隙，每秒吸取目标资源<c val="#ColorAttackInfo">2</c>点资源。
+Button/Tooltip/RoboticsBayI=<c val="#ColorAttackInfo">科技建筑</c><n/>解锁伊罕利终极地面单位。<n/><n/><c val="ffff8a">开启：</c><n/>- 使<c val="#ColorAttackInfo">构造台</c>能够折跃<c val="#ColorAttackInfo">禁绝者</c><n/>- 使<c val="#ColorAttackInfo">构造台</c>能够折跃<c val="#ColorAttackInfo">禁绝神兵</c>
+Button/Tooltip/RoboticsFacilityI=<c val="#ColorAttackInfo">生产建筑</c><n/>折跃伊罕利机械部队。<n/><n/><c val="ffff8a">开启：</c><n/>- <c val="#ColorAttackInfo">观察者</c><n/>- <c val="#ColorAttackInfo">虚空阵列船</c><n/>- <c val="#ColorAttackInfo">教义执行者</c><n/>- 使<c val="#ColorAttackInfo">拓荒者</c>能够折跃<c val="#ColorAttackInfo">构造体研究所</c>
+Button/Tooltip/ScoutAOEI=<c val="#ColorAttackInfo">星流战机</c>的对空攻击将造成范围伤害。
+Button/Tooltip/ScoutI=伊罕利多功能战机。能够使用星流暴技能。<n/><n/><c val="ffff8a">可以对地和对空。</c>
+Button/Tooltip/ScoutSpeedI=<c val="#ColorAttackInfo">星流战舰</c>的移动速度提升<c val="#ColorAttackInfo">50%</c>。
+Button/Tooltip/ScoutStarStormI=获得武器<c val="#ColorAttackInfo">星流冲击</c>。移动速度提升<c val="#ColorAttackInfo">50%</c>，获得最多可吸收<c val="#ColorAttackInfo">150</c>点伤害的屏障，如果屏障被摧毁将结束效果，结束时对周围的敌方空中单位造成<c val="#ColorAttackInfo">100</c>点法术伤害。持续<c val="#ColorAttackInfo"><d ref="Behavior,ScoutStarStormI,Duration"/></c>秒。
+Button/Tooltip/ScoutStasisWardI=<c val="#ColorAttackInfo">星流战机</c>的攻击将使敌人无法移动和攻击，持续<c val="#ColorAttackInfo"><d ref="Behavior,ScoutStasisTargetI,Duration"/></c>秒。
+Button/Tooltip/SentryBuildingI=<c val="#ColorAttackInfo">光盾卫士</c>的攻击无视护甲并造成法术伤害，对<c val="#ColorAttackInfo">建筑</c>单位额外造成大量伤害。
+Button/Tooltip/SentryEnergyRegenI=<c val="#ColorAttackInfo">光盾卫士</c>的能量恢复速度提升<c val="#ColorAttackInfo">200%</c>，初始能量提升至最大。
+Button/Tooltip/SentryI=伊罕利机械支援单位。能够使用护盾充能和失能力场技能。<n/><n/><c val="#ColorAttackInfo">可以对地和对空。</c>
+Button/Tooltip/SentryShieldRepairDoubleI=<c val="#ColorAttackInfo">光盾卫士</c>使用<c val="#ColorAttackInfo">护盾充能</c>技能时将会额外恢复周围<c val="#ColorAttackInfo">2</c>个友方单位的护盾。
+Button/Tooltip/SentryShieldRepairI=恢复目标友方单位的护盾。<n/><n/><c val="f078ff">每点能量恢复<d ref="Effect,VoidSentryShieldRepairDoubleI,RechargeVitalRate*Effect,VoidSentryShieldRepairDoubleI,DrainVitalCostFactor"/>点护盾。</c>
+Button/Tooltip/ShieldBatteryEnergyRegenI=<c val="#ColorAttackInfo">超维空间充能器</c>的能量恢复速度提升<c val="#ColorAttackInfo">200%</c>，初始能量提升至最大。
+Button/Tooltip/ShieldBatteryI=<c val="#ColorAttackInfo">防御建筑</c><n/>为附近的友方单位和建筑恢复护盾。能够使用超维变换技能。<n/><n/><c val="ffff8a">无法攻击。</c>
+Button/Tooltip/ShieldBatteryShieldRepairDoubleI=<c val="#ColorAttackInfo">超维空间充能器</c>使用<c val="#ColorAttackInfo">护盾充能</c>技能时将会额外恢复周围<c val="#ColorAttackInfo">2</c>个友方单位的护盾。
+Button/Tooltip/ShieldBatteryShieldRepairI=恢复目标友方单位的护盾。<n/><n/><c val="f078ff">每点能量恢复<d ref="Effect,VoidSentryShieldRepairDoubleI,RechargeVitalRate*Effect,VoidSentryShieldRepairDoubleI,DrainVitalCostFactor"/>点护盾。</c>
+Button/Tooltip/StalkerBlinkChargesI=<c val="#ColorAttackInfo">伏击者</c>使用<c val="#ColorAttackInfo">预判闪现</c>后将恢复自身全部的护盾。
+Button/Tooltip/StalkerGhostI=<c val="#ColorAttackInfo">伏击者</c>使用<c val="#ColorAttackInfo">预判闪现</c>后会留下一个<c val="#ColorAttackInfo">虚空恶灵</c>，制造一次攻击造成<c val="#ColorAttackInfo">40</c>点法术伤害。
+Button/Tooltip/StalkerI=伊罕利远程步战机甲，能够使用预判闪现技能。<n/><n/><c val="ffff8a">可以对地和对空。</c>
+Button/Tooltip/StargateI=<c val="#ColorAttackInfo">生产建筑</c><n/>折跃伊罕利空中部队。<n/><n/><c val="ffff8a">开启：</c><n/>- <c val="#ColorAttackInfo">星璇战机</c><n/>- <c val="#ColorAttackInfo">星流战机</c><n/>- 使<c val="#ColorAttackInfo">拓荒者</c>能够折跃<c val="#ColorAttackInfo">星炬</c>
+Button/Tooltip/StasisFieldI=使范围内的敌人无法移动和攻击，持续<c val="#ColorAttackInfo"><d ref="Behavior,StasisFieldI,Duration"/></c>秒。
+Button/Tooltip/TempestI=伊罕利攻城炮舰。可以从远距离外进行攻击。<n/><n/><c val="ffff8a">可以对地和对空。</c>
+Button/Tooltip/TempestOrbitalCursorI=<c val="#ColorAttackInfo">陨星战舰</c>的攻击会在目标点生成一个信标，随后一枚“陨石”将会降落，造成<c val="#ColorAttackInfo">50(100 vs 重甲)</c>点范围法术伤害。
+Button/Tooltip/TempestStormI=<c val="#ColorAttackInfo">陨星战舰</c>的攻击会在目标点生成一道虚空风暴，持续<c val="#ColorAttackInfo">4</c>秒。对目标区域内的所有敌人造成最多<c val="#ColorAttackInfo">80</c>点的法术伤害。
+Button/Tooltip/TempestWeaponI=<c val="#ColorAttackInfo">陨星战舰</c>的攻击无视护甲并造成法术伤害。
+Button/Tooltip/TemplarArchiveI=<c val="#ColorAttackInfo">科技建筑</c><n/>宣教士科技建筑。<n/><n/><c val="ffff8a">开启：</c><n/>- 使<c val="#ColorAttackInfo">空间门</c>能够折跃<c val="#ColorAttackInfo">宣教士</c>
+Button/Tooltip/TimeWarpI=使玩家的所有建筑时间流速提高<c val="#ColorAttackInfo">100%</c>，持续<c val="#ColorAttackInfo"><d ref="Behavior,ChronoBoostI,Duration"/></c>秒。
+Button/Tooltip/TimeWarpIM=使玩家的所有建筑时间流速提高<c val="#ColorAttackInfo">500%</c>，持续<c val="#ColorAttackInfo"><d ref="Behavior,ChronoBoostIM,Duration"/></c>秒。
+Button/Tooltip/TransportModeI=将<c val="#ColorAttackInfo">虚空阵列船</c>转回运输模式，使其可以移动。
+Button/Tooltip/TwilightCouncilI=<c val="#ColorAttackInfo">科技建筑</c><n/>地面单位进阶科技建筑。<n/><n/><c val="ffff8a">开启：</c><n/>- 使<c val="#ColorAttackInfo">拓荒者</c>能够折跃<c val="#ColorAttackInfo">议会文库</c><n/>- 使<c val="#ColorAttackInfo">拓荒者</c>能够折跃<c val="#ColorAttackInfo">虚空圣地</c>
+Button/Tooltip/UpgradeToWarpGateI=将这座传送门升级为折跃门，使它能向任何有水晶塔功能的位置折跃单位。
+Button/Tooltip/VoidExpanseI=给予<c val="#ColorAttackInfo">虚空阵列船</c>无限的装载容量。
+Button/Tooltip/VoidRayDamageBoostI=消耗<c val="#ColorAttackInfo">75</c>点护盾立即使<c val="#ColorAttackInfo">星蚀战舰</c>的武器进入三级充能。
+Button/Tooltip/VoidRayI=伊罕利精确打击舰船，持续攻击可提高射程伤害。能够使用校准棱镜技能。<n/><n/><c val="#ColorAttackInfo">可以对地和对空。</c>
+Button/Tooltip/VoidRaySpeedI=<c val="#ColorAttackInfo">星蚀战舰</c>的移动速度提升<c val="#ColorAttackInfo">50%</c>，并能够在移动中攻击。
+Button/Tooltip/VoidRayVoidPrismaticRangeI=<c val="#ColorAttackInfo">星蚀战舰</c>持续攻击时，射程将会逐渐提高。最高提高<c val="#ColorAttackInfo">6</c>点。
+Button/Tooltip/VoidRayWeaponI=<c val="#ColorAttackInfo">星蚀战舰</c>持续攻击时，星蚀光束将会造成更高的伤害。<n/>一级充能时造成<c val="#ColorAttackInfo">10(16 vs 重甲)</c>点伤害，穿透<c val="#ColorAttackInfo">50%</c>的护甲。<n/>二级充能时造成<c val="#ColorAttackInfo">14(20 vs 重甲)</c>点伤害，穿透<c val="#ColorAttackInfo">100%</c>的护甲并造成法术伤害。<n/>三级充能时造成<c val="#ColorAttackInfo">18(24 vs 重甲)</c>点伤害，攻击额外造成目标最大生命<c val="#ColorAttackInfo">2%</c>+目标最大护盾<c val="#ColorAttackInfo">2%</c>的法术伤害。
+Button/Tooltip/WarpGateI=<c val="#ColorAttackInfo">生产建筑</c><n/>使用折跃技术召集伊罕利基础地面部队。<n/><n/><c val="ffff8a">开启：</c><n/>- <c val="#ColorAttackInfo">狂战士</c><n/>- 使<c val="#ColorAttackInfo">拓荒者</c>能够折跃<c val="#ColorAttackInfo">铭符芯核</c>
+Button/Tooltip/WarpPirsmHardenedShieldI=<c val="#ColorAttackInfo">虚空阵列船</c>在<c val="#ColorAttackInfo">运输模式</c>且护盾存在时，受到的非<c val="#ColorAttackInfo">法术</c>伤害将降低至最多<c val="#ColorAttackInfo">10</c>点。
+Button/Tooltip/WarpPrismAutoUnloadOffI=载入至<c val="#ColorAttackInfo">虚空阵列船</c>矩阵网络的单位不会再自动离开至此位置。
+Button/Tooltip/WarpPrismAutoUnloadOnI=将该<c val="#ColorAttackInfo">虚空阵列船</c>指定为出口点。任何载入矩阵网络的单位都会自动卸载至该位置点。
+Button/Tooltip/WarpPrismI=伊罕利空中运输单位，可以装载或卸载单位。能够变形为定点能量供给单位。<n/><n/><c val="ffff8a">无法攻击。</c>
+Button/Tooltip/WarpPrismIPhasing=定点能量供给单位，可以装载或卸载单位。能够变形为移动式运输单位。<n/><n/><c val="ffff8a">无法攻击。</c>
+Button/Tooltip/WarpPrismPhasingRegenAuraI=<c val="#ColorAttackInfo">虚空阵列船</c>在<c val="#ColorAttackInfo">相位模式</c>时使周围的友方单位和建筑每秒恢复<c val="#ColorAttackInfo">8</c>点护盾，护盾护甲提升<c val="#ColorAttackInfo">3</c>。
+Button/Tooltip/WarpPrismTransferLinkI=被载入至<c val="#ColorAttackInfo">虚空阵列船</c>的单位可以卸载至任意其它一处<c val="#ColorAttackInfo">虚空阵列船</c>所在位置。
+Button/Tooltip/XelNagaChargedCrystalI=贮藏着神庙中神秘的能量。
+Button/Tooltip/XelNagaConstructI=强大的守护者，负责对找启示之厅的人进行试炼。
+Button/Tooltip/XelNagaConstructSmashI=对周围敌方单位造成<c val="#ColorAttackInfo">300</c>点法术伤害并将其击退。<n/>生成<c val="#ColorAttackInfo">5</c>个<c val="#ColorAttackInfo">伊罕利充能水晶</c>。
+Button/Tooltip/XelNagaShadowStepI=在<c val="#ColorAttackInfo">2</c>秒中移动到目标位置，期间受到的伤害降低<c val="#ColorAttackInfo">100%</c>。
+Button/Tooltip/ZealotI=强大的伊罕利近战战士。能够使用卫道冲撞技能。<n/><n/><c val="ffff8a">可以对地。</c>
+Button/Tooltip/ZealotIE=伊罕利异教近战战士。能够使用卫道冲撞技能。<n/><n/><c val="ffff8a">可以对地。</c>
+Button/Tooltip/ZealotRetreatI=<c val="#ColorAttackInfo">卫道士</c>受到致命伤害时，将回撤至虚空并开始恢复生命值和护盾，期间进入无敌状态。持续<c val="#ColorAttackInfo"><d ref="Behavior,DarkTemplarStasisI,Duration"/></c>秒。 <n/>该效果每<c val="#ColorAttackInfo"><d ref="Behavior,DarkTemplarRetreatCooldownI,Duration"/></c>秒只能生效一次。
+Button/Tooltip/ZealotShadowChargeI=拦截敌方地面单位并提高移动速度，同时还会暂时无敌并能穿越其它单位。结束后对周围小范围的敌方单位造成<c val="#ColorAttackInfo">40</c>点法术伤害并短暂眩晕。
+Button/Tooltip/ZealotShadowStrikeI=<c val="#ColorAttackInfo">卫道士</c>的目标每有1点护甲，<c val="#ColorAttackInfo">卫道士</c>的攻击就额外对其造成1点伤害。
+Commander/AbilTitle/IhanriiI=伊罕利星灵
+Commander/Description/IhanriiI=古老而神秘的星灵派系，拥有源自萨尔那加的技术。
+Commander/Details/IhanriiII=<ul indent="0" gap="1"path="Assets\Textures\UI_Battlenet_Glues_PageAssets_BulletPoint.dds" width="0" height="0"><li>适合有经验的玩家</li><li>在任务中指挥泽拉图，同时搜寻萨尔纳加神器来提升部队和能力</li><li>控制经萨尔纳加强化过的星灵战士以及构造体</li></ul>
+Commander/Name/CCommander2=CCommander(未命名) 复件
+Commander/Name/Ihanrii=伊罕利
+Commander/Name/IhanriiI=伊罕利
+Commander/StoreName/IhanriiI=伊罕利
+ConsoleSkin/Description/ConsoleProtoss_IhanriiI=使用伊罕利考古图案装饰你的控制台。
+ConsoleSkin/Name/ConsoleProtoss_IhanriiI=伊罕利
+DocInfo/DescLong=古老而神秘的星灵派系，拥有源自萨尔那加的技术。
+DocInfo/DescShort=HTXL
+DocInfo/Name=IhanriiProtoss
+Effect/Name/AdeptBlinkRestoreModifyUnitI=Adept Blink Restore (Modify Unit)
+Effect/Name/AdeptDamageI=Damage
+Effect/Name/AdeptLMI=LM
+Effect/Name/AdeptPhaseShiftCUI=Phase Shift CU
+Effect/Name/AdeptPhaseShiftCancelABI=Adept Phase Shift Cancel AB
+Effect/Name/AdeptPhaseShiftCancelI=Phase Shift Cancel
+Effect/Name/AdeptPhaseShiftCasterABI=Phase Shift Caster AB
+Effect/Name/AdeptPhaseShiftInitialSetI=Phase Shift Initial Set
+Effect/Name/AdeptPhaseShiftIssueOrderI=Phase Shift Issue Order
+Effect/Name/AdeptPhaseShiftKillDummyI=Phase Shift Kill Dummy
+Effect/Name/AdeptPhaseShiftRemoveDisablesSetI=Phase Shift Remove Disables Set
+Effect/Name/AdeptPhaseShiftSelectI=Phase Shift Select
+Effect/Name/AdeptPhaseShiftSpawnABI=Phase Shift Spawn AB
+Effect/Name/AdeptPhaseShiftSpawnSetI=Phase Shift Spawn Set
+Effect/Name/AdeptPhaseShiftTeleportI=Phase Shift Teleport
+Effect/Name/AdeptPhaseShiftTeleportIC=Phase Shift Teleport
+Effect/Name/AdeptPhaseShiftTeleportSetI=Phase Shift Teleport Set
+Effect/Name/AdeptPhaseShiftTeleportSetIC=Phase Shift Teleport Set
+Effect/Name/AdeptPhaseShiftTimerSpawnABI=Phase Shift Timer Spawn AB
+Effect/Name/AdeptPhaseUnitOrderQueueI=Phase Unit Order Queue
+Effect/Name/AdeptSetI=Set
+Effect/Name/AdeptShadePhaseShiftCancelCasterBehaviorI=Shade Phase Shift Cancel Caster Behavior RB
+Effect/Name/AdeptShadePhaseShiftCancelI=Shade Phase Shift Cancel RB
+Effect/Name/AdeptSoulAbsorptionABI=Soul Absorption AB
+Effect/Name/AdeptSoulAbsorptionLMI=Soul Absorption LM
+Effect/Name/AdeptSoulAbsorptionMUI=Soul Absorption MU
+Effect/Name/AdeptUpgradeApplyDeathCheckI=Upgrade Apply Death Check
+Effect/Name/AdeptUpgradeDeathSearchI=Upgrade Death Search
+Effect/Name/AdeptUpgradeLMI=Upgrade LM
+Effect/Name/AdeptUpgradeSetI=Upgrade Set
+Effect/Name/ArchonRollingDamageI=战争碾压伤害
+Effect/Name/ArchonRollingSearchI=战争碾压搜索
+Effect/Name/AssimilatorMorphI=Assimilator Morph
+Effect/Name/AutoHarvestMineralI=Auto Harvest Mineral
+Effect/Name/AutoHarvestVespene5I=Auto Harvest Vespene 5
+Effect/Name/BarrierMUI=Barrier MU
+Effect/Name/BlackHoleBombABI=Black Hole Bomb AB
+Effect/Name/BlackHoleBombDamageI=Black Hole Bomb Damage
+Effect/Name/BlackHoleBombEndSearchI=Black Hole Bomb End Search
+Effect/Name/BlackHoleBombForceI=Black Hole Bomb Force
+Effect/Name/BlackHoleBombForceOffsetI=Black Hole Bomb Force Offset
+Effect/Name/BlackHoleBombImpactSetI=Black Hole Bomb Impact Set
+Effect/Name/BlackHoleBombPersistentI=Black Hole Bomb Persistent
+Effect/Name/BlackHoleBombSearchI=Black Hole Bomb Search
+Effect/Name/BlinkI=Blink
+Effect/Name/CancelAttackGroundCasterI=CancelAttackGroundCaster
+Effect/Name/CarrierInterceptorI=Launch Interceptor (Magazine)
+Effect/Name/CarrierInterceptorLaunchSetI=Carrier Interceptor Launch Set
+Effect/Name/CarrierTimeWarpTargetABI=Carrier Time Warp Target AB
+Effect/Name/CloakingFieldI=Cloaking Field
+Effect/Name/CloakingFieldSearchI=Cloaking Field Search
+Effect/Name/ColossusIceABHeroicI=时空射线行为英雄
+Effect/Name/ColossusIceABNormalI=时空射线行为
+Effect/Name/ColossusPsiOrbABI=Psi Orb
+Effect/Name/ColossusPsiOrbBombDamageI=Psi Orb Bomb (Damage)
+Effect/Name/ColossusPsiOrbDamageI=Psi Orb (Damage)
+Effect/Name/ColossusPsiOrbDestroyPersistentI=Psi Orb (Destroy Persistent)
+Effect/Name/ColossusPsiOrbImpactSearchI=Colossus Psi Orb Impact Search
+Effect/Name/ColossusPsiOrbInitialPersistentI=Psi Orb
+Effect/Name/ColossusPsiOrbLaunchMissileI=Psi Orb (Launch Missile)
+Effect/Name/ColossusPsiOrbLaunchPersistentI=Psi Orb
+Effect/Name/ColossusPsiOrbSearchI=Psi Orb (Search)
+Effect/Name/ColossusPsiOrbTurretStartI=Colossus Psi Orb Turret Start
+Effect/Name/ColossusRotOrderI=巨像旋转命令
+Effect/Name/ColossusTemplarPsiOrbSetI=Psi Orb (Set)
+Effect/Name/CopyAutoCastI=复制自动施法
+Effect/Name/CopyFacingI=复制朝向
+Effect/Name/DarkTemplarBlinkDamageI=虚空闪现伤害
+Effect/Name/DarkTemplarBlinkDamageInitialPersistentI=虚空闪现持续
+Effect/Name/DarkTemplarBlinkDamageSearchI=虚空闪现搜索
+Effect/Name/DarkTemplarBlinkFacingI=虚空闪现面对
+Effect/Name/DarkTemplarBlinkI=虚空闪现传送
+Effect/Name/DarkTemplarBlinkSetI=虚空闪现集合
+Effect/Name/DarkTemplarRetreatCooldownABI=撤回虚空冷却
+Effect/Name/DarkTemplarStasisABI=撤回虚空行为
+Effect/Name/DarkTemplarStasisHealI=撤回虚空治疗
+Effect/Name/DisruptionBeamDamageI=Disruption Beam
+Effect/Name/DisruptionBeamI=Disruption Beam
+Effect/Name/DisruptorGTAABI=Disruptor GTF AB
+Effect/Name/DisruptorGhostCUI=生成虚空恶灵干扰者
+Effect/Name/DisruptorStasisABI=Disruptor Stasis AB
+Effect/Name/DisruptorVoidNovaDummyI=Disruptor Void Nova Dummy
+Effect/Name/DragoonDamageI=Dragoon Damage
+Effect/Name/DragoonGhostCUI=生成虚空恶灵龙骑士
+Effect/Name/DragoonGhostDamageI=龙骑虚空恶灵伤害
+Effect/Name/DragoonLMI=Dragoon LM
+Effect/Name/DragoonWeaponCPI=Weapon CP
+Effect/Name/DropMothershipABI=Drop Mothership AB
+Effect/Name/DropMothershipDamageI=Drop Mothership Damage
+Effect/Name/DropMothershipECU=异教母舰坠毁创建单位
+Effect/Name/DropMothershipImpactSearchI=Drop Mothership Impact Search
+Effect/Name/DropMothershipLifeRandomizerCPI=Drop Mothership Life Randomizer CP
+Effect/Name/DropMothershipRandomLife45I=Drop Mothership Random Life 45
+Effect/Name/DropMothershipRandomLife502I=Drop Mothership Random Life 52
+Effect/Name/DropMothershipRandomLife67I=Drop Mothership Random Life 67
+Effect/Name/DropMothershipRandomLife76I=Drop Mothership Random Life 76
+Effect/Name/DropMothershipRandomLife84I=Drop Mothership Random Life 84
+Effect/Name/DropMothershipRandomLife91I=Drop Mothership Random Life 91
+Effect/Name/DropMothershipRandomZealotI=Drop Mothership Random Zealot
+Effect/Name/DropMothershipZealotCUI=Drop Mothership Zealot CU
+Effect/Name/EntropicBlastDamageI=Entropic Blast (Damage)
+Effect/Name/EntropicBlastLMI=Entropic Blast LM
+Effect/Name/EntropicBlastSearchI=Entropic Blast (Search)
+Effect/Name/EntropicBlastSetI=Entropic Blast Set
+Effect/Name/FeedbackEnergyLossI=能量反蚀
+Effect/Name/FeedbackI=能量反蚀
+Effect/Name/FeedbackSetI=能量反蚀
+Effect/Name/FlagshipTimeBombABI=Flagship Time Bomb AB
+Effect/Name/FlagshipTimeBombCPI=Flagship Time Bomb CP
+Effect/Name/FlagshipTimeBombCPIP=Flagship Time Bomb CP
+Effect/Name/FlagshipTimeBombDamageI=Flagship Time Bomb Damage
+Effect/Name/FlagshipTimeBombKillSearchI=Flagship Time Bomb Kill Search
+Effect/Name/FlagshipTimeBombSearchI=Flagship Time Bomb Search
+Effect/Name/GeneralPhaseShiftI=General Phase Shift
+Effect/Name/GeneralPhaseShiftIterateTransportI=General Phase Shift Iterate Transport
+Effect/Name/GeneralPhaseShiftSetI=General Phase Shift Set
+Effect/Name/GravitonBeamBehaviorI=Anti Gravity (Apply Behavior)
+Effect/Name/GuardianShieldApplyBehaviorI=Guardian Shield
+Effect/Name/GuardianShieldPersistentI=Guardian Shield
+Effect/Name/GuardianShieldSearchI=Guardian Shield
+Effect/Name/HighTemplarVoidEnergyABIF=虚空注能行为
+Effect/Name/HighTemplarVoidEnergyABIN=虚空注能行为
+Effect/Name/HighTemplarWeaponASetI=High Templar Weapon Set
+Effect/Name/HighTemplarWeaponDamageI=High Templar Weapon Damage
+Effect/Name/HighTemplarWeaponLMI=High Templar Weapon Launch Missile
+Effect/Name/ImmortalAirWeaponCPI=Air Weapon CP
+Effect/Name/ImmortalAirWeaponCPIC=Air Weapon CP
+Effect/Name/ImmortalAirWeaponSetI=Immortal Air Weapon Set
+Effect/Name/ImmortalBarrierBaseABI=Barrier AB
+Effect/Name/ImmortalShadowCannonLMI=歼灭炮射弹
+Effect/Name/ImmortalShadowCannonLMIC=歼灭炮射弹
+Effect/Name/ImmortalWeaponCPI=Weapon CP
+Effect/Name/ImmortalWeaponSetI=Immortal Weapon Set
+Effect/Name/InterceptorAttackRandomI=Interceptor Attack Random
+Effect/Name/InterceptorAttackRandomII=Interceptor Attack Random
+Effect/Name/InterceptorAttackRandomSwitchI=Interceptor Attack Random Switch
+Effect/Name/InterceptorAttackRandomXI=Interceptor Attack Random X
+Effect/Name/InterceptorAttackRandomYI=Interceptor Attack Random Y
+Effect/Name/InterceptorBeamDamageI=Pulse Cannon (Damage)
+Effect/Name/InterceptorBeamPersistentI=Interceptor Beam
+Effect/Name/InterceptorBlinkGhostI=生成虚空恶灵拦截机
+Effect/Name/InterceptorBlinkI=Blink
+Effect/Name/InterceptorBlinkII=Blink
+Effect/Name/InterceptorBlinkRestoreModifyUnitI=Interceptor Blink Restore (Modify Unit)
+Effect/Name/InterceptorLaunchPersistentI=Interceptors
+Effect/Name/IonCannonsCPI=Ion Cannons
+Effect/Name/IonCannonsCPIO=Ion Cannons
+Effect/Name/IonCannonsUI=Ion Cannons
+Effect/Name/IonCannonsUIO=Ion Cannons
+Effect/Name/KhaydarinMonolithDamageI=超维空间光束伤害
+Effect/Name/KhaydarinMonolithSearchI=超维空间光束搜索
+Effect/Name/KhaydarinMonolithSetI=超维空间光束集合
+Effect/Name/KhaydarinMonolithStunSetI=超维空间光束行为集合
+Effect/Name/KillI=Kill
+Effect/Name/KillVHI=Kill VH
+Effect/Name/LargeCrashHighDamageSearchIF=大型高空坠毁伤害搜索
+Effect/Name/MassRecallApplyBehaviorI=Mass Recall
+Effect/Name/MassRecallApplyBehaviorIE=Mass Recall
+Effect/Name/MassRecallCPI=Mass Recall CP
+Effect/Name/MassRecallPostBehaviorI=Mass Recall
+Effect/Name/MassRecallPostBehaviorIE=Mass Recall
+Effect/Name/MassRecallSearchI=Mass Recall
+Effect/Name/MassRecallSearchIE=Mass Recall
+Effect/Name/MassRecallSearchIF=Mass Recall
+Effect/Name/MassRecallSetI=Mass Recall
+Effect/Name/MassRecallSetIE=Mass Recall
+Effect/Name/MassRecallTeleportI=Mass Recall
+Effect/Name/MassRecallTeleportIE=Mass Recall
+Effect/Name/MonolithProjectionCUI=超维空间巨石投射创建单位
+Effect/Name/MonolithProjectionDeBuffABI=凯达琳巨石阴影投射行为
+Effect/Name/MonolithProjectionSpawnEffectSetI=超维空间巨石投射创建集合
+Effect/Name/MonolithWeaponABI=Monolith Weapon AB
+Effect/Name/MothershipBeamDamageI=Mothership Beam (Damage)
+Effect/Name/MothershipBeamDummyI=Mothership Beam Dummy
+Effect/Name/MothershipBeamPersistentI=Mothership Beam (Persistent)
+Effect/Name/MothershipBeamSearchI=Mothership Beam Search
+Effect/Name/MothershipBeamSetI=Mothership Beam (Set)
+Effect/Name/MothershipBlinkGhostI=生成虚空恶灵母舰
+Effect/Name/MothershipBlinkI=Blink
+Effect/Name/MothershipEDeathExplodeLargeSetI=MothershipE Death Explode Large Set
+Effect/Name/MothershipGhostFieldCPI=Mothership Ghost Field CP
+Effect/Name/MothershipGhostFieldSearchI=Mothership Ghost Field Search
+Effect/Name/MothershipGhostTimedLifeI=Mothership Ghost Timed Life
+Effect/Name/MothershipOrbitalFieldCPI=Mothership Orbital Field CP
+Effect/Name/MothershipOrbitalFieldSearchI=Mothership Orbital Field Search
+Effect/Name/MothershipSecondaryBeamPersistentI=Mothership Secondary Beam (Persistent)
+Effect/Name/MothershipWhirlwindABI=Mothership Whirlwind AB
+Effect/Name/MothershipWhirlwindDamageI=Mothership Whirlwind Damage
+Effect/Name/MothershipWhirlwindSearchI=Mothership Whirlwind Search
+Effect/Name/NexusInvulnerabilityApplyBehaviorI=Nexus Invulnerability Apply Behavior
+Effect/Name/OraclePhasingArmorApplyI=Oracle Phasing Armor (Apply)
+Effect/Name/OracleShadowTFABI=Oracle Shadow TF AB
+Effect/Name/OracleWeaponCreatePersistentI=Oracle Weapon Create Persistent
+Effect/Name/OracleWeaponCreatePersistentIS=Oracle Weapon Create Persistent
+Effect/Name/OracleWeaponDamageI=Oracle Weapon Damage
+Effect/Name/OracleWeaponDamageIS=Oracle Weapon Damage
+Effect/Name/OrbitalStrikeCPIT=Orbital Strike CP
+Effect/Name/OrbitalStrikeDamageIT=Orbital Strike Damage
+Effect/Name/OrbitalStrikeImpactDummyIT=Orbital Strike Impact Dummy
+Effect/Name/OrbitalStrikeImpactSearchIT=Orbital Strike Impact Search
+Effect/Name/ParticleBeamI=Particle Beam
+Effect/Name/ParticleDisruptorsI=Entropy Lance (LM)
+Effect/Name/ParticleDisruptorsUI=Entropy Lance (Damage)
+Effect/Name/PhaseCannonProjectionCPI=超维空间炮台投射持续
+Effect/Name/PhaseCannonProjectionCUI=超维空间炮台投射创建单位
+Effect/Name/PhaseCannonProjectionDeBuffABI=光子炮台阴影投射行为
+Effect/Name/PhaseCannonProjectionSpawnEffectSetI=超维空间炮台投射创建集合
+Effect/Name/PhaseDisruptorsAirI=歼灭炮伤害
+Effect/Name/PhaseDisruptorsAirIC=歼灭炮伤害
+Effect/Name/PhaseDisruptorsAirSetI=歼灭炮命中集合
+Effect/Name/PhaseDisruptorsAirSetIC=歼灭炮命中集合
+Effect/Name/PhaseDisruptorsI=Phase Disruptors
+Effect/Name/PhaseShiftTimerCancelSetI=Phase Shift Timer Cancel Set
+Effect/Name/PhoenixWhirlwindFakeWeaponDummyI=Phoenix Whirlwind Fake Weapon Dummy
+Effect/Name/PhoenixWhirwindStopI=Phoenix Whirwind Stop
+Effect/Name/PhotonCannonLMI=Photon Cannon (Launch Missile)
+Effect/Name/PhotonCannonUI=Photon Cannon (Damage)
+Effect/Name/ProbeRepairI=Repair
+Effect/Name/PsiBladesBurstI=Psi Blades
+Effect/Name/PsiBladesI=Psi Blades (Damage)
+Effect/Name/PsiOrbBombDamageSetI=Psi Orb
+Effect/Name/PsiOrbDamageSetI=Psi Orb
+Effect/Name/PsiStormApplyBehaviorI=灵能风暴-应用灵能风暴
+Effect/Name/PsiStormDamageI=灵能风暴-周期伤害
+Effect/Name/PsiStormDamageInitialI=灵能风暴-初始伤害
+Effect/Name/PsiStormPersistentI=灵能风暴-持续-直连技能
+Effect/Name/PsiStormSearchI=灵能风暴-目标点搜索
+Effect/Name/PsionicShockwaveDamageI=Psionic Shockwave (Damage)
+Effect/Name/PurificationNovaDamageI=Purification Nova
+Effect/Name/PurificationNovaDetonateRBCasterI=Purification Nova Detonate RB Caster
+Effect/Name/PurificationNovaNotificationDamageI=Purification Nova
+Effect/Name/PurificationNovaNotificationSearchI=Purification Nova
+Effect/Name/PurificationNovaTargettedCUI=Purification Nova Targetted CU
+Effect/Name/PurificationNovaTargettedCasterABI=Purification Nova Targetted Caster AB
+Effect/Name/PurificationNovaTargettedDamageSetI=Purification Nova Targetted Damage Set
+Effect/Name/PurificationNovaTargettedInitialSetI=Purification Nova Targetted Initial Set
+Effect/Name/PurificationNovaTargettedIssueOrderI=Purification Nova Targetted Issue Order
+Effect/Name/PurificationNovaTargettedSearchI=Purification Nova Targetted Search
+Effect/Name/PurificationNovaTargettedSearchSetI=Purification Nova Targetted Search Set
+Effect/Name/PurificationNovaTargettedSearchSetIE=Purification Nova Targetted Search Set
+Effect/Name/PurificationNovaTargettedSpawnABI=Purification Nova Targetted Spawn AB
+Effect/Name/PurificationNovaTargettedSpawnSetI=Purification Nova Targetted Spawn Set
+Effect/Name/PylonProjectionCUI=超维空间水晶投射创建单位
+Effect/Name/PylonProjectionDeBuffABI=水晶塔阴影投射行为
+Effect/Name/PylonProjectionSpawnEffectSetI=超维空间水晶投射创建集合
+Effect/Name/ReleaseInterceptorsApplyTimedLifeI=Release Interceptors Apply Timed Life
+Effect/Name/ReleaseInterceptorsApplyWanderDelayI=Release Interceptors Apply Wander Delay
+Effect/Name/ReleaseInterceptorsAutoAttackABI=释放拦截机自动扫射行为
+Effect/Name/ReleaseInterceptorsAutoAttackSearchI=Release Interceptors Auto Attack Search
+Effect/Name/ReleaseInterceptorsBeaconABI=Release Interceptors Beacon AB
+Effect/Name/ReleaseInterceptorsBeaconCUI=Release Interceptors Beacon CU
+Effect/Name/ReleaseInterceptorsBeaconRBI=Release Interceptors Beacon RB
+Effect/Name/ReleaseInterceptorsI=Release Interceptors
+Effect/Name/ReleaseInterceptorsInitialCPI=Release Interceptors Initial CP
+Effect/Name/ReleaseInterceptorsIterateMagazineI=Release Interceptors Iterate Magazine
+Effect/Name/ReleaseInterceptorsLaunchI=Release Interceptors Launch
+Effect/Name/ReleaseInterceptorsLeashOrderI=Release Interceptors Leash Order
+Effect/Name/ReleaseInterceptorsLeashSetI=Release Interceptors Leash Set
+Effect/Name/ReleaseInterceptorsMoveOrderI=Release Interceptors Move Order
+Effect/Name/ReleaseInterceptorsPatrolCPI=Release Interceptors Patrol CP
+Effect/Name/ReleaseInterceptorsPatrolIssueOrderI=Release Interceptors Patrol Issue Order
+Effect/Name/ReleaseInterceptorsPatrolLeftTurnCPI=Release Interceptors Patrol Left Turn CP
+Effect/Name/ReleaseInterceptorsPatrolRandomizerCPI=Release Interceptors Patrol Randomizer CP
+Effect/Name/ReleaseInterceptorsPatrolRightTurnCPI=Release Interceptors Patrol Right Turn CP
+Effect/Name/ReleaseInterceptorsReleaseSetI=Release Interceptors Release Set
+Effect/Name/ReleaseInterceptorsRemoveBeaconI=Release Interceptors Remove Beacon
+Effect/Name/ReleaseInterceptorsSetI=Release Interceptors Set
+Effect/Name/ReplicateBehaviorSetI=Replicate Behavior Set
+Effect/Name/ReplicateCUI=Replicate CU
+Effect/Name/ReplicateDummyI=Replicate Dummy
+Effect/Name/ReplicateInitialSetI=Replicate Initial Set
+Effect/Name/ResourceStunApplyBehaviorI=Resource Stun
+Effect/Name/ResourceStunApplyBehaviorIF=Resource Stun
+Effect/Name/ResourceStunApplyBehaviorIM=Resource Stun
+Effect/Name/ResourceStunCreateUnitIF=Resource Stun
+Effect/Name/ResourceStunCreateUnitIM=Resource Stun
+Effect/Name/ResourceStunFinalSetI=Resource Stun
+Effect/Name/ResourceStunInitialSetI=Resource Stun Initial Set
+Effect/Name/ResourceStunRemoveBehaviorI=Resource Stun
+Effect/Name/ResourceStunRenewLifeI=Resource Stun Renew Life
+Effect/Name/ResourceStunRenewSetI=Resource Stun Renew Set
+Effect/Name/ResourceStunRenewTimerI=Resource Stun Renew Timer
+Effect/Name/ResourceStunSearchI=Resource Stun
+Effect/Name/ResourceStunSearchIU=Resource Stun
+Effect/Name/ResourceStunSwitchI=Resource Stun Switch
+Effect/Name/ScoutAirI=Scout Air
+Effect/Name/ScoutAirLMLeftI=Scout Air LM Left
+Effect/Name/ScoutAirLMRightI=Scout Air LM Right
+Effect/Name/ScoutAirUI=Scout Air U
+Effect/Name/ScoutGroundCPI=Scout Ground CP
+Effect/Name/ScoutGroundI=Scout Ground
+Effect/Name/ScoutGroundWeaponSetI=Scout Ground Weapon Set
+Effect/Name/ScoutStarStormABI=Scout Star Storm AB
+Effect/Name/ScoutStarStormRB=Star Storm RB
+Effect/Name/ScoutStarStormSetI=Scout Star Storm Set
+Effect/Name/ScoutSuicideDamageI=Suicide
+Effect/Name/ScoutSuicideSetI=Suicide
+Effect/Name/ScoutWeaponABI=Scout Weapon AB
+Effect/Name/ScoutWeaponDamageI=Scout Weapon
+Effect/Name/ScoutWeaponSearchI=Scout Weapon Search
+Effect/Name/ScoutWeaponSetI=Scout Weapon Set
+Effect/Name/SentryShieldRepairDoubleApplyBehaviorI=Sentry Shield Repair Double Apply Behavior
+Effect/Name/SentryShieldRepairDoubleExtraDelay1I=Sentry Shield Repair Double Extra Delay1
+Effect/Name/SentryShieldRepairDoubleExtraI=Sentry Shield Repair Double Extra
+Effect/Name/SentryShieldRepairDoubleExtraSearch1I=Sentry Shield Repair Double Extra Search1
+Effect/Name/SentryShieldRepairDoubleExtraSearch1ImpactCPI=Sentry Shield Repair Double Extra Search1 Impact CP
+Effect/Name/SentryShieldRepairDoubleExtraSearch1ImpactDummyI=Sentry Shield Repair Double Extra Search1 Impact Dummy
+Effect/Name/SentryShieldRepairDoubleInitialSetI=Sentry Shield Repair Double Initial Set
+Effect/Name/SentryShieldRepairDoublePeriodicSetI=Sentry Shield Repair Double Periodic Set
+Effect/Name/SentryShieldRepairDoubleRemoveBehaviorI=Sentry Shield Repair Double Remove Behavior
+Effect/Name/SmallConstructCUI=Small Construct CU
+Effect/Name/SmallConstructTimedLifeI=Small Construct Timed Life
+Effect/Name/StalkerBlinkGhostI=生成虚空恶灵追猎者
+Effect/Name/StalkerBlinkGhostSpawnSetI=虚空恶灵创建集合
+Effect/Name/StalkerBlinkRestoreModifyUnitI=Stalker Blink Restore (Modify Unit)
+Effect/Name/StalkerBlinkSetI=Stalker Blink (Set)
+Effect/Name/StalkerGhostDamageI=虚空恶灵伤害
+Effect/Name/StalkerGhostDelayABI=虚空恶灵抑制攻击行为
+Effect/Name/StarStormDamageI=Star Storm
+Effect/Name/StarStormDamageSetI=Star Storm
+Effect/Name/StarStormSearchI=Star Storm Search
+Effect/Name/StarWindBarrierI=Star Wind Barrier AB
+Effect/Name/StasisFieldApplyI=Stasis Field (Apply)
+Effect/Name/StasisFieldSearchI=Stasis Field (Search)
+Effect/Name/StasisFieldSetI=Stasis Field (Set)
+Effect/Name/SuicideNoShieldI=Suicide No Shield
+Effect/Name/SuicideRemoveNoShieldI=Suicide Remove No Shield
+Effect/Name/TempestDamageI=Tempest Damage
+Effect/Name/TempestGroundDamageI=Tempest Ground Damage
+Effect/Name/TempestGroundWeaponSetI=Tempest Ground Weapon Set
+Effect/Name/TempestLaunchMissileI=Tempest Launch Missile
+Effect/Name/TempestWeaponSetI=Tempest Weapon Set
+Effect/Name/ThermalLancesDamageDelayI=Thermal Lances
+Effect/Name/ThermalLancesDamageDelayIL=Thermal Lances
+Effect/Name/ThermalLancesDamageSetI=Thermal Lances
+Effect/Name/ThermalLancesEI=Thermal Lances
+Effect/Name/ThermalLancesEIL=Thermal Lances
+Effect/Name/ThermalLancesEReverseI=Thermal Lances
+Effect/Name/ThermalLancesEReverseIL=Thermal Lances
+Effect/Name/ThermalLancesForwardI=Thermal Lances
+Effect/Name/ThermalLancesForwardIL=Thermal Lances
+Effect/Name/ThermalLancesFriendlyCPI=Thermal Lances Freindly CP
+Effect/Name/ThermalLancesFriendlyCPIL=Thermal Lances Freindly CP
+Effect/Name/ThermalLancesI=Thermal Lances
+Effect/Name/ThermalLancesIA=Thermal Lances
+Effect/Name/ThermalLancesIL=Thermal Lances
+Effect/Name/ThermalLancesILL=Thermal Lances
+Effect/Name/ThermalLancesILR=Thermal Lances
+Effect/Name/ThermalLancesMUI=Thermal Lances
+Effect/Name/ThermalLancesMUIL=Thermal Lances
+Effect/Name/ThermalLancesReverseI=Thermal Lances
+Effect/Name/ThermalLancesReverseIL=Thermal Lances
+Effect/Name/TimeWarpSearchI=时空理论搜索
+Effect/Name/TimeWarpSearchIM=时空理论搜索
+Effect/Name/TimeWarpTargetABI=Time Warp Target AB
+Effect/Name/TimeWarpTargetABIM=Time Warp Target AB
+Effect/Name/TimedLifeFateI=有限生命死亡
+Effect/Name/UpgradeDeathCPI=Upgrade Death CP
+Effect/Name/VoidEnergyDamageI=Void Energy (Damage)
+Effect/Name/VoidEnergySearchI=Void Energy Search
+Effect/Name/VoidRayChargeBeamBaseDamageCharge1I=Void Ray Charge Beam Base Damage Charge1
+Effect/Name/VoidRayChargeBeamBaseDamageCharge2I=Void Ray Charge Beam Base Damage Charge2
+Effect/Name/VoidRayChargeBeamBaseDamageCharge3I=Void Ray Charge Beam Base Damage Charge3
+Effect/Name/VoidRayChargeBeamBaseDamageI=Void Ray Charge Beam Base Damage
+Effect/Name/VoidRayChargeBeamRangeCasterABI=Void Ray Charge Beam Range Caster 
+Effect/Name/VoidRayChargeBeamRangeCounterCheckI=Void Ray Charge Beam Range Counter Check
+Effect/Name/VoidRayChargeBeamRangeCounterCheckPhase2I=Void Ray Charge Beam Range Counter Check Phase2
+Effect/Name/VoidRayChargeBeamRangeCounterCheckPhase3I=Void Ray Charge Beam Range Counter Check Phase3
+Effect/Name/VoidRayChargeBeamRangeDamageSwitchI=Void Ray Charge Beam Range Damage Switch
+Effect/Name/VoidRayChargeBeamRangeI=Void Ray Charge Beam Range
+Effect/Name/VoidRayChargeBeamRangeImpactSetI=Void Ray Charge Beam Range Impact Set
+Effect/Name/VoidRayChargeBeamRangeInitialImpactSetI=Void Ray Charge Beam Range Initial Impact Set
+Effect/Name/VoidRayChargeBeamRangePhase2ABI=Void Ray Charge Beam Range Phase2 AB
+Effect/Name/VoidRayChargeBeamRangePhase2RBI=Void Ray Charge Beam Range Phase2 RB
+Effect/Name/VoidRayChargeBeamRangePhase3ABI=Void Ray Charge Beam Range Phase3 AB
+Effect/Name/VoidRayDamageBoostI=Void Ray Damage Boost
+Effect/Name/VoidSentryShieldRepairDoubleI=Void Sentry Shield Repair Double
+Effect/Name/VoidShadowABI=Void Shadow AB
+Effect/Name/VoidZealotWhirlwindABI=Void Zealot Whirlwind AB
+Effect/Name/VoidZealotWhirlwindBehaviorSetI=Void Zealot Whirlwind Behavior Set
+Effect/Name/VoidZealotWhirlwindCancelMoveI=Void Zealot Whirlwind Cancel Move
+Effect/Name/VoidZealotWhirlwindDamageI=Void Zealot Whirlwind Damage
+Effect/Name/VoidZealotWhirlwindMoveCPI=Void Zealot Whirlwind Move CP
+Effect/Name/VoidZealotWhirlwindMoveOrderI=Void Zealot Whirlwind Move Order
+Effect/Name/VoidZealotWhirlwindMoveSearchI=Void Zealot Whirlwind Move Search
+Effect/Name/VoidZealotWhirlwindSearchI=Void Zealot Whirlwind Search
+Effect/Name/VoidZealotWhirlwindSetI=Void Zealot Whirlwind Set
+Effect/Name/VoidZealotWhirlwindWindSearchI=Void Zealot Whirlwind Wind Search
+Effect/Name/WarpBladesI=Warp Blades
+Effect/Name/WarpPrismAutoUnloadI=棱镜裂隙命令
+Effect/Name/WarpPrismPhasingRegenAuraRegenTickI=护盾增强器恢复
+Effect/Name/WarpPrismPhasingRegenAuraSearchI=护盾增强器搜索
+Effect/Name/WarpPrismPhasingRegenAuraTargetI=护盾增强器行为
+Effect/Name/XelNagaChargedCrystalDamageI=Xel'Naga Charged Crystal Damage
+Effect/Name/XelNagaChargedCrystalDamageIS=Xel'Naga Charged Crystal Damage
+Effect/Name/XelNagaConstructCPI=Xel Naga Construct CP
+Effect/Name/XelNagaConstructDamageI=Xel Naga Construct Damage
+Effect/Name/XelNagaConstructSearchI=Xel Naga Construct Search
+Effect/Name/XelNagaConstructSearchID=Xel Naga Construct Search
+Effect/Name/XelNagaConstructSmashApplyBehaviorI=Xel Naga Construct Smash Apply Behavior
+Effect/Name/XelNagaShadowStepApplyInI=Xel'Naga Shadow Step (Apply In)
+Effect/Name/XelNagaShadowStepApplyOutI=Xel'Naga Shadow Step (Apply Out)
+Effect/Name/XelNagaShadowStepLaunchMissileI=Xel'Naga Shadow Step (Launch Missile)
+Effect/Name/XelNagaShadowStepSetI=Xel'Naga Shadow Step (Set)
+Effect/Name/ZealotChargeDamageI=Charge (Damage)
+Effect/Name/ZealotChargeSearchI=Zealot Charge Search
+Effect/Name/ZealotChargeSetI=Zealot Charge Set
+Effect/Name/ZealotChargeStunTargetABI=Zealot Charge Stun Target AB
+Effect/Name/ZealotPsiBladesCleaveSetI=Zealot Psi Blades (Cleave Set)
+Effect/Name/ZealotShadowChargeI=卫道冲撞
+Race/Name/ProI=伊罕利
+RequirementNode/Tooltip/CountUnitAlias_GatewayCompleteOnly3230144147TechTreeCheat=空间门
+RequirementNode/Tooltip/CountUnitAlias_RoboticsFacilityCompleteOnly3959328758TechTreeCheat=构造台
+RequirementNode/Tooltip/CountUnitAlias_StargateCompleteOnly1125493402TechTreeCheat=时空航道
+RequirementNode/Tooltip/Eq2780780578CountUnitMothershipIQueuedOrBetter0=最多拥有一艘中央教条
+RequirementNode/Tooltip/LT2270482955CountUnitInterceptorIQueuedOrBetterAtUnit8=负星战舰搭载的突袭机数量无法多于8架
+RequirementNode/Tooltip/Not50564669CountBehaviorImmortalBarrierBaseICompleteOnlyAtUnit=教义执行者已拥有屏障
+Skin/Info/AssimilatorI=伊罕利星灵认为他们自己非常慷慨，他们允许人类继续生存在他们古老而神圣的家园——阿拉基尔，更不用说还让人类在此开采高能瓦斯了。
+Skin/Info/CyberneticsCoreI=人类在侦查伊罕利定居点的过程中，发现了一种和当代星灵控制芯核非常类似的构造体，不过这种伊罕利构造体散发出的能量完全不同。
+Skin/Info/DarkShrineI=伊罕利黑暗圣坛的顶部冒着滚烫的烟雾，这说明圣坛内部的温度极高，尽管人类的热学分析显示这些可变形陨石外部的温度已接近冰点。
+Skin/Info/FleetBeaconI=最终回到阿拉基尔的伊罕利建造了强大的舰队航标，以此在无垠的太空中寻找他们古老文明的幸存者。
+Skin/Info/GatewayI=一名人类高官在探访一处伊罕利定居点的时候触碰了传送门，并被那里过剩的虚空能量瞬间（且狼狈地）蒸发。这导致泰拉多尔九号星上的种间关系面临最严峻的考验。
+Skin/Info/NexusI=伊罕利欢迎人类代表团参观他们的定居点，但人类从来都没有进入过壮观的石制星灵枢纽，那里常常传来诡异的哭泣声和微弱的心跳声。
+Skin/Info/PhotonCannonI=伊罕利光子炮台上面的相位碎裂炮具有独特机翼形状的外壳，它的设计灵感来源于一种雄伟的鸟类生物。这种生物曾统治着泰拉多尔九号星的天空，至少在它们被早期的人类定居者捕杀灭绝之前是这样。
+Skin/Info/ProbeI=当处于长时间深空休眠不需要工作时，伊罕利探机会折叠成完美的立方体，以便能紧凑存放。
+Skin/Info/PylonI=伊罕利在泰拉多尔九号星上重新殖民。在殖民区域中，那些发着冷光的水晶塔阵不断扩大，散发着飘忽的光芒，即使是在轨道中也能看到。
+Skin/Info/RoboticsBayI=伊罕利机械研究所的分段式装配臂能够灵活地快速移动，这掩盖了它们的石头结构。
+Skin/Info/RoboticsFacilityI=伊罕利星灵新建的机械台活动频繁，他们在那里没日没夜地折跃数量庞大且全副武装的部队。但当人们问起这件事时他们却闪烁其词。
+Skin/Info/ShieldBatteryI=伊罕利建造了一个庞大的护盾充能器防御网络和一支强大的常备军，为了证明此举的合理性，他们表示这是为了“防御桀骜的野生动物”。
+Skin/Info/StargateI=虽然伊罕利声称他们对能够在祖传的家园中居住感到满意，但他们的星门已经开始制造星际主力战舰，这在某种程度上可能暗示着他们有更深远的帝国动机。
+Skin/Info/TemplarArchiveI=伊罕利的圣堂武士文献馆中保存着该文明最严密保守的秘密，其中包括宗教文献和那些令人毛骨悚然的半有机可变形陨石的使用说明。
+Skin/Info/TwilightCouncilI=在回到家乡阿拉基尔之后，伊罕利议会的长老们发现这个地方既熟悉，但又令人不安。在他们离开的漫长岁月里，许多事情都发生了变化，空气质量大不如前，受人喜爱的物种也走向了灭绝，而这都要归因于人类的发展。
+Skin/Name/AssimilatorI=吸纳舱
+Skin/Name/CyberneticsCoreI=控制芯核
+Skin/Name/DarkShrineI=黑暗圣坛
+Skin/Name/FleetBeaconI=舰队航标
+Skin/Name/GatewayI=传送门
+Skin/Name/NexusI=星灵枢纽
+Skin/Name/PhotonCannonI=光子炮台
+Skin/Name/ProbeI=探机
+Skin/Name/PylonI=水晶塔
+Skin/Name/RoboticsBayI=机械研究所
+Skin/Name/RoboticsFacilityI=机械台
+Skin/Name/ShieldBatteryI=护盾充能器
+Skin/Name/StargateI=星门
+Skin/Name/TemplarArchiveI=圣堂武士文献馆
+Skin/Name/TwilightCouncilI=光影议会
+TargetHasVoidEnergyI=目标已被虚空注能
+UI/ResourceSupplyToolTip_ProI=单位会消耗补给。折跃更多的超维空间水晶可以增加补给的数量。
+Unit/Category/IhanriiEUnits=伊罕利异教
+Unit/Category/IhanriiUnits=伊罕利
+Unit/LifeArmorName/MineralShieldsI=虚空采集
+Unit/Name/AdeptI=圣徒
+Unit/Name/AdeptPhaseShiftI=虚空幻影
+Unit/Name/AdeptSoulAbsorptionMissleI=Adept Soul Absorption Missile
+Unit/Name/AdeptUpgradeWeaponI=使徒升级
+Unit/Name/AdeptWeaponI=使徒
+Unit/Name/ArchonI=星界执政官
+Unit/Name/AssimilatorI=星云吸纳舱
+Unit/Name/AutomatedAssimilatorI=虚空吸纳舱
+Unit/Name/CarrierI=负星战舰
+Unit/Name/ColossusI=禁绝神兵
+Unit/Name/ColossusPsiOrbMissileI=Colossus Psi Orb Missile
+Unit/Name/CyberneticsCoreI=铭符芯核
+Unit/Name/DarkShrineI=虚空圣地
+Unit/Name/DarkTemplarI=绝罚者
+Unit/Name/DisruptorGhostI=虚空恶灵
+Unit/Name/DisruptorI=禁绝者
+Unit/Name/DisruptorPhasedI=虚空新星
+Unit/Name/DragonGhostI=虚空恶灵
+Unit/Name/DragoonI=守望者
+Unit/Name/DragoonWeaponI=龙骑士
+Unit/Name/EntropicBlastWeaponI=EntropicBlast
+Unit/Name/FleetBeaconI=星炬
+Unit/Name/ForgeI=星辰锻炉
+Unit/Name/GatewayI=空间门
+Unit/Name/HighTemplarI=宣教士
+Unit/Name/HighTemplarWeaponI=High Templar
+Unit/Name/ImmortalI=教义执行者
+Unit/Name/ImmortalShadowCannonMissileI=歼灭炮
+Unit/Name/ImmortalShadowCannonMissileIC=歼灭炮
+Unit/Name/InterceptorGhostI=虚空恶灵
+Unit/Name/InterceptorI=突袭机
+Unit/Name/IonCannonsWeaponI=离子炮
+Unit/Name/IonCannonsWeaponIO=离子炮
+Unit/Name/KhaydarinMonolithI=超维空间巨石
+Unit/Name/KhaydarinMonolithIH=超维空间巨石投射体
+Unit/Name/MothershipGhostI=虚空恶灵
+Unit/Name/MothershipI=中央教条
+Unit/Name/MothershipIE=损坏的异教母舰
+Unit/Name/NexusI=星核圣殿
+Unit/Name/ObserverI=观察者
+Unit/Name/ObserverISiegeMode=观察者
+Unit/Name/OracleI=观星船
+Unit/Name/PhoenixI=星璇战机
+Unit/Name/PhotonCannonI=超维空间炮台
+Unit/Name/PhotonCannonIH=超维空间炮台投射体
+Unit/Name/PhotonCannonWeaponI=光子炮台武器
+Unit/Name/ProbeI=拓荒者
+Unit/Name/PylonI=超维空间水晶
+Unit/Name/PylonIH=超维空间水晶投射体
+Unit/Name/ReleaseInterceptorsBeaconI=释放拦截机信标
+Unit/Name/ResourceBlockerI=虚空采集
+Unit/Name/RoboticsBayI=构造体研究所
+Unit/Name/RoboticsFacilityI=构造台
+Unit/Name/ScoutAirWeaponLeftI=左侧对空武器
+Unit/Name/ScoutAirWeaponRightI=右侧对空武器
+Unit/Name/ScoutI=星流战机
+Unit/Name/SentryI=光盾卫士
+Unit/Name/ShieldBatteryI=超维空间充能器
+Unit/Name/StalkerGhostI=虚空恶灵
+Unit/Name/StalkerI=伏击者
+Unit/Name/StalkerWeaponI=追猎者
+Unit/Name/StargateI=时空航道
+Unit/Name/TempestI=陨星战舰
+Unit/Name/TempestWeaponI=风暴战舰武器
+Unit/Name/TemplarArchiveI=议会文库
+Unit/Name/TwilightCouncilI=长老议会
+Unit/Name/VoidRayI=星蚀战舰
+Unit/Name/WarpGateI=空间通道
+Unit/Name/WarpPrismI=虚空阵列船
+Unit/Name/WarpPrismIPhasing=虚空阵列船
+Unit/Name/XelNagaChargedCrystalI=伊罕利充能水晶
+Unit/Name/XelNagaConstructI=伊罕利构造体
+Unit/Name/ZealotI=卫道士
+Unit/Name/ZealotIE=异端卫道士
+Unit/Name/splProI=伊罕利补给文本占位
+Upgrade/Name/IhanriiUpgradeI=伊罕利升级
+Weapon/Name/AdeptI=刃炮
+Weapon/Name/AdeptIP=刃炮
+Weapon/Name/DisruptionBeamI=瓦解射线
+Weapon/Name/DisruptorGhostChargedBeamI=恶灵轰击
+Weapon/Name/DisruptorVoidNovaDummyI=虚空新星搜索武器
+Weapon/Name/DisruptorWeaponI=虚空新星
+Weapon/Name/DragoonGhostChargedBeamI=恶灵光束
+Weapon/Name/DragoonGhostChargedBeamIG=恶灵轰击
+Weapon/Name/DragoonI=裂位炮
+Weapon/Name/HighTemplarWeaponI=虚空冲击
+Weapon/Name/InterceptorBeamI=突袭机射线
+Weapon/Name/InterceptorLaunchI=发射突袭机
+Weapon/Name/InterceptorsDummyI=突袭机
+Weapon/Name/IonCannonsI=星云炮
+Weapon/Name/IonCannonsIO=星云炮
+Weapon/Name/KhaydarinBeamI=超维空间光束
+Weapon/Name/MothershipBeamI=纯净虚空光束
+Weapon/Name/OracleI=脉冲光线
+Weapon/Name/OracleIS=干扰光线
+Weapon/Name/ParticleBeamI=粒子光束
+Weapon/Name/ParticleDisruptorsI=粒子碎裂炮
+Weapon/Name/PhaseDisruptorsAirI=歼灭炮
+Weapon/Name/PhaseDisruptorsAirIC=歼灭炮
+Weapon/Name/PhaseDisruptorsI=裂位炮
+Weapon/Name/PhoenixWhirlwindFakeWeaponI=星璇怒
+Weapon/Name/PhoenixWhirlwindFakeWeaponIG=星璇怒
+Weapon/Name/PhotonCannonI=超维空间炮台
+Weapon/Name/PsiBladesI=虚空灵能利刃
+Weapon/Name/PsiBladesIE=异端灵能利刃
+Weapon/Name/PsionicShockwaveI=虚空冲击波
+Weapon/Name/ScoutAirI=反物质干扰弹
+Weapon/Name/ScoutGroundI=光子干扰炮
+Weapon/Name/ScoutSuicideI=星流冲击
+Weapon/Name/StalkerGhostChargedBeamI=恶灵轰击
+Weapon/Name/TempestGroundI=谐振冲击
+Weapon/Name/TempestI=虚空爆发炮
+Weapon/Name/ThermalLancesI=虚空射线枪
+Weapon/Name/ThermalLancesIA=虚空射线枪
+Weapon/Name/ThermalLancesIL=虚空射线枪
+Weapon/Name/ThermalLancesILL=虚空射线枪
+Weapon/Name/ThermalLancesILR=虚空射线枪
+Weapon/Name/VoidRayChargeBeamRangeI=星蚀光束
+Weapon/Name/WarpBladesI=放逐战刃
+Weapon/Name/XelNagaChargedCrystalI=震颤冲击
+Weapon/Name/XelNagaChargedCrystalIS=震荡光束
+Weapon/Tip/AdeptI=<c val="#ColorAttackInfo">目标每有1点护甲，攻击额外造成1点伤害</c>
+Weapon/Tip/AdeptIP=<c val="#ColorAttackInfo">目标每有1点护甲，攻击额外造成1点伤害</c>
+Weapon/Tip/DisruptionBeamI=<c val="#ColorAttackInfo">100%</c>穿甲
+Weapon/Tip/DisruptorGhostChargedBeamI=<c val="#ColorAttackInfo">100%</c>穿甲
+Weapon/Tip/DisruptorWeaponI=<c val="#ColorAttackInfo">100%</c>穿甲
+Weapon/Tip/DragoonGhostChargedBeamI=<c val="#ColorAttackInfo">25%</c>穿甲
+Weapon/Tip/DragoonGhostChargedBeamIG=<c val="#ColorAttackInfo">100%</c>穿甲
+Weapon/Tip/DragoonI=<c val="#ColorAttackInfo">50%</c>穿甲
+Weapon/Tip/HighTemplarWeaponI=<c val="#ColorAttackInfo">100%</c>穿甲
+Weapon/Tip/InterceptorBeamI=<c val="#ColorAttackInfo">100%</c>穿甲
+Weapon/Tip/InterceptorLaunchI=<c val="#ColorAttackInfo">100%</c>穿甲
+Weapon/Tip/InterceptorsDummyI=<c val="#ColorAttackInfo">100%</c>穿甲
+Weapon/Tip/IonCannonsI=<c val="#ColorAttackInfo">50%</c>穿甲
+Weapon/Tip/IonCannonsIO=<c val="#ColorAttackInfo">50%</c>穿甲
+Weapon/Tip/KhaydarinBeamI=<c val="#ColorAttackInfo">100%</c>穿甲
+Weapon/Tip/MothershipBeamI=<c val="#ColorAttackInfo">100%</c>穿甲
+Weapon/Tip/ParticleBeamI=<c val="#ColorAttackInfo">75%</c>穿甲
+Weapon/Tip/ParticleDisruptorsI=<c val="#ColorAttackInfo">50%</c>穿甲
+Weapon/Tip/PhaseDisruptorsAirI=<c val="#ColorAttackInfo">50%</c>穿甲
+Weapon/Tip/PhaseDisruptorsAirIC=<c val="#ColorAttackInfo">50%</c>穿甲
+Weapon/Tip/PhaseDisruptorsI=<c val="#ColorAttackInfo">50%</c>穿甲
+Weapon/Tip/PhotonCannonI=<c val="#ColorAttackInfo">目标每有1点护甲，攻击额外造成1点伤害</c>
+Weapon/Tip/PsiBladesI=<c val="#ColorAttackInfo">目标每有1点护甲，攻击额外造成1点伤害</c>
+Weapon/Tip/PsiBladesIE=<c val="#ColorAttackInfo">目标每有1点护甲，攻击额外造成1点伤害</c>
+Weapon/Tip/PsionicShockwaveI=<c val="#ColorAttackInfo">100%</c>穿甲
+Weapon/Tip/ScoutAirI=<c val="#ColorAttackInfo">75%</c>穿甲
+Weapon/Tip/ScoutGroundI=<c val="#ColorAttackInfo">25%</c>穿甲
+Weapon/Tip/ScoutSuicideI=<c val="#ColorAttackInfo">100%</c>穿甲<n/>造成伤害的同时也将对自己造成<c val="#ColorAttackInfo">100</c>点法术伤害并终止<c val="#ColorAttackInfo">星流暴</c>。
+Weapon/Tip/StalkerGhostChargedBeamI=<c val="#ColorAttackInfo">100%</c>穿甲
+Weapon/Tip/TempestGroundI=<c val="#ColorAttackInfo">100%</c>穿甲
+Weapon/Tip/TempestI=<c val="#ColorAttackInfo">100%</c>穿甲
+Weapon/Tip/ThermalLancesI=<c val="#ColorAttackInfo">50%</c>穿甲
+Weapon/Tip/ThermalLancesIA=<c val="#ColorAttackInfo">80%</c>穿甲
+Weapon/Tip/ThermalLancesIL=<c val="#ColorAttackInfo">50%</c>穿甲
+Weapon/Tip/ThermalLancesILL=<c val="#ColorAttackInfo">50%</c>穿甲
+Weapon/Tip/ThermalLancesILR=<c val="#ColorAttackInfo">50%</c>穿甲
+Weapon/Tip/VoidRayChargeBeamRangeI=<c val="#ColorAttackInfo">50%</c>穿甲
+Weapon/Tip/WarpBladesI=<c val="#ColorAttackInfo">目标每有1点护甲，攻击额外造成1点伤害</c>
+Weapon/Tip/XelNagaChargedCrystalI=<c val="#ColorAttackInfo">100%</c>穿甲
+Weapon/Tip/XelNagaChargedCrystalIS=<c val="#ColorAttackInfo">25%</c>穿甲
+mineralsetI=必须以资源为目标
+yhlbbhj=伊罕利护甲
+yhlgzhj=伊罕利构造体护甲
+yhlhd=伊罕利虚空护盾
+yhljzhj=伊罕利建筑构造护甲
+yhlxkhj=伊罕利虚空护甲
+yhlyjbbhj=异教徒护甲
+yhlyjgzhj=异教构造护甲
+yhlyjhd=异教虚空护盾

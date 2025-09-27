@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CValidatorUnitType id="IsVHI">
+        <Value value="ResourceBlockerI"/>
+    </CValidatorUnitType>
+    <CValidatorUnitFilters id="NotFriendlyTargetI">
+        <Filters value="-;Player,Ally"/>
+    </CValidatorUnitFilters>
+    <CValidatorLocationEnumArea id="MothershipTFI">
+        <WhichLocation Value="CasterUnit"/>
+        <AreaArray Radius="10" Validator="SentryShieldTestBuffI"/>
+        <Compare value="GE"/>
+        <Count value="10"/>
+        <SearchFlags index="ExtendByUnitRadius" value="1"/>
+        <SearchFlags index="OffsetAreaByAngle" value="0"/>
+        <SearchFilters value="-;Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+    </CValidatorLocationEnumArea>
+    <CValidatorCombine id="MothershipTFSI">
+        <CombineArray value="IsCasterNoShieldInCombatI"/>
+        <CombineArray value="MothershipTFI"/>
+    </CValidatorCombine>
+    <CValidatorUnitCompareBehaviorCount id="NotHasDarkTemplarStasisI">
+        <WhichUnit Value="Caster"/>
+        <Behavior value="DarkTemplarStasisI"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorLocationEnumArea id="VoidRayChargeSI">
+        <WhichLocation Value="CasterUnit"/>
+        <AreaArray Radius="8"/>
+        <Compare value="GE"/>
+        <Count value="1"/>
+        <SearchFlags index="ExtendByUnitRadius" value="1"/>
+        <SearchFlags index="OffsetAreaByAngle" value="0"/>
+        <SearchFilters value="Visible;Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+    </CValidatorLocationEnumArea>
+    <CValidatorUnitCompareVital id="ShieldG90PI">
+        <ResultFailed value="TooMuchLife"/>
+        <Compare value="GT"/>
+        <Type value="Fraction"/>
+        <Value value="0.9"/>
+        <Vital value="Shields"/>
+    </CValidatorUnitCompareVital>
+    <CValidatorCombine id="VoidRayChargeI">
+        <Type value="And"/>
+        <CombineArray value="ShieldG90PI"/>
+        <CombineArray value="CasterNotInCombat5I"/>
+        <CombineArray value="VoidRayChargeSI"/>
+    </CValidatorCombine>
+    <CValidatorLocationEnumArea id="PhoenixWhirlwindGI">
+        <WhichLocation Value="CasterUnit"/>
+        <AreaArray Radius="8"/>
+        <Compare value="GE"/>
+        <Count value="2"/>
+        <SearchFlags index="ExtendByUnitRadius" value="1"/>
+        <SearchFlags index="OffsetAreaByAngle" value="0"/>
+        <SearchFilters value="Ground,Visible;Player,Ally,Neutral,Massive,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+    </CValidatorLocationEnumArea>
+    <CValidatorLocationEnumArea id="ScoutChargeI">
+        <WhichLocation Value="CasterUnit"/>
+        <AreaArray Radius="8"/>
+        <Compare value="GE"/>
+        <Count value="1"/>
+        <SearchFlags index="ExtendByUnitRadius" value="1"/>
+        <SearchFlags index="OffsetAreaByAngle" value="0"/>
+        <SearchFilters value="Air,Visible;Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+    </CValidatorLocationEnumArea>
+    <CValidatorLocationEnumArea id="PhoenixWhirlwindAI">
+        <WhichLocation Value="CasterUnit"/>
+        <AreaArray Radius="8"/>
+        <Compare value="GE"/>
+        <Count value="2"/>
+        <SearchFlags index="ExtendByUnitRadius" value="1"/>
+        <SearchFlags index="OffsetAreaByAngle" value="0"/>
+        <SearchFilters value="Air,Visible;Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+    </CValidatorLocationEnumArea>
+    <CValidatorLocationCompareRange id="TacticalBlinkAttackRangeID">
+        <WhichLocation Value="TargetUnitOrPoint"/>
+        <Compare value="GT"/>
+        <Range value="1"/>
+    </CValidatorLocationCompareRange>
+    <CValidatorCombine id="TemplarVEI">
+        <CombineArray value="TargetInCombat"/>
+        <CombineArray value="EnergyNotFullTargetI"/>
+    </CValidatorCombine>
+    <CValidatorPlayerRequirement id="CarrierHasInterceptorsI">
+        <Find value="1"/>
+        <Value value="ArmInterceptorIN"/>
+    </CValidatorPlayerRequirement>
+    <CValidatorCombine id="CarrierITW">
+        <Type value="And"/>
+        <CombineArray value="CasterInCombat"/>
+        <CombineArray value="CasterLifeLT90Percent"/>
+    </CValidatorCombine>
+    <CValidatorCombine id="AdeptPSI">
+        <Type value="And"/>
+        <CombineArray value="CasterInCombat"/>
+        <CombineArray value="ShieldL90PI"/>
+    </CValidatorCombine>
+    <CValidatorUnitCompareBehaviorCount id="CasterHasinIerceptorTimeLifeI">
+        <WhichUnit Value="Caster"/>
+        <Value value="1"/>
+        <Behavior value="ReleaseInterceptorsTimedLifeI"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorUnitCompareVital id="EnergyNotFullTargetI">
+        <Compare value="LT"/>
+        <Type value="Fraction"/>
+        <Value value="1"/>
+        <Vital value="Energy"/>
+    </CValidatorUnitCompareVital>
+    <CValidatorUnitCompareOrderCount id="HangarQueueEmptyIN">
+        <Compare value="GT"/>
+        <AbilLink value="CarrierHangarI"/>
+    </CValidatorUnitCompareOrderCount>
+    <CValidatorUnitOrder id="HasPhoenixWindAutocastI">
+        <AbilLink value="PhoenixWhirlwindI"/>
+        <CmdFlags index="SetAutoCast" value="1"/>
+    </CValidatorUnitOrder>
+    <CValidatorUnitCompareSpeed id="InterceptorIsNotStationaryI">
+        <Compare value="NE"/>
+    </CValidatorUnitCompareSpeed>
+    <CValidatorCombine id="CarrierILI">
+        <Type value="And"/>
+        <CombineArray value="CasterInCombat"/>
+        <CombineArray value="CasterLifeLT50Percent"/>
+    </CValidatorCombine>
+    <CValidatorCombine id="MineralSetI">
+        <ResultFailed value="Error,mineralsetI"/>
+        <CombineArray value="MineralTargetI"/>
+        <CombineArray value="MineralTargetIF"/>
+    </CValidatorCombine>
+    <CValidatorUnitFilters id="MineralTargetI">
+        <Filters value="HarvestableResource;-"/>
+    </CValidatorUnitFilters>
+    <CValidatorUnitFilters id="MineralTargetIF">
+        <Filters value="RawResource;-"/>
+    </CValidatorUnitFilters>
+    <CValidatorLocationCompareRange id="InterceptorRandomTargetInRangeI">
+        <Compare value="LT"/>
+        <Range value="6"/>
+        <Value Effect="CarrierInterceptorI" Value="TargetUnit"/>
+    </CValidatorLocationCompareRange>
+    <CValidatorCombine id="MothershipBurnDownFireI">
+        <Type value="And"/>
+        <CombineArray value="ShieldLQuarter"/>
+        <CombineArray value="LifeLQuarterI"/>
+        <CombineArray value="ProtossBurnDownValid"/>
+    </CValidatorCombine>
+    <CValidatorUnitType id="NotMothershipI">
+        <Value value="MothershipI"/>
+        <Find value="0"/>
+    </CValidatorUnitType>
+    <CValidatorUnitCompareBehaviorCount id="PsiStormTestBuffI">
+        <Behavior value="BlackHoleBombI"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorLocationEnumArea id="SentryShieldSI">
+        <WhichLocation Value="CasterUnit"/>
+        <AreaArray Radius="5" Validator="SentryShieldTestBuffI"/>
+        <Compare value="GE"/>
+        <Count value="1"/>
+        <SearchFlags index="ExtendByUnitRadius" value="1"/>
+        <SearchFlags index="OffsetAreaByAngle" value="0"/>
+        <SearchFilters value="-;Player,Ally,Neutral,Heroic,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+    </CValidatorLocationEnumArea>
+    <CValidatorUnitCompareBehaviorCount id="SentryShieldTestBuffI">
+        <Behavior value="GuardianShieldI"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorUnitCompareBehaviorCount id="ReleaseInterceptorsBeaconHasNoStacksI">
+        <WhichUnit Value="Source"/>
+        <Behavior value="ReleaseInterceptorsBeaconI"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorCombine id="ReleaseInterceptorsDestinationNotReachedI">
+        <Type value="And"/>
+        <CombineArray value="ReleaseInterceptorsNotNearDestinationI"/>
+        <CombineArray value="InterceptorIsNotStationaryI"/>
+    </CValidatorCombine>
+    <CValidatorCombine id="ReleaseInterceptorsNotDoingStuffI">
+        <Type value="And"/>
+        <CombineArray value="InterceptorNotPatrolling"/>
+        <CombineArray value="InterceptorNotAttacking"/>
+    </CValidatorCombine>
+    <CValidatorLocationCompareRange id="ReleaseInterceptorsNotNearDestinationI">
+        <WhichLocation Effect="ReleaseInterceptorsSetI"/>
+        <Compare value="GE"/>
+        <Value Value="TargetUnit"/>
+    </CValidatorLocationCompareRange>
+    <CValidatorLocationCompareRange id="ReleaseInterceptorsNotNearStartingPointI">
+        <WhichLocation Effect="ReleaseInterceptorsSetI"/>
+        <Compare value="GT"/>
+        <Range value="15"/>
+        <Value Value="SourceUnit"/>
+    </CValidatorLocationCompareRange>
+    <CValidatorCombine id="ReleaseInterceptorsNotNearStartingPointOrNotDoingStuffI">
+        <CombineArray value="ReleaseInterceptorsNotNearStartingPointI"/>
+        <CombineArray value="ReleaseInterceptorsNotDoingStuffI"/>
+    </CValidatorCombine>
+    <CValidatorUnitCompareVital id="LifeLQuarterI">
+        <ResultFailed value="TooMuchLife"/>
+        <Compare value="LT"/>
+        <Type value="Fraction"/>
+        <Value value="0.4"/>
+    </CValidatorUnitCompareVital>
+    <CValidatorUnitCompareVital id="ShieldL90PI">
+        <ResultFailed value="TooMuchLife"/>
+        <Compare value="LT"/>
+        <Type value="Fraction"/>
+        <Value value="0.9"/>
+        <Vital value="Shields"/>
+    </CValidatorUnitCompareVital>
+    <CValidatorUnitCompareVital id="TargetHealthGE150I">
+        <Compare value="GE"/>
+        <Value value="150"/>
+    </CValidatorUnitCompareVital>
+    <CValidatorUnitCompareBehaviorCount id="CasterIsNotPhaseShiftingI">
+        <WhichUnit Effect="AdeptPhaseShiftCUI" Value="Caster"/>
+        <Behavior value="AdeptPhaseShiftCancelDummyI"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorCombine id="EnemyTargetHealthGT150I">
+        <Type value="And"/>
+        <CombineArray value="EnemyTarget"/>
+        <CombineArray value="TargetHealthGE150I"/>
+    </CValidatorCombine>
+    <CValidatorUnitCompareVital id="TargetLifeLT20PercentI" parent="CasterLifePercent">
+        <WhichUnit Value="Target"/>
+        <Compare value="LE"/>
+        <Value value="0.25"/>
+    </CValidatorUnitCompareVital>
+    <CValidatorUnitCompareDamageTakenTime id="CasterNotInCombat5I">
+        <WhichUnit Value="Caster"/>
+        <Compare value="GE"/>
+        <Value value="5"/>
+    </CValidatorUnitCompareDamageTakenTime>
+    <CValidatorLocationCompareRange id="ChargeMaxDistanceI">
+        <ResultFailed value="TargetIsOutOfRange"/>
+        <WhichLocation Value="SourceUnit"/>
+        <Compare value="LT"/>
+        <Range value="4"/>
+        <Pathing value="1"/>
+        <Value Value="TargetUnit"/>
+    </CValidatorLocationCompareRange>
+    <CValidatorUnitCompareOrderTargetRange id="ChargeMinDistanceI">
+        <ResultFailed value="TargetIsTooClose"/>
+        <Compare value="GT"/>
+        <AbilLink value="attack"/>
+        <Value value="0.1"/>
+    </CValidatorUnitCompareOrderTargetRange>
+    <CValidatorUnitCompareOrderTargetRange id="ChargeMinTriggerDistanceI">
+        <ResultFailed value="TargetIsTooClose"/>
+        <WhichUnit Value="Caster"/>
+        <OtherUnit Value="Target"/>
+        <Compare value="GT"/>
+        <AbilLink value="attack"/>
+        <Value value="0.6"/>
+    </CValidatorUnitCompareOrderTargetRange>
+    <CValidatorUnitFilters id="ColossusIceBeamFalseI">
+        <Filters value="Massive;-"/>
+    </CValidatorUnitFilters>
+    <CValidatorCombine id="ColossusIceBeamSetI">
+        <CombineArray value="IsStructure"/>
+        <CombineArray value="IsHeroic"/>
+        <CombineArray value="ColossusIceBeamFalseI"/>
+    </CValidatorCombine>
+    <CValidatorUnitCompareSpeed id="ArchonIsMovingI">
+        <Compare value="GT"/>
+        <Value value="0.0468"/>
+    </CValidatorUnitCompareSpeed>
+    <CValidatorCombine id="IsTargetLowHealthInCombatI">
+        <Type value="And"/>
+        <CombineArray value="FriendlyTarget"/>
+        <CombineArray value="TargetLifeLT20PercentI"/>
+        <CombineArray value="TargetInCombat"/>
+    </CValidatorCombine>
+    <CValidatorCombine id="ShieldBarrierPhaseAutoCastI">
+        <CombineArray value="EnemyTargetHealthGT150I"/>
+        <CombineArray value="IsTargetLowHealthInCombatI"/>
+    </CValidatorCombine>
+    <CValidatorUnitFilters id="NotHeavyI">
+        <Filters value="-;Massive"/>
+    </CValidatorUnitFilters>
+    <CValidatorUnitCompareBehaviorCount id="CasterHasStarStormI">
+        <WhichUnit Value="Caster"/>
+        <Value value="1"/>
+        <Behavior value="ScoutStarStormI"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorCombine id="PhoenixWWI">
+        <CombineArray value="PhoenixWhirlwindAI"/>
+        <CombineArray value="PhoenixWhirlwindGI"/>
+    </CValidatorCombine>
+    <CValidatorUnitCompareBehaviorCount id="VoidEnergyIF">
+        <ResultFailed value="Error,TargetHasVoidEnergyI"/>
+        <Behavior value="HighTemplarVoidEnergyIF"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorUnitCompareBehaviorCount id="VoidEnergyIE">
+        <ResultFailed value="Error,TargetHasVoidEnergyI"/>
+        <Behavior value="HighTemplarVoidEnergyIN"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorCombine id="VoidEnergySetI">
+        <Type value="And"/>
+        <CombineArray value="VoidEnergyIE"/>
+        <CombineArray value="VoidEnergyIF"/>
+        <ResultFailed value="Error,TargetHasVoidEnergyI"/>
+    </CValidatorCombine>
+    <CValidatorUnitFilters id="IsFriendlyTargetI">
+        <Filters value="-;Neutral,Enemy"/>
+    </CValidatorUnitFilters>
+    <CValidatorUnitType id="IsWarpPrismI">
+        <Value value="WarpPrismI"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="IsWarpPrismPhasingI">
+        <Value value="WarpPrismIPhasing"/>
+    </CValidatorUnitType>
+    <CValidatorUnitFilters id="ColossusIceBeamI">
+        <Filters value="-;Massive,Structure,Heroic"/>
+    </CValidatorUnitFilters>
+    <CValidatorCombine id="StarWindTargetFiltI">
+        <CombineArray value="IsGroundUnit"/>
+        <CombineArray value="TargetHasStarWindI"/>
+    </CValidatorCombine>
+    <CValidatorCombine id="IsCasterNoShieldInCombatI">
+        <Type value="And"/>
+        <CombineArray value="CasterInCombat"/>
+        <CombineArray value="CasterShieldsLT1"/>
+    </CValidatorCombine>
+    <CValidatorCombine id="ImmortalBarrierAutoCastI">
+        <CombineArray value="IsCasterHasBarrierNotInCombatI"/>
+        <CombineArray value="IsCasterNoShieldInCombatI"/>
+    </CValidatorCombine>
+    <CValidatorCombine id="IsCasterHasBarrierNotInCombatI">
+        <Type value="And"/>
+        <CombineArray value="CasterNotInCombat5I"/>
+        <CombineArray value="NotHasBarrierI"/>
+    </CValidatorCombine>
+    <CValidatorUnitType id="IsPrismPhaseI">
+        <WhichUnit Value="Caster"/>
+        <Value value="WarpPrismIPhasing"/>
+    </CValidatorUnitType>
+    <CValidatorUnitCompareBehaviorCount id="NotHasBarrierI">
+        <WhichUnit Value="Caster"/>
+        <Behavior value="ImmortalBarrierBaseI"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorUnitType id="IsDragoonI">
+        <Value value="DragoonI"/>
+    </CValidatorUnitType>
+    <CValidatorUnitCompareBehaviorCount id="TargetHasStarWindI">
+        <Value value="1"/>
+        <Behavior value="GravitonBeamI"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorUnitOrderQueue id="SentryIsRepairingI">
+        <AbilLink value="SentryShieldRepairDoubleI"/>
+    </CValidatorUnitOrderQueue>
+    <CValidatorLocationArc id="TargetBehindCasterI">
+        <WhichLocation Value="CasterUnit"/>
+        <Find value="1"/>
+        <Arc value="180"/>
+        <Value Value="TargetUnit"/>
+    </CValidatorLocationArc>
+    <CValidatorUnitCompareBehaviorCount id="TargetNotBeingShieldRepairedI">
+        <Behavior value="SentryShieldRepairDoubleHealingI"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorUnitCompareBehaviorCount id="VoidRayChargeBeamCounterPhase1I">
+        <WhichUnit Value="Caster"/>
+        <Compare value="LT"/>
+        <Value value="6"/>
+        <Behavior value="VoidRayChargeBeamRangeCounterI"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorCombine id="VoidRayChargeBeamRangeCounterCheckPhase2ReadyI">
+        <Type value="And"/>
+        <CombineArray value="VoidRayChargeBeamRangeCounterPhase2CountHighI"/>
+        <CombineArray value="VoidRayChargeBeamRangeCounterPhase2CountLowI"/>
+    </CValidatorCombine>
+    <CValidatorCombine id="VoidRayChargeBeamRangeCounterCheckPhase3ReadyI">
+        <Type value="And"/>
+        <CombineArray value="VoidRayChargeBeamRangeCounterPhase3CountLowI"/>
+    </CValidatorCombine>
+    <CValidatorUnitCompareBehaviorCount id="VoidRayChargeBeamRangeCounterPhase2CountHighI">
+        <WhichUnit Value="Caster"/>
+        <Compare value="LT"/>
+        <Value value="12"/>
+        <Behavior value="VoidRayChargeBeamRangeCounterI"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorUnitCompareBehaviorCount id="VoidRayChargeBeamRangeCounterPhase2CountLowI">
+        <WhichUnit Value="Caster"/>
+        <Compare value="GE"/>
+        <Value value="6"/>
+        <Behavior value="VoidRayChargeBeamRangeCounterI"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorUnitCompareBehaviorCount id="VoidRayChargeBeamRangeCounterPhase3CountLowI">
+        <WhichUnit Value="Caster"/>
+        <Compare value="GE"/>
+        <Value value="12"/>
+        <Behavior value="VoidRayChargeBeamRangeCounterI"/>
+    </CValidatorUnitCompareBehaviorCount>
+</Catalog>

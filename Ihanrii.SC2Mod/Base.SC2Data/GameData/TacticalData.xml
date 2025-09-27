@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CTacticalSet id="HighTemplarI">
+        <Array value="HighTemplarPSI"/>
+        <Array value="HighTemplarVEI"/>
+    </CTacticalSet>
+    <CTacticalOrder id="MothershipMFI">
+        <Abil value="DropMothershipE"/>
+        <TargetFind value="MothershipMFI"/>
+    </CTacticalOrder>
+    <CTacticalSet id="MothershipI">
+        <Array value="MothershipMFI"/>
+        <Array value="MothershipTFI"/>
+    </CTacticalSet>
+    <CTacticalOrder id="HighTemplarPSI">
+        <Abil value="BlackHoleBombI"/>
+        <TargetFind value="PsiStormI"/>
+    </CTacticalOrder>
+    <CTacticalOrder id="ColossusI">
+        <Abil value="ColossusPsiOrbI"/>
+        <TargetFind value="ColossusVGI"/>
+    </CTacticalOrder>
+    <CTacticalOrder id="PhoenixWWI">
+        <Abil value="PhoenixWhirlwindI"/>
+        <Validator value="PhoenixWWI"/>
+    </CTacticalOrder>
+    <CTacticalOrder id="MothershipTFI">
+        <Abil value="FlagshipTimeBombI"/>
+        <Validator value="MothershipTFSI"/>
+    </CTacticalOrder>
+    <CTacticalOrder id="VoidRayI">
+        <Abil value="VoidRayDamageBoostI"/>
+        <Validator value="VoidRayChargeI"/>
+    </CTacticalOrder>
+    <CTacticalOrder id="SentryGFI">
+        <Abil value="GuardianShieldI"/>
+        <Validator value="SentryShieldSI"/>
+    </CTacticalOrder>
+    <CTacticalSet id="CarrierI">
+        <Array value="CarrierILI"/>
+        <Array value="CarrierITW"/>
+    </CTacticalSet>
+    <CTacticalOrder id="AdeptPSI">
+        <Abil value="AdeptPhaseShiftSI"/>
+        <Validator value="AdeptPSI"/>
+    </CTacticalOrder>
+    <CTacticalOrder id="ScoutChargeI">
+        <Abil value="ScoutStarStormI"/>
+        <Validator value="ScoutChargeI"/>
+    </CTacticalOrder>
+    <CTacticalOrder id="StalkerI">
+        <Abil value="BlinkI"/>
+        <TargetFind value="BlinkI"/>
+    </CTacticalOrder>
+    <CTacticalOrder id="CarrierILI">
+        <Abil value="ReleaseInterceptorsI"/>
+        <TargetFind value="CarrierILI"/>
+        <Validator value="CarrierILI"/>
+    </CTacticalOrder>
+    <CTacticalOrder id="CarrierITW">
+        <Abil value="CarrierTimeWarpI"/>
+        <Validator value="HangarQueueEmptyIN"/>
+    </CTacticalOrder>
+    <CTacticalOrder id="HighTemplarVEI">
+        <Abil value="FeedbackI"/>
+        <TargetFind value="TemplarVEI"/>
+    </CTacticalOrder>
+    <CTacticalOrder id="DarkTemplarI">
+        <Abil value="DarkTemplarBlinkI"/>
+        <TargetFind value="DarkTemplarBlinkI"/>
+    </CTacticalOrder>
+</Catalog>
