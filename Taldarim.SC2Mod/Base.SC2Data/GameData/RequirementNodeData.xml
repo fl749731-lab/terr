@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CRequirementAnd id="AndCountUnitFleetBeaconDCompleteOnlyTechTreeCheatEq2181383592CountUnitMothershipDBQueuedOrBetter0">
+        <OperandArray value="CountUnitFleetBeaconDCompleteOnlyTechTreeCheat"/>
+        <OperandArray value="Eq2181383592CountUnitMothershipDBQueuedOrBetter0"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndCountUnitTwilightCouncilDCompleteOnlyTechTreeCheatEq2621028074CountUnitTaldarimShieldGeneratorDQueuedOrBetter0">
+        <OperandArray value="CountUnitTwilightCouncilDCompleteOnlyTechTreeCheat"/>
+        <OperandArray value="Eq2621028074CountUnitTaldarimShieldGeneratorDQueuedOrBetter0"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndCountUnitTwilightCouncilDCompleteOnlyTechTreeCheatEq66394315CountUnitSlaynMissileTurretDQueuedOrBetter0">
+        <OperandArray value="CountUnitTwilightCouncilDCompleteOnlyTechTreeCheat"/>
+        <OperandArray value="Eq66394315CountUnitSlaynMissileTurretDQueuedOrBetter0"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndCountUpgradeTaldarimFactionsSonsOfSlaynCompleteOnlyCountUpgradeTaldarimFactionsSonsOfAmonCompleteOnly">
+        <OperandArray value="CountUpgradeTaldarimFactionsSonsOfSlaynCompleteOnly"/>
+        <OperandArray value="CountUpgradeTaldarimFactionsSonsOfAmonCompleteOnly"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndNotAndCountUpgradeTaldarimFactionsSonsOfSlaynCompleteOnlyCountUpgradeTaldarimFactionsSonsOfAmonCompleteOnlyCountUpgradeTaldarimFactionsSonsOfAmonCompleteOnly">
+        <OperandArray value="NotAndCountUpgradeTaldarimFactionsSonsOfSlaynCompleteOnlyCountUpgradeTaldarimFactionsSonsOfAmonCompleteOnly"/>
+        <OperandArray value="CountUpgradeTaldarimFactionsSonsOfAmonCompleteOnly"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndNotAndCountUpgradeTaldarimFactionsSonsOfSlaynCompleteOnlyCountUpgradeTaldarimFactionsSonsOfAmonCompleteOnlyCountUpgradeTaldarimFactionsSonsOfSlaynCompleteOnly">
+        <OperandArray value="NotAndCountUpgradeTaldarimFactionsSonsOfSlaynCompleteOnlyCountUpgradeTaldarimFactionsSonsOfAmonCompleteOnly"/>
+        <OperandArray value="CountUpgradeTaldarimFactionsSonsOfSlaynCompleteOnly"/>
+    </CRequirementAnd>
+    <CRequirementCountBehavior id="CountBehaviorAdeptPhaseShiftCasterDCompleteOnlyAtUnit">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AdeptPhaseShiftCasterD" State="CompleteOnlyAtUnit"/>
+    </CRequirementCountBehavior>
+    <CRequirementCountBehavior id="CountBehaviorInterceptorAmmoDummyDCompleteOnlyAtUnit">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="InterceptorAmmoDummyD" State="CompleteOnlyAtUnit"/>
+    </CRequirementCountBehavior>
+    <CRequirementCountBehavior id="CountBehaviorObserveHoldFireBDCompleteOnlyAtUnit">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="ObserveHoldFireBD" State="CompleteOnlyAtUnit"/>
+    </CRequirementCountBehavior>
+    <CRequirementCountBehavior id="CountBehaviorReaverScarabSReadyDCompleteOnlyAtUnit">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="ReaverScarabSReadyD" State="CompleteOnlyAtUnit"/>
+    </CRequirementCountBehavior>
+    <CRequirementCountUnit id="CountUnitCyberneticsCoreDCompleteOnlyTechTreeCheat">
+        <Count Link="CyberneticsCoreD" State="CompleteOnly"/>
+    </CRequirementCountUnit>
+    <CRequirementCountUnit id="CountUnitDarkShrineCompleteOnlyTechTreeCheat">
+        <Count Link="DarkShrineSacrificeD"/>
+    </CRequirementCountUnit>
+    <CRequirementCountUnit id="CountUnitDarkShrineDCompleteOnlyTechTreeCheat">
+        <Count Link="DarkShrineD" State="CompleteOnly"/>
+    </CRequirementCountUnit>
+    <CRequirementCountUnit id="CountUnitFleetBeaconDCompleteOnlyTechTreeCheat">
+        <Count Link="FleetBeaconD" State="CompleteOnly"/>
+    </CRequirementCountUnit>
+    <CRequirementCountUnit id="CountUnitForgeDCompleteOnlyTechTreeCheat">
+        <Count Link="ForgeD" State="CompleteOnly"/>
+    </CRequirementCountUnit>
+    <CRequirementCountUnit id="CountUnitInterceptorDQueuedOrBetterAtUnit">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="InterceptorD" State="QueuedOrBetterAtUnit"/>
+    </CRequirementCountUnit>
+    <CRequirementCountUnit id="CountUnitMothershipDBQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="MothershipDB" State="QueuedOrBetter"/>
+    </CRequirementCountUnit>
+    <CRequirementCountUnit id="CountUnitNexusDCompleteOnlyTechTreeCheat">
+        <Count Link="NexusD" State="CompleteOnly"/>
+    </CRequirementCountUnit>
+    <CRequirementCountUnit id="CountUnitRoboticsBayDCompleteOnlyTechTreeCheat">
+        <Count Link="RoboticsBayD" State="CompleteOnly"/>
+    </CRequirementCountUnit>
+    <CRequirementCountUnit id="CountUnitScarabDCompleteOnlyAtUnit">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="ScarabD" State="CompleteOnlyAtUnit"/>
+    </CRequirementCountUnit>
+    <CRequirementCountUnit id="CountUnitScarabDQueuedOrBetterAtUnit">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="ScarabD" State="QueuedOrBetterAtUnit"/>
+    </CRequirementCountUnit>
+    <CRequirementCountUnit id="CountUnitSlaynMissileTurretDQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="SlaynMissileTurretD" State="QueuedOrBetter"/>
+    </CRequirementCountUnit>
+    <CRequirementCountUnit id="CountUnitTaldarimShieldGeneratorDCompleteOnly">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="TaldarimShieldGeneratorD" State="CompleteOnly"/>
+    </CRequirementCountUnit>
+    <CRequirementCountUnit id="CountUnitTaldarimShieldGeneratorDQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="TaldarimShieldGeneratorD" State="QueuedOrBetter"/>
+    </CRequirementCountUnit>
+    <CRequirementCountUnit id="CountUnitTemplarArchiveDCompleteOnlyTechTreeCheat">
+        <Count Link="TemplarArchiveD" State="CompleteOnly"/>
+    </CRequirementCountUnit>
+    <CRequirementCountUnit id="CountUnitTwilightCouncilDCompleteOnlyTechTreeCheat">
+        <Count Link="TwilightCouncilD" State="CompleteOnly"/>
+    </CRequirementCountUnit>
+    <CRequirementCountUpgrade id="CountUpgradeTaldarimFactionsSonsOfAmonCompleteOnly">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="TaldarimFactionsSonsOfAmon" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeTaldarimFactionsSonsOfSlaynCompleteOnly">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="TaldarimFactionsSonsOfSlayn" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementEq id="Eq2181383592CountUnitMothershipDBQueuedOrBetter0">
+        <OperandArray index="0" value="CountUnitMothershipDBQueuedOrBetter"/>
+        <OperandArray index="1" value="0"/>
+    </CRequirementEq>
+    <CRequirementEq id="Eq2621028074CountUnitTaldarimShieldGeneratorDQueuedOrBetter0">
+        <OperandArray index="0" value="CountUnitTaldarimShieldGeneratorDQueuedOrBetter"/>
+        <OperandArray index="1" value="0"/>
+    </CRequirementEq>
+    <CRequirementEq id="Eq66394315CountUnitSlaynMissileTurretDQueuedOrBetter0">
+        <OperandArray index="0" value="CountUnitSlaynMissileTurretDQueuedOrBetter"/>
+        <OperandArray index="1" value="0"/>
+    </CRequirementEq>
+    <CRequirementEq id="EqCountUnitScarabDCompleteOnlyAtUnit0">
+        <OperandArray index="0" value="CountUnitScarabDCompleteOnlyAtUnit"/>
+        <OperandArray index="1" value="0"/>
+    </CRequirementEq>
+    <CRequirementLT id="LT4074361840CountUnitInterceptorDQueuedOrBetterAtUnit8">
+        <OperandArray index="0" value="CountUnitInterceptorDQueuedOrBetterAtUnit"/>
+        <OperandArray index="1" value="8"/>
+    </CRequirementLT>
+    <CRequirementLT id="LT724021365CountUnitScarabDQueuedOrBetterAtUnit6">
+        <OperandArray index="0" value="CountUnitScarabDQueuedOrBetterAtUnit"/>
+        <OperandArray index="1" value="6"/>
+    </CRequirementLT>
+    <CRequirementNot id="Not1826354782CountBehaviorReaverScarabSReadyDCompleteOnlyAtUnit">
+        <OperandArray index="0" value="CountBehaviorReaverScarabSReadyDCompleteOnlyAtUnit"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotAndCountUpgradeTaldarimFactionsSonsOfSlaynCompleteOnlyCountUpgradeTaldarimFactionsSonsOfAmonCompleteOnly">
+        <OperandArray index="0" value="AndCountUpgradeTaldarimFactionsSonsOfSlaynCompleteOnlyCountUpgradeTaldarimFactionsSonsOfAmonCompleteOnly"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountBehaviorObserveHoldFireBDCompleteOnlyAtUnit">
+        <OperandArray index="0" value="CountBehaviorObserveHoldFireBDCompleteOnlyAtUnit"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUnitTaldarimShieldGeneratorDCompleteOnly">
+        <OperandArray index="0" value="CountUnitTaldarimShieldGeneratorDCompleteOnly"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeTaldarimFactionsSonsOfAmonCompleteOnly">
+        <OperandArray index="0" value="CountUpgradeTaldarimFactionsSonsOfAmonCompleteOnly"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeTaldarimFactionsSonsOfSlaynCompleteOnly">
+        <OperandArray index="0" value="CountUpgradeTaldarimFactionsSonsOfSlaynCompleteOnly"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotOrCountUpgradeTaldarimFactionsSonsOfSlaynCompleteOnlyCountUpgradeTaldarimFactionsSonsOfAmonCompleteOnly">
+        <OperandArray index="0" value="OrCountUpgradeTaldarimFactionsSonsOfSlaynCompleteOnlyCountUpgradeTaldarimFactionsSonsOfAmonCompleteOnly"/>
+    </CRequirementNot>
+    <CRequirementOr id="OrCountUpgradeTaldarimFactionsSonsOfSlaynCompleteOnlyCountUpgradeTaldarimFactionsSonsOfAmonCompleteOnly">
+        <OperandArray value="CountUpgradeTaldarimFactionsSonsOfSlaynCompleteOnly"/>
+        <OperandArray value="CountUpgradeTaldarimFactionsSonsOfAmonCompleteOnly"/>
+    </CRequirementOr>
+</Catalog>

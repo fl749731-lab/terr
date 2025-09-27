@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CTargetFindSet id="BlinkD">
+        <Type value="Successful"/>
+        <Array value="BlinkRetreat"/>
+        <Array value="BlinkAttack"/>
+    </CTargetFindSet>
+    <CTargetFindBestPoint id="ForceFieldBestPointD">
+        <Flags index="EvaluateCmd" value="1"/>
+        <DamageBase value="35"/>
+        <Effect value="ForceFieldPlacementD"/>
+        <MinCount value="3"/>
+        <MinScore value="3"/>
+    </CTargetFindBestPoint>
+    <CTargetFindSet id="PsiOrbD">
+        <Type value="Sequential"/>
+        <Array value="PsiOrbD2AD"/>
+        <Array value="PsiOrbBestPointD"/>
+    </CTargetFindSet>
+    <CTargetFindSet id="ForceFieldD">
+        <Type value="Sequential"/>
+        <Array value="ForceField2AD"/>
+        <Array value="ForceFieldBestPointD"/>
+    </CTargetFindSet>
+    <CTargetFindEffect id="PsiOrbD2AD">
+        <TargetValidator value="PsiOrbValidTargetsD"/>
+        <Effect value="VoidHighTemplarPsiOrbSearchD"/>
+    </CTargetFindEffect>
+    <CTargetFindBestPoint id="PsiOrbBestPointD">
+        <Flags index="EvaluateCmd" value="1"/>
+        <DamageBase value="50"/>
+        <Effect value="VoidHighTemplarPsiOrbSearchD"/>
+        <MinCount value="4"/>
+        <MinScore value="4"/>
+    </CTargetFindBestPoint>
+    <CTargetFindEnumArea id="MindBlastD">
+        <TargetValidator value="TargetLifeGE200D"/>
+        <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Hallucination,Invulnerable"/>
+        <SearchFlags index="ExtendByUnitRadius" value="1"/>
+        <AreaArray/>
+        <Abil value="VoidHighTemplarMindBlastD"/>
+        <ExtendRadius value="3"/>
+        <TargetSorts>
+            <SortArray value="TSLifeD"/>
+        </TargetSorts>
+    </CTargetFindEnumArea>
+    <CTargetFindEffect id="ForceField2AD">
+        <TargetValidator value="ForceFieldValidTargetsD"/>
+        <Effect value="ForceFieldPlacementD"/>
+    </CTargetFindEffect>
+</Catalog>

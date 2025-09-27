@@ -1,0 +1,3819 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CModel id="AdeptD" parent="AdeptBase">
+        <Model value="Assets\Units\Protoss\Adept_Taldarim_Collection\Adept_Taldarim_Collection.m3"/>
+    </CModel>
+    <CModel id="AdeptDeathD" parent="AdeptDeathBase">
+        <Model value="Assets\Units\Protoss\Adept_Taldarim_Collection_Death\Adept_Taldarim_Collection_Death.m3"/>
+    </CModel>
+    <CModel id="AdeptDeathRagdollD" parent="AdeptDeathRagdollBase">
+        <Model value="Assets\Units\Protoss\Adept_Taldarim_Collection_DeathRagdoll\Adept_Taldarim_Collection_DeathRagdoll.m3"/>
+    </CModel>
+    <CModel id="MothershipDA" parent="MothershipBase">
+        <Model value="Taldarim\taldarim_bigmother.m3"/>
+        <ScaleMax value="0.885000,0.885000,0.860000"/>
+        <ScaleMin value="0.885000,0.885000,0.860000"/>
+    </CModel>
+    <CModel id="MothershipDeathDA" parent="MothershipDeathBase">
+        <Model value="Assets\Units\Protoss\MotherShip_Taldarim_Death\MotherShip_Taldarim_Death.m3"/>
+    </CModel>
+    <CModel id="MothershipDeathRagdollDA" parent="MothershipDeathRagdollBase">
+        <Model value="Taldarim\MothershipDeathRagdollD.m3"/>
+    </CModel>
+    <CModel id="OracleD" parent="OracleBase">
+        <Model value="Assets\Units\Protoss\Oracle_Taldarim\Oracle_Taldarim.m3"/>
+    </CModel>
+    <CModel id="OracleDeathD" parent="OracleDeathBase">
+        <Model value="Assets\Units\Protoss\Oracle_Taldarim_Death\Oracle_Taldarim_Death.m3"/>
+    </CModel>
+    <CModel id="OracleDeathMorphD" parent="OracleMorphDeathBase">
+        <Model value="Assets\Units\Protoss\Oracle_Taldarim_Death_Ragdoll\Oracle_Taldarim_Death_Ragdoll.m3"/>
+        <LowQualityModel value=""/>
+    </CModel>
+    <CModel id="OracleDeathRagdollD" parent="OracleDeathRagdollBase">
+        <Model value="Assets\Units\Protoss\Oracle_Taldarim_Death_Ragdoll\Oracle_Taldarim_Death_Ragdoll.m3"/>
+    </CModel>
+    <CModel id="OracleDeathWalkD" parent="OracleWalkDeathBase">
+        <Model value="Assets\Units\Protoss\Oracle_Taldarim_Death_Walk\Oracle_Taldarim_Death_Walk.m3"/>
+    </CModel>
+    <CModel id="OraclePortraitD" parent="OraclePortraitBase">
+        <Model value="Assets\Portraits\Protoss\Oracle_Taldarim_Portrait\Oracle_Taldarim_Portrait.m3"/>
+        <Image value="Assets\Textures\oracle_taldarim_static.dds"/>
+        <Lighting value="Oracle_Taldarim_Portrait"/>
+    </CModel>
+    <CModel id="OracleWarpInD" parent="OneShotSpellFX">
+        <Model value="Assets\Units\Protoss\Oracle_Taldarim\Oracle_Taldarim.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Occlusion value="Show"/>
+        <Radius value="1.000000"/>
+        <ScaleMax value="0.650000,0.650000,0.650000"/>
+        <ScaleMin value="0.650000,0.650000,0.650000"/>
+        <SelectionOffset value="0.000000,0.000000,-0.750000"/>
+        <SelectionRadius value="1.000000"/>
+        <ShadowRadius value="1.000000"/>
+        <SquibTypeDefault value="Metal"/>
+    </CModel>
+    <CModel id="PTCCNBirthD" parent="NexusWarpInBase">
+        <Model value="Taldarim\ParticleCannon_Taldarim_DS_WarpIn.m3"/>
+        <Radius value="1.500000"/>
+        <ScaleMax value="0.800000,0.800000,0.800000"/>
+        <ScaleMin value="0.800000,0.800000,0.800000"/>
+        <SelectionRadius value="2.250000"/>
+        <ShadowRadius value="2.250000"/>
+    </CModel>
+    <CModel id="HybridNemesisShadowH" parent="OneShotSpellFX">
+        <Model value="Taldarim\Hybrid_NemesisD.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="0.900000,0.900000,0.900000"/>
+        <ScaleMin value="0.900000,0.900000,0.900000"/>
+    </CModel>
+    <CModel id="HybridDestructionWaveH" parent="OneShotSpellFX">
+        <Model value="Assets\Effects\Protoss\Alarak_DestructionWave\Alarak_DestructionWave.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="HybridDestructionWaveImpactH" parent="OneShotSpellFX">
+        <Model value="Assets\Effects\Protoss\Alarak_DestructionWave_Impact\Alarak_DestructionWave_Impact.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="HybridBehemothH" parent="Unit" Race="Zerg">
+        <Model value="Assets\Units\Zerg\Hybrid_Zerg_Advanced\Hybrid_Zerg_Advanced.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Events>
+            <Anim value="Birth,00"/>
+            <Name value="HybridBehemoth_Birth"/>
+            <Type value="Sound"/>
+            <Time value="0.010000"/>
+            <Payload value="HybridBehemoth_Birth"/>
+        </Events>
+        <Events>
+            <Anim value="Attack,00"/>
+            <Name value="HybridSounds"/>
+            <Type value="Sound"/>
+            <Time value="0.100000"/>
+            <Payload value="HybridF_AttackLaunch"/>
+        </Events>
+        <Events>
+            <Anim value="Attack,00"/>
+            <Name value="HybridSounds"/>
+            <Type value="Sound"/>
+            <Time value="0.200000"/>
+            <Payload value="HybridF_AttackLaunch"/>
+        </Events>
+        <Events>
+            <Anim value="Attack,00"/>
+            <Name value="HybridSounds"/>
+            <Type value="Sound"/>
+            <Time value="0.390000"/>
+            <Payload value="HybridF_AttackImpact"/>
+        </Events>
+        <Events>
+            <Anim value="Attack,00"/>
+            <Name value="HybridSounds"/>
+            <Type value="Sound"/>
+            <Time value="0.530000"/>
+            <Payload value="HybridF_AttackImpact"/>
+        </Events>
+        <Events>
+            <Anim value="Stand,Angry,00"/>
+            <Name value="HybridSounds"/>
+            <Type value="Sound"/>
+            <Time value="0.010000"/>
+            <Payload value="HybridF_Roar"/>
+        </Events>
+        <Flags index="AutoUnload" value="1"/>
+        <Lighting value="HybridZergAdvanced"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigher14"/>
+        <Radius value="1.000000"/>
+        <ScaleMax value="0.900000,0.900000,0.900000"/>
+        <ScaleMin value="0.900000,0.900000,0.900000"/>
+        <SelectionRadius value="1.250000"/>
+        <ShadowRadius value="1.250000"/>
+        <TechPurchaseCamera value="Star2CameraHigher14"/>
+        <UnitGlossaryCamera value="Star2CameraHigher14"/>
+    </CModel>
+    <CModel id="HybridBehemothDeathH" parent="UnitDeath" Race="Zerg">
+        <Model value="Assets\Units\Zerg\Hybrid_Zerg_Advanced_Death\Hybrid_Zerg_Advanced_Death.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Occlusion value="Show"/>
+    </CModel>
+    <CModel id="HybridBehemothPortraitH" parent="Portrait" Race="Zerg">
+        <Model value="Assets\Portraits\Zerg\Hybrid_Zerg_Advanced_Portrait\Hybrid_Zerg_Advanced_Portrait.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Image value="Assets\Textures\hybridzergadvancedportrait_static.dds"/>
+        <Lighting value="HybridZergAdvanced"/>
+    </CModel>
+    <CModel id="HybridDominatorAttackBeamH" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Neutral\Hybrid_ProtossAdvanced_Experimented_AttackBeam\Hybrid_ProtossAdvanced_Experimented_AttackBeam.m3"/>
+        <LowQualityModel value="ArchonAttackBeamLow"/>
+        <EditorCategories value="Race:Protoss"/>
+        <RadiusLoose value="1.000000"/>
+        <ScaleMax value="1.300000,1.300000,1.300000"/>
+        <ScaleMin value="1.300000,1.300000,1.300000"/>
+    </CModel>
+    <CModel id="HybridDominatorH" parent="Unit" Race="Protoss">
+        <Model value="Taldarim\Hybrid_ProtossAdvancedD.m3"/>
+        <Flags index="AutoUnload" value="1"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigher08"/>
+        <Radius value="1.000000"/>
+        <SelectionRadius value="1.111000"/>
+        <ShadowRadius value="1.111000"/>
+        <TechPurchaseCamera value="Star2CameraHigher08"/>
+        <UnitGlossaryCamera value="Star2CameraHigher08"/>
+    </CModel>
+    <CModel id="HybridDominatorDeathH" parent="UnitDeath" Race="Protoss">
+        <Model value="Taldarim\Hybrid_ProtossAdvanced_DeathD.m3"/>
+    </CModel>
+    <CModel id="HybridDominatorVoidPlasmaAttackChargeModelH" parent="ImpactFX">
+        <Model value="Assets\Effects\Zerg\Void_Kerrigan_QuantumRay_Hand_Charge\Void_Kerrigan_QuantumRay_Hand_Charge.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="1.200000,1.200000,1.200000"/>
+        <ScaleMin value="1.200000,1.200000,1.200000"/>
+    </CModel>
+    <CModel id="HybridDominatorVoidPlasmaAttackImpactH" parent="ImpactFX">
+        <Model value="Taldarim\Void_Thrasher_Missile_ImpactH.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="HybridDominatorVoidPlasmaWeaponH" parent="MissileFX">
+        <Model value="Taldarim\Void_Thrasher_MissileH.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="HybridDominatorVoidPortraitH" parent="Portrait" Race="Protoss">
+        <Model value="Assets\Portraits\Protoss\Hybrid_Protoss_Advanced_Portrait\Hybrid_Protoss_Advanced_Portrait.m3"/>
+        <Image value="Assets\Textures\hybridprotossadvancedportrait_static.dds"/>
+        <Lighting value="HybridProtossAdvanced"/>
+    </CModel>
+    <CModel id="HybridDominatorWeaponModelD" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Protoss\Alarak_COOP_SoulAbsorption_Missile\Alarak_COOP_SoulAbsorption_Missile.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="1.100000,1.100000,1.100000"/>
+        <ScaleMin value="1.100000,1.100000,1.100000"/>
+    </CModel>
+    <CModel id="HybridBehemothStunH">
+        <Model value="Taldarim\Void_LifeCrystal_ShockwaveH.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="0.500000,0.500000,0.500000"/>
+        <ScaleMin value="0.500000,0.500000,0.500000"/>
+        <SelectionRadius value="0.178400"/>
+        <ShadowRadius value="0.178400"/>
+    </CModel>
+    <CModel id="HybridBehemothStunModelH" parent="Unit" Race="Zerg">
+        <Model value="Assets\Effects\Neutral\Hybrid_ProtossAdvanced_Experimented_VoidRift\Hybrid_ProtossAdvanced_Experimented_VoidRift.m3"/>
+        <AnimSpeed value="0.500000"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Radius value="0.800000"/>
+        <ScaleMax value="0.400000,0.400000,0.400000"/>
+        <ScaleMin value="0.400000,0.400000,0.400000"/>
+        <SelectionOffset value="0.000000,0.000000,-0.750000"/>
+        <SelectionRadius value="1.000000"/>
+        <ShadowRadius value="1.000000"/>
+    </CModel>
+    <CModel id="HybridProtossAttackImpactHD" parent="ImpactFX">
+        <Model value="Assets\Effects\Protoss\Alarak_DestructionWave_Impact\Alarak_DestructionWave_Impact.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="0.500000,0.500000,0.500000"/>
+        <ScaleMin value="0.500000,0.500000,0.500000"/>
+        <SelectionRadius value="2.500000"/>
+        <ShadowRadius value="2.500000"/>
+    </CModel>
+    <CModel id="HybridProtossMissileHD" parent="MissileFX">
+        <Model value="Assets\Effects\Protoss\Alarak_COOP_Sacrifice_Missile\Alarak_COOP_Sacrifice_Missile.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <SelectionRadius value="0.416500"/>
+        <ShadowRadius value="0.416500"/>
+    </CModel>
+    <CModel id="HybridReaverAntiAirAttackImpactDB" parent="ImpactFX">
+        <Model value="Assets\Effects\Protoss\Alarak_DestructionWave_Impact\Alarak_DestructionWave_Impact.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="1.300000,1.300000,1.300000"/>
+        <ScaleMin value="1.300000,1.300000,1.300000"/>
+    </CModel>
+    <CModel id="HybridReaverAntiAirAttackWeaponDB" parent="MissileFX">
+        <Model value="Assets\Effects\Protoss\Alarak_COOP_Sacrifice_Missile\Alarak_COOP_Sacrifice_Missile.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="1.500000,1.500000,1.500000"/>
+        <ScaleMin value="1.500000,1.500000,1.500000"/>
+    </CModel>
+    <CModel id="HybridTissueAssimilationModelHB" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Zerg\MendBuff\MendBuff.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="1.300000,1.300000,1.300000"/>
+        <ScaleMin value="1.300000,1.300000,1.300000"/>
+    </CModel>
+    <CModel id="SuperWarpGateDeathD" parent="BuildingDeath" Race="Protoss">
+        <Model value="Assets\Buildings\Protoss\Gateway_Forged_WarpGate_Death\Gateway_Forged_WarpGate_Death.m3"/>
+        <LowQualityModel value="ProtossBuildingDeathLow"/>
+        <ScaleMax value="0.500000,0.500000,0.500000"/>
+        <ScaleMin value="0.500000,0.500000,0.500000"/>
+    </CModel>
+    <CModel id="ShieldGeneratorForceShieldD" parent="PersistentSpellFX">
+        <Model value="Taldarim\Conclave_Purifier_ShieldD.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Events>
+            <Anim value="Birth,00"/>
+            <Name value="SoundStart"/>
+            <Type value="Custom"/>
+            <Time value="0.010000"/>
+        </Events>
+        <Events>
+            <Anim value="Stand,01"/>
+            <Name value="SoundLoopStart"/>
+            <Type value="Custom"/>
+            <Time value="0.010000"/>
+        </Events>
+        <Events>
+            <Anim value="Death,00"/>
+            <Name value="SoundLoopEnd"/>
+            <Type value="Custom"/>
+            <Time value="0.010000"/>
+        </Events>
+        <ScaleMax value="4.000000,4.000000,4.000000"/>
+        <ScaleMin value="4.000000,4.000000,4.000000"/>
+    </CModel>
+    <CModel id="ShieldGeneratorForceShieldImpactD" parent="PersistentSpellFX">
+        <Model value="Taldarim\SentryShieldImpactD.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="ShieldGeneratorForceShieldGlazeD">
+        <Model value="Assets\Effects\Glaze\Glaze_Alarak_COOP_Empower\Glaze_Alarak_COOP_Empower.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="ShieldGeneratorSuperShieldCasterModelD" parent="ImpactFX">
+        <Model value="Assets\COOP\Tychus\Effects\Heavens_COOP_GearDeliveryBeam\Heavens_COOP_GearDeliveryBeam.m3"/>
+        <AnimSpeed value="0.800000"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="1.400000,1.400000,1.400000"/>
+        <ScaleMin value="1.400000,1.400000,1.400000"/>
+    </CModel>
+    <CModel id="ShieldGeneratorGlazeSuperShieldD">
+        <Model value="Assets\Effects\Glaze\Glaze_VoidStasis\Glaze_VoidStasis.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="HybridNemesisHurricaneAttackImpactH" parent="ImpactFX">
+        <Model value="Assets\Effects\Protoss\Alarak_DestructionWave_Impact\Alarak_DestructionWave_Impact.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="0.400000,0.400000,0.400000"/>
+        <ScaleMin value="0.400000,0.400000,0.400000"/>
+    </CModel>
+    <CModel id="HybridNemesisHurricaneMissileH" parent="MissileFX">
+        <Model value="Assets\Effects\Protoss\Alarak_COOP_Sacrifice_Missile\Alarak_COOP_Sacrifice_Missile.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="0.750000,0.750000,0.750000"/>
+        <ScaleMin value="0.750000,0.750000,0.750000"/>
+    </CModel>
+    <CModel id="HybridNemesisH" parent="Unit" Race="Zerg">
+        <Model value="Taldarim\Hybrid_NemesisD.m3"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraLow08"/>
+        <Radius value="1.250000"/>
+        <ScaleMax value="1.150000,1.150000,1.150000"/>
+        <ScaleMin value="1.150000,1.150000,1.150000"/>
+        <SelectionOffset value="0.000000,0.000000,-0.400000"/>
+        <SelectionRadius value="1.250000"/>
+        <ShadowRadius value="1.250000"/>
+        <SquibTypeDefault value="Flesh"/>
+        <TechPurchaseCamera value="Star2CameraLow08"/>
+        <UnitGlossaryCamera value="Star2CameraLow08"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="HybridNemesisDeathH" parent="UnitDeath" Race="Zerg">
+        <Model value="Taldarim\Hybrid_Nemesis_DeathD.m3"/>
+        <LowQualityModel value="ZergMediumUnitDeathLow"/>
+        <Events>
+            <Anim value="Death,00"/>
+            <Name value="HybridNemesisDeathSound"/>
+            <Type value="Actor"/>
+            <Time value="3.017000"/>
+            <Payload value="HybridNemesisDeathSound"/>
+        </Events>
+        <Events>
+            <Anim value="Death,00"/>
+            <Name value="Uni_DeathFXAcid"/>
+            <Type value="Sound"/>
+            <Time value="0.021000"/>
+            <Payload value="Uni_DeathFXAcid"/>
+        </Events>
+        <Events>
+            <Anim value="Death,00"/>
+            <Name value="Uni_DeathFXAcid"/>
+            <Type value="Sound"/>
+            <Time value="3.004000"/>
+            <Payload value="Uni_DeathFXAcid"/>
+        </Events>
+        <Events>
+            <Anim value="Death,00"/>
+            <Name value="Hybrid_Nemesis_DeathScreams"/>
+            <Type value="Sound"/>
+            <Time value="0.011000"/>
+            <Payload value="Hybrid_Nemesis_DeathScreams"/>
+        </Events>
+        <Events>
+            <Anim value="Death,00"/>
+            <Name value="Hybrid_Nemesis_DeathScreams"/>
+            <Type value="Sound"/>
+            <Time value="0.810000"/>
+            <Payload value="Hybrid_Nemesis_DeathScreams"/>
+        </Events>
+        <Events>
+            <Anim value="Death,00"/>
+            <Name value="Hybrid_Nemesis_DeathScreams"/>
+            <Type value="Sound"/>
+            <Time value="1.607000"/>
+            <Payload value="Hybrid_Nemesis_DeathScreams"/>
+        </Events>
+        <Events>
+            <Anim value="Death,00"/>
+            <Name value="Hybrid_Nemesis_DeathScreams"/>
+            <Type value="Sound"/>
+            <Time value="2.389000"/>
+            <Payload value="Hybrid_Nemesis_DeathScreams"/>
+        </Events>
+        <Occlusion value="Show"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="HybridNemesisPortraitH" parent="Portrait" Race="Zerg">
+        <Model value="Assets\Portraits\Protoss\Hybrid_Nemesis_Portrait\Hybrid_Nemesis_Portrait.m3"/>
+        <Image value="Assets\Textures\hybridnemesisportrait_static.dds"/>
+        <Lighting value="PortraitHybridNemesis"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="HybridNemesisWeaponBeamH" parent="PersistentSpellFX">
+        <Model value="Taldarim\HybridEnergizeBeamLargeD.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <RadiusLoose value="1.000000"/>
+        <ScaleMax value="1.250000,1.250000,1.250000"/>
+        <ScaleMin value="1.250000,1.250000,1.250000"/>
+    </CModel>
+    <CModel id="HybridReaverAntiAirAttackImpactD" parent="ImpactFX">
+        <Model value="Assets\Effects\Protoss\Alarak_DestructionWave_Impact\Alarak_DestructionWave_Impact.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="1.150000,1.150000,1.150000"/>
+        <ScaleMin value="1.150000,1.150000,1.150000"/>
+    </CModel>
+    <CModel id="HybridReaverAntiAirAttackWeaponD" parent="MissileFX">
+        <Model value="Assets\Effects\Protoss\Alarak_COOP_Sacrifice_Missile\Alarak_COOP_Sacrifice_Missile.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="1.350000,1.350000,1.350000"/>
+        <ScaleMin value="1.350000,1.350000,1.350000"/>
+    </CModel>
+    <CModel id="HybridConsumeDNAFeedbackWeaponH" parent="MissileFX">
+        <Model value="Taldarim\HybridConsumeMissileH.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="1.100000,1.100000,1.100000"/>
+        <ScaleMin value="1.100000,1.100000,1.100000"/>
+        <SelectionRadius value="0.333200"/>
+        <ShadowRadius value="0.333200"/>
+    </CModel>
+    <CModel id="HybridReaverH" parent="Unit" Race="Protoss">
+        <Model value="Taldarim\HybridZergD.m3"/>
+        <Events>
+            <Anim value="Attack,00"/>
+            <Name value="HybridSounds"/>
+            <Type value="Sound"/>
+            <Time value="0.100000"/>
+            <Payload value="HybridViper_AttackLaunch"/>
+        </Events>
+        <Events>
+            <Anim value="Attack,00"/>
+            <Name value="HybridSounds"/>
+            <Type value="Sound"/>
+            <Time value="0.200000"/>
+            <Payload value="HybridViper_AttackLaunch"/>
+        </Events>
+        <Events>
+            <Anim value="Attack,00"/>
+            <Name value="HybridSounds"/>
+            <Type value="Sound"/>
+            <Time value="0.390000"/>
+            <Payload value="HybridViper_AttackImpact"/>
+        </Events>
+        <Events>
+            <Anim value="Attack,00"/>
+            <Name value="HybridSounds"/>
+            <Type value="Sound"/>
+            <Time value="0.530000"/>
+            <Payload value="HybridViper_AttackImpact"/>
+        </Events>
+        <Flags index="AutoUnload" value="1"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigher16"/>
+        <Radius value="1.000000"/>
+        <ScaleMax value="0.700000,0.700000,0.700000"/>
+        <ScaleMin value="0.700000,0.700000,0.700000"/>
+        <SelectionRadius value="1.250000"/>
+        <ShadowRadius value="1.250000"/>
+        <TechPurchaseCamera value="Star2CameraHigher16"/>
+        <UnitGlossaryCamera value="Star2CameraHigher16"/>
+    </CModel>
+    <CModel id="HybridWeaponMissileH" parent="MissileFX">
+        <Model value="Assets\Effects\Protoss\Alarak_COOP_SoulAbsorption_Missile\Alarak_COOP_SoulAbsorption_Missile.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="0.400000,0.400000,0.400000"/>
+        <ScaleMin value="0.400000,0.400000,0.400000"/>
+    </CModel>
+    <CModel id="GravitonPrisonBeamH" parent="PersistentSpellFX">
+        <Model value="Taldarim\HybridGravitronPrisonBeamD.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="GravitonPrisonEffectH" parent="PersistentSpellFX">
+        <Model value="Taldarim\HybridGravitronPrisonImpactD.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="HybridHighTemplarPsiStormImpactH" parent="ImpactFX">
+        <Model value="Assets\Effects\Protoss\PsiStormImpact\PsiStormImpact.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Radius value="1.000000"/>
+    </CModel>
+    <CModel id="HybridPsiStormModelH" parent="PersistentSpellFX">
+        <Model value="Taldarim\PsiStormD.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <RadiusLoose value="1.000000"/>
+    </CModel>
+    <CModel id="HybridProtossAttackImpactH" parent="ImpactFX">
+        <Model value="Taldarim\ImmortalMissileImpactD.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <SelectionRadius value="2.500000"/>
+        <ShadowRadius value="2.500000"/>
+        <ScaleMax value="0.750000,0.750000,0.750000"/>
+        <ScaleMin value="0.750000,0.750000,0.750000"/>
+    </CModel>
+    <CModel id="HybridShadowH" parent="OneShotSpellFX">
+        <Model value="Assets\Units\Protoss\HybridProtossShadowTrail\HybridProtossShadowTrail.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="0.800000,0.800000,0.800000"/>
+        <ScaleMin value="0.800000,0.800000,0.800000"/>
+    </CModel>
+    <CModel id="HybridDestroyerH" parent="Unit" Race="Protoss">
+        <Model value="Taldarim\HybridProtossD.m3"/>
+        <Flags index="AutoUnload" value="1"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigher08"/>
+        <Radius value="1.000000"/>
+        <ScaleMax value="0.850000,0.850000,0.850000"/>
+        <ScaleMin value="0.850000,0.850000,0.850000"/>
+        <SelectionRadius value="1.111000"/>
+        <ShadowRadius value="1.111000"/>
+        <TechPurchaseCamera value="Star2CameraHigher08"/>
+        <UnitGlossaryCamera value="Star2CameraHigher08"/>
+    </CModel>
+    <CModel id="HybridProtossDeathH" parent="UnitDeath" Race="Protoss">
+        <Model value="Taldarim\HybridProtossDeathEx1D.m3"/>
+        <LowQualityModel value="ProtossLargeUnitDeathLow"/>
+        <SelectionRadius value="0.555400"/>
+        <ShadowRadius value="0.555400"/>
+    </CModel>
+    <CModel id="HybridProtossPortraitH" parent="Portrait" Race="Protoss">
+        <Model value="Assets\Portraits\Protoss\HybridProtossPortrait\HybridProtossPortrait.m3"/>
+        <Image value="Assets\Textures\HybridProtossPortrait_Static.dds"/>
+        <Lighting value="HybridProtossPortrait"/>
+    </CModel>
+    <CModel id="HybridZergDeathH" parent="UnitDeath" Race="Zerg">
+        <Model value="Taldarim\HybridZergDeathEx1D.m3"/>
+        <LowQualityModel value="ZergLargeUnitDeathLow"/>
+        <SelectionRadius value="0.625000"/>
+        <ShadowRadius value="0.625000"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="HybridZergPortraitH" parent="Portrait" Race="Zerg">
+        <Model value="Assets\Portraits\Zerg\HybridZergPortrait\HybridZergPortrait.m3"/>
+        <Image value="Assets\Textures\HybridZergPortrait_Static.dds"/>
+        <Lighting value="HybridZergPortrait"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="MothershipSoulAbsorptionDummyAttackMissileD" parent="MissileFX">
+        <Model value="Assets\Effects\Protoss\Alarak_SoulAbsorption_Missile\Alarak_SoulAbsorption_Missile.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Events>
+            <Anim value="Stand,00"/>
+            <Name value="Alarak_SoulSteal_Missile"/>
+            <Type value="Sound"/>
+            <Time value="0.009000"/>
+            <Payload value="Alarak_SoulSteal_Missile"/>
+        </Events>
+        <SelectionRadius value="0.333200"/>
+        <ShadowRadius value="0.333200"/>
+    </CModel>
+    <CModel id="MothershipSoulStealGlazeD">
+        <Model value="Assets\Effects\Glaze\Glaze_SoulAbsorption\Glaze_SoulAbsorption.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="Alarak_AirAttack_MissileDH" parent="RaceMissileFX" Race="Protoss">
+        <Model value="Assets\Effects\Protoss\Alarak_COOP_AirAttack_Missile\Alarak_COOP_AirAttack_Missile.m3"/>
+    </CModel>
+    <CModel id="ArbiterCastModelD" parent="OneShotSpellFX">
+        <Model value="Taldarim\Arbiter_StasisField_ShockwaveD.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Radius value="5.000000"/>
+        <RadiusLoose value="5.000000"/>
+        <ScaleMax value="0.500000,0.500000,1.000000"/>
+        <ScaleMin value="0.500000,0.500000,1.000000"/>
+    </CModel>
+    <CModel id="ArbiterRecalledImpactD" parent="OneShotSpellFX">
+        <Model value="Taldarim\RecallImpactInD.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="0.750000,0.750000,0.750000"/>
+        <ScaleMin value="0.750000,0.750000,0.750000"/>
+    </CModel>
+    <CModel id="ArbiterRecallingImpactD" parent="OneShotSpellFX">
+        <Model value="Taldarim\RecallImpactOutD.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="0.750000,0.750000,0.750000"/>
+        <ScaleMin value="0.750000,0.750000,0.750000"/>
+    </CModel>
+    <CModel id="ArbiterStasisFieldImpactD" parent="RaceImpactFX" Race="Protoss">
+        <Model value="Assets\Effects\Protoss\Arbiter_StasisField_Impact\Arbiter_StasisField_Impact.m3"/>
+    </CModel>
+    <CModel id="ArbiterWeaponImpactD" parent="ImpactFX">
+        <Model value="Taldarim\PhaseCannonMissileImpactD.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="ArbiterWeaponMissileD" parent="MissileFX">
+        <Model value="Taldarim\PhaseCannonMissileD.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="1.500000,1.500000,1.500000"/>
+        <ScaleMin value="1.500000,1.500000,1.500000"/>
+    </CModel>
+    <CModel id="ArbiterPlacementD" parent="Placement" Race="Protoss">
+        <Model value="Assets\Units\Protoss\ArbiterEX2_Placement\ArbiterEX2_Placement.m3"/>
+        <Occlusion value="Show"/>
+        <Radius value="-1.000000"/>
+        <ScaleMax value="0.850000,0.850000,0.850000"/>
+        <ScaleMin value="0.850000,0.850000,0.850000"/>
+        <SelectionRadius value="0.588100"/>
+        <ShadowRadius value="0.588100"/>
+    </CModel>
+    <CModel id="ArbiterWarpInD" parent="OneShotSpellFX">
+        <Model value="Assets\Units\Protoss\ArbiterEX2_WarpIn\ArbiterEX2_WarpIn.m3"/>
+        <LowQualityModel value="ProtossUnitBirth"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Occlusion value="Show"/>
+        <SelectionRadius value="0.666500"/>
+        <ShadowRadius value="0.666500"/>
+    </CModel>
+    <CModel id="ArbiterD" parent="Unit" Race="Protoss">
+        <Model value="Taldarim\Arbiter_Taldarim_DS.m3"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraLow05"/>
+        <Radius value="1.000000"/>
+        <SelectionOffset value="0.000000,0.000000,-0.750000"/>
+        <SelectionRadius value="1.000000"/>
+        <ShadowRadius value="1.000000"/>
+        <TechPurchaseCamera value="Star2CameraLow05"/>
+        <UnitGlossaryCamera value="Star2CameraLow05"/>
+        <ScaleMax value="1.250000,1.150000,1.150000"/>
+        <ScaleMin value="1.250000,1.150000,1.150000"/>
+    </CModel>
+    <CModel id="ArbiterDeathD" parent="UnitDeath" Race="Protoss">
+        <Model value="Taldarim\Arbiter_Taldarim_DS_Death.m3"/>
+        <LowQualityModel value="ProtossMediumUnitDeathLow"/>
+        <Occlusion value="Show"/>
+        <Radius value="0.750000"/>
+        <SelectionRadius value="0.750000"/>
+        <ShadowRadius value="0.750000"/>
+    </CModel>
+    <CModel id="ArbiterPortraitD" parent="Portrait" Race="Protoss">
+        <Model value="Assets\Portraits\Protoss\Phoenix_Taldarim_Portrait\Phoenix_Taldarim_Portrait.m3"/>
+        <Image value="Assets\Textures\phoenix_taldarim_static.dds"/>
+        <Lighting value="PhoenixPortrait"/>
+    </CModel>
+    <CModel id="MothershipCuttingBeamD" parent="PersistentSpellFX">
+        <Model value="Taldarim\Stalker_BlinkAttackBeam_Zeratul_COOPD.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <RadiusLoose value="1.000000"/>
+    </CModel>
+    <CModel id="MotherShipBeaconLightD" parent="PersistentSpellFX">
+        <Model value="Taldarim\MotherShipBeaconLightD.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="MotherShipBeaconLightDM" parent="PersistentSpellFX">
+        <Model value="Taldarim\MotherShipCore_Taldarim_Collection_Morph_AdditionD.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="1.600000,1.600000,1.600000"/>
+        <ScaleMin value="1.600000,1.600000,1.600000"/>
+    </CModel>
+    <CModel id="MotherShipDPart1" Race="Neutral">
+        <Model value="Assets\Doodads\Slayn_Banner\Slayn_Banner_00.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="0.400000,0.400000,0.400000"/>
+        <ScaleMin value="0.400000,0.400000,0.400000"/>
+    </CModel>
+    <CModel id="MotherShipDPart10" Race="Neutral">
+        <Model value="Assets\Doodads\Slayn_Generic_Temple\Slayn_Generic_Temple_06.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="0.150000,0.200000,0.300000"/>
+        <ScaleMin value="0.150000,0.200000,0.300000"/>
+    </CModel>
+    <CModel id="MotherShipDPart12" Race="Neutral">
+        <Model value="Assets\Doodads\Slayn_Statues\Slayn_Statues_01.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="0.350000,0.350000,0.350000"/>
+        <ScaleMin value="0.350000,0.350000,0.350000"/>
+    </CModel>
+    <CModel id="MotherShipDPart2" Race="Neutral">
+        <Model value="Taldarim\MotherShipPart.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="1.500000,1.500000,1.500000"/>
+        <ScaleMin value="1.500000,1.500000,1.500000"/>
+    </CModel>
+    <CModel id="MotherShipDPart3" Race="Neutral">
+        <Model value="Taldarim\MotherShipPart.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="1.000000,1.000000,1.250000"/>
+        <ScaleMin value="1.000000,1.000000,1.250000"/>
+    </CModel>
+    <CModel id="MotherShipDPart4" Race="Neutral">
+        <Model value="Assets\Doodads\Slayn_Temple_Banners_Slow\Slayn_Temple_Banners_Slow_00.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="1.500000,1.500000,1.500000"/>
+        <ScaleMin value="1.500000,1.500000,1.500000"/>
+    </CModel>
+    <CModel id="MotherShipDPart5" Race="Neutral">
+        <Model value="Assets\Doodads\Slayn_CliffDoodads\Slayn_CliffDoodads_02.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="0.500000,0.350000,0.350000"/>
+        <ScaleMin value="0.500000,0.350000,0.350000"/>
+    </CModel>
+    <CModel id="MotherShipDPart6" Race="Neutral">
+        <Model value="Assets\Doodads\Slayn_Temple_CliffDoodads_Small\Slayn_Temple_CliffDoodads_Small_00.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="0.200000,0.200000,0.300000"/>
+        <ScaleMin value="0.200000,0.200000,0.300000"/>
+    </CModel>
+    <CModel id="MotherShipDPart7" Race="Neutral">
+        <Model value="Assets\Doodads\Slayn_Temple_Pillars\Slayn_Temple_Pillars_00.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="0.400000,0.400000,0.400000"/>
+        <ScaleMin value="0.400000,0.400000,0.400000"/>
+    </CModel>
+    <CModel id="MotherShipDPart8" Race="Neutral">
+        <Model value="Assets\Buildings\Protoss\Pylon_Taldarim\Pylon_Taldarim.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="0.150000,0.150000,0.150000"/>
+        <ScaleMin value="0.150000,0.150000,0.150000"/>
+    </CModel>
+    <CModel id="MotherShipDPart8A" Race="Neutral">
+        <Model value="Assets\Doodads\Slayn_Road_Inlay\Slayn_Road_Inlay_00.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="0.225000,0.225000,0.300000"/>
+        <ScaleMin value="0.225000,0.225000,0.300000"/>
+    </CModel>
+    <CModel id="MotherShipDPart9" Race="Neutral">
+        <Model value="Assets\Doodads\Slayn_StoneDoodads\Slayn_StoneDoodads_03.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="0.400000,0.400000,0.400000"/>
+        <ScaleMin value="0.400000,0.400000,0.400000"/>
+    </CModel>
+    <CModel id="MothershipCoreD" parent="MothershipCoreBase">
+        <Model value="Taldarim\MothershipCore_Taldarim_CollectionD.m3"/>
+    </CModel>
+    <CModel id="MothershipCorePortraitD" parent="MothershipCorePortraitBase">
+        <Model value="Assets\Portraits\Protoss\Mothership_Taldarim_Collection_Portrait\Mothership_Taldarim_Collection_Portrait.m3"/>
+        <Image value="Assets\Textures\mothership_taldarim_collection_portrait_static.dds"/>
+        <Lighting value="Mothership_Taldarim_Collection_Portrait"/>
+    </CModel>
+    <CModel id="MothershipDB" parent="MothershipBase">
+        <Model value="Taldarim\MotherShip_TaldarimD.m3"/>
+        <ScaleMax value="0.885000,0.885000,0.860000"/>
+        <ScaleMin value="0.885000,0.885000,0.860000"/>
+    </CModel>
+    <CModel id="MothershipDeathDB" parent="MothershipDeathBase">
+        <Model value="Assets\Units\Protoss\MotherShip_Taldarim_Death\MotherShip_Taldarim_Death.m3"/>
+    </CModel>
+    <CModel id="MothershipDeathRagdollDB" parent="MothershipDeathRagdollBase">
+        <Model value="Taldarim\MothershipDeathRagdollD.m3"/>
+    </CModel>
+    <CModel id="MothershipPortraitDB" parent="MothershipPortraitBase">
+        <Model value="Assets\Portraits\Protoss\MothershipTalDarimEx2Portrait\MothershipTalDarimEx2Portrait.m3"/>
+        <Image value="Assets\Textures\mothershiptaldarimportrait_static.dds"/>
+        <Lighting value="MothershipTaldarimPortrait"/>
+    </CModel>
+    <CModel id="MothershipRayBeamD" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Protoss\AmonHost_Beam\AmonHost_Beam.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="MothershipPurifierShieldD" parent="PersistentSpellFX">
+        <Model value="Taldarim\Mothership_Taldarim_ShieldD.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="1.400000,1.400000,1.400000"/>
+        <ScaleMin value="1.400000,1.400000,1.400000"/>
+    </CModel>
+    <CModel id="SOAMothershipBlinkStrikeInD" parent="OneShotSpellFX">
+        <Model value="Assets\Effects\Protoss\Mothership_Taldarim_TeleportIn\Mothership_Taldarim_TeleportIn.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="0.885000,0.885000,0.860000"/>
+        <ScaleMin value="0.885000,0.885000,0.860000"/>
+    </CModel>
+    <CModel id="SOAMothershipBlinkStrikeOutD" parent="OneShotSpellFX">
+        <Model value="Assets\Effects\Protoss\Mothership_Taldarim_TeleportOut\Mothership_Taldarim_TeleportOut.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="0.885000,0.885000,0.860000"/>
+        <ScaleMin value="0.885000,0.885000,0.860000"/>
+    </CModel>
+    <CModel id="SOAMothershipLineAttackGroundFireD" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Protoss\Mothership_Taldarim_Thermal_Lance_Beam_GroundFire\Mothership_Taldarim_Thermal_Lance_Beam_GroundFire.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="1.000000,2.000000,1.500000"/>
+        <ScaleMin value="1.000000,2.000000,1.500000"/>
+    </CModel>
+    <CModel id="SOAMothershipLineAttackImpactD" parent="ImpactFX">
+        <Model value="Assets\Effects\Protoss\Mothership_Taldarim_Thermal_Lance_Beam_Unit_Impact\Mothership_Taldarim_Thermal_Lance_Beam_Unit_Impact.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="SOAMothershipLineAttackMissileBeamD" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Protoss\AmonShards_Red_FocusBeam\AmonShards_Red_FocusBeam.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="SOAMothershipLineAttackWeaponD" parent="MissileFX">
+        <Model value="Assets\Effects\Protoss\Mothership_Taldarim_Thermal_Lance_Beam_Impact\Mothership_Taldarim_Thermal_Lance_Beam_Impact.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="SOAMothershipv4AttackBeamD" parent="MissileFX">
+        <Model value="Assets\Effects\Protoss\Alarak_Attack_Beam_Strong\Alarak_Attack_Beam_Strong.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <RadiusLoose value="1.000000"/>
+        <SelectionRadius value="0.714000"/>
+        <ShadowRadius value="0.714000"/>
+    </CModel>
+    <CModel id="SOAMothershipv4AttackImpactD" parent="ImpactFX">
+        <Model value="Assets\Effects\Protoss\Mothership_Taldarim_Terminator_Beam_Impact\Mothership_Taldarim_Terminator_Beam_Impact.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="1.500000,1.500000,1.500000"/>
+        <ScaleMin value="1.500000,1.500000,1.500000"/>
+    </CModel>
+    <CModel id="MothershipCuttingBeamImpactD" parent="ImpactFX">
+        <Model value="Assets\Effects\Protoss\Stalker_TalDarim_Missile_Impact\Stalker_TalDarim_Missile_Impact.m3"/>
+        <AnimSpeed value="1.500000"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="MothershipMissileAttackImpactD" parent="ImpactFX">
+        <Model value="Taldarim\MothershipPurifyMissileImpactD.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Events>
+            <Anim value="Death,00"/>
+            <Name value="MotherShip_Purify_AttackImpact"/>
+            <Type value="Sound"/>
+            <Time value="0.010000"/>
+            <Payload value="MotherShip_Purify_AttackImpact"/>
+        </Events>
+    </CModel>
+    <CModel id="MothershipMissileWeaponD" parent="MissileFX">
+        <Model value="Taldarim\MothershipPurifyMissileD.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Events>
+            <Anim value="Stand,00"/>
+            <Name value="MotherShip_Purify_AttackLaunch"/>
+            <Type value="Sound"/>
+            <Time value="0.010000"/>
+            <Payload value="MotherShip_Purify_AttackLaunch"/>
+        </Events>
+    </CModel>
+    <CModel id="ShieldGeneratorSuperShieldImpactD" parent="PersistentSpellFX">
+        <Model value="Taldarim\SOA_ShieldOvercharge_ImpactD.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="1.250000,1.250000,1.500000"/>
+        <ScaleMin value="1.250000,1.250000,1.500000"/>
+    </CModel>
+    <CModel id="DarkShrineSacrificeBeamD" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Protoss\HighTemplar_Taldarim_COOP_Sacrifice\HighTemplar_Taldarim_COOP_Sacrifice.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="SuperWarpGateD" parent="Building" Race="Protoss">
+        <Model value="Assets\Buildings\Protoss\Gateway_Taldarim\Gateway_Taldarim.m3"/>
+        <Radius value="0.750000"/>
+        <ScaleMax value="0.500000,0.500000,0.500000"/>
+        <ScaleMin value="0.500000,0.500000,0.500000"/>
+        <SelectionLayer value="2"/>
+        <SelectionRadius value="1.500000"/>
+        <ShadowRadius value="1.500000"/>
+    </CModel>
+    <CModel id="TaldarimShieldGeneratorBuildD" parent="NexusBuildBase">
+        <Model value="Taldarim\ProtossBuildD.m3"/>
+    </CModel>
+    <CModel id="Taldarim_Shield_GeneratorD" parent="Building" Race="Protoss">
+        <Model value="Assets\Buildings\Protoss\Taldarim_Shield_Generator\Taldarim_Shield_Generator.m3"/>
+        <Events>
+            <Anim value="Death,A,00"/>
+            <Name value="TaldarimShieldGenerator_DeathA_Death"/>
+            <Type value="Sound"/>
+            <Time value="0.020000"/>
+            <Payload value="TaldarimShieldGenerator_DeathAD"/>
+        </Events>
+        <Events>
+            <Anim value="Death,B,00"/>
+            <Name value="TaldarimShieldGenerator_DeathB_Death"/>
+            <Type value="Sound"/>
+            <Time value="0.020000"/>
+            <Payload value="TaldarimShieldGenerator_DeathBD"/>
+        </Events>
+        <Events>
+            <Anim value="Birth,00"/>
+            <Name value="Taldarim_Shield_Generator_Birth"/>
+            <Type value="Sound"/>
+            <Time value="0.010000"/>
+            <Payload value="TaldarimShieldGenerator_BirthD"/>
+        </Events>
+        <Events>
+            <Anim value="Stand,Work,Start,00"/>
+            <Name value="Taldarim_Shield_Generator_ActivateComposite"/>
+            <Type value="Sound"/>
+            <Time value="0.010000"/>
+            <Payload value="TaldarimShieldGenerator_ActivateD"/>
+        </Events>
+        <Events>
+            <Anim value="Stand,Work,Start,00"/>
+            <Name value="Taldarim_Shield_Generator_ActivateLazer"/>
+            <Type value="Sound"/>
+            <Time value="0.200000"/>
+            <Payload value="TaldarimShieldGenerator_ActivateLazerD"/>
+        </Events>
+        <Events>
+            <Anim value="Stand,Work,End,00"/>
+            <Name value="Taldarim_Shield_Generator_WorkEnd"/>
+            <Type value="Sound"/>
+            <Time value="0.200000"/>
+            <Payload value="TaldarimShieldGenerator_DeathBD"/>
+        </Events>
+        <Radius value="2.000000"/>
+        <SelectionLayer value="2"/>
+        <SelectionRadius value="2.500000"/>
+        <ShadowRadius value="2.500000"/>
+        <SquibTypeDefault value="Metal"/>
+    </CModel>
+    <CModel id="Taldarim_Shield_Generator_DeathD" parent="BuildingDeath" Race="Protoss">
+        <Model value="Assets\Buildings\Protoss\Taldarim_Shield_Generator_Death\Taldarim_Shield_Generator_Death.m3"/>
+        <Events>
+            <Anim value="Death,00"/>
+            <Name value="TaldarimShieldGenerator_Death_Buildup"/>
+            <Type value="Sound"/>
+            <Time value="0.020000"/>
+            <Payload value="TaldarimShieldGenerator_Death_BuildupD"/>
+        </Events>
+        <Events>
+            <Anim value="Death,00"/>
+            <Name value="TaldarimShieldGenerator_Death"/>
+            <Type value="Sound"/>
+            <Time value="0.150000"/>
+            <Payload value="TaldarimShieldGenerator_DeathD"/>
+        </Events>
+        <Events>
+            <Anim value="Death,00"/>
+            <Name value="TaldarimShieldGenerator_Death"/>
+            <Type value="Sound"/>
+            <Time value="1.000000"/>
+            <Payload value="TaldarimShieldGenerator_DeathD"/>
+        </Events>
+        <Events>
+            <Anim value="Death,00"/>
+            <Name value="TaldarimShieldGenerator_Death"/>
+            <Type value="Sound"/>
+            <Time value="3.350000"/>
+            <Payload value="TaldarimShieldGenerator_DeathD"/>
+        </Events>
+        <Events>
+            <Anim value="Death,00"/>
+            <Name value="TaldarimShieldGenerator_Death_Debris"/>
+            <Type value="Sound"/>
+            <Time value="3.630000"/>
+            <Payload value="TaldarimShieldGenerator_Death_DebrisD"/>
+        </Events>
+        <Events>
+            <Anim value="Dead,00"/>
+            <Name value="TaldarimShieldGenerator_Dead_Sparks"/>
+            <Type value="Sound"/>
+            <Time value="0.450000"/>
+            <Payload value="TaldarimShieldGenerator_Death_SparksD"/>
+        </Events>
+        <Events>
+            <Anim value="Dead,00"/>
+            <Name value="TaldarimShieldGenerator_Dead_Sparks"/>
+            <Type value="Sound"/>
+            <Time value="3.560000"/>
+            <Payload value="TaldarimShieldGenerator_Death_SparksD"/>
+        </Events>
+        <Events>
+            <Anim value="Dead,00"/>
+            <Name value="TaldarimShieldGenerator_Dead_Sparks"/>
+            <Type value="Sound"/>
+            <Time value="7.300000"/>
+            <Payload value="TaldarimShieldGenerator_Death_SparksD"/>
+        </Events>
+        <Events>
+            <Anim value="Dead,00"/>
+            <Name value="TaldarimShieldGenerator_Dead_Sparks"/>
+            <Type value="Sound"/>
+            <Time value="11.200000"/>
+            <Payload value="TaldarimShieldGenerator_Death_SparksD"/>
+        </Events>
+        <Events>
+            <Anim value="Dead,00"/>
+            <Name value="TaldarimShieldGenerator_Dead_Sparks"/>
+            <Type value="Sound"/>
+            <Time value="12.100000"/>
+            <Payload value="TaldarimShieldGenerator_Death_SparksD"/>
+        </Events>
+    </CModel>
+    <CModel id="Taldarim_Shield_Generator_WarpInD" parent="Building" Race="Protoss">
+        <Model value="Assets\Buildings\Protoss\Taldarim_Shield_Generator_WarpIn\Taldarim_Shield_Generator_WarpIn.m3"/>
+        <Events>
+            <Anim value="Birth,00"/>
+            <Name value="Taldarim_Shield_Generator_Birth_Warpin"/>
+            <Type value="Sound"/>
+            <Time value="0.010000"/>
+            <Payload value="TaldarimShieldGenerator_Birth_WarpinD"/>
+        </Events>
+        <Radius value="2.000000"/>
+        <SelectionLayer value="2"/>
+        <SelectionRadius value="2.500000"/>
+        <ShadowRadius value="2.500000"/>
+        <SquibTypeDefault value="Metal"/>
+    </CModel>
+    <CModel id="TempestPowerUpD" parent="PersistentSpellFX">
+        <Model value="Taldarim\PurifierPowerUpD.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="0.500000,0.500000,1.000000"/>
+        <ScaleMin value="0.500000,0.500000,1.000000"/>
+    </CModel>
+    <CModel id="StormSphereAttachmentD" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Protoss\Tempest_TalDarim_PlasmaMissile\Tempest_TalDarim_PlasmaMissile.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="TempestAttackBeamD" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Protoss\Tempest_TalDarim_GroundBeam\Tempest_TalDarim_GroundBeam.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <RadiusLoose value="1.000000"/>
+    </CModel>
+    <CModel id="ArchonAttackBeamD" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Protoss\Void_Narud_Beam\Void_Narud_Beam.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <RadiusLoose value="1.000000"/>
+        <ScaleMax value="0.800000,0.800000,0.800000"/>
+        <ScaleMin value="0.800000,0.800000,0.800000"/>
+    </CModel>
+    <CModel id="CarrierD" parent="CarrierBase">
+        <Model value="Assets\Units\Protoss\Carrier_Taldarim\Carrier_Taldarim.m3"/>
+        <ScaleMax value="0.900000,0.950000,0.900000"/>
+        <ScaleMin value="0.900000,0.950000,0.900000"/>
+        <TextureDeclares Prefix="carrier_">
+            <Adaptions TriggerOnSubstring="_Diffuse" Slot="main"/>
+        </TextureDeclares>
+    </CModel>
+    <CModel id="CarrierDeathD" parent="CarrierDeathBase">
+        <Model value="Assets\Units\Protoss\Carrier_Taldarim_Collection_Death\Carrier_Taldarim_Collection_Death.m3"/>
+    </CModel>
+    <CModel id="CarrierDeathRagdollD" parent="CarrierDeathRagdollBase">
+        <Model value="Assets\Units\Protoss\Carrier_Taldarim_Collection_Death\Carrier_Taldarim_Collection_Death.m3"/>
+    </CModel>
+    <CModel id="CarrierInterceptorBombImpactD" parent="ImpactFX">
+        <Model value="Taldarim\Colossus_Purifier_Coop_Missile_ImpactD.m3"/>
+        <AnimSpeed value="1.400000"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="0.600000,0.600000,0.600000"/>
+        <ScaleMin value="0.600000,0.600000,0.600000"/>
+    </CModel>
+    <CModel id="CarrierInterceptorBombWeaponD" parent="MissileFX">
+        <Model value="Taldarim\PhaseCannonMissileD.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="CarrierPlacementD">
+        <Model value="Assets\Units\Protoss\Carrier_Taldarim_Collection_Placement\Carrier_Taldarim_Collection_Placement.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="0.900000,0.950000,0.900000"/>
+        <ScaleMin value="0.900000,0.950000,0.900000"/>
+    </CModel>
+    <CModel id="CarrierPortraitD" parent="CarrierPortraitBase">
+        <Model value="Assets\Portraits\Protoss\Carrier_Taldarim_Collection_Portrait\Carrier_Taldarim_Collection_Portrait.m3"/>
+        <Image value="Assets\Textures\carrier_taldarim_collection_portrait_static.dds"/>
+        <Lighting value="Carrier_Taldarim_Portrait"/>
+    </CModel>
+    <CModel id="CarrierWarpInD" parent="OneShotSpellFX">
+        <Model value="Assets\Units\Protoss\Carrier_TalDarim_Collection_WarpIn\Carrier_TalDarim_Collection_WarpIn.m3"/>
+        <LowQualityModel value="CarrierWarpInLow"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Occlusion value="Show"/>
+        <ScaleMax value="0.800000,0.800000,0.800000"/>
+        <ScaleMin value="0.800000,0.800000,0.800000"/>
+        <SelectionOffset value="0.000000,0.000000,-0.750000"/>
+        <SelectionRadius value="1.718700"/>
+        <ShadowRadius value="1.718700"/>
+    </CModel>
+    <CModel id="ColossusD" parent="ColossusBase">
+        <Model value="Taldarim\Colossus_Taldarim_CollectionD1.m3"/>
+        <TextureDeclares Prefix="colossus_">
+            <Adaptions TriggerOnSubstring="_Diffuse" Slot="main"/>
+        </TextureDeclares>
+        <ScaleMax value="0.800000,0.800000,0.800000"/>
+        <ScaleMin value="0.800000,0.800000,0.800000"/>
+    </CModel>
+    <CModel id="ColossusDA" parent="ColossusBase">
+        <Model value="Assets\Units\Protoss\Colossus_TaldarimEx3\Colossus_TaldarimEx3.m3"/>
+        <ScaleMax value="0.800000,0.800000,0.800000"/>
+        <ScaleMin value="0.800000,0.800000,0.800000"/>
+        <TextureDeclares Prefix="colossus_">
+            <Adaptions TriggerOnSubstring="_Diffuse" Slot="main"/>
+        </TextureDeclares>
+    </CModel>
+    <CModel id="ColossusDeathD" parent="ColossusDeathBase">
+        <Model value="Assets\Units\Protoss\Colossus_Taldarim_Collection_Death\Colossus_Taldarim_Collection_Death.m3"/>
+        <VariationCount value="1"/>
+    </CModel>
+    <CModel id="ColossusDeathDA" parent="ColossusDeathBase">
+        <Model value="Assets\Units\Protoss\Colossus_Taldarim_MP_Death\Colossus_Taldarim_MP_Death.m3"/>
+        <VariationCount value="1"/>
+    </CModel>
+    <CModel id="ColossusDeathRagdollD" parent="ColossusDeathRagdollBase">
+        <Model value="Assets\Units\Protoss\Colossus_Taldarim_Collection_DeathRagdoll\Colossus_Taldarim_Collection_DeathRagdoll.m3"/>
+    </CModel>
+    <CModel id="ColossusDeathRagdollDA" parent="ColossusDeathRagdollBase">
+        <Model value="Assets\Units\Protoss\Colossus_Taldarim_Collection_DeathRagdoll\Colossus_Taldarim_Collection_DeathRagdoll.m3"/>
+    </CModel>
+    <CModel id="ColossusPlacementD" parent="Placement" Race="Protoss">
+        <Model value="Assets\Units\Protoss\Colossus_Taldarim_Collection_Placement\Colossus_Taldarim_Collection_Placement.m3"/>
+        <Occlusion value="Show"/>
+        <Radius value="-1.000000"/>
+        <ScaleMax value="0.800000,0.800000,0.800000"/>
+        <ScaleMin value="0.800000,0.800000,0.800000"/>
+        <SelectionRadius value="0.588100"/>
+        <ShadowRadius value="0.588100"/>
+    </CModel>
+    <CModel id="ColossusPlacementDA" parent="Placement" Race="Protoss">
+        <Model value="Assets\Units\Protoss\Colossus_Taldarim_Placement\Colossus_Taldarim_Placement.m3"/>
+        <Occlusion value="Show"/>
+        <Radius value="-1.000000"/>
+        <ScaleMax value="0.800000,0.800000,0.800000"/>
+        <ScaleMin value="0.800000,0.800000,0.800000"/>
+        <SelectionRadius value="0.588100"/>
+        <ShadowRadius value="0.588100"/>
+    </CModel>
+    <CModel id="ColossusPortraitD" parent="ColossusPortraitBase">
+        <Model value="Assets\Portraits\Protoss\Taldarim_Colossus_Portrait\Taldarim_Colossus_Portrait.m3"/>
+        <Image value="Assets\Textures\taldarimcolossusportrait_static.dds"/>
+        <Lighting value="PortraitTaldarimColossus"/>
+    </CModel>
+    <CModel id="ColossusPortraitDA" parent="ColossusPortraitBase">
+        <Model value="Assets\Portraits\Protoss\Colossus_Taldarim_Collection_Portrait\Colossus_Taldarim_Collection_Portrait.m3"/>
+        <Image value="Assets\Textures\colossus_taldarim_collection_portrait_static.dds"/>
+        <Lighting value="Colossus_Purifier_Collection_Portrait"/>
+    </CModel>
+    <CModel id="ColossusPurifierAttackBeamD" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Protoss\Mothership_Taldarim_Thermal_Lance_Beam\Mothership_Taldarim_Thermal_Lance_Beam.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <RadiusLoose value="1.000000"/>
+    </CModel>
+    <CModel id="ColossusPurifierAttackBeamImpactD" parent="ImpactFX">
+        <Model value="Assets\Effects\Protoss\Mothership_Taldarim_Terminator_Beam_Impact\Mothership_Taldarim_Terminator_Beam_Impact.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="ColossusPurifierAttackBeamUnitImpactD" parent="ImpactFX">
+        <Model value="Taldarim\ProtossFireMediumD.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="0.500000,0.500000,0.500000"/>
+        <ScaleMin value="0.500000,0.500000,0.500000"/>
+    </CModel>
+    <CModel id="ColossusTaldarimAttackBeamImpactD" parent="ImpactFX">
+        <Model value="Taldarim\Colossus_Purifier_Coop_Missile_ImpactD.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="0.750000,0.750000,0.750000"/>
+        <ScaleMin value="0.750000,0.750000,0.750000"/>
+    </CModel>
+    <CModel id="ColossusTaldarimChargedBeamPowerUpModelD" parent="OneShotSpellFX">
+        <Model value="Assets\Effects\Protoss\ColossusTaldarim_Powerup\ColossusTaldarim_Powerup.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="1.250000,1.250000,1.250000"/>
+        <ScaleMin value="1.250000,1.250000,1.250000"/>
+    </CModel>
+    <CModel id="ColossusTaldarimWeaponD" parent="MissileFX">
+        <Model value="Assets\Effects\Protoss\ColossusTaldarim_Missile\ColossusTaldarim_Missile.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="1.200000,1.500000,1.200000"/>
+    </CModel>
+    <CModel id="ColossusWarpInD" parent="OneShotSpellFX">
+        <Model value="Assets\Effects\Protoss\ProtossUnitWarpIn\ProtossUnitWarpIn.m3"/>
+        <LowQualityModel value="ColossusWarpInLow"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Occlusion value="Show"/>
+        <ScaleMax value="1.900000,1.900000,1.900000"/>
+        <ScaleMin value="1.900000,1.900000,1.900000"/>
+        <SelectionRadius value="0.555400"/>
+        <ShadowRadius value="0.555400"/>
+    </CModel>
+    <CModel id="CorsairD" parent="Unit" Race="Protoss">
+        <Model value="Taldarim\Corsair_Taldarim_Hammer_Updated.m3"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraLow05"/>
+        <Radius value="0.750000"/>
+        <SelectionOffset value="0.000000,0.000000,-0.400000"/>
+        <SelectionRadius value="0.882000"/>
+        <ShadowRadius value="0.882000"/>
+        <SquibTypeDefault value="Metal"/>
+        <TechPurchaseCamera value="Star2CameraLow05"/>
+        <UnitGlossaryCamera value="Star2CameraLow05"/>
+        <ScaleMax value="1.100000,1.250000,1.100000"/>
+        <ScaleMin value="1.100000,1.250000,1.100000"/>
+    </CModel>
+    <CModel id="CorsairDeathD" parent="UnitDeath" Race="Protoss">
+        <Model value="Taldarim\Corsair_Taldarim_Hammer_Updated_Death.m3"/>
+        <LowQualityModel value="ProtossMediumUnitDeathLow"/>
+        <Occlusion value="Show"/>
+        <Radius value="0.750000"/>
+        <SelectionRadius value="0.750000"/>
+        <ShadowRadius value="0.750000"/>
+        <VariationCount value="2"/>
+    </CModel>
+    <CModel id="CorsairMPAttackImpactD" parent="ImpactFX">
+        <Model value="Taldarim\ScoutWeaponImpactD.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="1.500000,1.500000,1.500000"/>
+        <ScaleMin value="1.500000,1.500000,1.500000"/>
+    </CModel>
+    <CModel id="CorsairMPAttackLaunchD" parent="LaunchFX">
+        <Model value="Taldarim\ScoutWeaponLaunchD.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="1.250000,1.500000,1.250000"/>
+        <ScaleMin value="1.250000,1.500000,1.250000"/>
+    </CModel>
+    <CModel id="CorsairMPDisruptionWebImpactD" parent="RacePersistentSpellFX" Race="Protoss">
+        <Model value="Taldarim\Corsair_DisruptionWebD.m3"/>
+    </CModel>
+    <CModel id="CorsairPlacementD" parent="OneShotSpellFX">
+        <Model value="Assets\Units\Protoss\Corsair_Placement\Corsair_Placement.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Occlusion value="Show"/>
+        <SelectionOffset value="0.000000,0.000000,-0.750000"/>
+        <SelectionRadius value="0.750000"/>
+        <ShadowRadius value="0.750000"/>
+    </CModel>
+    <CModel id="CorsairWarpInD" parent="OneShotSpellFX">
+        <Model value="Assets\Units\Protoss\Corsair_WarpIn\Corsair_WarpIn.m3"/>
+        <LowQualityModel value="ProtossUnitBirth"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Occlusion value="Show"/>
+        <SelectionOffset value="0.000000,0.000000,-0.750000"/>
+        <SelectionRadius value="0.750000"/>
+        <ShadowRadius value="0.750000"/>
+    </CModel>
+    <CModel id="CorsairPortraitD" parent="Portrait" Race="Protoss">
+        <Model value="Taldarim\Corsair_Taldarim_Ex2_DS_Portrait.m3"/>
+        <Image value="Assets\Textures\Corsair_Taldarim_Portrait_Ex2_Static.dds"/>
+        <Lighting value="PortraitCorsair"/>
+    </CModel>
+    <CModel id="Corsair_DisruptionWeb_CastD" parent="LaunchFX">
+        <Model value="Assets\Effects\Protoss\DarkArchon_Confusion_Cast\DarkArchon_Confusion_Cast.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="0.750000,0.750000,0.750000"/>
+        <ScaleMin value="0.750000,0.750000,0.750000"/>
+    </CModel>
+    <CModel id="DragoonAttackImpactDA" parent="ImpactFX">
+        <Model value="Assets\Effects\Protoss\HighTemplarTaldarim_PsionicOrb_Impact\HighTemplarTaldarim_PsionicOrb_Impact.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="0.500000,0.500000,0.500000"/>
+        <ScaleMin value="0.500000,0.500000,0.500000"/>
+    </CModel>
+    <CModel id="DragoonWeaponDA" parent="MissileFX">
+        <Model value="Assets\Effects\Protoss\Alarak_COOP_SoulAbsorption_Missile\Alarak_COOP_SoulAbsorption_Missile.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="1.750000,1.750000,1.750000"/>
+        <ScaleMin value="1.750000,1.750000,1.750000"/>
+    </CModel>
+    <CModel id="InterceptorD" parent="InterceptorBase">
+        <Model value="Assets\Units\Protoss\Interceptor_AmonBrood_Collection\Interceptor_AmonBrood_Collection.m3"/>
+        <ScaleMax value="1.000000,1.000000,1.000000"/>
+        <ScaleMin value="1.000000,1.000000,1.000000"/>
+        <TextureDeclares Prefix="interceptor_">
+            <Adaptions TriggerOnSubstring="_Diffuse" Slot="main"/>
+        </TextureDeclares>
+    </CModel>
+    <CModel id="InterceptorDeathD" parent="InterceptorDeathBase">
+        <Model value="Assets\Units\Protoss\Interceptor_AmonBrood_Collection_Death\Interceptor_AmonBrood_Collection_Death.m3"/>
+    </CModel>
+    <CModel id="InterceptorDeathRagdollD" parent="InterceptorDeathRagdollBase">
+        <Model value="Assets\Units\Protoss\Interceptor_AmonBrood_Collection_DeathRagdoll\Interceptor_AmonBrood_Collection_DeathRagdoll.m3"/>
+    </CModel>
+    <CModel id="IonCannonsWeaponD" parent="MissileFX">
+        <Model value="Assets\Effects\Protoss\Alarak_COOP_SoulAbsorption_Missile\Alarak_COOP_SoulAbsorption_Missile.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="IonCannonsWeaponDC" parent="MissileFX">
+        <Model value="Assets\Effects\Protoss\Alarak_COOP_SoulAbsorption_Missile\Alarak_COOP_SoulAbsorption_Missile.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="PhoenixAirAttackImpactD" parent="ImpactFX">
+        <Model value="Assets\Effects\Protoss\Alarak_DestructionWave_Impact\Alarak_DestructionWave_Impact.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="0.400000,0.400000,0.400000"/>
+        <ScaleMin value="0.400000,0.400000,0.400000"/>
+    </CModel>
+    <CModel id="PhoenixAirAttackImpactDC" parent="ImpactFX">
+        <Model value="Assets\Effects\Protoss\Alarak_DestructionWave_Impact\Alarak_DestructionWave_Impact.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="0.400000,0.400000,0.400000"/>
+        <ScaleMin value="0.400000,0.400000,0.400000"/>
+    </CModel>
+    <CModel id="PhoenixD" parent="PhoenixBase">
+        <Model value="Assets\Units\Protoss\Phoenix_TalDarim\Phoenix_TalDarim.m3"/>
+        <ScaleMax value="0.900000,0.850000,0.850000"/>
+        <ScaleMin value="0.900000,0.850000,0.850000"/>
+    </CModel>
+    <CModel id="PhoenixDeathD" parent="PhoenixDeathBase">
+        <Model value="Assets\Units\Protoss\Phoenix_Taldarim_Collection_Death\Phoenix_Taldarim_Collection_Death.m3"/>
+    </CModel>
+    <CModel id="PhoenixDeathRagdollD" parent="PhoenixDeathRagdollBase">
+        <Model value="Assets\Units\Protoss\Phoenix_Taldarim_Collection_DeathRagdoll\Phoenix_Taldarim_Collection_DeathRagdoll.m3"/>
+    </CModel>
+    <CModel id="PhoenixPlacementD" parent="Placement" Race="Protoss">
+        <Model value="Assets\Units\Protoss\Phoenix_Taldarim_Collection_Placement\Phoenix_Taldarim_Collection_Placement.m3"/>
+        <Occlusion value="Show"/>
+        <ScaleMax value="0.900000,0.850000,0.850000"/>
+        <ScaleMin value="0.900000,0.850000,0.850000"/>
+    </CModel>
+    <CModel id="PhoenixPortraitD" parent="PhoenixPortraitBase">
+        <Model value="Assets\Portraits\Protoss\Phoenix_Taldarim_Portrait\Phoenix_Taldarim_Portrait.m3"/>
+        <Image value="Assets\Textures\phoenix_taldarim_static.dds"/>
+        <Lighting value="PhoenixPortrait"/>
+    </CModel>
+    <CModel id="PhoenixWarpInD" parent="PhoenixWarpInBase">
+        <Model value="Assets\Units\Protoss\Phoenix_Taldarim_Collection_WarpIn\Phoenix_Taldarim_Collection_WarpIn.m3"/>
+    </CModel>
+    <CModel id="InterceptorWeaponMissileD" parent="MissileFX">
+        <Model value="Assets\Effects\Protoss\Alarak_COOP_SoulAbsorption_Missile\Alarak_COOP_SoulAbsorption_Missile.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="ScoutBurnerReadyModelD" parent="PersistentSpellFX">
+        <Model value="Taldarim\PhaseCannonMissileD.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="1.250000,1.250000,1.250000"/>
+        <ScaleMin value="1.250000,1.250000,1.250000"/>
+    </CModel>
+    <CModel id="ReaverScarabWeaponMissileD" parent="MissileFX">
+        <Model value="Assets\Effects\Protoss\Alarak_COOP_SoulAbsorption_Missile\Alarak_COOP_SoulAbsorption_Missile.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="1.250000,1.250000,1.250000"/>
+        <ScaleMin value="1.250000,1.250000,1.250000"/>
+    </CModel>
+    <CModel id="ReaverD" parent="Unit" Race="Protoss">
+        <Model value="Taldarim\Reaver_Taldarim_ds.m3"/>
+        <AttachProps>
+            <Id value="Ref_Center"/>
+            <SquibType value="Metal"/>
+            <RadiusTarget value="0.750000"/>
+            <RadiusShield value="1.000000"/>
+        </AttachProps>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraMid09"/>
+        <Radius value="0.800000"/>
+        <ScaleMax value="1.000000,0.950000,0.950000"/>
+        <ScaleMin value="1.000000,0.950000,0.950000"/>
+        <SelectionRadius value="1.029000"/>
+        <ShadowRadius value="0.800000"/>
+        <SquibTypeDefault value="Metal"/>
+        <TechPurchaseCamera value="Star2CameraMid09"/>
+        <Tipability value="1.000000"/>
+        <TipabilityLength value="1.800000"/>
+        <TipabilityWidth value="1.200000"/>
+        <TextureDeclares Prefix="reaver_">
+            <Adaptions TriggerOnSubstring="_Diffuse" Slot="main"/>
+        </TextureDeclares>
+        <UnitGlossaryCamera value="Star2CameraMid09"/>
+    </CModel>
+    <CModel id="ReaverDeathD" parent="UnitDeath" Race="Protoss">
+        <Model value="Taldarim\Reaver_Taldarim_ds_Death_01.m3"/>
+        <LowQualityModel value="ProtossLargeUnitDeathLow"/>
+        <Events>
+            <Variation value="0"/>
+            <Anim value="Death,00"/>
+            <Name value="Reaver_DeathExplosion"/>
+            <Type value="Sound"/>
+            <Time value="1.370000"/>
+            <Payload value="Reaver_DeathExplosion"/>
+        </Events>
+    </CModel>
+    <CModel id="ReaverDeathRagdollD" parent="UnitDeathRagdoll" Race="Protoss">
+        <Model value="Taldarim\Reaver_Taldarim_Ragdoll_Death.m3"/>
+        <Events>
+            <Variation value="0"/>
+            <Anim value="Death,00"/>
+            <Name value="Reaver_DeathExplosion"/>
+            <Type value="Sound"/>
+            <Time value="1.370000"/>
+            <Payload value="Reaver_DeathExplosion"/>
+        </Events>
+    </CModel>
+    <CModel id="ReaverPlacementD">
+        <Model value="Assets\Units\Protoss\Reaver_Placement\Reaver_Placement.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="1.000000,0.950000,0.950000"/>
+        <ScaleMin value="1.000000,0.950000,0.950000"/>
+    </CModel>
+    <CModel id="ReaverPortraitD" parent="Portrait" Race="Protoss">
+        <Model value="Taldarim\ReaverEx2PortraitD.m3"/>
+        <Image value="Assets\Textures\reaverportrait_staticD.dds"/>
+        <Lighting value="TalDarim_Probe_Portrait"/>
+    </CModel>
+    <CModel id="ColossusWeaponMissileD" parent="MissileFX">
+        <Model value="Assets\Effects\Protoss\Alarak_COOP_SoulAbsorption_Missile\Alarak_COOP_SoulAbsorption_Missile.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="1.250000,1.250000,1.250000"/>
+        <ScaleMin value="1.250000,1.250000,1.250000"/>
+    </CModel>
+    <CModel id="ReaverSoulImpactD" parent="OneShotSpellFX">
+        <Model value="Assets\Units\Protoss\Supplicant_Sacrifice_Death\Supplicant_Sacrifice_Death.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="ScarabAttackImpactDS" parent="ImpactFX">
+        <Model value="Taldarim\Reaver_Missile_ImpactD.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="ScarabAttackImpactDSS" parent="ImpactFX">
+        <Model value="Assets\Units\Protoss\Supplicant_Sacrifice_Death\Supplicant_Sacrifice_Death.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="ScarabD" parent="Unit" Race="Protoss">
+        <Model value="Assets\Units\Test\InvisibleUnit\InvisibleUnit.m3"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraLow03"/>
+        <Radius value="0.250000"/>
+        <SelectionRadius value="0.294000"/>
+        <ShadowRadius value="0.294000"/>
+        <SquibTypeDefault value="Metal"/>
+        <TechPurchaseCamera value="Star2CameraLow03"/>
+        <UnitGlossaryCamera value="Star2CameraLow03"/>
+    </CModel>
+    <CModel id="ScarabAttackImpactD" parent="ImpactFX">
+        <Model value="Taldarim\Reaver_Missile_ImpactD.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="ScarabWeaponD" parent="MissileFX">
+        <Model value="Taldarim\Reaver_MissileD.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="ReaverScarabSReadyD" parent="PersistentSpellFX">
+        <Model value="Taldarim\PhaseCannonMissileD.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="1.250000,1.250000,1.250000"/>
+        <ScaleMin value="1.250000,1.250000,1.250000"/>
+    </CModel>
+    <CModel id="ScarabWeaponDS" parent="MissileFX">
+        <Model value="Taldarim\Reaver_MissileD.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="1.250000,1.250000,1.250000"/>
+        <ScaleMin value="1.250000,1.250000,1.250000"/>
+    </CModel>
+    <CModel id="ReaverSupplicantSacrificeBeamD" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Protoss\HighTemplar_Taldarim_COOP_Sacrifice\HighTemplar_Taldarim_COOP_Sacrifice.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="ReaverSupplicantSacrificeBeamImpactD" parent="OneShotSpellFX">
+        <Model value="Assets\Effects\Protoss\HighTemplar_Taldarim_COOP_Sacrifice_Impact\HighTemplar_Taldarim_COOP_Sacrifice_Impact.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="PhoenixOverloadModelD" parent="PersistentSpellFX">
+        <Model value="Taldarim\PhoenixOverloadD.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="1.400000,1.400000,1.400000"/>
+        <ScaleMin value="1.400000,1.400000,1.400000"/>
+    </CModel>
+    <CModel id="TempestAttackImpactDA" parent="ImpactFX">
+        <Model value="Assets\Effects\Protoss\Tempest_TalDarim_PlasmaMissileImpact\Tempest_TalDarim_PlasmaMissileImpact.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="TempestD" parent="TempestBase">
+        <Model value="Taldarim\Tempest_TalDarimD1.m3"/>
+        <ScaleMax value="1.000000,1.050000,1.000000"/>
+        <ScaleMin value="1.000000,1.050000,1.000000"/>
+    </CModel>
+    <CModel id="TempestDeathD" parent="TempestDeathBase">
+        <Model value="Assets\Units\Protoss\Tempest_Taldarim_Collection_Death\Tempest_Taldarim_Collection_Death.m3"/>
+        <VariationCount value="1"/>
+    </CModel>
+    <CModel id="TempestDeathRagdollD" parent="TempestDeathRagdollBase">
+        <Model value="Assets\Units\Protoss\Tempest_TalDarim_Collection_Death\Tempest_TalDarim_Collection_Death.m3"/>
+    </CModel>
+    <CModel id="TempestPortraitD" parent="TempestPortraitBase">
+        <Model value="Assets\Portraits\Protoss\Tempest_Taldarim_Collection_Portrait\Tempest_Taldarim_Collection_Portrait.m3"/>
+        <Image value="Assets\Textures\tempest_taldarim_collection_portrait_static.dds"/>
+        <Lighting value="TalDarim_TempestPortrait"/>
+    </CModel>
+    <CModel id="TempestWarpInD" parent="OneShotSpellFX">
+        <Model value="Assets\Units\Protoss\Tempest_TalDarim_Collection_WarpIn\Tempest_TalDarim_Collection_WarpIn.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Occlusion value="Show"/>
+        <Radius value="1.000000"/>
+        <ScaleMax value="1.000000,1.050000,1.000000"/>
+        <ScaleMin value="1.000000,1.050000,1.000000"/>
+        <SelectionOffset value="0.000000,0.000000,-0.750000"/>
+        <SelectionRadius value="1.000000"/>
+        <ShadowRadius value="1.000000"/>
+        <SquibTypeDefault value="Metal"/>
+    </CModel>
+    <CModel id="TempestWeaponDA" parent="MissileFX">
+        <Model value="Assets\Effects\Protoss\Tempest_TalDarim_PlasmaMissile\Tempest_TalDarim_PlasmaMissile.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="HybridTissueAssimilationModelH" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Zerg\MendBuff\MendBuff.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="CarrierRayAttackBeamD" parent="MissileFX">
+        <Model value="Assets\Effects\Protoss\Alarak_Attack_Beam\Alarak_Attack_Beam.m3"/>
+        <LowQualityModel value="VoidRayAttackBeamLow"/>
+        <EditorCategories value="Race:Protoss"/>
+        <RadiusLoose value="1.000000"/>
+    </CModel>
+    <CModel id="VoidRayPrismModelD" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Protoss\Alarak_COOP_SoulAbsorption_Missile\Alarak_COOP_SoulAbsorption_Missile.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="1.500000,1.500000,1.500000"/>
+        <ScaleMin value="1.500000,1.500000,1.500000"/>
+    </CModel>
+    <CModel id="ScoutD" parent="Unit" Race="Protoss">
+        <Model value="Taldarim\Scout_Taldarim_Hammer_Oldversion.m3"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraLow05"/>
+        <Radius value="0.750000"/>
+        <SelectionRadius value="0.750000"/>
+        <ShadowRadius value="0.750000"/>
+        <TechPurchaseCamera value="Star2CameraLow05"/>
+        <UnitGlossaryCamera value="Star2CameraLow05"/>
+    </CModel>
+    <CModel id="ScoutDeathD" parent="UnitDeath" Race="Protoss">
+        <Model value="Taldarim\Scout_Taldarim_Hammer_Oldversion_Death.m3"/>
+        <LowQualityModel value="ProtossMediumUnitDeathLow"/>
+        <Occlusion value="Show"/>
+        <Radius value="0.750000"/>
+        <SelectionRadius value="0.750000"/>
+        <ShadowRadius value="0.750000"/>
+    </CModel>
+    <CModel id="ScoutGroundAttackImpactD" parent="ImpactFX">
+        <Model value="Taldarim\ScoutWeaponImpactD.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="1.250000,1.250000,1.250000"/>
+        <ScaleMin value="1.250000,1.250000,1.250000"/>
+    </CModel>
+    <CModel id="ScoutGroundAttackLaunchD" parent="LaunchFX">
+        <Model value="Taldarim\ScoutWeaponLaunchD.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="1.500000,1.750000,1.500000"/>
+        <ScaleMin value="1.500000,1.750000,1.500000"/>
+    </CModel>
+    <CModel id="ScoutPortraitD" parent="Portrait" Race="Protoss">
+        <Model value="Taldarim\Scout_Taldarim_Portrait_DS.m3"/>
+        <Image value="Assets\Textures\Scout_Taldarim_DS_Portrait_Static.dds"/>
+        <Lighting value="ScoutPortrait"/>
+    </CModel>
+    <CModel id="ScoutWarpInD" parent="OneShotSpellFX">
+        <Model value="Assets\Units\Protoss\ScoutWarpIn\ScoutWarpIn.m3"/>
+        <LowQualityModel value="ProtossUnitBirth"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Occlusion value="Show"/>
+        <ScaleMax value="0.850000,0.850000,0.850000"/>
+        <ScaleMin value="0.850000,0.850000,0.850000"/>
+        <SelectionOffset value="0.000000,0.000000,-0.750000"/>
+        <SelectionRadius value="0.750000"/>
+        <ShadowRadius value="0.750000"/>
+    </CModel>
+    <CModel id="ThermalLancesFireBeamModelD" parent="PersistentSpellFX">
+        <Model value="Taldarim\Colossus_FireBeam_GroundFireD.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Occlusion value="Show"/>
+    </CModel>
+    <CModel id="ColossusDAWeaponBeamD" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Protoss\HighTemplarTaldarim_PsionicOrb_Beam\HighTemplarTaldarim_PsionicOrb_Beam.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <RadiusLoose value="1.000000"/>
+    </CModel>
+    <CModel id="VoidRayCenterBeamD" parent="PersistentSpellFX">
+        <Model value="Taldarim\VoidRayCenterBeamD.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <RadiusLoose value="1.000000"/>
+    </CModel>
+    <CModel id="VoidRayChargeBaseD" parent="PersistentSpellFX">
+        <Model value="Taldarim\WarpRayBeamD.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="VoidRayD" parent="VoidRayBase">
+        <Model value="Assets\Units\Protoss\VoidRay_TalDarim\VoidRay_TalDarim.m3"/>
+        <ScaleMax value="0.950000,0.925000,0.950000"/>
+        <ScaleMin value="0.950000,0.925000,0.950000"/>
+        <TextureDeclares Prefix="voidray_">
+            <Adaptions TriggerOnSubstring="_Diffuse" Slot="main"/>
+        </TextureDeclares>
+    </CModel>
+    <CModel id="VoidRayDeathD" parent="VoidRayDeathBase">
+        <Model value="Assets\Units\Protoss\VoidRay_Taldarim_Collection_Death\VoidRay_Taldarim_Collection_Death.m3"/>
+    </CModel>
+    <CModel id="VoidRayDeathRagdollD" parent="VoidRayDeathRagdollBase">
+        <Model value="Assets\Units\Protoss\VoidRay_Taldarim_Collection_DeathRagdoll\VoidRay_Taldarim_Collection_DeathRagdoll.m3"/>
+    </CModel>
+    <CModel id="VoidRayPlacementD">
+        <Model value="Assets\Units\Protoss\VoidRay_Taldarim_Collection_Placement\VoidRay_Taldarim_Collection_Placement.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="0.925000,0.925000,0.925000"/>
+        <ScaleMin value="0.925000,0.925000,0.925000"/>
+    </CModel>
+    <CModel id="VoidRayPortraitD" parent="VoidRayPortraitBase">
+        <Model value="Assets\Portraits\Zerg\DestroyerEx2Portrait\DestroyerEx2Portrait.m3"/>
+        <Image value="Assets\Textures\destroyerportrait_static.dds"/>
+        <Lighting value="DestroyerEx2Portrait"/>
+    </CModel>
+    <CModel id="VoidRayTaldarimAttackBeamD" parent="MissileFX">
+        <Model value="Assets\Effects\Protoss\VoidRayBeamBounceMissile\VoidRayBeamBounceMissile.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <RadiusLoose value="1.000000"/>
+    </CModel>
+    <CModel id="VoidRayTaldarimAttackBounceBeamD" parent="MissileFX">
+        <Model value="Assets\Effects\Protoss\VoidRayBeamBounceMissile\VoidRayBeamBounceMissile.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <RadiusLoose value="1.000000"/>
+    </CModel>
+    <CModel id="VoidRayWarpInD" parent="OneShotSpellFX">
+        <Model value="Assets\Units\Protoss\VoidRay_TalDarim_WarpIn\VoidRay_TalDarim_WarpIn.m3"/>
+        <LowQualityModel value="ProtossUnitBirth"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Occlusion value="Show"/>
+        <ScaleMax value="0.925000,0.925000,0.925000"/>
+        <ScaleMin value="0.925000,0.925000,0.925000"/>
+        <SelectionOffset value="0.000000,0.000000,-0.750000"/>
+        <SelectionRadius value="0.882000"/>
+        <ShadowRadius value="0.882000"/>
+    </CModel>
+    <CModel id="ArbiterVoidStatsisD" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Protoss\VoidStasis\VoidStasis.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="1.250000,1.250000,1.250000"/>
+        <ScaleMin value="1.250000,1.250000,1.250000"/>
+    </CModel>
+    <CModel id="VoidSentryBlackHoleD" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Protoss\Taldarim_Mothership_Black_Hole\Taldarim_Mothership_Black_Hole.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="1.437500,1.437500,1.150000"/>
+        <ScaleMin value="1.437500,1.437500,1.150000"/>
+    </CModel>
+    <CModel id="VoidSentryBlackHoleCursorSplatD" parent="UI">
+        <Model value="Assets\UI\Cursors\Taldarim_Mothership_Black_Hole_Cursor\Taldarim_Mothership_Black_Hole_Cursor.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="0.220000,0.220000,0.220000"/>
+        <ScaleMin value="0.220000,0.220000,0.220000"/>
+        <SelectionRadius value="2.500000"/>
+        <ShadowRadius value="2.500000"/>
+    </CModel>
+    <CModel id="HybridNemesisVoidStatsisH" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Protoss\VoidStasis\VoidStasis.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="DarkShrineSacrificeSearchModelD" parent="ImpactFX">
+        <Model value="Assets\Effects\Protoss\HighTemplarTaldarim_Sacrifice\HighTemplarTaldarim_Sacrifice.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="5.000000,5.000000,0.500000"/>
+        <ScaleMin value="5.000000,5.000000,0.500000"/>
+    </CModel>
+    <CModel id="WarPrismWeaponImpact" parent="ImpactFX">
+        <Model value="Taldarim\PhaseCannonMissileImpactD.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="WarPrismWeaponMissileD" parent="MissileFX">
+        <Model value="Taldarim\PhaseCannonMissileD.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="1.400000,1.400000,1.400000"/>
+        <ScaleMin value="1.400000,1.400000,1.400000"/>
+    </CModel>
+    <CModel id="ArchonDB" parent="ArchonBase">
+        <Model value="Assets\Units\Protoss\Archon_Taldarim_Collection\Archon_Taldarim_Collection.m3"/>
+        <LowQualityModel value="ArchonLow"/>
+        <TextureDeclares Prefix="archon_">
+            <Adaptions TriggerOnSubstring="_Diffuse" Slot="main"/>
+        </TextureDeclares>
+    </CModel>
+    <CModel id="ArchonD" parent="ArchonBase">
+        <Model value="Assets\COOP\Zeratul\Units\DarkArchon_Zeratul_COOP\DarkArchon_Zeratul_COOP.m3"/>
+        <LowQualityModel value="ArchonLow"/>
+        <TextureDeclares Prefix="archon_">
+            <Adaptions TriggerOnSubstring="_Diffuse" Slot="main"/>
+        </TextureDeclares>
+        <AnimSpeed value="0.500000"/>
+        <ScaleMax value="1.400000,1.400000,1.400000"/>
+        <ScaleMin value="1.400000,1.400000,1.400000"/>
+        <SelectionRadius value="1.350000"/>
+        <ShadowRadius value="1.350000"/>
+    </CModel>
+    <CModel id="ArchonDeathDB" parent="ArchonDeathBase">
+        <Model value="Assets\Units\Protoss\Void_DarkArchon_Death\Void_DarkArchon_Death.m3"/>
+    </CModel>
+    <CModel id="ArchonDeathD" parent="ArchonDeathBase">
+        <Model value="Assets\COOP\Zeratul\Units\DarkArchon_Zeratul_COOP_Death\DarkArchon_Zeratul_COOP_Death.m3"/>
+    </CModel>
+    <CModel id="ArchonPortraitDB" parent="ArchonPortraitBase">
+        <Model value="Assets\Portraits\Protoss\DarkArchonEx2Portrait\DarkArchonEx2Portrait.m3"/>
+        <Image value="Assets\Textures\darkarchonportrait_static.dds"/>
+        <Lighting value="DarkArchonEx2Portrait"/>
+    </CModel>
+    <CModel id="ArchonPortraitD" parent="ArchonPortraitBase">
+        <Model value="Assets\COOP\Zeratul\Portraits\DarkArchon_Zeratul_COOP_Portrait\DarkArchon_Zeratul_COOP_Portrait.m3"/>
+        <Image value="Assets\Textures\darkarchon_zeratul_coop_portrait_static.dds"/>
+        <Lighting value="Archon_Taldarim_Collection_Portrait"/>
+    </CModel>
+    <CModel id="ArchonDAttackBeamImpact" parent="ImpactFX">
+        <Model value="Assets\Effects\Protoss\Mothership_Taldarim_Thermal_Lance_Beam_Impact\Mothership_Taldarim_Thermal_Lance_Beam_Impact.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="HighTemplarDAM" parent="HighTemplarBase">
+        <Model value="Assets\Units\Protoss\HighTemplar_TaldarimEx3\HighTemplar_TaldarimEx3.m3"/>
+        <Events>
+            <Anim value="Spell,A"/>
+            <Name value="Attack_Sound"/>
+            <Type value="Sound"/>
+            <Time value="0.100000"/>
+            <Payload value="Karass_AttackLaunchDB"/>
+        </Events>
+        <Events>
+            <Anim value="Spell"/>
+            <Name value="Attack_Sound"/>
+            <Type value="Sound"/>
+            <Time value="0.100000"/>
+            <Payload value="Karass_AttackLaunchDB"/>
+        </Events>
+        <Events>
+            <Anim value="Spell,B"/>
+            <Name value="Attack_Sound"/>
+            <Type value="Sound"/>
+            <Time value="0.100000"/>
+            <Payload value="Karass_AttackLaunchDB"/>
+        </Events>
+        <SelectionRadius value="0.500000"/>
+        <ShadowRadius value="0.500000"/>
+        <TextureDeclares Prefix="templar_">
+            <Adaptions TriggerOnSubstring="_Diffuse" Slot="main"/>
+        </TextureDeclares>
+    </CModel>
+    <CModel id="HighTemplarDMergeField" parent="PersistentSpellFX" Prefix="Units\" Race="Protoss">
+        <Model value="Assets\Effects\Protoss\Alarak_Malash_Storm\Alarak_Malash_Storm.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="0.400000,0.400000,0.400000"/>
+        <ScaleMin value="0.400000,0.400000,0.400000"/>
+    </CModel>
+    <CModel id="ArchonDMergeField" parent="PersistentSpellFX" Prefix="Units\" Race="Protoss">
+        <Model value="Assets\Doodads\Void_Rift_Static\Void_Rift_Static.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="HighTemplarDPOWM" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Protoss\Colossus_FireBeam_Unit_Impact\Colossus_FireBeam_Unit_Impact.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="AdeptImpactD" parent="MissileFX">
+        <Model value="Assets\Effects\Protoss\Supplicant_COOP_Missile_Impact\Supplicant_COOP_Missile_Impact.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="1.250000,1.250000,1.250000"/>
+        <ScaleMin value="1.250000,1.250000,1.250000"/>
+    </CModel>
+    <CModel id="AdeptPlacementD" parent="Placement" Race="Protoss">
+        <Model value="Assets\Units\Protoss\Adept_Taldarim_Collection_Placement\Adept_Taldarim_Collection_Placement.m3"/>
+        <Occlusion value="Show"/>
+    </CModel>
+    <CModel id="AdeptPortraitD" parent="AdeptPortraitBase">
+        <Model value="Assets\Portraits\Protoss\Adept_Taldarim_Collection_Portrait\Adept_Taldarim_Collection_Portrait.m3"/>
+        <Image value="Assets\Textures\adept_taldarim_collection_portrait_static.dds"/>
+        <Lighting value="Adept_Taldarim_Collection_Portrait"/>
+    </CModel>
+    <CModel id="AdeptSpiritD" parent="Unit" Race="Protoss">
+        <Model value="Assets\Effects\Protoss\AdeptSpirit\AdeptSpirit.m3"/>
+        <Occlusion value="Show"/>
+        <SquibTypeDefault value="Metal"/>
+    </CModel>
+    <CModel id="AdeptSpiritDeathD" parent="UnitDeath" Race="Protoss">
+        <Model value="Assets\Effects\Protoss\Adept_Spirit_Fizzle\Adept_Spirit_Fizzle.m3"/>
+        <Occlusion value="Show"/>
+        <SelectionRadius value="0.555400"/>
+        <ShadowRadius value="0.555400"/>
+    </CModel>
+    <CModel id="AdeptSpiritOutD" parent="OneShotSpellFX">
+        <Model value="Assets\Effects\Protoss\Adept_SpiritOut\Adept_SpiritOut.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Occlusion value="Show"/>
+    </CModel>
+    <CModel id="AdeptWarpInD" parent="AdeptWarpInBase">
+        <Model value="Assets\Units\Protoss\Adept_Taldarim_Collection_WarpIn\Adept_Taldarim_Collection_WarpIn.m3"/>
+    </CModel>
+    <CModel id="AdeptWeaponD" parent="MissileFX">
+        <Model value="Assets\Effects\Protoss\Supplicant_COOP_Missile\Supplicant_COOP_Missile.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="1.100000,1.250000,1.100000"/>
+        <ScaleMin value="1.100000,1.250000,1.100000"/>
+    </CModel>
+    <CModel id="AscendantAttackImpactD" parent="MissileFX">
+        <Model value="Assets\Effects\Protoss\HighTemplarTaldarim_AgonizingBlast_Impact\HighTemplarTaldarim_AgonizingBlast_Impact.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="AscendantSacrificeEffectD" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Protoss\Colossus_FireBeam_Unit_Impact\Colossus_FireBeam_Unit_Impact.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="1.000000,1.000000,0.500000"/>
+        <ScaleMin value="1.000000,1.000000,0.500000"/>
+    </CModel>
+    <CModel id="AdeptFrenzyD" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Protoss\Colossus_FireBeam_Unit_Impact\Colossus_FireBeam_Unit_Impact.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="1.000000,1.000000,0.500000"/>
+        <ScaleMin value="1.000000,1.000000,0.500000"/>
+    </CModel>
+    <CModel id="AscendantWeaponD" parent="MissileFX">
+        <Model value="Assets\Effects\Protoss\HighTemplarTaldarim_AgonizingBlast\HighTemplarTaldarim_AgonizingBlast.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="1.250000,1.250000,1.250000"/>
+        <ScaleMin value="1.250000,1.250000,1.250000"/>
+    </CModel>
+    <CModel id="BlinkOriginModelDKU" parent="StalkerBlinkOutBase">
+        <Model value="Taldarim\Stalker_Taldarim_Collection_BlinkOutD.m3"/>
+        <ScaleMax value="0.720000,0.720000,0.720000"/>
+        <ScaleMin value="0.720000,0.720000,0.720000"/>
+    </CModel>
+    <CModel id="BlinkOriginModelDK" parent="StalkerBlinkOutBase">
+        <Model value="Taldarim\Stalker_Taldarim_Collection_BlinkOutD.m3"/>
+        <ScaleMax value="0.720000,0.720000,0.720000"/>
+        <ScaleMin value="0.720000,0.720000,0.720000"/>
+    </CModel>
+    <CModel id="BlinkStopModelDK" parent="OneShotSpellFX">
+        <Model value="Taldarim\Stalker_Deluxe_Collection_BlinkInD.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="DarkTemplarD" parent="DarkTemplarBase">
+        <Model value="Assets\Units\Protoss\DarkTemplar_TalDarim\DarkTemplar_TalDarim.m3"/>
+        <RequiredAnims index="1" removed="1"/>
+    </CModel>
+    <CModel id="DarkTemplarDeathD" parent="DarkTemplarDeathBase">
+        <Model value="Assets\Units\Protoss\DarkTemplar_Taldarim_Collection_Death\DarkTemplar_Taldarim_Collection_Death.m3"/>
+    </CModel>
+    <CModel id="DarkTemplarDeathRagdollD" parent="DarkTemplarDeathRagdollBase">
+        <Model value="Assets\Units\Protoss\DarkTemplarDeathRagdoll\DarkTemplarDeathRagdoll_01.m3"/>
+    </CModel>
+    <CModel id="DarkTemplarPlacementD" parent="Placement" Race="Protoss">
+        <Model value="Assets\Units\Protoss\DarkTemplarPlacement\DarkTemplarPlacement.m3"/>
+        <Occlusion value="Show"/>
+        <ScaleMax value="0.850000,0.850000,0.850000"/>
+        <ScaleMin value="0.850000,0.850000,0.850000"/>
+        <SelectionRadius value="0.588100"/>
+        <ShadowRadius value="0.588100"/>
+    </CModel>
+    <CModel id="DarkTemplarPortraitD" parent="DarkTemplarPortraitBase">
+        <Model value="Assets\Portraits\Protoss\DarkTemplar_TalDarim_Portrait\DarkTemplar_TalDarim_Portrait.m3"/>
+        <Image value="Assets\Textures\shadowhunterportrait_static.dds"/>
+        <Lighting value="DarkTemplarTaldarimPortrait"/>
+    </CModel>
+    <CModel id="DarkTemplarWarpInD" parent="DarkTemplarWarpInBase">
+        <Model value="Assets\Units\Protoss\DarkTemplar_Taldarim_Collection_WarpIn\DarkTemplar_Taldarim_Collection_WarpIn.m3"/>
+    </CModel>
+    <CModel id="DragoonBeamAttackBeamImpactD" parent="ImpactFX">
+        <Model value="Assets\Effects\Protoss\Mothership_Taldarim_Terminator_Beam_Impact\Mothership_Taldarim_Terminator_Beam_Impact.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="DarkShrineBuildD" parent="DarkShrineBuildBase">
+        <Model value="Taldarim\ProtossBuildD.m3"/>
+    </CModel>
+    <CModel id="DarkShrineD" parent="DarkShrineBase">
+        <Model value="Taldarim\DarkShrine_Taldarim_DS.m3"/>
+        <TextureDeclares Prefix="darkshrine_">
+            <Adaptions TriggerOnSubstring="_Diffuse" Slot="main"/>
+            <Adaptions TriggerOnSubstring="_Specular" Slot="main"/>
+            <Adaptions TriggerOnSubstring="_Emissive" Slot="main"/>
+        </TextureDeclares>
+        <TextureDeclares Prefix="pylon_">
+            <Adaptions TriggerOnSubstring="_Diffuse" Slot="campaign"/>
+            <Adaptions TriggerOnSubstring="_Specular" Slot="campaign"/>
+            <Adaptions TriggerOnSubstring="_Emissive" Slot="campaign"/>
+        </TextureDeclares>
+        <TextureDeclares Prefix="glow_">
+            <Adaptions Slot="generic01"/>
+        </TextureDeclares>
+        <TextureDeclares Prefix="grad_rays_blue">
+            <Adaptions Slot="generic02"/>
+        </TextureDeclares>
+    </CModel>
+    <CModel id="DarkShrineBirthD" parent="DarkShrineWarpInBase">
+        <Model value="Assets\Buildings\Protoss\DarkShrine_Forged_WarpIn\DarkShrine_Forged_WarpIn.m3"/>
+        <TextureDeclares Prefix="darkshrine_">
+            <Adaptions TriggerOnSubstring="_Diffuse" Slot="main"/>
+            <Adaptions TriggerOnSubstring="_Specular" Slot="main"/>
+            <Adaptions TriggerOnSubstring="_Emissive" Slot="main"/>
+        </TextureDeclares>
+    </CModel>
+    <CModel id="DarkShrineDeathD" parent="DarkShrineDeathBase">
+        <Model value="Taldarim\DarkShrine_Taldarim_DS_Death.m3"/>
+        <ScaleMax value="0.850000,0.850000,0.850000"/>
+        <ScaleMin value="0.850000,0.850000,0.850000"/>
+        <TextureDeclares Prefix="darkshrine_">
+            <Adaptions TriggerOnSubstring="_Diffuse" Slot="main"/>
+            <Adaptions TriggerOnSubstring="_Specular" Slot="main"/>
+            <Adaptions TriggerOnSubstring="_Emissive" Slot="main"/>
+        </TextureDeclares>
+        <TextureDeclares Prefix="pylon_">
+            <Adaptions TriggerOnSubstring="_Diffuse" Slot="campaign"/>
+            <Adaptions TriggerOnSubstring="_Specular" Slot="campaign"/>
+            <Adaptions TriggerOnSubstring="_Emissive" Slot="campaign"/>
+        </TextureDeclares>
+        <TextureDeclares Prefix="glow_">
+            <Adaptions Slot="generic01"/>
+        </TextureDeclares>
+        <TextureDeclares Prefix="grad_">
+            <Adaptions Slot="generic02"/>
+        </TextureDeclares>
+    </CModel>
+    <CModel id="DarkShrineDeathUnderConstructionD" parent="BuildingDeathEx" Race="Protoss">
+        <Model value="Taldarim\WarpInDeathD.m3"/>
+        <Lighting value="ProtossBuildingBuildDeath"/>
+        <ScaleMax value="0.850000,0.850000,0.850000"/>
+        <ScaleMin value="0.850000,0.850000,0.850000"/>
+    </CModel>
+    <CModel id="DarkShrinePlacementD" parent="DarkShrinePlacementBase" low="DarkShrineD">
+        <Model value="Taldarim\DarkShrine_Taldarim_DS_Placement.m3"/>
+    </CModel>
+    <CModel id="DarkShrineSplatD" parent="Splat">
+        <Model value="Assets\Splats\Splat_DarkObelisk\Splat_DarkObelisk.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="0.850000,0.850000,0.850000"/>
+        <ScaleMin value="0.850000,0.850000,0.850000"/>
+    </CModel>
+    <CModel id="DragoonAttackImpactD" parent="ImpactFX">
+        <Model value="Assets\Effects\Protoss\HighTemplarTaldarim_PsionicOrb_Impact\HighTemplarTaldarim_PsionicOrb_Impact.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="DragoonD" parent="Unit" Race="Protoss">
+        <Model value="Taldarim\Taldarim_Obliterator_V2D.m3"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigh08"/>
+        <Radius value="0.650000"/>
+        <SelectionRadius value="0.650000"/>
+        <ShadowRadius value="0.866400"/>
+        <SquibTypeDefault value="Metal"/>
+        <TechPurchaseCamera value="Star2CameraHigh08"/>
+        <Tipability value="0.750000"/>
+        <TipabilityLength value="0.800000"/>
+        <TipabilityWidth value="0.800000"/>
+        <UnitGlossaryCamera value="Star2CameraHigh08"/>
+        <ScaleMax value="1.125000,1.125000,1.125000"/>
+        <ScaleMin value="1.125000,1.125000,1.125000"/>
+    </CModel>
+    <CModel id="DragoonDeathD" parent="UnitDeath" Race="Protoss">
+        <Model value="Taldarim\Dragoon_Void_DeathD16.m3"/>
+    </CModel>
+    <CModel id="DragoonPlacementD" parent="Placement" Race="Protoss">
+        <Model value="Assets\Units\Protoss\Dragoon_Placement\Dragoon_Placement.m3"/>
+    </CModel>
+    <CModel id="DragoonPortraitD" parent="Portrait" Race="Protoss">
+        <Model value="Assets\Portraits\Protoss\Immortal_Taldarim_Collection_Portrait\Immortal_Taldarim_Collection_Portrait.m3"/>
+        <Image value="Assets\Textures\immortal_taldarim_collection_static.dds"/>
+        <Lighting value="Immortal_Taldarim_Collection_Portrait"/>
+    </CModel>
+    <CModel id="DragoonWarpInD" parent="OneShotSpellFX">
+        <Model value="Assets\Units\Protoss\Dragoon_Void_WarpIn\Dragoon_Void_WarpIn.m3"/>
+        <LowQualityModel value="DragoonWarpInLow"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Occlusion value="Show"/>
+        <SelectionRadius value="0.555400"/>
+        <ShadowRadius value="0.555400"/>
+    </CModel>
+    <CModel id="DragoonWeaponD" parent="MissileFX">
+        <Model value="Assets\Effects\Protoss\Alarak_COOP_SoulAbsorption_Missile\Alarak_COOP_SoulAbsorption_Missile.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="2.500000,2.500000,2.500000"/>
+        <ScaleMin value="2.500000,2.500000,2.500000"/>
+    </CModel>
+    <CModel id="FleetBeaconBuildD" parent="FleetBeaconBuildBase">
+        <Model value="Taldarim\ProtossBuildD.m3"/>
+    </CModel>
+    <CModel id="FleetBeaconD" parent="FleetBeaconBase">
+        <Model value="Assets\Buildings\Protoss\FleetBeacon_Taldarim\FleetBeacon_Taldarim.m3"/>
+    </CModel>
+    <CModel id="FleetBeaconBirthD" parent="FleetBeaconWarpInBase">
+        <Model value="Assets\Buildings\Protoss\FleetBeacon_Forged_WarpIn\FleetBeacon_Forged_WarpIn.m3"/>
+        <TextureDeclares Prefix="fleetbecon_">
+            <Adaptions TriggerOnSubstring="_Diffuse" Slot="main"/>
+            <Adaptions TriggerOnSubstring="_Specular" Slot="main"/>
+            <Adaptions TriggerOnSubstring="_Emissive" Slot="main"/>
+        </TextureDeclares>
+    </CModel>
+    <CModel id="FleetBeaconDeathD" parent="FleetBeaconDeathBase">
+        <Model value="Assets\Buildings\Protoss\FleetBeacon_Forged_Death\FleetBeacon_Forged_Death.m3"/>
+        <ScaleMax value="0.900000,0.900000,0.900000"/>
+        <ScaleMin value="0.900000,0.900000,0.900000"/>
+        <TextureDeclares Prefix="fleetbecon_">
+            <Adaptions TriggerOnSubstring="_Diffuse" Slot="main"/>
+            <Adaptions TriggerOnSubstring="_Specular" Slot="main"/>
+            <Adaptions TriggerOnSubstring="_Emissive" Slot="main"/>
+        </TextureDeclares>
+    </CModel>
+    <CModel id="FleetBeaconDeathUnderConstructionD" parent="BuildingDeathEx" Race="Protoss">
+        <Model value="Taldarim\WarpInDeathD.m3"/>
+        <Lighting value="ProtossBuildingBuildDeath"/>
+        <ScaleMax value="0.900000,0.900000,0.900000"/>
+        <ScaleMin value="0.900000,0.900000,0.900000"/>
+    </CModel>
+    <CModel id="FleetBeaconDeathUnpoweredD" parent="FleetBeaconUnpoweredDeathBase">
+        <Model value="Assets\Buildings\Protoss\FleetBeacon_Forged_Unpowered_Death\FleetBeacon_Forged_Unpowered_Death.m3"/>
+        <ScaleMax value="0.900000,0.900000,0.900000"/>
+        <ScaleMin value="0.900000,0.900000,0.900000"/>
+        <TextureDeclares Prefix="fleetbecon_">
+            <Adaptions TriggerOnSubstring="_Diffuse" Slot="main"/>
+            <Adaptions TriggerOnSubstring="_Specular" Slot="main"/>
+            <Adaptions TriggerOnSubstring="_Emissive" Slot="main"/>
+        </TextureDeclares>
+    </CModel>
+    <CModel id="FleetBeaconPlacementD" parent="FleetBeaconPlacementBase" low="FleetBeaconD">
+        <Model value="Assets\Buildings\Protoss\FleetBeacon_Forged_Placement\FleetBeacon_Forged_Placement.m3"/>
+    </CModel>
+    <CModel id="FleetBeaconSplatD" parent="Splat">
+        <Model value="Assets\Splats\Splat_FleetBeacon\Splat_FleetBeacon.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="0.900000,0.900000,0.900000"/>
+        <ScaleMin value="0.900000,0.900000,0.900000"/>
+    </CModel>
+    <CModel id="ForceFieldDB" parent="OneShotSpellFX">
+        <Model value="Assets\Effects\Neutral\ForceField_Coop\ForceField_Coop.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="0.525000,0.525000,0.525000"/>
+        <ScaleMin value="0.525000,0.525000,0.525000"/>
+        <SelectionLayer value="2"/>
+        <SelectionRadius value="0.952100"/>
+        <ShadowRadius value="0.952100"/>
+    </CModel>
+    <CModel id="GlazeVoidStasisD" parent="Glaze">
+        <Model value="Assets\Effects\Glaze\Glaze_VoidStasis\Glaze_VoidStasis.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="GuardianShieldD" parent="PersistentSpellFX">
+        <Model value="Taldarim\SentryShieldBubble_Ex2D.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Events>
+            <Anim value="Birth,00"/>
+            <Name value="SoundStart"/>
+            <Type value="Custom"/>
+            <Time value="0.010000"/>
+        </Events>
+        <Events>
+            <Anim value="Stand,01"/>
+            <Name value="SoundLoopStart"/>
+            <Type value="Custom"/>
+            <Time value="0.010000"/>
+        </Events>
+        <Events>
+            <Anim value="Death,00"/>
+            <Name value="SoundLoopEnd"/>
+            <Type value="Custom"/>
+            <Time value="0.010000"/>
+        </Events>
+        <ScaleMax value="0.850000,0.850000,0.850000"/>
+        <ScaleMin value="0.850000,0.850000,0.850000"/>
+    </CModel>
+    <CModel id="GuardianShieldImpactD" parent="PersistentSpellFX">
+        <Model value="Taldarim\SentryShieldImpactD.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="HighTemplarD" parent="HighTemplarBase">
+        <Model value="Assets\Units\Protoss\HighTemplar_TaldarimEx3\HighTemplar_TaldarimEx3.m3"/>
+        <TextureDeclares Prefix="templar_">
+            <Adaptions TriggerOnSubstring="_Diffuse" Slot="main"/>
+        </TextureDeclares>
+    </CModel>
+    <CModel id="HighTemplarDU" parent="HighTemplarBase">
+        <Model value="Assets\Units\Protoss\HighTemplar_TaldarimEx3\HighTemplar_TaldarimEx3.m3"/>
+        <SelectionRadius value="0.500000"/>
+        <ShadowRadius value="0.500000"/>
+        <TextureDeclares Prefix="templar_">
+            <Adaptions TriggerOnSubstring="_Diffuse" Slot="main"/>
+        </TextureDeclares>
+    </CModel>
+    <CModel id="HighTemplarDM" parent="HighTemplarBase">
+        <Model value="Assets\Units\Protoss\HighTemplar_TaldarimEx3\HighTemplar_TaldarimEx3.m3"/>
+        <Events>
+            <Anim value="Spell,A"/>
+            <Name value="Attack_Sound"/>
+            <Type value="Sound"/>
+            <Time value="0.100000"/>
+            <Payload value="Karass_AttackLaunchDB"/>
+        </Events>
+        <Events>
+            <Anim value="Spell"/>
+            <Name value="Attack_Sound"/>
+            <Type value="Sound"/>
+            <Time value="0.100000"/>
+            <Payload value="Karass_AttackLaunchDB"/>
+        </Events>
+        <Events>
+            <Anim value="Spell,B"/>
+            <Name value="Attack_Sound"/>
+            <Type value="Sound"/>
+            <Time value="0.100000"/>
+            <Payload value="Karass_AttackLaunchDB"/>
+        </Events>
+        <SelectionRadius value="0.500000"/>
+        <ShadowRadius value="0.500000"/>
+        <TextureDeclares Prefix="templar_">
+            <Adaptions TriggerOnSubstring="_Diffuse" Slot="main"/>
+        </TextureDeclares>
+    </CModel>
+    <CModel id="HighTemplarDeathD" parent="HighTemplarDeathBase">
+        <Model value="Assets\Units\Protoss\HighTemplar_Taldarim_Collection_Death\HighTemplar_Taldarim_Collection_Death.m3"/>
+    </CModel>
+    <CModel id="HighTemplarDeathRagdollD" parent="HighTemplarDeathRagdollBase">
+        <Model value="Assets\Units\Protoss\HighTemplar_Taldarim_Collection_Death\HighTemplar_Taldarim_Collection_Death.m3"/>
+    </CModel>
+    <CModel id="HighTemplarPlacementD" parent="Placement" Race="Protoss">
+        <Model value="Assets\Units\Protoss\HighTemplar_Taldarim_Collection_Placement\HighTemplar_Taldarim_Collection_Placement.m3"/>
+        <Lighting value="HighTemplar"/>
+        <Occlusion value="Show"/>
+        <ScaleMax value="0.850000,0.850000,0.850000"/>
+        <ScaleMin value="0.850000,0.850000,0.850000"/>
+        <SelectionRadius value="0.588100"/>
+        <ShadowRadius value="0.588100"/>
+    </CModel>
+    <CModel id="HighTemplarPortraitD" parent="HighTemplarPortraitBase">
+        <Model value="Assets\Portraits\Protoss\HighTemplar_Taldarim_Collection_Portrait\HighTemplar_Taldarim_Collection_Portrait.m3"/>
+        <Image value="Assets\Textures\hightemplar_taldarim_collection_portrait_static.dds"/>
+        <Lighting value="PortraitTalDarim_HighTemplar"/>
+    </CModel>
+    <CModel id="HighTemplarVoidStormImpactD" parent="ImpactFX">
+        <Model value="Assets\Effects\Protoss\TheVoid_DeathCloud_Impact\TheVoid_DeathCloud_Impact.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Radius value="1.000000"/>
+    </CModel>
+    <CModel id="HighTemplarVoidStormModelD" parent="PersistentSpellFX">
+        <Model value="Assets\Doodads\TheVoid_DeathCloud_Intense\TheVoid_DeathCloud_Intense.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="0.450000,0.450000,0.450000"/>
+        <ScaleMin value="0.450000,0.450000,0.450000"/>
+    </CModel>
+    <CModel id="HighTemplarShadowD" parent="HighTemplarShadowBase">
+        <Model value="Taldarim\HighTemplar_Taldarim_Collection_ShadowTrailD.m3"/>
+    </CModel>
+    <CModel id="HighTemplarWarpInD" parent="HighTemplarWarpInBase">
+        <Model value="Assets\Units\Protoss\HighTemplar_Taldarim_Collection_WarpIn\HighTemplar_Taldarim_Collection_WarpIn.m3"/>
+    </CModel>
+    <CModel id="DragoonAttackBeamD" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Protoss\Mothership_Taldarim_Terminator_Beam\Mothership_Taldarim_Terminator_Beam.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <RadiusLoose value="1.000000"/>
+    </CModel>
+    <CModel id="ImmortalAttackImpactD" parent="ImpactFX">
+        <Model value="Taldarim\ImmortalMissileImpactD.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="ImmortalD" parent="ImmortalBase">
+        <Model value="Taldarim\Immortal_Taldarim_CollectionT.m3"/>
+        <TextureDeclares Prefix="immortal_">
+            <Adaptions TriggerOnSubstring="_Diffuse" Slot="main"/>
+        </TextureDeclares>
+        <ScaleMax value="0.780000,0.780000,0.780000"/>
+        <ScaleMin value="0.780000,0.780000,0.780000"/>
+    </CModel>
+    <CModel id="ImmortalDP" parent="ImmortalBase">
+        <Model value="Taldarim\Immortal_TaldarimT.m3"/>
+        <AttachProps index="0" Id="Ref_Weapon Right">
+            <Keys index="Turret" value="-128"/>
+            <Keys index="Weapon" value="0"/>
+        </AttachProps>
+        <AttachProps Id="Ref_Weapon Left">
+            <Keys index="Weapon" value="1"/>
+        </AttachProps>
+        <AttachProps Id="Ref_Hardpoint">
+            <Keys index="Turret" value="0"/>
+        </AttachProps>
+        <ScaleMax value="0.780000,0.780000,0.780000"/>
+        <ScaleMin value="0.780000,0.780000,0.780000"/>
+        <TextureDeclares Prefix="immortal_">
+            <Adaptions TriggerOnSubstring="_Diffuse" Slot="main"/>
+        </TextureDeclares>
+    </CModel>
+    <CModel id="ImmortalDPU" parent="ImmortalBase">
+        <Model value="Taldarim\Immortal_TaldarimT.m3"/>
+        <AttachProps index="0" Id="Ref_Weapon Right">
+            <Keys index="Turret" value="-128"/>
+            <Keys index="Weapon" value="0"/>
+        </AttachProps>
+        <AttachProps Id="Ref_Weapon Left">
+            <Keys index="Weapon" value="1"/>
+        </AttachProps>
+        <AttachProps Id="Ref_Hardpoint">
+            <Keys index="Turret" value="0"/>
+        </AttachProps>
+        <ScaleMax value="0.825000,0.825000,0.825000"/>
+        <ScaleMin value="0.825000,0.825000,0.825000"/>
+        <TextureDeclares Prefix="immortal_">
+            <Adaptions TriggerOnSubstring="_Diffuse" Slot="main"/>
+        </TextureDeclares>
+    </CModel>
+    <CModel id="ImmortalDeathD" parent="ImmortalDeathBase">
+        <Model value="Assets\Units\Protoss\Immortal_Taldarim_Collection_Death\Immortal_Taldarim_Collection_Death.m3"/>
+        <VariationCount value="1"/>
+    </CModel>
+    <CModel id="ImmortalDeathDP" parent="ImmortalDeathBase">
+        <Model value="Taldarim\Immortal_Taldarim_Collection_DeathD.m3"/>
+        <VariationCount value="1"/>
+    </CModel>
+    <CModel id="ImmortalDeathDPU" parent="ImmortalDeathBase">
+        <Model value="Taldarim\Immortal_Taldarim_Collection_DeathD.m3"/>
+        <VariationCount value="1"/>
+    </CModel>
+    <CModel id="ImmortalDeathRagdollD" parent="ImmortalDeathRagdollBase">
+        <Model value="Assets\Units\Protoss\Immortal_Taldarim_Collection_Death\Immortal_Taldarim_Collection_Death.m3"/>
+    </CModel>
+    <CModel id="ImmortalDeathRagdollDP" parent="ImmortalDeathRagdollBase">
+        <Model value="Taldarim\Immortal_Taldarim_Collection_DeathD.m3"/>
+    </CModel>
+    <CModel id="ImmortalDeathRagdollDPU" parent="ImmortalDeathRagdollBase">
+        <Model value="Taldarim\Immortal_Taldarim_Collection_DeathD.m3"/>
+    </CModel>
+    <CModel id="ImmortalPlacementD" parent="Placement" Race="Protoss">
+        <Model value="Assets\Units\Protoss\Immortal_Taldarim_Collection_Placement\Immortal_Taldarim_Collection_Placement.m3"/>
+        <Lighting value="Immortal"/>
+        <Occlusion value="Show"/>
+        <ScaleMax value="0.780000,0.780000,0.780000"/>
+        <ScaleMin value="0.780000,0.780000,0.780000"/>
+        <SelectionRadius value="0.866400"/>
+        <ShadowRadius value="0.866400"/>
+    </CModel>
+    <CModel id="ImmortalPlacementDP" parent="Placement" Race="Protoss">
+        <Model value="Assets\Units\Protoss\Immortal_Taldarim_Collection_Placement\Immortal_Taldarim_Collection_Placement.m3"/>
+        <Lighting value="Immortal"/>
+        <Occlusion value="Show"/>
+        <ScaleMax value="0.780000,0.780000,0.780000"/>
+        <ScaleMin value="0.780000,0.780000,0.780000"/>
+        <SelectionRadius value="0.866400"/>
+        <ShadowRadius value="0.866400"/>
+    </CModel>
+    <CModel id="ImmortalPlacementDPU" parent="Placement" Race="Protoss">
+        <Model value="Assets\Units\Protoss\Immortal_Taldarim_Collection_Placement\Immortal_Taldarim_Collection_Placement.m3"/>
+        <Lighting value="Immortal"/>
+        <Occlusion value="Show"/>
+        <ScaleMax value="0.810000,0.810000,0.810000"/>
+        <ScaleMin value="0.810000,0.810000,0.810000"/>
+        <SelectionRadius value="0.866400"/>
+        <ShadowRadius value="0.866400"/>
+    </CModel>
+    <CModel id="ImmortalPortraitD" parent="ImmortalPortraitBase">
+        <Model value="Assets\Portraits\Protoss\Immortal_TalDarim_Portrait\Immortal_TalDarim_Portrait.m3"/>
+        <Image value="Assets\Textures\taldarimimmortalportrait_static.dds"/>
+        <Lighting value="PortraitTalDarimImmortal"/>
+    </CModel>
+    <CModel id="ImmortalPortraitDP" parent="ImmortalPortraitBase">
+        <Model value="Assets\Portraits\Protoss\Immortal_Taldarim_Collection_Portrait\Immortal_Taldarim_Collection_Portrait.m3"/>
+        <Image value="Assets\Textures\immortal_taldarim_collection_static.dds"/>
+        <Lighting value="Immortal_Taldarim_Collection_Portrait"/>
+    </CModel>
+    <CModel id="ImmortalTaldarimWeaponAttackLaunchModelD" parent="LaunchFX">
+        <Model value="Assets\Effects\Protoss\ScatterCannonLaunch\ScatterCannonLaunch.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="1.250000,1.500000,1.250000"/>
+        <ScaleMin value="1.250000,1.500000,1.250000"/>
+    </CModel>
+    <CModel id="ImmortalTaldarimWeaponAttackLaunchModelDA" parent="LaunchFX">
+        <Model value="Assets\Effects\Protoss\ScatterCannonLaunch\ScatterCannonLaunch.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="1.250000,1.500000,1.250000"/>
+        <ScaleMin value="1.250000,1.500000,1.250000"/>
+    </CModel>
+    <CModel id="ImmortalTaldarimWeaponImpactD" parent="ImpactFX">
+        <Model value="Assets\Effects\Protoss\ScatterCannonMissileImpact\ScatterCannonMissileImpact.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="1.500000,1.500000,1.500000"/>
+        <ScaleMin value="1.500000,1.500000,1.500000"/>
+    </CModel>
+    <CModel id="ImmortalTaldarimWeaponImpactDA" parent="ImpactFX">
+        <Model value="Assets\Effects\Protoss\Alarak_DestructionWave_Impact\Alarak_DestructionWave_Impact.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="0.400000,0.400000,0.400000"/>
+        <ScaleMin value="0.400000,0.400000,0.400000"/>
+    </CModel>
+    <CModel id="ImmortalTaldarimWeaponMissileD" parent="MissileFX">
+        <Model value="Assets\Effects\Protoss\ScatterCannonMissile\ScatterCannonMissile.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="1.500000,1.500000,1.500000"/>
+        <ScaleMin value="1.500000,1.500000,1.500000"/>
+    </CModel>
+    <CModel id="ImmortalTaldarimWeaponMissileDA" parent="MissileFX">
+        <Model value="Assets\Effects\Protoss\ScatterCannonMissile\ScatterCannonMissile.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="1.250000,1.250000,1.250000"/>
+        <ScaleMin value="1.250000,1.250000,1.250000"/>
+    </CModel>
+    <CModel id="ImmortalWarpInD" parent="OneShotSpellFX">
+        <Model value="Assets\Units\Protoss\Immortal_Taldarim_Collection_WarpIn\Immortal_Taldarim_Collection_WarpIn.m3"/>
+        <LowQualityModel value="ProtossUnitBirth"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Occlusion value="Show"/>
+        <ScaleMax value="0.750000,0.750000,0.750000"/>
+        <ScaleMin value="0.750000,0.750000,0.750000"/>
+        <SelectionRadius value="0.666500"/>
+        <ShadowRadius value="0.666500"/>
+    </CModel>
+    <CModel id="InvisibleDPC" Race="Neutral">
+        <Model value="Taldarim\Nexus_Taldarim_WarpInDFalse.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Flags index="TeenSafe" value="1"/>
+        <Radius value="3.000000"/>
+        <SelectionRadius value="3.000000"/>
+        <ShadowRadius value="3.000000"/>
+        <SelectionLayer value="2"/>
+    </CModel>
+    <CModel id="ArchonDAttackBeam" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Protoss\Void_Narud_Beam\Void_Narud_Beam.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <RadiusLoose value="1.000000"/>
+        <ScaleMax value="0.800000,0.800000,0.800000"/>
+        <ScaleMin value="0.800000,0.800000,0.800000"/>
+    </CModel>
+    <CModel id="ObserverD" parent="ObserverBase">
+        <Model value="Assets\Units\Protoss\Observer_Taldarim\Observer_Taldarim.m3"/>
+    </CModel>
+    <CModel id="ObserverDeathD" parent="ObserverDeathBase">
+        <Model value="Assets\Units\Protoss\Observer_Taldarim_Collection_Death\Observer_Taldarim_Collection_Death.m3"/>
+    </CModel>
+    <CModel id="ObserverDeathRagdollD" parent="ObserverDeathRagdollBase">
+        <Model value="Assets\Units\Protoss\Observer_Taldarim_Collection_Death\Observer_Taldarim_Collection_Death.m3"/>
+    </CModel>
+    <CModel id="ObserverPortraitD" parent="ObserverPortraitBase">
+        <Model value="Assets\Portraits\Protoss\Taldarim_Observer_Portrait\Taldarim_Observer_Portrait.m3"/>
+        <Image value="Assets\Textures\taldarim_observerportrait_static.dds"/>
+        <Lighting value="Taldarim_Observer_Portrait"/>
+    </CModel>
+    <CModel id="ObserveAttackBeamD" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Protoss\HighTemplarTaldarim_PsionicOrb_Beam\HighTemplarTaldarim_PsionicOrb_Beam.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="0.500000,0.500000,0.500000"/>
+        <ScaleMin value="0.500000,0.500000,0.500000"/>
+    </CModel>
+    <CModel id="ObserveAttackImpactD" parent="ImpactFX">
+        <Model value="Assets\Effects\Protoss\ProbeImpact\ProbeImpact.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="ShieldAbsorbImmortalVizD" parent="OneShotSpellFX">
+        <Model value="Taldarim\DragoonForceShieldD.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="ImmortalShieldGlazeD">
+        <Model value="Assets\Effects\Glaze\Glaze_Alarak_COOP_Empower\Glaze_Alarak_COOP_Empower.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="ShuttleTransportLoadModelD" parent="OneShotSpellFX">
+        <Model value="Taldarim\WarpGateWarpCastD.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="ShuttleTransportUnloadModelD" parent="OneShotSpellFX">
+        <Model value="Taldarim\Stalker_Deluxe_Collection_BlinkInD.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="TaldarimUnloadFXD" parent="OneShotSpellFX">
+        <Model value="Assets\Effects\Terran\UnloadFX\UnloadFX.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="VoidStormCursorSplatD" parent="UI">
+        <Model value="Taldarim\ProtossCursor1D.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="0.250000,0.250000,0.250000"/>
+        <ScaleMin value="0.250000,0.250000,0.250000"/>
+        <SelectionRadius value="2.500000"/>
+        <ShadowRadius value="2.500000"/>
+    </CModel>
+    <CModel id="VoidBombImpactD" parent="ImpactFX">
+        <Model value="Assets\Effects\Neutral\OrbitalStrike_Coop_Impact\OrbitalStrike_Coop_Impact.m3"/>
+        <AnimSpeed value="0.750000"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="1.250000,1.250000,1.250000"/>
+        <ScaleMin value="1.250000,1.250000,1.250000"/>
+    </CModel>
+    <CModel id="ParticleCannonTargetingImpactD" parent="ImpactFX">
+        <Model value="Assets\Effects\Terran\MiraHorner_Raven_Coop_Target_UpgradedImpact\MiraHorner_Raven_Coop_Target_UpgradedImpact.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="ParticleCannonAttackBeamD" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Terran\LaserDrillBeam\LaserDrillBeam.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <AnimSpeed value="1.500000"/>
+    </CModel>
+    <CModel id="ParticleCannonAttackImpactD" parent="ImpactFX">
+        <Model value="Assets\Effects\Neutral\OrbitalStrike_Coop_Impact\OrbitalStrike_Coop_Impact.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="0.900000,0.900000,0.900000"/>
+        <ScaleMin value="0.900000,0.900000,0.900000"/>
+        <AnimSpeed value="0.750000"/>
+    </CModel>
+    <CModel id="ParticleCannonTargetUID" parent="OneShotSpellFX">
+        <Model value="Taldarim\SOA_GroundTargetCursor_CoopD.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="1.450000,1.450000,1.000000"/>
+        <ScaleMin value="1.450000,1.450000,1.000000"/>
+    </CModel>
+    <CModel id="ProtossGenericWarpInOutDPC" parent="OneShotSpellFX">
+        <Model value="Assets\Effects\Protoss\Protoss_Generic_WarpOut\Protoss_Generic_WarpOut.m3"/>
+        <LowQualityModel value="ProtossUnitBirth"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Occlusion value="Show"/>
+        <SelectionRadius value="4.000000"/>
+        <ShadowRadius value="4.000000"/>
+    </CModel>
+    <CModel id="SlaynMissileTurretBuildD" parent="NexusBuildBase">
+        <Model value="Taldarim\ProtossBuildD.m3"/>
+    </CModel>
+    <CModel id="ProtossAOECursorSplatD" parent="UI">
+        <Model value="Taldarim\ProtossCursor1D.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="0.225555,0.225555,0.225555"/>
+        <ScaleMin value="0.225555,0.225555,0.225555"/>
+        <SelectionRadius value="2.500000"/>
+        <ShadowRadius value="2.500000"/>
+    </CModel>
+    <CModel id="RoboticsBayBuildD" parent="RoboticsBayBuildBase">
+        <Model value="Taldarim\ProtossBuildD.m3"/>
+    </CModel>
+    <CModel id="RoboticsBayD" parent="RoboticsBayBase">
+        <Model value="Assets\Buildings\Protoss\RoboticsSupportBay_Taldarim\RoboticsSupportBay_Taldarim.m3"/>
+    </CModel>
+    <CModel id="RoboticsBayBirthD" parent="RoboticsBayWarpInBase">
+        <Model value="Assets\Buildings\Protoss\RoboticsBay_Forged_WarpIn\RoboticsBay_Forged_WarpIn.m3"/>
+    </CModel>
+    <CModel id="RoboticsBayDeathD" parent="RoboticsBayDeathBase">
+        <Model value="Assets\Buildings\Protoss\RoboticsBay_Forged_Death\RoboticsBay_Forged_Death.m3"/>
+    </CModel>
+    <CModel id="RoboticsBayDeathUnderConstructionD" parent="BuildingDeathEx" Race="Protoss">
+        <Model value="Taldarim\WarpInDeathD.m3"/>
+        <Lighting value="ProtossBuildingBuildDeath"/>
+    </CModel>
+    <CModel id="RoboticsBayDeathUnpoweredD" parent="RoboticsBayUnpoweredDeathBase">
+        <Model value="Assets\Buildings\Protoss\RoboticsBay_Forged_Unpowered_Death\RoboticsBay_Forged_Unpowered_Death.m3"/>
+    </CModel>
+    <CModel id="RoboticsBayPlacementD" parent="RoboticsBayPlacementBase" low="RoboticsBayD">
+        <Model value="Assets\Buildings\Protoss\RoboticsBay_Forged_Placement\RoboticsBay_Forged_Placement.m3"/>
+    </CModel>
+    <CModel id="RoboticsBaySplatD" parent="Splat">
+        <Model value="Assets\Splats\Splat_RoboticsSupportBay\Splat_RoboticsSupportBay.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="0.900000,0.900000,0.900000"/>
+        <ScaleMin value="0.900000,0.900000,0.900000"/>
+    </CModel>
+    <CModel id="RoboticsFacilityBuildD" parent="RoboticsFacilityBuildBase">
+        <Model value="Taldarim\ProtossBuildD.m3"/>
+    </CModel>
+    <CModel id="RoboticsFacilityD" parent="RoboticsFacilityBase">
+        <Model value="Assets\Buildings\Protoss\RoboticsFacility_Forged\RoboticsFacility_Forged.m3"/>
+    </CModel>
+    <CModel id="RoboticsFacilityBirthD" parent="RoboticsFacilityWarpInBase">
+        <Model value="Assets\Buildings\Protoss\RoboticsFacility_Forged_WarpIn\RoboticsFacility_Forged_WarpIn.m3"/>
+        <TextureDeclares Prefix="roboticsfacility_">
+            <Adaptions TriggerOnSubstring="_Diffuse" Slot="main"/>
+            <Adaptions TriggerOnSubstring="_Specular" Slot="main"/>
+            <Adaptions TriggerOnSubstring="_Emissive" Slot="main"/>
+        </TextureDeclares>
+    </CModel>
+    <CModel id="RoboticsFacilityConstructionDeathD" parent="BuildingDeath" Race="Protoss">
+        <Model value="Assets\Buildings\Protoss\RoboticsFacility_Forged_Death\RoboticsFacility_Forged_Death.m3"/>
+        <ScaleMax value="0.900000,0.900000,0.900000"/>
+        <ScaleMin value="0.900000,0.900000,0.900000"/>
+    </CModel>
+    <CModel id="RoboticsFacilityDeathD" parent="RoboticsFacilityDeathBase">
+        <Model value="Assets\Buildings\Protoss\RoboticsFacility_Forged_Death\RoboticsFacility_Forged_Death.m3"/>
+        <ScaleMax value="0.900000,0.900000,0.900000"/>
+        <ScaleMin value="0.900000,0.900000,0.900000"/>
+        <TextureDeclares Prefix="roboticsfacility_">
+            <Adaptions TriggerOnSubstring="_Diffuse" Slot="main"/>
+            <Adaptions TriggerOnSubstring="_Specular" Slot="main"/>
+        </TextureDeclares>
+    </CModel>
+    <CModel id="RoboticsFacilityDeathUnderConstructionD" parent="BuildingDeathEx" Race="Protoss">
+        <Model value="Taldarim\WarpInDeathD.m3"/>
+        <Lighting value="ProtossBuildingBuildDeath"/>
+        <ScaleMax value="0.900000,0.900000,0.900000"/>
+        <ScaleMin value="0.900000,0.900000,0.900000"/>
+    </CModel>
+    <CModel id="RoboticsFacilityDeathUnpoweredD" parent="RoboticsFacilityUnpoweredDeathBase">
+        <Model value="Assets\Buildings\Protoss\RoboticsFacility_Forged_Unpowered_Death\RoboticsFacility_Forged_Unpowered_Death.m3"/>
+        <ScaleMax value="0.900000,0.900000,0.900000"/>
+        <ScaleMin value="0.900000,0.900000,0.900000"/>
+        <TextureDeclares Prefix="roboticsfacility_">
+            <Adaptions TriggerOnSubstring="_Diffuse" Slot="main"/>
+            <Adaptions TriggerOnSubstring="_Specular" Slot="main"/>
+        </TextureDeclares>
+    </CModel>
+    <CModel id="RoboticsFacilityPlacementD" parent="RoboticsFacilityPlacementBase" low="RoboticsFacilityD">
+        <Model value="Assets\Buildings\Protoss\RoboticsFacility_Forged_Placement\RoboticsFacility_Forged_Placement.m3"/>
+    </CModel>
+    <CModel id="RoboticsFacilitySplatD" parent="Splat">
+        <Model value="Assets\Splats\Splat_RoboticsFacility\Splat_RoboticsFacility.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="0.900000,0.900000,0.900000"/>
+        <ScaleMin value="0.900000,0.900000,0.900000"/>
+    </CModel>
+    <CModel id="SentryAttackBeamD" parent="PersistentSpellFX">
+        <Model value="Taldarim\NullifierBeamD.m3"/>
+        <LowQualityModel value="SentryAttackBeamLow"/>
+        <EditorCategories value="Race:Protoss"/>
+        <RadiusLoose value="1.000000"/>
+    </CModel>
+    <CModel id="SentryD" parent="SentryBase">
+        <Model value="Taldarim\Sentry_TaldarimD.m3"/>
+        <TextureDeclares Prefix="sentry_">
+            <Adaptions TriggerOnSubstring="_Diffuse" Slot="main"/>
+        </TextureDeclares>
+    </CModel>
+    <CModel id="SentryDBU" parent="SentryBase">
+        <Model value="Taldarim\Sentry_TaldarimD.m3"/>
+        <ScaleMax value="0.630000,0.630000,0.630000"/>
+        <ScaleMin value="0.630000,0.630000,0.630000"/>
+        <TextureDeclares Prefix="sentry_">
+            <Adaptions TriggerOnSubstring="_Diffuse" Slot="main"/>
+        </TextureDeclares>
+    </CModel>
+    <CModel id="SentryDB" parent="SentryBase">
+        <Model value="Taldarim\Sentry_Taldarim_CollectionD.m3"/>
+        <TextureDeclares Prefix="sentry_">
+            <Adaptions TriggerOnSubstring="_Diffuse" Slot="main"/>
+        </TextureDeclares>
+    </CModel>
+    <CModel id="SentryDeathD" parent="SentryDeathBase">
+        <Model value="Assets\Units\Protoss\Sentry_Taldarim_Death\Sentry_Taldarim_Death.m3"/>
+    </CModel>
+    <CModel id="SentryDeathDBU" parent="SentryDeathBase">
+        <Model value="Assets\Units\Protoss\Sentry_Taldarim_Death\Sentry_Taldarim_Death.m3"/>
+    </CModel>
+    <CModel id="SentryDeathDB" parent="SentryDeathBase">
+        <Model value="Assets\Units\Protoss\Sentry_Taldarim_Collection_Death\Sentry_Taldarim_Collection_Death.m3"/>
+    </CModel>
+    <CModel id="SentryDeathRagdollD" parent="SentryDeathRagdollBase">
+        <Model value="Assets\Units\Protoss\Sentry_Taldarim_Collection_DeathRagdoll\Sentry_Taldarim_Collection_DeathRagdoll.m3"/>
+    </CModel>
+    <CModel id="SentryDeathRagdollDBU" parent="SentryDeathRagdollBase">
+        <Model value="Assets\Units\Protoss\Sentry_Taldarim_Collection_DeathRagdoll\Sentry_Taldarim_Collection_DeathRagdoll.m3"/>
+    </CModel>
+    <CModel id="SentryDeathRagdollDB" parent="SentryDeathRagdollBase">
+        <Model value="Assets\Units\Protoss\Sentry_Taldarim_Collection_DeathRagdoll\Sentry_Taldarim_Collection_DeathRagdoll.m3"/>
+    </CModel>
+    <CModel id="SentryPlacementD" parent="Placement" Race="Protoss">
+        <Model value="Assets\Units\Protoss\Sentry_TalDarim_Placement\Sentry_TalDarim_Placement.m3"/>
+        <Occlusion value="Show"/>
+        <ScaleMax value="0.600000,0.600000,0.600000"/>
+        <ScaleMin value="0.600000,0.600000,0.600000"/>
+        <SelectionRadius value="0.499700"/>
+        <ShadowRadius value="0.499700"/>
+    </CModel>
+    <CModel id="SentryPlacementDBU" parent="Placement" Race="Protoss">
+        <Model value="Assets\Units\Protoss\Sentry_TalDarim_Placement\Sentry_TalDarim_Placement.m3"/>
+        <Occlusion value="Show"/>
+        <ScaleMax value="0.630000,0.630000,0.630000"/>
+        <ScaleMin value="0.630000,0.630000,0.630000"/>
+        <SelectionRadius value="0.499700"/>
+        <ShadowRadius value="0.499700"/>
+    </CModel>
+    <CModel id="SentryPlacementDB" parent="Placement" Race="Protoss">
+        <Model value="Assets\Units\Protoss\Sentry_Taldarim_Collection_Placement\Sentry_Taldarim_Collection_Placement.m3"/>
+        <Occlusion value="Show"/>
+        <ScaleMax value="0.600000,0.600000,0.600000"/>
+        <ScaleMin value="0.600000,0.600000,0.600000"/>
+        <SelectionRadius value="0.499700"/>
+        <ShadowRadius value="0.499700"/>
+    </CModel>
+    <CModel id="SentryPortraitD" parent="SentryPortraitBase">
+        <Model value="Assets\Portraits\Protoss\Sentry_Taldarim_Collection_Portrait\Sentry_Taldarim_Collection_Portrait.m3"/>
+        <Image value="Assets\Textures\sentry_taldarim_collection_portrait_static.dds"/>
+        <Lighting value="Sentry_Taldarim_Collection_Portrait"/>
+    </CModel>
+    <CModel id="SentryWarpInD" parent="SentryWarpInBase">
+        <Model value="Assets\Units\Protoss\Sentry_TalDarim_WarpIn\Sentry_TalDarim_WarpIn.m3"/>
+    </CModel>
+    <CModel id="SentryWarpInDBU" parent="SentryWarpInBase">
+        <Model value="Assets\Units\Protoss\Sentry_TalDarim_WarpIn\Sentry_TalDarim_WarpIn.m3"/>
+    </CModel>
+    <CModel id="SentryWarpInDB" parent="SentryWarpInBase">
+        <Model value="Assets\Units\Protoss\Sentry_Taldarim_Collection_WarpIn\Sentry_Taldarim_Collection_WarpIn.m3"/>
+    </CModel>
+    <CModel id="Sentry_HealingBeamD" parent="PersistentSpellFX">
+        <Model value="Taldarim\ProtossShield_Battery_BeamD.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="Sentry_HealingBeam_ImpactD" parent="PersistentSpellFX">
+        <Model value="Taldarim\ProtossShield_Battery_Beam_ImpactD.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="SlaynMissileTurretD" parent="Building" Race="Protoss">
+        <Model value="Taldarim\ParticleCannon_Taldarim_DS.m3"/>
+        <Radius value="4.000000"/>
+        <ScaleMax value="0.650000,0.650000,0.650000"/>
+        <ScaleMin value="0.650000,0.650000,0.650000"/>
+        <SelectionLayer value="2"/>
+        <SelectionRadius value="4.000000"/>
+        <ShadowRadius value="4.000000"/>
+        <SquibTypeDefault value="Metal"/>
+    </CModel>
+    <CModel id="SlaynMissileTurretDeathD" parent="UnitDeath" Race="Protoss">
+        <Model value="Taldarim\ParticleCannon_Taldarim_DS_Death.m3"/>
+        <Occlusion value="Show"/>
+        <ScaleMax value="0.650000,0.650000,0.650000"/>
+        <ScaleMin value="0.650000,0.650000,0.650000"/>
+    </CModel>
+    <CModel id="SquadSightAttachmentD" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Protoss\SquadSight\SquadSight.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="StalkerAttackBeamD" parent="PersistentSpellFX">
+        <Model value="Taldarim\Stalker_BlinkAttackBeam_Zeratul_COOPD.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="0.750000,0.750000,0.750000"/>
+        <ScaleMin value="0.750000,0.750000,0.750000"/>
+    </CModel>
+    <CModel id="StalkerAttackImpactDB" parent="ImpactFX">
+        <Model value="Assets\Effects\Protoss\Stalker_TalDarim_Missile_Impact\Stalker_TalDarim_Missile_Impact.m3"/>
+        <AnimSpeed value="1.500000"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="StalkerAttackImpactD" parent="ImpactFX">
+        <Model value="Assets\Effects\Protoss\Stalker_TalDarim_Missile_Impact\Stalker_TalDarim_Missile_Impact.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="StalkerBlinkShieldGlazeD">
+        <Model value="Assets\Effects\Glaze\Glaze_Alarak_COOP_Empower\Glaze_Alarak_COOP_Empower.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="StalkerDK" parent="StalkerBase">
+        <Model value="Taldarim\Stalker_Taldarim_CollectionD14.m3"/>
+        <ScaleMax value="0.700000,0.700000,0.700000"/>
+        <ScaleMin value="0.700000,0.700000,0.700000"/>
+        <TextureDeclares Prefix="stalker_">
+            <Adaptions TriggerOnSubstring="_Diffuse" Slot="main"/>
+        </TextureDeclares>
+    </CModel>
+    <CModel id="StalkerDKU" parent="StalkerBase">
+        <Model value="Taldarim\DarkStalkerD2.m3"/>
+        <ScaleMax value="0.750000,0.750000,0.750000"/>
+        <ScaleMin value="0.750000,0.750000,0.750000"/>
+        <TextureDeclares Prefix="stalker_">
+            <Adaptions TriggerOnSubstring="_Diffuse" Slot="main"/>
+        </TextureDeclares>
+    </CModel>
+    <CModel id="StalkerDeathDK" parent="StalkerDeathBase">
+        <Model value="Assets\Units\Protoss\Stalker_Taldarim_Collection_Death\Stalker_Taldarim_Collection_Death.m3"/>
+    </CModel>
+    <CModel id="StalkerDeathRagdollDK" parent="StalkerDeathRagdollBase">
+        <Model value="Assets\Units\Protoss\Stalker_Taldarim_Collection_DeathRagdoll\Stalker_Taldarim_Collection_DeathRagdoll.m3"/>
+    </CModel>
+    <CModel id="StalkerPlacementDK" parent="Placement" Race="Protoss">
+        <Model value="Assets\Units\Protoss\StalkerPlacement\StalkerPlacement.m3"/>
+        <Lighting value="Stalker"/>
+        <Occlusion value="Show"/>
+        <ScaleMax value="0.700000,0.700000,0.700000"/>
+        <ScaleMin value="0.700000,0.700000,0.700000"/>
+        <SelectionRadius value="0.941600"/>
+        <ShadowRadius value="0.941600"/>
+    </CModel>
+    <CModel id="StalkerWeaponD" parent="MissileFX">
+        <Model value="Assets\Effects\Protoss\Stalker_TalDarim_Missile\Stalker_TalDarim_Missile.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="0.700000,0.700000,0.700000"/>
+        <ScaleMin value="0.700000,0.700000,0.700000"/>
+        <SelectionRadius value="0.714000"/>
+        <ShadowRadius value="0.714000"/>
+    </CModel>
+    <CModel id="StargateBuildD" parent="StargateBuildBase">
+        <Model value="Taldarim\ProtossBuildD.m3"/>
+    </CModel>
+    <CModel id="StargateD" parent="StargateBase">
+        <Model value="Taldarim\Stargate_Taldarim_RedEffects_DS.m3"/>
+        <TextureDeclares Prefix="stargate_">
+            <Adaptions TriggerOnSubstring="_Diffuse" Slot="main"/>
+            <Adaptions TriggerOnSubstring="_Specular" Slot="main"/>
+            <Adaptions TriggerOnSubstring="_Emissive" Slot="main"/>
+        </TextureDeclares>
+        <TextureDeclares Prefix="tronhex1_">
+            <Adaptions Slot="generic01"/>
+        </TextureDeclares>
+        <TextureDeclares Prefix="grad_">
+            <Adaptions Slot="generic02"/>
+        </TextureDeclares>
+        <TextureDeclares Prefix="pulse1_">
+            <Adaptions Slot="generic03"/>
+        </TextureDeclares>
+        <TextureDeclares Prefix="tronsquare1_">
+            <Adaptions Slot="generic04"/>
+        </TextureDeclares>
+    </CModel>
+    <CModel id="StargateBirthD" parent="StargateWarpInBase">
+        <Model value="Assets\Buildings\Protoss\Stargate_Forged_WarpIn\Stargate_Forged_WarpIn.m3"/>
+        <TextureDeclares Prefix="stargate_">
+            <Adaptions TriggerOnSubstring="_Diffuse" Slot="main"/>
+            <Adaptions TriggerOnSubstring="_Specular" Slot="main"/>
+            <Adaptions TriggerOnSubstring="_Emissive" Slot="main"/>
+        </TextureDeclares>
+    </CModel>
+    <CModel id="StargateDeathD" parent="StargateDeathBase">
+        <Model value="Assets\Buildings\Protoss\Stargate_Forged_Death\Stargate_Forged_Death.m3"/>
+        <ScaleMax value="0.800000,0.800000,0.800000"/>
+        <ScaleMin value="0.800000,0.800000,0.800000"/>
+        <TextureDeclares Prefix="stargate_">
+            <Adaptions TriggerOnSubstring="_Diffuse" Slot="main"/>
+            <Adaptions TriggerOnSubstring="_Specular" Slot="main"/>
+        </TextureDeclares>
+    </CModel>
+    <CModel id="StargateDeathUnderConstructionD" parent="BuildingDeathEx" Race="Protoss">
+        <Model value="Taldarim\WarpInDeathD.m3"/>
+        <Lighting value="ProtossBuildingBuildDeath"/>
+        <ScaleMax value="0.800000,0.800000,0.800000"/>
+        <ScaleMin value="0.800000,0.800000,0.800000"/>
+    </CModel>
+    <CModel id="StargateDeathUnpoweredD" parent="StargateUnpoweredDeathBase">
+        <Model value="Assets\Buildings\Protoss\Stargate_Taldarim_DeathUnpowered\Stargate_Taldarim_DeathUnpowered.m3"/>
+        <ScaleMax value="0.800000,0.800000,0.800000"/>
+        <ScaleMin value="0.800000,0.800000,0.800000"/>
+        <TextureDeclares Prefix="stargate_">
+            <Adaptions TriggerOnSubstring="_Diffuse" Slot="main"/>
+            <Adaptions TriggerOnSubstring="_Specular" Slot="main"/>
+        </TextureDeclares>
+    </CModel>
+    <CModel id="StargatePlacementD" parent="StargatePlacementBase" low="StargateD">
+        <Model value="Assets\Buildings\Protoss\Stargate_Forged_Placement\Stargate_Forged_Placement.m3"/>
+    </CModel>
+    <CModel id="StargateSplatD" parent="Splat">
+        <Model value="Assets\Splats\Splat_Stargate\Splat_Stargate.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="0.800000,0.800000,0.800000"/>
+        <ScaleMin value="0.800000,0.800000,0.800000"/>
+    </CModel>
+    <CModel id="AdeptStimpackEndImpactD" parent="OneShotSpellFX">
+        <Model value="Assets\Effects\Protoss\Alarak_COOP_Sacrifice_Missile_Impact\Alarak_COOP_Sacrifice_Missile_Impact.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="0.800000,0.800000,0.800000"/>
+        <ScaleMin value="0.800000,0.800000,0.800000"/>
+    </CModel>
+    <CModel id="AdeptStartImpactD" parent="OneShotSpellFX">
+        <Model value="Assets\Effects\Protoss\Alarak_COOP_Sacrifice_CDR\Alarak_COOP_Sacrifice_CDR.m3"/>
+        <AnimSpeed value="2.000000"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="0.800000,0.800000,0.800000"/>
+        <ScaleMin value="0.800000,0.800000,0.800000"/>
+    </CModel>
+    <CModel id="SupplicantAstralWindCastModelD" parent="OneShotSpellFX">
+        <Model value="Taldarim\Artanis_AstralWindsD.m3"/>
+        <AnimSpeed value="2.000000"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="0.500000,0.500000,1.000000"/>
+        <ScaleMin value="0.500000,0.500000,1.000000"/>
+    </CModel>
+    <CModel id="SupplicantAstralWindImpactModelD" parent="OneShotSpellFX">
+        <Model value="Taldarim\Artanis_AstralWinds_ImpactD.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="AssimilatorBuildD" parent="AssimilatorBuildBase">
+        <Model value="Taldarim\ProtossBuildD.m3"/>
+    </CModel>
+    <CModel id="AssimilatorD" parent="AssimilatorBase">
+        <Model value="Taldarim\Assimilator_Taldarim_DS.m3"/>
+    </CModel>
+    <CModel id="AssimilatorBirthD" parent="AssimilatorWarpInBase">
+        <Model value="Assets\Buildings\Protoss\Assimilator_Taldarim_WarpIn\Assimilator_Taldarim_WarpIn.m3"/>
+        <TextureDeclares Prefix="assimilator_">
+            <Adaptions TriggerOnSubstring="_Diffuse" Slot="main"/>
+            <Adaptions TriggerOnSubstring="_Specular" Slot="main"/>
+        </TextureDeclares>
+    </CModel>
+    <CModel id="AssimilatorDeathD" parent="AssimilatorDeathBase">
+        <Model value="Taldarim\Assimilator_Taldarim_DS_Death.m3"/>
+        <ScaleMax value="0.800000,0.800000,0.800000"/>
+        <ScaleMin value="0.800000,0.800000,0.800000"/>
+        <TextureDeclares Prefix="assimilator_">
+            <Adaptions TriggerOnSubstring="_Diffuse" Slot="main"/>
+            <Adaptions TriggerOnSubstring="_Specular" Slot="main"/>
+        </TextureDeclares>
+    </CModel>
+    <CModel id="AssimilatorDeathUnderConstructionD" parent="BuildingDeathEx" Race="Protoss">
+        <Model value="Taldarim\WarpInDeathD.m3"/>
+        <Lighting value="ProtossBuildingBuildDeath"/>
+        <ScaleMax value="0.800000,0.800000,0.800000"/>
+        <ScaleMin value="0.800000,0.800000,0.800000"/>
+    </CModel>
+    <CModel id="AssimilatorEmptyDeathD" parent="AssimilatorEmptyDeathBase">
+        <Model value="Assets\Buildings\Protoss\Assimilator_Forged_Empty_Death\Assimilator_Forged_Empty_Death.m3"/>
+        <ScaleMax value="0.800000,0.800000,0.800000"/>
+        <ScaleMin value="0.800000,0.800000,0.800000"/>
+    </CModel>
+    <CModel id="AssimilatorPlacementD" parent="AssimilatorPlacementBase" low="AssimilatorD">
+        <Model value="Assets\Buildings\Protoss\Assimilator_Forged_Placement\Assimilator_Forged_Placement.m3"/>
+    </CModel>
+    <CModel id="AssimilatorSplatD" parent="Splat">
+        <Model value="Assets\Splats\Splat_Assimilator\Splat_Assimilator.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="0.800000,0.800000,0.800000"/>
+        <ScaleMin value="0.800000,0.800000,0.800000"/>
+    </CModel>
+    <CModel id="AutomatedAssimilatorD" parent="Building" Race="Protoss">
+        <Model value="Taldarim\Assimilator_Taldarim_DS_HighYield.m3"/>
+        <Radius value="1.500000"/>
+        <ScaleMax value="0.800000,0.800000,0.800000"/>
+        <ScaleMin value="0.800000,0.800000,0.800000"/>
+        <SelectionLayer value="2"/>
+        <SelectionRadius value="2.250000"/>
+        <ShadowRadius value="2.250000"/>
+        <SquibTypeDefault value="Metal"/>
+    </CModel>
+    <CModel id="AutomatedAssimilatorDeathD" parent="BuildingDeath">
+        <Model value="Taldarim\Assimilator_Taldarim_DS_Death.m3"/>
+        <LowQualityModel value="ProtossBuildingDeathLow"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="BlinkOriginModelD" parent="StalkerBlinkOutBase">
+        <Model value="Assets\Effects\Protoss\Alarak_COOP_Sacrifice_Impact\Alarak_COOP_Sacrifice_Impact.m3"/>
+        <ScaleMax value="1.500000,1.500000,1.500000"/>
+        <ScaleMin value="1.500000,1.500000,1.500000"/>
+    </CModel>
+    <CModel id="BlinkStopModelD" parent="OneShotSpellFX">
+        <Model value="Taldarim\Stalker_Deluxe_Collection_BlinkInD.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="CyberneticsCoreBuildD" parent="CyberneticsCoreBuildBase">
+        <Model value="Taldarim\ProtossBuildD.m3"/>
+    </CModel>
+    <CModel id="CyberneticsCoreD" parent="CyberneticsCoreBase">
+        <Model value="Assets\Buildings\Protoss\CyberneticsCore_TaldarimEx3\CyberneticsCore_TaldarimEx3.m3"/>
+    </CModel>
+    <CModel id="CyberneticsCoreBirthD" parent="CyberneticsCoreWarpInBase">
+        <Model value="Assets\Buildings\Protoss\Cybernetics_Taldarim_WarpIn\Cybernetics_Taldarim_WarpIn.m3"/>
+        <TextureDeclares Prefix="cyberneticscore_">
+            <Adaptions TriggerOnSubstring="_Diffuse" Slot="main"/>
+            <Adaptions TriggerOnSubstring="_Specular" Slot="main"/>
+            <Adaptions TriggerOnSubstring="_Emissive" Slot="main"/>
+        </TextureDeclares>
+    </CModel>
+    <CModel id="CyberneticsCoreDeathD" parent="CyberneticsCoreDeathBase">
+        <Model value="Assets\Buildings\Protoss\CyberneticsCore_Forged_Death\CyberneticsCore_Forged_Death.m3"/>
+        <TextureDeclares Prefix="cyberneticscore_">
+            <Adaptions TriggerOnSubstring="_Diffuse" Slot="main"/>
+            <Adaptions TriggerOnSubstring="_Specular" Slot="main"/>
+            <Adaptions TriggerOnSubstring="_Emissive" Slot="main"/>
+        </TextureDeclares>
+    </CModel>
+    <CModel id="CyberneticsCoreDeathUnderConstructionD" parent="BuildingDeathEx" Race="Protoss">
+        <Model value="Taldarim\WarpInDeathD.m3"/>
+        <Lighting value="ProtossBuildingBuildDeath"/>
+    </CModel>
+    <CModel id="CyberneticsCorePlacementD" parent="CyberneticsCorePlacementBase" low="CyberneticsCoreD">
+        <Model value="Assets\Buildings\Protoss\CyberneticsCore_Forged_Placement\CyberneticsCore_Forged_Placement.m3"/>
+    </CModel>
+    <CModel id="CyberneticsCoreSplatD" parent="Splat">
+        <Model value="Assets\Splats\Splat_CyberneticsCore\Splat_CyberneticsCore.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="ForgeBuildD" parent="ForgeBuildBase">
+        <Model value="Taldarim\ProtossBuildD.m3"/>
+    </CModel>
+    <CModel id="ForgeD" parent="ForgeBase">
+        <Model value="Taldarim\Forge_Taldarim_DS_Upgraded.m3"/>
+        <Events>
+            <Anim value="Stand,Work,Start,00"/>
+            <Name value="Protoss_Forged_Forge_UpG_SWS"/>
+            <Type value="Sound"/>
+            <Time value="0.009000"/>
+            <Payload value="Protoss_Forged_Forge_UpG_SWS"/>
+        </Events>
+        <Events>
+            <Anim value="Stand,Work,End,00"/>
+            <Name value="Protoss_Forged_Forge_UpG_SWE"/>
+            <Type value="Sound"/>
+            <Payload value="Protoss_Forged_Forge_UpG_SWE"/>
+        </Events>
+    </CModel>
+    <CModel id="ForgeBirthD" parent="ForgeWarpInBase">
+        <Model value="Assets\Buildings\Protoss\Forge_Taldarim_WarpIn\Forge_Taldarim_WarpIn.m3"/>
+        <TextureDeclares Prefix="forge_">
+            <Adaptions TriggerOnSubstring="_Diffuse" Slot="main"/>
+            <Adaptions TriggerOnSubstring="_Specular" Slot="main"/>
+            <Adaptions TriggerOnSubstring="_Emissive" Slot="main"/>
+        </TextureDeclares>
+    </CModel>
+    <CModel id="ForgeDeathD" parent="ForgeDeathBase">
+        <Model value="Taldarim\Forge_Taldarim_DS_Upgraded_Death.m3"/>
+        <ScaleMax value="0.850000,0.850000,0.850000"/>
+        <ScaleMin value="0.850000,0.850000,0.850000"/>
+        <TextureDeclares Prefix="forge_">
+            <Adaptions TriggerOnSubstring="_Diffuse" Slot="main"/>
+            <Adaptions TriggerOnSubstring="_Specular" Slot="main"/>
+            <Adaptions TriggerOnSubstring="_Emissive" Slot="main"/>
+        </TextureDeclares>
+        <TextureDeclares Prefix="grad_">
+            <Adaptions Slot="generic02"/>
+        </TextureDeclares>
+        <TextureDeclares Prefix="pulse1_">
+            <Adaptions Slot="generic03"/>
+        </TextureDeclares>
+        <TextureDeclares Prefix="tronsquare1_">
+            <Adaptions Slot="generic04"/>
+        </TextureDeclares>
+    </CModel>
+    <CModel id="ForgeDeathUnderConstructionD" parent="BuildingDeathEx" Race="Protoss">
+        <Model value="Taldarim\WarpInDeathD.m3"/>
+        <Lighting value="ProtossBuildingBuildDeath"/>
+        <ScaleMax value="0.850000,0.850000,0.850000"/>
+        <ScaleMin value="0.850000,0.850000,0.850000"/>
+    </CModel>
+    <CModel id="ForgePlacementD" parent="ForgePlacementBase" low="ForgeD">
+        <Model value="Taldarim\Forge_Taldarim_DS_Upgraded_Placement.m3"/>
+    </CModel>
+    <CModel id="ForgeSplatD" parent="Splat">
+        <Model value="Assets\Splats\Splat_Forge\Splat_Forge.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="0.850000,0.850000,0.850000"/>
+        <ScaleMin value="0.850000,0.850000,0.850000"/>
+    </CModel>
+    <CModel id="GatewayBuildD" parent="GatewayBuildBase">
+        <Model value="Taldarim\ProtossBuildD.m3"/>
+    </CModel>
+    <CModel id="GatewayD" parent="GatewayBase">
+        <Model value="Assets\Buildings\Protoss\Gateway_Taldarim\Gateway_Taldarim.m3"/>
+        <TextureDeclares Prefix="gateway_">
+            <Adaptions TriggerOnSubstring="_Diffuse" Slot="main"/>
+            <Adaptions TriggerOnSubstring="_Specular" Slot="main"/>
+            <Adaptions TriggerOnSubstring="_Emissive" Slot="main"/>
+        </TextureDeclares>
+        <TextureDeclares Prefix="pylon_">
+            <Adaptions TriggerOnSubstring="_Diffuse" Slot="campaign"/>
+            <Adaptions TriggerOnSubstring="_Specular" Slot="campaign"/>
+            <Adaptions TriggerOnSubstring="_Emissive" Slot="campaign"/>
+        </TextureDeclares>
+        <TextureDeclares Prefix="bldg_gateway_">
+            <Adaptions Slot="generic01"/>
+        </TextureDeclares>
+    </CModel>
+    <CModel id="GatewayBirthD" parent="GatewayWarpInBase">
+        <Model value="Assets\Buildings\Protoss\Gateway_Taldarim_WarpIn\Gateway_Taldarim_WarpIn.m3"/>
+        <TextureDeclares Prefix="gateway_">
+            <Adaptions TriggerOnSubstring="_Diffuse" Slot="main"/>
+            <Adaptions TriggerOnSubstring="_Specular" Slot="main"/>
+            <Adaptions TriggerOnSubstring="_Emissive" Slot="main"/>
+        </TextureDeclares>
+    </CModel>
+    <CModel id="GatewayDeathD" parent="GatewayDeathBase">
+        <Model value="Assets\Buildings\Protoss\Gateway_Forged_Death\Gateway_Forged_Death.m3"/>
+        <ScaleMax value="0.800000,0.800000,0.800000"/>
+        <ScaleMin value="0.800000,0.800000,0.800000"/>
+        <TextureDeclares Prefix="gateway_">
+            <Adaptions TriggerOnSubstring="_Diffuse" Slot="main"/>
+            <Adaptions TriggerOnSubstring="_Specular" Slot="main"/>
+        </TextureDeclares>
+    </CModel>
+    <CModel id="GatewayDeathUnderConstructionD" parent="BuildingDeathEx" Race="Protoss">
+        <Model value="Taldarim\WarpInDeathD.m3"/>
+        <Lighting value="ProtossBuildingBuildDeath"/>
+        <ScaleMax value="0.800000,0.800000,0.800000"/>
+        <ScaleMin value="0.800000,0.800000,0.800000"/>
+    </CModel>
+    <CModel id="GatewayPlacementD" parent="GatewayPlacementBase" low="GatewayD">
+        <Model value="Assets\Buildings\Protoss\Gateway_Forged_Placement\Gateway_Forged_Placement.m3"/>
+    </CModel>
+    <CModel id="GatewaySplatD" parent="Splat">
+        <Model value="Assets\Splats\Splat_Gateway\Splat_Gateway.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="0.800000,0.800000,0.800000"/>
+        <ScaleMin value="0.800000,0.800000,0.800000"/>
+    </CModel>
+    <CModel id="KhaydarinBeamAttackBeamD" parent="PersistentSpellFX">
+        <Model value="Taldarim\KhaydarinMonolith_BeamD.m3"/>
+        <LowQualityModel value="ArchonAttackBeamLow"/>
+        <EditorCategories value="Race:Protoss"/>
+        <RadiusLoose value="1.000000"/>
+    </CModel>
+    <CModel id="KhaydarinBeamAttackImpactD" parent="ImpactFX">
+        <Model value="Taldarim\KhaydarinMonolith_Beam_ImpactD.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="KhaydarinBeamAttackImpactDB" parent="ImpactFX">
+        <Model value="Taldarim\KhaydarinMonolith_Beam_ImpactD.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="0.600000,0.600000,0.600000"/>
+        <ScaleMin value="0.600000,0.600000,0.600000"/>
+    </CModel>
+    <CModel id="KhaydarinMonolithD" parent="Building" Race="Protoss">
+        <Model value="Taldarim\DarkProtossTurretEx2D.m3"/>
+        <AttachProps Id="Ref_TurretZ">
+            <Keys index="Turret" value="0"/>
+        </AttachProps>
+        <Events>
+            <Anim value="Stand,Unpowered,End,00"/>
+            <Name value="KhaydarinMonolith_Ascend"/>
+            <Type value="Sound"/>
+            <Payload value="KhaydarinMonolith_Ascend"/>
+        </Events>
+        <Events>
+            <Anim value="Stand,Unpowered,End,00"/>
+            <Name value="KhaydarinMonolith_PowerUp"/>
+            <Type value="Sound"/>
+            <Time value="1.503000"/>
+            <Payload value="KhaydarinMonolith_PowerUp"/>
+        </Events>
+        <Events>
+            <Anim value="Stand,Unpowered,Start,00"/>
+            <Name value="KhaydarinMonolith_Descend"/>
+            <Type value="Sound"/>
+            <Time value="2.142000"/>
+            <Payload value="KhaydarinMonolith_Descend"/>
+        </Events>
+        <Events>
+            <Anim value="Stand,Unpowered,Start,00"/>
+            <Name value="KhaydarinMonolith_PowerDown"/>
+            <Type value="Sound"/>
+            <Time value="0.615000"/>
+            <Payload value="KhaydarinMonolith_PowerDown"/>
+        </Events>
+        <PlanetPanelCamera value="Star2CameraHigh15"/>
+        <Radius value="1.000000"/>
+        <SelectionLayer value="2"/>
+        <SelectionRadius value="1.900000"/>
+        <ShadowRadius value="1.900000"/>
+        <SquibTypeDefault value="Metal"/>
+        <TechPurchaseCamera value="Star2CameraHigh15"/>
+        <UnitGlossaryCamera value="Star2CameraHigh15"/>
+    </CModel>
+    <CModel id="KhaydarinMonolithBirthD">
+        <Model value="Taldarim\DarkProtossTurretEx2_WarpInD.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Events>
+            <Anim value="Stand,Build,End"/>
+            <Name value="BuildingWarpIn"/>
+            <Type value="Sound"/>
+            <Time value="1.166600"/>
+        </Events>
+        <Radius value="1.000000"/>
+        <SelectionLayer value="2"/>
+        <SelectionRadius value="1.176200"/>
+        <ShadowRadius value="1.176200"/>
+        <SquibTypeDefault value="Metal"/>
+    </CModel>
+    <CModel id="KhaydarinMonolithDeathD" parent="BuildingDeath" Race="Protoss">
+        <Model value="Taldarim\DarkProtossTurretEx2_DeathD.m3"/>
+        <LowQualityModel value="ProtossLargeBuildingDeathLow"/>
+        <Occlusion value="Show"/>
+    </CModel>
+    <CModel id="KhaydarinMonolithPlacementD" parent="Placement" Race="Protoss">
+        <Model value="Assets\Buildings\Protoss\DarkProtossTurretEx2_Shakuras_Placement\DarkProtossTurretEx2_Shakuras_Placement.m3"/>
+    </CModel>
+    <CModel id="KhaydarinMonolithPowerUpModelD" parent="PersistentSpellFX">
+        <Model value="Taldarim\KhaydarinMonolith_PowerupD.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <RadiusLoose value="1.000000"/>
+    </CModel>
+    <CModel id="KhaydarinMonolithSplatD" parent="Splat">
+        <Model value="Assets\Splats\Splat_PhotonCannon\Splat_PhotonCannon.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="KhaydarinMonolithUnpoweredDeathD" parent="BuildingDeath" Race="Protoss">
+        <Model value="Taldarim\DarkProtossTurretEx2_Unpowered_DeathD.m3"/>
+        <LowQualityModel value="ProtossLargeBuildingTaldarimDeathLow"/>
+        <Occlusion value="Show"/>
+    </CModel>
+    <CModel id="PhotonCannonAttackImpactD" parent="ImpactFX">
+        <Model value="Taldarim\PhaseCannonMissileImpactD.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="PhotonCannonBuildD" parent="PhotonCannonBuildBase">
+        <Model value="Taldarim\ProtossBuildD.m3"/>
+    </CModel>
+    <CModel id="PhotonCannonD" parent="PhotonCannonBase">
+        <Model value="Assets\Buildings\Protoss\PhotonCannon_Taldarim\PhotonCannon_Taldarim.m3"/>
+        <TextureDeclares Prefix="photoncannon_">
+            <Adaptions TriggerOnSubstring="_Diffuse" Slot="main"/>
+            <Adaptions TriggerOnSubstring="_Specular" Slot="main"/>
+            <Adaptions TriggerOnSubstring="_Emissive" Slot="main"/>
+        </TextureDeclares>
+        <TextureDeclares Prefix="photoncannonbase_">
+            <Adaptions TriggerOnSubstring="_Diffuse" Slot="generic05"/>
+            <Adaptions TriggerOnSubstring="_Specular" Slot="generic05"/>
+            <Adaptions TriggerOnSubstring="_Emissive" Slot="generic05"/>
+        </TextureDeclares>
+        <TextureDeclares Prefix="lazerbolt1_">
+            <Adaptions Slot="generic01"/>
+        </TextureDeclares>
+        <TextureDeclares Prefix="grad_">
+            <Adaptions Slot="generic02"/>
+        </TextureDeclares>
+        <TextureDeclares Prefix="warpline2_">
+            <Adaptions Slot="generic03"/>
+        </TextureDeclares>
+        <TextureDeclares Prefix="tronsquare1_">
+            <Adaptions Slot="generic04"/>
+        </TextureDeclares>
+    </CModel>
+    <CModel id="PhotonCannonBirthD" parent="PhotonCannonWarpInBase">
+        <Model value="Assets\Buildings\Protoss\PhotonCannon_Forged_WarpIn\PhotonCannon_Forged_WarpIn.m3"/>
+        <TextureDeclares Prefix="photoncannon_">
+            <Adaptions TriggerOnSubstring="_Diffuse" Slot="main"/>
+            <Adaptions TriggerOnSubstring="_Specular" Slot="main"/>
+            <Adaptions TriggerOnSubstring="_Emissive" Slot="main"/>
+        </TextureDeclares>
+        <TextureDeclares Prefix="photoncannonbase_">
+            <Adaptions TriggerOnSubstring="_Diffuse" Slot="generic05"/>
+            <Adaptions TriggerOnSubstring="_Specular" Slot="generic05"/>
+            <Adaptions TriggerOnSubstring="_Emissive" Slot="generic05"/>
+        </TextureDeclares>
+    </CModel>
+    <CModel id="PhotonCannonDeathD" parent="PhotonCannonDeathBase">
+        <Model value="Assets\Buildings\Protoss\PhotonCannon_Forged_Death\PhotonCannon_Forged_Death.m3"/>
+        <ScaleMax value="0.850000,0.850000,0.850000"/>
+        <ScaleMin value="0.850000,0.850000,0.850000"/>
+        <TextureDeclares Prefix="photoncannon_">
+            <Adaptions TriggerOnSubstring="_Diffuse" Slot="main"/>
+            <Adaptions TriggerOnSubstring="_Specular" Slot="main"/>
+        </TextureDeclares>
+        <TextureDeclares Prefix="photoncannonbase_">
+            <Adaptions TriggerOnSubstring="_Diffuse" Slot="generic05"/>
+            <Adaptions TriggerOnSubstring="_Specular" Slot="generic05"/>
+        </TextureDeclares>
+    </CModel>
+    <CModel id="PhotonCannonDeathUnderConstructionD" parent="BuildingDeathEx" Race="Protoss">
+        <Model value="Taldarim\WarpInDeathD.m3"/>
+        <Lighting value="ProtossBuildingBuildDeath"/>
+        <ScaleMax value="0.850000,0.850000,0.850000"/>
+        <ScaleMin value="0.850000,0.850000,0.850000"/>
+    </CModel>
+    <CModel id="PhotonCannonDeathUnpoweredD" parent="PhotonCannonUnpoweredDeathBase">
+        <Model value="Assets\Buildings\Protoss\PhotonCannon_Forged_Unpowered_Death\PhotonCannon_Forged_Unpowered_Death.m3"/>
+        <ScaleMax value="0.850000,0.850000,0.850000"/>
+        <ScaleMin value="0.850000,0.850000,0.850000"/>
+        <TextureDeclares Prefix="photoncannon_">
+            <Adaptions TriggerOnSubstring="_Diffuse" Slot="main"/>
+            <Adaptions TriggerOnSubstring="_Specular" Slot="main"/>
+        </TextureDeclares>
+        <TextureDeclares Prefix="photoncannonbase_">
+            <Adaptions TriggerOnSubstring="_Diffuse" Slot="generic05"/>
+            <Adaptions TriggerOnSubstring="_Specular" Slot="generic05"/>
+        </TextureDeclares>
+    </CModel>
+    <CModel id="PhotonCannonPlacementD" parent="PhotonCannonPlacementBase">
+        <Model value="Assets\Buildings\Protoss\PhotonCannon_Forged_Placement\PhotonCannon_Forged_Placement.m3"/>
+    </CModel>
+    <CModel id="PhotonCannonSplatD" parent="Splat">
+        <Model value="Assets\Splats\Splat_PhotonCannon\Splat_PhotonCannon.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="0.850000,0.850000,0.850000"/>
+        <ScaleMin value="0.850000,0.850000,0.850000"/>
+    </CModel>
+    <CModel id="PhotonCannonWeaponD" parent="MissileFX">
+        <Model value="Taldarim\PhaseCannonMissileD.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="ProtossBuildingBirthSmallD" parent="Building" Race="Protoss">
+        <Model value="Taldarim\ProtossBuildD.m3"/>
+        <LowQualityModel value="ProtossBuildingBirthLowSmall"/>
+        <Radius value="1.000000"/>
+        <ScaleMax value="0.800000,0.800000,0.800000"/>
+        <ScaleMin value="0.800000,0.800000,0.800000"/>
+        <SelectionLayer value="2"/>
+        <SelectionRadius value="1.250000"/>
+        <ShadowRadius value="1.250000"/>
+    </CModel>
+    <CModel id="ShieldBatteryD" parent="Building" Race="Protoss">
+        <Model value="Assets\Buildings\Protoss\ShieldBattery_Forged\ShieldBattery_Forged.m3"/>
+        <Radius value="1.000000"/>
+        <SelectionLayer value="2"/>
+        <SelectionRadius value="1.250000"/>
+        <ShadowRadius value="1.000000"/>
+        <SquibTypeDefault value="Metal"/>
+    </CModel>
+    <CModel id="ShieldBatteryBirthD" parent="Building" Race="Protoss">
+        <Model value="Assets\Buildings\Protoss\ShieldBattery_Forged_WarpIn\ShieldBattery_Forged_WarpIn.m3"/>
+        <Events>
+            <Anim value="Stand,Build,End"/>
+            <Name value="BuildingWarpIn"/>
+            <Type value="Sound"/>
+            <Time value="1.200000"/>
+        </Events>
+        <Lighting value="ShieldBattery"/>
+        <Radius value="1.000000"/>
+        <SelectionLayer value="2"/>
+        <SelectionRadius value="1.250000"/>
+        <ShadowRadius value="1.000000"/>
+        <SquibTypeDefault value="Metal"/>
+    </CModel>
+    <CModel id="ShieldBatteryDeathD" parent="UnitDeath">
+        <Model value="Assets\Buildings\Protoss\ShieldBattery_Forged_Death\ShieldBattery_Forged_Death.m3"/>
+        <LowQualityModel value="ProtossSmallBuildingDeathLow"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="ShieldBatteryPlacementD" parent="Placement" Race="Protoss">
+        <Model value="Assets\Buildings\Protoss\ShieldBattery_Forged_Placement\ShieldBattery_Forged_Placement.m3"/>
+        <LowQualityModel value="ShieldBattery"/>
+        <Radius value="1.000000"/>
+        <SelectionLayer value="2"/>
+        <SelectionRadius value="1.000000"/>
+        <ShadowRadius value="1.000000"/>
+    </CModel>
+    <CModel id="ShieldBatteryRechargeChanneledBeamD" parent="OneShotSpellFX">
+        <Model value="Taldarim\ProtossShield_Battery_BeamD.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="ShieldBatteryRechargeChanneledModelD" parent="OneShotSpellFX">
+        <Model value="Taldarim\ProtossShield_Battery_Beam_ImpactD.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="StalkerD" parent="StalkerBase">
+        <Model value="Assets\Units\Protoss\Stalker_TalDarim\Stalker_TalDarim.m3"/>
+        <TextureDeclares Prefix="stalker_">
+            <Adaptions TriggerOnSubstring="_Diffuse" Slot="main"/>
+        </TextureDeclares>
+        <ScaleMax value="0.700000,0.700000,0.700000"/>
+        <ScaleMin value="0.700000,0.700000,0.700000"/>
+    </CModel>
+    <CModel id="StalkerDeathD" parent="StalkerDeathBase">
+        <Model value="Assets\Units\Protoss\Stalker_TalDarim_Death\Stalker_TalDarim_Death.m3"/>
+    </CModel>
+    <CModel id="StalkerDeathRagdollD" parent="StalkerDeathRagdollBase">
+        <Model value="Taldarim\StalkerDeathRagdollD.m3"/>
+    </CModel>
+    <CModel id="StalkerPlacementD" parent="Placement" Race="Protoss">
+        <Model value="Assets\Units\Protoss\Stalker_Taldarim_Collection_Placement\Stalker_Taldarim_Collection_Placement.m3"/>
+        <Lighting value="Stalker"/>
+        <Occlusion value="Show"/>
+        <ScaleMax value="0.700000,0.700000,0.700000"/>
+        <ScaleMin value="0.700000,0.700000,0.700000"/>
+        <SelectionRadius value="0.941600"/>
+        <ShadowRadius value="0.941600"/>
+    </CModel>
+    <CModel id="StalkerPortraitD" parent="StalkerPortraitBase">
+        <Model value="Assets\Portraits\Protoss\Stalker_Taldarim_Collection_Portrait\Stalker_Taldarim_Collection_Portrait.m3"/>
+        <Image value="Assets\Textures\stalker_taldarim_collection_portrait_static.dds"/>
+        <Lighting value="Taldarim_Stalker_Portrait"/>
+    </CModel>
+    <CModel id="StalkerWarpInD" parent="StalkerWarpInBase">
+        <Model value="Assets\Units\Protoss\Stalker_Taldarim_Collection_WarpIn\Stalker_Taldarim_Collection_WarpIn.m3"/>
+    </CModel>
+    <CModel id="SupplicantD" parent="Unit" Race="Protoss">
+        <Model value="Assets\Units\Protoss\Supplicant\Supplicant.m3"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraMid05"/>
+        <ScaleMax value="0.850000,0.850000,0.850000"/>
+        <ScaleMin value="0.850000,0.850000,0.850000"/>
+        <SquibTypeDefault value="Metal"/>
+        <TechPurchaseCamera value="Star2CameraMid05"/>
+        <UnitGlossaryCamera value="Star2CameraMid05"/>
+    </CModel>
+    <CModel id="SupplicantImpactD" parent="MissileFX">
+        <Model value="Assets\Effects\Protoss\Supplicant_COOP_Missile_Impact\Supplicant_COOP_Missile_Impact.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="SupplicantSacrificeBeamD" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Protoss\HighTemplar_Taldarim_COOP_Sacrifice\HighTemplar_Taldarim_COOP_Sacrifice.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="SupplicantSacrificeBeamImpactD" parent="OneShotSpellFX">
+        <Model value="Assets\Effects\Protoss\HighTemplar_Taldarim_COOP_Sacrifice_Impact\HighTemplar_Taldarim_COOP_Sacrifice_Impact.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="SupplicantWeaponD" parent="MissileFX">
+        <Model value="Assets\Effects\Protoss\Supplicant_COOP_Missile\Supplicant_COOP_Missile.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="Supplicant_COOP_Missile_LaunchD" parent="LaunchFX">
+        <Model value="Assets\Effects\Protoss\Supplicant_COOP_Missile_Launch\Supplicant_COOP_Missile_Launch.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="Supplicant_DeathD" parent="UnitDeath" Race="Protoss">
+        <Model value="Assets\Units\Protoss\Supplicant_Death\Supplicant_Death.m3"/>
+        <LowQualityModel value="ProtossSpiritDeathLow"/>
+        <Occlusion value="Show"/>
+    </CModel>
+    <CModel id="Supplicant_PlacementModelD" parent="Placement">
+        <Model value="Assets\Units\Protoss\Supplicant_PlacementModel\Supplicant_PlacementModel.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="0.850000,0.850000,0.850000"/>
+        <ScaleMin value="0.850000,0.850000,0.850000"/>
+    </CModel>
+    <CModel id="Supplicant_PortraitD" parent="Portrait" Race="Protoss">
+        <Model value="Assets\Portraits\Protoss\Supplicant_Portrait\Supplicant_Portrait.m3"/>
+        <Image value="Assets\Textures\supplicantportrait_static.dds"/>
+        <Lighting value="ZealotPortrait"/>
+    </CModel>
+    <CModel id="Supplicant_Sacrifice_DeathD" parent="UnitDeath" Race="Protoss">
+        <Model value="Assets\Units\Protoss\Supplicant_Sacrifice_Death\Supplicant_Sacrifice_Death.m3"/>
+        <LowQualityModel value="ProtossSpiritDeathLow"/>
+        <Occlusion value="Show"/>
+    </CModel>
+    <CModel id="Supplicant_WarpIn" parent="OneShotSpellFX">
+        <Model value="Assets\Units\Protoss\Supplicant_WarpIn\Supplicant_WarpIn.m3"/>
+        <LowQualityModel value="ProtossUnitBirth"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraMid05"/>
+        <ScaleMax value="0.850000,0.850000,0.850000"/>
+        <ScaleMin value="0.850000,0.850000,0.850000"/>
+        <TechPurchaseCamera value="Star2CameraMid05"/>
+        <UnitGlossaryCamera value="Star2CameraMid05"/>
+    </CModel>
+    <CModel id="KDLJSAttackBounceBeamD" parent="MissileFX">
+        <Model value="Taldarim\KhaydarinMonolith_BeamD.m3"/>
+        <AnimSpeed value="1.500000"/>
+        <EditorCategories value="Race:Protoss"/>
+        <RadiusLoose value="1.000000"/>
+        <ScaleMax value="0.600000,0.600000,0.600000"/>
+        <ScaleMin value="0.600000,0.600000,0.600000"/>
+    </CModel>
+    <CModel id="TargetLockAttachmentD" parent="OneShotSpellFX">
+        <Model value="Assets\Effects\Protoss\TargetLockImpactLarge\TargetLockImpactLarge.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="TargetLockAttachmentLargeD" parent="OneShotSpellFX">
+        <Model value="Assets\Effects\Protoss\TargetLockImpactLarge\TargetLockImpactLarge.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="TargetLockLaserBeamD" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Protoss\TargetLockBeam\TargetLockBeam.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="TemplarArchiveBuildD" parent="TemplarArchiveBuildBase">
+        <Model value="Taldarim\ProtossBuildD.m3"/>
+    </CModel>
+    <CModel id="TemplarArchiveD" parent="TemplarArchiveBase">
+        <Model value="Assets\Buildings\Protoss\TemplarArchives_Taldarim\TemplarArchives_Taldarim.m3"/>
+    </CModel>
+    <CModel id="TemplarArchiveBirthD" parent="TemplarArchiveWarpInBase">
+        <Model value="Assets\Buildings\Protoss\TemplarArchive_Forged_WarpIn\TemplarArchive_Forged_WarpIn.m3"/>
+        <TextureDeclares Prefix="templararchives_">
+            <Adaptions TriggerOnSubstring="_Diffuse" Slot="main"/>
+            <Adaptions TriggerOnSubstring="_Specular" Slot="main"/>
+            <Adaptions TriggerOnSubstring="_Emissive" Slot="main"/>
+        </TextureDeclares>
+    </CModel>
+    <CModel id="TemplarArchiveDeathD" parent="TemplarArchiveDeathBase">
+        <Model value="Assets\Buildings\Protoss\TemplarArchive_Forged_Death\TemplarArchive_Forged_Death.m3"/>
+        <ScaleMax value="0.800000,0.800000,0.800000"/>
+        <ScaleMin value="0.800000,0.800000,0.800000"/>
+        <TextureDeclares Prefix="templararchives_">
+            <Adaptions TriggerOnSubstring="_Diffuse" Slot="main"/>
+            <Adaptions TriggerOnSubstring="_Specular" Slot="main"/>
+            <Adaptions TriggerOnSubstring="_Emissive" Slot="main"/>
+        </TextureDeclares>
+        <TextureDeclares Prefix="glow_">
+            <Adaptions Slot="generic01"/>
+        </TextureDeclares>
+        <TextureDeclares Prefix="grad_">
+            <Adaptions Slot="generic02"/>
+        </TextureDeclares>
+    </CModel>
+    <CModel id="TemplarArchiveDeathUnderConstructionD" parent="BuildingDeathEx" Race="Protoss">
+        <Model value="Taldarim\WarpInDeathD.m3"/>
+        <Lighting value="ProtossBuildingBuildDeath"/>
+        <ScaleMax value="0.800000,0.800000,0.800000"/>
+        <ScaleMin value="0.800000,0.800000,0.800000"/>
+    </CModel>
+    <CModel id="TemplarArchivePlacementD" parent="TemplarArchivePlacementBase" low="TemplarArchiveD">
+        <Model value="Assets\Buildings\Protoss\TemplarArchive_Forged_Placement\TemplarArchive_Forged_Placement.m3"/>
+    </CModel>
+    <CModel id="TemplarArchiveSplatD" parent="Splat">
+        <Model value="Assets\Splats\Splat_TemplarArchives\Splat_TemplarArchives.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="0.800000,0.800000,0.800000"/>
+        <ScaleMin value="0.800000,0.800000,0.800000"/>
+    </CModel>
+    <CModel id="TwilightCouncilBuildD" parent="TwilightCouncilBuildBase">
+        <Model value="Taldarim\ProtossBuildD.m3"/>
+    </CModel>
+    <CModel id="TwilightCouncilD" parent="TwilightCouncilBase">
+        <Model value="Assets\Buildings\Protoss\TwilightCouncil_Taldarim\TwilightCouncil_Taldarim.m3"/>
+        <TextureDeclares Prefix="twilightcouncil_">
+            <Adaptions TriggerOnSubstring="_Diffuse" Slot="main"/>
+            <Adaptions TriggerOnSubstring="_Specular" Slot="main"/>
+            <Adaptions TriggerOnSubstring="_Emissive" Slot="main"/>
+        </TextureDeclares>
+        <TextureDeclares Prefix="grad_">
+            <Adaptions Slot="generic02"/>
+        </TextureDeclares>
+        <TextureDeclares Prefix="pulse1_">
+            <Adaptions Slot="generic03"/>
+        </TextureDeclares>
+    </CModel>
+    <CModel id="TwilightCouncilBirthD" parent="TwilightCouncilWarpInBase">
+        <Model value="Assets\Buildings\Protoss\TwilightCouncil_Taldarim_WarpIn\TwilightCouncil_Taldarim_WarpIn.m3"/>
+        <TextureDeclares Prefix="twilightcouncil_">
+            <Adaptions TriggerOnSubstring="_Diffuse" Slot="main"/>
+            <Adaptions TriggerOnSubstring="_Specular" Slot="main"/>
+            <Adaptions TriggerOnSubstring="_Emissive" Slot="main"/>
+        </TextureDeclares>
+    </CModel>
+    <CModel id="TwilightCouncilDeathD" parent="TwilightCouncilDeathBase">
+        <Model value="Assets\Buildings\Protoss\TwilightCouncil_Forged_Death\TwilightCouncil_Forged_Death.m3"/>
+        <ScaleMax value="0.750000,0.750000,0.750000"/>
+        <ScaleMin value="0.750000,0.750000,0.750000"/>
+        <TextureDeclares Prefix="twilightcouncil_">
+            <Adaptions TriggerOnSubstring="_Diffuse" Slot="main"/>
+            <Adaptions TriggerOnSubstring="_Specular" Slot="main"/>
+        </TextureDeclares>
+    </CModel>
+    <CModel id="TwilightCouncilDeathUnderConstructionD" parent="BuildingDeathEx" Race="Protoss">
+        <Model value="Taldarim\WarpInDeathD.m3"/>
+        <Lighting value="ProtossBuildingBuildDeath"/>
+        <ScaleMax value="0.750000,0.750000,0.750000"/>
+        <ScaleMin value="0.750000,0.750000,0.750000"/>
+    </CModel>
+    <CModel id="TwilightCouncilPlacementD" parent="TwilightCouncilPlacementBase" low="TwilightCouncilD">
+        <Model value="Assets\Buildings\Protoss\TwilightCouncil_Forged_Placement\TwilightCouncil_Forged_Placement.m3"/>
+    </CModel>
+    <CModel id="TwilightCouncilSplatD" parent="Splat">
+        <Model value="Assets\Splats\Splat_TwilightCouncil\Splat_TwilightCouncil.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="0.750000,0.750000,0.750000"/>
+        <ScaleMin value="0.750000,0.750000,0.750000"/>
+    </CModel>
+    <CModel id="ParticleCannonTargetingBeamD" parent="MissileFX">
+        <Model value="Assets\Effects\Terran\Hybrid_ProtossAdvanced_Experimented_MoebiusSeeker_Targeting\Hybrid_ProtossAdvanced_Experimented_MoebiusSeeker_Targeting.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <RadiusLoose value="1.000000"/>
+    </CModel>
+    <CModel id="VoidHighTemplarMindBlastExplosionD" parent="ImpactFX">
+        <Model value="Assets\Effects\Protoss\HighTemplarTaldarim_MindBlast\HighTemplarTaldarim_MindBlast.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <SelectionRadius value="0.200000"/>
+        <ShadowRadius value="0.200000"/>
+    </CModel>
+    <CModel id="VoidHighTemplarPsiOrbBeamD" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Protoss\HighTemplarTaldarim_PsionicOrb_Beam\HighTemplarTaldarim_PsionicOrb_Beam.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <RadiusLoose value="1.000000"/>
+    </CModel>
+    <CModel id="VoidHighTemplarPsiOrbCursorSplatD" parent="UI">
+        <Model value="Assets\UI\Cursors\ProtossCursor1\ProtossCursor1.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="0.250000,0.250000,0.250000"/>
+        <ScaleMin value="0.250000,0.250000,0.250000"/>
+        <SelectionRadius value="2.500000"/>
+        <ShadowRadius value="2.500000"/>
+    </CModel>
+    <CModel id="VoidHighTemplarPsiOrbFinalImpactModelD">
+        <Model value="Assets\Effects\Protoss\HighTemplarTaldarim_PsionicOrb_Impact\HighTemplarTaldarim_PsionicOrb_Impact.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="VoidHighTemplarPsiOrbMissileD" parent="MissileFX">
+        <Model value="Assets\COOP\Stetmann\Effects\GARY_Stetmann_COOP_TechnoOrbSmall\GARY_Stetmann_COOP_TechnoOrbSmall.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <AnimSpeed value="1.500000"/>
+        <ScaleMax value="0.500000,0.500000,0.500000"/>
+        <ScaleMin value="0.500000,0.500000,0.500000"/>
+    </CModel>
+    <CModel id="VoidStatsisD" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Protoss\VoidStasis\VoidStasis.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="VoidZealotWhirlwindImpactD" parent="ImpactFX">
+        <Model value="Assets\Effects\Protoss\HighTemplarTaldarim_Sacrifice_Impact\HighTemplarTaldarim_Sacrifice_Impact.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <AnimSpeed value="2.000000"/>
+        <ScaleMax value="0.400000,0.400000,0.400000"/>
+        <ScaleMin value="0.400000,0.400000,0.400000"/>
+    </CModel>
+    <CModel id="VoidZealotWhirlwindSearchModelD" parent="ImpactFX">
+        <Model value="Assets\Effects\Protoss\HighTemplarTaldarim_Sacrifice\HighTemplarTaldarim_Sacrifice.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="2.000000,2.000000,0.500000"/>
+        <ScaleMin value="2.000000,2.000000,0.500000"/>
+    </CModel>
+    <CModel id="WarpPrismD" parent="WarpPrismBase">
+        <Model value="Assets\Units\Protoss\WarpPrism_Taldarim\WarpPrism_Taldarim.m3"/>
+        <TextureDeclares Prefix="warpprism_">
+            <Adaptions TriggerOnSubstring="_Diffuse" Slot="main"/>
+        </TextureDeclares>
+    </CModel>
+    <CModel id="WarpPrismDeathD" parent="WarpPrismDeathBase">
+        <Model value="Assets\Units\Protoss\WarpPrism_Taldarim_Death\WarpPrism_Taldarim_Death.m3"/>
+    </CModel>
+    <CModel id="WarpPrismDeathRagdollD" parent="WarpPrismDeathRagdollBase">
+        <Model value="Assets\Units\Protoss\WarpPrism_Taldarim_Collection_DeathRagdoll\WarpPrism_Taldarim_Collection_DeathRagdoll.m3"/>
+    </CModel>
+    <CModel id="WarpPrismOpenDeathD" parent="WarpPrismPhasingDeathBase">
+        <Model value="Assets\Units\Protoss\WarpPrism_Taldarim_Collection_OpenDeath\WarpPrism_Taldarim_Collection_OpenDeath.m3"/>
+    </CModel>
+    <CModel id="WarpPrismPhasingDeathRagdollD" parent="WarpPrismPhasingDeathRagdollBase">
+        <Model value="Assets\Units\Protoss\WarpPrism_Taldarim_Collection_Open_DeathRagdoll\WarpPrism_Taldarim_Collection_Open_DeathRagdoll.m3"/>
+    </CModel>
+    <CModel id="WarpPrismPortraitD" parent="WarpPrismPortraitBase">
+        <Model value="Assets\Portraits\Protoss\TalDarim_WarpPrismPortrait\TalDarim_WarpPrismPortrait.m3"/>
+        <Image value="Assets\Textures\taldarimwarpprismportrait_static.dds"/>
+        <Lighting value="TalDarim_WarpPrismPortrait"/>
+    </CModel>
+    <CModel id="HybridProtossMissileH" parent="MissileFX">
+        <Model value="Taldarim\HybridEnergyMissileD.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <SelectionRadius value="0.416500"/>
+        <ShadowRadius value="0.416500"/>
+    </CModel>
+    <CModel id="WarpPrismWarpOutD" parent="OneShotSpellFX">
+        <Model value="Assets\Effects\Protoss\WarpPrism_WarpOut_MP\WarpPrism_WarpOut_MP.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="3.000000,3.000000,3.000000"/>
+        <ScaleMin value="3.000000,3.000000,3.000000"/>
+    </CModel>
+    <CModel id="HybridBehemothShadowH" parent="OneShotSpellFX">
+        <Model value="Taldarim\Hybrid_Zerg_Advanced_Shadow.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="0.900000,0.900000,0.900000"/>
+        <ScaleMin value="0.900000,0.900000,0.900000"/>
+    </CModel>
+    <CModel id="HybridDominatorVoidShadowH" parent="OneShotSpellFX">
+        <Model value="Taldarim\Hybrid_ProtossAdvancedD.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="0.900000,0.900000,0.900000"/>
+        <ScaleMin value="0.900000,0.900000,0.900000"/>
+    </CModel>
+    <CModel id="ZealotAiurD">
+        <Model value="Taldarim\Taldarim_MagnaGuard.m3"/>
+        <RequiredAnims value="Assets\Units\Protoss\Zealot_SwarmAnims\Zealot_SwarmAnims.m3a"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Events>
+            <Anim value="Attack,00"/>
+            <Name value="ZealotAiur_AttackSweetener"/>
+            <Type value="Sound"/>
+            <Time value="0.018000"/>
+            <Payload value="ZealotAiur_AttackSweetener"/>
+        </Events>
+        <Events>
+            <Anim value="Attack,03"/>
+            <Name value="ZealotAiur_AttackSweetener"/>
+            <Type value="Sound"/>
+            <Time value="0.012000"/>
+            <Payload value="ZealotAiur_AttackSweetener"/>
+        </Events>
+        <Events>
+            <Anim value="Attack,04"/>
+            <Name value="ZealotAiur_AttackSweetener"/>
+            <Type value="Sound"/>
+            <Time value="0.012000"/>
+            <Payload value="ZealotAiur_AttackSweetener"/>
+        </Events>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraMid05"/>
+        <Radius value="0.375000"/>
+        <ScaleMax value="0.950000,0.950000,0.950000"/>
+        <ScaleMin value="0.950000,0.950000,0.950000"/>
+        <SelectionRadius value="0.416500"/>
+        <ShadowRadius value="0.416500"/>
+        <SquibTypeDefault value="Metal"/>
+        <TechPurchaseCamera value="Star2CameraMid05"/>
+        <TextureDeclares Prefix="zealot_">
+            <Adaptions TriggerOnSubstring="_Diffuse" Slot="main"/>
+        </TextureDeclares>
+        <UnitGlossaryCamera value="Star2CameraMid05"/>
+    </CModel>
+    <CModel id="ZealotAiurDeathD" parent="UnitDeath" Race="Protoss">
+        <Model value="Assets\Units\Protoss\Zealot_Taldarim_Collection_Death\Zealot_Taldarim_Collection_Death.m3"/>
+        <LowQualityModel value="ProtossSpiritDeathLow"/>
+        <Events>
+            <Anim value="Death,00"/>
+            <Name value="ZealotAiur_DeathSweetener"/>
+            <Type value="Sound"/>
+            <Time value="0.024000"/>
+            <Payload value="ZealotAiur_DeathSweetener"/>
+        </Events>
+        <Events>
+            <Anim value="Death,03"/>
+            <Name value="ZealotAiur_DeathSweetener"/>
+            <Type value="Sound"/>
+            <Time value="0.024000"/>
+            <Payload value="ZealotAiur_DeathSweetener"/>
+        </Events>
+        <Events>
+            <Anim value="Death,04"/>
+            <Name value="ZealotAiur_DeathSweetener"/>
+            <Type value="Sound"/>
+            <Time value="0.024000"/>
+            <Payload value="ZealotAiur_DeathSweetener"/>
+        </Events>
+        <Occlusion value="Show"/>
+        <SelectionRadius value="0.555400"/>
+        <ShadowRadius value="0.555400"/>
+    </CModel>
+    <CModel id="ZealotAiurPlacementD" parent="Placement" Race="Protoss">
+        <Model value="Assets\Units\Protoss\Zealot_Aiur_Placement\Zealot_Aiur_Placement.m3"/>
+        <Lighting value="Zealot"/>
+        <Occlusion value="Show"/>
+        <Radius value="-1.000000"/>
+        <ScaleMax value="0.900000,0.900000,0.900000"/>
+        <ScaleMin value="0.900000,0.900000,0.900000"/>
+        <SelectionRadius value="0.416500"/>
+        <ShadowRadius value="0.416500"/>
+    </CModel>
+    <CModel id="ZealotAiurWarpInD" parent="OneShotSpellFX">
+        <Model value="Assets\Units\Protoss\Zealot_Aiur_WarpIn\Zealot_Aiur_WarpIn.m3"/>
+        <LowQualityModel value="ProtossUnitBirth"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Occlusion value="Show"/>
+        <ScaleMax value="0.900000,0.900000,0.900000"/>
+        <ScaleMin value="0.900000,0.900000,0.900000"/>
+        <SelectionRadius value="0.555400"/>
+        <ShadowRadius value="0.555400"/>
+    </CModel>
+    <CModel id="ZealotFrenzyModelD" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Protoss\PhoenixMissile_Upgrade\PhoenixMissile_Upgrade.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="PowerVisualD" parent="UIFeedback">
+        <Model value="Taldarim\Pylon_WarpIn_RadiusD.m3"/>
+        <ScaleMax value="0.900000,0.900000,0.900000"/>
+        <ScaleMin value="0.900000,0.900000,0.900000"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="PowerVisualFastD" parent="UI">
+        <Model value="Taldarim\Pylon_WarpIn_RadiusD.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="0.900000,0.900000,0.900000"/>
+        <ScaleMin value="0.900000,0.900000,0.900000"/>
+    </CModel>
+    <CModel id="ProbeAttackBeamD" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Protoss\HighTemplarTaldarim_PsionicOrb_Beam\HighTemplarTaldarim_PsionicOrb_Beam.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="0.500000,0.500000,0.500000"/>
+        <ScaleMin value="0.500000,0.500000,0.500000"/>
+    </CModel>
+    <CModel id="ProbeAttackImpactD" parent="ImpactFX">
+        <Model value="Assets\Effects\Protoss\ProbeImpact\ProbeImpact.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="ProbeD" parent="ProbeBase">
+        <Model value="Assets\Units\Protoss\Probe_Taldarim\Probe_Taldarim.m3"/>
+        <ScaleMax value="0.930000,0.930000,0.930000"/>
+        <ScaleMin value="0.930000,0.930000,0.930000"/>
+        <TextureDeclares Prefix="probe_">
+            <Adaptions TriggerOnSubstring="_Diffuse" Slot="main"/>
+        </TextureDeclares>
+    </CModel>
+    <CModel id="ProbeDeathD" parent="ProbeDeathBase">
+        <Model value="Assets\Units\Protoss\Probe_Taldarim_Collection_Death\Probe_Taldarim_Collection_Death.m3"/>
+    </CModel>
+    <CModel id="ProbeDeathRagdollD" parent="ProbeDeathRagdollBase">
+        <Model value="Assets\Units\Protoss\Probe_Taldarim_Collection_DeathRagdoll\Probe_Taldarim_Collection_DeathRagdoll.m3"/>
+    </CModel>
+    <CModel id="ProbePortraitD" parent="ProbePortraitBase">
+        <Model value="Assets\Portraits\Protoss\Probe_Taldarim_Collection_Portrait\Probe_Taldarim_Collection_Portrait.m3"/>
+        <Image value="Assets\Textures\taldarimprobeportrait_static.dds"/>
+        <Lighting value="TalDarim_Probe_Portrait"/>
+    </CModel>
+    <CModel id="ProtossBuildingBirthD" parent="Building" Race="Protoss">
+        <Model value="Taldarim\ProtossBuildD.m3"/>
+        <LowQualityModel value="ProtossBuildingBirthLow"/>
+        <Radius value="1.000000"/>
+        <SelectionLayer value="2"/>
+        <SelectionRadius value="1.000000"/>
+        <ShadowRadius value="1.000000"/>
+    </CModel>
+    <CModel id="ProtossBuildingFireLargeD" parent="OneShotSpellFX">
+        <Model value="Taldarim\ProtossFireMediumD.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="1.100000,1.100000,1.100000"/>
+        <ScaleMin value="1.100000,1.100000,1.100000"/>
+    </CModel>
+    <CModel id="ProtossBuildingFireMediumD" parent="OneShotSpellFX">
+        <Model value="Taldarim\ProtossFireMediumD.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="ProtossBuildingFireSmallD" parent="OneShotSpellFX">
+        <Model value="Taldarim\ProtossFireMediumD.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="0.900000,0.900000,0.900000"/>
+        <ScaleMin value="0.900000,0.900000,0.900000"/>
+    </CModel>
+    <CModel id="ProtossGenericWarpInOutD" parent="OneShotSpellFX">
+        <Model value="Assets\Effects\Protoss\Protoss_Generic_WarpOut\Protoss_Generic_WarpOut.m3"/>
+        <LowQualityModel value="ProtossUnitBirth"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Occlusion value="Show"/>
+        <SelectionRadius value="0.555400"/>
+        <ShadowRadius value="0.555400"/>
+    </CModel>
+    <CModel id="PylonBuildD" parent="PylonBuildBase">
+        <Model value="Taldarim\ProtossBuildD.m3"/>
+    </CModel>
+    <CModel id="PylonD" parent="PylonBase">
+        <Model value="Assets\Buildings\Protoss\Pylon_Taldarim\Pylon_Taldarim.m3"/>
+        <TextureDeclares Prefix="pylon_">
+            <Adaptions TriggerOnSubstring="_Diffuse" Slot="campaign"/>
+            <Adaptions TriggerOnSubstring="_Specular" Slot="campaign"/>
+            <Adaptions TriggerOnSubstring="_Emissive" Slot="campaign"/>
+        </TextureDeclares>
+        <TextureDeclares Prefix="glow_">
+            <Adaptions Slot="generic01"/>
+        </TextureDeclares>
+    </CModel>
+    <CModel id="PylonBirthD" parent="PylonWarpInBase">
+        <Model value="Assets\Buildings\Protoss\Pylon_Taldarim_WarpIn\Pylon_Taldarim_WarpIn.m3"/>
+        <TextureDeclares Prefix="pylon_">
+            <Adaptions TriggerOnSubstring="_Diffuse" Slot="campaign"/>
+            <Adaptions TriggerOnSubstring="_Specular" Slot="campaign"/>
+            <Adaptions TriggerOnSubstring="_Emissive" Slot="campaign"/>
+        </TextureDeclares>
+    </CModel>
+    <CModel id="PylonDeathD" parent="PylonDeathBase">
+        <Model value="Assets\Buildings\Protoss\Pylon_Taldarim_Collection_Death\Pylon_Taldarim_Collection_Death.m3"/>
+        <TextureDeclares Prefix="pylon_">
+            <Adaptions TriggerOnSubstring="_Diffuse" Slot="campaign"/>
+            <Adaptions TriggerOnSubstring="_Specular" Slot="campaign"/>
+            <Adaptions TriggerOnSubstring="_Emissive" Slot="campaign"/>
+        </TextureDeclares>
+        <ScaleMax value="0.850000,0.850000,0.850000"/>
+        <ScaleMin value="0.850000,0.850000,0.850000"/>
+    </CModel>
+    <CModel id="PylonDeathUnderConstructionD" parent="BuildingDeathEx" Race="Protoss">
+        <Model value="Taldarim\WarpInDeathD.m3"/>
+        <Lighting value="ProtossBuildingBuildDeath"/>
+        <ScaleMax value="0.850000,0.850000,0.850000"/>
+        <ScaleMin value="0.850000,0.850000,0.850000"/>
+    </CModel>
+    <CModel id="PylonPlacementD" parent="PylonPlacementBase" low="PylonD">
+        <Model value="Assets\Buildings\Protoss\Pylon_Taldarim_PlacementModelEX3\Pylon_Taldarim_PlacementModelEX3.m3"/>
+    </CModel>
+    <CModel id="PylonSplatD" parent="Splat">
+        <Model value="Taldarim\Splat_PylonD.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="SOAAutomatedAssimilatorBeamD" parent="PersistentSpellFX">
+        <Model value="Taldarim\SOA_OrbitalAssimilator_BeamD.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="SOAVespeneBeamVespeneD" parent="FX">
+        <Model value="Assets\Buildings\Resources\GasCube_HighYield\GasCube_HighYield.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="StructureOverchargeD" parent="PersistentSpellFX">
+        <Model value="Taldarim\PurifyLaunchD.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="StructureOverchargeAttackImpactD" parent="ImpactFX">
+        <Model value="Taldarim\MothershipPurifyMissileImpactD.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Events>
+            <Anim value="Death,00"/>
+            <Name value="MotherShip_Purify_AttackImpact"/>
+            <Type value="Sound"/>
+            <Time value="0.010000"/>
+            <Payload value="MotherShip_Purify_AttackImpact"/>
+        </Events>
+    </CModel>
+    <CModel id="StructureOverchargeWeaponD" parent="MissileFX">
+        <Model value="Taldarim\MothershipPurifyMissileD.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Events>
+            <Anim value="Stand,00"/>
+            <Name value="MotherShip_Purify_AttackLaunch"/>
+            <Type value="Sound"/>
+            <Time value="0.010000"/>
+            <Payload value="MotherShip_Purify_AttackLaunch"/>
+        </Events>
+    </CModel>
+    <CModel id="GlazeSuperShieldD">
+        <Model value="Assets\Effects\Glaze\Glaze_Alarak_COOP_Empower\Glaze_Alarak_COOP_Empower.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="NexusBuildD" parent="NexusBuildBase">
+        <Model value="Taldarim\ProtossBuildD.m3"/>
+    </CModel>
+    <CModel id="NexusD" parent="NexusBase">
+        <Model value="Assets\Buildings\Protoss\Nexus_Taldarim\Nexus_Taldarim.m3"/>
+        <TextureDeclares Prefix="nexus_">
+            <Adaptions TriggerOnSubstring="_Diffuse" Slot="main"/>
+        </TextureDeclares>
+    </CModel>
+    <CModel id="NexusBirthD" parent="NexusWarpInBase">
+        <Model value="Assets\Buildings\Protoss\Nexus_Taldarim_WarpIn\Nexus_Taldarim_WarpIn.m3"/>
+        <TextureDeclares Prefix="nexus_">
+            <Adaptions TriggerOnSubstring="_Diffuse" Slot="campaign"/>
+            <Adaptions TriggerOnSubstring="_Specular" Slot="campaign"/>
+            <Adaptions TriggerOnSubstring="_Emissive" Slot="campaign"/>
+        </TextureDeclares>
+    </CModel>
+    <CModel id="NexusDeathD" parent="NexusDeathBase">
+        <Model value="Assets\Buildings\Protoss\Nexus_Taldarim_Death\Nexus_Taldarim_Death.m3"/>
+        <ScaleMax value="1.200000,1.200000,1.200000"/>
+        <ScaleMin value="1.200000,1.200000,1.200000"/>
+    </CModel>
+    <CModel id="NexusDeathUnderConstructionD" parent="BuildingDeathEx" Race="Protoss">
+        <Model value="Taldarim\WarpInDeathD.m3"/>
+        <Lighting value="ProtossBuildingBuildDeath"/>
+    </CModel>
+    <CModel id="NexusPlacementD" parent="NexusPlacementBase" low="NexusD">
+        <Model value="Assets\Buildings\Protoss\Nexus_Forged_Placement\Nexus_Forged_Placement.m3"/>
+    </CModel>
+    <CModel id="NexusPortraitD" parent="ProtossBuildingPortraitBase">
+        <Model value="Assets\Portraits\Protoss\Executor_Taldarim_Portrait\Executor_Taldarim_Portrait.m3"/>
+        <Flags index="Download" value="1"/>
+        <Image value="Assets\Textures\executor_taldarim_static.dds"/>
+        <Lighting value="Executor_Taldarim_Portrait"/>
+    </CModel>
+    <CModel id="NexusSplatD" parent="Splat">
+        <Model value="Assets\Splats\Splat_Nexus\Splat_Nexus.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="1.200000,1.200000,1.200000"/>
+        <ScaleMin value="1.200000,1.200000,1.200000"/>
+    </CModel>
+    <CModel id="ProtossWarpInDeathD" parent="BuildingDeath" Race="Protoss">
+        <Model value="Taldarim\WarpInDeathD.m3"/>
+        <LowQualityModel value="ProtossBuildingDeathLow"/>
+    </CModel>
+    <CModel id="TimeWarpD" parent="PersistentSpellFX">
+        <Model value="Taldarim\TimeWarpImpactD.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <RadiusLoose value="1.000000"/>
+    </CModel>
+    <CModel id="TimeWarpLaunchD" parent="OneShotSpellFX">
+        <Model value="Taldarim\TimeWarpLaunchD.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <RadiusLoose value="1.000000"/>
+    </CModel>
+    <CModel id="UnpoweredVisualD" parent="UIFeedback">
+        <Model value="Assets\UI\Feedback\PylonRadiusUnpowered_X1\PylonRadiusUnpowered_X1.m3"/>
+        <ScaleMax value="0.900000,0.900000,0.900000"/>
+        <ScaleMin value="0.900000,0.900000,0.900000"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="WarpGateDeathD" parent="WarpGateDeathBase">
+        <Model value="Assets\Buildings\Protoss\Gateway_Forged_WarpGate_Death\Gateway_Forged_WarpGate_Death.m3"/>
+        <ScaleMax value="0.800000,0.800000,0.800000"/>
+        <ScaleMin value="0.800000,0.800000,0.800000"/>
+    </CModel>
+    <CModel id="WarpGateWarpCastD" parent="OneShotSpellFX">
+        <Model value="Taldarim\WarpGateWarpCastD.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="WarpInVoidD" parent="OneShotSpellFX">
+        <Model value="Taldarim\WarpIn_VoidD.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Radius value="1.500000"/>
+        <RadiusLoose value="1.500000"/>
+    </CModel>
+    <CModel id="ZealotD" parent="ZealotBase">
+        <Model value="Taldarim\Zealot_Taldarim_CollectionD0.m3"/>
+        <TextureDeclares Prefix="zealot_">
+            <Adaptions TriggerOnSubstring="_Diffuse" Slot="main"/>
+        </TextureDeclares>
+        <ScaleMax value="0.925000,0.925000,0.925000"/>
+        <ScaleMin value="0.925000,0.925000,0.925000"/>
+    </CModel>
+    <CModel id="ZealotDeathD" parent="ZealotDeathBase">
+        <Model value="Assets\Units\Protoss\Zealot_Taldarim_Collection_Death\Zealot_Taldarim_Collection_Death.m3"/>
+    </CModel>
+    <CModel id="ZealotDeathRagdollD" parent="ZealotDeathRagdollBase">
+        <Model value="Assets\Units\Protoss\Zealot_Taldarim_Collection_DeathRagdoll\Zealot_Taldarim_Collection_DeathRagdoll.m3"/>
+    </CModel>
+    <CModel id="StalkerBeamReadyD" parent="PersistentSpellFX">
+        <Model value="Taldarim\PhaseCannonMissileD.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="0.600000,0.600000,1.000000"/>
+        <ScaleMin value="0.600000,0.600000,1.000000"/>
+    </CModel>
+    <CModel id="ZealotPlacementD" parent="Placement" Race="Protoss">
+        <Model value="Assets\Units\Protoss\Zealot_Taldarim_Collection_Placement\Zealot_Taldarim_Collection_Placement.m3"/>
+        <Occlusion value="Show"/>
+        <ScaleMax value="0.925000,0.925000,0.925000"/>
+        <ScaleMin value="0.925000,0.925000,0.925000"/>
+        <SelectionRadius value="0.416500"/>
+        <ShadowRadius value="0.416500"/>
+    </CModel>
+    <CModel id="ZealotPortraitD" parent="ZealotPortraitBase">
+        <Model value="Assets\Portraits\Protoss\Zealot_Taldarim_Collection_Portrait\Zealot_Taldarim_Collection_Portrait.m3"/>
+        <Image value="Assets\Textures\zealot_taldarim_collection_portrait_static.dds"/>
+        <Lighting value="ZealotPortrait"/>
+    </CModel>
+    <CModel id="ZealotWarpInD" parent="ZealotWarpInBase">
+        <Model value="Assets\Units\Protoss\Zealot_Taldarim_Collection_WarpIn\Zealot_Taldarim_Collection_WarpIn.m3"/>
+    </CModel>
+    <CModel id="DarkTemplarBlinkInD" parent="OneShotSpellFX">
+        <Model value="Assets\Effects\Protoss\ZeratulBlinkIn\ZeratulBlinkIn.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="DarkTemplarBlinkOutD" parent="OneShotSpellFX">
+        <Model value="Assets\Effects\Protoss\ZeratulBlinkOut\ZeratulBlinkOut.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+</Catalog>

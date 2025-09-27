@@ -1,0 +1,1246 @@
+﻿Abil/Name/AdeptPhaseShiftCancelD=取消灵能突袭
+Abil/Name/AdeptPhaseShiftD=灵能突袭
+Abil/Name/AdeptStimpackD=血舞
+Abil/Name/ArbiterRecallD=召回
+Abil/Name/ArbiterStasisFieldD=虚空禁锢场
+Abil/Name/ArchonDBMerge=虚空能量团融合
+Abil/Name/ArchonDMerge=虚空熵魔融合
+Abil/Name/AscendantSacrificeInstantD=献祭
+Abil/Name/AssimilatorToAutomatedAssimilatorD=变形为轨道吸纳舱
+Abil/Name/BlinkD=闪现
+Abil/Name/BlinkDK=闪现
+Abil/Name/BlinkDKU=闪现
+Abil/Name/CarrierHangarD=机库
+Abil/Name/CarrierHangarQueue5D=队列(5)(机库)
+Abil/Name/ChargeD=冲锋
+Abil/Name/ChargeDC=冲锋
+Abil/Name/ChronoBoostEnergyCostD=时空提速
+Abil/Name/CorsairMPDisruptionWebD=捕获网
+Abil/Name/DarkShrineSacrificeD=虚空献祭
+Abil/Name/DarkTemplarBlinkD=虚空穿梭
+Abil/Name/DarkTemplarVoidStasisD=虚空禁锢
+Abil/Name/ForceFieldMonitorDB=力场
+Abil/Name/GatewayTrainD=折跃(传送门)
+Abil/Name/GravitonPrisonH=引力牢笼
+Abil/Name/GravitonPrisonHM=多重引力牢笼
+Abil/Name/GuardianShieldD=角斗者力场
+Abil/Name/HighTemplarDMerge=拉克希尔-历战晋升者
+Abil/Name/HighTemplarMergeableD=晋升者可融合
+Abil/Name/HybridBehemothStunH=坍缩恐惧
+Abil/Name/HybridConsumeDNAH=吞噬
+Abil/Name/HybridConsumeDNAHB=吞噬
+Abil/Name/HybridDestructionWaveH=湮灭波
+Abil/Name/HybridDominatorVoidPlasmaBlastH=虚空爆破
+Abil/Name/HybridNemesisMissilePodsH=厄难弹幕
+Abil/Name/HybridNemesisVoidStasisH=虚空禁锢
+Abil/Name/HybridPsiStormH=灵能风暴
+Abil/Name/HybridPsiStormHM=多重灵能风暴
+Abil/Name/ImmortalBarrierBaseD=屏障
+Abil/Name/ImmortalBarrierBaseDPU=屏障
+Abil/Name/InterceptorAttackD=拦截机攻击
+Abil/Name/MorphBackToGatewayD=转换回传送门
+Abil/Name/NexusTrainD=折跃(星灵枢纽)
+Abil/Name/NexusTrainMothershipD=折跃母舰
+Abil/Name/ObserveHoldFireD=停火
+Abil/Name/ObserveWeaponsFreeD=自由射击
+Abil/Name/ObserverTargetLockD=目标锁定
+Abil/Name/PhasingModeD=相位模式
+Abil/Name/PhoenixOverloadD=过载
+Abil/Name/ProtossBuildD=折跃建筑
+Abil/Name/ProtossBuildDA=折跃空中建筑
+Abil/Name/ProtossBuildDS=折跃建筑
+Abil/Name/ReaverHangarD=掠夺者弹仓
+Abil/Name/ReaverSacrificeInstantD=灵魂充能
+Abil/Name/RepairProbeD=修理
+Abil/Name/RoboticsFacilityTrainD=折跃(机械台)
+Abil/Name/SOAMothershipBlinkD=短途跃迁
+Abil/Name/SOAMothershipLineAttackD=湮灭射线
+Abil/Name/ScoutSpeedBoostD=动力过载
+Abil/Name/ShieldBatteryRechargeChanneledD=护盾恢复
+Abil/Name/ShieldGeneratorForceShieldD=力场护盾
+Abil/Name/ShieldGeneratorSupperShieldD=虚相物质护盾
+Abil/Name/StargateTrainD=折跃(星门)
+Abil/Name/StructureOverchargeD=建筑超载
+Abil/Name/SuperWarpGateTrainD=超级折跃门折跃1
+Abil/Name/SupplicantExplodeHeal=牺牲
+Abil/Name/TaldarimChooseFactions=塔达林派系选择
+Abil/Name/TaldarimChooseSecondFactions=塔达林第二派系选择
+Abil/Name/TrainHybridD=召唤混合体
+Abil/Name/TransportModeD=运输模式
+Abil/Name/UpgradeToWarpGateD=升级为折跃门
+Abil/Name/VoidHighTemplarMindBlastD=心灵爆裂
+Abil/Name/VoidHighTemplarPsiOrbD=灵能球
+Abil/Name/VoidRaySwarmDamageBoostD=棱镜过载
+Abil/Name/VoidSentryBlackHoleD=引力漩涡
+Abil/Name/VoidSentryShieldRepairD=护盾充能
+Abil/Name/VoidStormD=虚空领域
+Abil/Name/VoidZealotWhirlwindD=旋风斩
+Abil/Name/WarpGateTrainD=折跃(折跃门)
+Abil/Name/WarpPrismTransportD=装载-卸载(战争棱镜)
+Behavior/Name/AdeptStimpackD=血舞
+Behavior/Name/ArbiterCloakFieldEffectD=隐形力场
+Behavior/Name/ArbiterCloakFieldEffectD2=虚空献祭
+Behavior/Name/ArbiterStasisFieldD=虚空禁锢
+Behavior/Name/ArchonDFZed=被放逐
+Behavior/Name/AscendantSacrificeSelfBuffD=势不可挡
+Behavior/Name/ChargingD=冲锋
+Behavior/Name/ChargingDC=冲锋
+Behavior/Name/ChronoBoostEnergyCostD=时空提速
+Behavior/Name/ColossusDAWeaponSearch=充能爆裂弹周期伤害
+Behavior/Name/CorsairMPDisruptionWebD=干扰网
+Behavior/Name/DarkTemplarVoidStasisD=虚空禁锢
+Behavior/Name/GravitonPrisonH=引力牢笼
+Behavior/Name/GuardianShieldD=角斗者力场
+Behavior/Name/HybridBehemothStunH=坍缩恐惧
+Behavior/Name/HybridNemesisVoidStasisH=虚空禁锢
+Behavior/Name/HybridPsiStormH=灵能风暴
+Behavior/Name/ImmortalBarrierBaseD=屏障
+Behavior/Name/ImmortalBarrierBaseDPU=屏障
+Behavior/Name/MothershipInvulnerabilityShieldD=护盾投射
+Behavior/Name/MothershipSoulAbsorptionHealthD=灵魂之匣
+Behavior/Name/ObserveHoldFireBD=停火
+Behavior/Name/ObserveHoldFireD=停火
+Behavior/Name/ObserverSquadSightD=小队视野
+Behavior/Name/ObserverTargetLockD=目标锁定
+Behavior/Name/PhoenixOverloadD=过载
+Behavior/Name/ReaverScarabSReadyD=灵魂充能
+Behavior/Name/ScoutSpeedBoostD=动力过载
+Behavior/Name/SentryCloackD=隐形模块
+Behavior/Name/ShieldGeneratorForceShieldD=力场护盾
+Behavior/Name/ShieldGeneratorSuperShieldD=虚相物质护盾
+Behavior/Name/StalkerBeamReadyDK=粒子射线
+Behavior/Name/StalkerBlinkShieldD=相位屏障
+Behavior/Name/StructureOverchargeD=光子超载
+Behavior/Name/StructureOverchargeShieldD=护盾超载
+Behavior/Name/SupplicantShieldD=鲜血护盾
+Behavior/Name/ThermalLancesFireBeamD=燃烧
+Behavior/Name/UnCloakFieldEffectD=抑制力场
+Behavior/Name/VoidEnergyTimedLifeD=虚空爆破
+Behavior/Name/VoidHighTemplarPsiOrbD=灵能球周期伤害
+Behavior/Name/VoidRaySwarmDamageBoostD=棱镜过载
+Behavior/Name/VoidSentryBlackHoleD=引力漩涡
+Behavior/Name/VoidStormD=虚空领域
+Behavior/Name/VoidStormSlowD=虚空阻滞
+Behavior/Name/ZealotFrenzyD=战斗专精
+Behavior/Name/ZealotShieldDC=神佑护盾
+Behavior/Tooltip/AdeptStimpackD=该单位的移动速度和攻击速度更快。
+Behavior/Tooltip/ArbiterCloakFieldEffectD=该单位已隐形，只能被<c val="FFE303">侦测单位</c>或侦测效果发现。
+Behavior/Tooltip/ArbiterCloakFieldEffectD2=<c val="#ColorAttackInfo">虚空圣坛</c>正在周期吸取周围最多<c val="#ColorAttackInfo">1</c>个敌方与友方单位的生命以恢复自身能量。
+Behavior/Tooltip/ArbiterStasisFieldD=该单位无法移动、攻击。
+Behavior/Tooltip/ArchonDFZed=虚空熵魔的护盾耗尽，即将被放逐。
+Behavior/Tooltip/AscendantSacrificeSelfBuffD=该单位拥有额外护盾，并且造成<c val="#ColorAttackInfo">100%</c>的额外伤害。
+Behavior/Tooltip/ChargingD=该单位正在冲锋，以极快的速度接近目标。
+Behavior/Tooltip/ChargingDC=该单位正在冲锋，以极快的速度接近目标。
+Behavior/Tooltip/CorsairMPDisruptionWebD=该单位无法进行移动。
+Behavior/Tooltip/DarkTemplarVoidStasisD=该单位无法移动、攻击。
+Behavior/Tooltip/GravitonPrisonH=该单位被提升至空中并不断受到伤害。在引力牢笼结束之前，该单位都无法攻击、移动或使用技能。
+Behavior/Tooltip/GuardianShieldD=受到的近战与溅射伤害降低<c val="#ColorAttackInfo">75%</c>。
+Behavior/Tooltip/HybridBehemothStunH=该单位无法移动并持续受到伤害。
+Behavior/Tooltip/HybridNemesisVoidStasisH=该单位无法移动、攻击。
+Behavior/Tooltip/HybridPsiStormH=目标正受到灵能风暴效果的影响，在效果范围内将受到大量伤害。
+Behavior/Tooltip/ImmortalBarrierBaseD=该单位正在吸收所有针对它的伤害。
+Behavior/Tooltip/ImmortalBarrierBaseDPU=该单位正在吸收所有针对它的伤害。
+Behavior/Tooltip/MothershipInvulnerabilityShieldD=<c val="#ColorAttackInfo">鲜血王座</c>受到<c val="#ColorAttackInfo">护盾投射器</c>加成，护盾恢复速度翻倍并获得<c val="#ColorAttackInfo">5</c>点护盾护甲。
+Behavior/Tooltip/MothershipSoulAbsorptionHealthD=该单位拥有额外的生命、护盾与能量。
+Behavior/Tooltip/ObserverSquadSightD=该单位的非近战武器射程提升<c val="#ColorAttackInfo">2</c>。
+Behavior/Tooltip/ObserverTargetLockD=该单位会受到额外<c val="#ColorAttackInfo">30%</c>的伤害。
+Behavior/Tooltip/PhoenixOverloadD=<c val="#ColorAttackInfo">血翼</c>的武器系统过载，快速对周围最多<c val="#ColorAttackInfo">8</c>个敌方单位发起攻击。
+Behavior/Tooltip/ReaverScarabSReadyD=<c val="#ColorAttackInfo">梦魇行者</c>的下一次攻击伤害翻倍并得到其他强化。
+Behavior/Tooltip/ScoutSpeedBoostD=移动速度提高<c val="#ColorAttackInfo">100%</c>，攻击速度提高<c val="#ColorAttackInfo">50%</c>。
+Behavior/Tooltip/SentryCloackD=
+Behavior/Tooltip/ShieldGeneratorForceShieldD=被<c val="#ColorAttackInfo">护盾投射器</c>释放的<c val="#ColorAttackInfo">力场护盾</c>保护，暂时无敌。
+Behavior/Tooltip/ShieldGeneratorSuperShieldD=该单位被虚相物质保护，期间免疫一切受到的伤害。
+Behavior/Tooltip/StalkerBeamReadyDK=下次攻击将额外发射一道射线，造成<c val="#ColorAttackInfo">40</c>点法术伤害。
+Behavior/Tooltip/StalkerBlinkShieldD=该单位正在吸收对其造成的伤害。
+Behavior/Tooltip/StructureOverchargeD=可以攻击附近的敌方单位，造成<c val="#ColorAttackInfo"><d ref="Effect,StructureOverchargeDamageD,Amount[0]"/></c>点伤害。
+Behavior/Tooltip/StructureOverchargeShieldD=正在吸收对其造成的伤害。
+Behavior/Tooltip/SupplicantShieldD=受到的伤害降低<c val="#ColorAttackInfo">20%</c>。
+Behavior/Tooltip/ThermalLancesFireBeamD=该单位正持续受到额外的伤害。
+Behavior/Tooltip/UnCloakFieldEffectD=该单位移动速度降低<c val="#ColorAttackInfo">50%</c>并无法隐形。
+Behavior/Tooltip/VoidEnergyTimedLifeD=虚空能量团即将爆炸，造成大范围伤害。
+Behavior/Tooltip/VoidRaySwarmDamageBoostD=<c val="#ColorAttackInfo">炼狱辉光舰</c>将保持最大充能，但移动速度降低<c val="#ColorAttackInfo">30%</c>。
+Behavior/Tooltip/VoidSentryBlackHoleD=该单位的护甲清空，并无法移动和攻击。
+Behavior/Tooltip/VoidStormD=该单位正处于虚空领域中。
+Behavior/Tooltip/VoidStormSlowD=该单位受虚空领域影响，移动速度降低。
+Behavior/Tooltip/ZealotFrenzyD=攻击速度暂时提高。
+Behavior/Tooltip/ZealotShieldDC=受到的伤害降低<c val="#ColorAttackInfo">30%</c>。
+Button/Name/AdeptD=折跃<c val="#ColorAttackInfo">死亡使者</c>
+Button/Name/AdeptMaxShieldsD=灵魂强化
+Button/Name/AdeptPhaseShiftD=灵能突袭
+Button/Name/AdeptStimpackD=血舞
+Button/Name/ArbiterCloakFieldD=隐形力场
+Button/Name/ArbiterD=折跃<c val="#ColorAttackInfo">独裁者</c>
+Button/Name/ArbiterRecallD=召回
+Button/Name/ArbiterStasisFieldD=虚空禁锢场
+Button/Name/ArchonD=折跃<c val="#ColorAttackInfo">虚空熵魔</c>
+Button/Name/ArchonDB=折跃<c val="#ColorAttackInfo">虚空能量团</c>
+Button/Name/ArchonDBMerge=虚空爆破
+Button/Name/ArchonDMerge=虚空熵魔
+Button/Name/ArchonDShieldLow=物质放逐
+Button/Name/ArchonDVoidStorm=虚空弥漫
+Button/Name/AscendantSacrificeD=献祭
+Button/Name/AssimilatorD=折跃<c val="#ColorAttackInfo">吸纳舱</c>
+Button/Name/AttackGroundT=攻击地面
+Button/Name/AutomatedAssimilatorD=折跃<c val="#ColorAttackInfo">轨道吸纳舱</c>
+Button/Name/BlinkBeamWeaponD=粒子射线
+Button/Name/BlinkBeamWeaponDKU=粒子射线
+Button/Name/BlinkD=闪现
+Button/Name/BlinkDK=闪现
+Button/Name/BlinkDKU=闪现
+Button/Name/BlinkShieldRestoreUpgradeD=相位屏障
+Button/Name/BlinkShieldRestoreUpgradeDKU=相位屏障
+Button/Name/BloodHealD=鲜血汲取
+Button/Name/CarrierD=折跃<c val="#ColorAttackInfo">天霸</c>
+Button/Name/ChargeD=冲锋
+Button/Name/ChargeDC=冲锋
+Button/Name/ChronoBoostEnergyCostD=时空超速
+Button/Name/CliffWalkD=悬崖攀越
+Button/Name/ColossusAerialTrackingD=空域追踪
+Button/Name/ColossusChargedBlastChargeTimeD=不稳定能量循环
+Button/Name/ColossusD=折跃<c val="#ColorAttackInfo">天灾行者</c>
+Button/Name/ColossusDA=折跃<c val="#ColorAttackInfo">神罚行者</c>
+Button/Name/CorsairD=折跃<c val="#ColorAttackInfo">袭掠船</c>
+Button/Name/CorsairMPDisruptionWebD=捕获网
+Button/Name/CyberneticsCoreD=折跃<c val="#ColorAttackInfo">控制芯核</c>
+Button/Name/DarkShrineD=折跃<c val="#ColorAttackInfo">虚空圣坛</c>
+Button/Name/DarkShrineSacrificeOff=关闭虚空献祭
+Button/Name/DarkShrineSacrificeOn=虚空献祭
+Button/Name/DarkTemplarBlinkD=虚空穿梭
+Button/Name/DarkTemplarD=折跃<c val="#ColorAttackInfo">鲜血猎手</c>
+Button/Name/DetectorD=侦测单位
+Button/Name/DragoonD=折跃<c val="#ColorAttackInfo">死亡骑士</c>
+Button/Name/DragoonRangeD=奇点充能
+Button/Name/FleetBeaconD=折跃<c val="#ColorAttackInfo">舰队航标</c>
+Button/Name/ForgeD=折跃<c val="#ColorAttackInfo">锻炉</c>
+Button/Name/GatewayD=折跃<c val="#ColorAttackInfo">传送门</c>
+Button/Name/GraviticBoosterD=重力加速器
+Button/Name/GravitonPrisonH=引力牢笼
+Button/Name/GravitonPrisonHM=多重引力牢笼
+Button/Name/GuardianShieldD=角斗者力场
+Button/Name/HardenedShieldD=刚毅护盾
+Button/Name/HardenedShieldDPU=刚毅护盾
+Button/Name/HighTemplarD=折跃<c val="#ColorAttackInfo">晋升者</c>
+Button/Name/HighTemplarDDamage=混乱调和
+Button/Name/HighTemplarDU=折跃<c val="#ColorAttackInfo">历战晋升者大师</c>
+Button/Name/HighTemplarDUDamageShield=势不可挡
+Button/Name/HighTemplarDUR=拉克希尔
+Button/Name/HybridBehemothH=召唤<c val="#ColorAttackInfo">灾掠</c>
+Button/Name/HybridBehemothStunH=坍缩恐惧
+Button/Name/HybridConsumeDNAH=吞噬
+Button/Name/HybridConsumeDNAHB=吞噬
+Button/Name/HybridDestroyerH=召唤<c val="#ColorAttackInfo">混合体歼灭者</c>
+Button/Name/HybridDestructionWaveH=湮灭波
+Button/Name/HybridDominatorH=召唤<c val="#ColorAttackInfo">虚幻</c>
+Button/Name/HybridDominatorPlasmaBlastH=虚空爆破
+Button/Name/HybridDominatorWeaponH=虚空光束
+Button/Name/HybridMonarchBladesH=虚空之刃
+Button/Name/HybridMonarchBladesHB=虚空巨刃
+Button/Name/HybridNemesisBeamD=虚空湮灭光束
+Button/Name/HybridNemesisH=召唤<c val="#ColorAttackInfo">湮梦</c>
+Button/Name/HybridNemesisMissilePodsH=厄难弹幕
+Button/Name/HybridNemesisVoidStasisH=虚空禁锢
+Button/Name/HybridPsiStormH=灵能风暴
+Button/Name/HybridPsiStormHM=多重灵能风暴
+Button/Name/HybridReaverH=召唤<c val="#ColorAttackInfo">混合体吞噬者</c>
+Button/Name/HybridTissueAssimilationH=组织吞噬
+Button/Name/HybridTissueAssimilationHB=组织吞噬
+Button/Name/HyridProtossWeaponH=虚空冲击
+Button/Name/HyridProtossWeaponHD=虚空冲击
+Button/Name/ImmortalBarrierBaseD=屏障
+Button/Name/ImmortalBarrierBaseDPU=屏障
+Button/Name/ImmortalD=折跃<c val="#ColorAttackInfo">前锋</c>
+Button/Name/ImmortalDP=折跃<c val="#ColorAttackInfo">领主先锋</c>
+Button/Name/ImmortalDPU=折跃<c val="#ColorAttackInfo">灾厄行者</c>
+Button/Name/ImmortalTaldarimScatterCannonD=离散光炮
+Button/Name/ImmortalTaldarimScatterCannonDPU=离散光炮
+Button/Name/ImprovedEnergyD=能量场超载
+Button/Name/InterceptorBomberD=轰炸机
+Button/Name/InterceptorD=制造<c val="#ColorAttackInfo">轰炸机</c>
+Button/Name/KhaydarinBeamBounceD=血晶光束
+Button/Name/KhaydarinMonolithD=折跃<c val="#ColorAttackInfo">血晶巨石</c>
+Button/Name/MorphBackToGatewayD=变形为<c val="#ColorAttackInfo">传送门</c>
+Button/Name/MothershipBeamD=终结光束
+Button/Name/MothershipCuttingBeamD=粒子束阵列
+Button/Name/MothershipDB=折跃<c val="#ColorAttackInfo">鲜血王座</c>
+Button/Name/MothershipMissileWeaponD=离子飞弹阵列
+Button/Name/MothershipRayD=毁灭光束
+Button/Name/MothershipShieldGeneratD=护盾投射
+Button/Name/MothershipShieldGeneratorD=护盾投射器
+Button/Name/MothershipSoulAbsorptionD=灵魂之匣
+Button/Name/NexusD=折跃<c val="#ColorAttackInfo">星灵枢纽</c>
+Button/Name/ObserveHoldFireD=停火
+Button/Name/ObserveWeaponsFreeD=自由射击
+Button/Name/ObserverD=折跃<c val="#ColorAttackInfo">侦测器</c>
+Button/Name/PermanentlyCloakedD=永久隐形
+Button/Name/PermanentlyCloakedObserverD=永久隐形
+Button/Name/PhasingModeD=相位模式
+Button/Name/PhoenixD=折跃<c val="#ColorAttackInfo">血翼</c>
+Button/Name/PhoenixOverloadD=过载
+Button/Name/PhotonCannonD=折跃<c val="#ColorAttackInfo">光子炮台</c>
+Button/Name/ProbeD=折跃<c val="#ColorAttackInfo">探机</c>
+Button/Name/PylonD=折跃<c val="#ColorAttackInfo">水晶塔</c>
+Button/Name/ReaverD=折跃<c val="#ColorAttackInfo">梦魇行者</c>
+Button/Name/ReaverIncreasedScarabCountD=金甲虫机壳
+Button/Name/ReaverIncreasedScarabSplashRadiusD=血晶负载
+Button/Name/ReaverSacrificeD=灵魂充能
+Button/Name/ReaverScarabSearchD=灵魂追踪
+Button/Name/ReaverScarabsD=制造<c val="#ColorAttackInfo">金甲虫</c>
+Button/Name/RepairProbeD=修理
+Button/Name/RoboticsBayD=折跃<c val="#ColorAttackInfo">机械研究所</c>
+Button/Name/RoboticsFacilityD=折跃<c val="#ColorAttackInfo">机械台</c>
+Button/Name/SOAAutoAssimilatorD=轨道吸纳舱
+Button/Name/SOAMothershipBlinkD=短途跃迁
+Button/Name/SOAMothershipLineAttackD=湮灭射线
+Button/Name/ScoutD=折跃<c val="#ColorAttackInfo">裂空战机</c>
+Button/Name/ScoutSpeedBoostD=动力过载
+Button/Name/SentryCloakD=隐形模块
+Button/Name/SentryCloakDBU=隐形模块
+Button/Name/SentryD=折跃<c val="#ColorAttackInfo">浩劫</c>
+Button/Name/SentryDB=折跃<c val="#ColorAttackInfo">扫荡</c>
+Button/Name/SentryDBU=折跃<c val="#ColorAttackInfo">浩劫贰型</c>
+Button/Name/SentryTaldarimForceFieldDB=力场
+Button/Name/ShieldBatteryD=折跃<c val="#ColorAttackInfo">护盾充能器</c>
+Button/Name/ShieldBatteryRechargeD=护盾恢复
+Button/Name/ShieldGeneratorForceShieldD=力场护盾
+Button/Name/ShieldGeneratorShieldGeneratD=护盾投射
+Button/Name/ShieldGeneratorSupperShieldD=虚相物质护盾
+Button/Name/SlaynMissileTurretD=折跃<c val="#ColorAttackInfo">粒子要塞炮</c>
+Button/Name/SquadSightD=小队视野
+Button/Name/StalkerD=折跃<c val="#ColorAttackInfo">铁骑兵</c>
+Button/Name/StalkerDK=折跃<c val="#ColorAttackInfo">杀戮者</c>
+Button/Name/StalkerDKU=折跃<c val="#ColorAttackInfo">杀戮铁骑</c>
+Button/Name/StargateD=折跃<c val="#ColorAttackInfo">星门</c>
+Button/Name/StructureOverchargeD=建筑超载
+Button/Name/SuperWarpGateGateWayD=折跃<c val="#ColorAttackInfo">传送门</c>单位
+Button/Name/SuperWarpGateROthersD=折跃<c val="#ColorAttackInfo">其他</c>单位
+Button/Name/SuperWarpGateRoboticsFacilityD=折跃<c val="#ColorAttackInfo">机械台</c>单位
+Button/Name/SuperWarpGateStarGateD=折跃<c val="#ColorAttackInfo">星门</c>单位
+Button/Name/SupplicantD=折跃<c val="#ColorAttackInfo">死徒</c>
+Button/Name/SupplicantDeathHealD=牺牲
+Button/Name/SupplicantExplodeD=主动牺牲
+Button/Name/SupplicantMaxShieldsD=灵魂强化
+Button/Name/SupplicantShieldArmorD=鲜血护盾
+Button/Name/TaldarimFactionsSonsOfAmon=<c val="#ColorAttackInfo">神选升格者</c>
+Button/Name/TaldarimFactionsSonsOfSlayn=<c val="#ColorAttackInfo">斯雷恩之嗣</c>
+Button/Name/TaldarimSecondFactions=<c val="#ColorAttackInfo">塔达林</c>
+Button/Name/TaldarimShieldGeneratorD=折跃<c val="#ColorAttackInfo">护盾投射器</c>
+Button/Name/TaldarimWarpConduitD=战争配置
+Button/Name/TargetLockD=目标锁定
+Button/Name/TargetLockDBU=目标锁定
+Button/Name/TempestD=折跃<c val="#ColorAttackInfo">星怒</c>
+Button/Name/TemplarArchiveD=折跃<c val="#ColorAttackInfo">晋升者纪念堂</c>
+Button/Name/TransportModeD=运输模式
+Button/Name/TwilightCouncilD=折跃<c val="#ColorAttackInfo">死亡议会</c>
+Button/Name/UnCloakingFieldD=抑制力场
+Button/Name/UpgradeToWarpGateD=变形为<c val="#ColorAttackInfo">折跃门</c>
+Button/Name/VanguardIncreaseSplashAreaD=物质散化
+Button/Name/VoidColossusChargedBlastD=充能爆裂弹
+Button/Name/VoidColossusFireBeamR=火焰光束
+Button/Name/VoidHighTemplarMindBlastD=心灵爆裂
+Button/Name/VoidHighTemplarPsiOrbD=灵能球
+Button/Name/VoidRayD=折跃<c val="#ColorAttackInfo">炼狱毁灭者</c>
+Button/Name/VoidRaySpeedUpgradeD=熔流旋叶
+Button/Name/VoidRaySwarmDamageBoostD=棱镜过载
+Button/Name/VoidRayVoidPrismaticRangeD=血晶射程
+Button/Name/VoidSentryBlackHoleD=引力漩涡
+Button/Name/VoidSentryShieldRepairD=护盾充能
+Button/Name/VoidStalkerDragoonArmorD=万亿锻造系统
+Button/Name/VoidStalkerDragoonWeaponD=相位碎裂炮
+Button/Name/VoidStasisD=虚空禁锢
+Button/Name/VoidStormD=虚空领域
+Button/Name/VoidVoidRayBeamArmorAD=毁灭聚焦
+Button/Name/VoidVoidRayBeamBounceD=炼狱光束
+Button/Name/VoidZealotWhirlwindD=旋风斩
+Button/Name/WarpGateD=折跃<c val="#ColorAttackInfo">折跃门</c>
+Button/Name/WarpPrismD=折跃<c val="#ColorAttackInfo">战争棱镜</c>
+Button/Name/WarpPrismLoadD=装载
+Button/Name/WarpPrismUnloadAllD=全部卸载
+Button/Name/WarpPrismUnloadD=卸载
+Button/Name/ZealotAOEDC=横扫之刃
+Button/Name/ZealotAiurD=折跃<c val="#ColorAttackInfo">神选者</c>
+Button/Name/ZealotD=折跃<c val="#ColorAttackInfo">狂战士</c>
+Button/Name/ZealotFrenzyD=战斗专精
+Button/Name/ZealotFrenzyDC=战斗专精
+Button/Name/ZealotShieldArmorDC=神佑护盾
+Button/Tooltip/AdeptD=<c val="B22222">斯雷恩之嗣</c><n/>远程特种单位。可以使用灵能突袭和血舞技能。<n/><n/><c val="#ColorAttackInfo">可以对地和对空。</c>
+Button/Tooltip/AdeptMaxShieldsD=<c val="#ColorAttackInfo">死亡使者</c>的攻击无视护甲并造成法术伤害。
+Button/Tooltip/AdeptPhaseShiftD=投射一道快速移动的无敌的灵能投影。<c val="#ColorAttackInfo">死亡使者</c>会在<c val="#ColorAttackInfo"><d ref="Behavior,AdeptPhaseShiftTimerD,Duration"/></c>秒后传送到灵能投影的位置。
+Button/Tooltip/AdeptStimpackD=消耗<c val="#ColorAttackInfo">15</c>点生命值，使攻击和移动速度在数秒内得到显著提升。
+Button/Tooltip/ArbiterCloakFieldD=使<c val="#ColorAttackInfo">独裁者</c>附近的友方单位隐形。
+Button/Tooltip/ArbiterD=军队支援舰船。拥有虚空禁锢场、召回和隐形力场技能。<n/><n/><c val="ffff8a">可以对地和对空。</c>
+Button/Tooltip/ArbiterRecallD=将目标区域内的所有友方单位传送到仲裁者所在位置。
+Button/Tooltip/ArbiterStasisFieldD=使目标区域内的敌人无法攻击、施法、移动、侦测和生产，持续<c val="#ColorAttackInfo"><d ref="Behavior,ArbiterStasisFieldD,Duration"/></c>秒。
+Button/Tooltip/ArchonD=恐怖的虚空邪魔。<n/><n/><c val="ffff8a">可以对地和对空。</c>
+Button/Tooltip/ArchonDB=<c val="#ColorAttackInfo">虚空能量团</c>将会在融合完毕后爆炸，对大范围的敌人造成最多<c val="#ColorAttackInfo">300(500 vs 建筑)</c>点伤害。
+Button/Tooltip/ArchonDBMerge=<c val="B22222">神选升格者</c><n/>两名<c val="#ColorAttackInfo">鲜血猎手</c>牺牲自身，融合成为一个<c val="#ColorAttackInfo">虚空能量团</c>。<n/><n/><c val="#ColorAttackInfo">虚空能量团</c>将会在融合完毕后爆炸，对大范围的敌人造成最多<c val="#ColorAttackInfo">300(500 vs 建筑)</c>点伤害。
+Button/Tooltip/ArchonDMerge=两名<c val="#ColorAttackInfo">历战晋升者大师</c>牺牲自身，融合成为一个<c val="#ColorAttackInfo">虚空熵魔</c>。<n/><n/>恐怖的虚空邪魔。<n/><n/><c val="ffff8a">可以对地和对空。</c>
+Button/Tooltip/ArchonDShieldLow=<c val="#ColorAttackInfo">虚空熵魔</c>来自虚空，无法在脱离虚空领域的情况下在现实持续存在。<n/><c val="#ColorAttackInfo">虚空熵魔</c>在脱离虚空领域时将会极速流失护盾上限，护盾耗尽后将会快速流失生命。
+Button/Tooltip/ArchonDVoidStorm=<c val="#ColorAttackInfo">虚空熵魔</c>在脱离虚空领域时死亡将会生成一片虚空领域。其中的所有非虚空单位将会降低一半的移动速度。
+Button/Tooltip/AscendantSacrificeD=扣除周围一名<c val="#ColorAttackInfo">死徒</c>或<c val="#ColorAttackInfo">狂战士</c>的<c val="#ColorAttackInfo">75</c>点生命，以完全恢复<c val="#ColorAttackInfo">晋升者</c>的能量。
+Button/Tooltip/AssimilatorD=<c val="#ColorAttackInfo">基础建筑</c><n/>建造在瓦斯气泉上，用于采集高能瓦斯。
+Button/Tooltip/AttackGroundT=命令选中的单位持续攻击目标地点。
+Button/Tooltip/AutomatedAssimilatorD=<c val="#ColorAttackInfo">基础建筑</c><n/>建造在瓦斯气泉上，用于采集高能瓦斯。可无需工作单位自动采集高能瓦斯。并提高<c val="#ColorAttackInfo">50%</c>的采集效率。
+Button/Tooltip/AutomatedAssimilatorTextKicker6D=<c val="A020F0">+6</c><IMG path="Assets\Textures\icon-gas-protossD.dds" height="28" width="28"/>
+Button/Tooltip/BlinkD=使<c val="#ColorAttackInfo">铁骑兵</c>闪现到附近的目标位置。
+Button/Tooltip/BlinkDK=使<c val="#ColorAttackInfo">杀戮者</c>闪现到附近的目标位置。
+Button/Tooltip/BlinkDKU=使<c val="#ColorAttackInfo">杀戮铁骑</c>闪现到附近的目标位置。
+Button/Tooltip/BloodHealD=将造成伤害的<c val="#ColorAttackInfo">50%</c>转化为自身的生命。
+Button/Tooltip/CarrierD=塔达林主力战舰。能够发射轰炸机攻击敌人。<n/><n/><c val="ffff8a">可以对地和对空。</c>
+Button/Tooltip/ChargeD=拦截敌方地面单位，并提高移动速度。
+Button/Tooltip/ChargeDC=拦截敌方地面单位，并提高移动速度。
+Button/Tooltip/ChronoBoostEnergyCostD=对目标建筑进行时空提速，使其运作效率提高<c val="#ColorAttackInfo">600%</c>，持续<c val="#ColorAttackInfo"><d ref="Behavior,ChronoBoostEnergyCostD,Duration"/></c>秒。
+Button/Tooltip/CliffWalkD=该单位可以攀越悬崖。
+Button/Tooltip/ColossusAerialTrackingD=<c val="#ColorAttackInfo">神罚行者</c>的射程提升<c val="#ColorAttackInfo">2</c>，并可以攻击空中单位。
+Button/Tooltip/ColossusChargedBlastChargeTimeD=<c val="#ColorAttackInfo">神罚行者</c>的武器充能时间大幅缩短，武器攻击速度加快。射弹在飞行时将持续电击周围随机单位，造成<c val="#ColorAttackInfo">20</c>点伤害。
+Button/Tooltip/ColossusD=<c val="B22222">斯雷恩之嗣</c><n/>强大的战斗机甲，装备大范围攻击武器。能够攀越悬崖。攻击能在地面上留下火焰，对敌人造成持续性伤害。<n/><n/><c val="ffff8a">可以对地。</c>
+Button/Tooltip/ColossusDA=强大的步战机器人，装备高伤害范围攻击武器。能够攀越悬崖。<n/><n/><c val="ffff8a">可以对地和对空。</c>
+Button/Tooltip/CorsairD=改良空中优势战机。可使用捕获网技能。<n/><n/><c val="ffff8a">可以对地和对空。</c>
+Button/Tooltip/CorsairMPDisruptionWebD=在地面上制造一张能量网，使网中的敌方地面单位无法移动，持续<d time="10"/>。
+Button/Tooltip/CyberneticsCoreD=<c val="#ColorAttackInfo">科技建筑</c><n/>开启塔达林高级建筑。<n/><n/><c val="ffff8a">开启：</c><n/>- 使<c val="#ColorAttackInfo">传送门</c>可以折跃<c val="#ColorAttackInfo">铁骑兵</c>或<c val="#ColorAttackInfo">杀戮者</c><n/>- 使<c val="#ColorAttackInfo">传送门</c>可以折跃<c val="#ColorAttackInfo">浩劫</c>或<c val="#ColorAttackInfo">扫荡</c><n/>- 使<c val="#ColorAttackInfo">传送门</c>可以折跃<c val="#ColorAttackInfo">死亡使者</c>或<c val="#ColorAttackInfo">死亡骑士</c><n/>- 使<c val="#ColorAttackInfo">探机</c>可以折跃<c val="#ColorAttackInfo">死亡议会</c><n/>- 使<c val="#ColorAttackInfo">探机</c>可以折跃<c val="#ColorAttackInfo">机械台</c><n/>- 使<c val="#ColorAttackInfo">探机</c>可以折跃<c val="#ColorAttackInfo">星门</c>
+Button/Tooltip/DarkShrineD=<c val="#ColorAttackInfo">科技建筑</c><n/>开启鲜血猎手特化融合与召唤混合体。可以使用虚空献祭技能。<n/><n/><c val="ffff8a">开启：</c><n/>- 使<c val="#ColorAttackInfo">鲜血猎手</c>能够融合为<c val="#ColorAttackInfo">虚空能量团</c>
+Button/Tooltip/DarkShrineSacrificeOff=关闭<c val="#ColorAttackInfo">虚空圣坛</c>的<c val="#ColorAttackInfo">献祭模式</c>。
+Button/Tooltip/DarkShrineSacrificeOn=开启<c val="#ColorAttackInfo">虚空圣坛</c>的<c val="#ColorAttackInfo">献祭模式</c>。<n/>开启后周期吸取周围最多<c val="#ColorAttackInfo">1</c>个敌方与友方单位的生命以恢复自身能量。
+Button/Tooltip/DarkTemplarBlinkD=将<c val="#ColorAttackInfo">鲜血猎手</c>瞬间传送到附近位置。
+Button/Tooltip/DarkTemplarBloodHealD=造成伤害的<c val="#ColorAttackInfo">50%</c>将转化为自身的生命。
+Button/Tooltip/DarkTemplarD=<c val="B22222">神选升格者</c><n/>致命的近战杀手，永久隐形。可以使用虚空穿梭和虚空禁锢技能。<n/><n/><c val="ffff8a">可以对地。</c>
+Button/Tooltip/DetectorD=该单位能够侦测到隐形、潜地和幻像单位。
+Button/Tooltip/DragoonD=<c val="B22222">神选升格者</c><n/>远程炮击步战机甲。<n/><n/><c val="ffff8a">可以对地和对空。</c>
+Button/Tooltip/DragoonRangeD=<c val="#ColorAttackInfo">死亡骑士</c>的射程提升<c val="#ColorAttackInfo">2</c>。
+Button/Tooltip/FleetBeaconD=<c val="#ColorAttackInfo">科技建筑</c><n/>开启塔达林主力战舰。<n/><n/><c val="ffff8a">开启：</c><n/>- 使<c val="#ColorAttackInfo">星门</c>可以折跃<c val="#ColorAttackInfo">天霸</c><n/>- 使<c val="#ColorAttackInfo">星门</c>可以折跃<c val="#ColorAttackInfo">星怒</c><n/>- 使<c val="#ColorAttackInfo">星灵枢纽</c>可以折跃<c val="#ColorAttackInfo">鲜血王座</c>
+Button/Tooltip/ForceFieldD=阻拦地面部队移动的屏障，持续<d time="15"/>。重型单位可将力场踏碎。
+Button/Tooltip/ForgeD=<c val="#ColorAttackInfo">科技建筑</c><n/>开启塔达林防御建筑。<n/><n/><c val="ffff8a">开启：</c><n/>- 使<c val="#ColorAttackInfo">探机</c>可以折跃<c val="#ColorAttackInfo">光子炮台</c><n/>- 使<c val="#ColorAttackInfo">探机</c>可以折跃<c val="#ColorAttackInfo">护盾充能器</c><n/>- 使<c val="#ColorAttackInfo">探机</c>可以折跃<c val="#ColorAttackInfo">血晶巨石</c>
+Button/Tooltip/GatewayD=<c val="#ColorAttackInfo">生产建筑</c><n/>折跃塔达林基础地面部队。<n/><n/><c val="ffff8a">开启：</c><n/>- <c val="#ColorAttackInfo">狂战士</c>或<c val="#ColorAttackInfo">死徒</c><n/>- 使<c val="#ColorAttackInfo">探机</c>可以折跃<c val="#ColorAttackInfo">控制芯核</c>
+Button/Tooltip/GraviticBoosterD=<c val="#ColorAttackInfo">侦测器</c>的移动速度提高。
+Button/Tooltip/GravitonPrisonH=使目标单位浮空并无法使用技能，期间会持续受到<c val="#ColorAttackInfo">80</c>点法术伤害。
+Button/Tooltip/GravitonPrisonHM=使目标单位浮空并无法使用技能，期间会持续受到<c val="#ColorAttackInfo">80</c>点法术伤害。
+Button/Tooltip/GuardianShieldD=创造一个范围为<c val="#ColorAttackInfo">4</c>的光环，使其中的友方单位受到的近战与溅射伤害降低<c val="#ColorAttackInfo">75%</c>。持续<c val="#ColorAttackInfo"><d time="15"/></c>。
+Button/Tooltip/HardenedShieldD=<c val="#ColorAttackInfo">前锋</c>的护盾尚未消失前，受到的非法术伤害降低至最多<c val="#ColorAttackInfo">10</c>点。
+Button/Tooltip/HardenedShieldDPU=<c val="#ColorAttackInfo">灾厄行者</c>的护盾尚未消失前，受到的非法术伤害降低至最多<c val="#ColorAttackInfo">10</c>点。
+Button/Tooltip/HighTemplarD=强大的灵能运用大师。能够使用灵能球、心灵爆裂和献祭技能。<n/><n/><c val="ffff8a">可以对地。</c>
+Button/Tooltip/HighTemplarDDamage=<c val="#ColorAttackInfo">晋升者</c>的攻击无视护甲并造成法术伤害。
+Button/Tooltip/HighTemplarDU=<c val="B22222">斯雷恩之嗣</c><n/>更加强大的灵能运用大师。能够使用灵能球、心灵爆裂和献祭技能。<n/><n/><c val="ffff8a">可以对地和对空。</c>
+Button/Tooltip/HighTemplarDUDamageShield=<c val="#ColorAttackInfo">历战晋升者大师</c>拥有额外护盾，并且造成<c val="#ColorAttackInfo">100%</c>的额外伤害。
+Button/Tooltip/HighTemplarDUR=<c val="B22222">斯雷恩之嗣</c><n/>两名<c val="#ColorAttackInfo">晋升者</c>对决，幸存者将升格为<c val="#ColorAttackInfo">历战晋升者大师</c>。<n/><n/>更加强大的灵能运用大师。能够使用灵能球、心灵爆裂和献祭技能。<n/><n/><c val="ffff8a">可以对地和对空。</c>
+Button/Tooltip/HybridBehemothH=非常强大的巨型混合体。可以使用湮灭波、塌缩恐惧和吞噬技能。<n/><n/><c val="#ColorAttackInfo">可以对地和对空。</c><n/><c val="FFE303">侦测单位</c>
+Button/Tooltip/HybridBehemothStunH=向附近敌人释放冲击，使其无法移动和攻击并逐渐受到<c val="#ColorAttackInfo">30</c>点法术伤害。持续<c val="#ColorAttackInfo"><d ref="Behavior,HybridBehemothStunH,Duration"/></c>秒。
+Button/Tooltip/HybridConsumeDNAH=吸收目标单位的生命精华，造成最多<c val="#ColorAttackInfo">150</c>点伤害并最多为自身恢复<c val="#ColorAttackInfo">150</c>点生命。
+Button/Tooltip/HybridConsumeDNAHB=吸收目标单位的生命精华，造成最多<c val="#ColorAttackInfo">150</c>点伤害并最多为自身恢复<c val="#ColorAttackInfo">150</c>点生命。
+Button/Tooltip/HybridDestroyerH=强大的灵能混合体。可以使用灵能风暴和引力牢笼技能。<n/><n/><c val="ffff8a">可以对地和对空。</c>
+Button/Tooltip/HybridDestructionWaveH=朝一条直线释放出一股能量波，对沿途的敌人造成<c val="#ColorAttackInfo">50</c>点法术伤害。
+Button/Tooltip/HybridDominatorH=非常强大的灵能混合体。可以使用多重灵能风暴、多重引力牢笼和虚空爆破技能。<n/><n/><c val="#ColorAttackInfo">可以对地和对空。</c><n/><c val="FFE303">侦测单位</c>
+Button/Tooltip/HybridDominatorPlasmaBlastH=短暂引导后向目标发射虚空能量团，造成最多<c val="#ColorAttackInfo">300</c>点小范围法术伤害。
+Button/Tooltip/HybridMonarchBladesH=<c val="#ColorAttackInfo">混合体吞噬者</c>的近战攻击对主目标无视护甲并对周围的单位造成一半的伤害。
+Button/Tooltip/HybridMonarchBladesHB=<c val="#ColorAttackInfo">灾掠</c>的近战攻击无视护甲并对周围的单位造成全额伤害。
+Button/Tooltip/HybridNemesisBeamD=<c val="#ColorAttackInfo">湮梦</c>的武器攻击无视护甲并造成法术伤害。
+Button/Tooltip/HybridNemesisH=非常强大的灵能飞行物混合体。可以使用厄难弹幕和虚空禁锢技能。<n/><n/><c val="#ColorAttackInfo">可以对地和对空。</c><n/><c val="FFE303">侦测单位</c>
+Button/Tooltip/HybridNemesisMissilePodsH=向目标区域发射大量飞弹，对其中的空中单位造成最多<c val="#ColorAttackInfo">150</c>点法术伤害。
+Button/Tooltip/HybridNemesisVoidStasisH=使目标无法攻击、施法、移动、侦测和生产，持续<c val="#ColorAttackInfo"><d ref="Behavior,DarkTemplarVoidStasisD,Duration"/></c>秒。
+Button/Tooltip/HybridPsiStormH=创造一道灵能风暴，持续4秒。对目标区域内的敌方单位造成最多<c val="#ColorAttackInfo">80</c>点法术伤害。
+Button/Tooltip/HybridPsiStormHM=创造一道灵能风暴，持续4秒。对目标区域内的敌方单位造成最多<c val="#ColorAttackInfo">80</c>点法术伤害。
+Button/Tooltip/HybridReaverH=坚固凶猛的近战混合体。可以使用吞噬技能。<n/><n/><c val="ffff8a">可以对地和对空。</c>
+Button/Tooltip/HybridTissueAssimilationH=<c val="#ColorAttackInfo">混合体吞噬者</c>能够从近战攻击中获得<c val="#ColorAttackInfo">20</c>点生命值。
+Button/Tooltip/HybridTissueAssimilationHB=<c val="#ColorAttackInfo">灾掠</c>能够从近战攻击中获得<c val="#ColorAttackInfo">50</c>点生命值。
+Button/Tooltip/HyridProtossWeaponH=<c val="#ColorAttackInfo">混合体歼灭者</c>的远程攻击无视护甲并造成法术伤害。
+Button/Tooltip/HyridProtossWeaponHD=<c val="#ColorAttackInfo">虚幻</c>的攻击无视护甲并造成法术伤害。
+Button/Tooltip/ImmortalBarrierBaseD=开启后最多可吸收<c val="#ColorAttackInfo">200</c>点伤害，持续<c val="#ColorAttackInfo"><d ref="Behavior,ImmortalBarrierBaseD,Duration"/></c>秒。
+Button/Tooltip/ImmortalBarrierBaseDPU=开启后最多可吸收<c val="#ColorAttackInfo">200</c>点伤害，持续<c val="#ColorAttackInfo"><d ref="Behavior,ImmortalBarrierBaseD,Duration"/></c>秒。
+Button/Tooltip/ImmortalD=<c val="B22222">神选升格者</c><n/>前线步战机甲。拥有刚毅护盾，可以使用屏障吸收伤害。<n/><n/><c val="ffff8a">可以对地。</c>
+Button/Tooltip/ImmortalDP=<c val="B22222">斯雷恩之嗣</c><n/>高输出远程攻击步战机甲。<n/><n/><c val="ffff8a">可以对地和对空。</c>
+Button/Tooltip/ImmortalDPU=高输出远程攻击步战机甲。拥有刚毅护盾，可以使用屏障吸收伤害。<n/><n/><c val="ffff8a">可以对地和对空。</c>
+Button/Tooltip/ImmortalTaldarimScatterCannonD=<c val="#ColorAttackInfo">领主先锋</c>的对地攻击将造成范围伤害。
+Button/Tooltip/ImmortalTaldarimScatterCannonDPU=<c val="#ColorAttackInfo">灾厄行者</c>的对地攻击将造成范围伤害。
+Button/Tooltip/ImprovedEnergyD=折跃进能量场的单位的折跃速度提高。
+Button/Tooltip/InterceptorBomberD=<c val="#ColorAttackInfo">天霸</c>能够建造并发射<c val="#ColorAttackInfo">轰炸机</c>攻击敌人。<n/><c val="#ColorAttackInfo">轰炸机</c>在攻击两次后将返回<c val="#ColorAttackInfo">天霸</c>补充弹药。
+Button/Tooltip/InterceptorD=制造轰炸机。轰炸机能够自动攻击天霸的目标，是天霸唯一的武器。<n/><n/><c val="#ColorAttackInfo">可以对地和对空。</c>
+Button/Tooltip/InterceptorDUnit=能够自动攻击天霸目标的战斗飞行机。轰炸机是天霸唯一的武器。<n/><n/><c val="#ColorAttackInfo">可以对地和对空。</c>
+Button/Tooltip/KhaydarinBeamBounceD=<c val="#ColorAttackInfo">血晶巨石</c>的攻击将会额外弹射到周围的三个目标，造成一半的伤害。
+Button/Tooltip/KhaydarinMonolithD=<c val="#ColorAttackInfo">防御建筑</c><n/>强大的防御建筑。拥有超高的射程和伤害，但造价昂贵且攻击缓慢。<n/><n/><c val="#ColorAttackInfo">可以对地和对空。</c><n/><c val="FFE303">侦测单位</c>
+Button/Tooltip/MorphBackToGatewayD=使<c val="#ColorAttackInfo">折跃门</c>转换回<c val="#ColorAttackInfo">传送门</c>。
+Button/Tooltip/MothershipBeamD=<c val="#ColorAttackInfo">鲜血王座</c>的武器攻击无视护甲并造成法术伤害，将造成伤害的<c val="#ColorAttackInfo">100%</c>转化为自身的生命。
+Button/Tooltip/MothershipCoreD=移动的施法单位。可以使用光子超载、群体召回和时间扭曲技能。可以升级为母舰。<n/><n/><c val="#ColorAttackInfo">可以对地。</c>
+Button/Tooltip/MothershipDA=终级塔达林战舰。能够使用引力漩涡、湮灭射线、短途跃迁技能。<n/><n/><c val="ffff8a">可以对地和对空。</c><n/><c val="FFE303">侦测单位</c>
+Button/Tooltip/MothershipDB=终级塔达林战舰。能够使用引力漩涡、湮灭射线、短途跃迁技能。<n/><n/><c val="ffff8a">可以对地和对空。</c><n/><c val="FFE303">侦测单位</c>
+Button/Tooltip/MothershipMissileWeaponD=<c val="#ColorAttackInfo">鲜血王座</c>能够使用<c val="#ColorAttackInfo">离子飞弹阵列</c>持续攻击周围最多<c val="#ColorAttackInfo">3</c>个敌人，造成<c val="#ColorAttackInfo">30</c>点伤害。
+Button/Tooltip/MothershipRayD=<c val="#ColorAttackInfo">鲜血王座</c>会对下方的敌方地面单位使用毁灭光束，造成<c val="#ColorAttackInfo">20(40 vs 建筑)</c>点范围法术伤害。
+Button/Tooltip/MothershipShieldGeneratD=<c val="#ColorAttackInfo">鲜血王座</c>受到<c val="#ColorAttackInfo">护盾投射器</c>加成，护盾恢复速度翻倍并获得<c val="#ColorAttackInfo">5</c>点护盾护甲。
+Button/Tooltip/MothershipShieldGeneratorD=当一座<c val="#ColorAttackInfo">护盾投射器</c>完成时，<c val="#ColorAttackInfo">鲜血王座</c>护盾恢复速度翻倍并获得<c val="#ColorAttackInfo">5</c>点护盾护甲。
+Button/Tooltip/MothershipSoulAbsorptionD=<c val="#ColorAttackInfo">鲜血王座</c>附近的每个单位死亡时会为<c val="#ColorAttackInfo">鲜血王座</c>恢复<c val="#ColorAttackInfo">20</c>点生命与护盾。<n/><n/><c val="#ColorAttackInfo">鲜血王座</c>附近的每个单位死亡时额外为<c val="#ColorAttackInfo">鲜血王座</c>增加<c val="#ColorAttackInfo">10</c>点最大生命，最大护盾和<c val="#ColorAttackInfo">1</c>点最大能量。<n/><c val="#ColorAttackInfo">最多叠加100层</c>
+Button/Tooltip/NexusD=<c val="#ColorAttackInfo">主要建筑</c><n/>用于接收采集到的资源。可以使用时空超速和建筑超载技能。<n/><n/><c val="ffff8a">开启：</c><n/>- <c val="#ColorAttackInfo">探机</c>
+Button/Tooltip/ObserveHoldFireD=命令选中的单位停止攻击，并在收到攻击命令前避免同敌人交火。收到停火命令的单位在受到攻击时会逃走。
+Button/Tooltip/ObserveWeaponsFreeD=命令选中的单位自由射击。单位会对射程内的敌人发起攻击并照例进行追击。
+Button/Tooltip/ObserverD=间谍型空中单位。拥有永久隐形的能力。<n/><n/><c val="ffff8a">可以对地和对空。</c><n/><c val="FFE303">侦测单位</c>
+Button/Tooltip/OracleD=空中施法单位。<n/><n/><c val="ffff8a">可以对地。</c><n/><c val="FFE303">侦测单位</c>
+Button/Tooltip/PermanentlyCloakedD=该单位永久隐形。
+Button/Tooltip/PermanentlyCloakedObserverD=该单位永久隐形。
+Button/Tooltip/PhasingModeD=将<c val="#ColorAttackInfo">战争棱镜</c>转入<c val="#ColorAttackInfo">相位棱镜</c>，同时生成一个能量场。该模式下无法移动。
+Button/Tooltip/PhoenixD=<c val="B22222">斯雷恩之嗣</c><n/>空中优势战机。可以使用过载技能。<n/><n/><c val="ffff8a">可以对地和对空。</c>
+Button/Tooltip/PhoenixOverloadD=过载<c val="#ColorAttackInfo">血翼</c>的武器系统，使其在<c val="#ColorAttackInfo"><d ref="Behavior,PhoenixOverloadD,Duration"/></c>秒内对周围最多<c val="#ColorAttackInfo">8</c>个敌方单位快速发起攻击。
+Button/Tooltip/PhotonCannonD=<c val="#ColorAttackInfo">防御建筑</c><n/>塔达林主力防御建筑。<n/><n/><c val="ffff8a">可以对地和对空。</c><n/><c val="FFE303">侦测单位</c>
+Button/Tooltip/ProbeD=塔达林基础工作单位。用于采集资源和折跃塔达林建筑。<n/><n/><c val="ffff8a">可以对地。</c>
+Button/Tooltip/PylonD=<c val="#ColorAttackInfo">基础建筑</c><n/>提供补给。<n/>拥有补给是生产更多单位的前提。<n/>为附近的建筑提供能量。
+Button/Tooltip/ReaverD=<c val="B22222">神选升格者</c><n/>范围伤害攻城部队。能够建造并发射金甲虫，造成爆发性伤害。<n/><n/><c val="ffff8a">可以对地。</c>
+Button/Tooltip/ReaverIncreasedScarabCountD=<c val="#ColorAttackInfo">梦魇行者</c>的弹仓最大储量翻倍。
+Button/Tooltip/ReaverIncreasedScarabSplashRadiusD=<c val="#ColorAttackInfo">梦魇行者</c>的溅射范围增加<c val="#ColorAttackInfo">25%</c>。<n/><n/>拥有<c val="#ColorAttackInfo">灵魂充能</c>时溅射范围增加<c val="#ColorAttackInfo">100%</c>并造成全额法术伤害。
+Button/Tooltip/ReaverSacrificeD=扣除周围一名<c val="#ColorAttackInfo">死徒</c>或<c val="#ColorAttackInfo">狂战士</c>的<c val="#ColorAttackInfo">75</c>点生命，使<c val="#ColorAttackInfo">梦魇行者</c>的下一次攻击伤害翻倍并得到其他强化。
+Button/Tooltip/ReaverScarabSearchD=当<c val="#ColorAttackInfo">梦魇行者</c>的攻击目标死亡后<c val="#ColorAttackInfo">金甲虫</c>将会自动追踪周围的其他敌人。<n/><n/>拥有<c val="#ColorAttackInfo">灵魂充能</c>时追踪范围提升<c val="#ColorAttackInfo">50%</c>
+Button/Tooltip/ReaverScarabsD=制造金甲虫。掠夺者会自动向目标发射金甲虫，造成范围伤害。<n/><n/><c val="#ColorAttackInfo">可以对地。</c>
+Button/Tooltip/RepairProbeD=为机械单位和建筑恢复生命值。
+Button/Tooltip/ResearchBlinkBeamWeaponD=<c val="#ColorAttackInfo">杀戮者</c>在使用闪现后的下次攻击将额外发射一道射线，造成<c val="#ColorAttackInfo">50</c>点法术伤害。持续<c val="#ColorAttackInfo"><d ref="Behavior,StalkerBeamReadyDK,Duration"/></c>秒。
+Button/Tooltip/ResearchBlinkBeamWeaponDKU=<c val="#ColorAttackInfo">杀戮铁骑</c>在使用闪现后的下次攻击将额外发射一道射线，造成<c val="#ColorAttackInfo">50</c>点法术伤害。持续<c val="#ColorAttackInfo"><d ref="Behavior,StalkerBeamReadyDK,Duration"/></c>秒。
+Button/Tooltip/ResearchBlinkShieldRestoreUpgradeD=使<c val="#ColorAttackInfo">铁骑兵</c>在使用闪现后获得一道屏障，最多吸收<c val="#ColorAttackInfo">150</c>点伤害，持续<c val="#ColorAttackInfo"><d ref="Behavior,StalkerBlinkShieldD,Duration"/></c>秒。
+Button/Tooltip/ResearchBlinkShieldRestoreUpgradeDKU=使<c val="#ColorAttackInfo">杀戮铁骑</c>在使用闪现后获得一道屏障，最多吸收<c val="#ColorAttackInfo">120</c>点伤害，持续<c val="#ColorAttackInfo"><d ref="Behavior,StalkerBlinkShieldD,Duration"/></c>秒。
+Button/Tooltip/ResearchHybridDominatorWeaponH=<c val="#ColorAttackInfo">虚幻</c>的远程攻击额外发射一道光束，造成<c val="#ColorAttackInfo">40</c>点法术伤害。
+Button/Tooltip/ResearchMothershipCuttingBeamD=<c val="#ColorAttackInfo">鲜血王座</c>能够使用<c val="#ColorAttackInfo">粒子束阵列</c>快速攻击近距离的敌人，造成<c val="#ColorAttackInfo">25</c>点法术伤害。
+Button/Tooltip/RoboticsBayD=<c val="#ColorAttackInfo">科技建筑</c><n/>开启塔达林高级机械部队。<n/><n/><c val="ffff8a">开启：</c><n/>- 使<c val="#ColorAttackInfo">机械台</c>可以折跃<c val="#ColorAttackInfo">天灾行者</c>或<c val="#ColorAttackInfo">天罚行者</c>
+Button/Tooltip/RoboticsFacilityD=<c val="#ColorAttackInfo">生产建筑</c><n/>折跃塔达林机械部队。<n/><n/><c val="ffff8a">开启：</c><n/>- <c val="#ColorAttackInfo">前锋</c>或<c val="#ColorAttackInfo">领主先锋</c><n/>- <c val="#ColorAttackInfo">侦测器</c><n/>- <c val="#ColorAttackInfo">战争棱镜</c><n/>- 使<c val="#ColorAttackInfo">探机</c>可以折跃<c val="#ColorAttackInfo">机械研究所</c>
+Button/Tooltip/SOAAutoAssimilatorD=<c val="#ColorAttackInfo">吸纳舱</c>可无需工作单位自动采集高能瓦斯。并提高<c val="#ColorAttackInfo">50%</c>的采集效率。
+Button/Tooltip/SOAMothershipBlinkD=将<c val="#ColorAttackInfo">鲜血王座</c>传送到目标位置。
+Button/Tooltip/SOAMothershipLineAttackD=对一条直线上的所有敌人造成<c val="#ColorAttackInfo">400</c>点法术伤害，最多延伸至<c val="#ColorAttackInfo">15</c>距离。
+Button/Tooltip/ScoutD=<c val="B22222">神选升格者</c><n/>多功能对空对地战机。可使用动力过载技能。<n/><n/><c val="ffff8a">可以对地和对空。</c>
+Button/Tooltip/ScoutSpeedBoostD=使<c val="#ColorAttackInfo">裂空战机</c>的移动速度提高<c val="#ColorAttackInfo">100%</c>，攻击速度提高<c val="#ColorAttackInfo">50%</c>。持续<c val="#ColorAttackInfo"><d ref="Behavior,ScoutSpeedBoostD,Duration"/></c>秒。
+Button/Tooltip/SentryCloakD=使<c val="#ColorAttackInfo">浩劫</c>永久隐形。
+Button/Tooltip/SentryCloakDBU=使<c val="#ColorAttackInfo">浩劫贰型</c>永久隐形。
+Button/Tooltip/SentryD=<c val="B22222">斯雷恩之嗣</c><n/>机械支援单位。可使用目标锁定和小队视野技能。<n/><n/><c val="#ColorAttackInfo">可以对地和对空。</c>
+Button/Tooltip/SentryDB=<c val="B22222">神选升格者</c><n/>机械支援单位。可以使用护盾充能、力场和角斗者力场技能。<n/><n/><c val="#ColorAttackInfo">可以对地和对空。</c>
+Button/Tooltip/SentryDBU=强力机械支援单位。可使用目标锁定、护盾充能、力场、小队视野和角斗者力场技能。<n/><n/><c val="#ColorAttackInfo">可以对地和对空。</c></c><n/><c val="FFE303">侦测单位</c>
+Button/Tooltip/SentryTaldarimForceFieldDB=创造一道持续<c val="#ColorAttackInfo"><d ref="Behavior,ForceFieldFateDB,Duration"/></c>秒的坚固屏障，阻碍地面单位的移动。<n/><n/><c val="#ColorAttackInfo">重型单位可碾碎力场。</c>
+Button/Tooltip/ShieldBatteryD=<c val="#ColorAttackInfo">防御建筑</c><n/>能够为附近的友方单位和建筑恢复护盾。
+Button/Tooltip/ShieldBatteryRechargeD=为目标单位或建筑的护盾充能。<n/><n/><c val="f078ff">每1点能量可以恢复3点护盾。</c><n/><n/><c val="#ColorAttackInfo">自动施法只会对单位和防御建筑使用。</c>
+Button/Tooltip/ShieldGeneratorForceShieldD=使周围大范围的友方建筑暂时无敌，持续<d time="30"/>。
+Button/Tooltip/ShieldGeneratorShieldGeneratD=<c val="#ColorAttackInfo">护盾投射器</c>能够使<c val="#ColorAttackInfo">鲜血王座</c>的护盾恢复速度翻倍并获得<c val="#ColorAttackInfo">5</c>点护盾护甲。
+Button/Tooltip/ShieldGeneratorSupperShieldD=向目标区域内的<c val="#ColorAttackInfo">机械或拥有护盾的单位</c>投射<c val="#ColorAttackInfo">虚相物质护盾</c>，使其在<c val="#ColorAttackInfo"><d ref="Behavior,ShieldGeneratorSuperShieldD,Duration"/></c>秒内免疫一切伤害，但会对<c val="#ColorAttackInfo">没有护盾的生物单位</c>造成<c val="#ColorAttackInfo">2000</c>点法术伤害。
+Button/Tooltip/SlaynMissileTurretD=<c val="#ColorAttackInfo">防御建筑</c><n/>非常强大的防御建筑。拥有超高的射程和伤害。<n/><n/><c val="#ColorAttackInfo">可以对地和对空。</c><n/><c val="FFE303">侦测单位</c>
+Button/Tooltip/SquadSightD=附近友方单位的非近战武器射程提高<c val="#ColorAttackInfo">2</c>。
+Button/Tooltip/StalkerD=<c val="B22222">斯雷恩之嗣</c><n/>坚固的远程步战机甲，可以使用闪现。<n/><n/><c val="ffff8a">可以对地和对空。</c>
+Button/Tooltip/StalkerDK=<c val="B22222">神选升格者</c><n/>擅长输出的远程步战机甲，可以使用闪现。<n/><n/><c val="ffff8a">可以对地和对空。</c>
+Button/Tooltip/StalkerDKU=强大的远程步战机甲，可以使用闪现。<n/><n/><c val="ffff8a">可以对地和对空。</c>
+Button/Tooltip/StargateD=<c val="#ColorAttackInfo">生产建筑</c><n/>折跃塔达林空中部队。<n/><n/><c val="ffff8a">开启：</c><n/>- <c val="#ColorAttackInfo">血翼</c>或<c val="#ColorAttackInfo">裂空战机</c><n/>- 使<c val="#ColorAttackInfo">探机</c>可以折跃<c val="#ColorAttackInfo">舰队航标</c>
+Button/Tooltip/StructureOverchargeD=给目标友方建筑充能，使其可以攻击附近的敌方单位，造成<c val="#ColorAttackInfo"><d ref="Effect,StructureOverchargeDamageD,Amount[0]"/></c>点伤害。该效果下的建筑物可以获得一个屏障，吸收最多<c val="#ColorAttackInfo">400</c>点伤害。持续<c val="#ColorAttackInfo"><d ref="Behavior,StructureOverchargeD,Duration[0]"/></c>秒。
+Button/Tooltip/SuperWarpGateGateWayD=命令<c val="#ColorAttackInfo">超级折跃门</c>折跃<c val="#ColorAttackInfo">传送门</c>中的单位。
+Button/Tooltip/SuperWarpGateROthersD=命令<c val="#ColorAttackInfo">超级折跃门</c>折跃其他单位。
+Button/Tooltip/SuperWarpGateRoboticsFacilityD=命令<c val="#ColorAttackInfo">超级折跃门</c>折跃<c val="#ColorAttackInfo">机械台</c>中的单位。
+Button/Tooltip/SuperWarpGateStarGateD=命令<c val="#ColorAttackInfo">超级折跃门</c>折跃<c val="#ColorAttackInfo">星门</c>中的单位。
+Button/Tooltip/SupplicantD=<c val="B22222">神选升格者</c><n/>基础远程战士。可以使用牺牲技能。<n/></n><c val="ffff8a">可以对地。</c>
+Button/Tooltip/SupplicantDeathHealD=死亡时将为周围的友方单位恢复<c val="#ColorAttackInfo">50</c>点生命与<c val="#ColorAttackInfo">25</c>点护盾。
+Button/Tooltip/SupplicantExplodeD=立即牺牲并为周围的友方单位恢复<c val="#ColorAttackInfo">50</c>点生命与<c val="#ColorAttackInfo">25</c>点护盾。
+Button/Tooltip/SupplicantMaxShieldsD=<c val="#ColorAttackInfo">死徒</c>的攻击无视护甲并造成法术伤害。
+Button/Tooltip/SupplicantShieldArmorD=<c val="#ColorAttackInfo">死徒</c>的护盾存在时受到的伤害降低<c val="#ColorAttackInfo">20%</c>。
+Button/Tooltip/TaldarimFactionsSonsOfAmon=选择你的塔达林派系为<c val="#ColorAttackInfo">神选升格者</c>。<n/><n/>拥有单位：<n/><c val="#ColorAttackInfo">死徒</c><n/><c val="#ColorAttackInfo">杀戮者</c><n/><c val="#ColorAttackInfo">扫荡</c><n/><c val="#ColorAttackInfo">死亡骑士</c><n/><c val="#ColorAttackInfo">鲜血猎手</c><n/><c val="#ColorAttackInfo">前锋</c><n/><c val="#ColorAttackInfo">梦魇行者</c><n/><c val="#ColorAttackInfo">裂空战机</c>
+Button/Tooltip/TaldarimFactionsSonsOfSlayn=选择你的塔达林派系为<c val="#ColorAttackInfo">斯雷恩之嗣</c>。<n/><n/>拥有单位：<n/><c val="#ColorAttackInfo">狂战士</c><n/><c val="#ColorAttackInfo">铁骑兵</c><n/><c val="#ColorAttackInfo">浩劫</c><n/><c val="#ColorAttackInfo">死亡使者</c><n/><c val="#ColorAttackInfo">历战晋升者大师</c><n/><c val="#ColorAttackInfo">领主先锋</c><n/><c val="#ColorAttackInfo">天灾行者</c><n/><c val="#ColorAttackInfo">血翼</c>
+Button/Tooltip/TaldarimSecondFactions=将两个塔达林派系合并，并解锁新的单位。<n/><n/>拥有单位：<n/><c val="#ColorAttackInfo">神选者</c><n/><c val="#ColorAttackInfo">杀戮铁骑</c><n/><c val="#ColorAttackInfo">浩劫贰型</c><n/><c val="#ColorAttackInfo">虚空熵魔</c><n/><c val="#ColorAttackInfo">灾厄行者</c><n/><c val="#ColorAttackInfo">神罚行者</c><n/><c val="#ColorAttackInfo">袭掠船</c>
+Button/Tooltip/TaldarimShieldGeneratorD=<c val="#ColorAttackInfo">防御建筑</c><n/>非常强大的防御建筑。拥有超高的射程和伤害。<n/><n/><c val="#ColorAttackInfo">可以对地和对空。</c><n/><c val="FFE303">侦测单位</c>
+Button/Tooltip/TaldarimWarpConduitD=<c val="#ColorAttackInfo">战争棱镜</c>的变形速度、卸载速度与移动速度提升，并扩大供能范围。使<c val="#ColorAttackInfo">战争棱镜</c>在运输模式下可以攻击地面和空中单位。
+Button/Tooltip/TargetLockD=<c val="#ColorAttackInfo">浩劫</c>将锁定一个目标，使其受到的伤害提高<c val="#ColorAttackInfo">30%c>。<n/><n/><c val="#ColorAttackInfo">最多锁定三个目标</c>
+Button/Tooltip/TargetLockDBU=<c val="#ColorAttackInfo">浩劫贰型</c>将锁定一个目标，使其受到的伤害提高<c val="#ColorAttackInfo">30%c>。<n/><n/><c val="#ColorAttackInfo">最多锁定三个目标</c>
+Button/Tooltip/TempestD=塔达林攻城炮舰。可从远距离外进行攻击。<n/><n/><c val="ffff8a">可以对地和对空。</c>
+Button/Tooltip/TemplarArchiveD=<c val="#ColorAttackInfo">科技建筑</c><n/>开启晋升者特化融合。<n/><n/><c val="ffff8a">开启：</c><n/>- 使<c val="#ColorAttackInfo">晋升者</c>能够进行<c val="#ColorAttackInfo">拉克希尔</c>
+Button/Tooltip/TransportModeD=将<c val="#ColorAttackInfo">战争棱镜</c>转回<c val="#ColorAttackInfo">运输模式</c>，使其可以移动。
+Button/Tooltip/TwilightCouncilD=<c val="#ColorAttackInfo">科技建筑</c><n/>开启塔达林进阶科技。<n/><n/><c val="ffff8a">开启：</c><n/>- 使<c val="#ColorAttackInfo">传送门</c>可以折跃<c val="#ColorAttackInfo">晋升者</c><n/>- 使<c val="#ColorAttackInfo">传送门</c>可以折跃<c val="#ColorAttackInfo">鲜血猎手</c><n/>- 使<c val="#ColorAttackInfo">星门</c>可以折跃<c val="#ColorAttackInfo">炼狱毁灭者</c><n/>- 使<c val="#ColorAttackInfo">星门</c>可以折跃<c val="#ColorAttackInfo">独裁者</c><n/>- 使<c val="#ColorAttackInfo">探机</c>可以折跃<c val="#ColorAttackInfo">粒子要塞炮</c><n/>- 使<c val="#ColorAttackInfo">探机</c>可以折跃<c val="#ColorAttackInfo">护盾投射器</c><n/>- 使<c val="#ColorAttackInfo">探机</c>可以折跃<c val="#ColorAttackInfo">晋升者纪念堂</c>或<c val="#ColorAttackInfo">虚空圣坛</c><n/><n/><c val="#ColorAttackInfo">能够合并两个塔达林派系，解锁新单位</c>
+Button/Tooltip/UnCloakingFieldD=<c val="#ColorAttackInfo">鲜血王座</c>会使周围大范围的敌方单位移动速度降低<c val="#ColorAttackInfo">50%</c>并无法隐形。
+Button/Tooltip/UpgradeToWarpGateD=使这座<c val="#ColorAttackInfo">传送门</c>升级为<c val="#ColorAttackInfo">折跃门</c>，<c val="#ColorAttackInfo">折跃门</c>能够向任何有能量场的位置折跃单位。
+Button/Tooltip/VanguardIncreaseSplashAreaD=<c val="#ColorAttackInfo">离散光炮</c>的溅射伤害范围扩大<c val="#ColorAttackInfo">200%</c>。
+Button/Tooltip/VoidColossusChargedBlastD=<c val="#ColorAttackInfo">神罚行者</c>可以在移动时攻击，攻击无视护甲并造成法术伤害。攻击命中后将造成一半的溅射伤害。
+Button/Tooltip/VoidColossusFireBeamR=攻击在地面引燃火焰，对站在上面的敌人造成最多<c val="#ColorAttackInfo"><d ref="Effect,ThermalLancesFireBeamDamageD,Amount*Effect,ThermalLancesFireBeamCPD,PeriodCount"/></c>点伤害，持续<c val="#ColorAttackInfo"><d ref="Effect,ThermalLancesFireBeamCPD,PeriodCount*Effect,ThermalLancesFireBeamCPD,PeriodicPeriodArray[0]"/></c>秒。
+Button/Tooltip/VoidHighTemplarMindBlastD=对目标敌方单位造成<c val="#ColorAttackInfo">200</c>点伤害。
+Button/Tooltip/VoidHighTemplarPsiOrbD=释放一颗移动的灵能球，对沿路的所有敌人每秒造成<c val="#ColorAttackInfo"><d ref="Effect,VoidHighTemplarPsiOrbDamage,Amount/Effect,VoidHighTemplarPsiOrbPersistent,PeriodicPeriodArray[0]"/></c>点伤害。
+Button/Tooltip/VoidRayD=区域打击舰船。可以使用毁灭光束攻击多个目标。<n/><n/><c val="#ColorAttackInfo">可以对地和对空。</c>
+Button/Tooltip/VoidRaySpeedUpgradeD=<c val="#ColorAttackInfo">炼狱毁灭者</c>的基础移动速度与加速度提升。
+Button/Tooltip/VoidRaySwarmDamageBoostD=校准<c val="#ColorAttackInfo">炼狱毁灭者</c>的炼狱光束，使在<c val="#ColorAttackInfo"><d ref="Behavior,VoidRaySwarmDamageBoostD,Duration"/></c>内保持最大充能结束时将会清空充能，持续期间将会降低<c val="#ColorAttackInfo">30%</c>的移动速度。
+Button/Tooltip/VoidRayVoidPrismaticRangeD=当<c val="#ColorAttackInfo">炼狱毁灭者</c>持续攻击时，武器射程将会提高。<n/><n/>一级充能时不会提高射程。<n/>二级充能时提高<c val="#ColorAttackInfo">1.5</c>点射程。<n/>三级充能时提高<c val="#ColorAttackInfo">3</c>点射程。
+Button/Tooltip/VoidSentryBlackHoleD=在<c val="#ColorAttackInfo">鲜血王座</c>周围创造一道引力漩涡，使进入区域内的敌人护甲清空并昏迷。持续<d ref="Effect,VoidSentryBlackHolePersistentD,PeriodCount*Effect,VoidSentryBlackHolePersistentD,PeriodicPeriodArray[0]"/>秒。
+Button/Tooltip/VoidSentryShieldRepairD=恢复一个友方单位的护盾。<n/><n/><c val="f078ff">不会消耗能量</c>
+Button/Tooltip/VoidStalkerDragoonArmorD=<c val="#ColorAttackInfo">死亡骑士</c>的生命护甲增加<c val="#ColorAttackInfo">2</c>，并能够在战斗中恢复护盾。
+Button/Tooltip/VoidStalkerDragoonWeaponD=<c val="#ColorAttackInfo">死亡骑士</c>将会在远距离发射强大的相位碎裂炮，造成<c val="#ColorAttackInfo">A O E</c>伤害。
+Button/Tooltip/VoidStasisD=使目标无法攻击、施法、移动、侦测和生产，持续<c val="#ColorAttackInfo"><d ref="Behavior,DarkTemplarVoidStasisD,Duration"/></c>秒。
+Button/Tooltip/VoidStormD=创建虚空领域。
+Button/Tooltip/VoidVoidRayBeamArmorAD=当<c val="#ColorAttackInfo">炼狱毁灭者</c>持续攻击时，炼狱光束将会造成更高的伤害。<n/><n/>一级充能时穿透<c val="#ColorAttackInfo">33%</c>的护甲。<n/>二级充能时穿透<c val="#ColorAttackInfo">66%</c>的护甲。<n/>三级充能时穿透<c val="#ColorAttackInfo">100%</c>的护甲并造成法术伤害。
+Button/Tooltip/VoidVoidRayBeamBounceD=当<c val="#ColorAttackInfo">炼狱毁灭者</c>持续攻击时，炼狱光束将会折射到附近的其他目标上。<n/><n/>一级充能时最多折射<c val="#ColorAttackInfo">2</c>个目标。<n/>二级充能时最多折射<c val="#ColorAttackInfo">3</c>个目标。<n/>三级充能时最多折射<c val="#ColorAttackInfo">4</c>个目标。
+Button/Tooltip/VoidZealotWhirlwindD=释放旋风斩，每秒对附近所有敌方单位造成<c val="#ColorAttackInfo"><d ref="Effect,VoidZealotWhirlwindDamageD,Amount/Behavior,VoidZealotWhirlwindD,Period"/></c>点伤害。持续<c val="#ColorAttackInfo"><d ref="Behavior,VoidZealotWhirlwindD,Duration"/></c>秒。
+Button/Tooltip/WarpGateD=<c val="#ColorAttackInfo">生产建筑</c><n/>能够使用折跃技术召集塔达林基础地面单位。<n/><n/><c val="ffff8a">开启：</c><n/>- <c val="#ColorAttackInfo">狂战士</c>或<c val="#ColorAttackInfo">死徒</c><n/>- 使<c val="#ColorAttackInfo">探机</c>可以折跃<c val="#ColorAttackInfo">控制芯核</c>
+Button/Tooltip/WarpInAdeptD=<c val="B22222">斯雷恩之嗣</c><n/>远程特种单位。可以使用灵能传送。<n/><n/><c val="#ColorAttackInfo">可以对地和对空。</c>
+Button/Tooltip/WarpPrismD=空中运输单位。可以装载或卸载单位。部署后将生成一个能量场。<n/><n/><c val="ffff8a">可以对地和对空。</c>
+Button/Tooltip/WarpPrismDPhasing=定点能量供给单位。可以装载或卸载单位。可变形为移动式运输单位。
+Button/Tooltip/WarpPrismLoadD=将单位装载进战争棱镜。
+Button/Tooltip/WarpPrismUnloadAllD=卸载所有单位。
+Button/Tooltip/WarpPrismUnloadD=卸载单位到目标位置。
+Button/Tooltip/ZealotAOEDC=<c val="#ColorAttackInfo">神选者</c>的攻击能够对前方造成一半的<c val="#ColorAttackInfo">A O E</c>伤害。
+Button/Tooltip/ZealotAiurD=强大的近战战士，可以使用冲锋和旋风斩技能。<n/><n/><c val="ffff8a">可以对地。</c>
+Button/Tooltip/ZealotD=<c val="B22222">斯雷恩之嗣</c><n/>强大的近战战士。可以使用冲锋技能。<n/><n/><c val="ffff8a">可以对地。</c>
+Button/Tooltip/ZealotFrenzyD=<c val="#ColorAttackInfo">狂战士</c>进入战斗后的每次攻击都会提高自身<c val="#ColorAttackInfo">10%</c>的攻击速度。<n/><n/><c val="#ColorAttackInfo">最多叠加15层</c>
+Button/Tooltip/ZealotFrenzyDC=<c val="#ColorAttackInfo">神选者</c>进入战斗后的每次攻击都会提高自身<c val="#ColorAttackInfo">10%</c>的攻击速度。<n/><n/><c val="#ColorAttackInfo">最多叠加15层</c>
+Button/Tooltip/ZealotShieldArmorDC=<c val="#ColorAttackInfo">神选者</c>的护盾存在时受到的伤害降低<c val="#ColorAttackInfo">30%</c>。
+DocInfo/DescLong=埃蒙归来后，塔达林分裂为了两派，不死不休。
+DocInfo/Name=TaldarimProtoss
+DocInfo/PatchNote001=使用模型：
+DocInfo/PatchNote002=一些单位模型修改自sc2mapster，Protoss Factions Units。
+DocInfo/PatchNote003=其余都为自制。
+Effect/Name/AdeptDamageD=伤害
+Effect/Name/AdeptLMD=LM
+Effect/Name/AdeptPhaseShiftCUD=Phase Shift CU
+Effect/Name/AdeptPhaseShiftCancelABD=Phase Shift Cancel AB
+Effect/Name/AdeptPhaseShiftCancelD=Phase Shift Cancel
+Effect/Name/AdeptPhaseShiftCasterABD=Phase Shift Caster AB
+Effect/Name/AdeptPhaseShiftInitialSetD=Phase Shift Initial Set
+Effect/Name/AdeptPhaseShiftIssueOrderD=Phase Shift Issue Order
+Effect/Name/AdeptPhaseShiftKillDummyD=Phase Shift Kill Dummy
+Effect/Name/AdeptPhaseShiftRemoveDisablesSetD=Phase Shift Remove Disables Set
+Effect/Name/AdeptPhaseShiftSelectD=Phase Shift Select
+Effect/Name/AdeptPhaseShiftSpawnABD=Phase Shift Spawn AB
+Effect/Name/AdeptPhaseShiftSpawnSetD=Phase Shift Spawn Set
+Effect/Name/AdeptPhaseShiftTeleportD=Phase Shift Teleport
+Effect/Name/AdeptPhaseShiftTeleportSetD=Phase Shift Teleport Set
+Effect/Name/AdeptPhaseShiftTimerSpawnABD=Phase Shift Timer Spawn AB
+Effect/Name/AdeptPhaseUnitOrderQueueD=Phase Unit Order Queue
+Effect/Name/AdeptShadePhaseShiftCancelCasterBehaviorD=Shade Phase Shift Cancel Caster Behavior RB
+Effect/Name/AdeptStimpackABD=Adept Stim Pack (Apply Buff)
+Effect/Name/AlarakAADamageDH=灵能闪电伤害
+Effect/Name/AlarakPsionicLightningSetDH=灵能闪电集合
+Effect/Name/ArbiterMPCloakingFieldApplyD=ArbiterMP Cloaking Field (Apply)
+Effect/Name/ArbiterMPCloakingFieldSearchD=ArbiterMP Cloaking Field (Search)
+Effect/Name/ArbiterMPStasisFieldSetD=ArbiterMP Stasis Field (Set)
+Effect/Name/ArbiterMPStasisFieldTimerApplyD=ArbiterMP Stasis Field Timer (Apply)
+Effect/Name/ArbiterRecallApplyPostRecallBehaviorD=Arbiter Recall (Apply Post-Recall Behavior)
+Effect/Name/ArbiterRecallApplyPreRecallBehaviorD=Arbiter Recall (Apply Pre-Recall Behavior)
+Effect/Name/ArbiterRecallInitialSetD=Arbiter Recall Initial Set
+Effect/Name/ArbiterRecallMagazineIterateD=Arbiter Recall Magazine Iterate
+Effect/Name/ArbiterRecallSearchD=Arbiter Recall (Search)
+Effect/Name/ArbiterRecallSetD=Arbiter Recall (Set)
+Effect/Name/ArbiterRecallTeleportD=Arbiter Recall (Teleport)
+Effect/Name/ArbiterStasisFieldApplyD=Arbiter Stasis Field (Apply)
+Effect/Name/ArbiterStasisFieldSearchD=Arbiter Stasis Field (Search)
+Effect/Name/ArbiterWeaponDamageD=Arbiter Weapon Damage
+Effect/Name/ArbiterWeaponLaunchD=Arbiter Weapon Launch
+Effect/Name/ArchonDFZAB=放逐应用行为
+Effect/Name/ArchonDWeaponCP=ArchonD Weapon CP
+Effect/Name/ArchonDWeaponDamage=ArchonD Weapon Damage
+Effect/Name/ArchonDWeaponDamageDelay=ArchonD Weapon Damage Delay
+Effect/Name/ArchonDWeaponFreindlyCP=ArchonD Weapon Freindly CP
+Effect/Name/ArchonDWeaponFriendlyDamage=ArchonD Weapon Friendly Damage
+Effect/Name/ArchonDWeaponInitialSet=ArchonD Weapon Initial Set
+Effect/Name/ArchonDWeaponSearch=ArchonD Weapon Search
+Effect/Name/AscendantSacrificeDamageD=献祭死徒扣血
+Effect/Name/AscendantSacrificeKillSupplicantD=献祭死徒杀死
+Effect/Name/AscendantSacrificeSearchD=献祭死徒搜索
+Effect/Name/AscendantSacrificeSelfBuffSetD=献祭死徒集合
+Effect/Name/AscendantSacrificeSupplicantRemoveShieldD=献祭死徒清盾
+Effect/Name/AscendantWeaponD=Ascendant Weapon
+Effect/Name/AscendantWeaponDamageD=Ascendant Weapon Damage
+Effect/Name/AscendantWeaponLMD=Ascendant Weapon LM
+Effect/Name/AssimilatorMorphD=Assimilator Morph
+Effect/Name/AutoHarvestVespene6D=Auto Harvest Vespene 6
+Effect/Name/BlinkD=Blink
+Effect/Name/BlinkDK=Blink
+Effect/Name/BlinkDKU=Blink
+Effect/Name/COABladesD=COA Blades
+Effect/Name/COABladesSearchD=COA Blades Search
+Effect/Name/COABladesSecondaryDamageD=COA Blades Secondary Damage
+Effect/Name/COADamageD=COA Damage
+Effect/Name/CarrierInterceptorBombDamageD=Carrier Interceptor Bomb Damage
+Effect/Name/CarrierInterceptorBombLMD=Carrier Interceptor Bomb LM
+Effect/Name/CarrierInterceptorD=Launch Interceptor (Magazine)
+Effect/Name/CarrierInterceptorLaunchSetD=Carrier Interceptor Launch Set
+Effect/Name/CarrierRayVoidD=Carrier Ray Void
+Effect/Name/CarrierRayVoidDamageD=Carrier Ray Void Damage
+Effect/Name/CasterHealtoFullEnergyD=献祭死徒回蓝
+Effect/Name/ChargeD=Charge (Apply Buff)
+Effect/Name/ChargeDC=Charge (Apply Buff)
+Effect/Name/ChronoBoostEnergyCostABD=时空提速能量消耗
+Effect/Name/CloakingFieldD=Cloaking Field
+Effect/Name/CloakingFieldSearchD=Cloaking Field Search
+Effect/Name/ColossusDAWeaponBeamABD=ColossusDA Weapon Beam AB
+Effect/Name/ColossusDAWeaponBeamDamageD=ColossusDA Weapon Beam Damage
+Effect/Name/ColossusDAWeaponBeamSearchD=ColossusDA Weapon Beam Search
+Effect/Name/ColossusPurifierThermalLancesCenterD=Colossus Taldarim Thermal Lances Center
+Effect/Name/ColossusPurifierThermalLancesD=Colossus Taldarim Thermal Lances
+Effect/Name/ColossusPurifierThermalLancesDamageD=Colossus Taldarim Thermal Lances Damage
+Effect/Name/ColossusPurifierThermalLancesDamageDelayD=Colossus Taldarim Thermal Lances Damage Delay
+Effect/Name/ColossusPurifierThermalLancesForwardD=Colossus Taldarim Thermal Lances Forward
+Effect/Name/ColossusPurifierThermalLancesReverseD=Colossus Taldarim Thermal Lances Reverse
+Effect/Name/ColossusPurifierThermalLancesSearchCenterD=Colossus Taldarim Thermal Lances Search Center
+Effect/Name/ColossusPurifierThermalLancesSearchD=Colossus Taldarim Thermal Lances Search
+Effect/Name/ColossusPurifierThermalLancesSearchReverseD=Colossus Taldarim Thermal Lances Search Reverse
+Effect/Name/ColossusTaldarimDamageD=Colossus Taldarim Damage
+Effect/Name/ColossusTaldarimLMD=Colossus Taldarim LM
+Effect/Name/CorsairMPDisruptionWebApplyD=Disruption Web (Apply)
+Effect/Name/CorsairMPDisruptionWebCreatePersistentD=Disruption Web (Create Persistent)
+Effect/Name/CorsairMPDisruptionWebIterateTransportD=Disruption Web (Iterate Transport)
+Effect/Name/CorsairMPDisruptionWebSearchD=Disruption Web (Search)
+Effect/Name/CorsairMPDisruptionWebSetD=Disruption Web (Set)
+Effect/Name/DarkShrineSacrificeHealEnergyD=黑暗献祭回蓝
+Effect/Name/DarkShrineSacrificeRemoveHealthD=黑暗献祭扣血
+Effect/Name/DarkShrineSacrificeSearchD=黑暗献祭搜索
+Effect/Name/DarkShrineSacrificeSetD=黑暗献祭集合
+Effect/Name/DarkTemplarBlinkD=DarkTemplar Blink (Teleport)
+Effect/Name/DarkTemplarTaldarimWeaponSetD=Dark Templar Taldarim Weapon Set
+Effect/Name/DarkTemplarVoidStasisABD=Dark Templar Void Stasis AB
+Effect/Name/DarkTemplarVoidStasisIterateTransportD=Dark Templar Void Stasis Iterate Transport
+Effect/Name/DarkTemplarVoidStasisSetD=Dark Templar Void Stasis Set
+Effect/Name/DisruptionBeamD=Disruption Beam
+Effect/Name/DisruptionBeamDamageD=Disruption Beam
+Effect/Name/DragoonBeamWeaponCPD=Dragoon Beam Weapon CP
+Effect/Name/DragoonBeamWeaponDamageD=Dragoon Beam Weapon Damage
+Effect/Name/DragoonBeamWeaponDamageDelayD=Dragoon Beam Weapon Damage Delay
+Effect/Name/DragoonBeamWeaponFreindlyCPD=Dragoon Beam Weapon Freindly CP
+Effect/Name/DragoonBeamWeaponFriendlyDamageD=Dragoon Beam Weapon Friendly Damage
+Effect/Name/DragoonBeamWeaponInitialSetD=Dragoon Beam Weapon Initial Set
+Effect/Name/DragoonBeamWeaponSearchD=Dragoon Beam Weapon Search
+Effect/Name/DragoonDamageD=Dragoon Damage
+Effect/Name/DragoonDamageDA=Dragoon Damage
+Effect/Name/DragoonLMD=Dragoon LM
+Effect/Name/DragoonLMDA=Dragoon LM
+Effect/Name/ForceFieldD=Force Field
+Effect/Name/ForceFieldPlacementD=Force Field Placement
+Effect/Name/ForceFieldTimedLifeD=Force Field Timed Life
+Effect/Name/GravitonPrisonApplyBehaviorH=Graviton Prison (Apply Behavior)
+Effect/Name/GravitonPrisonCreatePersistentH=Graviton Prison (Create Persistent)
+Effect/Name/GravitonPrisonDamageCreatePersistentH=Graviton Prison Damage (Create Persistent)
+Effect/Name/GravitonPrisonDamageH=Graviton Prison (Damage)
+Effect/Name/GravitonPrisonFinalSetH=Graviton Prison (Final Set)
+Effect/Name/GravitonPrisonLowerH=Graviton Prison (Lower)
+Effect/Name/GravitonPrisonRaiseH=Graviton Prison (Raise)
+Effect/Name/GravitonPrisonRemoveBehaviorH=Graviton Prison (Remove Behavior)
+Effect/Name/GravitonPrisonSetH=Graviton Prison (Set)
+Effect/Name/GuardianShieldApplyBehaviorD=Guardian Shield
+Effect/Name/GuardianShieldPersistentD=Guardian Shield
+Effect/Name/GuardianShieldSearchD=Guardian Shield
+Effect/Name/HighTemplarDMergeFacing=晋升者决斗朝向
+Effect/Name/HighTemplarDMorphSet=晋升者决斗集合
+Effect/Name/HybridBehemothCleaveDamageH=Hybrid Behemoth Cleave Damage
+Effect/Name/HybridBehemothCleaveDamageHB=Hybrid Behemoth Cleave Damage
+Effect/Name/HybridBehemothCleaveSearchH=Hybrid Behemoth Cleave Search
+Effect/Name/HybridBehemothCleaveSearchHB=Hybrid Behemoth Cleave Search
+Effect/Name/HybridBehemothDamageH=Hybrid Behemoth Damage
+Effect/Name/HybridBehemothDamageHB=Hybrid Behemoth Damage
+Effect/Name/HybridBehemothSetH=Hybrid Behemoth Set
+Effect/Name/HybridBehemothSetHB=Hybrid Behemoth Set
+Effect/Name/HybridBehemothStunABH=Hybrid Behemoth Stun AB
+Effect/Name/HybridBehemothStunDamageH=Hybrid Behemoth Stun Damage
+Effect/Name/HybridBehemothStunSearchH=Hybrid Behemoth Stun Search
+Effect/Name/HybridConsumeDNACPH=Hybrid Consume DNA CP
+Effect/Name/HybridConsumeDNADamageH=Hybrid Consume DNA Damage
+Effect/Name/HybridConsumeDNAFeedbackLMH=Hybrid Consume DNA Feedback LM
+Effect/Name/HybridConsumeDNAFeedbackSetH=Hybrid Consume DNA Feedback Set
+Effect/Name/HybridConsumeDNAImpactH=Hybrid Consume DNA Impact
+Effect/Name/HybridConsumeDNASetH=Hybrid Consume DNA Set
+Effect/Name/HybridDestructionWaveDamageH=Hybrid Destruction Wave Damage
+Effect/Name/HybridDestructionWaveDamageOnlyH=Hybrid Destruction Wave Damage Only
+Effect/Name/HybridDestructionWaveInitialCPH=Hybrid Destruction Wave Initial CP
+Effect/Name/HybridDestructionWaveModelEndPointH=Hybrid Destruction Wave Model End Point
+Effect/Name/HybridDestructionWaveModelStartPointH=Hybrid Destruction Wave Model Start Point
+Effect/Name/HybridDestructionWaveSearchH=Hybrid Destruction Wave Search
+Effect/Name/HybridDestructionWaveSearchSwitchH=Hybrid Destruction Wave Search Switch
+Effect/Name/HybridDestructionWaveSecondCPH=Hybrid Destruction Wave Second CP
+Effect/Name/HybridDominatorPsionicShockwaveDamageH=Hybrid Dominator Psionic Shockwave (Damage)
+Effect/Name/HybridDominatorVoidPlasmaBlastDamageH=Hybrid Dominator Void Plasma Blast Damage
+Effect/Name/HybridDominatorVoidPlasmaBlastLaunchMissileH=Hybrid Dominator Void Plasma Blast Launch Missile
+Effect/Name/HybridNemesisHurricaneMissileBurstPersistentH=Hybrid Nemesis Hurricane Missile Burst Persistent
+Effect/Name/HybridNemesisHurricaneMissileCPH=Hybrid Nemesis Hurricane Missile CP
+Effect/Name/HybridNemesisHurricaneMissileDamageDelayPersistentH=Hybrid Nemesis Hurricane Missile Damage Delay Persistent
+Effect/Name/HybridNemesisHurricaneMissileDamagePersistentH=Hybrid Nemesis Hurricane Missile Damage Persistent
+Effect/Name/HybridNemesisHurricaneMissileLeftDummyH=Hybrid Nemesis Hurricane Missile Left Dummy
+Effect/Name/HybridNemesisHurricaneMissileLeftLMH=Hybrid Nemesis Hurricane Missile Left LM
+Effect/Name/HybridNemesisHurricaneMissileRightDummyH=Hybrid Nemesis Hurricane Missile Right Dummy
+Effect/Name/HybridNemesisHurricaneMissileRightLMH=Hybrid Nemesis Hurricane Missile Right LM
+Effect/Name/HybridNemesisVoidStasisABH=Hybrid Nemesis Void Stasis AB
+Effect/Name/HybridNemesisVoidStasisIterateTransportH=Hybrid Nemesis Void Stasis Iterate Transport
+Effect/Name/HybridNemesisVoidStasisSetH=Hybrid Nemesis Void Stasis Set
+Effect/Name/HybridNemesisWeaponCPH=Hybrid Nemesis Weapon CP
+Effect/Name/HybridNemesisWeaponDamageH=Hybrid Nemesis Weapon Damage
+Effect/Name/HybridNemesisurricaneMissileDamageH=Hybrid Nemesis Hurricane Missile Damage
+Effect/Name/HybridProtossDamageH=Hybrid Protoss Damage
+Effect/Name/HybridProtossDamageHD=Hybrid Protoss Damage
+Effect/Name/HybridProtossLMH=Hybrid Protoss LM
+Effect/Name/HybridProtossLMHD=Hybrid Protoss LM
+Effect/Name/HybridProtossWeaponCPH=Hybrid Protoss Weapon CP
+Effect/Name/HybridProtossWeaponCPHD=Hybrid Protoss Weapon CP
+Effect/Name/HybridPsiBladesCPH=Hybrid Psi Blades CP
+Effect/Name/HybridPsiBladesCPHA=Hybrid Psi Blades CP
+Effect/Name/HybridPsiBladesCleaveSetH=Hybrid Psi Blades Cleave Set
+Effect/Name/HybridPsiBladesCleaveSetHA=Hybrid Psi Blades Cleave Set
+Effect/Name/HybridPsiBladesDamageH=Hybrid Psi Blades Damage
+Effect/Name/HybridPsiBladesDamageHA=Hybrid Psi Blades Damage
+Effect/Name/HybridPsiStormApplyBehaviorH=灵能风暴-应用灵能风暴
+Effect/Name/HybridPsiStormDamageH=灵能风暴-周期伤害
+Effect/Name/HybridPsiStormDamageInitialH=灵能风暴-初始伤害
+Effect/Name/HybridPsiStormPersistentH=灵能风暴-持续-直连技能
+Effect/Name/HybridPsiStormSearchH=灵能风暴-目标点搜索
+Effect/Name/HybridReaverAntiAirAttackDamageD=Hybrid Reaver Anti Air Attack Damage
+Effect/Name/HybridReaverAntiAirAttackDamageDB=Hybrid Reaver Anti Air Attack Damage
+Effect/Name/HybridReaverAntiAirAttackLaunchMissileD=Hybrid Reaver Anti Air Attack Launch Missile
+Effect/Name/HybridReaverAntiAirAttackLaunchMissileDB=Hybrid Reaver Anti Air Attack Launch Missile
+Effect/Name/HybridTissueAssimilationH=Hybrid Tissue Assimilation
+Effect/Name/HybridTissueAssimilationHB=Hybrid Tissue Assimilation
+Effect/Name/ImmortalBarrierBaseABD=Barrier AB
+Effect/Name/ImmortalBarrierBaseABDPU=Barrier AB
+Effect/Name/ImmortalTaldarimMissileSpeedStackRBD=Immortal Taldarim Missile Speed Stack RB
+Effect/Name/ImmortalTaldarimWeaponDamageD=Immortal Taldarim Weapon Damage
+Effect/Name/ImmortalTaldarimWeaponDamageDA=Immortal Taldarim Weapon Damage
+Effect/Name/ImmortalTaldarimWeaponDamageSetD=Immortal Taldarim Weapon Damage Set
+Effect/Name/ImmortalTaldarimWeaponLMD=Immortal Taldarim Weapon LM
+Effect/Name/ImmortalTaldarimWeaponLMDA=Immortal Taldarim Weapon LM
+Effect/Name/ImmortalTaldarimWeaponLMNoSearchD=Immortal Taldarim Weapon LM No Search
+Effect/Name/ImmortalTaldarimWeaponLMSetD=Immortal Taldarim Weapon LM Set
+Effect/Name/ImmortalTaldarimWeaponRandomLargeD=Immortal Taldarim Weapon Random Large
+Effect/Name/ImmortalTaldarimWeaponRandomLargeDA=Immortal Taldarim Weapon Random Large
+Effect/Name/ImmortalTaldarimWeaponSearchD=Immortal Taldarim Weapon Search
+Effect/Name/InterceptorAmmoClearD=拦截机弹药清空
+Effect/Name/InterceptorAmmoRechargeD=拦截机弹药补充
+Effect/Name/InterceptorAmmoUseD=拦截机弹药消耗
+Effect/Name/InterceptorBombSetD=拦截机轰炸集合
+Effect/Name/InterceptorLaunchPersistentD=Interceptors
+Effect/Name/InterceptorRechargeHealD=拦截机返回治疗
+Effect/Name/InterceptorReturnD=拦截机返回弹仓
+Effect/Name/InterceptorReturnSetD=拦截机返回集合
+Effect/Name/IonCannonsD=Ion Cannons
+Effect/Name/IonCannonsDC=Ion Cannons
+Effect/Name/IonCannonsUD=Ion Cannons
+Effect/Name/IonCannonsUDC=Ion Cannons
+Effect/Name/KDLJSBeamBounce1DamageD=KDLJS Beam Bounce1 Damage
+Effect/Name/KDLJSBeamBounce1SearchD=KDLJS Beam Bounce1 Search
+Effect/Name/KhaydarinBeamDamageD=Khaydarin Beam (Damage)
+Effect/Name/KhaydarinBeamDamageSetD=Khaydarin Beam Damage Set
+Effect/Name/KhaydarinBeamHighDamageSetD=Khaydarin Beam High Damage Set
+Effect/Name/KhaydarinBeamRetargetD=Khaydarin Beam Retarget
+Effect/Name/MothershipCuttingBeamDamageD=Mothership Cutting Beam (Damage)
+Effect/Name/MothershipLaserWeaponSearchD=母舰粒子束阵列搜索
+Effect/Name/MothershipMissileDamageD=母舰飞弹武器伤害
+Effect/Name/MothershipMissileLMD=母舰飞弹射弹
+Effect/Name/MothershipMissileWeaponSearchD=母舰离子飞弹阵列搜索
+Effect/Name/MothershipRayCPD=Mothership Ray CP
+Effect/Name/MothershipRayDamageD=Mothership Ray Damage
+Effect/Name/MothershipRaySearchD=Mothership Ray Search
+Effect/Name/MothershipSoulAbsorptionABD=Mothership Soul Absorption AB
+Effect/Name/MothershipSoulAbsorptionHealthABD=母舰灵魂之匣最大生命行为
+Effect/Name/MothershipSoulAbsorptionLMD=Mothership Soul Absorption LM
+Effect/Name/MothershipSoulAbsorptionMUD=Mothership Soul Absorption MU
+Effect/Name/MothershipSoulAbsorptionSearchD=Mothership Soul Absorption Search
+Effect/Name/MothershipSoulAbsorptionSetD=母舰灵魂之匣集合
+Effect/Name/MothershipWeaponDamageSearchD=母舰主武器伤害搜索
+Effect/Name/NeutronFlareD=中子照明弹
+Effect/Name/NexusCreateSetT=NexusCreateSet
+Effect/Name/ObserveHoldFireBD=Observe Hold Fire B
+Effect/Name/ObserveHoldFireD=Observe Hold Fire
+Effect/Name/ObserveParticleBeamD=Observe Particle Beam
+Effect/Name/ObserveWeaponsFreeD=Observe Weapons Free
+Effect/Name/ObserverSquadSightABD=Squad Sight AB
+Effect/Name/ObserverSquadSightSearchD=Squad Sight Search
+Effect/Name/ObserverTargetLockABCasterD=Observer Target Lock AB Caster
+Effect/Name/ObserverTargetLockABTargetD=Observer Target Lock AB Target
+Effect/Name/ObserverTargetLockCPD=Observer Target Lock CP
+Effect/Name/ObserverTargetLockFinishSetD=Observer Target Lock Finish Set
+Effect/Name/ObserverTargetLockRBCasterD=Observer Target Lock RB Caster
+Effect/Name/ObserverTargetLockRBD=Observer Target Lock RB
+Effect/Name/ObserverTargetLockStartSetD=Observer Target Lock Start Set
+Effect/Name/ParticleBeamD=Particle Beam
+Effect/Name/ParticleCannonBeamD=Particle Cannon Beam
+Effect/Name/ParticleCannonImpactSet=粒子要塞炮命中集合
+Effect/Name/ParticleCannonTargetingCPD=Particle Cannon Targeting CP
+Effect/Name/ParticleCannonTargetingDamageD=Particle Cannon Targeting Damage
+Effect/Name/ParticleCannonTurnDownTurretABD=粒子要塞炮关闭炮塔
+Effect/Name/ParticleDisruptorsD=Entropy Lance (LM)
+Effect/Name/ParticleDisruptorsDKS=Entropy Lance (LM)
+Effect/Name/ParticleDisruptorsUD=Entropy Lance (Damage)
+Effect/Name/ParticleDisruptorsUDKS=Entropy Lance (Damage)
+Effect/Name/PhaseDisruptorsD=Phase Disruptors
+Effect/Name/PhaseShiftTimerCancelSetD=Phase Shift Timer Cancel Set
+Effect/Name/PhoenixOverloadD=凤凰过载
+Effect/Name/PhoenixOverloadSearchD=凤凰过载搜索
+Effect/Name/PhoenixWhirlwindFakeWeaponDummyD=Phoenix Whirlwind Fake Weapon Dummy
+Effect/Name/PhotonCannonLMD=Photon Cannon (Launch Missile)
+Effect/Name/PhotonCannonUD=Photon Cannon (Damage)
+Effect/Name/PsiBladesBurstCPD=Psi Blades Burst CP
+Effect/Name/PsiBladesCleaveSetD=Psi Blades Cleave Set
+Effect/Name/PsiBladesDamageD=Psi Blades Damage
+Effect/Name/PsionicShockwaveDamageD=Psionic Shockwave (Damage)
+Effect/Name/ReaverSacrificeSearchD=掠夺者献祭死徒搜索
+Effect/Name/ReaverSacrificeSelfBuffSetD=掠夺者献祭死徒集合
+Effect/Name/ReaverScarabSCasterRBD=Reaver ScarabS Caster RB
+Effect/Name/ReaverScarabSReadyABD=Reaver ScarabS Ready AB
+Effect/Name/RepairProbeD=Repair Probe
+Effect/Name/SOAMothershipBlinkCPD=SOA Mothership Blink CP
+Effect/Name/SOAMothershipBlinkTeleportD=SOA Mothership Blink Teleport
+Effect/Name/SOAMothershipLineAttackCasterImpactDummyD=SOAMothership Line Attack Caster Impact Dummy
+Effect/Name/SOAMothershipLineAttackCasterLMD=SOAMothership Line Attack Caster LM
+Effect/Name/SOAMothershipLineAttackDamageD=SOAMothership Line Attack Damage
+Effect/Name/SOAMothershipLineAttackInitialCPD=SOAMothership Line Attack Initial CP
+Effect/Name/SOAMothershipLineAttackScanCPD=SOAMothership Line Attack Scan CP
+Effect/Name/SOAMothershipLineAttackSearchD=SOAMothership Line Attack Search
+Effect/Name/SOAMothershipv4BeamDamageD=SOA Mothership v4 Beam Damage
+Effect/Name/SOAMothershipv4BeamDummyD=SOA Mothership v4 Beam Dummy
+Effect/Name/SOAMothershipv4BeamPersistentD=SOA Mothership v4 Beam Persistent
+Effect/Name/SOAMothershipv4BeamSetD=SOA Mothership v4 Beam Set
+Effect/Name/SOAMothershipv4SecondaryBeamPersistentD=SOA Mothership v4 Secondary Beam Persistent
+Effect/Name/ScarabApplyRevealD=Scarab Apply Reveal
+Effect/Name/ScarabExplodeD=Scarab Explode
+Effect/Name/ScarabExplodeDS=Scarab Explode
+Effect/Name/ScarabExplodeTargetDamageD=Scarab Explode Target Damage
+Effect/Name/ScarabExplodeTargetDamageDS=Scarab Explode Target Damage
+Effect/Name/ScarabLMD=Scarab LM
+Effect/Name/ScarabLMDS=Scarab LM
+Effect/Name/ScarabLMSwitchD=Scarab LM Switch
+Effect/Name/ScarabLaunchPersistentD=Scarab Launch Persistent
+Effect/Name/ScarabLaunchPersistentInitialD=Scarab Launch Persistent Initial
+Effect/Name/ScarabLaunchSetD=Scarab Launch Set
+Effect/Name/ScarabTimedLifeD=Scarab Timed Life
+Effect/Name/ScarabUMD=Scarab UM
+Effect/Name/ScoutGroundD=Scout Ground
+Effect/Name/ScoutSpeedBoostD=Scout Speed Boost
+Effect/Name/ShieldBatteryRechargeChanneledD=Shield Battery Recharge Channeled
+Effect/Name/ShieldGeneratorForceShieldApplyBehaviorD=Shield Generator Force Shield
+Effect/Name/ShieldGeneratorForceShieldPersistentD=Shield Generator Force Shield
+Effect/Name/ShieldGeneratorForceShieldSearchD=Shield Generator Force Shield
+Effect/Name/ShieldGeneratorSuperShieldApplyBehaviorD=虚相物质护盾行为
+Effect/Name/ShieldGeneratorSuperShieldSearchD=虚相物质护盾搜索
+Effect/Name/ShieldGeneratorSupperShieldDamageD=虚相物质护盾伤害
+Effect/Name/ShieldGeneratorSupperShieldSetD=虚相物质护盾集合
+Effect/Name/StalkerBeamReadyABD=Stalker Beam Ready AB
+Effect/Name/StalkerBeamSetDK=追猎者光束集合
+Effect/Name/StalkerBeamWeaponCasterRBD=Stalker Beam Weapon Caster RB
+Effect/Name/StalkerBlinkSetDKU=杀戮铁骑闪现集合
+Effect/Name/StalkerBlinkShieldABD=Stalker Blink Shield AB
+Effect/Name/StalkerParticleBeamD=Particle Beam
+Effect/Name/StalkerWeaponSetDK=追猎者武器集合
+Effect/Name/StalkerWeaponSetDKS=追猎者武器集合
+Effect/Name/StructureOverchargeABD=建筑超载武器行为
+Effect/Name/StructureOverchargeDamageD=建筑超载武器伤害
+Effect/Name/StructureOverchargeLMD=建筑超载武器射弹
+Effect/Name/StructureOverchargeRefreshD=建筑超载刷新集合
+Effect/Name/StructureOverchargeSearchD=建筑超载行为搜索
+Effect/Name/StructureOverchargeSetD=建筑超载初始集合
+Effect/Name/StructureOverchargeShieldABD=建筑超载护盾行为
+Effect/Name/SupplicantAstralWindD=Supplicant Astral Wind
+Effect/Name/SupplicantAstralWindOtherD=Supplicant Astral Wind Other
+Effect/Name/SupplicantAstralWindOtherSetD=Supplicant Astral Wind Other Set
+Effect/Name/SupplicantAstralWindSearchD=Supplicant Astral Wind Search
+Effect/Name/SupplicantDamageD=死徒武器伤害
+Effect/Name/SupplicantLMD=死徒武器射弹
+Effect/Name/TempestDamageDA=Tempest Damage
+Effect/Name/TempestLaunchMissileDA=Tempest Launch Missile
+Effect/Name/TempestShockwaveDamageD=Tempest Shockwave
+Effect/Name/ThermalLancesFireBeamABD=Thermal Lances Fire Beam AB
+Effect/Name/ThermalLancesFireBeamCPD=Thermal Lances Fire Beam CP
+Effect/Name/ThermalLancesFireBeamD=Thermal Lances Fire Beam
+Effect/Name/ThermalLancesFireBeamDamageD=Thermal Lances Fire Beam Damage
+Effect/Name/ThermalLancesFireBeamSearchD=Thermal Lances Fire Beam Search
+Effect/Name/ThermalLancesFriendlyCPD=Thermal Lances Freindly CP
+Effect/Name/VoidBombD=Void Bomb
+Effect/Name/VoidBombImpactSetD=虚空爆破集合
+Effect/Name/VoidCarrierInterceptorBombsCPD=Void Carrier Interceptor Bombs CP
+Effect/Name/VoidHighTemplarMindBlastDamageD=Mind Blast Damage
+Effect/Name/VoidHighTemplarPsiOrbABD=Psi Orb AB
+Effect/Name/VoidHighTemplarPsiOrbDamageD=Psi Orb (Damage)
+Effect/Name/VoidHighTemplarPsiOrbDestroyPersistentD=Psi Orb (Destroy Persistent)
+Effect/Name/VoidHighTemplarPsiOrbInitialPersistentD=Psi Orb
+Effect/Name/VoidHighTemplarPsiOrbLaunchMissileD=Psi Orb (Launch Missile)
+Effect/Name/VoidHighTemplarPsiOrbSearchD=Psi Orb (Search)
+Effect/Name/VoidHighTemplarPsiOrbSetD=Psi Orb (Set)
+Effect/Name/VoidRayChargeBeamBounce1DamageD=Void Ray Charge Beam Bounce1 Damage
+Effect/Name/VoidRayChargeBeamBounce1DamageSetD=Void Ray Charge Beam Bounce1 Damage Set
+Effect/Name/VoidRayChargeBeamBounce1SearchD=Void Ray Charge Beam Bounce1 Search
+Effect/Name/VoidRayChargeBeamBounce2DamageD=Void Ray Charge Beam Bounce2 Damage
+Effect/Name/VoidRayChargeBeamBounce2DamageSetD=Void Ray Charge Beam Bounce2 Damage Set
+Effect/Name/VoidRayChargeBeamBounce2SearchD=Void Ray Charge Beam Bounce2 Search
+Effect/Name/VoidRayChargeBeamBounce3DamageD=Void Ray Charge Beam Bounce3 Damage
+Effect/Name/VoidRayChargeBeamBounce3DamageSetD=Void Ray Charge Beam Bounce3 Damage Set
+Effect/Name/VoidRayChargeBeamBounce3SearchD=Void Ray Charge Beam Bounce3 Search
+Effect/Name/VoidRayChargeBeamBounceCasterABD=Void Ray Charge Beam Bounce Caster AB
+Effect/Name/VoidRayChargeBeamBounceD=Void Ray Charge Beam Bounce
+Effect/Name/VoidRayChargeBeamBounceDamageCharge1D=Void Ray Charge Beam Bounce Damage Charge1
+Effect/Name/VoidRayChargeBeamBounceDamageCharge2D=Void Ray Charge Beam Bounce Damage Charge2
+Effect/Name/VoidRayChargeBeamBounceDamageCharge3D=Void Ray Charge Beam Bounce Damage Charge3
+Effect/Name/VoidRayChargeBeamBounceDamageD=Void Ray Charge Beam Bounce Damage
+Effect/Name/VoidRayChargeBeamBounceDamageSwitchD=Void Ray Charge Beam Bounce Damage Switch
+Effect/Name/VoidRayChargeBeamBounceImpactSetD=Void Ray Charge Beam Bounce Impact Set
+Effect/Name/VoidRayChargeBeamBounceInitialImpactSetD=Void Ray Charge Beam Bounce Initial Impact Set
+Effect/Name/VoidRayChargeBeamCounterCheckD=Void Ray Charge Beam Counter Check
+Effect/Name/VoidRayChargeBeamCounterCheckPhase2D=Void Ray Charge Beam Counter Check Phase2
+Effect/Name/VoidRayChargeBeamCounterCheckPhase3D=Void Ray Charge Beam Counter Check Phase3
+Effect/Name/VoidRayChargeBeamPhase2ABD=Void Ray Charge Beam Phase2 AB
+Effect/Name/VoidRayChargeBeamPhase2RBD=Void Ray Charge Beam Phase2 RB
+Effect/Name/VoidRayChargeBeamPhase3ABD=Void Ray Charge Beam Phase3 AB
+Effect/Name/VoidRayPrismRB2D=校准棱镜移除2
+Effect/Name/VoidRayPrismRB3D=校准棱镜移除3
+Effect/Name/VoidRayPrismRBMD=校准棱镜移除计数
+Effect/Name/VoidRaySetPrismRBSetD=校准棱镜移除集合
+Effect/Name/VoidRaySwarmDamageBoostALD=校准棱镜添加计数
+Effect/Name/VoidRaySwarmDamageBoostD=校准棱镜
+Effect/Name/VoidSentryBlackHoleABD=Void Sentry Black Hole AB
+Effect/Name/VoidSentryBlackHoleForceD=Void Sentry Black Hole Force
+Effect/Name/VoidSentryBlackHoleForceOffsetD=Void Sentry Black Hole Force Offset
+Effect/Name/VoidSentryBlackHoleImpactSetD=Void Sentry Black Hole Impact Set
+Effect/Name/VoidSentryBlackHolePersistentD=Void Sentry Black Hole Persistent
+Effect/Name/VoidSentryBlackHoleSearchD=Void Sentry Black Hole Search
+Effect/Name/VoidSentryShieldRepairD=Void Sentry Shield Repair
+Effect/Name/VoidStormABSetD=虚空领域-行为集合
+Effect/Name/VoidStormApplyBehaviorD=虚空领域-行为
+Effect/Name/VoidStormApplySlowBehaviorD=虚空领域-阻滞行为
+Effect/Name/VoidStormPersistentD=虚空领域-持续
+Effect/Name/VoidStormSearchD=虚空领域-搜索
+Effect/Name/VoidZealotWhirlwindABD=Void Zealot Whirlwind AB
+Effect/Name/VoidZealotWhirlwindBehaviorSetD=Void Zealot Whirlwind Behavior Set
+Effect/Name/VoidZealotWhirlwindCancelMoveD=Void Zealot Whirlwind Cancel Move
+Effect/Name/VoidZealotWhirlwindDamageD=Void Zealot Whirlwind Damage
+Effect/Name/VoidZealotWhirlwindFakeWeaponDummyD=Void Zealot Whirlwind Fake Weapon Dummy
+Effect/Name/VoidZealotWhirlwindMoveCPD=Void Zealot Whirlwind Move CP
+Effect/Name/VoidZealotWhirlwindMoveOrderD=Void Zealot Whirlwind Move Order
+Effect/Name/VoidZealotWhirlwindMoveSearchD=Void Zealot Whirlwind Move Search
+Effect/Name/VoidZealotWhirlwindSearchD=Void Zealot Whirlwind Search
+Effect/Name/VoidZealotWhirlwindSetD=Void Zealot Whirlwind Set
+Effect/Name/WarPrismWeaponDamageD=WarPrism Weapon Damage
+Effect/Name/WarPrismWeaponLaunchD=WarPrism Weapon Launch
+Effect/Name/WarpBladesD=Warp Blades
+Effect/Name/ZealotFrenzyApplyBehaviorD=Zealot Frenzy Apply Behavior
+Error/NeedSupplicantD=必须以死徒为目标
+Error/NeedSupplicantDOrZealotD=必须以死徒或狂战士为目标
+Error/NeedSupplicantDZ=必须以狂战士为目标
+Error/SupplicantNotInRangeD=周围没有单位可被献祭
+Race/Name/ProD=塔达林
+RequirementNode/Tooltip/Eq2181383592CountUnitMothershipDBQueuedOrBetter0=无鲜血王座
+RequirementNode/Tooltip/Eq2621028074CountUnitTaldarimShieldGeneratorDQueuedOrBetter0=最多拥有一个护盾投射器
+RequirementNode/Tooltip/Eq66394315CountUnitSlaynMissileTurretDQueuedOrBetter0=最多拥有一个粒子要塞炮
+RequirementNode/Tooltip/LT4074361840CountUnitInterceptorDQueuedOrBetterAtUnit8=天霸搭载的轰炸机数量无法多于8架
+RequirementNode/Tooltip/LT724021365CountUnitScarabDQueuedOrBetterAtUnit6=梦魇行者搭载的金甲虫数量无法多于6枚
+RequirementNode/Tooltip/Not1826354782CountBehaviorReaverScarabSReadyDCompleteOnlyAtUnit=梦魇行者已经进行了灵魂充能
+SimpleDisplay/AttackGroundT=<s val="@@@SimpleCommandRow">按%hotkey键</c>然后</s> <IMG path="Assets\Textures\tutorialmouseleftbuttondown.dds" alignment="absolutemiddle"/> <s val="@@@SimpleCommandRow">地面自动攻击</s>
+Skin/Info/AssimilatorD=塔达林吸纳舱贪婪地从地下抽取着高能瓦斯，引发的地震毁灭了周围的生态系统。
+Skin/Info/CyberneticsCoreT=所有控制芯核都具备将生物体植入精密器械的能力，但是塔达林的控制芯核有一点不同，那就是整个过程会非常痛苦。
+Skin/Info/DarkShrineD=鲜血猎手是高阶领主恶毒意志的执行者，除了他们没有人知道在塔达林的黑暗圣坛里到底发生了什么。
+Skin/Info/FleetBeaconD=塔达林的舰队航标强迫一股量级相当危险的灵能能量从其球体中心穿过，进而获得传送巨型战舰的能力。
+Skin/Info/ForgeD=在塔达林锻炉中，被俘虏的卡莱工程师们遭受刑讯，被迫说出他们的科技秘密。
+Skin/Info/GatewayD=塔达林传送门的折跃距离远远超出其卡莱竞品。然而这一优势也同样存在风险，那就是传送物有一定几率在折跃过程中被撕成碎片。
+Skin/Info/NexusD=很久以前，塔达林对一座被俘获的卡莱星灵枢纽进行了改造，他们使用灵能叉将一颗超载的凯达琳水晶一直约束在其峰值状态，完美体现了他们在建筑残忍美学上的特点。
+Skin/Info/PhotonCannonD=尽管他们一直恪守严格的战士准则，但是塔达林对秘密建造光子炮来摧毁敌人的采矿线这种事情完全没有意见。
+Skin/Info/ProbeD=达拉姆使用的探机都会被进行校正，使其在采集资源的同时尽可能减少对生态的影响。塔达林则对这种预防措施完全无感。
+Skin/Info/PylonD=每一座塔达林水晶塔都不断发出噼啪的灵能爆裂声，充盈的能量足以驱动十六座传送门。
+Skin/Info/RoboticsBayD=地嗪气体不断从通体发黑、造型邪恶的巨爪中逸出，那正是塔达林的机械研究所。
+Skin/Info/RoboticsFacilityD=装甲支架和重型、加固起吊锚的搭配，让塔达林的机械台看上去有着一副令人生畏的轮廓。
+Skin/Info/ShieldBatteryD=尽管塔达林拥有护盾充能器，但是他们通常还是倾向于采用更富有侵略性的打法。
+Skin/Info/StargateD=塔达林星门的细长结构能让最新折跃抵达的战舰加速驶离空港，直接投入战斗。
+Skin/Info/TemplarArchiveD=在战斗间隙，升格之链排名靠前的塔达林战士可以访问圣堂武士文献馆，重温他们最英勇的事迹。
+Skin/Info/TwilightCouncilD=塔达林的光影议会也是一个偷来的卡莱建筑，只是它们的建筑风格变得更加令人生畏、更加晦暗，不过其所提供的升级科技并无变化。
+Skin/Name/AssimilatorD=吸纳舱
+Skin/Name/CyberneticsCoreT=控制芯核
+Skin/Name/DarkShrineD=黑暗圣坛
+Skin/Name/FleetBeaconD=舰队航标
+Skin/Name/ForgeD=锻炉
+Skin/Name/GatewayD=传送门
+Skin/Name/NexusD=星灵枢纽
+Skin/Name/PhotonCannonD=光子炮台
+Skin/Name/ProbeD=探机
+Skin/Name/PylonD=水晶塔
+Skin/Name/RoboticsBayD=机械研究所
+Skin/Name/RoboticsFacilityD=机械台
+Skin/Name/ShieldBatteryD=护盾充能器
+Skin/Name/StargateD=星门
+Skin/Name/TemplarArchiveD=圣堂武士文献馆
+Skin/Name/TwilightCouncilD=光影议会
+TargetIsGravitonPrisonH=目标已在引力牢笼中
+UI/ResourceSupplyToolTip_ProD=单位会消耗补给。折跃更多的水晶塔可以增加补给的数量。
+UI/zzzh=正在召唤
+Unit/Category/TaldarimHybridUnits=混合体
+Unit/Category/TaldarimUnits=塔达林
+Unit/Name/AdeptD=死亡使者
+Unit/Name/AdeptPhaseShiftD=灵能投影
+Unit/Name/AdeptWeaponD=使徒
+Unit/Name/ArbiterD=独裁者
+Unit/Name/ArbiterWeaponMissileD=仲裁者多人游戏武器发射物
+Unit/Name/ArchonD=虚空熵魔
+Unit/Name/ArchonDB=虚空能量团
+Unit/Name/AscendantWeaponD=Ascendant
+Unit/Name/AssimilatorD=吸纳舱
+Unit/Name/AutomatedAssimilatorD=轨道吸纳舱
+Unit/Name/CarrierD=天霸
+Unit/Name/CarrierInterceptorBombWeaponD=Carrier Interceptor Bomb
+Unit/Name/ColossusD=天灾行者
+Unit/Name/ColossusDA=神罚行者
+Unit/Name/ColossusTaldarimWeaponD=Colossus Taldarim
+Unit/Name/CorsairD=袭掠船
+Unit/Name/CyberneticsCoreD=控制芯核
+Unit/Name/DarkShrineD=虚空圣坛
+Unit/Name/DarkTemplarD=鲜血猎手
+Unit/Name/DragoonD=死亡骑士
+Unit/Name/DragoonWeaponD=龙骑士
+Unit/Name/DragoonWeaponDA=龙骑士
+Unit/Name/FleetBeaconD=舰队航标
+Unit/Name/ForceFieldD=力场
+Unit/Name/ForgeD=锻炉
+Unit/Name/GatewayD=传送门
+Unit/Name/HighTemplarD=晋升者
+Unit/Name/HighTemplarDU=历战晋升者大师
+Unit/Name/HybridBehemothH=灾掠
+Unit/Name/HybridConsumeDNAFeedbackWeaponH=DNA吞噬反蚀武器
+Unit/Name/HybridDestroyerH=混合体歼灭者
+Unit/Name/HybridDestroyerHestroyer=混合体毁灭者
+Unit/Name/HybridDominatorH=虚幻
+Unit/Name/HybridDominatorVoidPlasmaWeaponH=Hybrid Dominator Void Plasma
+Unit/Name/HybridNemesisH=湮梦
+Unit/Name/HybridNemesisHurricaneMissileLeftH=厄难飞弹 左
+Unit/Name/HybridNemesisHurricaneMissileRightH=厄难飞弹 右
+Unit/Name/HybridReaverAntiAirAttackWeaponD=Hybrid Reaver Anti Air Attack
+Unit/Name/HybridReaverAntiAirAttackWeaponDB=Hybrid Reaver Anti Air Attack
+Unit/Name/HybridReaverH=混合体吞噬者
+Unit/Name/ImmortalD=前锋
+Unit/Name/ImmortalDP=领主先锋
+Unit/Name/ImmortalDPU=灾厄行者
+Unit/Name/ImmortalTaldarimWeaponMissileD=Immortal Tal'darim Missile
+Unit/Name/ImmortalTaldarimWeaponMissileDA=Immortal Tal'darim Missile
+Unit/Name/InterceptorD=轰炸机
+Unit/Name/IonCannonsWeaponD=离子炮
+Unit/Name/IonCannonsWeaponDC=离子炮
+Unit/Name/KhaydarinMonolithD=血晶巨石
+Unit/Name/MothershipCoreD=方舟信标
+Unit/Name/MothershipDA=黑色方舟
+Unit/Name/MothershipDB=鲜血王座
+Unit/Name/MothershipMissileWeaponD=母舰飞弹武器
+Unit/Name/MothershipSoulAbsorptionMissleD=Mothership Soul Absorption Missile
+Unit/Name/NexusD=星灵枢纽
+Unit/Name/ObserverD=侦测器
+Unit/Name/OracleD=施虐者
+Unit/Name/PhoenixD=血翼
+Unit/Name/PhotonCannonD=光子炮台
+Unit/Name/PhotonCannonWeaponD=光子炮台武器
+Unit/Name/ProbeD=探机
+Unit/Name/PylonD=水晶塔
+Unit/Name/ReaverD=梦魇行者
+Unit/Name/RoboticsBayD=机械研究所
+Unit/Name/RoboticsFacilityD=机械台
+Unit/Name/SOAMothershipLineAttackWeaponD=SOA Mothership Line Attack
+Unit/Name/ScarabD=金甲虫
+Unit/Name/ScarabWeaponD=Reaver Scarab
+Unit/Name/ScarabWeaponDS=Reaver Scarab
+Unit/Name/ScoutD=裂空战机
+Unit/Name/SentryD=浩劫
+Unit/Name/SentryDB=扫荡
+Unit/Name/SentryDBU=浩劫贰型
+Unit/Name/ShieldBatteryD=护盾充能器
+Unit/Name/SlaynMissileTurretD=粒子要塞炮
+Unit/Name/StalkerD=铁骑兵
+Unit/Name/StalkerDK=杀戮者
+Unit/Name/StalkerDKU=杀戮铁骑
+Unit/Name/StalkerWeaponD=追猎者
+Unit/Name/StalkerWeaponDKS=追猎者
+Unit/Name/StargateD=星门
+Unit/Name/StructureOverchargeWeaponD=建筑超载武器
+Unit/Name/SuperWarpGateD=超级折跃门
+Unit/Name/SupplicantD=死徒
+Unit/Name/SupplicantWeaponD=死徒武器
+Unit/Name/TaldarimShieldGeneratorD=护盾投射器
+Unit/Name/TempestD=星怒
+Unit/Name/TempestWeaponDA=风暴战舰武器
+Unit/Name/TemplarArchiveD=晋升者纪念堂
+Unit/Name/TwilightCouncilD=死亡议会
+Unit/Name/VoidHighTemplarPsiOrbMissileD=High Templar Psi Orb Missile
+Unit/Name/VoidRayD=炼狱毁灭者
+Unit/Name/WarPrismWeaponMissileD=战争棱镜武器
+Unit/Name/WarpGateD=折跃门
+Unit/Name/WarpPrismD=战争棱镜
+Unit/Name/WarpPrismDPhasing=战争棱镜
+Unit/Name/WarpPrismPhasingD=折跃棱镜
+Unit/Name/WeaponHybridProtossH=混合体毁灭者
+Unit/Name/WeaponHybridProtossHD=混合体支配者
+Unit/Name/ZealotAiurD=神选者
+Unit/Name/ZealotD=狂战士
+Unit/Name/splProD=塔达林补给文本占位
+UnitKillRank/HybridH=混合体
+Upgrade/Name/TaldarimFactionsSonsOfAmon=神选升格者
+Upgrade/Name/TaldarimFactionsSonsOfSlayn=斯雷恩之嗣
+Upgrade/Name/TaldarimUpgrade=塔达林升级
+Weapon/Name/AdeptD=血球炮
+Weapon/Name/AlarakAADH=灵能闪电
+Weapon/Name/ArbiterWeaponD=裂空光炮
+Weapon/Name/ArchonDWeapon=虚空湮灭波
+Weapon/Name/CarrierRayD=毁灭光束
+Weapon/Name/ColossusPurifierThermalLancesD=热能射线枪
+Weapon/Name/ColossusTaldarimChargedBeamD=充能爆裂弹
+Weapon/Name/DisruptionBeamD=裂解射线
+Weapon/Name/DragoonBeamWeaponD=焚化光束
+Weapon/Name/DragoonD=相位碎裂炮
+Weapon/Name/DragoonDA=相位碎裂炮(对空)
+Weapon/Name/HybridBehemothH=巨刃利爪
+Weapon/Name/HybridBehemothHB=虚空巨刃
+Weapon/Name/HybridDominatorPsionicShockwaveH=虚空冲击束
+Weapon/Name/HybridNemesisWeaponH=虚空湮灭光束
+Weapon/Name/HybridProtossH=虚空冲击波
+Weapon/Name/HybridProtossHA=虚空冲击波
+Weapon/Name/HybridProtossHD=虚空冲击波
+Weapon/Name/HybridProtossHDA=虚空冲击波
+Weapon/Name/HybridPsiBladesH=灵能击打
+Weapon/Name/HybridPsiBladesHA=灵能击打
+Weapon/Name/HybridReaverAntiAirAttackH=虚空吐息
+Weapon/Name/HybridReaverAntiAirAttackHB=虚空吐息
+Weapon/Name/ImmortalTaldarimD=离散光炮
+Weapon/Name/ImmortalTaldarimDA=离散飞弹
+Weapon/Name/ImmortalTaldarimDAU=离散飞弹
+Weapon/Name/ImmortalTaldarimDU=离散光炮
+Weapon/Name/InterceptorBombD=离子轰炸
+Weapon/Name/InterceptorLaunchD=发射轰炸机
+Weapon/Name/InterceptorsDummyD=轰炸机
+Weapon/Name/IonCannonsD=裂空离子炮
+Weapon/Name/IonCannonsDC=裂空离子炮
+Weapon/Name/KhaydarinBeam1D=凯达琳光束1
+Weapon/Name/KhaydarinBeam3D=凯达琳光束3
+Weapon/Name/KhaydarinBeamD=血晶光束
+Weapon/Name/MothershipCuttingBeamD=粒子束阵列
+Weapon/Name/MothershipRayD=毁灭光束
+Weapon/Name/NeutronFlareD=中子照明弹
+Weapon/Name/ObserveParticleBeamD=粒子光束
+Weapon/Name/ParticleBeamD=粒子光束
+Weapon/Name/ParticleCannonBeamD=粒子要塞炮光束
+Weapon/Name/ParticleDisruptorsD=粒子碎裂炮
+Weapon/Name/ParticleDisruptorsDK=粒子碎裂炮
+Weapon/Name/ParticleDisruptorsDK2=粒子碎裂炮
+Weapon/Name/PhaseDisruptorsD=相位碎裂炮
+Weapon/Name/PhoenixWhirlwindFakeWeaponD=凤凰靠近武器
+Weapon/Name/PhotonCannonD=光子炮台
+Weapon/Name/PsiBladesD=灵能利刃
+Weapon/Name/PsionicShockwaveD=虚空湮灭波
+Weapon/Name/ReaverScarabsLaunchD=金甲虫
+Weapon/Name/SOAMothershipv4WeaponD=终结光束
+Weapon/Name/ScarabExplodeD=爆炸
+Weapon/Name/ScoutGroundD=光子冲击炮
+Weapon/Name/SlaynMissileTurretT=粒子要塞炮
+Weapon/Name/SolariteReaperD=新神祭砍
+Weapon/Name/StalkerParticleBeamD=粒子射线枪
+Weapon/Name/StructureOverchargeD=建筑超载
+Weapon/Name/SupplicantWeaponD=血球
+Weapon/Name/TempestDA=动能过载
+Weapon/Name/TempestShockwaveD=谐振闪电
+Weapon/Name/VoidRayTaldarim=炼狱光束
+Weapon/Name/VoidZealotWhirlwindFakeWeaponD=旋风斩靠近武器
+Weapon/Name/WarPrismWeaponD=相位轰击
+Weapon/Tip/CarrierRayD=<c val="#ColorAttackInfo">50%</c>穿甲
+Weapon/Tip/ColossusPurifierThermalLancesD=<c val="#ColorAttackInfo">50%</c>穿甲
+Weapon/Tip/DarkTemplarTaldarimD=<c val="#ColorAttackInfo">100%</c>穿甲
+Weapon/Tip/DisruptionBeamD=<c val="#ColorAttackInfo">75%</c>穿甲
+Weapon/Tip/HybridNemesisWeaponH=<c val="#ColorAttackInfo">100%</c>穿甲
+Weapon/Tip/HybridProtossH=<c val="#ColorAttackInfo">100%</c>穿甲
+Weapon/Tip/HybridProtossHA=<c val="#ColorAttackInfo">100%</c>穿甲
+Weapon/Tip/HybridProtossHD=<c val="#ColorAttackInfo">100%</c>穿甲
+Weapon/Tip/HybridProtossHDA=<c val="#ColorAttackInfo">100%</c>穿甲
+Weapon/Tip/ImmortalTaldarimD=<c val="#ColorAttackInfo">50%</c>穿甲
+Weapon/Tip/ImmortalTaldarimDA=<c val="#ColorAttackInfo">50%</c>穿甲
+Weapon/Tip/ImmortalTaldarimDAU=<c val="#ColorAttackInfo">50%</c>穿甲
+Weapon/Tip/ImmortalTaldarimDU=<c val="#ColorAttackInfo">50%</c>穿甲
+Weapon/Tip/InterceptorBombD=<c val="#ColorAttackInfo">50%</c>穿甲
+Weapon/Tip/InterceptorLaunchD=<c val="#ColorAttackInfo">50%</c>穿甲
+Weapon/Tip/InterceptorsDummyD=<c val="#ColorAttackInfo">50%</c>穿甲
+Weapon/Tip/IonCannonsD=<c val="#ColorAttackInfo">50%</c>穿甲
+Weapon/Tip/IonCannonsDC=<c val="#ColorAttackInfo">50%</c>穿甲
+Weapon/Tip/NeutronFlareD=<c val="#ColorAttackInfo">25%</c>穿甲
+Weapon/Tip/ParticleDisruptorsD=<c val="#ColorAttackInfo">25%</c>穿甲
+Weapon/Tip/ParticleDisruptorsDK=<c val="#ColorAttackInfo">25%</c>穿甲
+Weapon/Tip/ParticleDisruptorsDK2=<c val="#ColorAttackInfo">50%</c>穿甲
+Weapon/Tip/SOAMothershipv4WeaponD=<c val="#ColorAttackInfo">100%</c>穿甲
+Weapon/Tip/ScoutGroundD=<c val="#ColorAttackInfo">25%</c>穿甲
+Weapon/Tip/StalkerParticleBeamD=<c val="#ColorAttackInfo">100%</c>穿甲
+Weapon/Tip/TempestDA=<c val="#ColorAttackInfo">50%</c>穿甲
+Weapon/Tip/VoidRayChargeBeamBounceD=<c val="#ColorAttackInfo">33%</c>穿甲
+hhthd=混合体护盾
+hhthj=虚空甲壳
+tdlgyhd=刚毅护盾
+tdlhd=塔达林等离子护盾
+tdlhj=塔达林锻造护甲
+tdljzhj=塔达林建筑锻造护板
+tdlkzhj=塔达林锻造护板
+xkhj=虚空护甲
+xsbl=现实壁垒

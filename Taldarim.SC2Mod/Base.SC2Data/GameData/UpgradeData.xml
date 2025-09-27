@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CUpgrade id="TaldarimFactionsSonsOfSlayn">
+        <Icon value="Assets\Textures\btn-upgrade-protoss-alarak-empoweraoeattacks.dds"/>
+        <EditorCategories value="Race:Protoss,UpgradeType:Talents"/>
+    </CUpgrade>
+    <CUpgrade id="TaldarimFactionsSonsOfAmon">
+        <Icon value="Assets\Textures\btn-upgrade-protoss-alarak-ascendantspermanentlybetter.dds"/>
+        <EditorCategories value="Race:Protoss,UpgradeType:Talents"/>
+        <LeaderAlias value="TaldarimFactionsSonsOfSlayn"/>
+    </CUpgrade>
+    <CUpgrade id="TaldarimUpgrade">
+        <EditorCategories value="Race:Protoss,UpgradeType:Talents"/>
+    </CUpgrade>
+</Catalog>

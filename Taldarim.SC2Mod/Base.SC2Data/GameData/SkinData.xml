@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CSkin id="AssimilatorD" parent="AssimilatorBase" collection="Forged"/>
+    <CSkin id="CyberneticsCoreT" parent="CyberneticsCoreBase" collection="Forged"/>
+    <CSkin id="DarkShrineD" parent="DarkShrineBase" collection="Forged"/>
+    <CSkin id="FleetBeaconD" parent="FleetBeaconBase" collection="Forged"/>
+    <CSkin id="ForgeD" parent="ForgeBase" collection="Forged"/>
+    <CSkin id="GatewayD" parent="GatewayBase" collection="Forged"/>
+    <CSkin id="NexusD" parent="NexusBase" collection="Forged"/>
+    <CSkin id="PhotonCannonD" parent="PhotonCannonBase" collection="Forged"/>
+    <CSkin id="ProbeD" parent="ProbeBase" collection="Taldarim">
+        <VariationIcon value="Assets\Textures\btn-unit-collection-Taldarim-Probe.dds"/>
+    </CSkin>
+    <CSkin id="PylonD" parent="PylonBase" collection="Forged"/>
+    <CSkin id="RoboticsBayD" parent="RoboticsBayBase" collection="Forged"/>
+    <CSkin id="RoboticsFacilityD" parent="RoboticsFacilityBase" collection="Forged"/>
+    <CSkin id="ShieldBatteryD" parent="ShieldBatteryBase" collection="Forged"/>
+    <CSkin id="StargateD" parent="StargateBase" collection="Forged"/>
+    <CSkin id="TemplarArchiveD" parent="TemplarArchiveBase" collection="Forged"/>
+    <CSkin id="TwilightCouncilD" parent="TwilightCouncilBase" collection="Forged"/>
+</Catalog>

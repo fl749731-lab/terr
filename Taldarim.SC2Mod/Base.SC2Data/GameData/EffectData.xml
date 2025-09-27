@@ -1,0 +1,3190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CEffectDamage id="AdeptDamageD" parent="DU_WEAP">
+        <EditorCategories value="Race:Protoss"/>
+        <AttributeBonus index="Light" value="15"/>
+        <ArmorReduction value="0"/>
+        <Kind value="Spell"/>
+        <Amount value="30"/>
+        <Death value="Blast"/>
+    </CEffectDamage>
+    <CEffectLaunchMissile id="AdeptLMD">
+        <EditorCategories value="Race:Protoss"/>
+        <ImpactEffect value="AdeptDamageD"/>
+        <AmmoUnit value="AdeptWeaponD"/>
+        <Movers Link="AdeptWeaponD"/>
+    </CEffectLaunchMissile>
+    <CEffectCreateUnit id="AdeptPhaseShiftCUD">
+        <EditorCategories value="Race:Protoss"/>
+        <WhichLocation Value="CasterUnit"/>
+        <CreateFlags index="DropOff" value="0"/>
+        <CreateFlags index="OffsetByRadius" value="0"/>
+        <CreateFlags index="PlacementIgnoreBlockers" value="1"/>
+        <CreateFlags index="TechComplete" value="0"/>
+        <CreateFlags index="UseFood" value="0"/>
+        <SpawnEffect value="AdeptPhaseShiftSpawnSetD"/>
+        <SpawnUnit value="AdeptPhaseShiftD"/>
+        <SpawnRange value="1"/>
+    </CEffectCreateUnit>
+    <CEffectApplyBehavior id="AdeptPhaseShiftCancelABD">
+        <EditorCategories value="Race:Protoss"/>
+        <WhichUnit Value="Caster"/>
+        <Behavior value="AdeptPhaseShiftCancelDummyD"/>
+    </CEffectApplyBehavior>
+    <CEffectRemoveBehavior id="AdeptPhaseShiftCancelD">
+        <EditorCategories value="Race:Protoss"/>
+        <BehaviorLink value="AdeptPhaseShiftCasterD"/>
+    </CEffectRemoveBehavior>
+    <CEffectApplyBehavior id="AdeptPhaseShiftCasterABD">
+        <EditorCategories value="Race:Protoss"/>
+        <WhichUnit Value="Caster"/>
+        <Behavior value="AdeptPhaseShiftCasterD"/>
+    </CEffectApplyBehavior>
+    <CEffectSet id="AdeptPhaseShiftInitialSetD">
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="AdeptPhaseShiftCasterABD"/>
+        <EffectArray value="AdeptPhaseShiftCUD"/>
+        <TargetLocationType value="Point"/>
+    </CEffectSet>
+    <CEffectIssueOrder id="AdeptPhaseShiftIssueOrderD">
+        <EditorCategories value="Race:Protoss"/>
+        <Abil value="move"/>
+        <Target Effect="AdeptPhaseShiftCUD" Value="TargetPoint"/>
+    </CEffectIssueOrder>
+    <CEffectDamage id="AdeptPhaseShiftKillDummyD">
+        <EditorCategories value="Race:Protoss"/>
+        <ImpactLocation Effect="AdeptPhaseShiftTimerSpawnABD" Value="TargetUnit"/>
+        <Flags index="Kill" value="1"/>
+        <Flags index="NoKillCredit" value="1"/>
+    </CEffectDamage>
+    <CEffectSet id="AdeptPhaseShiftRemoveDisablesSetD">
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="PhaseNeuralParasiteRemove"/>
+        <EffectArray value="PhaseMothershipRecalledRemove"/>
+        <EffectArray value="PhaseMothershipRecallingRemove"/>
+        <EffectArray value="PhaseFungalGrowthRemove"/>
+        <EffectArray value="PhaseFungalMovementRemove"/>
+        <EffectArray value="PhaseDestroyGravitonBeamPersistant"/>
+        <EffectArray value="PhaseStasisTrapRemove"/>
+    </CEffectSet>
+    <CEffectModifyUnit id="AdeptPhaseShiftSelectD">
+        <EditorCategories value="Race:Protoss"/>
+        <ImpactUnit Value="Caster"/>
+        <SelectTransferUnit Effect="AdeptPhaseShiftTimerSpawnABD" Value="Target"/>
+        <SelectTransferFlags index="DeselectSource" value="1"/>
+        <SelectTransferFlags index="IncludeControlGroups" value="1"/>
+        <FacingLocation Effect="AdeptPhaseShiftTeleportSetD" Value="SourceUnit"/>
+    </CEffectModifyUnit>
+    <CEffectApplyBehavior id="AdeptPhaseShiftSpawnABD">
+        <EditorCategories value="Race:Protoss"/>
+        <Behavior value="AdeptPhaseShiftD"/>
+    </CEffectApplyBehavior>
+    <CEffectSet id="AdeptPhaseShiftSpawnSetD">
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="AdeptPhaseShiftSpawnABD"/>
+        <EffectArray value="AdeptPhaseShiftTimerSpawnABD"/>
+        <EffectArray value="AdeptPhaseShiftIssueOrderD"/>
+    </CEffectSet>
+    <CEffectTeleport id="AdeptPhaseShiftTeleportD">
+        <EditorCategories value="Race:Protoss"/>
+        <WhichUnit Value="Caster"/>
+        <MinDistance value="0"/>
+        <TargetLocation Effect="AdeptPhaseShiftTeleportSetD" Value="TargetPoint"/>
+    </CEffectTeleport>
+    <CEffectSet id="AdeptPhaseShiftTeleportSetD">
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="AdeptPhaseShiftRemoveDisablesSetD"/>
+        <EffectArray value="AdeptPhaseShiftSelectD"/>
+        <EffectArray value="AdeptPhaseShiftKillDummyD"/>
+        <EffectArray value="AdeptPhaseShiftTeleportD"/>
+        <EffectArray value="AdeptPhaseUnitOrderQueueD"/>
+        <TargetLocationType value="Point"/>
+    </CEffectSet>
+    <CEffectApplyBehavior id="AdeptPhaseShiftTimerSpawnABD">
+        <EditorCategories value="Race:Protoss"/>
+        <Behavior value="AdeptPhaseShiftTimerD"/>
+    </CEffectApplyBehavior>
+    <CEffectModifyUnit id="AdeptPhaseUnitOrderQueueD">
+        <EditorCategories value="Race:Protoss"/>
+        <LaunchUnit Effect="AdeptPhaseShiftTeleportSetD"/>
+        <ImpactUnit Value="Caster"/>
+        <CopyOrderCount value="50"/>
+        <CopyRallyCount value="50"/>
+    </CEffectModifyUnit>
+    <CEffectRemoveBehavior id="AdeptShadePhaseShiftCancelCasterBehaviorD">
+        <EditorCategories value="Race:Protoss"/>
+        <WhichUnit Value="Caster"/>
+        <BehaviorLink value="AdeptPhaseShiftCasterD"/>
+    </CEffectRemoveBehavior>
+    <CEffectModifyUnit id="AscendantSacrificeDamageD">
+        <EditorCategories value="Race:Protoss"/>
+        <VitalArray index="Life">
+            <Change value="-75"/>
+        </VitalArray>
+    </CEffectModifyUnit>
+    <CEffectEnumArea id="DarkShrineSacrificeSearchD">
+        <EditorCategories value="Race:Protoss"/>
+        <ImpactLocation Value="CasterUnit"/>
+        <SearchFilters value="-;Self,Structure,Missile,Item,Stasis,Dead,Hidden,Invulnerable"/>
+        <AreaArray MaxCount="1" Radius="6" Effect="DarkShrineSacrificeSetD"/>
+        <MinCountError value="CantFindEnoughTargets,Error/SupplicantNotInRangeD"/>
+        <MinCount value="1"/>
+        <MaxCount value="1"/>
+    </CEffectEnumArea>
+    <CEffectSet id="DarkShrineSacrificeSetD">
+        <ValidatorArray value="TargetNotDeadAndCasterNotDead"/>
+        <ValidatorArray value="IsNotVoidUnitD"/>
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="DarkShrineSacrificeRemoveHealthD"/>
+        <EffectArray value="DarkShrineSacrificeHealEnergyD"/>
+    </CEffectSet>
+    <CEffectModifyUnit id="DarkShrineSacrificeRemoveHealthD">
+        <EditorCategories value="Race:Protoss"/>
+        <VitalArray index="Life">
+            <Change value="-10"/>
+        </VitalArray>
+    </CEffectModifyUnit>
+    <CEffectModifyUnit id="DarkShrineSacrificeHealEnergyD">
+        <EditorCategories value="Race:Protoss"/>
+        <ImpactUnit Value="Caster"/>
+        <VitalArray index="Energy">
+            <Change value="5"/>
+        </VitalArray>
+    </CEffectModifyUnit>
+    <CEffectDamage id="HybridBehemothStunDamageH" parent="DU_WEAP">
+        <EditorCategories value="Race:Protoss"/>
+        <ImpactLocation Value="SourceUnit"/>
+        <Amount value="3"/>
+    </CEffectDamage>
+    <CEffectSet id="HybridDestructionWaveDamageOnlyH">
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="HybridDestructionWaveDamageH"/>
+    </CEffectSet>
+    <CEffectCreatePersistent id="HybridDestructionWaveInitialCPH">
+        <EditorCategories value="Race:Protoss"/>
+        <Marker>
+            <MatchFlags index="Id" value="1"/>
+        </Marker>
+        <WhichLocation Value="SourcePoint"/>
+        <InitialEffect value="HybridDestructionWaveSecondCPH"/>
+        <InitialOffset value="0,-8,0"/>
+        <PeriodCount value="1"/>
+    </CEffectCreatePersistent>
+    <CEffectDamage id="HybridDestructionWaveModelEndPointH">
+        <EditorCategories value="Race:Protoss"/>
+    </CEffectDamage>
+    <CEffectDamage id="HybridDestructionWaveModelStartPointH">
+        <EditorCategories value="Race:Protoss"/>
+    </CEffectDamage>
+    <CEffectEnumArea id="HybridDestructionWaveSearchH">
+        <EditorCategories value="Race:Protoss"/>
+        <ImpactLocation Value="TargetPoint"/>
+        <SearchFilters value="-;Player,Ally,Neutral,Missile,Item,Stasis,Dead,Hidden,Invulnerable"/>
+        <AreaArray RectangleWidth="6" RectangleHeight="1" Effect="HybridDestructionWaveSearchSwitchH"/>
+    </CEffectEnumArea>
+    <CEffectSwitch id="HybridDestructionWaveSearchSwitchH">
+        <EditorCategories value="Race:Protoss"/>
+        <CaseDefault value="HybridDestructionWaveDamageOnlyH"/>
+    </CEffectSwitch>
+    <CEffectCreatePersistent id="HybridDestructionWaveSecondCPH">
+        <EditorCategories value="Race:Protoss"/>
+        <PeriodCount value="16"/>
+        <PeriodicEffectArray value="HybridDestructionWaveModelStartPointH"/>
+        <PeriodicEffectArray value="HybridDestructionWaveModelEndPointH"/>
+        <PeriodicEffectArray value="HybridDestructionWaveSearchH"/>
+        <PeriodicEffectArray value="HybridDestructionWaveSearchH"/>
+        <PeriodicEffectArray value="HybridDestructionWaveSearchH"/>
+        <PeriodicEffectArray value="HybridDestructionWaveSearchH"/>
+        <PeriodicEffectArray value="HybridDestructionWaveSearchH"/>
+        <PeriodicEffectArray value="HybridDestructionWaveSearchH"/>
+        <PeriodicEffectArray value="HybridDestructionWaveSearchH"/>
+        <PeriodicEffectArray value="HybridDestructionWaveSearchH"/>
+        <PeriodicEffectArray value="HybridDestructionWaveSearchH"/>
+        <PeriodicEffectArray value="HybridDestructionWaveSearchH"/>
+        <PeriodicEffectArray value="HybridDestructionWaveSearchH"/>
+        <PeriodicEffectArray value="HybridDestructionWaveSearchH"/>
+        <PeriodicEffectArray value="HybridDestructionWaveSearchH"/>
+        <PeriodicEffectArray value="HybridDestructionWaveSearchH"/>
+        <PeriodicOffsetArray value="0,11.5,0"/>
+        <PeriodicOffsetArray value="0,-1.5,0"/>
+        <PeriodicOffsetArray value="0,11.5,0"/>
+        <PeriodicOffsetArray value="0,10.5,0"/>
+        <PeriodicOffsetArray value="0,9.5,0"/>
+        <PeriodicOffsetArray value="0,8.5,0"/>
+        <PeriodicOffsetArray value="0,7.5,0"/>
+        <PeriodicOffsetArray value="0,6.5,0"/>
+        <PeriodicOffsetArray value="0,5.5,0"/>
+        <PeriodicOffsetArray value="0,4.5,0"/>
+        <PeriodicOffsetArray value="0,3.5,0"/>
+        <PeriodicOffsetArray value="0,2.5,0"/>
+        <PeriodicOffsetArray value="0,1.5,0"/>
+        <PeriodicOffsetArray value="0,0.5,0"/>
+        <PeriodicOffsetArray value="0,-0.5,0"/>
+        <PeriodicOffsetArray value="0,-1.5,0"/>
+        <PeriodicPeriodArray value="0"/>
+        <PeriodicPeriodArray value="0"/>
+        <PeriodicPeriodArray value="0"/>
+        <PeriodicPeriodArray value="0.0625"/>
+        <PeriodicPeriodArray value="0.0625"/>
+        <PeriodicPeriodArray value="0.0625"/>
+        <PeriodicPeriodArray value="0.0625"/>
+        <PeriodicPeriodArray value="0.0625"/>
+        <PeriodicPeriodArray value="0.0625"/>
+        <PeriodicPeriodArray value="0.0625"/>
+        <PeriodicPeriodArray value="0.0625"/>
+        <PeriodicPeriodArray value="0.0625"/>
+        <PeriodicPeriodArray value="0.0625"/>
+        <PeriodicPeriodArray value="0.0625"/>
+        <PeriodicPeriodArray value="0.0625"/>
+        <PeriodicPeriodArray value="0.0625"/>
+    </CEffectCreatePersistent>
+    <CEffectDamage id="HybridDestructionWaveDamageH">
+        <EditorCategories value="Race:Protoss"/>
+        <ResponseFlags index="Acquire" value="1"/>
+        <ResponseFlags index="Flee" value="1"/>
+        <Amount value="50"/>
+    </CEffectDamage>
+    <CEffectDamage id="HybridBehemothCleaveDamageHB" parent="DU_WEAP">
+        <EditorCategories value="Race:Protoss"/>
+        <ArmorReduction value="0"/>
+        <Amount value="60"/>
+        <Death value="Eviscerate"/>
+    </CEffectDamage>
+    <CEffectEnumArea id="HybridBehemothCleaveSearchHB">
+        <EditorCategories value="Race:Protoss"/>
+        <ExcludeArray Value="Target"/>
+        <SearchFilters value="Ground;Player,Ally,Neutral,Missile,Item,Stasis,Dead,Hidden,Invulnerable"/>
+        <AreaArray Arc="270" Radius="1.5" Effect="HybridBehemothCleaveDamageHB"/>
+    </CEffectEnumArea>
+    <CEffectDamage id="HybridBehemothDamageHB" parent="DU_WEAP">
+        <EditorCategories value="Race:Protoss"/>
+        <ArmorReduction value="0"/>
+        <Amount value="60"/>
+        <Death value="Eviscerate"/>
+    </CEffectDamage>
+    <CEffectSet id="HybridBehemothSetHB">
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="HybridBehemothDamageHB"/>
+        <EffectArray value="HybridBehemothCleaveSearchHB"/>
+        <EffectArray value="HybridTissueAssimilationHB"/>
+    </CEffectSet>
+    <CEffectDamage id="HybridDominatorVoidPlasmaBlastDamageH">
+        <EditorCategories value="Race:Protoss"/>
+        <ResponseFlags index="Acquire" value="1"/>
+        <ResponseFlags index="Flee" value="1"/>
+        <Visibility value="Visible"/>
+        <Flags index="Notification" value="1"/>
+        <Amount value="400"/>
+        <Death value="Blast"/>
+        <AreaArray Radius="0.25" Fraction="1"/>
+        <AreaArray Radius="0.5" Fraction="0.75"/>
+        <AreaArray Radius="0.75" Fraction="0.5"/>
+        <ExcludeArray Value="Target"/>
+        <SearchFilters value="-;Self,Player,Ally,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <SearchFlags index="CallForHelp" value="1"/>
+        <SearchFlags index="SameCliff" value="0"/>
+    </CEffectDamage>
+    <CEffectLaunchMissile id="HybridDominatorVoidPlasmaBlastLaunchMissileH">
+        <EditorCategories value="Race:Protoss"/>
+        <ImpactEffect value="HybridDominatorVoidPlasmaBlastDamageH"/>
+        <AmmoUnit value="HybridDominatorVoidPlasmaWeaponH"/>
+    </CEffectLaunchMissile>
+    <CEffectEnumArea id="HybridBehemothStunSearchH">
+        <EditorCategories value="Race:Protoss"/>
+        <SearchFilters value="-;Self,Player,Ally,Structure,Missile,Dead,Hidden,Invulnerable"/>
+        <AreaArray Radius="5" Effect="HybridBehemothStunABH"/>
+    </CEffectEnumArea>
+    <CEffectApplyBehavior id="HybridBehemothStunABH">
+        <EditorCategories value="Race:Protoss"/>
+        <Behavior value="HybridBehemothStunH"/>
+    </CEffectApplyBehavior>
+    <CEffectApplyBehavior id="HybridNemesisVoidStasisABH">
+        <EditorCategories value="Race:Protoss"/>
+        <Behavior value="HybridNemesisVoidStasisH"/>
+    </CEffectApplyBehavior>
+    <CEffectEnumTransport id="HybridNemesisVoidStasisIterateTransportH">
+        <ValidatorArray value="IsBunker"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Effect value="HybridNemesisVoidStasisABH"/>
+    </CEffectEnumTransport>
+    <CEffectSet id="HybridNemesisVoidStasisSetH">
+        <ValidatorArray value="CasterIsNotVoidStasisD"/>
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="HybridNemesisVoidStasisABH"/>
+        <EffectArray value="HybridNemesisVoidStasisIterateTransportH"/>
+    </CEffectSet>
+    <CEffectDamage id="HybridProtossDamageHD" parent="DU_WEAP">
+        <EditorCategories value="Race:Protoss"/>
+        <ArmorReduction value="0"/>
+        <Kind value="Spell"/>
+        <Amount value="20"/>
+    </CEffectDamage>
+    <CEffectLaunchMissile id="HybridProtossLMHD">
+        <EditorCategories value="Race:Protoss"/>
+        <ImpactEffect value="HybridProtossDamageHD"/>
+        <AmmoUnit value="WeaponHybridProtossHD"/>
+    </CEffectLaunchMissile>
+    <CEffectCreatePersistent id="HybridProtossWeaponCPHD">
+        <EditorCategories value="Race:Protoss"/>
+        <WhichLocation Value="TargetUnit"/>
+        <TimeScaleSource Value="Caster"/>
+        <Flags index="Channeled" value="1"/>
+        <InitialEffect value="HybridDominatorPsionicShockwaveDamageH"/>
+        <PeriodCount value="3"/>
+        <PeriodicEffectArray value="HybridProtossLMHD"/>
+        <PeriodicPeriodArray value="0"/>
+        <PeriodicPeriodArray value="0.1"/>
+        <PeriodicPeriodArray value="0.1"/>
+    </CEffectCreatePersistent>
+    <CEffectCreatePersistent id="HybridPsiBladesCPHA">
+        <EditorCategories value="Race:Protoss"/>
+        <WhichLocation Value="TargetUnit"/>
+        <TimeScaleSource Value="Caster"/>
+        <Flags index="Channeled" value="1"/>
+        <PeriodCount value="2"/>
+        <PeriodicEffectArray value="HybridPsiBladesDamageHA"/>
+        <PeriodicPeriodArray value="0.2"/>
+        <PeriodicPeriodArray value="0.28"/>
+    </CEffectCreatePersistent>
+    <CEffectSet id="HybridPsiBladesCleaveSetHA">
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="HybridPsiBladesCPHA"/>
+    </CEffectSet>
+    <CEffectDamage id="HybridPsiBladesDamageHA" parent="DU_WEAP">
+        <ValidatorArray value="NotHidden"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ArmorReduction value="0"/>
+        <Kind value="Spell"/>
+        <Amount value="50"/>
+        <Death value="Eviscerate"/>
+    </CEffectDamage>
+    <CEffectDamage id="HybridDominatorPsionicShockwaveDamageH" parent="DU_WEAP">
+        <EditorCategories value="Race:Protoss"/>
+        <Kind value="Spell"/>
+        <Amount value="40"/>
+        <AreaArray Radius="0.25" Fraction="1"/>
+        <AreaArray Radius="0.5" Fraction="0.5"/>
+        <AreaArray Radius="1" Fraction="0.25"/>
+        <ExcludeArray Value="Outer"/>
+        <ExcludeArray Value="Target"/>
+        <SearchFilters value="-;Player,Ally,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <SearchFlags index="OffsetByUnitRadius" value="0"/>
+        <SearchFlags index="SameCliff" value="0"/>
+        <ArmorReduction value="0"/>
+    </CEffectDamage>
+    <CEffectDamage id="HybridReaverAntiAirAttackDamageDB">
+        <EditorCategories value="Race:Protoss"/>
+        <ResponseFlags index="Acquire" value="1"/>
+        <ResponseFlags index="Flee" value="1"/>
+        <Flags index="Notification" value="1"/>
+        <Amount value="50"/>
+        <AreaArray Radius="1.5" Fraction="0.5"/>
+        <ExcludeArray Value="Target"/>
+        <SearchFilters value="Air,Visible;Player,Ally,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <SearchFlags index="CallForHelp" value="1"/>
+    </CEffectDamage>
+    <CEffectLaunchMissile id="HybridReaverAntiAirAttackLaunchMissileDB">
+        <EditorCategories value="Race:Protoss"/>
+        <ImpactEffect value="HybridReaverAntiAirAttackDamageDB"/>
+        <AmmoUnit value="HybridReaverAntiAirAttackWeaponDB"/>
+    </CEffectLaunchMissile>
+    <CEffectModifyUnit id="HybridTissueAssimilationHB">
+        <EditorCategories value="Race:Protoss"/>
+        <ImpactUnit Value="Caster"/>
+        <VitalArray index="Life">
+            <Change value="50"/>
+        </VitalArray>
+    </CEffectModifyUnit>
+    <CEffectSet id="NexusCreateSetT">
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="CommandStructureAutoRallySearchO"/>
+    </CEffectSet>
+    <CEffectLaunchMissile id="ParticleDisruptorsDKS">
+        <ValidatorArray index="0" value="StalkerTargetFilters"/>
+        <ValidatorArray value=""/>
+        <EditorCategories value="Race:Protoss"/>
+        <ImpactEffect value="ParticleDisruptorsUDKS"/>
+        <AmmoUnit value="StalkerWeaponDKS"/>
+    </CEffectLaunchMissile>
+    <CEffectDamage id="ParticleDisruptorsUDKS" parent="DU_WEAP_MISSILE">
+        <EditorCategories value="Race:Protoss"/>
+        <AttributeBonus index="Armored" value="5"/>
+        <ArmorReduction value="0.5"/>
+        <Amount value="25"/>
+    </CEffectDamage>
+    <CEffectApplyBehavior id="ShieldGeneratorForceShieldApplyBehaviorD">
+        <ValidatorArray index="0" value="SourceNotHidden"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Behavior value="ShieldGeneratorForceShieldD"/>
+    </CEffectApplyBehavior>
+    <CEffectCreatePersistent id="ShieldGeneratorForceShieldPersistentD">
+        <EditorCategories value="Race:Protoss"/>
+        <WhichLocation Value="SourceUnit"/>
+        <InitialEffect value="ShieldGeneratorForceShieldSearchD"/>
+        <PeriodCount value="60"/>
+        <PeriodicEffectArray value="ShieldGeneratorForceShieldSearchD"/>
+        <PeriodicPeriodArray value="0.5"/>
+    </CEffectCreatePersistent>
+    <CEffectEnumArea id="ShieldGeneratorForceShieldSearchD">
+        <EditorCategories value="Race:Protoss"/>
+        <ImpactLocation Value="TargetUnit"/>
+        <SearchFilters value="Structure;Self,Neutral,Enemy,Missile,Stasis,Dead,Hidden"/>
+        <AreaArray Radius="8" Effect="ShieldGeneratorForceShieldApplyBehaviorD"/>
+        <SearchFlags index="OffsetAreaByAngle" value="0"/>
+    </CEffectEnumArea>
+    <CEffectCreatePersistent id="HybridNemesisHurricaneMissileCPH">
+        <EditorCategories value="Race:Protoss"/>
+        <TimeScaleSource Value="Caster"/>
+        <Flags index="Channeled" value="1"/>
+        <InitialEffect value="HybridNemesisHurricaneMissileDamageDelayPersistentH"/>
+        <PeriodCount value="10"/>
+        <PeriodicEffectArray value="HybridNemesisHurricaneMissileBurstPersistentH"/>
+        <PeriodicOffsetArray value="-0.8,-0.8,0"/>
+        <PeriodicOffsetArray value="-0.8,0.8,0"/>
+        <PeriodicOffsetArray value="0.8,0.8,0"/>
+        <PeriodicOffsetArray value="0.8,-0.8,0"/>
+        <PeriodicPeriodArray value="0.1"/>
+    </CEffectCreatePersistent>
+    <CEffectCreatePersistent id="HybridNemesisHurricaneMissileBurstPersistentH">
+        <EditorCategories value="Race:Protoss"/>
+        <Flags index="RandomOffset" value="1"/>
+        <PeriodCount value="2"/>
+        <PeriodicEffectArray value="HybridNemesisHurricaneMissileLeftLMH"/>
+        <PeriodicEffectArray value="HybridNemesisHurricaneMissileRightLMH"/>
+        <PeriodicOffsetArray value="0,0,0"/>
+        <PeriodicOffsetArray value="-0.3,0.3,0"/>
+        <PeriodicOffsetArray value="0,0.3,0"/>
+        <PeriodicOffsetArray value="0.3,0.3,0"/>
+        <PeriodicOffsetArray value="-0.3,0,0"/>
+        <PeriodicOffsetArray value="0,0,0"/>
+        <PeriodicOffsetArray value="0.3,0,0"/>
+        <PeriodicOffsetArray value="-0.3,-0.3,0"/>
+        <PeriodicOffsetArray value="0,-0.3,0"/>
+        <PeriodicOffsetArray value="0.3,-0.3,0"/>
+        <PeriodicOffsetArray value="-0.6,0.6,0"/>
+        <PeriodicOffsetArray value="0,0.6,0"/>
+        <PeriodicOffsetArray value="0.6,0.6,0"/>
+        <PeriodicOffsetArray value="-0.6,0,0"/>
+        <PeriodicOffsetArray value="0,0,0"/>
+        <PeriodicOffsetArray value="0.6,0,0"/>
+        <PeriodicOffsetArray value="-0.6,-0.6,0"/>
+        <PeriodicOffsetArray value="0,-0.6,0"/>
+        <PeriodicOffsetArray value="0.6,-0.6,0"/>
+        <PeriodicPeriodArray value="0.05"/>
+    </CEffectCreatePersistent>
+    <CEffectDamage id="HybridNemesisurricaneMissileDamageH">
+        <EditorCategories value="Race:Protoss"/>
+        <ResponseFlags index="Acquire" value="1"/>
+        <ResponseFlags index="Flee" value="1"/>
+        <LaunchLocation Value="SourceUnitOrPoint"/>
+        <Visibility value="Visible"/>
+        <Flags index="Notification" value="1"/>
+        <Amount value="15"/>
+        <Death value="Fire"/>
+        <AreaArray Radius="1.6" Fraction="1"/>
+        <SearchFilters value="Air;Player,Ally,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <SearchFlags index="CallForHelp" value="1"/>
+        <SearchFlags index="ExtendByUnitRadius" value="1"/>
+        <SearchFlags index="SameCliff" value="0"/>
+    </CEffectDamage>
+    <CEffectCreatePersistent id="HybridNemesisHurricaneMissileDamageDelayPersistentH">
+        <EditorCategories value="Race:Protoss"/>
+        <ExpireDelay value="1.5"/>
+        <FinalEffect value="HybridNemesisHurricaneMissileDamagePersistentH"/>
+    </CEffectCreatePersistent>
+    <CEffectCreatePersistent id="HybridNemesisHurricaneMissileDamagePersistentH">
+        <EditorCategories value="Race:Protoss"/>
+        <PeriodCount value="10"/>
+        <PeriodicEffectArray value="HybridNemesisurricaneMissileDamageH"/>
+        <PeriodicPeriodArray value="0.1"/>
+    </CEffectCreatePersistent>
+    <CEffectEnumArea id="HybridNemesisHurricaneMissileLeftDummyH">
+        <EditorCategories value="Race:Protoss"/>
+        <AreaArray/>
+    </CEffectEnumArea>
+    <CEffectLaunchMissile id="HybridNemesisHurricaneMissileLeftLMH">
+        <EditorCategories value="Race:Protoss"/>
+        <LaunchLocation Value="CasterUnit"/>
+        <ImpactLocation Value="TargetPoint"/>
+        <ImpactEffect value="HybridNemesisHurricaneMissileLeftDummyH"/>
+        <AmmoUnit value="HybridNemesisHurricaneMissileLeftH"/>
+    </CEffectLaunchMissile>
+    <CEffectEnumArea id="HybridNemesisHurricaneMissileRightDummyH">
+        <EditorCategories value="Race:Protoss"/>
+        <AreaArray/>
+    </CEffectEnumArea>
+    <CEffectLaunchMissile id="HybridNemesisHurricaneMissileRightLMH">
+        <EditorCategories value="Race:Protoss"/>
+        <LaunchLocation Value="CasterUnit"/>
+        <ImpactLocation Value="TargetPoint"/>
+        <ImpactEffect value="HybridNemesisHurricaneMissileRightDummyH"/>
+        <AmmoUnit value="HybridNemesisHurricaneMissileRightH"/>
+    </CEffectLaunchMissile>
+    <CEffectDamage id="HybridNemesisWeaponDamageH" parent="DU_WEAP">
+        <EditorCategories value="Race:Protoss"/>
+        <ArmorReduction value="0"/>
+        <Kind value="Spell"/>
+        <Amount value="20"/>
+    </CEffectDamage>
+    <CEffectCreatePersistent id="HybridNemesisWeaponCPH">
+        <EditorCategories value="Race:Protoss"/>
+        <WhichLocation Value="TargetUnit"/>
+        <TimeScaleSource Value="Caster"/>
+        <Flags index="Channeled" value="1"/>
+        <Flags index="PersistUntilDestroyed" value="1"/>
+        <InitialEffect value="HybridNemesisWeaponDamageH"/>
+        <PeriodicEffectArray value="HybridNemesisWeaponDamageH"/>
+        <PeriodicPeriodArray value="0.5"/>
+    </CEffectCreatePersistent>
+    <CEffectEnumArea id="MothershipWeaponDamageSearchD">
+        <EditorCategories value="Race:Protoss"/>
+        <IncludeArray Effect="SOAMothershipv4BeamSetD" Value="Target"/>
+        <SearchFilters value="-;Player,Ally,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <AreaArray Radius="1" Effect="SOAMothershipv4BeamDamageD"/>
+        <MinCountError value="CantFindEnoughTargets,Error/SupplicantNotInRangeD"/>
+    </CEffectEnumArea>
+    <CEffectDamage id="ShieldGeneratorSupperShieldDamageD">
+        <ValidatorArray value="ShieldGeneratorSuperShieldDamageSetD"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Amount value="2000"/>
+    </CEffectDamage>
+    <CEffectDamage id="HybridReaverAntiAirAttackDamageD">
+        <EditorCategories value="Race:Protoss"/>
+        <ArmorReduction value="1"/>
+        <Flags index="Notification" value="1"/>
+        <Amount value="30"/>
+        <AreaArray Radius="1" Fraction="0.5"/>
+        <ExcludeArray Value="Target"/>
+        <SearchFilters value="Air,Visible;Player,Ally,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <ResponseFlags index="Acquire" value="1"/>
+        <ResponseFlags index="Flee" value="1"/>
+        <SearchFlags index="CallForHelp" value="1"/>
+    </CEffectDamage>
+    <CEffectLaunchMissile id="HybridReaverAntiAirAttackLaunchMissileD">
+        <EditorCategories value="Race:Protoss"/>
+        <ImpactEffect value="HybridReaverAntiAirAttackDamageD"/>
+        <AmmoUnit value="HybridReaverAntiAirAttackWeaponD"/>
+    </CEffectLaunchMissile>
+    <CEffectCreatePersistent id="HybridConsumeDNACPH">
+        <EditorCategories value="Race:Protoss"/>
+        <WhichLocation Value="TargetUnitOrPoint"/>
+        <Flags index="Channeled" value="1"/>
+        <PeriodCount value="10"/>
+        <PeriodicEffectArray value="HybridConsumeDNAFeedbackSetH"/>
+        <PeriodicPeriodArray value="0.1"/>
+    </CEffectCreatePersistent>
+    <CEffectDamage id="HybridConsumeDNADamageH">
+        <EditorCategories value="Race:Protoss"/>
+        <Amount value="15"/>
+    </CEffectDamage>
+    <CEffectLaunchMissile id="HybridConsumeDNAFeedbackLMH">
+        <EditorCategories value="Race:Protoss"/>
+        <LaunchLocation Value="TargetUnitOrPoint"/>
+        <ImpactLocation Value="CasterUnit"/>
+        <LaunchEffect value="HybridConsumeDNADamageH"/>
+        <ImpactEffect value="HybridConsumeDNAImpactH"/>
+        <AmmoUnit value="HybridConsumeDNAFeedbackWeaponH"/>
+        <Movers Link="ConsumeDNAFeedback"/>
+    </CEffectLaunchMissile>
+    <CEffectSet id="HybridConsumeDNAFeedbackSetH">
+        <ValidatorArray value="NotDead"/>
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="HybridConsumeDNAFeedbackLMH"/>
+    </CEffectSet>
+    <CEffectModifyUnit id="HybridConsumeDNAImpactH">
+        <EditorCategories value="Race:Protoss"/>
+        <TransferUnit Value="Target"/>
+        <ImpactUnit Value="Caster"/>
+        <VitalArray index="Life">
+            <Change value="15"/>
+        </VitalArray>
+    </CEffectModifyUnit>
+    <CEffectSet id="HybridConsumeDNASetH">
+        <ValidatorArray value="NotDead"/>
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="HybridConsumeDNACPH"/>
+    </CEffectSet>
+    <CEffectApplyBehavior id="GravitonPrisonApplyBehaviorH">
+        <EditorCategories value="Race:Protoss"/>
+        <Behavior value="GravitonPrisonH"/>
+    </CEffectApplyBehavior>
+    <CEffectCreatePersistent id="GravitonPrisonCreatePersistentH">
+        <ValidatorArray value="CasterIsNotGravitonPrisonH"/>
+        <EditorCategories value="Race:Protoss"/>
+        <WhichLocation Value="TargetUnit"/>
+        <InitialEffect value="GravitonPrisonSetH"/>
+        <ExpireDelay value="0.875"/>
+        <FinalEffect value="GravitonPrisonFinalSetH"/>
+        <PeriodCount value="1"/>
+        <PeriodicEffectArray value="GravitonPrisonLowerH"/>
+        <PeriodicPeriodArray value="4"/>
+    </CEffectCreatePersistent>
+    <CEffectDamage id="GravitonPrisonDamageH">
+        <EditorCategories value="Race:Protoss"/>
+        <Amount value="8"/>
+    </CEffectDamage>
+    <CEffectCreatePersistent id="GravitonPrisonDamageCreatePersistentH">
+        <EditorCategories value="Race:Protoss"/>
+        <WhichLocation Value="TargetUnit"/>
+        <PeriodCount value="10"/>
+        <PeriodicEffectArray value="GravitonPrisonDamageH"/>
+        <PeriodicPeriodArray value="0.4"/>
+    </CEffectCreatePersistent>
+    <CEffectSet id="GravitonPrisonFinalSetH">
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="GravitonPrisonRemoveBehaviorH"/>
+    </CEffectSet>
+    <CEffectModifyUnit id="GravitonPrisonLowerH">
+        <EditorCategories value="Race:Protoss"/>
+        <Height value="-3.75"/>
+        <HeightTime value="0.875"/>
+    </CEffectModifyUnit>
+    <CEffectModifyUnit id="GravitonPrisonRaiseH">
+        <EditorCategories value="Race:Protoss"/>
+        <Height value="3.75"/>
+        <HeightTime value="1.5"/>
+    </CEffectModifyUnit>
+    <CEffectRemoveBehavior id="GravitonPrisonRemoveBehaviorH">
+        <EditorCategories value="Race:Protoss"/>
+        <BehaviorLink value="GravitonPrisonH"/>
+    </CEffectRemoveBehavior>
+    <CEffectSet id="GravitonPrisonSetH">
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="GravitonPrisonApplyBehaviorH"/>
+        <EffectArray value="GravitonPrisonDamageCreatePersistentH"/>
+        <EffectArray value="GravitonPrisonRaiseH"/>
+    </CEffectSet>
+    <CEffectDamage id="HybridBehemothCleaveDamageH" parent="DU_WEAP">
+        <EditorCategories value="Race:Protoss"/>
+        <Amount value="20"/>
+        <Death value="Eviscerate"/>
+    </CEffectDamage>
+    <CEffectEnumArea id="HybridBehemothCleaveSearchH">
+        <EditorCategories value="Race:Protoss"/>
+        <ExcludeArray Value="Target"/>
+        <SearchFilters value="Ground;Player,Ally,Neutral,Missile,Item,Stasis,Dead,Hidden,Invulnerable"/>
+        <AreaArray Arc="270" Radius="1" Effect="HybridBehemothCleaveDamageH"/>
+    </CEffectEnumArea>
+    <CEffectDamage id="HybridBehemothDamageH" parent="DU_WEAP">
+        <EditorCategories value="Race:Protoss"/>
+        <ArmorReduction value="0"/>
+        <Amount value="40"/>
+        <Death value="Eviscerate"/>
+    </CEffectDamage>
+    <CEffectSet id="HybridBehemothSetH">
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="HybridBehemothDamageH"/>
+        <EffectArray value="HybridBehemothCleaveSearchH"/>
+        <EffectArray value="HybridTissueAssimilationH"/>
+    </CEffectSet>
+    <CEffectLaunchMissile id="HybridProtossLMH">
+        <EditorCategories value="Race:Protoss"/>
+        <ImpactEffect value="HybridProtossDamageH"/>
+        <AmmoUnit value="WeaponHybridProtossH"/>
+    </CEffectLaunchMissile>
+    <CEffectApplyBehavior id="MothershipSoulAbsorptionHealthABD">
+        <ValidatorArray index="0" value="MothershipSoulAbsorptionHealthLT100D"/>
+        <EditorCategories value="Race:Protoss"/>
+        <WhichUnit Value="Caster"/>
+        <Behavior value="MothershipSoulAbsorptionHealthD"/>
+    </CEffectApplyBehavior>
+    <CEffectSet id="MothershipSoulAbsorptionSetD">
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="MothershipSoulAbsorptionMUD"/>
+        <EffectArray value="MothershipSoulAbsorptionHealthABD"/>
+    </CEffectSet>
+    <CEffectApplyBehavior id="ArbiterMPCloakingFieldApplyD">
+        <ValidatorArray index="0" value="NotMothership"/>
+        <ValidatorArray value="NotMothershipCore"/>
+        <ValidatorArray value="NotArbiterD"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Behavior value="ArbiterCloakFieldEffectD"/>
+    </CEffectApplyBehavior>
+    <CEffectEnumArea id="ArbiterMPCloakingFieldSearchD">
+        <EditorCategories value="Race:Protoss"/>
+        <ImpactLocation Value="CasterUnit"/>
+        <SearchFilters value="-;Self,Neutral,Enemy,Structure,Missile,Dead,Hidden"/>
+        <AreaArray Radius="5" Effect="ArbiterMPCloakingFieldApplyD"/>
+        <SearchFlags index="ExtendByUnitRadius" value="1"/>
+    </CEffectEnumArea>
+    <CEffectApplyBehavior id="ArbiterRecallApplyPostRecallBehaviorD">
+        <ValidatorArray index="0" value=""/>
+        <EditorCategories value="Race:Protoss"/>
+        <Behavior value="ArbiterRecalledD"/>
+    </CEffectApplyBehavior>
+    <CEffectApplyBehavior id="ArbiterRecallApplyPreRecallBehaviorD">
+        <ValidatorArray index="0" value="NotLarvaEgg"/>
+        <ValidatorArray value="NotLarva"/>
+        <ValidatorArray value="NotAbducted"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Behavior value="ArbiterRecallingD"/>
+    </CEffectApplyBehavior>
+    <CEffectSet id="ArbiterRecallInitialSetD">
+        <ValidatorArray value="NotLarvaEgg"/>
+        <ValidatorArray value="NotLarva"/>
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="ArbiterRecallApplyPreRecallBehaviorD"/>
+        <EffectArray value="ArbiterRecallMagazineIterateD"/>
+    </CEffectSet>
+    <CEffectEnumMagazine id="ArbiterRecallMagazineIterateD">
+        <EditorCategories value="Race:Protoss"/>
+        <EffectExternal value="ArbiterMPRecallApplyPreRecallBehavior"/>
+    </CEffectEnumMagazine>
+    <CEffectEnumArea id="ArbiterRecallSearchD">
+        <EditorCategories value="Race:Protoss"/>
+        <ImpactLocation Value="TargetPoint"/>
+        <SearchFilters value="-;Self,Ally,Neutral,Enemy,Structure,Missile,Item,Uncommandable,Dead,Hidden,Invulnerable"/>
+        <AreaArray Radius="3" Effect="ArbiterRecallInitialSetD"/>
+        <MinCount value="1"/>
+    </CEffectEnumArea>
+    <CEffectSet id="ArbiterRecallSetD">
+        <ValidatorArray value="NotLarvaEgg"/>
+        <ValidatorArray value="NotLarva"/>
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="ArbiterRecallTeleportD"/>
+        <EffectArray value="ArbiterRecallApplyPostRecallBehaviorD"/>
+    </CEffectSet>
+    <CEffectTeleport id="ArbiterRecallTeleportD">
+        <EditorCategories value="Race:Protoss"/>
+        <PlacementArc value="360"/>
+        <PlacementAround Effect="ArbiterRecallSearchD" Value="SourcePoint"/>
+        <PlacementRange value="15"/>
+        <SourceLocation Effect="ArbiterRecallSearchD" Value="TargetPoint"/>
+        <TargetLocation Effect="ArbiterRecallSearchD" Value="SourcePoint"/>
+        <TeleportFlags index="TestCliff" value="1"/>
+        <TeleportFlags index="TestFog" value="0"/>
+    </CEffectTeleport>
+    <CEffectApplyBehavior id="ArbiterStasisFieldApplyD">
+        <ValidatorArray value="NotFrenzied"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Behavior value="ArbiterStasisFieldD"/>
+    </CEffectApplyBehavior>
+    <CEffectEnumArea id="ArbiterStasisFieldSearchD">
+        <EditorCategories value="Race:Protoss"/>
+        <ImpactLocation Value="TargetPoint"/>
+        <SearchFilters value="-;Self,Player,Ally,Missile,Item,Dead,Hidden"/>
+        <AreaArray Radius="2.5" Effect="ArbiterStasisFieldApplyD"/>
+    </CEffectEnumArea>
+    <CEffectSet id="ArbiterMPStasisFieldSetD">
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="ArbiterStasisFieldApplyD"/>
+        <EffectArray value="ArbiterMPStasisFieldTimerApplyD"/>
+    </CEffectSet>
+    <CEffectApplyBehavior id="ArbiterMPStasisFieldTimerApplyD">
+        <ValidatorArray value="NotFrenzied"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Behavior value="ArbiterMPStasisFieldTimedLifeD"/>
+    </CEffectApplyBehavior>
+    <CEffectDamage id="ArbiterWeaponDamageD" parent="DU_WEAP">
+        <EditorCategories value="Race:Protoss"/>
+        <Visibility value="Visible"/>
+        <Kind value="Ranged"/>
+        <Amount value="20"/>
+    </CEffectDamage>
+    <CEffectLaunchMissile id="ArbiterWeaponLaunchD">
+        <EditorCategories value="Race:Protoss"/>
+        <ImpactEffect value="ArbiterWeaponDamageD"/>
+        <AmmoUnit value="ArbiterWeaponMissileD"/>
+        <Movers Link="MissileDefault" IfRangeLTE="1"/>
+        <Movers Link="ArbiterMPWeaponMissile" IfRangeLTE="4"/>
+    </CEffectLaunchMissile>
+    <CEffectUseMagazine id="CarrierInterceptorD">
+        <EditorCategories value="Race:Protoss"/>
+        <AmmoEffect value="CarrierInterceptorLaunchSetD"/>
+    </CEffectUseMagazine>
+    <CEffectDamage id="CarrierInterceptorBombDamageD" parent="DU_WEAP">
+        <EditorCategories value="Race:Protoss"/>
+        <Kind value="Ranged"/>
+        <KindSplash value="Splash"/>
+        <Amount value="30"/>
+        <AreaArray Radius="1" Fraction="1"/>
+        <IncludeArray Effect="InterceptorBombSetD" Value="Target"/>
+        <SearchFilters value="-;Player,Ally,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <SearchFlags index="OffsetByUnitRadius" value="0"/>
+        <SearchFlags index="OffsetAreaByAngle" value="0"/>
+        <SearchFlags index="SameCliff" value="0"/>
+        <ArmorReduction value="0.5"/>
+    </CEffectDamage>
+    <CEffectLaunchMissile id="CarrierInterceptorBombLMD">
+        <EditorCategories value="Race:Protoss"/>
+        <ImpactLocation Value="TargetPoint"/>
+        <ImpactEffect value="CarrierInterceptorBombDamageD"/>
+        <AmmoUnit value="CarrierInterceptorBombWeaponD"/>
+    </CEffectLaunchMissile>
+    <CEffectSet id="CarrierInterceptorLaunchSetD">
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="CarrierInterceptorLaunchTerrazineShadowAB"/>
+        <EffectArray value="CarrierInterceptorLaunchVoidShadeAB"/>
+    </CEffectSet>
+    <CEffectApplyBehavior id="CloakingFieldD">
+        <ValidatorArray index="0" value="NotMothership"/>
+        <ValidatorArray value="NotMothershipCore"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Behavior value="UnCloakFieldEffectD"/>
+    </CEffectApplyBehavior>
+    <CEffectEnumArea id="CloakingFieldSearchD">
+        <EditorCategories value="Race:Protoss"/>
+        <ImpactLocation Value="CasterUnit"/>
+        <SearchFilters value="-;Self,Player,Ally,Missile,Dead,Hidden"/>
+        <AreaArray Radius="7" Effect="CloakingFieldD"/>
+        <SearchFlags index="ExtendByUnitRadius" value="1"/>
+    </CEffectEnumArea>
+    <CEffectEnumArea id="MothershipLaserWeaponSearchD">
+        <EditorCategories value="Race:Protoss"/>
+        <SearchFilters value="Visible;Self,Player,Ally,Neutral,Missile,Item,Stasis,Dead,Hidden,Invulnerable"/>
+        <TargetSorts>
+            <SortArray value="TSRandom"/>
+        </TargetSorts>
+        <AreaArray Radius="7" Effect="MothershipCuttingBeamDamageD"/>
+        <MaxCount value="1"/>
+    </CEffectEnumArea>
+    <CEffectEnumArea id="MothershipMissileWeaponSearchD">
+        <EditorCategories value="Race:Protoss"/>
+        <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Item,Stasis,Dead,Hidden,Invulnerable"/>
+        <AreaArray Radius="10" Effect="MothershipMissileLMD"/>
+        <MaxCount value="3"/>
+    </CEffectEnumArea>
+    <CEffectEnumArea id="MothershipRaySearchD">
+        <EditorCategories value="Race:Protoss"/>
+        <SearchFilters value="Ground;Player,Ally,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <AreaArray Radius="3" Effect="MothershipRayDamageD"/>
+        <SearchFlags index="OffsetAreaByAngle" value="0"/>
+    </CEffectEnumArea>
+    <CEffectApplyBehavior id="CorsairMPDisruptionWebApplyD">
+        <EditorCategories value="Race:Protoss"/>
+        <ResponseFlags index="Flee" value="1"/>
+        <Behavior value="CorsairMPDisruptionWebD"/>
+    </CEffectApplyBehavior>
+    <CEffectCreatePersistent id="CorsairMPDisruptionWebCreatePersistentD">
+        <EditorCategories value="Race:Protoss"/>
+        <InitialEffect value="CorsairMPDisruptionWebSearchD"/>
+        <PeriodCount value="40"/>
+        <PeriodicEffectArray value="CorsairMPDisruptionWebSearchD"/>
+        <PeriodicPeriodArray value="0.25"/>
+    </CEffectCreatePersistent>
+    <CEffectEnumTransport id="CorsairMPDisruptionWebIterateTransportD">
+        <ValidatorArray value="IsBunker"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Marker Link="Effect/DisablingCloudIterateTransport"/>
+        <Effect value="CorsairMPDisruptionWebApplyD"/>
+    </CEffectEnumTransport>
+    <CEffectEnumArea id="CorsairMPDisruptionWebSearchD">
+        <EditorCategories value="Race:Protoss"/>
+        <SearchFilters value="Ground;Player,Ally,Item,Dead,Hidden"/>
+        <AreaArray Radius="3" Effect="CorsairMPDisruptionWebSetD"/>
+    </CEffectEnumArea>
+    <CEffectSet id="CorsairMPDisruptionWebSetD">
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="CorsairMPDisruptionWebApplyD"/>
+        <EffectArray value="CorsairMPDisruptionWebIterateTransportD"/>
+    </CEffectSet>
+    <CEffectRemoveBehavior id="InterceptorAmmoUseD">
+        <ValidatorArray index="0" value="InterceptorHasWeaponChargesSelfD"/>
+        <EditorCategories value="Race:Protoss"/>
+        <WhichUnit Value="Caster"/>
+        <BehaviorLink value="InterceptorAmmoDummyD"/>
+        <Count value="1"/>
+    </CEffectRemoveBehavior>
+    <CEffectCreatePersistent id="InterceptorLaunchPersistentD">
+        <EditorCategories value="Race:Protoss"/>
+        <WhichLocation Value="TargetUnit"/>
+        <TimeScaleSource Value="Caster"/>
+        <Flags index="Channeled" value="1"/>
+        <PeriodCount value="8"/>
+        <PeriodicValidator value="CasterNotDead"/>
+        <PeriodicEffectArray value="CarrierInterceptorD"/>
+        <PeriodicPeriodArray value="0.5"/>
+    </CEffectCreatePersistent>
+    <CEffectModifyUnit id="InterceptorRechargeHealD">
+        <EditorCategories value="Race:Protoss"/>
+        <VitalArray index="Life">
+            <ChangeFraction value="1"/>
+        </VitalArray>
+        <VitalArray index="Shields">
+            <ChangeFraction value="1"/>
+        </VitalArray>
+    </CEffectModifyUnit>
+    <CEffectReturnMagazine id="InterceptorReturnD">
+        <ValidatorArray value="InterceptorHasWeaponChargesRecallD"/>
+        <EditorCategories value="Race:Protoss"/>
+        <WhichUnit Value="Target"/>
+    </CEffectReturnMagazine>
+    <CEffectRemoveBehavior id="InterceptorAmmoClearD">
+        <EditorCategories value="Race:Protoss"/>
+        <BehaviorLink value="InterceptorAmmoDummyD"/>
+        <Count value="2"/>
+    </CEffectRemoveBehavior>
+    <CEffectApplyBehavior id="InterceptorAmmoRechargeD" Race="Keiron">
+        <EditorCategories value="Race:Protoss"/>
+        <Behavior value="InterceptorAmmoDummyD"/>
+        <Count value="2"/>
+    </CEffectApplyBehavior>
+    <CEffectSet id="InterceptorReturnSetD" Race="Keiron">
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="InterceptorAmmoClearD"/>
+        <EffectArray value="InterceptorRechargeHealD"/>
+    </CEffectSet>
+    <CEffectCreatePersistent id="IonCannonsDC">
+        <EditorCategories value="Race:Protoss"/>
+        <WhichLocation Value="TargetUnit"/>
+        <PeriodCount value="2"/>
+        <PeriodicEffectArray value="IonCannonsLMLeftDC"/>
+        <PeriodicEffectArray value="IonCannonsLMRightDC"/>
+        <PeriodicPeriodArray value="0"/>
+        <PeriodicPeriodArray value="0"/>
+    </CEffectCreatePersistent>
+    <CEffectLaunchMissile id="IonCannonsLMLeftDC">
+        <Name value="Effect/Name/IonCannonsLM"/>
+        <ValidatorArray index="0" value="IonCannonsLMTargetFilters"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Marker Link="Effect/IonCannonsLM"/>
+        <ImpactEffect value="IonCannonsUDC"/>
+        <AmmoUnit value="IonCannonsWeaponDC"/>
+        <Movers Link="MissileDefault" IfRangeLTE="1"/>
+        <Movers Link="IonCannonsWeaponLeftD" IfRangeLTE="6"/>
+    </CEffectLaunchMissile>
+    <CEffectLaunchMissile id="IonCannonsLMRightDC">
+        <Name value="Effect/Name/IonCannonsLM"/>
+        <ValidatorArray index="0" value="IonCannonsLMTargetFilters"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Marker Link="Effect/IonCannonsLM"/>
+        <ImpactEffect value="IonCannonsUDC"/>
+        <AmmoUnit value="IonCannonsWeaponDC"/>
+        <Movers Link="MissileDefault" IfRangeLTE="1"/>
+        <Movers Link="IonCannonsWeaponRightD" IfRangeLTE="6"/>
+    </CEffectLaunchMissile>
+    <CEffectDamage id="IonCannonsUDC" parent="DU_WEAP_MISSILE">
+        <EditorCategories value="Race:Protoss"/>
+        <AttributeBonus index="Light" value="4"/>
+        <ArmorReduction value="0.5"/>
+        <Visibility value="Visible"/>
+        <Amount value="8"/>
+    </CEffectDamage>
+    <CEffectDamage id="NeutronFlareD" parent="DU_WEAP">
+        <EditorCategories value="Race:Protoss"/>
+        <AttributeBonus index="Light" value="16"/>
+        <Kind value="Splash"/>
+        <Amount value="16"/>
+        <AreaArray Radius="1.25" Fraction="1"/>
+        <ExcludeArray Value="Target"/>
+        <SearchFilters value="Visible;Player,Ally"/>
+    </CEffectDamage>
+    <CEffectSet id="InterceptorBombSetD" Race="Keiron">
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="InterceptorAmmoUseD"/>
+        <EffectArray value="CarrierInterceptorBombLMD"/>
+    </CEffectSet>
+    <CEffectDamage id="MothershipCuttingBeamDamageD" parent="DU_WEAP">
+        <EditorCategories value="Race:Protoss"/>
+        <ArmorReduction value="0"/>
+        <Kind value="Spell"/>
+        <Amount value="25"/>
+    </CEffectDamage>
+    <CEffectCreatePersistent id="HybridProtossWeaponCPH">
+        <EditorCategories value="Race:Protoss"/>
+        <WhichLocation Value="TargetUnit"/>
+        <TimeScaleSource Value="Caster"/>
+        <Flags index="Channeled" value="1"/>
+        <PeriodCount value="3"/>
+        <PeriodicEffectArray value="HybridProtossLMH"/>
+        <PeriodicPeriodArray value="0"/>
+        <PeriodicPeriodArray value="0.2"/>
+        <PeriodicPeriodArray value="0.2"/>
+    </CEffectCreatePersistent>
+    <CEffectApplyBehavior id="HybridPsiStormApplyBehaviorH">
+        <EditorCategories value="Race:Protoss"/>
+        <Behavior value="HybridPsiStormH"/>
+    </CEffectApplyBehavior>
+    <CEffectDamage id="HybridPsiStormDamageH">
+        <ValidatorArray value="PsiStormUTargetFilters"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Visibility value="Hidden"/>
+        <Amount value="10"/>
+    </CEffectDamage>
+    <CEffectDamage id="HybridPsiStormDamageInitialH">
+        <ValidatorArray value="PsiStormUTargetFilters"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ResponseFlags index="Acquire" value="1"/>
+        <ResponseFlags index="Flee" value="1"/>
+        <Flags index="Notification" value="1"/>
+        <Amount value="10"/>
+    </CEffectDamage>
+    <CEffectCreatePersistent id="HybridPsiStormPersistentH">
+        <EditorCategories value="Race:Protoss"/>
+        <InitialEffect value="HybridPsiStormSearchH"/>
+        <PeriodCount value="6"/>
+        <PeriodicEffectArray value="HybridPsiStormSearchH"/>
+        <PeriodicPeriodArray value="0.5712"/>
+        <AINotifyEffect value="PsiStormSearch"/>
+    </CEffectCreatePersistent>
+    <CEffectEnumArea id="HybridPsiStormSearchH">
+        <EditorCategories value="Race:Protoss"/>
+        <AINotifyFlags index="HurtFriend" value="1"/>
+        <AINotifyFlags index="HurtEnemy" value="1"/>
+        <SearchFilters value="-;Player,Ally,Neutral,Structure,Missile,Destructible,Stasis,Dead,Hidden,Invulnerable"/>
+        <AreaArray Radius="1.5" Effect="HybridPsiStormApplyBehaviorH"/>
+        <SearchFlags index="CallForHelp" value="1"/>
+    </CEffectEnumArea>
+    <CEffectDamage id="HybridPsiBladesDamageH" parent="DU_WEAP">
+        <ValidatorArray value="NotHidden"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Amount value="20"/>
+        <Death value="Eviscerate"/>
+    </CEffectDamage>
+    <CEffectCreatePersistent id="HybridPsiBladesCPH">
+        <EditorCategories value="Race:Protoss"/>
+        <WhichLocation Value="TargetUnit"/>
+        <TimeScaleSource Value="Caster"/>
+        <Flags index="Channeled" value="1"/>
+        <PeriodCount value="2"/>
+        <PeriodicEffectArray value="HybridPsiBladesDamageH"/>
+        <PeriodicPeriodArray value="0.2"/>
+        <PeriodicPeriodArray value="0.28"/>
+    </CEffectCreatePersistent>
+    <CEffectApplyBehavior id="NovaMothershipInvulnerabilityShield">
+        <ValidatorArray index="0" value="IsMothershipDB"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Behavior value="MothershipInvulnerabilityShieldD"/>
+    </CEffectApplyBehavior>
+    <CEffectEnumArea id="ShieldGeneratorSuperShieldSearchD">
+        <EditorCategories value="Race:Protoss"/>
+        <ImpactLocation Value="TargetPoint"/>
+        <SearchFilters value="-;Missile,Item,Stasis,Dead,Hidden,Invulnerable"/>
+        <AreaArray Radius="2" Effect="ShieldGeneratorSupperShieldSetD"/>
+        <MinCountError value="CantFindEnoughTargets,Error/SupplicantNotInRangeD"/>
+    </CEffectEnumArea>
+    <CEffectCreatePersistent id="SOAMothershipBlinkCPD">
+        <EditorCategories value="Race:Protoss"/>
+        <Flags index="Channeled" value="1"/>
+        <PeriodCount value="1"/>
+        <PeriodicEffectArray value="SOAMothershipBlinkTeleportD"/>
+        <PeriodicPeriodArray value="0.375"/>
+    </CEffectCreatePersistent>
+    <CEffectTeleport id="SOAMothershipBlinkTeleportD">
+        <EditorCategories value="Race:Protoss"/>
+        <WhichUnit Value="Caster"/>
+        <TargetLocation Value="TargetPoint"/>
+        <PlacementAround Value="CasterUnit"/>
+        <PlacementRange value="12"/>
+        <Range value="12"/>
+    </CEffectTeleport>
+    <CEffectSet id="SOAMothershipLineAttackCasterImpactDummyD">
+        <EditorCategories value="Race:Protoss"/>
+    </CEffectSet>
+    <CEffectLaunchMissile id="SOAMothershipLineAttackCasterLMD">
+        <ValidatorArray index="0" value="CasterNotDead"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ImpactLocation Value="TargetPoint"/>
+        <LaunchEffect value="SOAMothershipLineAttackScanCPD"/>
+        <ImpactEffect value="SOAMothershipLineAttackCasterImpactDummyD"/>
+        <Flags index="2D" value="1"/>
+        <AmmoUnit value="SOAMothershipLineAttackWeaponD"/>
+    </CEffectLaunchMissile>
+    <CEffectDamage id="SOAMothershipLineAttackDamageD">
+        <ValidatorArray value="noMarkers"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Flags index="Notification" value="1"/>
+        <Amount value="400"/>
+        <Death value="Fire"/>
+    </CEffectDamage>
+    <CEffectCreatePersistent id="SOAMothershipLineAttackInitialCPD">
+        <WhichLocation Value="CasterPoint"/>
+        <PeriodCount value="1"/>
+        <PeriodicEffectArray value="SOAMothershipLineAttackCasterLMD"/>
+        <PeriodicOffsetArray value="0,-15,0"/>
+        <PeriodicPeriodArray value="0"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CEffectCreatePersistent>
+    <CEffectCreatePersistent id="SOAMothershipLineAttackScanCPD">
+        <EditorCategories value="Race:Protoss"/>
+        <Marker>
+            <MatchFlags index="Id" value="1"/>
+        </Marker>
+        <WhichLocation Value="SourceUnit"/>
+        <TimeScaleSource Value="Caster"/>
+        <PeriodCount value="40"/>
+        <PeriodicEffectArray value="SOAMothershipLineAttackSearchD"/>
+        <PeriodicPeriodArray value="0.0625"/>
+    </CEffectCreatePersistent>
+    <CEffectEnumArea id="SOAMothershipLineAttackSearchD">
+        <EditorCategories value="Race:Protoss"/>
+        <SearchFilters value="-;Self,Player,Ally,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <AreaArray Radius="2" Effect="SOAMothershipLineAttackDamageD"/>
+        <RevealerParams Duration="1" ShapeExpansion="0.5">
+            <RevealFlags index="Unfog" value="1"/>
+        </RevealerParams>
+    </CEffectEnumArea>
+    <CEffectDamage id="SOAMothershipv4BeamDamageD" parent="DU_WEAP_MISSILE">
+        <ValidatorArray value="MothershipRangeCheckD"/>
+        <ValidatorArray value="NotHidden"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ArmorReduction value="0"/>
+        <Visibility value="Visible"/>
+        <Kind value="Spell"/>
+        <Amount value="25"/>
+        <Death value="Fire"/>
+        <LeechFraction index="Life" value="1"/>
+    </CEffectDamage>
+    <CEffectModifyUnit id="SOAMothershipv4BeamDummyD">
+        <ValidatorArray value="MothershipRangeCheckD"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CEffectModifyUnit>
+    <CEffectCreatePersistent id="SOAMothershipv4BeamPersistentD">
+        <EditorCategories value="Race:Protoss"/>
+        <WhichLocation Value="TargetUnitOrPoint"/>
+        <TimeScaleSource Value="Caster"/>
+        <InitialEffect value="SOAMothershipv4BeamDummyD"/>
+        <PeriodCount value="6"/>
+        <PeriodicValidator value="CasterNotDead"/>
+        <PeriodicEffectArray value="MothershipWeaponDamageSearchD"/>
+        <PeriodicPeriodArray value="0.1875"/>
+    </CEffectCreatePersistent>
+    <CEffectSet id="SOAMothershipv4BeamSetD">
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="SOAMothershipv4BeamPersistentD"/>
+        <EffectArray value="SOAMothershipv4SecondaryBeamPersistentD"/>
+    </CEffectSet>
+    <CEffectCreatePersistent id="SOAMothershipv4SecondaryBeamPersistentD">
+        <EditorCategories value="Race:Protoss"/>
+        <WhichLocation Value="TargetUnitOrPoint"/>
+        <TimeScaleSource Value="Caster"/>
+        <InitialDelay value="0.25"/>
+        <InitialEffect value="SOAMothershipv4BeamDummyD"/>
+        <PeriodCount value="6"/>
+        <PeriodicValidator value="MothershipRangeCheckCombineD"/>
+        <PeriodicEffectArray value="MothershipWeaponDamageSearchD"/>
+        <PeriodicPeriodArray value="0.1875"/>
+    </CEffectCreatePersistent>
+    <CEffectDamage id="MothershipMissileDamageD" parent="DU_WEAP">
+        <EditorCategories value="Race:Protoss"/>
+        <Kind value="Ranged"/>
+        <Amount value="30"/>
+    </CEffectDamage>
+    <CEffectLaunchMissile id="MothershipMissileLMD">
+        <EditorCategories value="Race:Protoss"/>
+        <ImpactEffect value="MothershipMissileDamageD"/>
+        <Flags index="ValidateAbil" value="0"/>
+        <AmmoUnit value="MothershipMissileWeaponD"/>
+        <Movers Link="MothershipCoreWeaponWeaponClose" IfRangeLTE="4"/>
+        <Movers Link="MothershipCoreWeaponWeapon" IfRangeLTE="20"/>
+    </CEffectLaunchMissile>
+    <CEffectApplyBehavior id="MothershipSoulAbsorptionABD">
+        <EditorCategories value="Race:Protoss"/>
+        <Behavior value="MothershipSoulAbsorptionDebuffD"/>
+    </CEffectApplyBehavior>
+    <CEffectLaunchMissile id="MothershipSoulAbsorptionLMD">
+        <EditorCategories value="Race:Protoss"/>
+        <ImpactLocation Value="CasterUnit"/>
+        <ImpactEffect value="MothershipSoulAbsorptionSetD"/>
+        <AmmoUnit value="MothershipSoulAbsorptionMissleD"/>
+    </CEffectLaunchMissile>
+    <CEffectModifyUnit id="MothershipSoulAbsorptionMUD">
+        <EditorCategories value="Race:Protoss"/>
+        <ImpactUnit Value="Caster"/>
+        <VitalArray index="Life">
+            <Change value="20"/>
+        </VitalArray>
+        <VitalArray index="Shields">
+            <Change value="20"/>
+        </VitalArray>
+    </CEffectModifyUnit>
+    <CEffectEnumArea id="MothershipSoulAbsorptionSearchD">
+        <EditorCategories value="Race:Protoss"/>
+        <SearchFilters value="-;Self,Structure"/>
+        <AreaArray Radius="10" Effect="MothershipSoulAbsorptionABD"/>
+    </CEffectEnumArea>
+    <CEffectDamage id="HybridProtossDamageH" parent="DU_WEAP">
+        <EditorCategories value="Race:Protoss"/>
+        <ArmorReduction value="0"/>
+        <Kind value="Spell"/>
+        <Amount value="20"/>
+    </CEffectDamage>
+    <CEffectApplyBehavior id="ShieldGeneratorSuperShieldApplyBehaviorD">
+        <ValidatorArray index="0" value="ShieldGeneratorSuperShieldShieldSetD"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Behavior value="ShieldGeneratorSuperShieldD"/>
+    </CEffectApplyBehavior>
+    <CEffectSet id="ShieldGeneratorSupperShieldSetD">
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="ShieldGeneratorSuperShieldApplyBehaviorD"/>
+        <EffectArray value="ShieldGeneratorSupperShieldDamageD"/>
+    </CEffectSet>
+    <CEffectSet id="StalkerWeaponSetDKS">
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="StalkerBeamSetDK"/>
+        <EffectArray value="ParticleDisruptorsDKS"/>
+        <EffectArray value="StalkerBeamWeaponCasterRBD"/>
+    </CEffectSet>
+    <CEffectDamage id="TempestDamageDA">
+        <EditorCategories value="Race:Protoss"/>
+        <ResponseFlags index="Acquire" value="1"/>
+        <ResponseFlags index="Flee" value="1"/>
+        <AttributeBonus index="Massive" value="30"/>
+        <AttributeBonus index="Structure" value="25"/>
+        <ArmorReduction value="0.5"/>
+        <Visibility value="Visible"/>
+        <Flags index="Notification" value="1"/>
+        <Kind value="Ranged"/>
+        <Amount value="50"/>
+        <SearchFlags index="CallForHelp" value="1"/>
+    </CEffectDamage>
+    <CEffectLaunchMissile id="TempestLaunchMissileDA">
+        <EditorCategories value="Race:Protoss"/>
+        <ImpactEffect value="TempestDamageDA"/>
+        <AmmoUnit value="TempestWeaponDA"/>
+    </CEffectLaunchMissile>
+    <CEffectDamage id="TempestShockwaveDamageD" parent="DU_WEAP">
+        <EditorCategories value="Race:Protoss"/>
+        <AttributeBonus index="Structure" value="10"/>
+        <Kind value="Ranged"/>
+        <KindSplash value="Splash"/>
+        <Amount value="20"/>
+        <AreaArray Radius="0.25" Fraction="1"/>
+        <AreaArray Radius="0.5" Fraction="0.5"/>
+        <AreaArray Radius="1" Fraction="0.25"/>
+        <ExcludeArray Value="Outer"/>
+        <ExcludeArray Value="Target"/>
+        <SearchFilters value="Ground;Player,Ally,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <SearchFlags index="OffsetByUnitRadius" value="0"/>
+        <SearchFlags index="SameCliff" value="0"/>
+    </CEffectDamage>
+    <CEffectDamage id="PsionicShockwaveDamageD" parent="DU_WEAP">
+        <EditorCategories value="Race:Protoss"/>
+        <ArmorReduction value="0"/>
+        <Kind value="Spell"/>
+        <Amount value="200"/>
+        <AreaArray Radius="1.5" Fraction="1"/>
+        <ExcludeArray Value="Outer"/>
+        <ExcludeArray Value="Target"/>
+        <SearchFilters value="Air;Player,Ally,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <SearchFlags index="OffsetByUnitRadius" value="0"/>
+        <SearchFlags index="SameCliff" value="0"/>
+    </CEffectDamage>
+    <CEffectModifyUnit id="HybridTissueAssimilationH">
+        <EditorCategories value="Race:Protoss"/>
+        <ImpactUnit Value="Caster"/>
+        <VitalArray index="Life">
+            <Change value="20"/>
+        </VitalArray>
+    </CEffectModifyUnit>
+    <CEffectCreatePersistent id="VoidCarrierInterceptorBombsCPD">
+        <EditorCategories value="Race:Protoss"/>
+        <PeriodCount value="3"/>
+        <PeriodicEffectArray value="InterceptorBombSetD"/>
+        <PeriodicPeriodArray value="0"/>
+        <PeriodicPeriodArray value="0.2"/>
+        <PeriodicPeriodArray value="0.2"/>
+    </CEffectCreatePersistent>
+    <CEffectRemoveBehavior id="VoidRayPrismRB3D">
+        <ValidatorArray index="0" value="VoidRayPrismRB2DTargetFilters"/>
+        <EditorCategories value="Race:Protoss"/>
+        <WhichUnit Value="Caster"/>
+        <BehaviorLink value="VoidRayChargeBeamPhase3D"/>
+    </CEffectRemoveBehavior>
+    <CEffectRemoveBehavior id="VoidRayPrismRBMD">
+        <EditorCategories value="Race:Protoss"/>
+        <WhichUnit Value="Caster"/>
+        <BehaviorLink value="VoidRayChargeBeamCounterD"/>
+        <Count value="30"/>
+    </CEffectRemoveBehavior>
+    <CEffectDamage id="AlarakAADamageDH" parent="DU_WEAP">
+        <EditorCategories value="Race:Protoss"/>
+        <Amount value="24"/>
+        <ArmorReduction value="0"/>
+    </CEffectDamage>
+    <CEffectSet id="AlarakPsionicLightningSetDH">
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="AlarakAADamageDH"/>
+    </CEffectSet>
+    <CEffectDamage id="ColossusTaldarimDamageD" parent="DU_WEAP">
+        <EditorCategories value="Race:Protoss"/>
+        <AttributeBonus index="Structure" value="75"/>
+        <ArmorReduction value="0"/>
+        <Kind value="Spell"/>
+        <Amount value="100"/>
+        <Death value="Fire"/>
+        <AreaArray Radius="0.5" Fraction="1"/>
+        <AreaArray Radius="1" Fraction="0.65"/>
+        <ExcludeArray Value="Target"/>
+        <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+    </CEffectDamage>
+    <CEffectLaunchMissile id="ColossusTaldarimLMD">
+        <EditorCategories value="Race:Protoss"/>
+        <LaunchEffect value="ColossusDAWeaponBeamABD"/>
+        <ImpactEffect value="ColossusTaldarimDamageD"/>
+        <AmmoUnit value="ColossusTaldarimWeaponD"/>
+    </CEffectLaunchMissile>
+    <CEffectCreatePersistent id="IonCannonsD">
+        <EditorCategories value="Race:Protoss"/>
+        <WhichLocation Value="TargetUnit"/>
+        <PeriodCount value="4"/>
+        <PeriodicEffectArray value="IonCannonsLMLeftD"/>
+        <PeriodicEffectArray value="IonCannonsLMRightD"/>
+        <PeriodicEffectArray value="IonCannonsLMLeftDH"/>
+        <PeriodicEffectArray value="IonCannonsLMRightDH"/>
+        <PeriodicPeriodArray value="0"/>
+        <PeriodicPeriodArray value="0"/>
+    </CEffectCreatePersistent>
+    <CEffectLaunchMissile id="IonCannonsLMLeftD">
+        <Name value="Effect/Name/IonCannonsLM"/>
+        <ValidatorArray index="0" value="IonCannonsLMTargetFilters"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Marker Link="Effect/IonCannonsLM"/>
+        <ImpactEffect value="IonCannonsUD"/>
+        <AmmoUnit value="IonCannonsWeaponD"/>
+        <Movers Link="MissileDefault" IfRangeLTE="1"/>
+        <Movers Link="IonCannonsWeaponLeftD" IfRangeLTE="6"/>
+    </CEffectLaunchMissile>
+    <CEffectLaunchMissile id="IonCannonsLMLeftDH">
+        <Name value="Effect/Name/IonCannonsLM"/>
+        <ValidatorArray index="0" value="IonCannonsLMTargetFilters"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Marker Link="Effect/IonCannonsLM"/>
+        <ImpactEffect value="IonCannonsUD"/>
+        <AmmoUnit value="IonCannonsWeaponD"/>
+        <Movers Link="MissileDefault" IfRangeLTE="1"/>
+        <Movers Link="IonCannonsWeaponLeftDH" IfRangeLTE="6"/>
+    </CEffectLaunchMissile>
+    <CEffectLaunchMissile id="IonCannonsLMOverloadD">
+        <Name value="Effect/Name/IonCannonsLM"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Marker Link="Effect/IonCannonsLM"/>
+        <ImpactEffect value="IonCannonsUD"/>
+        <AmmoUnit value="IonCannonsWeaponD"/>
+    </CEffectLaunchMissile>
+    <CEffectLaunchMissile id="IonCannonsLMRightD">
+        <Name value="Effect/Name/IonCannonsLM"/>
+        <ValidatorArray index="0" value="IonCannonsLMTargetFilters"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Marker Link="Effect/IonCannonsLM"/>
+        <ImpactEffect value="IonCannonsUD"/>
+        <AmmoUnit value="IonCannonsWeaponD"/>
+        <Movers Link="MissileDefault" IfRangeLTE="1"/>
+        <Movers Link="IonCannonsWeaponRightD" IfRangeLTE="6"/>
+    </CEffectLaunchMissile>
+    <CEffectLaunchMissile id="IonCannonsLMRightDH">
+        <Name value="Effect/Name/IonCannonsLM"/>
+        <ValidatorArray index="0" value="IonCannonsLMTargetFilters"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Marker Link="Effect/IonCannonsLM"/>
+        <ImpactEffect value="IonCannonsUD"/>
+        <AmmoUnit value="IonCannonsWeaponD"/>
+        <Movers Link="MissileDefault" IfRangeLTE="1"/>
+        <Movers Link="IonCannonsWeaponRightDH" IfRangeLTE="6"/>
+    </CEffectLaunchMissile>
+    <CEffectDamage id="IonCannonsUD" parent="DU_WEAP_MISSILE">
+        <EditorCategories value="Race:Protoss"/>
+        <AttributeBonus index="Light" value="2"/>
+        <Visibility value="Visible"/>
+        <Amount value="8"/>
+        <ArmorReduction value="0.5"/>
+    </CEffectDamage>
+    <CEffectEnumArea id="ReaverSacrificeSearchD">
+        <EditorCategories value="Race:Protoss"/>
+        <ImpactLocation Value="CasterUnit"/>
+        <SearchFilters value="-;Self,Ally,Neutral,Enemy,Structure,Worker,Missile,Item,Dead,Hidden"/>
+        <AreaArray MaxCount="1" Radius="12" Effect="ReaverSacrificeSelfBuffSetD"/>
+        <MinCountError value="CantFindEnoughTargets,Error/SupplicantNotInRangeD"/>
+        <MinCount value="1"/>
+        <MaxCount value="1"/>
+    </CEffectEnumArea>
+    <CEffectEnumArea id="PhoenixOverloadSearchD">
+        <EditorCategories value="Race:Protoss"/>
+        <ImpactLocation Value="CasterUnit"/>
+        <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Item,Stasis,Dead,Hidden,Invulnerable"/>
+        <AreaArray MaxCount="8" Radius="7" Effect="IonCannonsLMOverloadD"/>
+        <MinCountError value="CantFindEnoughTargets,Error/SupplicantNotInRangeD"/>
+    </CEffectEnumArea>
+    <CEffectSet id="ReaverSacrificeSelfBuffSetD">
+        <ValidatorArray value="TargetNotDeadAndCasterNotDead"/>
+        <ValidatorArray value="IsSupplicantDOrZealotD"/>
+        <ValidatorArray value="NotWarpingIn"/>
+        <ValidatorArray value="noMarkers"/>
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="AscendantSacrificeDamageD"/>
+        <EffectArray value="ReaverScarabSReadyABD"/>
+    </CEffectSet>
+    <CEffectRemoveBehavior id="VoidRayPrismRB2D">
+        <EditorCategories value="Race:Protoss"/>
+        <WhichUnit Value="Caster"/>
+        <BehaviorLink value="VoidRayChargeBeamPhase2D"/>
+    </CEffectRemoveBehavior>
+    <CEffectSet id="VoidRaySetPrismRBSetD">
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="VoidRayPrismRBMD"/>
+        <EffectArray value="VoidRayPrismRB2D"/>
+        <EffectArray value="VoidRayPrismRB3D"/>
+    </CEffectSet>
+    <CEffectSet id="ScarabExplodeDS">
+        <ValidatorArray value="CasterIsNotHidden"/>
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="ScarabExplodeTargetDamageDS"/>
+        <EffectArray value="Suicide"/>
+    </CEffectSet>
+    <CEffectDamage id="ScarabExplodeTargetDamageDS" parent="DU_WEAP">
+        <EditorCategories value="Race:Protoss"/>
+        <AttributeBonus index="Structure" value="100"/>
+        <ArmorReduction value="0"/>
+        <Kind value="Spell"/>
+        <Amount value="200"/>
+        <Death value="Blast"/>
+        <AreaArray Radius="3" Fraction="1"/>
+        <ExcludeArray Value="Target"/>
+        <SearchFilters value="Ground;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+    </CEffectDamage>
+    <CEffectLaunchMissile id="ScarabLMDS">
+        <EditorCategories value="Race:Protoss"/>
+        <FinishEffect value="ScarabExplodeDS"/>
+        <Flags index="Retarget" value="1"/>
+        <AmmoUnit value="ScarabWeaponDS"/>
+        <RetargetFilters value="Ground,Visible;Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <RetargetRange value="9"/>
+    </CEffectLaunchMissile>
+    <CEffectSwitch id="ScarabLMSwitchD">
+        <EditorCategories value="Race:Protoss"/>
+        <CaseArray Validator="HaveReaverScarabSReadyD" Effect="ScarabLMDS"/>
+        <CaseDefault value="ScarabLMD"/>
+    </CEffectSwitch>
+    <CEffectSet id="ColossusPurifierThermalLancesD">
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="ColossusPurifierThermalLancesForwardD"/>
+        <EffectArray value="ColossusPurifierThermalLancesCenterD"/>
+        <EffectArray value="ColossusPurifierThermalLancesReverseD"/>
+        <EffectArray value="ThermalLancesFireBeamD"/>
+        <EffectArray value="ThermalLancesFriendlyCPD"/>
+    </CEffectSet>
+    <CEffectDamage id="ColossusPurifierThermalLancesDamageD" parent="DU_WEAP">
+        <ValidatorArray value="ColossusPurifierThermalLancesCliffLevel"/>
+        <ValidatorArray value="NotHidden"/>
+        <ValidatorArray value="noMarkers"/>
+        <EditorCategories value="Race:Protoss"/>
+        <AttributeBonus index="Light" value="10"/>
+        <ArmorReduction value="0.5"/>
+        <Visibility value="Visible"/>
+        <Kind value="Splash"/>
+        <KindSplash value="Splash"/>
+        <Amount value="20"/>
+        <Death value="Fire"/>
+    </CEffectDamage>
+    <CEffectCreatePersistent id="ColossusPurifierThermalLancesDamageDelayD">
+        <EditorCategories value="Race:Protoss"/>
+        <WhichLocation Value="TargetUnit"/>
+        <ExpireDelay value="0.25"/>
+        <FinalEffect value="ColossusPurifierThermalLancesDamageD"/>
+    </CEffectCreatePersistent>
+    <CEffectCreatePersistent id="ColossusPurifierThermalLancesForwardD">
+        <EditorCategories value="Race:Protoss"/>
+        <Marker>
+            <MatchFlags index="Id" value="1"/>
+        </Marker>
+        <TimeScaleSource Value="Caster"/>
+        <Flags index="Channeled" value="1"/>
+        <ExpireDelay value="0.15"/>
+        <ExpireEffect value="ColossusPurifierThermalLancesDamageD"/>
+        <PeriodCount value="13"/>
+        <PeriodicEffectArray value="ColossusPurifierThermalLancesSearchD"/>
+        <PeriodicOffsetArray value="-1.5,0.9,0"/>
+        <PeriodicOffsetArray value="-1.25,0.75,0"/>
+        <PeriodicOffsetArray value="-1,0.6,0"/>
+        <PeriodicOffsetArray value="-0.75,0.45,0"/>
+        <PeriodicOffsetArray value="-0.5,0.3,0"/>
+        <PeriodicOffsetArray value="-0.25,0.15,0"/>
+        <PeriodicOffsetArray value="0,0,0"/>
+        <PeriodicOffsetArray value="0.25,-0.15,0"/>
+        <PeriodicOffsetArray value="0.5,-0.3,0"/>
+        <PeriodicOffsetArray value="0.75,-0.45,0"/>
+        <PeriodicOffsetArray value="1,-0.6,0"/>
+        <PeriodicOffsetArray value="1.25,-0.75,0"/>
+        <PeriodicOffsetArray value="1.5,-0.9,0"/>
+        <PeriodicPeriodArray value="0.0312"/>
+    </CEffectCreatePersistent>
+    <CEffectCreatePersistent id="ColossusPurifierThermalLancesReverseD">
+        <EditorCategories value="Race:Protoss"/>
+        <Marker>
+            <MatchFlags index="Id" value="1"/>
+        </Marker>
+        <TimeScaleSource Value="Caster"/>
+        <Flags index="Channeled" value="1"/>
+        <ExpireDelay value="0.15"/>
+        <ExpireEffect value="ColossusPurifierThermalLancesDamageD"/>
+        <PeriodCount value="13"/>
+        <PeriodicEffectArray value="ColossusPurifierThermalLancesSearchReverseD"/>
+        <PeriodicOffsetArray value="1.5,0.9,0"/>
+        <PeriodicOffsetArray value="1.25,0.75,0"/>
+        <PeriodicOffsetArray value="1,0.6,0"/>
+        <PeriodicOffsetArray value="0.75,0.45,0"/>
+        <PeriodicOffsetArray value="0.5,0.3,0"/>
+        <PeriodicOffsetArray value="0.25,0.15,0"/>
+        <PeriodicOffsetArray value="0,0,0"/>
+        <PeriodicOffsetArray value="-0.25,-0.15,0"/>
+        <PeriodicOffsetArray value="-0.5,-0.3,0"/>
+        <PeriodicOffsetArray value="-0.75,-0.45,0"/>
+        <PeriodicOffsetArray value="-1,-0.6,0"/>
+        <PeriodicOffsetArray value="-1.25,-0.75,0"/>
+        <PeriodicOffsetArray value="-1.5,-0.9,0"/>
+        <PeriodicPeriodArray value="0.0312"/>
+    </CEffectCreatePersistent>
+    <CEffectCreatePersistent id="ColossusPurifierThermalLancesCenterD">
+        <EditorCategories value="Race:Protoss"/>
+        <Marker>
+            <MatchFlags index="Id" value="1"/>
+        </Marker>
+        <TimeScaleSource Value="Caster"/>
+        <Flags index="Channeled" value="1"/>
+        <ExpireDelay value="0.15"/>
+        <ExpireEffect value="ColossusPurifierThermalLancesDamageD"/>
+        <PeriodCount value="13"/>
+        <PeriodicEffectArray value="ColossusPurifierThermalLancesSearchCenterD"/>
+        <PeriodicOffsetArray value="0,1.5,0"/>
+        <PeriodicOffsetArray value="0,1.25,0"/>
+        <PeriodicOffsetArray value="0,1,0"/>
+        <PeriodicOffsetArray value="0,0.75,0"/>
+        <PeriodicOffsetArray value="0,0.5,0"/>
+        <PeriodicOffsetArray value="0,0.25,0"/>
+        <PeriodicOffsetArray value="0,0,0"/>
+        <PeriodicOffsetArray value="0,-0.25,0"/>
+        <PeriodicOffsetArray value="0,-0.5,0"/>
+        <PeriodicOffsetArray value="0,-0.75,0"/>
+        <PeriodicOffsetArray value="0,-1,0"/>
+        <PeriodicOffsetArray value="0,-1.25,0"/>
+        <PeriodicOffsetArray value="0,-1.5,0"/>
+        <PeriodicPeriodArray value="0.0312"/>
+    </CEffectCreatePersistent>
+    <CEffectEnumArea id="ColossusPurifierThermalLancesSearchD">
+        <EditorCategories value="Race:Protoss"/>
+        <ExcludeArray Value="Target"/>
+        <SearchFilters value="Ground;Player,Ally,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <AreaArray Radius="0.15" Effect="ColossusPurifierThermalLancesDamageDelayD"/>
+        <SearchFlags index="CallForHelp" value="1"/>
+    </CEffectEnumArea>
+    <CEffectEnumArea id="ColossusPurifierThermalLancesSearchReverseD">
+        <EditorCategories value="Race:Protoss"/>
+        <ExcludeArray Value="Target"/>
+        <SearchFilters value="Ground;Player,Ally,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <AreaArray Radius="0.15" Effect="ColossusPurifierThermalLancesDamageDelayD"/>
+        <SearchFlags index="CallForHelp" value="1"/>
+    </CEffectEnumArea>
+    <CEffectEnumArea id="ColossusPurifierThermalLancesSearchCenterD">
+        <EditorCategories value="Race:Protoss"/>
+        <ExcludeArray Value="Target"/>
+        <SearchFilters value="Ground;Player,Ally,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <AreaArray Radius="0.15" Effect="ColossusPurifierThermalLancesDamageDelayD"/>
+        <SearchFlags index="CallForHelp" value="1"/>
+    </CEffectEnumArea>
+    <CEffectDamage id="DragoonDamageDA" parent="DU_WEAP">
+        <EditorCategories value="Race:Protoss"/>
+        <AttributeBonus index="Armored" value="15"/>
+        <Kind value="Ranged"/>
+        <Amount value="30"/>
+    </CEffectDamage>
+    <CEffectLaunchMissile id="DragoonLMDA">
+        <EditorCategories value="Race:Protoss"/>
+        <ImpactEffect value="DragoonDamageDA"/>
+        <AmmoUnit value="DragoonWeaponDA"/>
+    </CEffectLaunchMissile>
+    <CEffectApplyBehavior id="ScarabApplyRevealD">
+        <EditorCategories value="Race:Protoss"/>
+        <Behavior value="ScarabRevealD"/>
+    </CEffectApplyBehavior>
+    <CEffectSet id="ScarabExplodeD">
+        <ValidatorArray value="CasterIsNotHidden"/>
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="ScarabExplodeTargetDamageD"/>
+        <EffectArray value="Suicide"/>
+    </CEffectSet>
+    <CEffectDamage id="ScarabExplodeTargetDamageD" parent="DU_WEAP">
+        <EditorCategories value="Race:Protoss"/>
+        <AttributeBonus index="Structure" value="50"/>
+        <Kind value="Ranged"/>
+        <KindSplash value="Splash"/>
+        <Amount value="100"/>
+        <Death value="Blast"/>
+        <AreaArray Radius="0.5" Fraction="0.8"/>
+        <AreaArray Radius="1" Fraction="0.6"/>
+        <AreaArray Radius="1.5" Fraction="0.5"/>
+        <AreaArray Radius="2" Fraction="0.25"/>
+        <ExcludeArray Value="Target"/>
+        <SearchFilters value="Ground;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+    </CEffectDamage>
+    <CEffectLaunchMissile id="ScarabLMD">
+        <EditorCategories value="Race:Protoss"/>
+        <FinishEffect value="ScarabExplodeD"/>
+        <Flags index="Retarget" value="1"/>
+        <AmmoUnit value="ScarabWeaponD"/>
+        <RetargetFilters value="Ground,Visible;Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <RetargetRange value="6"/>
+    </CEffectLaunchMissile>
+    <CEffectCreatePersistent id="ScarabLaunchPersistentD">
+        <ValidatorArray value="ScarabNotArmedD"/>
+        <EditorCategories value="Race:Protoss"/>
+        <WhichLocation Value="TargetUnit"/>
+        <TimeScaleSource Value="Caster"/>
+        <Flags index="Channeled" value="1"/>
+        <PeriodCount value="1"/>
+        <PeriodicValidator value="CasterNotDead"/>
+        <PeriodicEffectArray value="ScarabLaunchSetD"/>
+        <PeriodicPeriodArray value="0.1"/>
+    </CEffectCreatePersistent>
+    <CEffectSet id="ScarabLaunchPersistentInitialD">
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="ScarabLaunchPersistentD"/>
+    </CEffectSet>
+    <CEffectSet id="ScarabLaunchSetD">
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="ScarabApplyRevealD"/>
+        <EffectArray value="ScarabUMD"/>
+        <EffectArray value="ScarabLMSwitchD"/>
+        <EffectArray value="ReaverScarabSCasterRBD"/>
+    </CEffectSet>
+    <CEffectApplyBehavior id="ScarabTimedLifeD">
+        <EditorCategories value="Race:Protoss"/>
+    </CEffectApplyBehavior>
+    <CEffectUseMagazine id="ScarabUMD">
+        <EditorCategories value="Race:Protoss"/>
+        <AmmoEffect value="ScarabTimedLifeD"/>
+    </CEffectUseMagazine>
+    <CEffectApplyBehavior id="ReaverScarabSReadyABD">
+        <EditorCategories value="Race:Protoss"/>
+        <WhichUnit Value="Caster"/>
+        <Behavior value="ReaverScarabSReadyD"/>
+    </CEffectApplyBehavior>
+    <CEffectRemoveBehavior id="ReaverScarabSCasterRBD">
+        <EditorCategories value="Race:Protoss"/>
+        <WhichUnit Value="Caster"/>
+        <BehaviorLink value="ReaverScarabSReadyD"/>
+    </CEffectRemoveBehavior>
+    <CEffectDamage id="ScoutGroundD" parent="DU_WEAP">
+        <EditorCategories value="Race:Protoss"/>
+        <AttributeBonus index="Light" value="16"/>
+        <Visibility value="Visible"/>
+        <Kind value="Ranged"/>
+        <Amount value="16"/>
+        <ArmorReduction value="0.75"/>
+    </CEffectDamage>
+    <CEffectApplyBehavior id="ScoutSpeedBoostD">
+        <EditorCategories value="Race:Protoss"/>
+    </CEffectApplyBehavior>
+    <CEffectCreatePersistent id="ThermalLancesFireBeamD">
+        <ValidatorArray value="IsNotLaserTentacle"/>
+        <ValidatorArray value="IsNotVoidCrystal"/>
+        <ValidatorArray value="IsNotOmniaClaw"/>
+        <ValidatorArray value="IsNotAnimaSpike"/>
+        <EditorCategories value="Race:Protoss"/>
+        <TimeScaleSource Value="Caster"/>
+        <ExpireDelay value="0.375"/>
+        <PeriodCount value="19"/>
+        <PeriodicEffectArray value="ThermalLancesFireBeamCPD"/>
+        <PeriodicOffsetArray value="-1.5,0.9,0"/>
+        <PeriodicOffsetArray value="0,1.5,0"/>
+        <PeriodicOffsetArray value="1.5,0.9,0"/>
+        <PeriodicOffsetArray value="-1,0.6,0"/>
+        <PeriodicOffsetArray value="0,1,0"/>
+        <PeriodicOffsetArray value="1,0.6,0"/>
+        <PeriodicOffsetArray value="-0.5,0.3,0"/>
+        <PeriodicOffsetArray value="0,0.5,0"/>
+        <PeriodicOffsetArray value="0.5,0.3,0"/>
+        <PeriodicOffsetArray value="0,0,0"/>
+        <PeriodicOffsetArray value="-0.5,-0.3,0"/>
+        <PeriodicOffsetArray value="0,-0.5,0"/>
+        <PeriodicOffsetArray value="0.5,-0.3,0"/>
+        <PeriodicOffsetArray value="-1,-0.3,0"/>
+        <PeriodicOffsetArray value="0,-1,0"/>
+        <PeriodicOffsetArray value="1,-0.6,0"/>
+        <PeriodicOffsetArray value="-1.5,-0.9,0"/>
+        <PeriodicOffsetArray value="0,-1.5,0"/>
+        <PeriodicOffsetArray value="1.5,-0.9,0"/>
+        <PeriodicPeriodArray value="0.15"/>
+        <PeriodicPeriodArray value="0"/>
+        <PeriodicPeriodArray value="0"/>
+        <PeriodicPeriodArray value="0.15"/>
+        <PeriodicPeriodArray value="0"/>
+        <PeriodicPeriodArray value="0"/>
+        <PeriodicPeriodArray value="0.15"/>
+        <PeriodicPeriodArray value="0"/>
+        <PeriodicPeriodArray value="0"/>
+        <PeriodicPeriodArray value="0.15"/>
+        <PeriodicPeriodArray value="0.15"/>
+        <PeriodicPeriodArray value="0"/>
+        <PeriodicPeriodArray value="0"/>
+        <PeriodicPeriodArray value="0.15"/>
+        <PeriodicPeriodArray value="0"/>
+        <PeriodicPeriodArray value="0"/>
+        <PeriodicPeriodArray value="0.15"/>
+        <PeriodicPeriodArray value="0"/>
+        <PeriodicPeriodArray value="0"/>
+    </CEffectCreatePersistent>
+    <CEffectApplyBehavior id="ThermalLancesFireBeamABD">
+        <EditorCategories value="Race:Protoss"/>
+        <Behavior value="ThermalLancesFireBeamD"/>
+    </CEffectApplyBehavior>
+    <CEffectCreatePersistent id="ThermalLancesFireBeamCPD">
+        <EditorCategories value="Race:Protoss"/>
+        <TimeScaleSource Value="Caster"/>
+        <PeriodCount value="10"/>
+        <PeriodicEffectArray value="ThermalLancesFireBeamSearchD"/>
+        <PeriodicOffsetArray value="0,0,0"/>
+        <PeriodicPeriodArray value="0.5"/>
+    </CEffectCreatePersistent>
+    <CEffectDamage id="ThermalLancesFireBeamDamageD">
+        <EditorCategories value="Race:Protoss"/>
+        <Visibility value="Hidden"/>
+        <Amount value="5"/>
+        <Death value="Fire"/>
+    </CEffectDamage>
+    <CEffectEnumArea id="ThermalLancesFireBeamSearchD">
+        <EditorCategories value="Race:Protoss"/>
+        <AINotifyFlags index="HurtEnemy" value="1"/>
+        <SearchFilters value="Ground;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <AreaArray Radius="0.5" Effect="ThermalLancesFireBeamABD"/>
+        <SearchFlags index="CallForHelp" value="1"/>
+    </CEffectEnumArea>
+    <CEffectCreatePersistent id="ThermalLancesFriendlyCPD">
+        <EditorCategories value="Race:Protoss"/>
+        <WhichLocation Value="TargetUnit"/>
+        <TimeScaleSource Value="Caster"/>
+        <Flags index="Channeled" value="1"/>
+        <ExpireDelay value="0.2"/>
+        <PeriodCount value="3"/>
+        <PeriodicEffectArray value="ThermalLancesFriendlyDamageD"/>
+        <PeriodicEffectArray value="ThermalLancesFriendlyDamageD"/>
+        <PeriodicEffectArray value="ThermalLancesFriendlyDamageD"/>
+        <PeriodicPeriodArray value="0.09"/>
+    </CEffectCreatePersistent>
+    <CEffectDamage id="ThermalLancesFriendlyDamageD" parent="DU_WEAP">
+        <Name value="Effect/Name/ThermalLancesMU"/>
+        <ValidatorArray value="ThermalLancesCliffLevel"/>
+        <ValidatorArray value="NotHidden"/>
+        <ValidatorArray value="noMarkers"/>
+        <ValidatorArray value="FriendlyTarget"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Marker Link="Effect/ThermalLancesMU"/>
+        <AttributeBonus index="Light" value="10"/>
+        <ArmorReduction value="0.5"/>
+        <Visibility value="Visible"/>
+        <Kind value="Splash"/>
+        <KindSplash value="Splash"/>
+        <Amount value="20"/>
+        <Death value="Fire"/>
+    </CEffectDamage>
+    <CEffectApplyBehavior id="ColossusDAWeaponBeamABD">
+        <EditorCategories value="Race:Protoss"/>
+        <WhichUnit Value="Source"/>
+        <Behavior value="ColossusDAWeaponSearch"/>
+    </CEffectApplyBehavior>
+    <CEffectDamage id="ColossusDAWeaponBeamDamageD">
+        <EditorCategories value="Race:Protoss"/>
+        <ResponseFlags index="Acquire" value="1"/>
+        <ResponseFlags index="Flee" value="1"/>
+        <Flags index="Notification" value="1"/>
+        <Amount value="15"/>
+    </CEffectDamage>
+    <CEffectEnumArea id="ColossusDAWeaponBeamSearchD">
+        <EditorCategories value="Race:Protoss"/>
+        <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Item,Stasis,Dead,Hidden,Invulnerable"/>
+        <TargetSorts>
+            <SortArray value="TSRandom"/>
+        </TargetSorts>
+        <AreaArray Radius="5" Effect="ColossusDAWeaponBeamDamageD"/>
+        <MaxCount value="3"/>
+    </CEffectEnumArea>
+    <CEffectApplyBehavior id="PhoenixOverloadD">
+        <EditorCategories value="Race:Protoss"/>
+    </CEffectApplyBehavior>
+    <CEffectDamage id="VoidRayChargeBeamBounce1DamageD" parent="DU_WEAP">
+        <EditorCategories value="Race:Protoss"/>
+        <DamageModifierSource Value="Caster"/>
+        <Visibility value="Visible"/>
+        <Kind value="Ranged"/>
+        <Amount value="4"/>
+        <ArmorReduction value="0.66"/>
+    </CEffectDamage>
+    <CEffectSet id="VoidRayChargeBeamBounce1DamageSetD">
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="VoidRayChargeBeamBounce1DamageD"/>
+    </CEffectSet>
+    <CEffectEnumArea id="VoidRayChargeBeamBounce1SearchD">
+        <ValidatorArray value="VoidRayChargeBeamCounterPhase1D"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ExcludeArray Value="Outer"/>
+        <ExcludeArray Value="Target"/>
+        <SearchFilters value="Visible;Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <TargetSorts>
+            <SortArray value="TSFarthestDistance"/>
+        </TargetSorts>
+        <AreaArray Radius="5" Effect="VoidRayChargeBeamBounce1DamageSetD"/>
+        <MaxCount value="2"/>
+        <SearchFlags index="SameCliff" value="1"/>
+    </CEffectEnumArea>
+    <CEffectCreatePersistent id="VoidRayChargeBeamBounceD">
+        <EditorCategories value="Race:Protoss"/>
+        <WhichLocation Value="TargetUnit"/>
+        <TimeScaleSource Value="Caster"/>
+        <Flags index="Channeled" value="1"/>
+        <Flags index="PersistUntilDestroyed" value="1"/>
+        <InitialEffect value="VoidRayChargeBeamBounceInitialImpactSetD"/>
+        <PeriodicEffectArray value="VoidRayChargeBeamBounceImpactSetD"/>
+        <PeriodicPeriodArray value="0.5"/>
+    </CEffectCreatePersistent>
+    <CEffectDamage id="VoidRayChargeBeamBounce2DamageD" parent="DU_WEAP">
+        <EditorCategories value="Race:Protoss"/>
+        <DamageModifierSource Value="Caster"/>
+        <Visibility value="Visible"/>
+        <Kind value="Ranged"/>
+        <Amount value="6"/>
+        <ArmorReduction value="0.33"/>
+    </CEffectDamage>
+    <CEffectSet id="VoidRayChargeBeamBounce2DamageSetD">
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="VoidRayChargeBeamBounce2DamageD"/>
+    </CEffectSet>
+    <CEffectEnumArea id="VoidRayChargeBeamBounce2SearchD">
+        <ValidatorArray value="VoidRayChargeBeamCounterCheckPhase2ReadyD"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ExcludeArray Value="Outer"/>
+        <ExcludeArray Value="Target"/>
+        <SearchFilters value="Visible;Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <TargetSorts>
+            <SortArray value="TSFarthestDistance"/>
+        </TargetSorts>
+        <AreaArray Radius="5" Effect="VoidRayChargeBeamBounce2DamageSetD"/>
+        <MaxCount value="3"/>
+        <SearchFlags index="SameCliff" value="1"/>
+    </CEffectEnumArea>
+    <CEffectDamage id="VoidRayChargeBeamBounce3DamageD" parent="DU_WEAP">
+        <EditorCategories value="Race:Protoss"/>
+        <DamageModifierSource Value="Caster"/>
+        <AttributeBonus index="Light" value="2"/>
+        <Visibility value="Visible"/>
+        <Kind value="Spell"/>
+        <Amount value="8"/>
+        <ArmorReduction value="0"/>
+    </CEffectDamage>
+    <CEffectSet id="VoidRayChargeBeamBounce3DamageSetD">
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="VoidRayChargeBeamBounce3DamageD"/>
+    </CEffectSet>
+    <CEffectEnumArea id="VoidRayChargeBeamBounce3SearchD">
+        <ValidatorArray value="VoidRayChargeBeamCounterCheckPhase3ReadyD"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ExcludeArray Value="Outer"/>
+        <ExcludeArray Value="Target"/>
+        <SearchFilters value="Visible;Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <TargetSorts>
+            <SortArray value="TSFarthestDistance"/>
+        </TargetSorts>
+        <AreaArray Radius="5" Effect="VoidRayChargeBeamBounce3DamageSetD"/>
+        <MaxCount value="4"/>
+        <SearchFlags index="SameCliff" value="1"/>
+    </CEffectEnumArea>
+    <CEffectApplyBehavior id="VoidRayChargeBeamBounceCasterABD">
+        <EditorCategories value="Race:Protoss"/>
+        <WhichUnit Value="Caster"/>
+        <Behavior value="VoidRayChargeBeamCounterD"/>
+    </CEffectApplyBehavior>
+    <CEffectDamage id="VoidRayChargeBeamBounceDamageD">
+        <EditorCategories value="Race:Protoss"/>
+    </CEffectDamage>
+    <CEffectDamage id="VoidRayChargeBeamBounceDamageCharge1D" parent="DU_WEAP">
+        <EditorCategories value="Race:Protoss"/>
+        <DamageModifierSource Value="Caster"/>
+        <AttributeBonus index="Light" value="2"/>
+        <Visibility value="Visible"/>
+        <Kind value="Ranged"/>
+        <Amount value="8"/>
+        <ArmorReduction value="0.66"/>
+    </CEffectDamage>
+    <CEffectDamage id="VoidRayChargeBeamBounceDamageCharge2D" parent="DU_WEAP">
+        <EditorCategories value="Race:Protoss"/>
+        <DamageModifierSource Value="Caster"/>
+        <AttributeBonus index="Light" value="3"/>
+        <Visibility value="Visible"/>
+        <Kind value="Ranged"/>
+        <Amount value="10"/>
+        <ArmorReduction value="0.33"/>
+    </CEffectDamage>
+    <CEffectDamage id="VoidRayChargeBeamBounceDamageCharge3D" parent="DU_WEAP">
+        <EditorCategories value="Race:Protoss"/>
+        <DamageModifierSource Value="Caster"/>
+        <AttributeBonus index="Light" value="4"/>
+        <Visibility value="Visible"/>
+        <Kind value="Spell"/>
+        <Amount value="12"/>
+        <ArmorReduction value="0"/>
+    </CEffectDamage>
+    <CEffectSwitch id="VoidRayChargeBeamBounceDamageSwitchD">
+        <EditorCategories value="Race:Protoss"/>
+        <CaseArray Validator="VoidRayChargeBeamCounterCheckPhase2ReadyD" Effect="VoidRayChargeBeamBounceDamageCharge2D"/>
+        <CaseArray Validator="VoidRayChargeBeamCounterCheckPhase3ReadyD" Effect="VoidRayChargeBeamBounceDamageCharge3D"/>
+        <CaseDefault value="VoidRayChargeBeamBounceDamageCharge1D"/>
+    </CEffectSwitch>
+    <CEffectSet id="VoidRayChargeBeamBounceImpactSetD">
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="VoidRayChargeBeamBounceDamageD"/>
+        <EffectArray value="VoidRayChargeBeamBounceDamageSwitchD"/>
+        <EffectArray value="VoidRayChargeBeamBounceCasterABD"/>
+        <EffectArray value="VoidRayChargeBeamBounce1SearchD"/>
+        <EffectArray value="VoidRayChargeBeamBounce2SearchD"/>
+        <EffectArray value="VoidRayChargeBeamBounce3SearchD"/>
+    </CEffectSet>
+    <CEffectSet id="VoidRayChargeBeamBounceInitialImpactSetD">
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="VoidRayChargeBeamBounceDamageD"/>
+        <EffectArray value="VoidRayChargeBeamBounceDamageSwitchD"/>
+        <EffectArray value="VoidRayChargeBeamBounceCasterABD"/>
+        <EffectArray value="VoidRayChargeBeamBounce1SearchD"/>
+        <EffectArray value="VoidRayChargeBeamBounce2SearchD"/>
+        <EffectArray value="VoidRayChargeBeamBounce3SearchD"/>
+    </CEffectSet>
+    <CEffectSwitch id="VoidRayChargeBeamCounterCheckD">
+        <EditorCategories value="Race:Protoss"/>
+        <CaseArray Validator="VoidRayChargeBeamCounterCheckPhase2ReadyD" Effect="VoidRayChargeBeamCounterCheckPhase2D"/>
+        <CaseArray Validator="VoidRayChargeBeamCounterCheckPhase3ReadyD" Effect="VoidRayChargeBeamCounterCheckPhase3D"/>
+    </CEffectSwitch>
+    <CEffectSet id="VoidRayChargeBeamCounterCheckPhase2D">
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="VoidRayChargeBeamPhase2ABD"/>
+    </CEffectSet>
+    <CEffectSet id="VoidRayChargeBeamCounterCheckPhase3D">
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="VoidRayChargeBeamPhase2RBD"/>
+        <EffectArray value="VoidRayChargeBeamPhase3ABD"/>
+    </CEffectSet>
+    <CEffectApplyBehavior id="VoidRayChargeBeamPhase2ABD">
+        <EditorCategories value="Race:Protoss"/>
+        <WhichUnit Value="Caster"/>
+        <Behavior value="VoidRayChargeBeamPhase2D"/>
+    </CEffectApplyBehavior>
+    <CEffectRemoveBehavior id="VoidRayChargeBeamPhase2RBD">
+        <EditorCategories value="Race:Protoss"/>
+        <WhichUnit Value="Caster"/>
+        <BehaviorLink value="VoidRayChargeBeamPhase2D"/>
+    </CEffectRemoveBehavior>
+    <CEffectApplyBehavior id="VoidRayChargeBeamPhase3ABD">
+        <EditorCategories value="Race:Protoss"/>
+        <WhichUnit Value="Caster"/>
+        <Behavior value="VoidRayChargeBeamPhase3D"/>
+    </CEffectApplyBehavior>
+    <CEffectApplyBehavior id="VoidRaySwarmDamageBoostALD">
+        <EditorCategories value="Race:Protoss"/>
+        <WhichUnit Value="Caster"/>
+        <Behavior value="VoidRayChargeBeamCounterD"/>
+        <Count value="30"/>
+    </CEffectApplyBehavior>
+    <CEffectApplyBehavior id="VoidRaySwarmDamageBoostD">
+        <EditorCategories value="Race:Protoss"/>
+    </CEffectApplyBehavior>
+    <CEffectCreatePersistent id="MothershipRayCPD">
+        <EditorCategories value="Race:Protoss"/>
+        <WhichLocation Value="CasterPoint"/>
+        <TimeScaleSource Value="Caster"/>
+        <Flags index="PersistUntilDestroyed" value="1"/>
+        <InitialEffect value="MothershipRaySearchD"/>
+        <PeriodicEffectArray value="MothershipRaySearchD"/>
+        <PeriodicPeriodArray value="0.5"/>
+    </CEffectCreatePersistent>
+    <CEffectDamage id="MothershipRayDamageD" parent="DU_WEAP">
+        <EditorCategories value="Race:Protoss"/>
+        <DamageModifierSource Value="Caster"/>
+        <AttributeBonus index="Structure" value="20"/>
+        <ArmorReduction value="0"/>
+        <Visibility value="Visible"/>
+        <Kind value="Spell"/>
+        <Amount value="20"/>
+    </CEffectDamage>
+    <CEffectCreatePersistent id="CarrierRayVoidD">
+        <EditorCategories value="Race:Protoss"/>
+        <WhichLocation Value="TargetUnit"/>
+        <TimeScaleSource Value="Caster"/>
+        <Flags index="Channeled" value="1"/>
+        <Flags index="PersistUntilDestroyed" value="1"/>
+        <InitialEffect value="CarrierRayVoidDamageD"/>
+        <PeriodicEffectArray value="CarrierRayVoidDamageD"/>
+        <PeriodicPeriodArray value="0.5"/>
+    </CEffectCreatePersistent>
+    <CEffectDamage id="CarrierRayVoidDamageD" parent="DU_WEAP">
+        <EditorCategories value="Race:Protoss"/>
+        <DamageModifierSource Value="Caster"/>
+        <ArmorReduction value="0.5"/>
+        <Visibility value="Visible"/>
+        <Kind value="Ranged"/>
+        <Amount value="10"/>
+    </CEffectDamage>
+    <CEffectApplyBehavior id="VoidSentryBlackHoleABD">
+        <EditorCategories value="Race:Protoss"/>
+        <Behavior value="VoidSentryBlackHoleD"/>
+    </CEffectApplyBehavior>
+    <CEffectApplyForce id="VoidSentryBlackHoleForceD">
+        <EditorCategories value="Race:Protoss"/>
+        <WhichLocation Value="CasterUnit"/>
+        <WhichUnit Effect="VoidSentryBlackHoleImpactSetD"/>
+        <Amount value="-1"/>
+    </CEffectApplyForce>
+    <CEffectCreatePersistent id="VoidSentryBlackHoleForceOffsetD">
+        <EditorCategories value="Race:Protoss"/>
+        <OffsetVectorStartLocation Effect="VoidSentryBlackHoleSearchD" Value="TargetPoint"/>
+        <InitialEffect value="VoidSentryBlackHoleForceD"/>
+        <InitialOffset value="0.5,0.15,0"/>
+    </CEffectCreatePersistent>
+    <CEffectSet id="VoidSentryBlackHoleImpactSetD">
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="VoidSentryBlackHoleABD"/>
+        <EffectArray value="VoidSentryBlackHoleForceOffsetD"/>
+    </CEffectSet>
+    <CEffectCreatePersistent id="VoidSentryBlackHolePersistentD">
+        <EditorCategories value="Race:Protoss"/>
+        <WhichLocation Value="CasterUnit"/>
+        <OffsetVectorEndLocation Value="CasterUnit"/>
+        <PeriodCount value="128"/>
+        <PeriodicEffectArray value="VoidSentryBlackHoleSearchD"/>
+        <PeriodicPeriodArray value="0.125"/>
+    </CEffectCreatePersistent>
+    <CEffectEnumArea id="VoidSentryBlackHoleSearchD">
+        <EditorCategories value="Race:Protoss"/>
+        <LaunchLocation Value="TargetPoint"/>
+        <SearchFilters value="-;Player,Ally,Neutral,Structure,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <AreaArray Radius="5" Effect="VoidSentryBlackHoleImpactSetD"/>
+    </CEffectEnumArea>
+    <CEffectDamage id="VoidZealotWhirlwindFakeWeaponDummyD" parent="DU_WEAP">
+        <EditorCategories value="Race:Protoss"/>
+    </CEffectDamage>
+    <CEffectDamage id="PhoenixWhirlwindFakeWeaponDummyD" parent="DU_WEAP">
+        <EditorCategories value="Race:Protoss"/>
+    </CEffectDamage>
+    <CEffectDamage id="WarPrismWeaponDamageD" parent="DU_WEAP">
+        <EditorCategories value="Race:Protoss"/>
+        <Visibility value="Visible"/>
+        <Kind value="Ranged"/>
+        <Amount value="18"/>
+    </CEffectDamage>
+    <CEffectLaunchMissile id="WarPrismWeaponLaunchD">
+        <EditorCategories value="Race:Protoss"/>
+        <ImpactEffect value="WarPrismWeaponDamageD"/>
+        <AmmoUnit value="WarPrismWeaponMissileD"/>
+    </CEffectLaunchMissile>
+    <CEffectDamage id="AscendantSacrificeKillSupplicantD">
+        <EditorCategories value="Race:Protoss"/>
+        <Flags index="Kill" value="1"/>
+        <Flags index="NoKillCredit" value="1"/>
+    </CEffectDamage>
+    <CEffectEnumArea id="AscendantSacrificeSearchD">
+        <EditorCategories value="Race:Protoss"/>
+        <ImpactLocation Value="CasterUnit"/>
+        <SearchFilters value="-;Self,Ally,Neutral,Enemy,Structure,Worker,Missile,Item,Dead,Hidden"/>
+        <AreaArray MaxCount="1" Radius="12" Effect="AscendantSacrificeSelfBuffSetD"/>
+        <MinCountError value="CantFindEnoughTargets,Error/SupplicantNotInRangeD"/>
+        <MinCount value="1"/>
+        <MaxCount value="1"/>
+    </CEffectEnumArea>
+    <CEffectSet id="AscendantSacrificeSelfBuffSetD">
+        <ValidatorArray value="TargetNotDeadAndCasterNotDead"/>
+        <ValidatorArray value="IsSupplicantDOrZealotD"/>
+        <ValidatorArray value="NotWarpingIn"/>
+        <ValidatorArray value="noMarkers"/>
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="AscendantSacrificeDamageD"/>
+        <EffectArray value="CasterHealtoFullEnergyD"/>
+    </CEffectSet>
+    <CEffectModifyUnit id="AscendantSacrificeSupplicantRemoveShieldD">
+        <EditorCategories value="Race:Protoss"/>
+        <VitalArray index="Shields">
+            <ChangeFraction value="-1"/>
+        </VitalArray>
+    </CEffectModifyUnit>
+    <CEffectSet id="AscendantWeaponD">
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="AscendantWeaponDamageD"/>
+    </CEffectSet>
+    <CEffectDamage id="AscendantWeaponDamageD" parent="DU_WEAP">
+        <EditorCategories value="Race:Protoss"/>
+        <ArmorReduction value="0"/>
+        <Kind value="Spell"/>
+        <Amount value="24"/>
+        <Death value="Blast"/>
+    </CEffectDamage>
+    <CEffectLaunchMissile id="AscendantWeaponLMD">
+        <EditorCategories value="Race:Protoss"/>
+        <ImpactEffect value="AscendantWeaponD"/>
+        <AmmoUnit value="AscendantWeaponD"/>
+        <Movers Link="AscendantWeapon"/>
+    </CEffectLaunchMissile>
+    <CEffectTeleport id="BlinkDK">
+        <ValidatorArray value="CasterNotFungalGrowthed"/>
+        <EditorCategories value="Race:Protoss"/>
+        <WhichUnit Value="Caster"/>
+        <ClearQueuedOrders value="0"/>
+        <PlacementAround Value="CasterUnit"/>
+        <PlacementRange value="8"/>
+        <Range value="8"/>
+        <TargetLocation Value="TargetPoint"/>
+        <TeleportFlags index="TestCliff" value="1"/>
+        <TeleportEffect value="StalkerBeamReadyABD"/>
+    </CEffectTeleport>
+    <CEffectTeleport id="BlinkDKU">
+        <ValidatorArray value="CasterNotFungalGrowthed"/>
+        <EditorCategories value="Race:Protoss"/>
+        <WhichUnit Value="Caster"/>
+        <ClearQueuedOrders value="0"/>
+        <PlacementAround Value="CasterUnit"/>
+        <PlacementRange value="8"/>
+        <Range value="8"/>
+        <TargetLocation Value="TargetPoint"/>
+        <TeleportFlags index="TestCliff" value="1"/>
+        <TeleportEffect value="StalkerBlinkSetDKU"/>
+    </CEffectTeleport>
+    <CEffectModifyUnit id="CasterHealtoFullEnergyD">
+        <EditorCategories value="Race:Protoss"/>
+        <ImpactUnit Value="Caster"/>
+        <VitalArray index="Energy">
+            <ChangeFraction value="1"/>
+        </VitalArray>
+    </CEffectModifyUnit>
+    <CEffectApplyBehavior id="ChargeDC">
+        <ValidatorArray index="0" value="ChargeMinTriggerDistanceD"/>
+        <ValidatorArray value="ChargeMaxDistanceD"/>
+        <EditorCategories value="Race:Protoss"/>
+        <WhichUnit Value="Caster"/>
+        <Behavior value="ChargingDC"/>
+    </CEffectApplyBehavior>
+    <CEffectSet id="DarkTemplarTaldarimWeaponSetD">
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="WarpBladesD"/>
+    </CEffectSet>
+    <CEffectApplyBehavior id="DarkTemplarVoidStasisABD">
+        <EditorCategories value="Race:Protoss"/>
+        <Behavior value="DarkTemplarVoidStasisD"/>
+    </CEffectApplyBehavior>
+    <CEffectEnumTransport id="DarkTemplarVoidStasisIterateTransportD">
+        <ValidatorArray value="IsBunker"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Effect value="DarkTemplarVoidStasisABD"/>
+    </CEffectEnumTransport>
+    <CEffectSet id="DarkTemplarVoidStasisSetD">
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="DarkTemplarVoidStasisABD"/>
+        <EffectArray value="DarkTemplarVoidStasisIterateTransportD"/>
+        <ValidatorArray value="CasterIsNotVoidStasisD"/>
+    </CEffectSet>
+    <CEffectApplyBehavior id="ImmortalBarrierBaseABD">
+        <EditorCategories value="Race:Protoss"/>
+        <WhichUnit Value="Source"/>
+        <Behavior value="ImmortalBarrierBaseD"/>
+    </CEffectApplyBehavior>
+    <CEffectApplyBehavior id="ImmortalBarrierBaseABDPU">
+        <EditorCategories value="Race:Protoss"/>
+        <WhichUnit Value="Source"/>
+        <Behavior value="ImmortalBarrierBaseDPU"/>
+    </CEffectApplyBehavior>
+    <CEffectRemoveBehavior id="ImmortalTaldarimMissileSpeedStackRBD">
+        <EditorCategories value="Race:Protoss"/>
+        <WhichUnit Value="Caster"/>
+        <BehaviorLink value="ImmortalTaldarimMissileSpeedStack"/>
+        <Count value="16"/>
+    </CEffectRemoveBehavior>
+    <CEffectDamage id="ImmortalTaldarimWeaponDamageD" parent="DU_WEAP_MISSILE">
+        <EditorCategories value="Race:Protoss"/>
+        <AttributeBonus index="Armored" value="5"/>
+        <AttributeBonus index="Structure" value="5"/>
+        <ArmorReduction value="0.5"/>
+        <Amount value="10"/>
+    </CEffectDamage>
+    <CEffectDamage id="ImmortalTaldarimWeaponDamageDA" parent="DU_WEAP_MISSILE">
+        <EditorCategories value="Race:Protoss"/>
+        <AttributeBonus index="Armored" value="5"/>
+        <ArmorReduction value="0.5"/>
+        <Amount value="10"/>
+    </CEffectDamage>
+    <CEffectSet id="ImmortalTaldarimWeaponDamageSetD">
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="ImmortalTaldarimWeaponDamageD"/>
+    </CEffectSet>
+    <CEffectLaunchMissile id="ImmortalTaldarimWeaponLMD">
+        <EditorCategories value="Race:Protoss"/>
+        <ImpactLocation Value="TargetPoint"/>
+        <ImpactEffect value="ImmortalTaldarimWeaponSearchD"/>
+        <AmmoUnit value="ImmortalTaldarimWeaponMissileD"/>
+        <Movers Link="ImmortalTaldarimWeaponMoverD" IfRangeLTE="500"/>
+    </CEffectLaunchMissile>
+    <CEffectLaunchMissile id="ImmortalTaldarimWeaponLMDA">
+        <EditorCategories value="Race:Protoss"/>
+        <ImpactEffect value="ImmortalTaldarimWeaponDamageDA"/>
+        <AmmoUnit value="ImmortalTaldarimWeaponMissileDA"/>
+        <Movers Link="ImmortalMissileDA" IfRangeLTE="500"/>
+    </CEffectLaunchMissile>
+    <CEffectLaunchMissile id="ImmortalTaldarimWeaponLMNoSearchD">
+        <EditorCategories value="Race:Protoss"/>
+        <ImpactLocation Value="TargetPoint"/>
+        <AmmoUnit value="ImmortalTaldarimWeaponMissileD"/>
+        <Movers Link="ImmortalTaldarimWeaponMoverD" IfRangeLTE="500"/>
+    </CEffectLaunchMissile>
+    <CEffectSet id="ImmortalTaldarimWeaponLMSetD">
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="ImmortalTaldarimWeaponLMD"/>
+    </CEffectSet>
+    <CEffectCreatePersistent id="ImmortalTaldarimWeaponRandomLargeD">
+        <EditorCategories value="Race:Protoss"/>
+        <WhichLocation Value="TargetUnit"/>
+        <InitialEffect value="ImmortalTaldarimWeaponLMNoSearchD"/>
+        <ExpireEffect value="ImmortalTaldarimMissileSpeedStackRBD"/>
+        <FinalEffect value="ImmortalTaldarimMissileSpeedStackRBD"/>
+        <PeriodCount value="8"/>
+        <PeriodicEffectArray value="ImmortalTaldarimWeaponLMSetD"/>
+        <PeriodicOffsetArray value="-0.75,0,0"/>
+        <PeriodicOffsetArray value="0.75,0,0"/>
+        <PeriodicOffsetArray value="0,-0.75,0"/>
+        <PeriodicOffsetArray value="0,0.75,0"/>
+        <PeriodicOffsetArray value="0.5,0.5,0"/>
+        <PeriodicOffsetArray value="-0.5,0.5,0"/>
+        <PeriodicOffsetArray value="-0.5,-0.5,0"/>
+        <PeriodicOffsetArray value="0.5,-0.5,0"/>
+        <PeriodicPeriodArray value="0"/>
+        <PeriodicPeriodArray value="0.0625"/>
+        <PeriodicPeriodArray value="0.0625"/>
+        <PeriodicPeriodArray value="0.0625"/>
+        <PeriodicPeriodArray value="0.0625"/>
+        <PeriodicPeriodArray value="0.0625"/>
+        <PeriodicPeriodArray value="0.0625"/>
+        <PeriodicPeriodArray value="0.0625"/>
+    </CEffectCreatePersistent>
+    <CEffectCreatePersistent id="ImmortalTaldarimWeaponRandomLargeDA">
+        <EditorCategories value="Race:Protoss"/>
+        <WhichLocation Value="TargetUnit"/>
+        <PeriodCount value="4"/>
+        <PeriodicEffectArray value="ImmortalTaldarimWeaponLMDA"/>
+        <PeriodicPeriodArray value="0"/>
+        <PeriodicPeriodArray value="0.0625"/>
+        <PeriodicPeriodArray value="0.0625"/>
+        <PeriodicPeriodArray value="0.0625"/>
+    </CEffectCreatePersistent>
+    <CEffectEnumArea id="ImmortalTaldarimWeaponSearchD">
+        <EditorCategories value="Race:Protoss"/>
+        <IncludeArray Effect="ImmortalTaldarimWeaponRandomLargeD" Value="Target"/>
+        <SearchFilters value="Ground;Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <AreaArray Radius="1.8" Effect="ImmortalTaldarimWeaponDamageSetD"/>
+    </CEffectEnumArea>
+    <CEffectRemoveBehavior id="ObserveWeaponsFreeD">
+        <EditorCategories value="Race:Protoss"/>
+        <BehaviorLink value="ObserveHoldFireBD"/>
+    </CEffectRemoveBehavior>
+    <CEffectApplyBehavior id="ObserveHoldFireD">
+        <EditorCategories value="Race:Protoss"/>
+        <WhichUnit Value="Caster"/>
+    </CEffectApplyBehavior>
+    <CEffectApplyBehavior id="ObserveHoldFireBD">
+        <EditorCategories value="Race:Protoss"/>
+        <WhichUnit Value="Caster"/>
+    </CEffectApplyBehavior>
+    <CEffectSet id="HighTemplarDMorphSet">
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="HighTemplarDMergeFacing"/>
+    </CEffectSet>
+    <CEffectCreatePersistent id="DisruptionBeamD">
+        <EditorCategories value="Race:Protoss"/>
+        <WhichLocation Value="TargetUnit"/>
+        <TimeScaleSource Value="Caster"/>
+        <Flags index="Channeled" value="1"/>
+        <Flags index="PersistUntilDestroyed" value="1"/>
+        <InitialEffect value="DisruptionBeamDamageD"/>
+        <PeriodicEffectArray value="DisruptionBeamDamageD"/>
+        <PeriodicPeriodArray value="1"/>
+    </CEffectCreatePersistent>
+    <CEffectDamage id="DisruptionBeamDamageD" parent="DU_WEAP">
+        <EditorCategories value="Race:Protoss"/>
+        <ArmorReduction value="0.25"/>
+        <Kind value="Ranged"/>
+        <Amount value="10"/>
+        <ShieldBonus value="10"/>
+    </CEffectDamage>
+    <CEffectDamage id="DragoonDamageD" parent="DU_WEAP">
+        <EditorCategories value="Race:Protoss"/>
+        <AttributeBonus index="Armored" value="15"/>
+        <Kind value="Ranged"/>
+        <Amount value="30"/>
+        <AreaArray Radius="1" Fraction="1"/>
+        <SearchFilters value="Ground;Player,Ally,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <SearchFlags index="OffsetByUnitRadius" value="0"/>
+        <IncludeArray Effect="DragoonLMD" Value="Target"/>
+    </CEffectDamage>
+    <CEffectLaunchMissile id="DragoonLMD">
+        <EditorCategories value="Race:Protoss"/>
+        <ImpactLocation Value="TargetUnitOrPoint"/>
+        <ImpactEffect value="DragoonDamageD"/>
+        <AmmoUnit value="DragoonWeaponD"/>
+    </CEffectLaunchMissile>
+    <CEffectCreateUnit id="ForceFieldD">
+        <ValidatorArray value="CliffLevelGE1"/>
+        <EditorCategories value="Race:Protoss"/>
+        <WhichLocation Value="TargetPoint"/>
+        <CreateFlags index="DropOff" value="0"/>
+        <CreateFlags index="Placement" value="0"/>
+        <CreateFlags index="ProvideFood" value="0"/>
+        <CreateFlags index="UseFood" value="0"/>
+        <SpawnOwner Value="Neutral"/>
+        <SpawnEffect value="ForceFieldTimedLifeD"/>
+        <SpawnUnit value="ForceFieldD"/>
+        <SpawnRange value="0"/>
+    </CEffectCreateUnit>
+    <CEffectEnumArea id="ForceFieldPlacementD">
+        <EditorCategories value="Race:Protoss"/>
+        <SearchFilters value="-;Air,Ground,Structure,Missile,Destructible,Stasis,Dead,Hidden,Invulnerable"/>
+        <AreaArray Radius="1.7"/>
+    </CEffectEnumArea>
+    <CEffectApplyBehavior id="ForceFieldTimedLifeD">
+        <EditorCategories value="Race:Protoss"/>
+        <Behavior value="ForceFieldFateDB"/>
+    </CEffectApplyBehavior>
+    <CEffectApplyBehavior id="GuardianShieldApplyBehaviorD">
+        <ValidatorArray index="0" value="SourceNotHidden"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Behavior value="GuardianShieldD"/>
+    </CEffectApplyBehavior>
+    <CEffectCreatePersistent id="GuardianShieldPersistentD">
+        <EditorCategories value="Race:Protoss"/>
+        <WhichLocation Value="SourceUnit"/>
+        <InitialEffect value="GuardianShieldSearchD"/>
+        <PeriodCount value="30"/>
+        <PeriodicValidator value="NotVortexd"/>
+        <PeriodicEffectArray value="GuardianShieldSearchD"/>
+        <PeriodicPeriodArray value="0.5"/>
+    </CEffectCreatePersistent>
+    <CEffectEnumArea id="GuardianShieldSearchD">
+        <EditorCategories value="Race:Protoss"/>
+        <ImpactLocation Value="TargetUnit"/>
+        <SearchFilters value="-;Neutral,Enemy,Structure,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <AreaArray Radius="4" Effect="GuardianShieldApplyBehaviorD"/>
+        <SearchFlags index="ExtendByUnitRadius" value="1"/>
+        <SearchFlags index="SameCliff" value="1"/>
+    </CEffectEnumArea>
+    <CEffectSet id="COABladesD">
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="COABladesSearchD"/>
+        <EffectArray value="COADamageD"/>
+        <EffectArray value="ZealotFrenzyApplyBehaviorD"/>
+    </CEffectSet>
+    <CEffectDamage id="COADamageD" parent="DU_WEAP">
+        <EditorCategories value="Race:Protoss"/>
+        <KindSplash value="Melee"/>
+        <Amount value="36"/>
+        <Death value="Eviscerate"/>
+    </CEffectDamage>
+    <CEffectEnumArea id="COABladesSearchD">
+        <EditorCategories value="Race:Protoss"/>
+        <ImpactLocation Value="TargetUnit"/>
+        <ExcludeArray Effect="COABladesD" Value="Target"/>
+        <SearchFilters value="Ground,Visible;Self,Player,Ally,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <AreaArray Arc="180" Radius="0.6" Effect="COABladesSecondaryDamageD"/>
+        <SearchFlags index="OffsetByUnitRadius" value="1"/>
+    </CEffectEnumArea>
+    <CEffectDamage id="COABladesSecondaryDamageD" parent="DU_WEAP">
+        <ValidatorArray value="NotHaveHotSMonarchBlades"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Amount value="18"/>
+        <Death value="Eviscerate"/>
+    </CEffectDamage>
+    <CEffectCreatePersistent id="DragoonBeamWeaponCPD">
+        <EditorCategories value="Race:Protoss"/>
+        <Marker>
+            <MatchFlags index="Id" value="1"/>
+        </Marker>
+        <TimeScaleSource Value="Caster"/>
+        <Flags index="Channeled" value="1"/>
+        <ExpireDelay value="0.73"/>
+        <ExpireEffect value="DragoonBeamWeaponDamageD"/>
+        <PeriodCount value="11"/>
+        <PeriodicEffectArray value="DragoonBeamWeaponSearchD"/>
+        <PeriodicOffsetArray value="-1.25,0,0"/>
+        <PeriodicOffsetArray value="-1,0,0"/>
+        <PeriodicOffsetArray value="-0.75,0,0"/>
+        <PeriodicOffsetArray value="-0.5,0,0"/>
+        <PeriodicOffsetArray value="-0.25,0,0"/>
+        <PeriodicOffsetArray value="0,0,0"/>
+        <PeriodicOffsetArray value="0.25,0,0"/>
+        <PeriodicOffsetArray value="0.5,0,0"/>
+        <PeriodicOffsetArray value="0.75,0,0"/>
+        <PeriodicOffsetArray value="1,0,0"/>
+        <PeriodicOffsetArray value="1.25,0,0"/>
+        <PeriodicPeriodArray value="0.025"/>
+    </CEffectCreatePersistent>
+    <CEffectDamage id="DragoonBeamWeaponDamageD" parent="DU_WEAP">
+        <ValidatorArray value="ThermalLancesCliffLevel"/>
+        <ValidatorArray value="NotHidden"/>
+        <ValidatorArray value="noMarkers"/>
+        <EditorCategories value="Race:Protoss"/>
+        <AttributeBonus index="Light" value="15"/>
+        <Visibility value="Visible"/>
+        <Kind value="Ranged"/>
+        <KindSplash value="Splash"/>
+        <Amount value="30"/>
+        <Death value="Fire"/>
+    </CEffectDamage>
+    <CEffectCreatePersistent id="DragoonBeamWeaponDamageDelayD">
+        <EditorCategories value="Race:Protoss"/>
+        <WhichLocation Value="TargetUnit"/>
+        <ExpireDelay value="0.15"/>
+        <FinalEffect value="DragoonBeamWeaponDamageD"/>
+    </CEffectCreatePersistent>
+    <CEffectCreatePersistent id="DragoonBeamWeaponFreindlyCPD">
+        <EditorCategories value="Race:Protoss"/>
+        <WhichLocation Value="TargetUnit"/>
+        <TimeScaleSource Value="Caster"/>
+        <Flags index="Channeled" value="1"/>
+        <ExpireDelay value="0.2"/>
+        <PeriodCount value="1"/>
+        <PeriodicEffectArray value="DragoonBeamWeaponFriendlyDamageD"/>
+        <PeriodicPeriodArray value="0.09"/>
+    </CEffectCreatePersistent>
+    <CEffectDamage id="DragoonBeamWeaponFriendlyDamageD">
+        <ValidatorArray value="NotHidden"/>
+        <ValidatorArray value="noMarkers"/>
+        <ValidatorArray value="FriendlyTarget"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ResponseFlags index="Acquire" value="1"/>
+        <ResponseFlags index="Flee" value="1"/>
+        <AttributeBonus index="Light" value="15"/>
+        <ArmorReduction value="1"/>
+        <Visibility value="Visible"/>
+        <Flags index="Notification" value="1"/>
+        <Kind value="Ranged"/>
+        <KindSplash value="Splash"/>
+        <Amount value="30"/>
+        <Death value="Fire"/>
+        <SearchFlags index="CallForHelp" value="1"/>
+        <SearchFlags index="OffsetByUnitRadius" value="1"/>
+        <SearchFlags index="OffsetAreaByAngle" value="1"/>
+    </CEffectDamage>
+    <CEffectSet id="DragoonBeamWeaponInitialSetD">
+        <EditorCategories value="Race:Protoss"/>
+        <Marker Link="Effect/ThermalLances"/>
+        <EffectArray value="DragoonBeamWeaponCPD"/>
+        <EffectArray value="DragoonBeamWeaponFreindlyCPD"/>
+    </CEffectSet>
+    <CEffectEnumArea id="DragoonBeamWeaponSearchD">
+        <EditorCategories value="Race:Protoss"/>
+        <ExcludeArray Value="Target"/>
+        <SearchFilters value="Ground;Player,Ally,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <AreaArray Radius="0.15" Effect="DragoonBeamWeaponDamageDelayD"/>
+        <SearchFlags index="CallForHelp" value="1"/>
+    </CEffectEnumArea>
+    <CEffectCreatePersistent id="ArchonDWeaponCP">
+        <EditorCategories value="Race:Protoss"/>
+        <Marker>
+            <MatchFlags index="Id" value="1"/>
+        </Marker>
+        <TimeScaleSource Value="Caster"/>
+        <Flags index="Channeled" value="1"/>
+        <ExpireDelay value="0.73"/>
+        <ExpireEffect value="ArchonDWeaponDamage"/>
+        <PeriodCount value="21"/>
+        <PeriodicEffectArray value="ArchonDWeaponSearch"/>
+        <PeriodicOffsetArray value="-2.5,0,0"/>
+        <PeriodicOffsetArray value="-2.25,0,0"/>
+        <PeriodicOffsetArray value="-2,0,0"/>
+        <PeriodicOffsetArray value="-1.75,0,0"/>
+        <PeriodicOffsetArray value="-1.5,0,0"/>
+        <PeriodicOffsetArray value="-1.25,0,0"/>
+        <PeriodicOffsetArray value="-1,0,0"/>
+        <PeriodicOffsetArray value="-0.75,0,0"/>
+        <PeriodicOffsetArray value="-0.5,0,0"/>
+        <PeriodicOffsetArray value="-0.25,0,0"/>
+        <PeriodicOffsetArray value="0,0,0"/>
+        <PeriodicOffsetArray value="0.25,0,0"/>
+        <PeriodicOffsetArray value="0.5,0,0"/>
+        <PeriodicOffsetArray value="0.75,0,0"/>
+        <PeriodicOffsetArray value="1,0,0"/>
+        <PeriodicOffsetArray value="1.25,0,0"/>
+        <PeriodicOffsetArray value="1.5,0,0"/>
+        <PeriodicOffsetArray value="1.75,0,0"/>
+        <PeriodicOffsetArray value="2,0,0"/>
+        <PeriodicOffsetArray value="2.25,0,0"/>
+        <PeriodicOffsetArray value="2.5,0,0"/>
+        <PeriodicPeriodArray value="0.025"/>
+    </CEffectCreatePersistent>
+    <CEffectDamage id="ArchonDWeaponDamage" parent="DU_WEAP">
+        <ValidatorArray value="ThermalLancesCliffLevel"/>
+        <ValidatorArray value="NotHidden"/>
+        <ValidatorArray value="noMarkers"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ArmorReduction value="0"/>
+        <Visibility value="Visible"/>
+        <Kind value="Spell"/>
+        <KindSplash value="Splash"/>
+        <Amount value="200"/>
+        <Death value="Fire"/>
+    </CEffectDamage>
+    <CEffectCreatePersistent id="ArchonDWeaponDamageDelay">
+        <EditorCategories value="Race:Protoss"/>
+        <WhichLocation Value="TargetUnit"/>
+        <ExpireDelay value="0.25"/>
+        <FinalEffect value="ArchonDWeaponDamage"/>
+    </CEffectCreatePersistent>
+    <CEffectCreatePersistent id="ArchonDWeaponFreindlyCP">
+        <EditorCategories value="Race:Protoss"/>
+        <WhichLocation Value="TargetUnit"/>
+        <TimeScaleSource Value="Caster"/>
+        <Flags index="Channeled" value="1"/>
+        <ExpireDelay value="0.2"/>
+        <PeriodCount value="1"/>
+        <PeriodicEffectArray value="ArchonDWeaponFriendlyDamage"/>
+        <PeriodicPeriodArray value="0.12"/>
+    </CEffectCreatePersistent>
+    <CEffectDamage id="ArchonDWeaponFriendlyDamage">
+        <ValidatorArray value="NotHidden"/>
+        <ValidatorArray value="noMarkers"/>
+        <ValidatorArray value="FriendlyTarget"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ResponseFlags index="Acquire" value="1"/>
+        <ResponseFlags index="Flee" value="1"/>
+        <Visibility value="Visible"/>
+        <Flags index="Notification" value="1"/>
+        <KindSplash value="Splash"/>
+        <Amount value="200"/>
+        <Death value="Fire"/>
+        <SearchFlags index="CallForHelp" value="1"/>
+        <SearchFlags index="OffsetByUnitRadius" value="1"/>
+        <SearchFlags index="OffsetAreaByAngle" value="1"/>
+    </CEffectDamage>
+    <CEffectSet id="ArchonDWeaponInitialSet">
+        <EditorCategories value="Race:Protoss"/>
+        <Marker Link="Effect/ThermalLances"/>
+        <EffectArray value="ArchonDWeaponCP"/>
+        <EffectArray value="ArchonDWeaponFreindlyCP"/>
+    </CEffectSet>
+    <CEffectEnumArea id="ArchonDWeaponSearch">
+        <EditorCategories value="Race:Protoss"/>
+        <ExcludeArray Value="Target"/>
+        <SearchFilters value="Ground;Player,Ally,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <AreaArray Radius="1.5" Effect="ArchonDWeaponDamageDelay"/>
+        <SearchFlags index="CallForHelp" value="1"/>
+    </CEffectEnumArea>
+    <CEffectApplyBehavior id="ObserverSquadSightABD">
+        <EditorCategories value="Race:Protoss"/>
+        <Behavior value="ObserverSquadSightD"/>
+    </CEffectApplyBehavior>
+    <CEffectEnumArea id="ObserverSquadSightSearchD">
+        <EditorCategories value="Race:Protoss"/>
+        <SearchFilters value="Visible;Neutral,Enemy,Structure,Missile,Stasis,Dead,Invulnerable"/>
+        <AreaArray Radius="4" Effect="ObserverSquadSightABD"/>
+    </CEffectEnumArea>
+    <CEffectApplyBehavior id="ObserverTargetLockABCasterD">
+        <EditorCategories value="Race:Protoss"/>
+        <WhichUnit Value="Caster"/>
+        <Behavior value="ObserverTargetLockCasterD"/>
+    </CEffectApplyBehavior>
+    <CEffectApplyBehavior id="ObserverTargetLockABTargetD">
+        <EditorCategories value="Race:Protoss"/>
+        <Behavior value="ObserverTargetLockD"/>
+    </CEffectApplyBehavior>
+    <CEffectCreatePersistent id="ObserverTargetLockCPD">
+        <ValidatorArray value="NotHaveTargetLockD"/>
+        <ValidatorArray value="CasterNotMaxTargetLocksD"/>
+        <EditorCategories value="Race:Protoss"/>
+        <WhichLocation Value="TargetUnit"/>
+        <Flags index="PersistUntilDestroyed" value="1"/>
+        <InitialEffect value="ObserverTargetLockStartSetD"/>
+        <FinalEffect value="ObserverTargetLockFinishSetD"/>
+        <PeriodicValidator value="MonitorTargetLockChecksD"/>
+        <PeriodicPeriodArray value="1"/>
+    </CEffectCreatePersistent>
+    <CEffectSet id="ObserverTargetLockFinishSetD">
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="ObserverTargetLockRBD"/>
+        <EffectArray value="ObserverTargetLockRBCasterD"/>
+    </CEffectSet>
+    <CEffectRemoveBehavior id="ObserverTargetLockRBD">
+        <EditorCategories value="Race:Protoss"/>
+        <BehaviorLink value="ObserverTargetLockD"/>
+        <Count value="1"/>
+    </CEffectRemoveBehavior>
+    <CEffectRemoveBehavior id="ObserverTargetLockRBCasterD">
+        <EditorCategories value="Race:Protoss"/>
+        <WhichUnit Value="Caster"/>
+        <BehaviorLink value="ObserverTargetLockCasterD"/>
+        <Count value="1"/>
+    </CEffectRemoveBehavior>
+    <CEffectSet id="ObserverTargetLockStartSetD">
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="ObserverTargetLockABTargetD"/>
+        <EffectArray value="ObserverTargetLockABCasterD"/>
+    </CEffectSet>
+    <CEffectDamage id="ObserveParticleBeamD" parent="DU_WEAP">
+        <EditorCategories value="Race:Protoss"/>
+        <AttributeBonus index="Light" value="5"/>
+        <Amount value="7"/>
+    </CEffectDamage>
+    <CEffectDamage id="ParticleCannonBeamD" parent="DU_WEAP">
+        <EditorCategories value="Race:Protoss"/>
+        <ImpactLocation Value="TargetPoint"/>
+        <AttributeBonus index="Structure" value="200"/>
+        <ArmorReduction value="0"/>
+        <Kind value="Spell"/>
+        <Amount value="300"/>
+        <AreaArray Radius="1" Fraction="1"/>
+        <AreaArray Radius="2" Fraction="0.75"/>
+        <AreaArray Radius="3" Fraction="0.5"/>
+        <AreaArray Radius="4" Fraction="0.25"/>
+        <SearchFilters value="-;Self,Player,Ally,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <SearchFlags index="CallForHelp" value="0"/>
+        <SearchFlags index="OffsetByUnitRadius" value="0"/>
+        <SearchFlags index="OffsetAreaByAngle" value="0"/>
+        <SearchFlags index="SameCliff" value="0"/>
+        <Death value="Fire"/>
+    </CEffectDamage>
+    <CEffectDamage id="PhaseDisruptorsD">
+        <EditorCategories value="Race:Protoss"/>
+        <ResponseFlags index="Acquire" value="1"/>
+        <ResponseFlags index="Flee" value="1"/>
+        <AttributeBonus index="Armored" value="34"/>
+        <ArmorReduction value="1"/>
+        <Flags index="Notification" value="1"/>
+        <Kind value="Ranged"/>
+        <Amount value="26"/>
+        <SearchFlags index="CallForHelp" value="1"/>
+    </CEffectDamage>
+    <CEffectApplyBehavior id="VoidStormApplyBehaviorD">
+        <EditorCategories value="Race:Protoss"/>
+        <Behavior value="VoidStormD"/>
+    </CEffectApplyBehavior>
+    <CEffectApplyBehavior id="VoidStormApplySlowBehaviorD">
+        <EditorCategories value="Race:Protoss"/>
+        <Behavior value="VoidStormSlowD"/>
+        <ValidatorArray index="0" value="EnemyTarget"/>
+    </CEffectApplyBehavior>
+    <CEffectCreatePersistent id="VoidStormPersistentD">
+        <EditorCategories value="Race:Protoss"/>
+        <InitialEffect value="VoidStormSearchD"/>
+        <PeriodCount value="120"/>
+        <PeriodicEffectArray value="VoidStormSearchD"/>
+        <PeriodicPeriodArray value="0.5"/>
+        <AINotifyEffect value="PsiStormSearch"/>
+    </CEffectCreatePersistent>
+    <CEffectEnumArea id="VoidStormSearchD">
+        <EditorCategories value="Race:Protoss"/>
+        <AINotifyFlags index="HurtFriend" value="1"/>
+        <AINotifyFlags index="HurtEnemy" value="1"/>
+        <SearchFilters value="-;Heroic,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <AreaArray Radius="8" Effect="VoidStormABSetD"/>
+        <SearchFlags index="CallForHelp" value="1"/>
+    </CEffectEnumArea>
+    <CEffectDamage id="VoidBombD" parent="DU_WEAP">
+        <EditorCategories value="Race:Protoss"/>
+        <ImpactLocation Value="TargetPoint"/>
+        <AttributeBonus index="Structure" value="300"/>
+        <ArmorReduction value="0"/>
+        <Kind value="Spell"/>
+        <Amount value="500"/>
+        <AreaArray Radius="3" Fraction="1"/>
+        <AreaArray Radius="4" Fraction="0.75"/>
+        <AreaArray Radius="5" Fraction="0.5"/>
+        <AreaArray Radius="6" Fraction="0.25"/>
+        <SearchFilters value="-;Player,Ally,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <SearchFlags index="CallForHelp" value="0"/>
+        <SearchFlags index="OffsetByUnitRadius" value="0"/>
+        <SearchFlags index="OffsetAreaByAngle" value="0"/>
+        <SearchFlags index="SameCliff" value="0"/>
+        <Death value="Fire"/>
+    </CEffectDamage>
+    <CEffectSet id="VoidBombImpactSetD">
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="VoidBombD"/>
+        <EffectArray value="Suicide"/>
+    </CEffectSet>
+    <CEffectSet id="PhaseShiftTimerCancelSetD">
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="AdeptShadePhaseShiftCancelCasterBehaviorD"/>
+        <EffectArray value="AdeptPhaseShiftKillDummyD"/>
+    </CEffectSet>
+    <CEffectApplyBehavior id="ParticleCannonTurnDownTurretABD">
+        <EditorCategories value="Race:Protoss"/>
+        <WhichUnit Value="Caster"/>
+        <Behavior value="ParticleCannonTurnDownTurretD"/>
+    </CEffectApplyBehavior>
+    <CEffectModifyUnit id="HighTemplarDMergeFacing">
+        <EditorCategories value="Race:Protoss"/>
+        <FacingLocation Value="CasterUnit"/>
+    </CEffectModifyUnit>
+    <CEffectRemoveBehavior id="StalkerBeamWeaponCasterRBD">
+        <EditorCategories value="Race:Protoss"/>
+        <WhichUnit Value="Caster"/>
+        <BehaviorLink value="StalkerBeamReadyDK"/>
+    </CEffectRemoveBehavior>
+    <CEffectApplyBehavior id="StalkerBeamReadyABD">
+        <EditorCategories value="Race:Protoss"/>
+        <WhichUnit Value="Caster"/>
+        <Behavior value="StalkerBeamReadyDK"/>
+    </CEffectApplyBehavior>
+    <CEffectSet id="StalkerWeaponSetDK">
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="StalkerBeamSetDK"/>
+        <EffectArray value="ParticleDisruptorsD"/>
+        <EffectArray value="StalkerBeamWeaponCasterRBD"/>
+    </CEffectSet>
+    <CEffectDamage id="StalkerParticleBeamD" parent="DU_WEAP">
+        <EditorCategories value="Race:Protoss"/>
+        <ArmorReduction value="0"/>
+        <Kind value="Spell"/>
+        <Amount value="50"/>
+    </CEffectDamage>
+    <CEffectLaunchMissile id="ParticleDisruptorsD">
+        <ValidatorArray index="0" value="StalkerTargetFilters"/>
+        <ValidatorArray value=""/>
+        <EditorCategories value="Race:Protoss"/>
+        <ImpactEffect value="ParticleDisruptorsUD"/>
+        <AmmoUnit value="StalkerWeaponD"/>
+    </CEffectLaunchMissile>
+    <CEffectDamage id="ParticleDisruptorsUD" parent="DU_WEAP_MISSILE">
+        <EditorCategories value="Race:Protoss"/>
+        <AttributeBonus index="Armored" value="5"/>
+        <Amount value="20"/>
+        <ArmorReduction value="0.75"/>
+    </CEffectDamage>
+    <CEffectSet id="StalkerBeamSetDK">
+        <ValidatorArray value="HaveStalkerBeamReadyDK"/>
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="StalkerParticleBeamD"/>
+    </CEffectSet>
+    <CEffectSet id="StalkerBlinkSetDKU">
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="StalkerBeamReadyABD"/>
+        <EffectArray value="StalkerBlinkShieldABD"/>
+    </CEffectSet>
+    <CEffectApplyBehavior id="AdeptStimpackABD">
+        <EditorCategories value="Race:Protoss"/>
+        <Behavior value="AdeptStimpackD"/>
+    </CEffectApplyBehavior>
+    <CEffectSet id="ParticleCannonImpactSet">
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="ParticleCannonBeamD"/>
+        <EffectArray value="ParticleCannonTurnDownTurretABD"/>
+    </CEffectSet>
+    <CEffectSet id="SupplicantAstralWindD">
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="SupplicantAstralWindSearchD"/>
+        <EffectArray value="Suicide"/>
+        <TargetLocationType value="UnitOrPoint"/>
+    </CEffectSet>
+    <CEffectModifyUnit id="SupplicantAstralWindOtherD">
+        <EditorCategories value="Race:Protoss"/>
+        <VitalArray index="Life">
+            <Change value="50"/>
+        </VitalArray>
+        <VitalArray index="Shields">
+            <Change value="50"/>
+        </VitalArray>
+    </CEffectModifyUnit>
+    <CEffectSet id="SupplicantAstralWindOtherSetD">
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="SupplicantAstralWindOtherD"/>
+        <TargetLocationType value="UnitOrPoint"/>
+    </CEffectSet>
+    <CEffectEnumArea id="SupplicantAstralWindSearchD">
+        <EditorCategories value="Race:Protoss"/>
+        <LaunchLocation Value="TargetUnitOrPoint"/>
+        <SearchFilters value="-;Enemy,Structure,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <AreaArray Radius="3" Effect="SupplicantAstralWindOtherSetD"/>
+        <SearchFlags index="ExtendByUnitRadius" value="1"/>
+    </CEffectEnumArea>
+    <CEffectIssueOrder id="AssimilatorMorphD">
+        <EditorCategories value="Race:Protoss"/>
+        <WhichUnit Value="Source"/>
+        <Abil value="AssimilatorToAutomatedAssimilatorD"/>
+        <Player Value="Source"/>
+    </CEffectIssueOrder>
+    <CEffectModifyUnit id="AutoHarvestVespene6D">
+        <EditorCategories value="Race:Protoss"/>
+        <Resources value="-6"/>
+        <ResourcesHarvestedFraction value="1"/>
+    </CEffectModifyUnit>
+    <CEffectTeleport id="BlinkD">
+        <ValidatorArray value="CasterNotFungalGrowthed"/>
+        <EditorCategories value="Race:Protoss"/>
+        <WhichUnit Value="Caster"/>
+        <ClearQueuedOrders value="0"/>
+        <PlacementAround Value="CasterUnit"/>
+        <PlacementRange value="8"/>
+        <Range value="8"/>
+        <TargetLocation Value="TargetPoint"/>
+        <TeleportFlags index="TestCliff" value="1"/>
+        <TeleportEffect value="StalkerBlinkShieldABD"/>
+    </CEffectTeleport>
+    <CEffectApplyBehavior id="ChargeD">
+        <ValidatorArray index="0" value="ChargeMinTriggerDistanceD"/>
+        <ValidatorArray value="ChargeMaxDistanceD"/>
+        <EditorCategories value="Race:Protoss"/>
+        <WhichUnit Value="Caster"/>
+        <Behavior value="ChargingD"/>
+    </CEffectApplyBehavior>
+    <CEffectApplyBehavior id="StalkerBlinkShieldABD">
+        <EditorCategories value="Race:Protoss"/>
+        <WhichUnit Value="Caster"/>
+        <Behavior value="StalkerBlinkShieldD"/>
+    </CEffectApplyBehavior>
+    <CEffectDamage id="KhaydarinBeamDamageD" parent="DU_WEAP">
+        <EditorCategories value="Race:Protoss"/>
+        <ArmorReduction value="0"/>
+        <Kind value="Spell"/>
+        <KindSplash value="Splash"/>
+        <Amount value="100"/>
+        <ExcludeArray Value="Outer"/>
+        <ExcludeArray Value="Target"/>
+        <SearchFilters value="-;Player,Ally,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <SearchFlags index="OffsetByUnitRadius" value="0"/>
+        <SearchFlags index="SameCliff" value="0"/>
+    </CEffectDamage>
+    <CEffectSet id="KhaydarinBeamDamageSetD">
+        <ValidatorArray value="KhaydarinBeamDamageLowCheckD"/>
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="KhaydarinBeamDamageD"/>
+        <EffectArray value="KhaydarinBeamRetargetD"/>
+        <EffectArray value="KDLJSBeamBounce1SearchD"/>
+    </CEffectSet>
+    <CEffectSet id="KhaydarinBeamHighDamageSetD">
+        <ValidatorArray value="KhaydarinBeamDamageHighCheckD"/>
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="KhaydarinBeamDamageD"/>
+        <EffectArray value="KhaydarinBeamRetargetD"/>
+        <EffectArray value="KDLJSBeamBounce1SearchD"/>
+    </CEffectSet>
+    <CEffectApplyBehavior id="KhaydarinBeamRetargetD">
+        <EditorCategories value="Race:Protoss"/>
+        <WhichUnit Value="Caster"/>
+    </CEffectApplyBehavior>
+    <CEffectLaunchMissile id="PhotonCannonLMD">
+        <ValidatorArray index="0" value="PhotonCannonTargetFilters"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ImpactEffect value="PhotonCannonUD"/>
+        <AmmoUnit value="PhotonCannonWeaponD"/>
+    </CEffectLaunchMissile>
+    <CEffectDamage id="PhotonCannonUD" parent="DU_WEAP">
+        <EditorCategories value="Race:Protoss"/>
+        <Kind value="Ranged"/>
+        <Amount value="24"/>
+    </CEffectDamage>
+    <CEffectCreateHealer id="ShieldBatteryRechargeChanneledD">
+        <ValidatorArray value="noMarkers"/>
+        <ValidatorArray value="ShieldsNotFull"/>
+        <ValidatorArray value="NotWarpingIn"/>
+        <ValidatorArray value="HiddenCompareAB"/>
+        <ValidatorArray value="HiddenCompareBA"/>
+        <ValidatorArray value="NotVortexd"/>
+        <ValidatorArray value="NotUncommandable"/>
+        <ValidatorArray value="SourceNotHidden"/>
+        <ValidatorArray value="NotInterceptor"/>
+        <EditorCategories value="Race:Protoss"/>
+        <PeriodicValidator value="ShieldsNotFull"/>
+        <PeriodicEffect value="ShieldBatteryRechargeChanneledRevealSearch"/>
+        <DrainVital value="Energy"/>
+        <DrainVitalCostFactor value="0.33"/>
+        <RechargeVital value="Shields"/>
+        <RechargeVitalRate value="36"/>
+    </CEffectCreateHealer>
+    <CEffectDamage id="SupplicantDamageD" parent="DU_WEAP">
+        <EditorCategories value="Race:Protoss"/>
+        <ArmorReduction value="0"/>
+        <Kind value="Spell"/>
+        <Amount value="8"/>
+        <Death value="Blast"/>
+    </CEffectDamage>
+    <CEffectLaunchMissile id="SupplicantLMD">
+        <EditorCategories value="Race:Protoss"/>
+        <ImpactEffect value="SupplicantDamageD"/>
+        <AmmoUnit value="SupplicantWeaponD"/>
+    </CEffectLaunchMissile>
+    <CEffectDamage id="KDLJSBeamBounce1DamageD" parent="DU_WEAP">
+        <EditorCategories value="Race:Protoss"/>
+        <DamageModifierSource Value="Caster"/>
+        <ArmorReduction value="0"/>
+        <Visibility value="Visible"/>
+        <Kind value="Spell"/>
+        <Amount value="50"/>
+    </CEffectDamage>
+    <CEffectDamage id="VoidHighTemplarMindBlastDamageD">
+        <EditorCategories value="Race:Protoss"/>
+        <ResponseFlags index="Acquire" value="1"/>
+        <ResponseFlags index="Flee" value="1"/>
+        <ImpactLocation Value="TargetUnit"/>
+        <Flags index="Notification" value="1"/>
+        <Amount value="200"/>
+        <SearchFlags index="CallForHelp" value="1"/>
+    </CEffectDamage>
+    <CEffectApplyBehavior id="VoidHighTemplarPsiOrbABD">
+        <EditorCategories value="Race:Protoss"/>
+        <WhichUnit Value="Source"/>
+        <Behavior value="VoidHighTemplarPsiOrbD"/>
+    </CEffectApplyBehavior>
+    <CEffectDamage id="VoidHighTemplarPsiOrbDamageD">
+        <EditorCategories value="Race:Protoss"/>
+        <ResponseFlags index="Acquire" value="1"/>
+        <ResponseFlags index="Flee" value="1"/>
+        <Flags index="Notification" value="1"/>
+        <Amount value="5"/>
+    </CEffectDamage>
+    <CEffectDestroyPersistent id="VoidHighTemplarPsiOrbDestroyPersistentD">
+        <EditorCategories value="Race:Protoss"/>
+        <WhichLocation Value="TargetPoint"/>
+        <Effect value="VoidHighTemplarPsiOrbPersistent"/>
+        <Count value="1"/>
+        <Radius value="1"/>
+    </CEffectDestroyPersistent>
+    <CEffectCreatePersistent id="VoidHighTemplarPsiOrbInitialPersistentD">
+        <EditorCategories value="Race:Protoss"/>
+        <WhichLocation Value="SourcePoint"/>
+        <InitialEffect value="VoidHighTemplarPsiOrbLaunchMissileD"/>
+        <InitialOffset value="0,-13,0"/>
+        <PeriodCount value="1"/>
+    </CEffectCreatePersistent>
+    <CEffectLaunchMissile id="VoidHighTemplarPsiOrbLaunchMissileD">
+        <EditorCategories value="Race:Protoss"/>
+        <ImpactLocation Value="TargetPoint"/>
+        <LaunchEffect value="VoidHighTemplarPsiOrbABD"/>
+        <ImpactEffect value="VoidHighTemplarPsiOrbSetD"/>
+        <AmmoUnit value="VoidHighTemplarPsiOrbMissileD"/>
+    </CEffectLaunchMissile>
+    <CEffectEnumArea id="VoidHighTemplarPsiOrbSearchD">
+        <EditorCategories value="Race:Protoss"/>
+        <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Item,Stasis,Dead,Hidden,Invulnerable"/>
+        <TargetSorts>
+            <SortArray value="TSRandom"/>
+        </TargetSorts>
+        <AreaArray Radius="5" Effect="VoidHighTemplarPsiOrbDamageD"/>
+    </CEffectEnumArea>
+    <CEffectSet id="VoidHighTemplarPsiOrbSetD">
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="VoidHighTemplarPsiOrbDestroyPersistentD"/>
+    </CEffectSet>
+    <CEffectEnumArea id="KDLJSBeamBounce1SearchD">
+        <EditorCategories value="Race:Protoss"/>
+        <ExcludeArray Value="Outer"/>
+        <ExcludeArray Value="Target"/>
+        <SearchFilters value="Visible;Player,Ally,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <TargetSorts>
+            <SortArray value="TSFarthestDistance"/>
+        </TargetSorts>
+        <AreaArray Radius="4" Effect="KDLJSBeamBounce1DamageD"/>
+        <MaxCount value="3"/>
+        <SearchFlags index="SameCliff" value="1"/>
+    </CEffectEnumArea>
+    <CEffectCreatePersistent id="ParticleCannonTargetingCPD">
+        <EditorCategories value="Race:Protoss"/>
+        <TimeScaleSource Value="Caster"/>
+        <Flags index="Channeled" value="1"/>
+        <ExpireEffect value="ParticleCannonImpactSet"/>
+        <PeriodCount value="18"/>
+        <PeriodicEffectArray value="ParticleCannonTargetingDamageD"/>
+        <PeriodicPeriodArray value="0.65"/>
+        <PeriodicPeriodArray value="0.6"/>
+        <PeriodicPeriodArray value="0.55"/>
+        <PeriodicPeriodArray value="0.5"/>
+        <PeriodicPeriodArray value="0.45"/>
+        <PeriodicPeriodArray value="0.4"/>
+        <PeriodicPeriodArray value="0.35"/>
+        <PeriodicPeriodArray value="0.3"/>
+        <PeriodicPeriodArray value="0.25"/>
+        <PeriodicPeriodArray value="0.2"/>
+        <PeriodicPeriodArray value="0.15"/>
+        <PeriodicPeriodArray value="0.1"/>
+        <PeriodicPeriodArray value="0.05"/>
+        <PeriodicPeriodArray value="0.05"/>
+        <PeriodicPeriodArray value="0.05"/>
+        <PeriodicPeriodArray value="0.05"/>
+        <PeriodicPeriodArray value="0.05"/>
+        <PeriodicPeriodArray value="0.05"/>
+    </CEffectCreatePersistent>
+    <CEffectDamage id="ParticleCannonTargetingDamageD" parent="DU_WEAP">
+        <EditorCategories value="Race:Protoss"/>
+        <DamageModifierSource Value="Caster"/>
+        <ArmorReduction value="0"/>
+        <Visibility value="Visible"/>
+        <Kind value="Spell"/>
+        <Death value="Fire"/>
+    </CEffectDamage>
+    <CEffectCreateHealer id="VoidSentryShieldRepairD">
+        <ValidatorArray value="noMarkers"/>
+        <ValidatorArray value="ShieldsNotFull"/>
+        <ValidatorArray value="NotWarpingIn"/>
+        <ValidatorArray value="HiddenCompareAB"/>
+        <ValidatorArray value="HiddenCompareBA"/>
+        <ValidatorArray value="NotVortexd"/>
+        <ValidatorArray value="NotUncommandable"/>
+        <ValidatorArray value="SourceNotHidden"/>
+        <ValidatorArray value="NotInterceptor"/>
+        <EditorCategories value="Race:Protoss"/>
+        <PeriodicValidator value="ShieldsNotFull"/>
+        <DrainVital value="Energy"/>
+        <RechargeVital value="Shields"/>
+        <RechargeVitalRate value="9"/>
+    </CEffectCreateHealer>
+    <CEffectSet id="VoidStormABSetD">
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="VoidStormApplyBehaviorD"/>
+        <EffectArray value="VoidStormApplySlowBehaviorD"/>
+    </CEffectSet>
+    <CEffectApplyBehavior id="VoidZealotWhirlwindABD">
+        <EditorCategories value="Race:Protoss"/>
+        <WhichUnit Value="Caster"/>
+        <Behavior value="VoidZealotWhirlwindD"/>
+    </CEffectApplyBehavior>
+    <CEffectSet id="VoidZealotWhirlwindBehaviorSetD">
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="VoidZealotWhirlwindMoveSearchD"/>
+        <EffectArray value="VoidZealotWhirlwindSearchD"/>
+        <EffectArray value="ZealotFrenzyApplyBehaviorD"/>
+    </CEffectSet>
+    <CEffectCancelOrder id="VoidZealotWhirlwindCancelMoveD">
+        <EditorCategories value="Race:Protoss"/>
+        <WhichUnit Value="Source"/>
+    </CEffectCancelOrder>
+    <CEffectDamage id="VoidZealotWhirlwindDamageD" parent="DU_WEAP">
+        <EditorCategories value="Race:Protoss"/>
+        <ArmorReduction value="0"/>
+        <Amount value="18"/>
+        <Death value="Eviscerate"/>
+    </CEffectDamage>
+    <CEffectCreatePersistent id="VoidZealotWhirlwindMoveCPD">
+        <EditorCategories value="Race:Protoss"/>
+        <InitialEffect value="VoidZealotWhirlwindMoveOrderD"/>
+        <InitialOffset value="0,-1,0"/>
+    </CEffectCreatePersistent>
+    <CEffectIssueOrder id="VoidZealotWhirlwindMoveOrderD">
+        <ValidatorArray value="CasterIsStationary"/>
+        <ValidatorArray value="CasterNotHoldingPosition"/>
+        <EditorCategories value="Race:Protoss"/>
+        <WhichUnit Value="Source"/>
+        <Abil value="move"/>
+        <CmdFlags index="Preempt" value="1"/>
+        <Player Value="Source"/>
+        <Target Value="TargetPoint"/>
+    </CEffectIssueOrder>
+    <CEffectEnumArea id="VoidZealotWhirlwindMoveSearchD">
+        <EditorCategories value="Race:Protoss"/>
+        <SearchFilters value="Ground,Visible;Player,Ally,Neutral,Structure,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <TargetSorts>
+            <SortArray value="TSRandom"/>
+        </TargetSorts>
+        <AreaArray MaxCount="1" Radius="3" Effect="VoidZealotWhirlwindMoveCPD"/>
+    </CEffectEnumArea>
+    <CEffectEnumArea id="VoidZealotWhirlwindSearchD">
+        <EditorCategories value="Race:Protoss"/>
+        <SearchFilters value="Ground;Player,Ally,Neutral,Structure,Stasis,Dead,Hidden,Invulnerable"/>
+        <AreaArray Radius="2" Effect="VoidZealotWhirlwindDamageD"/>
+        <SearchFlags index="CallForHelp" value="1"/>
+        <SearchFlags index="SameCliff" value="1"/>
+    </CEffectEnumArea>
+    <CEffectSet id="VoidZealotWhirlwindSetD">
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="VoidZealotWhirlwindSearchD"/>
+        <EffectArray value="VoidZealotWhirlwindABD"/>
+        <EffectArray value="ZealotFrenzyApplyBehaviorD"/>
+    </CEffectSet>
+    <CEffectDamage id="WarpBladesD" parent="DU_WEAP">
+        <EditorCategories value="Race:Protoss"/>
+        <AttributeBonus index="Armored" value="25"/>
+        <Amount value="60"/>
+        <Death value="Eviscerate"/>
+        <ArmorReduction value="0"/>
+    </CEffectDamage>
+    <CEffectApplyBehavior id="ZealotFrenzyApplyBehaviorD">
+        <EditorCategories value="Race:Protoss"/>
+        <WhichUnit Value="Caster"/>
+        <Behavior value="ZealotFrenzyD"/>
+    </CEffectApplyBehavior>
+    <CEffectDamage id="PsiBladesDamageD" parent="DU_WEAP">
+        <ValidatorArray value="NotHidden"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Amount value="12"/>
+        <Death value="Eviscerate"/>
+    </CEffectDamage>
+    <CEffectCreatePersistent id="PsiBladesBurstCPD">
+        <EditorCategories value="Race:Protoss"/>
+        <WhichLocation Value="TargetUnit"/>
+        <TimeScaleSource Value="Caster"/>
+        <Flags index="Channeled" value="1"/>
+        <PeriodCount value="2"/>
+        <PeriodicEffectArray value="PsiBladesDamageD"/>
+        <PeriodicPeriodArray value="0"/>
+        <PeriodicPeriodArray value="0.28"/>
+    </CEffectCreatePersistent>
+    <CEffectApplyBehavior id="StructureOverchargeABD">
+        <ValidatorArray index="0" removed="1"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Behavior value="StructureOverchargeD"/>
+    </CEffectApplyBehavior>
+    <CEffectDamage id="StructureOverchargeDamageD" parent="DU_WEAP">
+        <EditorCategories value="Race:Protoss"/>
+        <ArmorReduction value="0"/>
+        <Kind value="Spell"/>
+        <Amount value="30"/>
+    </CEffectDamage>
+    <CEffectLaunchMissile id="StructureOverchargeLMD">
+        <ValidatorArray index="0" value="TargetNotUntargetable"/>
+        <ValidatorArray value="IsNotPitMalash"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ImpactEffect value="StructureOverchargeDamageD"/>
+        <Flags index="ValidateAbil" value="0"/>
+        <AmmoUnit value="StructureOverchargeWeaponD"/>
+        <Movers Link="MothershipCoreWeaponWeaponClose" IfRangeLTE="4"/>
+        <Movers Link="MothershipCoreWeaponWeapon" IfRangeLTE="20"/>
+    </CEffectLaunchMissile>
+    <CEffectSet id="StructureOverchargeRefreshD">
+        <EditorCategories value="Race:Protoss"/>
+    </CEffectSet>
+    <CEffectEnumArea id="StructureOverchargeSearchD">
+        <EditorCategories value="Race:Protoss"/>
+        <ImpactLocation Value="TargetUnit"/>
+        <SearchFilters value="Visible;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <AreaArray MaxCount="1" Radius="12" Effect="StructureOverchargeLMD"/>
+        <MaxCount value="1"/>
+    </CEffectEnumArea>
+    <CEffectSet id="StructureOverchargeSetD">
+        <ValidatorArray value="NotSummonedUnit"/>
+        <ValidatorArray value="IsStructureorWarpPrismPhasingD"/>
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="StructureOverchargeABD"/>
+        <EffectArray value="StructureOverchargeShieldABD"/>
+    </CEffectSet>
+    <CEffectApplyBehavior id="StructureOverchargeShieldABD">
+        <EditorCategories value="Race:Protoss"/>
+        <Behavior value="StructureOverchargeShieldD"/>
+    </CEffectApplyBehavior>
+    <CEffectApplyBehavior id="ChronoBoostEnergyCostABD">
+        <ValidatorArray index="0" removed="1"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Behavior value="ChronoBoostEnergyCostD"/>
+    </CEffectApplyBehavior>
+    <CEffectDamage id="ParticleBeamD" parent="DU_WEAP">
+        <EditorCategories value="Race:Protoss"/>
+        <AttributeBonus index="Light" value="5"/>
+        <Amount value="7"/>
+    </CEffectDamage>
+    <CEffectCreateHealer id="RepairProbeD">
+        <ValidatorArray value="NotWarpingIn"/>
+        <ValidatorArray value="HiddenCompareBA"/>
+        <ValidatorArray value="HiddenCompareAB"/>
+        <ValidatorArray value="NotVortexd"/>
+        <ValidatorArray value="NotStasis"/>
+        <EditorCategories value="Race:Protoss"/>
+        <RechargeVitalRate value="1"/>
+        <TimeFactor value="0.5"/>
+    </CEffectCreateHealer>
+    <CEffectSet id="PsiBladesCleaveSetD">
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="PsiBladesBurstCPD"/>
+        <EffectArray value="ZealotFrenzyApplyBehaviorD"/>
+    </CEffectSet>
+    <CEffectTeleport id="DarkTemplarBlinkD">
+        <EditorCategories value="Race:Protoss"/>
+        <WhichUnit Value="Caster"/>
+        <ClearQueuedOrders value="0"/>
+        <PlacementAround Value="CasterUnit"/>
+        <PlacementRange value="8"/>
+        <Range value="8"/>
+        <TargetLocation Value="TargetPoint"/>
+        <TeleportFlags index="TestCliff" value="1"/>
+    </CEffectTeleport>
+    <CEffectApplyBehavior id="ArchonDFZAB">
+        <EditorCategories value="Race:Protoss"/>
+        <Behavior value="ArchonDShieldLow"/>
+    </CEffectApplyBehavior>
+    <CEffectSet id="HybridPsiBladesCleaveSetH">
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="HybridPsiBladesCPH"/>
+    </CEffectSet>
+</Catalog>

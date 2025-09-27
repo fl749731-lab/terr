@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CTacticalSet id="HighTemplarD">
+        <Array value="MindBlastD"/>
+        <Array value="PsiOrbD"/>
+    </CTacticalSet>
+    <CTacticalOrder id="ForceFieldD">
+        <Abil value="ForceFieldMonitorDB"/>
+        <TargetFind value="ForceFieldD"/>
+        <Validator value="CasterEnergyGT75D"/>
+    </CTacticalOrder>
+    <CTacticalSet id="SentryD">
+        <Array value="ForceFieldD"/>
+        <Array value="SentryShieldD"/>
+    </CTacticalSet>
+    <CTacticalOrder id="SentryShieldD">
+        <Abil value="GuardianShieldD"/>
+        <Validator value="SentryShieldD"/>
+    </CTacticalOrder>
+    <CTacticalOrder id="PsiOrbD">
+        <Abil value="VoidHighTemplarPsiOrbD"/>
+        <TargetFind value="PsiOrbD"/>
+    </CTacticalOrder>
+    <CTacticalOrder id="MindBlastD">
+        <Abil value="VoidHighTemplarMindBlastD"/>
+        <TargetFind value="MindBlastD"/>
+    </CTacticalOrder>
+    <CTacticalOrder id="PhoenixOverloadD">
+        <Abil value="PhoenixOverloadD"/>
+        <Validator value="PhoenixOverloadD"/>
+    </CTacticalOrder>
+    <CTacticalOrder id="StalkerD">
+        <Abil value="Blink"/>
+        <TargetFind value="BlinkD"/>
+    </CTacticalOrder>
+</Catalog>

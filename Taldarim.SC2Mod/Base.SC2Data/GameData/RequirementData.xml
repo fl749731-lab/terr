@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CRequirement id="AdeptPhaseShiftingD">
+        <EditorCategories value="Race:Protoss,TechType:Ability"/>
+        <NodeArray index="Show" Link="CountBehaviorAdeptPhaseShiftCasterDCompleteOnlyAtUnit"/>
+    </CRequirement>
+    <CRequirement id="ArmInterceptorD">
+        <EditorCategories value="Race:Protoss,TechType:Unit"/>
+        <NodeArray index="Use" Link="LT4074361840CountUnitInterceptorDQueuedOrBetterAtUnit8"/>
+    </CRequirement>
+    <CRequirement id="ArmScarabD">
+        <EditorCategories value="Race:Protoss,TechType:Unit"/>
+        <NodeArray index="Use" Link="LT724021365CountUnitScarabDQueuedOrBetterAtUnit6"/>
+    </CRequirement>
+    <CRequirement id="HaveFleetBeaconD">
+        <EditorCategories value="Race:Protoss,TechType:Unit"/>
+        <CanBeSuppressed index="Use" value="0"/>
+        <NodeArray index="Use" Link="CountUnitFleetBeaconDCompleteOnlyTechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="HaveShieldGeneratorD">
+        <EditorCategories value="Race:Protoss,TechType:Unit"/>
+        <CanBeSuppressed index="Use" value="0"/>
+        <NodeArray index="Use" Link="CountUnitTaldarimShieldGeneratorDCompleteOnly"/>
+        <NodeArray index="Show" Link="CountUnitTaldarimShieldGeneratorDCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="SecondFectionSChose">
+        <EditorCategories value="Race:Protoss,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AndNotAndCountUpgradeTaldarimFactionsSonsOfSlaynCompleteOnlyCountUpgradeTaldarimFactionsSonsOfAmonCompleteOnlyCountUpgradeTaldarimFactionsSonsOfAmonCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="NotHaveShieldGeneratorD">
+        <EditorCategories value="Race:Protoss,TechType:Unit"/>
+        <CanBeSuppressed index="Use" value="0"/>
+        <NodeArray index="Use" Link="NotCountUnitTaldarimShieldGeneratorDCompleteOnly"/>
+        <NodeArray index="Show" Link="NotCountUnitTaldarimShieldGeneratorDCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="MothershipRequirementsD">
+        <EditorCategories value="Race:Protoss,TechType:Unit"/>
+        <NodeArray index="Use" Link="AndCountUnitFleetBeaconDCompleteOnlyTechTreeCheatEq2181383592CountUnitMothershipDBQueuedOrBetter0"/>
+    </CRequirement>
+    <CRequirement id="SecondFectionGChose">
+        <EditorCategories value="Race:Protoss,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AndNotAndCountUpgradeTaldarimFactionsSonsOfSlaynCompleteOnlyCountUpgradeTaldarimFactionsSonsOfAmonCompleteOnlyCountUpgradeTaldarimFactionsSonsOfSlaynCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="TaldarimShieldGeneratorRequirementsD">
+        <EditorCategories value="Race:Protoss,TechType:Unit"/>
+        <NodeArray index="Use" Link="AndCountUnitTwilightCouncilDCompleteOnlyTechTreeCheatEq2621028074CountUnitTaldarimShieldGeneratorDQueuedOrBetter0"/>
+    </CRequirement>
+    <CRequirement id="TempestD">
+        <EditorCategories value="Race:Protoss,TechType:Unit"/>
+        <CanBeSuppressed index="Use" value="0"/>
+        <NodeArray index="Use" Link="CountUnitFleetBeaconDCompleteOnlyTechTreeCheat"/>
+        <NodeArray index="Show" Link="OrCountUpgradeTaldarimFactionsSonsOfSlaynCompleteOnlyCountUpgradeTaldarimFactionsSonsOfAmonCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="ColossusD">
+        <EditorCategories value="Race:Protoss,TechType:Unit"/>
+        <CanBeSuppressed index="Use" value="0"/>
+        <NodeArray index="Use" Link="CountUnitRoboticsBayDCompleteOnlyTechTreeCheat"/>
+        <NodeArray index="Show" Link="CountUpgradeTaldarimFactionsSonsOfSlaynCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="CarrierD">
+        <EditorCategories value="Race:Protoss,TechType:Unit"/>
+        <CanBeSuppressed index="Use" value="0"/>
+        <NodeArray index="Use" Link="CountUnitFleetBeaconDCompleteOnlyTechTreeCheat"/>
+        <NodeArray index="Show" Link="OrCountUpgradeTaldarimFactionsSonsOfSlaynCompleteOnlyCountUpgradeTaldarimFactionsSonsOfAmonCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="ColossusDA">
+        <EditorCategories value="Race:Protoss,TechType:Unit"/>
+        <CanBeSuppressed index="Use" value="0"/>
+        <NodeArray index="Use" Link="CountUnitRoboticsBayDCompleteOnlyTechTreeCheat"/>
+        <NodeArray index="Show" Link="AndCountUpgradeTaldarimFactionsSonsOfSlaynCompleteOnlyCountUpgradeTaldarimFactionsSonsOfAmonCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="InterceptorHasAmmoD">
+        <EditorCategories value="Race:Protoss,TechType:Unit"/>
+        <NodeArray index="Use" Link="CountBehaviorInterceptorAmmoDummyDCompleteOnlyAtUnit"/>
+    </CRequirement>
+    <CRequirement id="VoidRayD">
+        <EditorCategories value="Race:Protoss,TechType:Unit"/>
+        <CanBeSuppressed index="Use" value="0"/>
+        <NodeArray index="Use" Link="CountUnitTwilightCouncilDCompleteOnlyTechTreeCheat"/>
+        <NodeArray index="Show" Link="OrCountUpgradeTaldarimFactionsSonsOfSlaynCompleteOnlyCountUpgradeTaldarimFactionsSonsOfAmonCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="ReaverD">
+        <EditorCategories value="Race:Protoss,TechType:Unit"/>
+        <CanBeSuppressed index="Use" value="0"/>
+        <NodeArray index="Use" Link="CountUnitRoboticsBayDCompleteOnlyTechTreeCheat"/>
+        <NodeArray index="Show" Link="CountUpgradeTaldarimFactionsSonsOfAmonCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="NotHaveReaverReadyBehaviorD">
+        <EditorCategories value="Race:Protoss,TechType:Ability"/>
+        <NodeArray index="Use" Link="Not1826354782CountBehaviorReaverScarabSReadyDCompleteOnlyAtUnit"/>
+    </CRequirement>
+    <CRequirement id="ObserveHoldingFireD">
+        <EditorCategories value="Race:Protoss,TechType:Ability"/>
+        <NodeArray index="Show" Link="CountBehaviorObserveHoldFireBDCompleteOnlyAtUnit"/>
+    </CRequirement>
+    <CRequirement id="ObserveNotHoldingFireD">
+        <EditorCategories value="Race:Protoss,TechType:Ability"/>
+        <NodeArray index="Show" Link="NotCountBehaviorObserveHoldFireBDCompleteOnlyAtUnit"/>
+    </CRequirement>
+    <CRequirement id="HaveCyberneticsCoreD">
+        <EditorCategories value="Race:Protoss,TechType:Unit"/>
+        <CanBeSuppressed index="Use" value="0"/>
+        <NodeArray index="Use" Link="CountUnitCyberneticsCoreDCompleteOnlyTechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="HaveDarkShrineD">
+        <EditorCategories value="Race:Protoss,TechType:Unit"/>
+        <CanBeSuppressed index="Use" value="0"/>
+        <NodeArray index="Use" Link="CountUnitDarkShrineDCompleteOnlyTechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="DarkTemplarD">
+        <EditorCategories value="Race:Protoss,TechType:Unit"/>
+        <CanBeSuppressed index="Use" value="0"/>
+        <NodeArray index="Use" Link="CountUnitTwilightCouncilDCompleteOnlyTechTreeCheat"/>
+        <NodeArray index="Show" Link="CountUpgradeTaldarimFactionsSonsOfAmonCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="HaveRoboticsBayD">
+        <EditorCategories value="Race:Protoss,TechType:Unit"/>
+        <CanBeSuppressed index="Use" value="0"/>
+        <NodeArray index="Use" Link="CountUnitRoboticsBayDCompleteOnlyTechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="HaveRoboticsFaD">
+        <EditorCategories value="Race:Protoss,TechType:Unit"/>
+        <CanBeSuppressed index="Use" value="0"/>
+        <NodeArray index="Use" Link="CountUnitAlias_RoboticsFacilityCompleteOnly790878647TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="HaveStargateD">
+        <EditorCategories value="Race:Protoss,TechType:Unit"/>
+        <CanBeSuppressed index="Use" value="0"/>
+        <NodeArray index="Use" Link="CountUnitAlias_StargateCompleteOnly2435624496TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="HaveTemplarArchivesD">
+        <EditorCategories value="Race:Protoss,TechType:Unit"/>
+        <CanBeSuppressed index="Use" value="0"/>
+        <NodeArray index="Use" Link="CountUnitTemplarArchiveDCompleteOnlyTechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="ScarabNotArmedD">
+        <EditorCategories value="Race:Protoss,TechType:Unit"/>
+        <NodeArray index="Use" Link="EqCountUnitScarabDCompleteOnlyAtUnit0"/>
+    </CRequirement>
+    <CRequirement id="TemplarArchiveD">
+        <EditorCategories value="Race:Protoss,TechType:Unit"/>
+        <CanBeSuppressed index="Use" value="0"/>
+        <NodeArray index="Use" Link="CountUnitTwilightCouncilDCompleteOnlyTechTreeCheat"/>
+        <NodeArray index="Show" Link="CountUpgradeTaldarimFactionsSonsOfSlaynCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="HighTemplarD">
+        <EditorCategories value="Race:Protoss,TechType:Unit"/>
+        <CanBeSuppressed index="Use" value="0"/>
+        <NodeArray index="Use" Link="CountUnitTwilightCouncilDCompleteOnlyTechTreeCheat"/>
+        <NodeArray index="Show" Link="OrCountUpgradeTaldarimFactionsSonsOfSlaynCompleteOnlyCountUpgradeTaldarimFactionsSonsOfAmonCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="HaveTwilightCouncilD">
+        <EditorCategories value="Race:Protoss,TechType:Unit"/>
+        <CanBeSuppressed index="Use" value="0"/>
+        <NodeArray index="Use" Link="CountUnitTwilightCouncilDCompleteOnlyTechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="DarkShrineD">
+        <EditorCategories value="Race:Protoss,TechType:Unit"/>
+        <CanBeSuppressed index="Use" value="0"/>
+        <NodeArray index="Use" Link="CountUnitTwilightCouncilDCompleteOnlyTechTreeCheat"/>
+        <NodeArray index="Show" Link="CountUpgradeTaldarimFactionsSonsOfAmonCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="HaveTwoTaldarimFactionD">
+        <EditorCategories value="Race:Protoss,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AndCountUpgradeTaldarimFactionsSonsOfSlaynCompleteOnlyCountUpgradeTaldarimFactionsSonsOfAmonCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="HighTemplarDU">
+        <EditorCategories value="Race:Protoss,TechType:Unit"/>
+        <CanBeSuppressed index="Use" value="0"/>
+        <NodeArray index="Use" Link="CountUnitTemplarArchiveDCompleteOnlyTechTreeCheat"/>
+        <NodeArray index="Show" Link="CountUpgradeTaldarimFactionsSonsOfSlaynCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="ArchonDB">
+        <EditorCategories value="Race:Protoss,TechType:Unit"/>
+        <CanBeSuppressed index="Use" value="0"/>
+        <NodeArray index="Use" Link="CountUnitDarkShrineDCompleteOnlyTechTreeCheat"/>
+        <NodeArray index="Show" Link="CountUpgradeTaldarimFactionsSonsOfAmonCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="ParticleCannonRequirementsD">
+        <EditorCategories value="Race:Protoss,TechType:Unit"/>
+        <NodeArray index="Use" Link="AndCountUnitTwilightCouncilDCompleteOnlyTechTreeCheatEq66394315CountUnitSlaynMissileTurretDQueuedOrBetter0"/>
+    </CRequirement>
+    <CRequirement id="SentryD">
+        <EditorCategories value="Race:Protoss,TechType:Unit"/>
+        <CanBeSuppressed index="Use" value="0"/>
+        <NodeArray index="Use" Link="CountUnitCyberneticsCoreDCompleteOnlyTechTreeCheat"/>
+        <NodeArray index="Show" Link="CountUpgradeTaldarimFactionsSonsOfSlaynCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="SentryDBU">
+        <EditorCategories value="Race:Protoss,TechType:Unit"/>
+        <CanBeSuppressed index="Use" value="0"/>
+        <NodeArray index="Use" Link="CountUnitCyberneticsCoreDCompleteOnlyTechTreeCheat"/>
+        <NodeArray index="Show" Link="AndCountUpgradeTaldarimFactionsSonsOfSlaynCompleteOnlyCountUpgradeTaldarimFactionsSonsOfAmonCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="StalkerD">
+        <EditorCategories value="Race:Protoss,TechType:Unit"/>
+        <CanBeSuppressed index="Use" value="0"/>
+        <NodeArray index="Use" Link="CountUnitCyberneticsCoreDCompleteOnlyTechTreeCheat"/>
+        <NodeArray index="Show" Link="CountUpgradeTaldarimFactionsSonsOfSlaynCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="HaveForgeD">
+        <EditorCategories value="Race:Protoss,TechType:Unit"/>
+        <CanBeSuppressed index="Use" value="0"/>
+        <NodeArray index="Use" Link="CountUnitForgeDCompleteOnlyTechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="HaveGatewayD">
+        <EditorCategories value="Race:Protoss,TechType:Unit"/>
+        <CanBeSuppressed index="Use" value="0"/>
+        <NodeArray index="Use" Link="CountUnitAlias_GatewayCompleteOnly4260347518TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="HaveSonsOfAmonD">
+        <EditorCategories value="Race:Protoss,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="CountUpgradeTaldarimFactionsSonsOfAmonCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="HaveTaldarimFactionD">
+        <EditorCategories value="Race:Protoss,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="OrCountUpgradeTaldarimFactionsSonsOfSlaynCompleteOnlyCountUpgradeTaldarimFactionsSonsOfAmonCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="NotHaveTaldarimFactionD">
+        <EditorCategories value="Race:Protoss,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="NotOrCountUpgradeTaldarimFactionsSonsOfSlaynCompleteOnlyCountUpgradeTaldarimFactionsSonsOfAmonCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="NotHaveSonsOfAmonD">
+        <EditorCategories value="Race:Protoss,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="NotCountUpgradeTaldarimFactionsSonsOfAmonCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="HaveSonsOfSlaynD">
+        <EditorCategories value="Race:Protoss,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="CountUpgradeTaldarimFactionsSonsOfSlaynCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="HaveNexusD">
+        <EditorCategories value="Race:Protoss,TechType:Unit"/>
+        <CanBeSuppressed index="Use" value="0"/>
+        <NodeArray index="Use" Link="CountUnitNexusDCompleteOnlyTechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="NotHaveSonsOfSlayn">
+        <EditorCategories value="Race:Protoss,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="NotCountUpgradeTaldarimFactionsSonsOfSlaynCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="SentryDB">
+        <EditorCategories value="Race:Protoss,TechType:Unit"/>
+        <CanBeSuppressed index="Use" value="0"/>
+        <NodeArray index="Use" Link="CountUnitCyberneticsCoreDCompleteOnlyTechTreeCheat"/>
+        <NodeArray index="Show" Link="CountUpgradeTaldarimFactionsSonsOfAmonCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="AdeptD">
+        <EditorCategories value="Race:Protoss,TechType:Unit"/>
+        <CanBeSuppressed index="Use" value="0"/>
+        <NodeArray index="Use" Link="CountUnitCyberneticsCoreDCompleteOnlyTechTreeCheat"/>
+        <NodeArray index="Show" Link="CountUpgradeTaldarimFactionsSonsOfSlaynCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="DragoonD">
+        <EditorCategories value="Race:Protoss,TechType:Unit"/>
+        <CanBeSuppressed index="Use" value="0"/>
+        <NodeArray index="Use" Link="CountUnitCyberneticsCoreDCompleteOnlyTechTreeCheat"/>
+        <NodeArray index="Show" Link="CountUpgradeTaldarimFactionsSonsOfAmonCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="StalkerDKU">
+        <EditorCategories value="Race:Protoss,TechType:Unit"/>
+        <CanBeSuppressed index="Use" value="0"/>
+        <NodeArray index="Use" Link="CountUnitCyberneticsCoreDCompleteOnlyTechTreeCheat"/>
+        <NodeArray index="Show" Link="AndCountUpgradeTaldarimFactionsSonsOfSlaynCompleteOnlyCountUpgradeTaldarimFactionsSonsOfAmonCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="StalkerDK">
+        <EditorCategories value="Race:Protoss,TechType:Unit"/>
+        <CanBeSuppressed index="Use" value="0"/>
+        <NodeArray index="Use" Link="CountUnitCyberneticsCoreDCompleteOnlyTechTreeCheat"/>
+        <NodeArray index="Show" Link="CountUpgradeTaldarimFactionsSonsOfAmonCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="ArbiterD">
+        <EditorCategories value="Race:Protoss,TechType:Unit"/>
+        <CanBeSuppressed index="Use" value="0"/>
+        <NodeArray index="Use" Link="CountUnitTwilightCouncilDCompleteOnlyTechTreeCheat"/>
+        <NodeArray index="Show" Link="OrCountUpgradeTaldarimFactionsSonsOfSlaynCompleteOnlyCountUpgradeTaldarimFactionsSonsOfAmonCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="VoidShrineD">
+        <EditorCategories value="Race:Protoss,TechType:Unit"/>
+        <CanBeSuppressed index="Use" value="0"/>
+        <NodeArray index="Use" Link="CountUnitTwilightCouncilDCompleteOnlyTechTreeCheat"/>
+        <NodeArray index="Show" Link="CountUpgradeTaldarimFactionsSonsOfAmonCompleteOnly"/>
+    </CRequirement>
+</Catalog>
